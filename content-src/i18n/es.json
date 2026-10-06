@@ -1,0 +1,1604 @@
+{
+  "situations": {
+    "cemetery": {
+      "title": "En el cementerio, junto a una tumba",
+      "subtitle": "Qué decir al visitar las tumbas",
+      "keywords": [
+        "cementerio",
+        "tumba",
+        "tumbas",
+        "sepultura",
+        "visitar tumbas",
+        "visita al cementerio",
+        "ziyara",
+        "ziyarat",
+        "camposanto",
+        "en la tumba de mi padre",
+        "en la tumba de mi madre",
+        "en la tumba de mis padres",
+        "panteon"
+      ],
+      "notice": "Recitar el Corán junto a una tumba y «dedicar» su recompensa al difunto son cuestiones en las que los sabios difieren; a continuación, esas prácticas están marcadas como controvertidas. La súplica y el pedir perdón por un creyente fallecido están firmemente establecidos."
+    },
+    "deceased": {
+      "title": "Dua por el difunto",
+      "subtitle": "Por un padre, una madre, un familiar y por todos los musulmanes fallecidos",
+      "keywords": [
+        "difunto",
+        "difunta",
+        "fallecido",
+        "fallecio",
+        "murio",
+        "muerto",
+        "yanaza",
+        "janaza",
+        "funeral",
+        "entierro",
+        "mi padre fallecido",
+        "mi madre fallecida",
+        "dua por los muertos",
+        "mis padres fallecieron"
+      ]
+    },
+    "death_news": {
+      "title": "Pérdida y duelo",
+      "subtitle": "Al recibir la noticia de una muerte o una desgracia",
+      "keywords": [
+        "muerte",
+        "perdida",
+        "pérdida",
+        "duelo",
+        "luto",
+        "pesame",
+        "pésame",
+        "condolencias",
+        "dar el pesame",
+        "desgracia",
+        "calamidad",
+        "alguien murio",
+        "murió alguien"
+      ]
+    },
+    "debts": {
+      "title": "Deudas",
+      "subtitle": "Para librarse de las deudas y de su carga",
+      "keywords": [
+        "deudas",
+        "deuda",
+        "dua para pagar deudas",
+        "estoy endeudado",
+        "estoy endeudada",
+        "prestamo",
+        "préstamo",
+        "credito",
+        "crédito",
+        "hipoteca",
+        "debo dinero",
+        "pagar deudas",
+        "recuperar mi dinero",
+        "versiculos para las deudas"
+      ],
+      "notice": "La dua no sustituye las medidas prácticas: haz un plan de pagos, habla con tus acreedores y evita la riba (los intereses)."
+    },
+    "rizq": {
+      "title": "Sustento, trabajo, dinero",
+      "subtitle": "Falta de dinero, búsqueda de empleo, negocios, baraka",
+      "keywords": [
+        "rizq",
+        "sustento",
+        "dinero",
+        "no tengo dinero",
+        "pobreza",
+        "trabajo",
+        "empleo",
+        "buscar trabajo",
+        "encontrar trabajo",
+        "negocio",
+        "comercio",
+        "baraka",
+        "ingresos",
+        "salario",
+        "sueldo",
+        "me despidieron",
+        "riqueza",
+        "clientes",
+        "exito en el negocio"
+      ]
+    },
+    "illness": {
+      "title": "Enfermedad y curación",
+      "subtitle": "Por el enfermo, ante el dolor, al visitar a un enfermo",
+      "keywords": [
+        "enfermedad",
+        "enfermo",
+        "enferma",
+        "dolor",
+        "me duele",
+        "curacion",
+        "curación",
+        "sanacion",
+        "salud",
+        "shifa",
+        "ruqya",
+        "hospital",
+        "operacion",
+        "cirugia",
+        "visitar a un enfermo"
+      ],
+      "notice": "La dua y la práctica religiosa no sustituyen la atención médica. Acude al médico cuando sea necesario."
+    },
+    "anxiety": {
+      "title": "Ansiedad, tristeza, miedo",
+      "subtitle": "Cuando el corazón está apesadumbrado",
+      "keywords": [
+        "ansiedad",
+        "angustia",
+        "preocupacion",
+        "preocupación",
+        "preocupado",
+        "tristeza",
+        "triste",
+        "depresion",
+        "depresión",
+        "miedo",
+        "tengo miedo",
+        "estres",
+        "estrés",
+        "panico",
+        "soledad",
+        "momentos dificiles"
+      ],
+      "notice": "Si la ansiedad o el bajo estado de ánimo están afectando tu vida, acude también a un profesional. Esto no contradice la confianza en Allah."
+    },
+    "laziness": {
+      "title": "Pereza y falta de energía",
+      "subtitle": "Cuando no logras ponerte a hacer nada",
+      "keywords": [
+        "pereza",
+        "perezoso",
+        "flojera",
+        "sin energia",
+        "sin energía",
+        "cansancio",
+        "cansado",
+        "agotado",
+        "sin motivacion",
+        "sin motivación",
+        "levantarse temprano"
+      ]
+    },
+    "hardship": {
+      "title": "Dificultades, «camino cerrado» y mala suerte",
+      "subtitle": "Cuando nada sale bien y todas las puertas parecen cerradas",
+      "keywords": [
+        "camino cerrado",
+        "puertas cerradas",
+        "mala suerte",
+        "suerte",
+        "nada me sale bien",
+        "dificultades",
+        "dificultad",
+        "tiempos dificiles",
+        "tiempos difíciles",
+        "estoy estancado",
+        "salida",
+        "sin esperanza",
+        "para que todo salga bien"
+      ],
+      "notice": "En el Corán y la Sunna no existe la idea de un «camino cerrado» que se abra con un versículo, un ritual o un amuleto especial. Las dificultades se alivian con el temor de Allah, el pedir perdón, la dua y la confianza en Allah (65:2–3, 71:10–12), junto con las medidas prácticas habituales. Si alguien te ofrece «abrirte el camino» a cambio de dinero o «limpiarte» de la mala suerte, eso no proviene del islam."
+    },
+    "wish": {
+      "title": "Por un deseo o una necesidad",
+      "subtitle": "Cómo y cuándo pedir para que la dua sea respondida",
+      "keywords": [
+        "deseo",
+        "cumplir un deseo",
+        "que se cumpla mi deseo",
+        "necesidad",
+        "hayah",
+        "salat al hayah",
+        "oracion de necesidad",
+        "dua aceptada",
+        "cuando se acepta la dua",
+        "dua respondida",
+        "suplica respondida"
+      ]
+    },
+    "lost_item": {
+      "title": "Un objeto perdido",
+      "subtitle": "Qué decir cuando se pierde algo",
+      "keywords": [
+        "perdido",
+        "perdi",
+        "perdí",
+        "objeto perdido",
+        "encontrar algo perdido",
+        "no encuentro",
+        "se me perdio",
+        "extraviado",
+        "robado",
+        "me robaron"
+      ]
+    },
+    "sleep": {
+      "title": "El sueño y el despertar",
+      "subtitle": "Antes de dormir, insomnio, al despertar",
+      "keywords": [
+        "dormir",
+        "sueño",
+        "sueno",
+        "antes de dormir",
+        "no puedo dormir",
+        "insomnio",
+        "despertar",
+        "al despertar",
+        "noche",
+        "pesadilla",
+        "mal sueño",
+        "mal sueno"
+      ]
+    },
+    "morning_evening": {
+      "title": "Mañana y tarde",
+      "subtitle": "Adhkar diarios",
+      "keywords": [
+        "mañana",
+        "manana",
+        "tarde",
+        "noche",
+        "adhkar",
+        "azkar",
+        "dhikr",
+        "zikr",
+        "diario",
+        "cada dia",
+        "todos los dias",
+        "recuerdos de la mañana"
+      ]
+    },
+    "travel": {
+      "title": "Viaje",
+      "subtitle": "Antes de viajar, en el camino, al regresar",
+      "keywords": [
+        "viaje",
+        "viajar",
+        "de viaje",
+        "vuelo",
+        "avion",
+        "avión",
+        "coche",
+        "auto",
+        "carro",
+        "conducir",
+        "manejar",
+        "regreso",
+        "volver a casa",
+        "viaje de negocios"
+      ]
+    },
+    "weather": {
+      "title": "Lluvia, viento y truenos",
+      "subtitle": "Qué decir con mal tiempo",
+      "keywords": [
+        "lluvia",
+        "llueve",
+        "viento",
+        "tormenta",
+        "trueno",
+        "truenos",
+        "relampago",
+        "relámpago",
+        "rayo",
+        "clima",
+        "mal tiempo",
+        "sequia",
+        "sequía"
+      ]
+    },
+    "home": {
+      "title": "El hogar",
+      "subtitle": "Al salir y al entrar en casa",
+      "keywords": [
+        "casa",
+        "hogar",
+        "salir de casa",
+        "entrar en casa",
+        "al salir",
+        "al entrar a casa"
+      ]
+    },
+    "toilet": {
+      "title": "El baño",
+      "subtitle": "Al entrar y al salir",
+      "keywords": [
+        "baño",
+        "bano",
+        "servicio",
+        "sanitario",
+        "aseo",
+        "inodoro",
+        "entrar al baño",
+        "salir del baño",
+        "entrar al bano"
+      ]
+    },
+    "food": {
+      "title": "La comida",
+      "subtitle": "Antes y después de comer",
+      "keywords": [
+        "comida",
+        "comer",
+        "antes de comer",
+        "despues de comer",
+        "después de comer",
+        "almuerzo",
+        "cena",
+        "desayuno",
+        "alimentos"
+      ]
+    },
+    "prayer": {
+      "title": "Oración, mezquita, ablución",
+      "subtitle": "Al entrar en la mezquita, después del wudu, después del salat",
+      "keywords": [
+        "oracion",
+        "oración",
+        "salat",
+        "salah",
+        "rezar",
+        "rezo",
+        "namaz",
+        "mezquita",
+        "masjid",
+        "wudu",
+        "ablucion",
+        "ablución",
+        "despues de la oracion",
+        "después de la oración"
+      ]
+    },
+    "forgiveness": {
+      "title": "Perdón y arrepentimiento",
+      "subtitle": "Istighfar y tawba",
+      "keywords": [
+        "perdon",
+        "perdón",
+        "perdonar",
+        "pecado",
+        "pecados",
+        "tawba",
+        "arrepentimiento",
+        "arrepentirse",
+        "istighfar",
+        "pedir perdon a allah"
+      ]
+    },
+    "family": {
+      "title": "Familia y padres",
+      "subtitle": "Por los padres, el cónyuge, la paz en el hogar",
+      "keywords": [
+        "familia",
+        "padres",
+        "madre",
+        "mama",
+        "mamá",
+        "padre",
+        "papa",
+        "papá",
+        "esposo",
+        "marido",
+        "esposa",
+        "conyuge",
+        "discusion",
+        "problemas familiares",
+        "parientes"
+      ]
+    },
+    "addiction": {
+      "title": "La adicción de un ser querido",
+      "subtitle": "Alcohol, drogas, juegos de azar",
+      "keywords": [
+        "bebe",
+        "alcohol",
+        "alcoholico",
+        "alcohólico",
+        "drogas",
+        "adiccion",
+        "adicción",
+        "juego",
+        "apuestas",
+        "ludopatia",
+        "mi esposo bebe",
+        "mi marido bebe"
+      ],
+      "notice": "No existen versículos especiales «para dejar de beber». Pide a Allah que guíe a tu ser querido y busca ayuda real: un médico especialista en adicciones, un centro de rehabilitación, grupos de apoyo para familias. Si hay amenaza de violencia, contacta con los servicios de emergencia o de apoyo."
+    },
+    "parents": {
+      "title": "Dua por los padres",
+      "subtitle": "Por la madre y el padre, vivos o fallecidos",
+      "keywords": [
+        "padres",
+        "madre",
+        "padre",
+        "mama",
+        "mamá",
+        "papa",
+        "papá",
+        "por mis padres",
+        "dua por los padres",
+        "dua por mi madre",
+        "dua por mi padre",
+        "para mis padres",
+        "dua para mis padres",
+        "para los padres",
+        "para mi madre",
+        "para mi padre"
+      ]
+    },
+    "marriage": {
+      "title": "Matrimonio",
+      "subtitle": "Buscar cónyuge, la boda",
+      "keywords": [
+        "matrimonio",
+        "casarse",
+        "nikah",
+        "boda",
+        "casamiento",
+        "encontrar esposa",
+        "encontrar esposo",
+        "buen esposo",
+        "buena esposa",
+        "felicitar por la boda",
+        "quiero casarme"
+      ]
+    },
+    "spouses": {
+      "title": "Esposo y esposa",
+      "subtitle": "Amor, discusiones, reconciliación",
+      "keywords": [
+        "esposo",
+        "marido",
+        "esposa",
+        "mujer",
+        "conyuge",
+        "problemas matrimoniales",
+        "que mi esposo me ame",
+        "pelea con mi esposo",
+        "reconciliarme con mi esposa",
+        "divorcio",
+        "hechizo de amor",
+        "amarre"
+      ],
+      "notice": "La Sunna no contiene versículos especiales para que el esposo «ame», «extrañe» o «no tome una segunda esposa», y los hechizos de amor son brujería prohibida (ver la tarjeta). Pide a Allah con tus propias palabras, hablen entre ustedes y, en un conflicto serio, recurran a árbitros de ambas familias (4:35)."
+    },
+    "reconcile": {
+      "title": "Reconciliarse con alguien",
+      "subtitle": "Una pelea con un familiar, un amigo o un vecino",
+      "keywords": [
+        "reconciliarse",
+        "reconciliacion",
+        "reconciliación",
+        "hacer las paces",
+        "pelea",
+        "peleados",
+        "no nos hablamos",
+        "romper lazos",
+        "cortar relaciones",
+        "perdonar a alguien"
+      ]
+    },
+    "children": {
+      "title": "Hijos",
+      "subtitle": "Deseo de tener hijos, su protección, el recién nacido",
+      "keywords": [
+        "hijos",
+        "hijo",
+        "hija",
+        "niños",
+        "ninos",
+        "bebe",
+        "bebé",
+        "quiero tener hijos",
+        "embarazo",
+        "infertilidad",
+        "recien nacido",
+        "recién nacido",
+        "nacimiento",
+        "sura para los niños antes de dormir"
+      ]
+    },
+    "conceive": {
+      "title": "Deseo de tener un hijo, embarazo",
+      "subtitle": "Las duas de los profetas para pedir descendencia",
+      "keywords": [
+        "quedar embarazada",
+        "embarazarse",
+        "concebir",
+        "quiero un hijo",
+        "infertilidad",
+        "no tengo hijos",
+        "embarazo",
+        "descendencia"
+      ],
+      "notice": "La dua no sustituye el examen médico ni el tratamiento: acude al médico. La Sunna no contiene una sura especial «para quedar embarazada»; a continuación están las duas de los profetas pidiendo descendencia, tomadas del Corán."
+    },
+    "newborn": {
+      "title": "El parto y el recién nacido",
+      "subtitle": "Parto fácil, aqiqa, tahnik, adhan al oído",
+      "keywords": [
+        "parto",
+        "dar a luz",
+        "embarazada",
+        "embarazo",
+        "parto facil",
+        "parto fácil",
+        "recien nacido",
+        "recién nacido",
+        "nacio el bebe",
+        "aqiqa",
+        "aqiqah",
+        "tahnik",
+        "adhan en el oido"
+      ],
+      "notice": "No existe una dua auténtica específica para un parto fácil. Sirve cualquier dua pidiendo facilidad, como «Allahumma la sahla…» más abajo, y las peticiones con tus propias palabras."
+    },
+    "important": {
+      "title": "Asuntos y decisiones importantes",
+      "subtitle": "Istijara, una tarea difícil, exámenes, estudios",
+      "keywords": [
+        "istijara",
+        "istikhara",
+        "decision",
+        "decisión",
+        "elegir",
+        "eleccion",
+        "asunto importante",
+        "tarea dificil",
+        "examen",
+        "estudios",
+        "estudiar",
+        "entrevista de trabajo",
+        "discurso",
+        "conocimiento"
+      ]
+    },
+    "protection": {
+      "title": "Protección",
+      "subtitle": "Contra el mal, el mal de ojo, Shaytán, al enojarse",
+      "keywords": [
+        "proteccion",
+        "protección",
+        "mal de ojo",
+        "envidia",
+        "shaytan",
+        "satanas",
+        "satanás",
+        "diablo",
+        "yinn",
+        "genios",
+        "magia",
+        "brujeria",
+        "sihr",
+        "ira",
+        "enojo",
+        "enemigos",
+        "peligro"
+      ]
+    },
+    "evil_eye": {
+      "title": "Mal de ojo y daño",
+      "subtitle": "Protección, ruqya y qué decir al admirar algo",
+      "keywords": [
+        "mal de ojo",
+        "ojo",
+        "envidia",
+        "celos",
+        "magia negra",
+        "magia",
+        "brujeria",
+        "brujería",
+        "sihr",
+        "ruqya",
+        "ruqyah",
+        "proteccion contra el mal de ojo",
+        "nazar",
+        "recitar sobre el agua"
+      ],
+      "notice": "Los amuletos, hilos y talismanes «contra el ojo» no son protección en el islam (ver la tarjeta más abajo). Si el malestar persiste, acude al médico: la ruqya y la dua no sustituyen el tratamiento."
+    },
+    "oppression": {
+      "title": "La injusticia y los oprimidos",
+      "subtitle": "Cuando se sufre una injusticia, y dua por los oprimidos (Palestina y otros)",
+      "keywords": [
+        "injusticia",
+        "opresion",
+        "opresión",
+        "oprimidos",
+        "oprimido",
+        "me hicieron injusticia",
+        "injusto",
+        "palestina",
+        "gaza",
+        "guerra",
+        "calumnia",
+        "persecucion"
+      ]
+    },
+    "gratitude": {
+      "title": "Gratitud y alegría",
+      "subtitle": "Cuando sucede algo bueno",
+      "keywords": [
+        "gratitud",
+        "agradecer",
+        "gracias",
+        "agradecido",
+        "alegria",
+        "alegría",
+        "buenas noticias",
+        "shukr",
+        "alhamdulillah"
+      ]
+    },
+    "appearance": {
+      "title": "El espejo y la apariencia",
+      "subtitle": "Dua por un buen carácter",
+      "keywords": [
+        "espejo",
+        "mirarse al espejo",
+        "belleza",
+        "bello",
+        "apariencia",
+        "aspecto",
+        "buen caracter"
+      ]
+    },
+    "ramadan": {
+      "title": "Ramadán y ayuno",
+      "subtitle": "Iftar, Laylat al-Qadr, la luna nueva",
+      "keywords": [
+        "ramadan",
+        "ramadán",
+        "ayuno",
+        "ayunar",
+        "iftar",
+        "romper el ayuno",
+        "suhur",
+        "sahur",
+        "laylat al-qadr",
+        "noche del decreto",
+        "luna nueva",
+        "luna creciente"
+      ]
+    },
+    "friday_eid": {
+      "title": "Viernes y Eid",
+      "subtitle": "Yumu‘a, Eid al-Fitr, Eid al-Adha",
+      "keywords": [
+        "viernes",
+        "yumua",
+        "jumua",
+        "jumuah",
+        "eid",
+        "fiesta",
+        "felicitacion de eid",
+        "eid mubarak",
+        "al-kahf",
+        "sura al kahf"
+      ]
+    },
+    "hajj": {
+      "title": "Hach y Umra",
+      "subtitle": "Talbiya, Arafa, Zamzam",
+      "keywords": [
+        "hach",
+        "hajj",
+        "hayy",
+        "umra",
+        "umrah",
+        "meca",
+        "la meca",
+        "kaaba",
+        "tawaf",
+        "talbiya",
+        "arafa",
+        "arafat",
+        "zamzam",
+        "peregrinacion",
+        "peregrinación",
+        "ihram"
+      ]
+    },
+    "birthday": {
+      "title": "Cumpleaños",
+      "subtitle": "Qué se le puede desear a alguien",
+      "keywords": [
+        "cumpleaños",
+        "cumpleanos",
+        "aniversario",
+        "felicitar",
+        "felicitaciones",
+        "buenos deseos",
+        "desear"
+      ],
+      "notice": "La Sunna no contiene una dua especial para el cumpleaños, y celebrar los cumpleaños es una cuestión en la que los sabios no están de acuerdo. A continuación hay duas auténticas generales por el bien de alguien, que se pueden hacer cualquier día."
+    },
+    "zakat": {
+      "title": "Zakat y sadaqa",
+      "subtitle": "Quién la recibe, cuánto, la recompensa de la caridad",
+      "keywords": [
+        "zakat",
+        "zakah",
+        "azaque",
+        "sadaqa",
+        "sadaqah",
+        "caridad",
+        "limosna",
+        "donacion",
+        "donar",
+        "nisab",
+        "cuanto zakat",
+        "cuánto es el zakat",
+        "quien recibe el zakat"
+      ],
+      "notice": "Para calcular tu zakat, abre Más → Calculadora de zakat."
+    },
+    "customs": {
+      "title": "¿Esto es del islam?",
+      "subtitle": "Costumbres: días de conmemoración, amuletos, hilo rojo",
+      "keywords": [
+        "costumbre",
+        "tradicion",
+        "tradición",
+        "es del islam",
+        "amuleto",
+        "talisman",
+        "talismán",
+        "hilo rojo",
+        "bid‘a",
+        "bida",
+        "bidah",
+        "40 dias",
+        "conmemoracion",
+        "aniversario de la muerte",
+        "agua con versiculos",
+        "escribir versiculos",
+        "hechizo de amor"
+      ],
+      "notice": "Aquí se analizan costumbres extendidas: qué parte de ellas se basa en el Corán y la Sunna y qué parte no. Donde los sabios difieren, se dice claramente."
+    }
+  },
+  "duas": {
+    "grave_greeting": {
+      "title": "Saludo al visitar las tumbas",
+      "translation": "La paz sea con vosotros, oh habitantes de estas moradas, creyentes y musulmanes. Ciertamente, si Allah quiere, nos uniremos a vosotros. Pido a Allah bienestar para nosotros y para vosotros.",
+      "source": "Muslim, 975",
+      "translit": "As-salamu ‘alaykum ahl ad-diyari min al-mu’minina wal-muslimin, wa inna in sha’ Allahu bikum la-lahiqun, as’alu-llaha lana wa lakumul-‘afiyah"
+    },
+    "grave_istighfar": {
+      "title": "Tras el entierro: pedir firmeza para el difunto",
+      "translation": "Oh Allah, perdónalo. Oh Allah, dale firmeza.",
+      "source": "Abu Dawud, 3221 (auténtico según al-Albani)",
+      "note": "Cuando terminaba el entierro, el Profeta ﷺ decía: «Pedid perdón para vuestro hermano y pedid que se le dé firmeza, porque ahora está siendo interrogado». Para una mujer: «Allahumma-ghfir laha, Allahumma thabbit-ha».",
+      "translit": "Allahumma-ghfir lahu, Allahumma thabbit-hu"
+    },
+    "janazah_male": {
+      "title": "Dua por un hombre fallecido",
+      "translation": "Oh Allah, perdónalo y ten misericordia de él, presérvalo y discúlpalo, honra su acogida y ensancha su entrada. Lávalo con agua, nieve y granizo, y límpialo de los pecados como se limpia de la suciedad la ropa blanca. Dale una morada mejor que su morada, una familia mejor que su familia y un cónyuge mejor que su cónyuge. Hazlo entrar en el Paraíso y protégelo del castigo de la tumba y del castigo del Fuego.",
+      "source": "Muslim, 963",
+      "note": "Se dice en la oración fúnebre (yanaza) y en cualquier momento por el difunto.",
+      "translit": "Allahumma-ghfir lahu warhamhu, wa ‘afihi wa‘fu ‘anhu, wa akrim nuzulahu, wa wassi‘ mudjalahu, waghsilhu bil-ma’i wath-thaldji wal-barad, wa naqqihi minal-jataya kama naqqaytath-thawbal-abyada minad-danas, wa abdilhu daran jayran min darihi, wa ahlan jayran min ahlihi, wa zawdjan jayran min zawdjihi, wa adjilhul-djannah, wa a‘idhhu min ‘adhabil-qabri wa min ‘adhabin-nar"
+    },
+    "janazah_female": {
+      "title": "Dua por una mujer fallecida",
+      "translation": "Oh Allah, perdónala y ten misericordia de ella, presérvala y discúlpala, honra su acogida y ensancha su entrada. Lávala con agua, nieve y granizo, y límpiala de los pecados como se limpia de la suciedad la ropa blanca. Hazla entrar en el Paraíso y protégela del castigo de la tumba y del castigo del Fuego.",
+      "source": "Muslim, 963 (pronombres en femenino)",
+      "note": "El hadiz se transmitió acerca de un hombre; los sabios indican que para una mujer los pronombres se ponen en femenino. La frase sobre un cónyuge mejor normalmente se omite.",
+      "translit": "Allahumma-ghfir laha warhamha, wa ‘afiha wa‘fu ‘anha, wa akrim nuzulaha, wa wassi‘ mudjalaha, waghsilha bil-ma’i wath-thaldji wal-barad, wa naqqiha minal-jataya kama naqqaytath-thawbal-abyada minad-danas, wa adjilhal-djannah, wa a‘idhha min ‘adhabil-qabri wa min ‘adhabin-nar"
+    },
+    "parents_mercy": {
+      "title": "Dua por los padres",
+      "translation": "Señor mío, ten misericordia de ellos como ellos me criaron cuando era pequeño.",
+      "source": "Corán, 17:24",
+      "translit": "Rabbi-rhamhuma kama rabbayani saghira"
+    },
+    "parents_forgive": {
+      "title": "Perdón para mí, mis padres y los creyentes",
+      "translation": "Señor nuestro, perdóname a mí, a mis padres y a los creyentes el Día en que tenga lugar la rendición de cuentas.",
+      "source": "Corán, 14:41",
+      "translit": "Rabbana-ghfir li wa li-walidayya wa lil-mu’minina yawma yaqumul-hisab"
+    },
+    "all_believers": {
+      "title": "Por todos los creyentes que han fallecido",
+      "translation": "Señor nuestro, perdónanos a nosotros y a nuestros hermanos que nos precedieron en la fe, y no pongas en nuestros corazones rencor hacia los que creen. Señor nuestro, Tú eres Compasivo, Misericordioso.",
+      "source": "Corán, 59:10",
+      "translit": "Rabbana-ghfir lana wa li-ijwanina-l-ladhina sabaquna bil-iman, wa la tadj‘al fi qulubina ghil-lan lil-ladhina amanu, rabbana innaka Ra’ufur-Rahim"
+    },
+    "deceased_charity": {
+      "title": "Lo que beneficia al difunto",
+      "translation": "«Cuando una persona muere, sus obras se interrumpen excepto tres: una caridad continua (sadaqa yariya), un conocimiento beneficioso y un hijo piadoso que suplique por ella». También es auténtico que la caridad dada en su nombre y el pago de sus deudas benefician al difunto.",
+      "source": "Muslim, 1631; al-Bujari, 2760 (sadaqa por una madre)"
+    },
+    "yasin_dispute": {
+      "title": "Recitar la sura Ya-Sin por los muertos y en las tumbas",
+      "translation": "El hadiz «Recitad Ya-Sin junto a vuestros moribundos» (Abu Dawud, 3121) es considerado débil por algunos sabios (an-Nawawi, al-Albani) y auténtico por otros (Ibn Hibban); muchos lo entienden como recitación junto a un moribundo, no en una tumba. Recitar el Corán en una tumba y dedicar su recompensa al difunto lo permiten los hanafíes y los hanbalíes, mientras que muchos malikíes y shafi‘íes lo consideran desaconsejable o dicen que no llega al difunto. No es una Sunna establecida: lo auténtico en las tumbas es el saludo y la dua.",
+      "source": "Abu Dawud, 3121 — calificación controvertida"
+    },
+    "mulk_virtue": {
+      "title": "La sura al-Mulk: protección del castigo de la tumba",
+      "translation": "El Profeta ﷺ dijo sobre la sura al-Mulk: «Hay en el Corán una sura de treinta versículos que intercedió por un hombre hasta que fue perdonado». Esto se refiere a la recitación regular que uno mismo hace en vida (el Profeta ﷺ la recitaba antes de dormir), no a la recitación en una tumba.",
+      "source": "at-Tirmidhi, 2891 (hasan); at-Tirmidhi, 2892"
+    },
+    "calamity": {
+      "title": "Al recibir la noticia de una muerte o una desgracia",
+      "translation": "Ciertamente, pertenecemos a Allah y a Él volveremos. Oh Allah, recompénsame en mi desgracia y dame a cambio algo mejor.",
+      "source": "Muslim, 918",
+      "translit": "Inna lillahi wa inna ilayhi radji‘un. Allahumma’djurni fi musibati wa ajlif li jayran minha"
+    },
+    "closing_eyes": {
+      "title": "Al cerrar los ojos del difunto",
+      "translation": "Oh Allah, perdona a (nombre), eleva su rango entre los bien guiados, sé Tú quien vele por los que deja atrás, perdónanos a nosotros y a él, oh Señor de los mundos, ensancha su tumba y dale luz en ella.",
+      "source": "Muslim, 920",
+      "note": "Di el nombre del difunto en lugar de «fulan».",
+      "translit": "Allahumma-ghfir li-(nombre), warfa‘ daradjatahu fil-mahdiyyin, wajlufhu fi ‘aqibihi fil-ghabirin, waghfir lana wa lahu ya Rabbal-‘alamin, wafsah lahu fi qabrihi, wa nawwir lahu fih"
+    },
+    "condolence": {
+      "title": "Dar el pésame a la familia",
+      "translation": "A Allah pertenece lo que tomó y a Él pertenece lo que dio, y todo tiene ante Él un plazo fijado. Así que ten paciencia y espera la recompensa.",
+      "source": "al-Bujari, 1284; Muslim, 923",
+      "note": "El Profeta ﷺ envió estas palabras a su hija cuando su niño estaba muriendo. También está bien dar el pésame con tus propias palabras.",
+      "translit": "Inna lillahi ma ajadha, wa lahu ma a‘ta, wa kul-lu shay’in ‘indahu bi-adjalin musamma, fal-tasbir wal-tahtasib"
+    },
+    "debt_halal": {
+      "title": "Dua para librarse de las deudas",
+      "translation": "Oh Allah, hazme suficiente lo que has hecho lícito para no necesitar lo que has hecho ilícito, y por Tu favor hazme independiente de todo lo que no seas Tú.",
+      "source": "at-Tirmidhi, 3563 (hasan)",
+      "note": "‘Ali (que Allah esté complacido con él) dijo que el Profeta ﷺ le enseñó estas palabras, y que aunque tuviera una deuda tan grande como una montaña, Allah le ayudaría a pagarla.",
+      "translit": "Allahumma-kfini bi-halalika ‘an haramik, wa aghnini bi-fadlika ‘amman siwak"
+    },
+    "debt_worry": {
+      "title": "Contra la preocupación, la tristeza y la carga de las deudas",
+      "translation": "Oh Allah, me refugio en Ti de la preocupación y la tristeza, de la incapacidad y la pereza, de la avaricia y la cobardía, de la carga de las deudas y de ser dominado por los hombres.",
+      "source": "al-Bujari, 6369",
+      "translit": "Allahumma inni a‘udhu bika minal-hammi wal-hazan, wal-‘adjzi wal-kasal, wal-bujli wal-djubn, wa dala‘id-dayni wa ghalabatir-ridjal"
+    },
+    "debt_maghram": {
+      "title": "Refugio del pecado y de las deudas (al final de la oración)",
+      "translation": "Oh Allah, me refugio en Ti del pecado y de las deudas.",
+      "source": "al-Bujari, 832; Muslim, 589",
+      "note": "El Profeta ﷺ decía esto a menudo en la oración. Cuando le preguntaron por qué, dijo: «Cuando un hombre está endeudado, habla y miente, promete y no cumple».",
+      "translit": "Allahumma inni a‘udhu bika minal-ma’thami wal-maghram"
+    },
+    "istighfar_rizq": {
+      "title": "El istighfar trae lluvia, riqueza e hijos",
+      "translation": "Dije: «Pedid perdón a vuestro Señor, pues Él es siempre Perdonador. Os enviará del cielo lluvia abundante, os dará riquezas e hijos, y os concederá jardines y ríos».",
+      "source": "Corán, 71:10–12",
+      "note": "Estos versículos describen los frutos del istighfar. El istighfar en sí: «Astaghfirullaha wa atubu ilayh».",
+      "translit": "Fa-qultu-staghfiru Rabbakum innahu kana Ghaffara. Yursilis-sama’a ‘alaykum midrara. Wa yumdidkum bi-amwalin wa banina wa yadj‘al lakum djannatin wa yadj‘al lakum anhara"
+    },
+    "rizq_morning": {
+      "title": "Por un conocimiento beneficioso y un buen sustento (después del Fayr)",
+      "translation": "Oh Allah, te pido un conocimiento beneficioso, un sustento bueno y obras aceptadas.",
+      "source": "Ibn Mayah, 925 (auténtico)",
+      "translit": "Allahumma inni as’aluka ‘ilman nafi‘an, wa rizqan tayyiban, wa ‘amalan mutaqabbala"
+    },
+    "musa_need": {
+      "title": "Dua de Musa (la paz sea con él) en la necesidad",
+      "translation": "Señor mío, estoy necesitado de cualquier bien que hagas descender sobre mí.",
+      "source": "Corán, 28:24",
+      "note": "Musa dijo esto cuando llegó a Madyan sin refugio ni recursos; después Allah le concedió trabajo y una esposa.",
+      "translit": "Rabbi inni lima anzalta ilayya min jayrin faqir"
+    },
+    "sick_ruqyah": {
+      "title": "Dua por el enfermo (la ruqya del Profeta ﷺ)",
+      "translation": "Oh Allah, Señor de los hombres, quita el mal y cura, pues Tú eres el que cura. No hay curación sino Tu curación, una curación que no deja enfermedad alguna.",
+      "source": "al-Bujari, 5743; Muslim, 2191",
+      "translit": "Allahumma Rabban-nas, adhhibil-ba’s, ishfi antash-Shafi, la shifa’a il-la shifa’uk, shifa’an la yughadiru saqama"
+    },
+    "sick_visit_seven": {
+      "title": "Al visitar a un enfermo: 7 veces",
+      "translation": "Pido a Allah, el Grandioso, Señor del Trono Grandioso, que te cure.",
+      "source": "Abu Dawud, 3106; at-Tirmidhi, 2083 (auténtico)",
+      "translit": "As’alu-llahal-‘Azim, Rabbal-‘arshil-‘azim, an yashfiyak"
+    },
+    "sick_visit_short": {
+      "title": "Palabras para el enfermo",
+      "translation": "No pasa nada; es una purificación, si Allah quiere.",
+      "source": "al-Bujari, 3616",
+      "translit": "La ba’sa, tahurun in sha’ Allah"
+    },
+    "pain": {
+      "title": "Al sentir dolor en el cuerpo",
+      "translation": "Pon la mano donde te duele y di tres veces «En el nombre de Allah», y luego siete veces: «Me refugio en Allah y en Su poder del mal de lo que siento y de lo que temo».",
+      "source": "Muslim, 2202",
+      "translit": "Bismillah (3 veces). A‘udhu billahi wa qudratihi min sharri ma adjidu wa uhadhir (7 veces)"
+    },
+    "ayyub": {
+      "title": "Dua de Ayyub (la paz sea con él)",
+      "translation": "La adversidad me ha alcanzado, y Tú eres el más Misericordioso de los misericordiosos.",
+      "source": "Corán, 21:83",
+      "translit": "Anni massaniyad-durru wa anta arhamur-rahimin"
+    },
+    "anxiety_ibn_masud": {
+      "title": "Dua contra la ansiedad y la tristeza",
+      "translation": "Oh Allah, soy Tu siervo, hijo de Tu siervo, hijo de Tu sierva. Mi frente está en Tu mano, Tu mandato sobre mí siempre se cumple y Tu decreto sobre mí es justo. Te pido por cada nombre que te pertenece, con el que te has nombrado a Ti mismo, o que revelaste en Tu Libro, o que enseñaste a alguna de Tus criaturas, o que guardaste para Ti en el conocimiento de lo oculto, que hagas del Corán la primavera de mi corazón, la luz de mi pecho, lo que disipe mi tristeza y lo que aleje mi ansiedad.",
+      "source": "Ahmad, 3712 (auténtico según al-Albani)",
+      "note": "Una mujer puede decir: «Allahumma inni amatuk, bintu ‘abdik, bintu amatik».",
+      "translit": "Allahumma inni ‘abduk, ibnu ‘abdik, ibnu amatik, nasiyati biyadik, madin fiyya hukmuk, ‘adlun fiyya qada’uk. As’aluka bi-kul-li-smin huwa lak, sammayta bihi nafsak, aw anzaltahu fi kitabik, aw ‘al-lamtahu ahadan min jalqik, awista’tharta bihi fi ‘ilmil-ghaybi ‘indak, an tadj‘alal-Qur’ana rabi‘a qalbi, wa nura sadri, wa djala’a huzni, wa dhahaba hammi"
+    },
+    "distress_karb": {
+      "title": "Dua en la angustia severa (du‘a al-karb)",
+      "translation": "No hay dios sino Allah, el Grandioso, el Indulgente. No hay dios sino Allah, Señor del Trono Grandioso. No hay dios sino Allah, Señor de los cielos, Señor de la tierra y Señor del Noble Trono.",
+      "source": "al-Bujari, 6346; Muslim, 2730",
+      "translit": "La ilaha il-lallahul-‘Azimul-Halim, la ilaha il-lallahu Rabbul-‘arshil-‘azim, la ilaha il-lallahu Rabbus-samawati wa Rabbul-ardi wa Rabbul-‘arshil-karim"
+    },
+    "yunus": {
+      "title": "Dua de Yunus (la paz sea con él)",
+      "translation": "No hay dios sino Tú, ¡glorificado seas! Ciertamente, he sido de los injustos.",
+      "source": "Corán, 21:87; sobre su virtud: at-Tirmidhi, 3505",
+      "note": "«Ningún musulmán suplica con ella por algo sin que Allah le responda».",
+      "translit": "La ilaha il-la anta subhanaka inni kuntu minaz-zalimin"
+    },
+    "hasbunallah": {
+      "title": "Allah nos basta",
+      "translation": "Allah nos basta, y Él es el mejor en quien confiar.",
+      "source": "Corán, 3:173; al-Bujari, 4563",
+      "note": "Ibrahim (la paz sea con él) lo dijo cuando fue arrojado al fuego, y Muhammad ﷺ lo dijo cuando le informaron de que el enemigo se había reunido contra él.",
+      "translit": "Hasbunallahu wa ni‘mal-Wakil"
+    },
+    "do_not_leave_me": {
+      "title": "No me dejes a mi suerte",
+      "translation": "Oh Allah, es Tu misericordia lo que espero; no me dejes a mí mismo ni siquiera un abrir y cerrar de ojos, y arregla todos mis asuntos. No hay dios sino Tú.",
+      "source": "Abu Dawud, 5090 (hasan)",
+      "translit": "Allahumma rahmataka ardju, fa la takilni ila nafsi tarfata ‘ayn, wa aslih li sha’ni kul-lahu, la ilaha il-la ant"
+    },
+    "fear_enemy": {
+      "title": "Cuando temes a la gente",
+      "translation": "Oh Allah, te ponemos frente a ellos y nos refugiamos en Ti de su maldad.",
+      "source": "Abu Dawud, 1537 (auténtico)",
+      "translit": "Allahumma inna nadj‘aluka fi nuhurihim, wa na‘udhu bika min shururihim"
+    },
+    "patience": {
+      "title": "Por la paciencia y la firmeza",
+      "translation": "Señor nuestro, derrama paciencia sobre nosotros, afianza nuestros pasos y ayúdanos contra el pueblo de los incrédulos.",
+      "source": "Corán, 2:250",
+      "translit": "Rabbana afrigh ‘alayna sabran wa thabbit aqdamana wansurna ‘alal-qawmil-kafirin"
+    },
+    "sleep_bismika": {
+      "title": "Antes de dormir",
+      "translation": "En Tu nombre, oh Allah, muero y vivo.",
+      "source": "al-Bujari, 6324",
+      "translit": "Bismika-llahumma amutu wa ahya"
+    },
+    "sleep_kursi": {
+      "title": "Ayat al-Kursi",
+      "translation": "Allah: no hay dios sino Él, el Viviente, el Sustentador de todo. Ni la somnolencia ni el sueño se apoderan de Él. Suyo es cuanto hay en los cielos y en la tierra. ¿Quién puede interceder ante Él sino con Su permiso? Sabe lo que tienen delante y lo que tienen detrás, y no abarcan nada de Su conocimiento salvo lo que Él quiere. Su Kursi abarca los cielos y la tierra, y conservarlos no le fatiga. Él es el Altísimo, el Grandioso.",
+      "source": "Corán, 2:255; sobre recitarla antes de dormir: al-Bujari, 2311",
+      "note": "Quien la recita antes de dormir tendrá un guardián de parte de Allah toda la noche, y ningún demonio se le acercará hasta la mañana.",
+      "translit": "Allahu la ilaha il-la huwal-Hayyul-Qayyum, la ta’judhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa‘u ‘indahu il-la bi-idhnih, ya‘lamu ma bayna aydihim wa ma jalfahum, wa la yuhituna bi-shay’in min ‘ilmihi il-la bima sha’, wasi‘a kursiyyuhus-samawati wal-ard, wa la ya’uduhu hifzuhuma, wa huwal-‘Aliyyul-‘Azim"
+    },
+    "sleep_baqarah_end": {
+      "title": "Los dos últimos versículos de al-Baqara",
+      "translation": "El Mensajero cree en lo que le fue revelado por parte de su Señor, y también los creyentes… «Señor nuestro, no nos castigues si olvidamos o erramos… Perdónanos, absuélvenos y ten misericordia de nosotros. Tú eres nuestro Protector; ayúdanos, pues, contra el pueblo de los incrédulos».",
+      "source": "Corán, 2:285–286; al-Bujari, 5009",
+      "note": "«Quien recita de noche los dos últimos versículos de la sura al-Baqara, le bastarán».",
+      "translit": "Amanar-rasulu bima unzila ilayhi min Rabbihi wal-mu’minun… (2:285–286)"
+    },
+    "sleep_three_quls": {
+      "title": "Las suras al-Ijlas, al-Falaq y an-Nas",
+      "translation": "Antes de dormir, el Profeta ﷺ juntaba las palmas de las manos, recitaba en ellas al-Ijlas, al-Falaq y an-Nas, soplaba en ellas y se pasaba las manos por todo el cuerpo que alcanzaba, empezando por la cabeza y la cara, tres veces. También se recitan tres veces por la mañana y por la tarde.",
+      "source": "al-Bujari, 5017; por la mañana y por la tarde: Abu Dawud, 5082; at-Tirmidhi, 3575"
+    },
+    "waking": {
+      "title": "Al despertar",
+      "translation": "Alabado sea Allah, que nos devolvió la vida después de habernos hecho morir, y a Él será la resurrección.",
+      "source": "al-Bujari, 6312",
+      "translit": "Alhamdu lillahil-ladhi ahyana ba‘da ma amatana wa ilayhin-nushur"
+    },
+    "night_fear": {
+      "title": "Contra el insomnio y el miedo durante el sueño",
+      "translation": "Me refugio en las palabras perfectas de Allah de Su ira y Su castigo, del mal de Sus siervos, y de los susurros de los demonios y de su presencia.",
+      "source": "Abu Dawud, 3893; at-Tirmidhi, 3528 (hasan)",
+      "note": "Al-Albani lo calificó de hasan; algunos sabios del hadiz lo consideran débil. Lo recita quien siente miedo durante el sueño.",
+      "translit": "A‘udhu bi-kalimatillahit-tammati min ghadabihi wa ‘iqabih, wa sharri ‘ibadih, wa min hamazatish-shayatini wa an yahdurun"
+    },
+    "sayyid_istighfar": {
+      "title": "La súplica principal para pedir perdón (sayyid al-istighfar)",
+      "translation": "Oh Allah, Tú eres mi Señor, no hay dios sino Tú. Tú me creaste y yo soy Tu siervo, y mantengo Tu pacto y Tu promesa en la medida en que puedo. Me refugio en Ti del mal de lo que he hecho. Reconozco Tu favor sobre mí y reconozco mi pecado; perdóname, pues nadie perdona los pecados sino Tú.",
+      "source": "al-Bujari, 6306",
+      "note": "Quien la dice durante el día con fe firme y muere antes de la tarde es de la gente del Paraíso; lo mismo si la dice por la noche y muere antes de la mañana.",
+      "translit": "Allahumma anta Rabbi, la ilaha il-la ant, jalaqtani wa ana ‘abduk, wa ana ‘ala ‘ahdika wa wa‘dika mastata‘t, a‘udhu bika min sharri ma sana‘t, abu’u laka bi-ni‘matika ‘alayya, wa abu’u laka bi-dhanbi, faghfir li, fa-innahu la yaghfirudh-dhunuba il-la ant"
+    },
+    "bismillah_no_harm": {
+      "title": "Protección por la mañana y por la tarde: 3 veces",
+      "translation": "En el nombre de Allah, con cuyo nombre nada en la tierra ni en el cielo puede causar daño, y Él es el que todo lo oye, el que todo lo sabe.",
+      "source": "Abu Dawud, 5088; at-Tirmidhi, 3388 (hasan sahih)",
+      "translit": "Bismillahil-ladhi la yadurru ma‘asmihi shay’un fil-ardi wa la fis-sama’, wa huwas-Sami‘ul-‘Alim"
+    },
+    "subhanallah_100": {
+      "title": "Tasbih por la mañana y por la tarde: 100 veces",
+      "translation": "Glorificado sea Allah, y alabado sea.",
+      "source": "Muslim, 2692",
+      "translit": "Subhanallahi wa bihamdih"
+    },
+    "tahlil_100": {
+      "title": "Tahlil: 100 veces al día",
+      "translation": "No hay dios sino Allah, Único, sin asociado. Suyo es el dominio y Suya es la alabanza, y Él tiene poder sobre todas las cosas.",
+      "source": "al-Bujari, 3293; Muslim, 2691",
+      "translit": "La ilaha il-lallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ‘ala kul-li shay’in qadir"
+    },
+    "travel": {
+      "title": "La súplica del viaje (al partir)",
+      "translation": "Allah es el más Grande (tres veces). Glorificado sea Quien puso esto a nuestro servicio, pues nosotros nunca habríamos podido hacerlo, y a nuestro Señor hemos de volver. Oh Allah, te pedimos en este viaje rectitud y piedad, y obras que te complazcan. Oh Allah, haznos fácil este viaje y acorta su distancia. Oh Allah, Tú eres el Compañero en el viaje y el Guardián de la familia. Oh Allah, me refugio en Ti de las penalidades del viaje, de ver algo que entristezca y de un mal regreso a los bienes y a la familia.",
+      "source": "Muslim, 1342",
+      "note": "Al regresar, di lo mismo y añade: «Ayibuna, ta’ibuna, ‘abiduna, li-Rabbina hamidun»: «Regresamos arrepentidos, adorando y alabando a nuestro Señor».",
+      "translit": "Allahu akbar (3 veces). Subhanal-ladhi sajjara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun. Allahumma inna nas’aluka fi safarina hadhal-birra wat-taqwa, wa minal-‘amali ma tarda. Allahumma hawwin ‘alayna safarana hadha watwi ‘anna bu‘dah. Allahumma antas-sahibu fis-safar, wal-jalifatu fil-ahl. Allahumma inni a‘udhu bika min wa‘tha’is-safar, wa ka’abatil-manzar, wa su’il-munqalabi fil-mali wal-ahl"
+    },
+    "stopping_place": {
+      "title": "Al detenerse en un lugar",
+      "translation": "Me refugio en las palabras perfectas de Allah del mal de lo que ha creado.",
+      "source": "Muslim, 2708; por la tarde: Muslim, 2709",
+      "note": "Quien se detiene en un lugar y dice esto, nada le dañará hasta que se vaya de ese lugar.",
+      "translit": "A‘udhu bi-kalimatillahit-tammati min sharri ma jalaq"
+    },
+    "leaving_home": {
+      "title": "Al salir de casa",
+      "translation": "En el nombre de Allah, confío en Allah, y no hay fuerza ni poder sino en Allah.",
+      "source": "Abu Dawud, 5095; at-Tirmidhi, 3426 (auténtico)",
+      "translit": "Bismillah, tawakkaltu ‘alallah, wa la hawla wa la quwwata il-la billah"
+    },
+    "entering_home": {
+      "title": "Al entrar en casa",
+      "translation": "El Profeta ﷺ dijo: «Cuando un hombre entra en su casa y menciona a Allah al entrar y al comer, Shaytán dice: “No tenéis dónde pasar la noche ni cena”». Menciona a Allah al entrar diciendo «Bismillah» y saluda con el salam a los de la casa.",
+      "source": "Muslim, 2018"
+    },
+    "before_eating": {
+      "title": "Antes de comer",
+      "translation": "En el nombre de Allah. Si lo olvidaste al principio, di: «Bismillahi fi awwalihi wa ajirih»: «En el nombre de Allah al principio y al final».",
+      "source": "Abu Dawud, 3767; at-Tirmidhi, 1858 (auténtico)",
+      "translit": "Bismillah"
+    },
+    "after_eating": {
+      "title": "Después de comer",
+      "translation": "Alabado sea Allah, que me dio de comer esto y me lo proveyó sin fuerza ni poder alguno de mi parte.",
+      "source": "Abu Dawud, 4023; at-Tirmidhi, 3458 (hasan)",
+      "translit": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi min ghayri hawlin minni wa la quwwah"
+    },
+    "mosque_enter_exit": {
+      "title": "Al entrar y salir de la mezquita",
+      "translation": "Al entrar: «Oh Allah, ábreme las puertas de Tu misericordia». Al salir: «Oh Allah, te pido de Tu favor».",
+      "source": "Muslim, 713",
+      "translit": "Entering: “Allahummaftah li abwaba rahmatik”. Leaving: “Allahumma inni as’aluka min fadlik”"
+    },
+    "after_wudu": {
+      "title": "Después del wudu (ablución)",
+      "translation": "Atestiguo que no hay dios sino Allah, Único, sin asociado, y atestiguo que Muhammad es Su siervo y Mensajero.",
+      "source": "Muslim, 234",
+      "note": "A quien dice esto después del wudu se le abren las ocho puertas del Paraíso.",
+      "translit": "Ash-hadu an la ilaha il-lallahu wahdahu la sharika lah, wa ash-hadu anna Muhammadan ‘abduhu wa rasuluh"
+    },
+    "after_salah": {
+      "title": "Justo después de la oración",
+      "translation": "Pido perdón a Allah (tres veces). Oh Allah, Tú eres la Paz y de Ti viene la paz. Bendito seas, oh Poseedor de la majestad y la honra.",
+      "source": "Muslim, 591",
+      "translit": "Astaghfirullah (3 veces). Allahumma antas-Salam wa minkas-salam, tabarakta ya Dhal-Djalali wal-Ikram"
+    },
+    "istighfar_daily": {
+      "title": "El istighfar diario",
+      "translation": "Pido perdón a Allah y me vuelvo a Él arrepentido.",
+      "source": "al-Bujari, 6307; Muslim, 2702",
+      "note": "El Profeta ﷺ pedía perdón a Allah más de setenta veces al día; en el relato de Muslim, cien veces.",
+      "translit": "Astaghfirullaha wa atubu ilayh"
+    },
+    "abu_bakr": {
+      "title": "La dua que el Profeta ﷺ enseñó a Abu Bakr",
+      "translation": "Oh Allah, he sido muy injusto conmigo mismo, y nadie perdona los pecados sino Tú. Concédeme, pues, un perdón de Tu parte y ten misericordia de mí, pues Tú eres el Perdonador, el Misericordioso.",
+      "source": "al-Bujari, 834; Muslim, 2705",
+      "translit": "Allahumma inni zalamtu nafsi zulman kathiran, wa la yaghfirudh-dhunuba il-la ant, faghfir li maghfiratan min ‘indik, warhamni, innaka antal-Ghafurur-Rahim"
+    },
+    "adam": {
+      "title": "Dua de Adán y Eva (Adam y Hawwa)",
+      "translation": "Señor nuestro, hemos sido injustos con nosotros mismos, y si no nos perdonas y no tienes misericordia de nosotros, seremos sin duda de los perdedores.",
+      "source": "Corán, 7:23",
+      "translit": "Rabbana zalamna anfusana wa in lam taghfir lana wa tarhamna lanakunanna minal-jasirin"
+    },
+    "qadr": {
+      "title": "En Laylat al-Qadr",
+      "translation": "Oh Allah, Tú eres el que perdona y amas perdonar; perdóname, pues.",
+      "source": "at-Tirmidhi, 3513 (auténtico)",
+      "translit": "Allahumma innaka ‘Afuwwun tuhibbul-‘afwa fa‘fu ‘anni"
+    },
+    "iftar": {
+      "title": "Al romper el ayuno",
+      "translation": "Se ha ido la sed, se han humedecido las venas y la recompensa está asegurada, si Allah quiere.",
+      "source": "Abu Dawud, 2357 (hasan)",
+      "translit": "Dhahabaz-zama’u, wabtal-latil-‘uruq, wa thabatal-adjru in sha’ Allah"
+    },
+    "new_moon": {
+      "title": "Al ver la luna nueva",
+      "translation": "Oh Allah, haz que nos llegue con bendición y fe, con seguridad e islam. Mi Señor y tu Señor es Allah.",
+      "source": "at-Tirmidhi, 3451 (hasan)",
+      "translit": "Allahumma ahlilhu ‘alayna bil-yumni wal-iman, was-salamati wal-islam, Rabbi wa Rabbukallah"
+    },
+    "iftar_lakasumtu": {
+      "title": "«Allahumma laka sumtu» en el iftar",
+      "translation": "Oh Allah, por Ti he ayunado y con Tu provisión rompo mi ayuno.",
+      "source": "Abu Dawud, 2358 (débil, mursal)",
+      "note": "La cadena de este hadiz está interrumpida, por lo que es débil. El significado es correcto y puedes decirlo como dua general, pero la dua auténtica del iftar es «Dhahabaz-zama’u» (ver más arriba).",
+      "translit": "Allahumma laka sumtu wa ‘ala rizqika aftartu"
+    },
+    "spouse_children": {
+      "title": "Por la alegría en el cónyuge y los hijos",
+      "translation": "Señor nuestro, concédenos en nuestros cónyuges y descendientes la alegría de nuestros ojos, y haznos guías de los temerosos de Allah.",
+      "source": "Corán, 25:74",
+      "translit": "Rabbana hab lana min azwadjina wa dhurriyyatina qurrata a‘yun wadj‘alna lil-muttaqina imama"
+    },
+    "zakariya_child": {
+      "title": "Dua de Zakariya (la paz sea con él) por un hijo",
+      "translation": "Señor mío, concédeme de Tu parte una descendencia buena; Tú eres quien oye la súplica.",
+      "source": "Corán, 3:38",
+      "translit": "Rabbi hab li min ladunka dhurriyyatan tayyibatan, innaka Sami‘ud-du‘a"
+    },
+    "zakariya_alone": {
+      "title": "No me dejes solo",
+      "translation": "Señor mío, no me dejes solo, y Tú eres el mejor de los herederos.",
+      "source": "Corán, 21:89",
+      "translit": "Rabbi la tadharni fardan wa anta jayrul-warithin"
+    },
+    "children_prayer": {
+      "title": "Que yo y mis hijos seamos constantes en la oración",
+      "translation": "Señor mío, haz que sea constante en la oración, y también mi descendencia. Señor nuestro, acepta mi súplica.",
+      "source": "Corán, 14:40",
+      "translit": "Rabbidj‘alni muqimas-salati wa min dhurriyyati, Rabbana wa taqabbal du‘a"
+    },
+    "children_protection": {
+      "title": "Protección para los hijos",
+      "translation": "Os encomiendo a ambos a la protección de las palabras perfectas de Allah contra todo demonio y toda criatura venenosa, y contra todo mal de ojo.",
+      "source": "al-Bujari, 3371",
+      "note": "Así pedía protección el Profeta ﷺ para al-Hasan y al-Husayn. Para un niño: «U‘idhuka»; para una niña: «U‘idhuki»; para varios: «U‘idhukum».",
+      "translit": "U‘idhukuma bi-kalimatillahit-tammah, min kul-li shaytanin wa hammah, wa min kul-li ‘aynin lammah"
+    },
+    "newborn_congrats": {
+      "title": "Felicitar por un recién nacido",
+      "translation": "Que Allah te bendiga en lo que se te ha concedido; que seas agradecido con el Dador; que el niño llegue a la madurez y que se te conceda su bondad hacia ti.",
+      "source": "Palabras de al-Hasan al-Basri (no es un hadiz del Profeta ﷺ); citadas en «Hisn al-Muslim» (La fortaleza del musulmán)",
+      "translit": "Barakallahu laka fil-mawhubi lak, wa shakartal-Wahib, wa balagha ashuddah, wa ruziqta birrah"
+    },
+    "wedding_congrats": {
+      "title": "Felicitar a los recién casados",
+      "translation": "Que Allah te bendiga, derrame bendiciones sobre ti y os una en el bien.",
+      "source": "Abu Dawud, 2130; at-Tirmidhi, 1091 (auténtico)",
+      "translit": "Barakallahu lak, wa baraka ‘alayk, wa djama‘a baynakuma fi jayr"
+    },
+    "istikhara": {
+      "title": "Istijara: cuando tienes que decidir",
+      "translation": "Oh Allah, te pido que me guíes por Tu conocimiento, te pido capacidad por Tu poder y te pido de Tu inmenso favor. Tú puedes y yo no puedo; Tú sabes y yo no sé, y Tú eres el Conocedor de lo oculto. Oh Allah, si sabes que este asunto (menciónalo) es bueno para mí en mi religión, mi vida y el desenlace de mis asuntos, decrétalo para mí, facilítamelo y bendíceme en él. Y si sabes que este asunto es malo para mí en mi religión, mi vida y el desenlace de mis asuntos, apártalo de mí y apártame de él, decreta para mí el bien dondequiera que esté y hazme estar satisfecho con él.",
+      "source": "al-Bujari, 1162",
+      "note": "Reza dos rak‘as de oración voluntaria y después haz esta dua.",
+      "translit": "Allahumma inni astajiruka bi-‘ilmik, wa astaqdiruka bi-qudratik, wa as’aluka min fadlikal-‘azim, fa-innaka taqdiru wa la aqdir, wa ta‘lamu wa la a‘lam, wa anta ‘Al-lamul-ghuyub. Allahumma in kunta ta‘lamu anna hadhal-amra (menciona el asunto) jayrun li fi dini wa ma‘ashi wa ‘aqibati amri, faqdurhu li wa yassirhu li, thumma barik li fih. Wa in kunta ta‘lamu anna hadhal-amra sharrun li fi dini wa ma‘ashi wa ‘aqibati amri, fasrifhu ‘anni wasrifni ‘anhu, waqdur liyal-jayra haythu kan, thumma ardini bih"
+    },
+    "make_easy": {
+      "title": "Cuando un asunto es difícil",
+      "translation": "Oh Allah, nada es fácil salvo lo que Tú haces fácil, y Tú haces fácil lo difícil si quieres.",
+      "source": "Ibn Hibban, 974 (auténtico)",
+      "translit": "Allahumma la sahla il-la ma dja‘altahu sahla, wa anta tadj‘alul-hazna idha shi’ta sahla"
+    },
+    "musa_chest": {
+      "title": "Antes de un discurso, un examen o una conversación difícil",
+      "translation": "Señor mío, ensancha mi pecho, facilítame mi tarea y desata el nudo de mi lengua para que entiendan mis palabras.",
+      "source": "Corán, 20:25–28",
+      "translit": "Rabbishrah li sadri, wa yassir li amri, wahlul ‘uqdatan min lisani, yafqahu qawli"
+    },
+    "knowledge": {
+      "title": "Por el conocimiento",
+      "translation": "Señor mío, auméntame en conocimiento.",
+      "source": "Corán, 20:114",
+      "translit": "Rabbi zidni ‘ilma"
+    },
+    "anger": {
+      "title": "Al enojarse",
+      "translation": "Me refugio en Allah de Shaytán, el maldito.",
+      "source": "al-Bujari, 3282; Muslim, 2610",
+      "translit": "A‘udhu billahi minash-shaytanir-radjim"
+    },
+    "heart_firm": {
+      "title": "Por un corazón firme en la fe",
+      "translation": "Señor nuestro, no desvíes nuestros corazones después de habernos guiado, y concédenos misericordia de Tu parte. Tú eres el Dadivoso.",
+      "source": "Corán, 3:8",
+      "translit": "Rabbana la tuzigh qulubana ba‘da idh hadaytana wa hab lana min ladunka rahmah, innaka antal-Wahhab"
+    },
+    "ya_hayyu": {
+      "title": "En la desesperación: «Oh Viviente, oh Sustentador»",
+      "translation": "Oh Viviente, oh Sustentador de todo, en Tu misericordia busco auxilio.",
+      "source": "at-Tirmidhi, 3524 (hasan)",
+      "note": "El Profeta ﷺ decía esto cuando algo le angustiaba.",
+      "translit": "Ya Hayyu ya Qayyum, bi-rahmatika astaghith"
+    },
+    "good_news": {
+      "title": "Cuando sucede algo agradable",
+      "translation": "Alabado sea Allah, por cuya gracia se completan las cosas buenas.",
+      "source": "Ibn Mayah, 3803 (hasan)",
+      "translit": "Alhamdu lillahil-ladhi bi-ni‘matihi tatimmus-salihat"
+    },
+    "sulayman_thanks": {
+      "title": "Dua por la gratitud",
+      "translation": "Señor mío, inspírame para que agradezca el favor que me has concedido a mí y a mis padres, y para que haga obras rectas que te complazcan, y hazme entrar por Tu misericordia entre Tus siervos rectos.",
+      "source": "Corán, 27:19",
+      "translit": "Rabbi awzi‘ni an ashkura ni‘matakal-lati an‘amta ‘alayya wa ‘ala walidayya wa an a‘mala salihan tardahu wa adjilni bi-rahmatika fi ‘ibadikas-salihin"
+    },
+    "best_of_both": {
+      "title": "La dua más frecuente del Profeta ﷺ",
+      "translation": "Señor nuestro, danos el bien en esta vida y el bien en la Otra, y protégenos del castigo del Fuego.",
+      "source": "Corán, 2:201; al-Bujari, 6389",
+      "translit": "Rabbana atina fid-dunya hasanatan wa fil-ajirati hasanatan wa qina ‘adhaban-nar"
+    },
+    "anas_dua": {
+      "title": "Desear a alguien el bien y la baraka",
+      "translation": "Oh Allah, aumenta sus bienes y sus hijos, y bendícelo en lo que le has dado.",
+      "source": "al-Bujari, 6334; Muslim, 2480",
+      "note": "El Profeta ﷺ hizo esta dua por Anas ibn Malik. Para una mujer: «Allahumma akthir malaha wa waladaha, wa barik laha fima a‘taytaha».",
+      "translit": "Allahumma akthir malahu wa waladahu, wa barik lahu fima a‘taytah"
+    },
+    "islah": {
+      "title": "Por el bien en la religión, en esta vida y en la Otra",
+      "translation": "Oh Allah, mejora mi religión, que es la protección de mis asuntos; mejora mi vida mundana, en la que está mi sustento; mejora mi Otra Vida, a la que he de volver. Haz que la vida sea para mí un aumento en todo bien, y que la muerte sea para mí un descanso de todo mal.",
+      "source": "Muslim, 2720",
+      "translit": "Allahumma aslih li diniyal-ladhi huwa ‘ismatu amri, wa aslih li dunyayal-lati fiha ma‘ashi, wa aslih li ajiratil-lati fiha ma‘adi, wadj‘alil-hayata ziyadatan li fi kul-li jayr, wadj‘alil-mawta rahatan li min kul-li sharr"
+    },
+    "barakallah": {
+      "title": "«Barakallahu fik»",
+      "translation": "Los Compañeros respondían a un favor y hacían dua diciendo «barakallahu fik/fiki»: «que Allah te bendiga». Es un deseo general adecuado para cualquier día, también cuando se felicita a alguien.",
+      "source": "La fórmula de bendición aparece en los hadices, p. ej. al-Bujari, 5155"
+    },
+    "kahf_friday": {
+      "title": "La sura al-Kahf el viernes",
+      "translation": "«Quien recita la sura al-Kahf el viernes, será iluminado con una luz entre los dos viernes».",
+      "source": "al-Hakim, 2/368; al-Baihaqi (auténtico según al-Albani, «Sahih al-Yami‘», 6470)"
+    },
+    "salawat_friday": {
+      "title": "Salawat sobre el Profeta ﷺ (especialmente el viernes)",
+      "translation": "Oh Allah, bendice a Muhammad y a la familia de Muhammad como bendijiste a Ibrahim y a la familia de Ibrahim. Tú eres Digno de alabanza, Glorioso.",
+      "source": "al-Bujari, 3370; sobre el viernes: Abu Dawud, 1047",
+      "translit": "Allahumma sal-li ‘ala Muhammadin wa ‘ala ali Muhammad, kama sal-layta ‘ala Ibrahima wa ‘ala ali Ibrahim, innaka Hamidun Madjid"
+    },
+    "eid_greeting": {
+      "title": "Felicitación del Eid",
+      "translation": "Que Allah acepte de nosotros y de vosotros.",
+      "source": "Así se felicitaban entre sí los Compañeros (Ibn Hayar, «Fath al-Bari»: cadena buena)",
+      "translit": "Taqabbalallahu minna wa minkum"
+    },
+    "sacrifice": {
+      "title": "Al sacrificar el animal (Qurban)",
+      "translation": "En el nombre de Allah, y Allah es el más Grande.",
+      "source": "Muslim, 1966",
+      "note": "El Profeta ﷺ dijo esto al sacrificar dos carneros. Puedes añadir en nombre de quién se hace: «Allahumma minka wa lak» (Abu Dawud, 2795).",
+      "translit": "Bismillahi wallahu akbar"
+    },
+    "zakat_recipients": {
+      "title": "Quién puede recibir el zakat",
+      "translation": "El zakat es solo para los pobres y los necesitados, los encargados de recaudarlo, aquellos cuyos corazones se quiere ganar, la liberación de cautivos, los endeudados, la causa de Allah y el viajero que se ha quedado sin recursos: una obligación de parte de Allah. Allah es Omnisciente, Sabio.",
+      "source": "Corán, 9:60"
+    },
+    "zakat_purifies": {
+      "title": "El zakat purifica los bienes y el alma",
+      "translation": "Toma de sus bienes una caridad con la que los purifiques y los hagas crecer, y ruega por ellos. Tu súplica es un sosiego para ellos. Allah todo lo oye, todo lo sabe.",
+      "source": "Corán, 9:103",
+      "note": "Al recibir el zakat, el Profeta ﷺ hacía dua por quien lo daba (al-Bujari, 1497)."
+    },
+    "sadaqah_not_decrease": {
+      "title": "La caridad no disminuye los bienes",
+      "translation": "«La caridad no disminuye los bienes. Allah no hace sino aumentar en honor al siervo que perdona, y a quien se humilla por Allah, Allah lo eleva».",
+      "source": "Muslim, 2588"
+    },
+    "market": {
+      "title": "Al entrar en el mercado",
+      "translation": "No hay dios sino Allah, Único, sin asociado. Suyo es el dominio y Suya es la alabanza; Él da la vida y la muerte, y Él es el Viviente que no muere. En Su mano está todo el bien, y Él tiene poder sobre todas las cosas.",
+      "source": "at-Tirmidhi, 3428 — calificación controvertida",
+      "note": "At-Tirmidhi calificó el hadiz de gharib; al-Albani lo calificó de hasan, mientras que muchos críticos del hadiz (Abu Hatim y otros) lo calificaron de débil. Las palabras de recuerdo son correctas, pero la gran recompensa que promete el hadiz no puede afirmarse con certeza.",
+      "translit": "La ilaha il-lallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, yuhyi wa yumit, wa huwa hayyun la yamut, bi-yadihil-jayr, wa huwa ‘ala kul-li shay’in qadir"
+    },
+    "zakat_nisab": {
+      "title": "El nisab y el año",
+      "translation": "«No hay zakat en menos de cinco awaq (de plata)». El nisab de la plata es de 200 dírhams (unos 595 g) y el del oro de 20 dinares (unos 85 g); el zakat se paga cuando ha pasado un año sobre los bienes, a razón de una cuadragésima parte (2,5 %).",
+      "source": "al-Bujari, 1447; Abu Dawud, 1573"
+    },
+    "nuh_parents": {
+      "title": "Dua de Nuh por sí mismo, sus padres y los creyentes",
+      "translation": "Señor mío, perdóname a mí, a mis padres, a quien entre en mi casa siendo creyente, y a los creyentes y las creyentes.",
+      "source": "Corán, 71:28",
+      "translit": "Rabbi-ghfir li wa li-walidayya wa liman dajala baytiya mu’minan wa lil-mu’minina wal-mu’minat"
+    },
+    "burial_lowering": {
+      "title": "Al bajar al difunto a la tumba",
+      "translation": "En el nombre de Allah y según la Sunna del Mensajero de Allah.",
+      "source": "Abu Dawud, 3213 (auténtico)",
+      "translit": "Bismillahi wa ‘ala sunnati rasulillah"
+    },
+    "grave_punishment": {
+      "title": "Protección del castigo de la tumba",
+      "translation": "Oh Allah, me refugio en Ti del castigo del Infierno, del castigo de la tumba, de las pruebas de la vida y de la muerte, y del mal de la prueba del Falso Mesías.",
+      "source": "Muslim, 588",
+      "note": "El Profeta ﷺ nos ordenó decir esto en el último tashahhud de la oración, antes del salam. La sura al-Mulk también protege (ver su tarjeta).",
+      "translit": "Allahumma inni a‘udhu bika min ‘adhabi djahannam, wa min ‘adhabil-qabr, wa min fitnatil-mahya wal-mamat, wa min sharri fitnatil-masihid-dadjdjal"
+    },
+    "ikhlas_11": {
+      "title": "«Al-Ijlas 11 veces en el cementerio»",
+      "translation": "El hadiz sobre la recompensa por recitar la sura al-Ijlas 11 veces en un cementerio y dedicar la recompensa a los muertos es muy débil o inventado. Recitar el Corán en las tumbas es una cuestión controvertida (ver la tarjeta de Ya-Sin). Lo auténtico al visitar las tumbas es saludar a sus moradores y hacer dua por ellos.",
+      "source": "Hadiz sin una cadena fiable: muy débil o inventado"
+    },
+    "toilet_enter": {
+      "title": "Antes de entrar al baño",
+      "translation": "Oh Allah, me refugio en Ti de los demonios machos y hembras.",
+      "source": "al-Bujari, 142; Muslim, 375",
+      "note": "Di «Bismillah» antes (at-Tirmidhi, 606, auténtico). Entra con el pie izquierdo y no menciones a Allah en voz alta dentro.",
+      "translit": "Allahumma inni a‘udhu bika minal-jubuthi wal-jaba’ith"
+    },
+    "toilet_exit": {
+      "title": "Al salir del baño",
+      "translation": "Te pido perdón.",
+      "source": "Abu Dawud, 30; at-Tirmidhi, 7 (auténtico)",
+      "translit": "Ghufranaka"
+    },
+    "rain": {
+      "title": "Cuando llueve",
+      "translation": "Oh Allah, (haz que sea) una lluvia beneficiosa.",
+      "source": "al-Bujari, 1032",
+      "translit": "Allahumma sayyiban nafi‘a"
+    },
+    "after_rain": {
+      "title": "Después de la lluvia",
+      "translation": "Se nos ha dado lluvia por el favor y la misericordia de Allah.",
+      "source": "al-Bujari, 846; Muslim, 71",
+      "translit": "Mutirna bi-fadlillahi wa rahmatih"
+    },
+    "wind": {
+      "title": "Cuando sopla un viento fuerte",
+      "translation": "Oh Allah, te pido su bien, el bien que contiene y el bien con el que fue enviado, y me refugio en Ti de su mal, del mal que contiene y del mal con el que fue enviado.",
+      "source": "Muslim, 899",
+      "translit": "Allahumma inni as’aluka jayraha, wa jayra ma fiha, wa jayra ma ursilat bih, wa a‘udhu bika min sharriha, wa sharri ma fiha, wa sharri ma ursilat bih"
+    },
+    "thunder": {
+      "title": "Al oír el trueno",
+      "translation": "Glorificado sea Aquel a quien el trueno glorifica con Su alabanza, y también los ángeles por temor a Él.",
+      "source": "al-Bujari, «al-Adab al-Mufrad», 723; Malik, «al-Muwatta»: palabras de ‘Abdullah ibn az-Zubair",
+      "note": "Son palabras de un Compañero, no un hadiz del Profeta ﷺ; la frase está tomada del Corán (13:13).",
+      "translit": "Subhanal-ladhi yusabbihur-ra‘du bi-hamdihi wal-mala’ikatu min jifatih"
+    },
+    "ruqyah_jibril": {
+      "title": "La ruqya de Yibril (contra el mal de ojo y la enfermedad)",
+      "translation": "En el nombre de Allah te hago ruqya, de todo lo que te daña, del mal de toda alma o de todo ojo envidioso. Que Allah te cure. En el nombre de Allah te hago ruqya.",
+      "source": "Muslim, 2186",
+      "note": "El ángel Yibril la recitó sobre el Profeta ﷺ cuando estaba enfermo. Se recita sobre el enfermo; se le puede poner la mano en la cabeza.",
+      "translit": "Bismillahi arqik, min kul-li shay’in yu’dhik, min sharri kul-li nafsin aw ‘ayni hasid, Allahu yashfik, bismillahi arqik"
+    },
+    "seeing_afflicted": {
+      "title": "Al ver a alguien que sufre una aflicción",
+      "translation": "Alabado sea Allah, que me libró de aquello con lo que te ha probado a ti y me favoreció por encima de muchas de Sus criaturas.",
+      "source": "at-Tirmidhi, 3432 (hasan)",
+      "note": "Dilo en voz baja, para ti, para no herir a esa persona.",
+      "translit": "Al-hamdu lillahil-ladhi ‘afani mimmab-talaka bih, wa faddalani ‘ala kathirin mimman jalaqa tafdila"
+    },
+    "seeing_pleasing": {
+      "title": "Admirar algo sin echar mal de ojo",
+      "translation": "«Cuando alguno de vosotros vea en sí mismo, en sus bienes o en su hermano algo que le agrade, que pida bendición para ello, pues el mal de ojo es real». Por ejemplo: «Barakallahu fih» (que Allah lo bendiga) o «Allahumma barik ‘alayh».",
+      "source": "Ibn Mayah, 3509 (auténtico según al-Albani)"
+    },
+    "mashallah": {
+      "title": "«Masha’Allah, la quwwata il-la billah»",
+      "translation": "Lo que Allah ha querido (ha sucedido); no hay poder sino por Allah.",
+      "source": "Corán, 18:39",
+      "note": "En el versículo, esto es lo que el dueño del jardín debió decir al entrar en él. Los sabios (Ibn Kazir y otros) aconsejan decirlo al ver algo bueno de lo propio; el versículo no menciona directamente el mal de ojo.",
+      "translit": "Ma sha’ Allahu la quwwata il-la billah"
+    },
+    "sneezing": {
+      "title": "Al estornudar",
+      "translation": "Quien estornuda dice: «Alabado sea Allah». Quien lo oye responde: «Que Allah tenga misericordia de ti». Y el que estornudó dice: «Que Allah te guíe y mejore tus asuntos».",
+      "source": "al-Bujari, 6224",
+      "translit": "Al-hamdu lillah — Yarhamuka-llah — Yahdikumullahu wa yuslihu balakum"
+    },
+    "baqarah_house": {
+      "title": "La sura al-Baqara en el hogar",
+      "translation": "«No convirtáis vuestras casas en cementerios: Satanás huye de la casa en la que se recita la sura al-Baqara».",
+      "source": "Muslim, 780"
+    },
+    "amulets": {
+      "title": "Hilo rojo, amuletos y talismanes «contra el ojo»",
+      "translation": "El Profeta ﷺ dijo: «Quien cuelga un amuleto ha cometido shirk» (Ahmad, 17422) y «Los conjuros, los amuletos y los filtros de amor son shirk» (Abu Dawud, 3883). Un hilo rojo, un talismán «contra el ojo», una herradura y cosas semejantes no son protección. La protección es la dua, Ayat al-Kursi, las suras al-Ijlas, al-Falaq y an-Nas, y la ruqya del Corán y la Sunna. Los sabios difieren solo sobre colgar papeles con versículos del Corán, y muchos también lo prohíben.",
+      "source": "Ahmad, 17422; Abu Dawud, 3883 (auténtico según al-Albani)"
+    },
+    "ruqyah_water": {
+      "title": "Ruqya sobre el agua y agua «cargada»",
+      "translation": "Algunos sabios permiten recitar ruqya (al-Fatiha, al-Ijlas, al-Falaq, an-Nas, Ayat al-Kursi y duas de la Sunna) y soplar en agua que luego el enfermo bebe o con la que se lava; se basan en un relato de Abu Dawud (3885) y en la práctica de algunos de los primeros musulmanes piadosos. La calificación de ese relato es controvertida, y otros sabios sostienen que la ruqya se recita sobre el propio enfermo. No acudas a personas que «cargan» agua a cambio de dinero, usan palabras incomprensibles, realizan rituales o «averiguan quién hizo el hechizo».",
+      "source": "Abu Dawud, 3885 — calificación controvertida"
+    },
+    "fatiha_ruqyah": {
+      "title": "Al-Fatiha como ruqya",
+      "translation": "Un Compañero recitó al-Fatiha sobre el jefe de una tribu al que había picado un escorpión, y este se recuperó. El Profeta ﷺ lo aprobó y preguntó: «¿Cómo supiste que es una ruqya?». Así pues, al-Fatiha se recita sobre el enfermo junto con otras duas de la Sunna.",
+      "source": "al-Bujari, 5736; Muslim, 2201"
+    },
+    "memorial_customs": {
+      "title": "Comidas conmemorativas el 3.º, 7.º y 40.º día y en el aniversario",
+      "translation": "Es auténtico que la caridad en nombre del difunto le llega (Muslim, 1631): dar de comer a la gente por Allah y hacer dua por el difunto se puede hacer cualquier día. Pero un número fijo de panes, hornear los jueves y viernes, las comidas conmemorativas obligatorias el 3.º, 7.º y 40.º día o en el aniversario, y una «dua en el cumpleaños del difunto» no tienen base en el Corán ni en la Sunna. Muchos sabios consideran una innovación (bid‘a) fijar esas fechas; algunos permiten la comida como caridad si no se trata como obligatoria y no se gasta en ella la herencia de huérfanos. La Sunna ante una muerte es que los vecinos den de comer a la familia en duelo, no al revés (Abu Dawud, 3132).",
+      "source": "No hay un texto específico; sobre la caridad por el difunto: Muslim, 1631; sobre la comida para la familia del difunto: Abu Dawud, 3132"
+    },
+    "oppressed_dua_answered": {
+      "title": "La dua del que sufre injusticia es respondida",
+      "translation": "«Guárdate de la súplica del oprimido, pues no hay barrera entre ella y Allah». Si sufriste una injusticia, pide a Allah justicia y ayuda, pero no maldigas sin medida: «No os maldigáis a vosotros mismos, ni a vuestros hijos, ni a vuestros bienes» (Muslim, 3009).",
+      "source": "al-Bujari, 1496; Muslim, 3009"
+    },
+    "musa_people_oppressors": {
+      "title": "Liberación de la gente injusta",
+      "translation": "Señor nuestro, no hagas de nosotros una prueba para la gente injusta, y sálvanos por Tu misericordia del pueblo de los incrédulos.",
+      "source": "Corán, 10:85–86",
+      "translit": "Rabbana la tadj‘alna fitnatan lil-qawmiz-zalimin, wa nadjdjina bi-rahmatika minal-qawmil-kafirin"
+    },
+    "mustadafin": {
+      "title": "La súplica de los oprimidos",
+      "translation": "Señor nuestro, sácanos de esta ciudad cuyos habitantes son opresores, y danos de Tu parte un protector, y danos de Tu parte un auxiliador.",
+      "source": "Corán, 4:75",
+      "note": "En el versículo, estas son las palabras de los hombres, mujeres y niños oprimidos. Se puede recitar por los musulmanes oprimidos en Palestina y en otros lugares.",
+      "translit": "Rabbana ajridjna min hadhihil-qaryatiz-zalimi ahluha wadj‘al lana min ladunka waliyyan wadj‘al lana min ladunka nasira"
+    },
+    "qunut_nazila": {
+      "title": "El qunut en tiempos de calamidad",
+      "translation": "Cuando una calamidad golpeó a los musulmanes, el Profeta ﷺ suplicó durante un mes en la oración después de la inclinación: «¡Oh Allah, salva a los débiles de entre los creyentes!». De esto los sabios derivan el qunut de la calamidad (qunut an-nazila) por los musulmanes oprimidos, también en Palestina. La forma de realizarlo difiere entre las escuelas jurídicas, así que sigue al imam de tu mezquita.",
+      "source": "al-Bujari, 4560"
+    },
+    "tahnik_naming": {
+      "title": "El tahnik y poner nombre al recién nacido",
+      "translation": "Cuando le nació un hijo a Abu Musa, el Profeta ﷺ lo llamó Ibrahim, masticó un dátil y frotó con él el paladar del bebé (tahnik), y pidió bendición para él. El nombre se puede poner el primer día o el séptimo.",
+      "source": "al-Bujari, 5467; Muslim, 2145"
+    },
+    "aqiqah": {
+      "title": "La aqiqa",
+      "translation": "«Todo niño queda en prenda de su aqiqa: se sacrifica un animal por él el séptimo día, se le rapa la cabeza y se le pone nombre» (Abu Dawud, 2838). «Con el niño hay aqiqa; derramad sangre por él y quitadle el daño» (al-Bujari, 5472). La mayoría de los sabios consideran la aqiqa una Sunna recomendada, no una obligación.",
+      "source": "Abu Dawud, 2838 (auténtico); al-Bujari, 5472"
+    },
+    "adhan_newborn": {
+      "title": "El adhan en el oído del recién nacido",
+      "translation": "El hadiz según el cual el Profeta ﷺ pronunció el adhan en el oído de al-Hasan al nacer lo transmiten Abu Dawud (5105) y at-Tirmidhi (1514, quien lo calificó de auténtico). Muchos sabios del hadiz, entre ellos al-Albani en su valoración posterior, lo calificaron de débil. Por eso los sabios difieren: unos consideran el adhan recomendado, otros no establecido. La iqama en el oído izquierdo se basa en hadices aún más débiles.",
+      "source": "Abu Dawud, 5105; at-Tirmidhi, 1514 — calificación controvertida"
+    },
+    "talaq_way_out": {
+      "title": "«A quien teme a Allah, Él le da una salida»",
+      "translation": "A quien teme a Allah, Él le da una salida y le provee de donde no lo espera. A quien confía en Allah, Él le basta.",
+      "source": "Corán, 65:2–3",
+      "note": "Esta es la promesa de Allah a quienes le temen y confían en Él, no un conjuro: la Sunna no indica recitarlo un número determinado de veces «para las deudas» o «para la suerte».",
+      "translit": "Wa man yattaqillaha yadj‘al lahu majradja, wa yarzuqhu min haythu la yahtasib, wa man yatawakkal ‘alallahi fa-huwa hasbuh"
+    },
+    "waqiah_poverty": {
+      "title": "La sura al-Waqi‘a cada noche «contra la pobreza»",
+      "translation": "El hadiz «Quien recite la sura al-Waqi‘a cada noche nunca será alcanzado por la pobreza» fue calificado de débil por la mayoría de los sabios del hadiz (el imam Ahmad, Abu Hatim, ad-Daraqutni, al-Albani), mientras que algunos sabios hanafíes del hadiz lo aceptan para las virtudes de las obras. Recitar esta sura es bueno, como cualquier recitación del Corán, pero la promesa de riqueza por ello no está establecida.",
+      "source": "al-Baihaqi, «Shu‘ab al-Iman» — calificación controvertida, la mayoría: débil"
+    },
+    "muadh_debt": {
+      "title": "El versículo 3:26 «para las deudas» (la dua enseñada a Mu‘adh)",
+      "translation": "Se transmite que el Profeta ﷺ enseñó a Mu‘adh ibn Yabal a recitar «Di: Oh Allah, Dueño de la soberanía…» (3:26) y la dua «Misericordioso de esta vida y de la Otra… ten misericordia de mí con una misericordia que me haga no necesitar la misericordia de nadie fuera de Ti», diciendo: «Aunque tuvieras una deuda del tamaño de una montaña, Allah la pagaría por ti». Al-Albani lo calificó de bueno (hasan); otros sabios del hadiz lo calificaron de débil por su cadena. Así que puedes recitar el versículo y la dua, pero la promesa de que «la deuda desaparecerá» no puede afirmarse con certeza. Las duas auténticas para las deudas están más arriba en esta sección.",
+      "source": "at-Tabarani, «al-Mu‘yam as-Saghir» — calificación controvertida"
+    },
+    "yusr": {
+      "title": "«Con la dificultad viene la facilidad»",
+      "translation": "Ciertamente, con la dificultad viene la facilidad. Ciertamente, con la dificultad viene la facilidad.",
+      "source": "Corán, 94:5–6",
+      "translit": "Fa-inna ma‘al-‘usri yusra. Inna ma‘al-‘usri yusra"
+    },
+    "internet_claims": {
+      "title": "«Recítalo 100 veces y la deuda desaparecerá»: lo que no tiene base",
+      "translation": "Internet está lleno de listas de «versículos para las deudas», «para la suerte» o «para abrir el camino» con un número exacto de repeticiones y un resultado garantizado. La mayoría de estos consejos no tienen fuente en el Corán ni en la Sunna auténtica: un número de repeticiones o una recompensa solo pueden afirmarse cuando un hadiz los indica. Siempre puedes recitar el Corán y hacer dua con tus propias palabras, pero nadie puede prometer un resultado «garantizado». En esta aplicación cada elemento muestra su fuente y su calificación.",
+      "source": "No hay un texto específico; principio: indicar el número de repeticiones y la recompensa solo según una fuente"
+    },
+    "yasin_saffat_money": {
+      "title": "«Ya-Sin y as-Saffat para las dificultades económicas»",
+      "translation": "Preguntado por esto, un muftí respondió que se pueden recitar, pero que no hay ningún hadiz que prometa riqueza por estas suras. Lo mismo se aplica al consejo de «leer 2:280 para que se pague la deuda»: el versículo exhorta a dar un plazo al deudor, no es un conjuro. Las duas auténticas para las deudas están en la sección «Deudas».",
+      "source": "Sin fuente en el Corán ni en la Sunna"
+    },
+    "talbiyah": {
+      "title": "La talbiya",
+      "translation": "Aquí estoy, oh Allah, aquí estoy. Aquí estoy, no tienes asociado, aquí estoy. Ciertamente, toda alabanza, toda gracia y todo el dominio son Tuyos; no tienes asociado.",
+      "source": "al-Bujari, 1549; Muslim, 1184",
+      "note": "Se dice después de entrar en ihram hasta la lapidación del día del sacrificio (en el Hach) o hasta comenzar el tawaf (en la Umra).",
+      "translit": "Labbayka-llahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni‘mata laka wal-mulk, la sharika lak"
+    },
+    "arafah": {
+      "title": "La mejor dua: el Día de Arafa",
+      "translation": "No hay dios sino Allah, Único, sin asociado. Suyo es el dominio y Suya es la alabanza, y Él tiene poder sobre todas las cosas.",
+      "source": "at-Tirmidhi, 3585 (hasan)",
+      "note": "«La mejor dua es la dua del Día de Arafa, y lo mejor que yo y los profetas anteriores a mí hemos dicho…». También es adecuada para quienes no están en el Hach: el Día de Arafa es el 9 de Dhul-Hiyya.",
+      "translit": "La ilaha il-lallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ‘ala kul-li shay’in qadir"
+    },
+    "zamzam": {
+      "title": "El agua de Zamzam",
+      "translation": "«El agua de Zamzam es para aquello por lo que se bebe». Al-Albani y algunos sabios calificaron el hadiz de auténtico; otros sabios del hadiz lo calificaron de débil. Muchos sabios aconsejan pedir a Allah el bien de esta vida y de la Otra al beber Zamzam. Es auténtico que Zamzam es un agua bendita (Muslim, 2473).",
+      "source": "Ibn Mayah, 3062 — calificación controvertida; Muslim, 2473"
+    },
+    "dua_times": {
+      "title": "Cuándo se responde la dua",
+      "translation": "Textos auténticos mencionan momentos en que se espera especialmente que la dua sea respondida: el último tercio de la noche (al-Bujari, 1145), una hora especial del viernes (al-Bujari, 935), entre el adhan y la iqama (Abu Dawud, 521) y en la postración (Muslim, 482). Sobre la dua de Yunus «La ilaha il-la Anta, subhanaka inni kuntu minaz-zalimin»: «Ningún musulmán pide algo con ella sin que Allah le responda» (at-Tirmidhi, 3505). Y no tengas prisa por la respuesta: «A cada uno de vosotros se le responde mientras no se impaciente diciendo: “Supliqué y no se me respondió”» (Muslim, 2735).",
+      "source": "al-Bujari, 1145, 935; Abu Dawud, 521; Muslim, 482, 2735; at-Tirmidhi, 3505"
+    },
+    "salat_hajah": {
+      "title": "La oración de necesidad (salat al-hayah)",
+      "translation": "El hadiz que describe una «oración de necesidad» especial y su dua es muy débil: el propio at-Tirmidhi señaló la debilidad de uno de sus transmisores. Siempre puedes rezar una oración voluntaria y luego pedir a Allah lo que necesitas, pero un procedimiento especial y la promesa de que se cumplirá no están establecidos.",
+      "source": "at-Tirmidhi, 479 — muy débil"
+    },
+    "fatiha_40": {
+      "title": "«Al-Fatiha 40 veces después del Magrib para cualquier necesidad»",
+      "translation": "Algunos sitios web islámicos difunden este «método probado», pero su fuente son las palabras de Ibn Arabi y el libro «Shams al-Ma‘arif», conocido como un libro de magia, no un hadiz. Al-Fatiha es la sura más grandiosa del Corán y siempre se puede recitar, pero el número 40 y la promesa de que se cumplirá no tienen base.",
+      "source": "Sin fuente en el Corán ni en la Sunna"
+    },
+    "taha_21": {
+      "title": "«La sura Ta-Ha 21 veces abre tu destino (kismet)»",
+      "translation": "Este consejo es popular en el internet turco, e incluso los artículos que lo difunden admiten que no tiene fuente. Lo mismo vale para leer Ya-Sin, Ta-Ha u otra sura «41 veces» para casarse o tener suerte. Recitar el Corán es bueno, pero la Sunna no da ninguna promesa especial para estos fines.",
+      "source": "Sin fuente en el Corán ni en la Sunna"
+    },
+    "istighfar_way_out": {
+      "title": "«A quien pide perdón constantemente, Allah le da una salida de toda dificultad»",
+      "translation": "Este hadiz se cita a menudo, pero es débil. Sin embargo, la relación entre pedir perdón y el alivio y el sustento está establecida por el Corán: «Pedid perdón a vuestro Señor… Os enviará lluvia abundante y os dará riquezas e hijos» (71:10–12). Así que pedir perdón para obtener alivio es correcto, basándose en los versículos.",
+      "source": "Abu Dawud, 1518 — débil"
+    },
+    "lost_item_info": {
+      "title": "Qué decir cuando se pierde algo",
+      "translation": "No existe una dua auténtica específica para un objeto perdido. Ante cualquier pérdida, incluso pequeña, puedes decir «Inna lillahi wa inna ilayhi radji‘un» («Pertenecemos a Allah y a Él volveremos», 2:156): Allah elogia a quienes lo dicen ante una desgracia (2:155–157). Después pide a Allah con tus propias palabras que te ayude a encontrarlo; la dua de Yunus sirve para cualquier necesidad.",
+      "source": "Corán, 2:155–157"
+    },
+    "lost_item_popular": {
+      "title": "«Ya Jami‘an-nas…» y ad-Duha 7 veces por un objeto perdido",
+      "translation": "La dua «Oh Allah, Reunidor de los hombres en un Día sobre el que no hay duda (3:9), reúneme con lo que he perdido» y recitar la sura ad-Duha 7 veces (o el versículo 93:7 tres veces) se recomiendan incluso en sitios de preguntas y respuestas, pero la fuente es el libro de Ashraf Ali Thanvi «Remedios del Sagrado Corán», no un hadiz. Puedes pedir a Allah con estas palabras, como con cualquier palabra tuya, pero es una práctica popular, no Sunna.",
+      "source": "Sin fuente en la Sunna: un libro de Ashraf Ali Thanvi"
+    },
+    "tiwala": {
+      "title": "Hechizos de amor y «amarres» del cónyuge",
+      "translation": "El Profeta ﷺ dijo: «Los conjuros, los amuletos y los filtros de amor (tiwala) son shirk» (Abu Dawud, 3883). Los «versículos para amarrar», las notas con versículos bajo la almohada, «para que una persona concreta me ame», «para que mi esposo no tome una segunda esposa» son precisamente tiwala, aunque se usen palabras del Corán. Lo permitido: la dua con tus propias palabras por el amor y la armonía en la familia, 25:74, la istijara antes del matrimonio, hablar las cosas y los árbitros de ambas familias (4:35).",
+      "source": "Abu Dawud, 3883 (auténtico según al-Albani)"
+    },
+    "marriage_numbers": {
+      "title": "«Lee Ya-Sin 41 veces y te casarás»",
+      "translation": "El consejo de leer Ya-Sin, Ta-Ha u otra sura un número determinado de veces para casarse no tiene fuente. El versículo 28:24 («Señor mío, estoy necesitado de cualquier bien…») es una dua real de Musa, tras la cual se casó, pero ningún hadiz dice que se lea «para casarse»: es una dua para cualquier necesidad. Lo auténtico: la istijara (al-Bujari, 1162), la dua 25:74 y pedir con tus propias palabras.",
+      "source": "Sin fuente; sobre la istijara: al-Bujari, 1162"
+    },
+    "arbitration": {
+      "title": "Si los esposos están a punto de separarse",
+      "translation": "«Si teméis una ruptura entre ambos, nombrad un árbitro de la familia de él y un árbitro de la familia de ella. Si ambos desean la reconciliación, Allah hará que se pongan de acuerdo» (4:35). El Corán no ofrece conjuros, sino árbitros de ambas familias y un deseo sincero de reconciliarse.",
+      "source": "Corán, 4:35"
+    },
+    "guidance_for_others": {
+      "title": "Pedir la guía para otra persona",
+      "translation": "Cuando la tribu de Daws rechazó el islam, el Profeta ﷺ no los maldijo, sino que dijo: «¡Oh Allah, guía a Daws y tráelos!» (al-Bujari, 2937). Puedes pedir lo mismo por un ser querido: «Allahumma-hdi [nombre]»: «Oh Allah, guía a fulano». Y cuando suplicas por tu hermano en su ausencia, un ángel dice: «Y para ti lo mismo» (Muslim, 2732).",
+      "source": "al-Bujari, 2937; Muslim, 2732"
+    },
+    "reconcile_best": {
+      "title": "Reconciliar a la gente está por encima del ayuno y la oración voluntarios",
+      "translation": "«¿No queréis que os diga algo de rango más alto que el ayuno, la oración y la caridad (voluntarios)?». «¡Por supuesto!». «Reconciliar a la gente, pues la discordia entre ellos es lo que rasura (destruye) la religión».",
+      "source": "Abu Dawud, 4919; at-Tirmidhi, 2509 (auténtico)"
+    },
+    "three_days": {
+      "title": "No más de tres días, y el mejor es el que saluda primero",
+      "translation": "«No es lícito para un musulmán apartarse de su hermano más de tres días, dándose la espalda cuando se encuentran. El mejor de los dos es el que saluda primero». El primer paso para hacer las paces es un simple «as-salamu ‘alaykum».",
+      "source": "al-Bujari, 6077; Muslim, 2560"
+    },
+    "ibrahim_child": {
+      "title": "Dua de Ibrahim por un hijo piadoso",
+      "translation": "Señor mío, concédeme (un hijo) de entre los rectos.",
+      "source": "Corán, 37:100",
+      "translit": "Rabbi hab li minas-salihin"
+    },
+    "maryam_beauty": {
+      "title": "«La sura Maryam para un bebé hermoso», «una sura para la belleza»",
+      "translation": "El consejo de leer la sura Maryam o Yusuf durante el embarazo para que el bebé sea hermoso, y las «suras para la belleza», no tienen fuente en el Corán ni en la Sunna. Leer estas suras es bueno, como cualquier recitación del Corán, pero no hay ninguna promesa de belleza física por ello. Escribir versículos y atárselos a una mujer de parto es un amuleto (ver «¿Esto es del islam?»).",
+      "source": "Sin fuente en el Corán ni en la Sunna"
+    },
+    "good_character": {
+      "title": "«Así como embelleciste mi forma…»",
+      "translation": "Oh Allah, así como has hecho hermosa mi forma exterior, haz hermoso también mi carácter.",
+      "source": "Ahmad (auténtico según al-Albani)",
+      "note": "La dua en sí es auténtica; las versiones que la vinculan específicamente a mirarse al espejo son débiles. Se puede decir en cualquier momento.",
+      "translit": "Allahumma kama hassanta jalqi fa-hassin juluqi"
+    },
+    "tasbih_fatimah": {
+      "title": "El tasbih de Fátima antes de dormir: mejor que un sirviente",
+      "translation": "Glorificado sea Allah. Alabado sea Allah. Allah es el más Grande.",
+      "source": "al-Bujari, 3705; Muslim, 2727",
+      "note": "Fátima estaba agotada por el trabajo duro y pidió un sirviente. El Profeta ﷺ le dijo a ella y a ‘Ali que dijeran esto al acostarse: «Es mejor para vosotros que un sirviente». Para la pereza y la debilidad, ver también la dua «…wal-‘adjzi wal-kasal» en la sección «Deudas».",
+      "translit": "Subhanallah (33 veces), al-hamdu lillah (33 veces), Allahu akbar (34 veces)"
+    }
+  }
+}

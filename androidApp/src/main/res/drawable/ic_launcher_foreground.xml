@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- An open book with a crescent above it. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38c-7,-5 -15,-7 -23,-7v34c8,0 16,2 23,7c7,-5 15,-7 23,-7V31C69,31 61,33 54,38z" />
+    <path
+        android:fillColor="#E5C27E"
+        android:pathData="M54,22c-6,0 -11,-4 -11,-10c0,-3 1,-6 3,-8c-6,2 -10,8 -10,14c0,8 7,15 15,15c5,0 10,-3 13,-7C61,21 58,22 54,22z" />
+</vector>

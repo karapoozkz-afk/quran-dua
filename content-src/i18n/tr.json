@@ -1,0 +1,1529 @@
+{
+  "situations": {
+    "cemetery": {
+      "title": "Mezarlıkta, kabir başında",
+      "subtitle": "Kabir ziyaretinde ne söylenir",
+      "keywords": [
+        "mezarlık",
+        "kabir",
+        "kabirler",
+        "mezar",
+        "kabir ziyareti",
+        "mezar ziyareti",
+        "kabristan",
+        "türbe",
+        "kabir başında",
+        "mezarlık duası",
+        "kabir ziyaretinde okunacak dua",
+        "babamın mezarında",
+        "annemin mezarında",
+        "mezar başında okunacak sure",
+        "anne babamın kabrinde"
+      ],
+      "notice": "Kabir başında Kur'an okumak ve sevabını ölüye bağışlamak, âlimlerin farklı görüşte olduğu bir konudur; bu tür uygulamalar aşağıda tartışmalı olarak işaretlenmiştir. Vefat etmiş mümin için dua ve istiğfar ise sahih olarak sabittir."
+    },
+    "deceased": {
+      "title": "Vefat edenler için dua",
+      "subtitle": "Baba, anne, akrabalar ve vefat etmiş bütün Müslümanlar için",
+      "keywords": [
+        "ölü",
+        "ölüler için dua",
+        "vefat",
+        "vefat eden",
+        "öldü",
+        "rahmetli",
+        "rahmetli babam",
+        "rahmetli annem",
+        "cenaze",
+        "cenaze namazı",
+        "ölünün arkasından",
+        "annem vefat etti",
+        "babam vefat etti"
+      ]
+    },
+    "death_news": {
+      "title": "Kayıp ve yas",
+      "subtitle": "Bir ölüm ya da musibet haberi alınca",
+      "keywords": [
+        "ölüm",
+        "ölüm haberi",
+        "vefat haberi",
+        "kayıp",
+        "yas",
+        "keder",
+        "başsağlığı",
+        "taziye",
+        "musibet",
+        "felaket",
+        "biri öldü",
+        "acı haber",
+        "inna lillah"
+      ]
+    },
+    "debts": {
+      "title": "Borçlar",
+      "subtitle": "Borçtan ve borcun yükünden kurtulmak",
+      "keywords": [
+        "borç",
+        "borçlar",
+        "borcum var",
+        "borçtan kurtulmak",
+        "borç duası",
+        "borcumu ödemek",
+        "borç ödeme",
+        "borçlu",
+        "kredi",
+        "kredi borcu",
+        "kredi kartı borcu",
+        "konut kredisi",
+        "ipotek",
+        "çok borcum var",
+        "borç ve tembellik",
+        "borç için ayetler",
+        "borcumu geri alamıyorum",
+        "verdiğim borç geri gelsin"
+      ],
+      "notice": "Dua, pratik adımların yerini tutmaz: bir geri ödeme planı yapın, alacaklılarınızla konuşun ve ribadan (faizden) uzak durun."
+    },
+    "rizq": {
+      "title": "Rızık, iş, para",
+      "subtitle": "Para sıkıntısı, iş arama, ticaret, bereket",
+      "keywords": [
+        "rızık",
+        "rızık duası",
+        "para",
+        "param yok",
+        "fakirlik",
+        "yoksulluk",
+        "geçim sıkıntısı",
+        "iş",
+        "iş bulmak",
+        "iş arıyorum",
+        "ticaret",
+        "bereket",
+        "gelir",
+        "maaş",
+        "işten çıkarıldım",
+        "zengin olmak",
+        "zengin olmak için dua",
+        "zenginlik",
+        "ticarette bereket",
+        "işyeri açılış duası",
+        "müşteri gelsin"
+      ]
+    },
+    "illness": {
+      "title": "Hastalık ve şifa",
+      "subtitle": "Hasta için, ağrı için, hasta ziyaretinde",
+      "keywords": [
+        "hastalık",
+        "hasta",
+        "hastayım",
+        "hastalandı",
+        "ağrı",
+        "acı",
+        "şifa",
+        "şifa duası",
+        "sağlık",
+        "tedavi",
+        "rukye",
+        "hastane",
+        "ameliyat",
+        "hasta ziyareti"
+      ],
+      "notice": "Dua ve dinî uygulamalar tıbbi tedavinin yerini tutmaz. Gerektiğinde doktora başvurun."
+    },
+    "anxiety": {
+      "title": "Kaygı, hüzün, korku",
+      "subtitle": "Kalbiniz daraldığında",
+      "keywords": [
+        "kaygı",
+        "endişe",
+        "endişeliyim",
+        "üzüntü",
+        "hüzün",
+        "keder",
+        "depresyon",
+        "korku",
+        "korkuyorum",
+        "stres",
+        "panik",
+        "yalnızlık",
+        "sıkıntı",
+        "içim daralıyor",
+        "zor günler"
+      ],
+      "notice": "Kaygı veya çökkün ruh hâli hayatınızı etkiliyorsa lütfen bir uzmana da başvurun. Bu, Allah'a tevekkülle çelişmez."
+    },
+    "sleep": {
+      "title": "Uyku ve uyanış",
+      "subtitle": "Uyumadan önce, uykusuzluk, uyanınca",
+      "keywords": [
+        "uyku",
+        "uyumadan önce",
+        "yatmadan önce",
+        "yatarken okunacak dua",
+        "uyuyamıyorum",
+        "uykusuzluk",
+        "uyanınca",
+        "uyanmak",
+        "gece",
+        "kâbus",
+        "kabus",
+        "kötü rüya"
+      ]
+    },
+    "morning_evening": {
+      "title": "Sabah ve akşam",
+      "subtitle": "Günlük zikirler",
+      "keywords": [
+        "sabah",
+        "akşam",
+        "sabah zikirleri",
+        "akşam zikirleri",
+        "zikir",
+        "zikirler",
+        "ezkar",
+        "günlük dua",
+        "her gün",
+        "sabah duası",
+        "akşam duası"
+      ]
+    },
+    "travel": {
+      "title": "Yolculuk",
+      "subtitle": "Yola çıkmadan önce, yolda, dönüşte",
+      "keywords": [
+        "yolculuk",
+        "yolculuk duası",
+        "sefer",
+        "seyahat",
+        "yola çıkmak",
+        "yol duası",
+        "uçak",
+        "uçuş",
+        "araba",
+        "araba kullanmak",
+        "dönüş",
+        "eve dönüş",
+        "iş seyahati"
+      ]
+    },
+    "weather": {
+      "title": "Yağmur, rüzgâr ve gök gürültüsü",
+      "subtitle": "Kötü havada ne söylenir",
+      "keywords": [
+        "yağmur",
+        "yağmur yağıyor",
+        "yağmur duası",
+        "rüzgâr",
+        "rüzgar",
+        "fırtına",
+        "gök gürültüsü",
+        "şimşek",
+        "yıldırım",
+        "hava",
+        "kuraklık"
+      ]
+    },
+    "home": {
+      "title": "Ev",
+      "subtitle": "Evden çıkarken ve eve girerken",
+      "keywords": [
+        "ev",
+        "evden çıkarken",
+        "evden çıkış",
+        "evden çıkma duası",
+        "eve girerken",
+        "eve giriş",
+        "eve girme duası",
+        "dışarı çıkmak"
+      ]
+    },
+    "toilet": {
+      "title": "Tuvalet",
+      "subtitle": "Girerken ve çıkarken",
+      "keywords": [
+        "tuvalet",
+        "lavabo",
+        "banyo",
+        "helâ",
+        "hela",
+        "ayak yolu",
+        "wc",
+        "tuvalete girerken",
+        "tuvaletten çıkarken"
+      ]
+    },
+    "food": {
+      "title": "Yemek",
+      "subtitle": "Yemekten önce ve sonra",
+      "keywords": [
+        "yemek",
+        "yemek duası",
+        "yemekten önce",
+        "yemekten sonra",
+        "öğün",
+        "kahvaltı",
+        "öğle yemeği",
+        "akşam yemeği",
+        "sofra",
+        "sofra duası"
+      ]
+    },
+    "prayer": {
+      "title": "Namaz, cami, abdest",
+      "subtitle": "Camiye girerken, abdestten sonra, namazdan sonra",
+      "keywords": [
+        "namaz",
+        "salat",
+        "cami",
+        "camiye girerken",
+        "mescit",
+        "abdest",
+        "abdest duası",
+        "abdestten sonra",
+        "namazdan sonra",
+        "tesbihat",
+        "namaz duası"
+      ]
+    },
+    "forgiveness": {
+      "title": "Bağışlanma ve tövbe",
+      "subtitle": "İstiğfar ve tövbe",
+      "keywords": [
+        "bağışlanma",
+        "af",
+        "affet",
+        "günah",
+        "günahlar",
+        "günahlarım",
+        "tövbe",
+        "tevbe",
+        "tövbe etmek",
+        "istiğfar",
+        "seyyidül istiğfar",
+        "mağfiret"
+      ]
+    },
+    "family": {
+      "title": "Aile ve anne-baba",
+      "subtitle": "Anne-baba ve eş için, evde huzur",
+      "keywords": [
+        "aile",
+        "anne baba",
+        "annem",
+        "babam",
+        "anne",
+        "baba",
+        "eşim",
+        "kocam",
+        "karım",
+        "eş",
+        "kavga",
+        "aile sorunları",
+        "huzur",
+        "akrabalar"
+      ]
+    },
+    "parents": {
+      "title": "Anne-baba için dua",
+      "subtitle": "Hayatta olan ve vefat etmiş anne ve baba için",
+      "keywords": [
+        "anne baba",
+        "anne baba için dua",
+        "anne babam için",
+        "annem için dua",
+        "babam için dua",
+        "anne",
+        "baba",
+        "annem",
+        "babam",
+        "ebeveyn"
+      ]
+    },
+    "marriage": {
+      "title": "Evlilik",
+      "subtitle": "Eş aramak, düğün",
+      "keywords": [
+        "evlilik",
+        "nikâh",
+        "nikah",
+        "düğün",
+        "evlenmek",
+        "evlilik duası",
+        "eş bulmak",
+        "koca bulmak",
+        "hayırlı eş",
+        "hayırlı kısmet",
+        "kısmet",
+        "düğün tebriği"
+      ]
+    },
+    "children": {
+      "title": "Çocuklar",
+      "subtitle": "Çocuk istemek, onları korumak, yeni doğan",
+      "keywords": [
+        "çocuk",
+        "çocuklar",
+        "evlat",
+        "bebek",
+        "çocuk istiyorum",
+        "çocuk sahibi olmak",
+        "hayırlı evlat",
+        "hamilelik",
+        "kısırlık",
+        "yeni doğan",
+        "doğum",
+        "oğlum",
+        "kızım",
+        "çocuklar için uyku öncesi sure",
+        "çocuğa yatmadan önce okunacak dua",
+        "çocuğa okunacak sure",
+        "oğlum için dua",
+        "kızım için dua"
+      ]
+    },
+    "newborn": {
+      "title": "Doğum ve yeni doğan",
+      "subtitle": "Kolay doğum, akika, tahnik, kulağa ezan",
+      "keywords": [
+        "doğum",
+        "doğum sancısı",
+        "kolay doğum",
+        "hamile",
+        "hamilelik",
+        "yeni doğan",
+        "bebek doğdu",
+        "akika",
+        "akika kurbanı",
+        "tahnik",
+        "kulağa ezan",
+        "isim koymak",
+        "bebeğe isim"
+      ],
+      "notice": "Kolay doğum için özel, sahih bir dua yoktur. Kolaylık için yapılan her dua uygundur; örneğin aşağıdaki «Allâhumme lâ sehle…» duası ve kendi sözlerinizle yapacağınız dualar."
+    },
+    "important": {
+      "title": "Önemli işler ve kararlar",
+      "subtitle": "İstihare, zor bir iş, sınav, ders",
+      "keywords": [
+        "istihare",
+        "istihare namazı",
+        "karar",
+        "karar vermek",
+        "seçim",
+        "önemli iş",
+        "zor iş",
+        "sınav",
+        "sınav duası",
+        "ders",
+        "iş görüşmesi",
+        "mülakat",
+        "konuşma",
+        "ilim"
+      ]
+    },
+    "protection": {
+      "title": "Korunma",
+      "subtitle": "Kötülükten, nazardan, şeytandan; öfkelenince",
+      "keywords": [
+        "korunma",
+        "korunma duası",
+        "nazar",
+        "haset",
+        "kıskançlık",
+        "şeytan",
+        "cin",
+        "büyü",
+        "sihir",
+        "öfke",
+        "sinirlenmek",
+        "kızgınlık",
+        "düşmanlar",
+        "tehlike"
+      ]
+    },
+    "evil_eye": {
+      "title": "Nazar ve zarar",
+      "subtitle": "Korunma, rukye ve beğenince söylenecek söz",
+      "keywords": [
+        "nazar",
+        "göz değmesi",
+        "nazar duası",
+        "nazardan korunma",
+        "nazar boncuğu",
+        "haset",
+        "kıskançlık",
+        "büyü",
+        "kara büyü",
+        "sihir",
+        "rukye",
+        "maşallah",
+        "suya okumak",
+        "suya okunacak dua",
+        "okunmuş su",
+        "nazardan korunma duası",
+        "maşallah demek"
+      ],
+      "notice": "Muskalar, ipler ve «nazar boncukları» İslam'da koruma sağlamaz (aşağıdaki karta bakın). Rahatsızlık devam ederse doktora başvurun: rukye ve dua tedavinin yerini tutmaz."
+    },
+    "oppression": {
+      "title": "Zulüm ve mazlumlar",
+      "subtitle": "Haksızlığa uğrayınca ve mazlumlar için dua (Filistin ve diğerleri)",
+      "keywords": [
+        "zulüm",
+        "haksızlık",
+        "haksızlığa uğradım",
+        "mazlum",
+        "mazlumlar",
+        "zalim",
+        "adaletsizlik",
+        "filistin",
+        "gazze",
+        "savaş",
+        "iftira",
+        "baskı",
+        "mazlumun duası"
+      ]
+    },
+    "gratitude": {
+      "title": "Şükür ve sevinç",
+      "subtitle": "Güzel bir şey olduğunda",
+      "keywords": [
+        "şükür",
+        "şükretmek",
+        "şükür duası",
+        "teşekkür",
+        "minnettar",
+        "sevinç",
+        "müjde",
+        "güzel haber",
+        "elhamdülillah",
+        "hamd"
+      ]
+    },
+    "ramadan": {
+      "title": "Ramazan ve oruç",
+      "subtitle": "İftar, Kadir Gecesi, yeni ay",
+      "keywords": [
+        "ramazan",
+        "oruç",
+        "oruç tutmak",
+        "iftar",
+        "iftar duası",
+        "sahur",
+        "kadir gecesi",
+        "yeni ay",
+        "hilal",
+        "ramazan duası"
+      ]
+    },
+    "friday_eid": {
+      "title": "Cuma ve bayram",
+      "subtitle": "Cuma, Ramazan Bayramı, Kurban Bayramı",
+      "keywords": [
+        "cuma",
+        "cuma günü",
+        "hayırlı cumalar",
+        "bayram",
+        "ramazan bayramı",
+        "kurban bayramı",
+        "bayram tebriği",
+        "kurban",
+        "kehf suresi",
+        "salavat"
+      ]
+    },
+    "birthday": {
+      "title": "Doğum günü",
+      "subtitle": "Birine neler dilenebilir",
+      "keywords": [
+        "doğum günü",
+        "doğum günü duası",
+        "yıl dönümü",
+        "tebrik",
+        "tebrik etmek",
+        "kutlama",
+        "dilek",
+        "iyi dilekler"
+      ],
+      "notice": "Sünnette doğum gününe özel bir dua yoktur ve doğum günü kutlamak âlimler arasında ihtilaflı bir konudur. Aşağıda, herhangi bir günde birinin hayrı için yapabileceğiniz genel sahih dualar yer almaktadır."
+    },
+    "zakat": {
+      "title": "Zekât ve sadaka",
+      "subtitle": "Kime verilir, ne kadar, sadakanın sevabı",
+      "keywords": [
+        "zekât",
+        "zekat",
+        "sadaka",
+        "hayır",
+        "bağış",
+        "bağış yapmak",
+        "nisap",
+        "ne kadar zekat",
+        "zekat kime verilir",
+        "zekat hesaplama"
+      ],
+      "notice": "Zekâtınızı hesaplamak için Diğer → Zekât hesaplayıcı bölümünü açın."
+    },
+    "customs": {
+      "title": "Bu İslam'dan mı?",
+      "subtitle": "Gelenekler: anma günleri, muskalar, kırmızı ip",
+      "keywords": [
+        "gelenek",
+        "adet",
+        "örf",
+        "bu islam'da var mı",
+        "muska",
+        "tılsım",
+        "kırmızı ip",
+        "bid'at",
+        "bidat",
+        "ölünün kırkı",
+        "kırk günü",
+        "yedisi",
+        "ölüm yıl dönümü",
+        "anma",
+        "ayet yazmak",
+        "ayet taşımak",
+        "ayetli su",
+        "suya ayet okumak",
+        "bağlama büyüsü",
+        "sevgi büyüsü"
+      ],
+      "notice": "Burada yaygın gelenekler incelenir: bunlarda neyin Kur'an ve Sünnete dayandığı, neyin dayanmadığı. Âlimlerin farklı görüşte olduğu yerlerde bu açıkça belirtilir."
+    },
+    "hardship": {
+      "title": "«Yolum kapalı», sıkıntılar, başarısızlıklar",
+      "subtitle": "Hiçbir şey yolunda gitmediğinde ve bütün kapılar kapalı göründüğünde",
+      "keywords": [
+        "yolum kapalı",
+        "yolumu aç",
+        "yol açma duası",
+        "kapılar kapalı",
+        "şansım yok",
+        "şanssızlık",
+        "işlerim ters gidiyor",
+        "hiçbir şey yolunda gitmiyor",
+        "kısmet açma",
+        "kısmetim kapalı",
+        "sıkıntı",
+        "zor durum",
+        "darlık",
+        "çıkış yolu",
+        "çaresizim",
+        "her şey yolunda gitsin",
+        "allah yardım etsin",
+        "bütün kapılar açılsın",
+        "kapıları açan dua",
+        "çıkış yolu yok"
+      ],
+      "notice": "Kur'an ve Sünnet'te özel bir ayet, ayin veya muska ile açılan «kapalı yol» diye bir kavram yoktur. Sıkıntıları takva, istiğfar, dua ve Allah'a tevekkül (65:2–3, 71:10–12) ile birlikte olağan pratik adımlar hafifletir. Size para karşılığında «yolunuzu açmayı», «kısmetinizi açmayı» ya da sizi uğursuzluktan «temizlemeyi» teklif ediyorlarsa, bu İslam'dan değildir."
+    },
+    "hajj": {
+      "title": "Hac ve umre",
+      "subtitle": "Telbiye, Arafat, Zemzem",
+      "keywords": [
+        "hac",
+        "umre",
+        "mekke",
+        "kabe",
+        "tavaf",
+        "telbiye",
+        "lebbeyk",
+        "arafat",
+        "arefe",
+        "zemzem",
+        "hac duaları",
+        "umre duaları",
+        "safa",
+        "merve",
+        "ihram"
+      ]
+    },
+    "wish": {
+      "title": "Dilek ve ihtiyaç için",
+      "subtitle": "Duanın kabul olması için nasıl ve ne zaman istenir",
+      "keywords": [
+        "dilek",
+        "dilek duası",
+        "dileğim gerçekleşsin",
+        "dileklerin kabulü için dua",
+        "hacet",
+        "hacet duası",
+        "hacet namazı",
+        "murat",
+        "muradın hasıl olması için dua",
+        "allah yardım etsin",
+        "her şey yolunda gitsin",
+        "dua ne zaman kabul olur",
+        "duaların kabul olduğu vakitler",
+        "kabul olan dua"
+      ]
+    },
+    "lost_item": {
+      "title": "Kaybolan eşya",
+      "subtitle": "Bir şey kaybolduğunda ne denir",
+      "keywords": [
+        "kayıp",
+        "kaybettim",
+        "kayıp eşya",
+        "kayıp eşya duası",
+        "kaybolan eşyayı bulmak için dua",
+        "kaybolan şeyi bulma duası",
+        "bulamıyorum",
+        "kayboldu",
+        "kaybolan hayvan",
+        "çalındı"
+      ]
+    },
+    "spouses": {
+      "title": "Karı-koca ilişkisi",
+      "subtitle": "Sevgi, kavga, barışma",
+      "keywords": [
+        "koca",
+        "kocam",
+        "eşim",
+        "karı koca",
+        "kocamın beni sevmesi için",
+        "kocamın beni sevmesi için dua",
+        "eşler arası muhabbet duası",
+        "kocamla kavga",
+        "eşimle kavga ettik",
+        "eşimle barışmak",
+        "boşanma",
+        "kocam eve dönsün",
+        "kuma",
+        "bağlama duası",
+        "bağlama büyüsü"
+      ],
+      "notice": "Sünnette kocanın «sevmesi», «özlemesi» ya da «ikinci eş almaması» için özel ayetler yoktur; «bağlama» ve sevgi büyüsü ise haram olan sihirdir (karta bakın). Allah'tan kendi sözlerinizle isteyin, birbirinizle konuşun, ciddi bir anlaşmazlıkta ise her iki aileden hakemler çağırın (4:35)."
+    },
+    "reconcile": {
+      "title": "Biriyle barışmak",
+      "subtitle": "Akraba, arkadaş veya komşuyla küslük",
+      "keywords": [
+        "barışmak",
+        "barışma",
+        "barışma duası",
+        "küslük",
+        "küsüz",
+        "küstük",
+        "kavga",
+        "darıldık",
+        "kırgınlık",
+        "konuşmuyoruz",
+        "akrabalarla küslük",
+        "birini affetmek"
+      ]
+    },
+    "conceive": {
+      "title": "Çocuk istiyorum, hamilelik",
+      "subtitle": "Peygamberlerin evlat duaları",
+      "keywords": [
+        "hamile kalmak",
+        "hamile kalmak için dua",
+        "çocuk istiyorum",
+        "çocuğum olmuyor",
+        "kısırlık",
+        "hamilelik",
+        "çocuksuzluk",
+        "evlat duası",
+        "evlat sahibi olmak için dua",
+        "hayırlı evlat"
+      ],
+      "notice": "Dua, muayene ve tedavinin yerini tutmaz: doktora başvurun. Sünnette «hamile kalmak için» özel bir sure yoktur; aşağıda peygamberlerin Kur'an'daki evlat duaları yer alır."
+    },
+    "addiction": {
+      "title": "Yakınım içiyor veya bağımlı",
+      "subtitle": "Alkol, uyuşturucu, kumar",
+      "keywords": [
+        "içki",
+        "içiyor",
+        "kocam içiyor",
+        "kocamın içkiyi bırakması için dua",
+        "içkiyi bıraktırma duası",
+        "alkol",
+        "alkolik",
+        "alkolizm",
+        "uyuşturucu",
+        "madde bağımlılığı",
+        "bağımlılık",
+        "kumar",
+        "kumar bağımlılığı",
+        "sigara"
+      ],
+      "notice": "«İçkiyi bıraksın diye» özel ayetler yoktur. Yakınınızın hidayeti için Allah'a dua edin ve gerçek yardım arayın: bağımlılık uzmanı bir doktor, rehabilitasyon merkezi, aileler için destek grupları. Şiddet tehlikesi varsa acil yardım ya da destek hatlarına başvurun."
+    },
+    "laziness": {
+      "title": "Tembellik, güçsüzlük",
+      "subtitle": "Hiçbir şey yapmak istemediğinizde",
+      "keywords": [
+        "tembellik",
+        "tembelim",
+        "halsizlik",
+        "güçsüzlük",
+        "yorgunluk",
+        "yorgunum",
+        "motivasyonum yok",
+        "isteksizlik",
+        "erken kalkmak",
+        "sabah kalkamıyorum",
+        "uyuyakaldım"
+      ]
+    },
+    "appearance": {
+      "title": "Ayna ve dış görünüş",
+      "subtitle": "Güzel ahlak için dua",
+      "keywords": [
+        "ayna",
+        "aynaya bakınca",
+        "aynaya bakarken okunacak dua",
+        "güzellik",
+        "güzel olmak",
+        "güzel olmak için dua",
+        "güzellik duası",
+        "dış görünüş",
+        "güzellik için sure"
+      ]
+    }
+  },
+  "duas": {
+    "grave_greeting": {
+      "title": "Kabir ziyaretinde selam",
+      "translation": "Ey bu diyarın mümin ve Müslüman sakinleri, selam üzerinize olsun! Biz de inşallah size katılacağız. Allah'tan kendimiz ve sizin için afiyet dilerim.",
+      "source": "Müslim, 975"
+    },
+    "grave_istighfar": {
+      "title": "Defnedildikten sonra: ölü için sebat dilemek",
+      "translation": "Allah'ım, onu bağışla! Allah'ım, onu sabit kıl!",
+      "source": "Ebû Dâvûd, 3221 (Elbânî'ye göre sahih)",
+      "note": "Defin bittiğinde Peygamber ﷺ şöyle buyurdu: «Kardeşiniz için bağışlanma dileyin ve onun için sebat isteyin, çünkü o şu anda sorguya çekilmektedir.» Kadın için: «Allâhümmağfir lehâ, Allâhümme sebbithâ»."
+    },
+    "janazah_male": {
+      "title": "Vefat eden erkek için dua",
+      "translation": "Allah'ım, onu bağışla, ona merhamet et, ona afiyet ver ve onu affet. Varışını güzel kıl, gireceği yeri genişlet. Onu su, kar ve dolu ile yıka; beyaz elbisenin kirden temizlendiği gibi onu günahlardan temizle. Ona evinden daha hayırlı bir ev, ailesinden daha hayırlı bir aile ve eşinden daha hayırlı bir eş ver. Onu cennete koy; kabir azabından ve cehennem azabından koru.",
+      "source": "Müslim, 963",
+      "note": "Cenaze namazında ve herhangi bir zamanda ölü için okunur."
+    },
+    "janazah_female": {
+      "title": "Vefat eden kadın için dua",
+      "translation": "Allah'ım, onu bağışla, ona merhamet et, ona afiyet ver ve onu affet. Varışını güzel kıl, gireceği yeri genişlet. Onu su, kar ve dolu ile yıka; beyaz elbisenin kirden temizlendiği gibi onu günahlardan temizle. Onu cennete koy; kabir azabından ve cehennem azabından koru.",
+      "source": "Müslim, 963 (zamirlerin dişil hâli)",
+      "note": "Hadis bir erkek hakkında rivayet edilmiştir; âlimler, kadın için Arapça zamirlerin dişil yapıldığını belirtir. Daha hayırlı eşle ilgili ifade genellikle söylenmez."
+    },
+    "parents_mercy": {
+      "title": "Anne-baba için dua",
+      "translation": "Rabbim! Onlar beni küçükken nasıl yetiştirdilerse, sen de onlara öyle merhamet et.",
+      "source": "Kur'an, 17:24"
+    },
+    "parents_forgive": {
+      "title": "Benim, anne-babamın ve müminlerin bağışlanması için",
+      "translation": "Rabbimiz! Hesabın görüleceği gün beni, anne-babamı ve müminleri bağışla.",
+      "source": "Kur'an, 14:41"
+    },
+    "all_believers": {
+      "title": "Vefat etmiş bütün müminler için",
+      "translation": "Rabbimiz! Bizi ve bizden önce iman etmiş kardeşlerimizi bağışla; kalplerimizde iman edenlere karşı hiçbir kin bırakma. Rabbimiz! Şüphesiz sen çok şefkatlisin, çok merhametlisin.",
+      "source": "Kur'an, 59:10"
+    },
+    "deceased_charity": {
+      "title": "Ölüye fayda veren şeyler",
+      "translation": "«İnsan ölünce üç şey dışında ameli kesilir: sadaka-i câriye, faydalı ilim ve kendisine dua eden salih evlat.» Ölü adına verilen sadakanın ve borçlarının ödenmesinin ona fayda verdiği de sahih olarak sabittir.",
+      "source": "Müslim, 1631; Buhârî, 2760 (anne için sadaka)"
+    },
+    "yasin_dispute": {
+      "title": "Ölüler için ve kabirlerde Yâsîn suresi okumak",
+      "translation": "«Ölmek üzere olanlarınıza Yâsîn okuyun» hadisi (Ebû Dâvûd, 3121) bazı âlimlerce (Nevevî, Elbânî) zayıf, bazılarınca (İbn Hibbân) sahih kabul edilmiştir; birçok âlim bunu kabir başında değil, ölmek üzere olan kişinin yanında okumak olarak anlar. Kabir başında Kur'an okumayı ve sevabını ölüye bağışlamayı Hanefîler ve Hanbelîler caiz görürken, birçok Mâlikî ve Şâfiî bunu mekruh sayar ya da sevabın ölüye ulaşmadığını söyler. Bu, sabit bir sünnet değildir: kabirlerde sahih olan, selam vermek ve dua etmektir.",
+      "source": "Ebû Dâvûd, 3121 — değerlendirmesi tartışmalı"
+    },
+    "mulk_virtue": {
+      "title": "Mülk suresi — kabir azabından korunma",
+      "translation": "Peygamber ﷺ Mülk suresi hakkında şöyle buyurdu: «Kur'an'da otuz ayetlik bir sure vardır ki, bir adam için şefaat etti ve sonunda o adam bağışlandı.» Bu, kişinin hayattayken onu düzenli olarak okuması hakkındadır (Peygamber ﷺ onu uyumadan önce okurdu), kabir başında okumakla ilgili değildir.",
+      "source": "Tirmizî, 2891 (hasen); Tirmizî, 2892"
+    },
+    "calamity": {
+      "title": "Ölüm ya da musibet haberi alınca",
+      "translation": "Biz Allah'a aitiz ve şüphesiz O'na döneceğiz. Allah'ım, bu musibetimde bana ecir ver ve bana ondan daha hayırlısını ver.",
+      "source": "Müslim, 918"
+    },
+    "closing_eyes": {
+      "title": "Ölünün gözlerini kaparken",
+      "translation": "Allah'ım, (ölünün adı)'nı bağışla, hidayete erenler arasında derecesini yükselt, geride bıraktıklarına sen sahip çık. Ey âlemlerin Rabbi, bizi ve onu bağışla, kabrini genişlet ve orada onu nurlandır.",
+      "source": "Müslim, 920",
+      "note": "«Fulân» yerine ölünün adını söyleyin."
+    },
+    "condolence": {
+      "title": "Ölünün ailesine başsağlığı dilemek",
+      "translation": "Aldığı da Allah'ındır, verdiği de O'nundur; O'nun katında her şeyin belirlenmiş bir süresi vardır. O hâlde sabret ve sevabını Allah'tan bekle.",
+      "source": "Buhârî, 1284; Müslim, 923",
+      "note": "Peygamber ﷺ bu sözleri, çocuğu ölmek üzereyken kızına göndermişti. Kendi sözlerinizle başsağlığı dilemek de uygundur."
+    },
+    "debt_halal": {
+      "title": "Borçtan kurtulmak için dua",
+      "translation": "Allah'ım, helalinle beni haramından müstağni kıl ve lütfunla beni senden başkasına muhtaç etme.",
+      "source": "Tirmizî, 3563 (hasen)",
+      "note": "Ali (radıyallahu anh), bu sözleri Peygamber'in ﷺ kendisine öğrettiğini ve dağ kadar borç olsa bile Allah'ın onun ödenmesine yardım edeceğini söylemiştir."
+    },
+    "debt_worry": {
+      "title": "Kaygıdan, hüzünden ve borç yükünden",
+      "translation": "Allah'ım, kaygıdan ve hüzünden, acizlikten ve tembellikten, cimrilikten ve korkaklıktan, borç yükünden ve insanların baskısı altında kalmaktan sana sığınırım.",
+      "source": "Buhârî, 6369"
+    },
+    "debt_maghram": {
+      "title": "Günahtan ve borçtan sığınma (namazın sonunda)",
+      "translation": "Allah'ım, günahtan ve borçtan sana sığınırım.",
+      "source": "Buhârî, 832; Müslim, 589",
+      "note": "Peygamber ﷺ bunu namazda sıkça söylerdi. Sebebi sorulunca şöyle buyurdu: «Kişi borçlandığında konuşur ve yalan söyler, söz verir ve sözünden döner.»"
+    },
+    "istighfar_rizq": {
+      "title": "İstiğfar yağmur, mal ve evlat getirir",
+      "translation": "Dedim ki: «Rabbinizden bağışlanma dileyin; çünkü O çok bağışlayıcıdır. Üzerinize gökten bol bol yağmur indirsin, size mallar ve oğullar versin, size bahçeler ve ırmaklar ihsan etsin.»",
+      "source": "Kur'an, 71:10–12",
+      "note": "Bu ayetler istiğfarın meyvelerini anlatır. İstiğfarın kendisi: «Estağfirullâhe ve etûbu ileyh»."
+    },
+    "rizq_morning": {
+      "title": "Faydalı ilim ve güzel rızık için (sabah namazından sonra)",
+      "translation": "Allah'ım, senden faydalı ilim, güzel rızık ve kabul edilmiş amel isterim.",
+      "source": "İbn Mâce, 925 (sahih)"
+    },
+    "musa_need": {
+      "title": "Mûsâ'nın (aleyhisselam) ihtiyaç anındaki duası",
+      "translation": "Rabbim! Doğrusu bana indireceğin her hayra muhtacım.",
+      "source": "Kur'an, 28:24",
+      "note": "Mûsâ bunu Medyen'e barınağı ve imkânı olmadan vardığında söyledi; ardından Allah ona iş ve eş nasip etti."
+    },
+    "sick_ruqyah": {
+      "title": "Hasta için dua (Peygamber'in ﷺ rukyesi)",
+      "translation": "Allah'ım, ey insanların Rabbi! Sıkıntıyı gider ve şifa ver; şifa veren sensin. Senin şifandan başka şifa yoktur. Hiçbir hastalık bırakmayan bir şifa ver.",
+      "source": "Buhârî, 5743; Müslim, 2191"
+    },
+    "sick_visit_seven": {
+      "title": "Hasta ziyaretinde — 7 kez",
+      "translation": "Yüce Arş'ın Rabbi olan Azîm Allah'tan sana şifa vermesini dilerim.",
+      "source": "Ebû Dâvûd, 3106; Tirmizî, 2083 (sahih)"
+    },
+    "sick_visit_short": {
+      "title": "Hastaya söylenecek söz",
+      "translation": "Zararı yok; inşallah bu bir arınmadır.",
+      "source": "Buhârî, 3616"
+    },
+    "pain": {
+      "title": "Vücutta ağrı hissedince",
+      "translation": "Elinizi ağrıyan yere koyun ve üç kez «Bismillah» deyin, ardından yedi kez şunu söyleyin: «Hissettiğim ve endişe ettiğim şeyin şerrinden Allah'a ve O'nun kudretine sığınırım.»",
+      "source": "Müslim, 2202"
+    },
+    "ayyub": {
+      "title": "Eyyûb'un (aleyhisselam) duası",
+      "translation": "Bu dert bana dokundu; sen ise merhametlilerin en merhametlisisin.",
+      "source": "Kur'an, 21:83"
+    },
+    "anxiety_ibn_masud": {
+      "title": "Kaygı ve hüzün için dua",
+      "translation": "Allah'ım, ben senin kulunum, kulunun oğluyum, cariyenin oğluyum. Perçemim senin elindedir, hakkımdaki hükmün her zaman geçerlidir, hakkımdaki kaderin adaletlidir. Kendini adlandırdığın, Kitabında indirdiğin, kullarından birine öğrettiğin ya da gayb ilminde katında sakladığın sana ait her isimle senden istiyorum: Kur'an'ı kalbimin baharı, göğsümün nuru, hüznümün gidericisi ve kaygımın sonu kıl.",
+      "source": "Ahmed, 3712 (Elbânî'ye göre sahih)",
+      "note": "Kadın şöyle diyebilir: «Allâhümme innî emetük, bintü abdik, bintü emetik»."
+    },
+    "distress_karb": {
+      "title": "Büyük sıkıntı anında dua (kerb duası)",
+      "translation": "Azîm ve Halîm olan Allah'tan başka ilah yoktur. Yüce Arş'ın Rabbi olan Allah'tan başka ilah yoktur. Göklerin Rabbi, yerin Rabbi ve Kerîm Arş'ın Rabbi olan Allah'tan başka ilah yoktur.",
+      "source": "Buhârî, 6346; Müslim, 2730"
+    },
+    "yunus": {
+      "title": "Yûnus'un (aleyhisselam) duası",
+      "translation": "Senden başka ilah yoktur, seni tenzih ederim! Gerçekten ben zalimlerden oldum.",
+      "source": "Kur'an, 21:87; fazileti hakkında — Tirmizî, 3505",
+      "note": "«Hiçbir Müslüman bununla herhangi bir şey için dua etmez ki Allah onun duasını kabul etmesin.»"
+    },
+    "hasbunallah": {
+      "title": "Allah bize yeter",
+      "translation": "Allah bize yeter; O ne güzel vekildir.",
+      "source": "Kur'an, 3:173; Buhârî, 4563",
+      "note": "İbrâhim (aleyhisselam) ateşe atıldığında, Muhammed ﷺ ise düşmanın kendisine karşı toplandığı haber verildiğinde bunu söyledi."
+    },
+    "do_not_leave_me": {
+      "title": "Beni nefsime bırakma",
+      "translation": "Allah'ım, umduğum senin rahmetindir; beni göz açıp kapayıncaya kadar bile nefsime bırakma ve bütün işlerimi düzelt. Senden başka ilah yoktur.",
+      "source": "Ebû Dâvûd, 5090 (hasen)"
+    },
+    "fear_enemy": {
+      "title": "İnsanlardan korktuğunda",
+      "translation": "Allah'ım, seni onların karşısına koyuyoruz ve onların şerrinden sana sığınıyoruz.",
+      "source": "Ebû Dâvûd, 1537 (sahih)"
+    },
+    "patience": {
+      "title": "Sabır ve sebat için",
+      "translation": "Rabbimiz! Üzerimize sabır yağdır, ayaklarımızı sabit kıl ve kâfirler topluluğuna karşı bize yardım et.",
+      "source": "Kur'an, 2:250"
+    },
+    "sleep_bismika": {
+      "title": "Uyumadan önce",
+      "translation": "Allah'ım, senin adınla ölür ve dirilirim.",
+      "source": "Buhârî, 6324"
+    },
+    "sleep_kursi": {
+      "title": "Âyetü'l-Kürsî",
+      "translation": "Allah, O'ndan başka ilah yoktur; diridir, her şeyi ayakta tutandır. O'nu ne uyuklama tutar ne de uyku. Göklerde ve yerde ne varsa O'nundur. İzni olmadan O'nun katında kim şefaat edebilir? O, onların önlerindekini ve arkalarındakini bilir; onlar ise O'nun ilminden, dilediği kadarı dışında hiçbir şeyi kavrayamazlar. O'nun Kürsîsi gökleri ve yeri kaplamıştır; onları korumak O'na ağır gelmez. O çok yücedir, çok büyüktür.",
+      "source": "Kur'an, 2:255; uyumadan önce okunması hakkında — Buhârî, 2311",
+      "note": "Onu uyumadan önce okuyan kişi için gece boyunca Allah tarafından bir koruyucu bulunur ve sabaha kadar hiçbir şeytan ona yaklaşamaz."
+    },
+    "sleep_baqarah_end": {
+      "title": "Bakara suresinin son iki ayeti",
+      "translation": "Peygamber, Rabbinden kendisine indirilene iman etti, müminler de… «Rabbimiz! Unutur veya hata edersek bizi sorumlu tutma… Bizi affet, bizi bağışla, bize merhamet et. Sen bizim Mevlâmızsın; kâfirler topluluğuna karşı bize yardım et.»",
+      "source": "Kur'an, 2:285–286; Buhârî, 5009",
+      "note": "«Kim geceleyin Bakara suresinin son iki ayetini okursa, bunlar ona yeter.»"
+    },
+    "sleep_three_quls": {
+      "title": "İhlâs, Felak ve Nâs sureleri",
+      "translation": "Peygamber ﷺ uyumadan önce avuçlarını birleştirir, içlerine İhlâs, Felak ve Nâs surelerini okuyup üfler, sonra başından ve yüzünden başlayarak elinin yetiştiği kadar vücudunu sıvazlardı — bunu üç kez yapardı. Bu sureler sabah ve akşam da üçer kez okunur.",
+      "source": "Buhârî, 5017; sabah ve akşam — Ebû Dâvûd, 5082; Tirmizî, 3575"
+    },
+    "waking": {
+      "title": "Uyanınca",
+      "translation": "Bizi öldürdükten sonra dirilten Allah'a hamd olsun; diriliş de O'nadır.",
+      "source": "Buhârî, 6312"
+    },
+    "night_fear": {
+      "title": "Uykusuzluk ve uykuda korku için",
+      "translation": "Allah'ın gazabından ve azabından, kullarının şerrinden, şeytanların vesveselerinden ve yanıma gelmelerinden Allah'ın eksiksiz kelimelerine sığınırım.",
+      "source": "Ebû Dâvûd, 3893; Tirmizî, 3528 (hasen)",
+      "note": "Elbânî hasen saymıştır; bazı hadis âlimleri ise zayıf kabul eder. Uykusunda korkan kişi tarafından okunur."
+    },
+    "sayyid_istighfar": {
+      "title": "Seyyidü'l-istiğfar",
+      "translation": "Allah'ım, sen benim Rabbimsin, senden başka ilah yoktur. Beni sen yarattın, ben senin kulunum ve gücüm yettiğince sana verdiğim ahde ve vaadime bağlıyım. Yaptıklarımın şerrinden sana sığınırım. Bana verdiğin nimeti kabul ederim, günahımı da itiraf ederim; beni bağışla, çünkü günahları senden başka bağışlayan yoktur.",
+      "source": "Buhârî, 6306",
+      "note": "Kim bunu gündüz kesin bir inançla söyler ve akşam olmadan ölürse cennet ehlindendir; gece söyleyip sabah olmadan ölen de öyledir."
+    },
+    "bismillah_no_harm": {
+      "title": "Sabah ve akşam korunma — 3 kez",
+      "translation": "Adıyla birlikte yerde ve gökte hiçbir şeyin zarar veremeyeceği Allah'ın adıyla. O her şeyi işiten, her şeyi bilendir.",
+      "source": "Ebû Dâvûd, 5088; Tirmizî, 3388 (hasen sahih)"
+    },
+    "subhanallah_100": {
+      "title": "Sabah ve akşam tesbih — 100 kez",
+      "translation": "Allah'ı tesbih ederim, O'na hamd olsun.",
+      "source": "Müslim, 2692"
+    },
+    "tahlil_100": {
+      "title": "Tehlil — günde 100 kez",
+      "translation": "Allah'tan başka ilah yoktur; O tektir, ortağı yoktur. Mülk O'nundur, hamd O'nadır ve O her şeye kadirdir.",
+      "source": "Buhârî, 3293; Müslim, 2691"
+    },
+    "travel": {
+      "title": "Yolculuk duası (yola çıkarken)",
+      "translation": "Allah en büyüktür (üç kez). Bunu bizim hizmetimize veren Allah'ı tesbih ederiz; yoksa biz buna güç yetiremezdik. Şüphesiz biz Rabbimize döneceğiz. Allah'ım, bu yolculuğumuzda senden iyilik ve takva ile razı olacağın ameller isteriz. Allah'ım, bu yolculuğu bize kolaylaştır ve uzaklığını kısalt. Allah'ım, yolculukta yoldaş, ailede koruyucu sensin. Allah'ım, yolculuğun zorluğundan, üzücü bir manzaradan, mala ve aileye kötü bir dönüşten sana sığınırım.",
+      "source": "Müslim, 1342",
+      "note": "Dönüşte aynısını söyleyip şunu ekleyin: «Âyibûne, tâibûne, âbidûne, li-Rabbinâ hâmidûn» — «Dönüyoruz, tövbe ediyoruz, ibadet ediyoruz ve Rabbimize hamd ediyoruz.»"
+    },
+    "stopping_place": {
+      "title": "Bir yerde konaklarken",
+      "translation": "Yarattığı şeylerin şerrinden Allah'ın eksiksiz kelimelerine sığınırım.",
+      "source": "Müslim, 2708; akşam — Müslim, 2709",
+      "note": "Kim bir yerde konaklar ve bunu söylerse, oradan ayrılıncaya kadar hiçbir şey ona zarar vermez."
+    },
+    "leaving_home": {
+      "title": "Evden çıkarken",
+      "translation": "Allah'ın adıyla; Allah'a tevekkül ettim. Güç ve kuvvet ancak Allah'ladır.",
+      "source": "Ebû Dâvûd, 5095; Tirmizî, 3426 (sahih)"
+    },
+    "entering_home": {
+      "title": "Eve girerken",
+      "translation": "Peygamber ﷺ şöyle buyurdu: «Kişi evine girerken ve yemek yerken Allah'ı anarsa, şeytan: ‹Burada size ne gecelemek için yer var ne de akşam yemeği› der.» Eve girerken «Bismillah» diyerek Allah'ı anın ve ev halkına selam verin.",
+      "source": "Müslim, 2018"
+    },
+    "before_eating": {
+      "title": "Yemekten önce",
+      "translation": "Allah'ın adıyla. Başta söylemeyi unuttuysanız şöyle deyin: «Bismillâhi fî evvelihî ve âhirih» — «Başında da sonunda da Allah'ın adıyla.»",
+      "source": "Ebû Dâvûd, 3767; Tirmizî, 1858 (sahih)"
+    },
+    "after_eating": {
+      "title": "Yemekten sonra",
+      "translation": "Benim hiçbir gücüm ve kuvvetim olmadan bana bunu yediren ve bunu bana rızık olarak veren Allah'a hamd olsun.",
+      "source": "Ebû Dâvûd, 4023; Tirmizî, 3458 (hasen)"
+    },
+    "mosque_enter_exit": {
+      "title": "Camiye girerken ve çıkarken",
+      "translation": "Girerken: «Allah'ım, bana rahmetinin kapılarını aç.» Çıkarken: «Allah'ım, senden lütfunu isterim.»",
+      "source": "Müslim, 713"
+    },
+    "after_wudu": {
+      "title": "Abdestten sonra",
+      "translation": "Şahitlik ederim ki Allah'tan başka ilah yoktur; O tektir, ortağı yoktur. Yine şahitlik ederim ki Muhammed O'nun kulu ve elçisidir.",
+      "source": "Müslim, 234",
+      "note": "Abdestten sonra bunu söyleyen kişi için cennetin sekiz kapısı açılır."
+    },
+    "after_salah": {
+      "title": "Namazdan hemen sonra",
+      "translation": "Allah'tan bağışlanma dilerim (üç kez). Allah'ım, sen Selâm'sın, esenlik sendendir. Ey celal ve ikram sahibi, sen ne yücesin!",
+      "source": "Müslim, 591"
+    },
+    "istighfar_daily": {
+      "title": "Günlük istiğfar",
+      "translation": "Allah'tan bağışlanma diler ve O'na tövbe ederim.",
+      "source": "Buhârî, 6307; Müslim, 2702",
+      "note": "Peygamber ﷺ günde yetmiş defadan fazla Allah'tan bağışlanma dilerdi; Müslim'in rivayetinde yüz defa."
+    },
+    "abu_bakr": {
+      "title": "Peygamber'in ﷺ Ebû Bekir'e öğrettiği dua",
+      "translation": "Allah'ım, ben nefsime çokça zulmettim; günahları ancak sen bağışlarsın. Katından bir bağışlanma ile beni bağışla ve bana merhamet et; şüphesiz sen çok bağışlayan, çok merhamet edensin.",
+      "source": "Buhârî, 834; Müslim, 2705"
+    },
+    "adam": {
+      "title": "Âdem ile Havva'nın duası",
+      "translation": "Rabbimiz! Biz kendimize zulmettik. Eğer bizi bağışlamaz ve bize merhamet etmezsen mutlaka kaybedenlerden oluruz.",
+      "source": "Kur'an, 7:23"
+    },
+    "qadr": {
+      "title": "Kadir Gecesi'nde",
+      "translation": "Allah'ım, sen affedicisin, affetmeyi seversin; beni de affet.",
+      "source": "Tirmizî, 3513 (sahih)"
+    },
+    "iftar": {
+      "title": "Orucu açarken",
+      "translation": "Susuzluk gitti, damarlar ıslandı ve inşallah sevap kesinleşti.",
+      "source": "Ebû Dâvûd, 2357 (hasen)"
+    },
+    "new_moon": {
+      "title": "Hilali görünce",
+      "translation": "Allah'ım, onu üzerimize bereket ve imanla, esenlik ve İslam ile doğdur. Benim Rabbim de senin Rabbin de Allah'tır.",
+      "source": "Tirmizî, 3451 (hasen)"
+    },
+    "iftar_lakasumtu": {
+      "title": "İftarda «Allâhümme leke sumtu»",
+      "translation": "Allah'ım, senin için oruç tuttum ve senin rızkınla orucumu açtım.",
+      "source": "Ebû Dâvûd, 2358 (zayıf, mürsel)",
+      "note": "Bu hadisin senedi kopuktur, bu yüzden zayıftır. Anlamı doğrudur ve genel bir dua olarak söylenebilir; ancak iftarın sahih duası «Zehebe'z-zamau»dur (yukarıya bakın)."
+    },
+    "spouse_children": {
+      "title": "Eşlerde ve çocuklarda göz aydınlığı için",
+      "translation": "Rabbimiz! Bize eşlerimizden ve çocuklarımızdan göz aydınlığı bağışla ve bizi takva sahiplerine önder kıl.",
+      "source": "Kur'an, 25:74"
+    },
+    "zakariya_child": {
+      "title": "Zekeriyyâ'nın (aleyhisselam) çocuk için duası",
+      "translation": "Rabbim! Bana katından hayırlı bir nesil bağışla. Şüphesiz sen duayı işitensin.",
+      "source": "Kur'an, 3:38"
+    },
+    "zakariya_alone": {
+      "title": "Beni yalnız bırakma",
+      "translation": "Rabbim! Beni yalnız bırakma; sen varislerin en hayırlısısın.",
+      "source": "Kur'an, 21:89"
+    },
+    "children_prayer": {
+      "title": "Ben ve çocuklarım namazı dosdoğru kılalım diye",
+      "translation": "Rabbim! Beni ve soyumdan gelenleri namazı devamlı kılanlardan eyle. Rabbimiz! Duamı kabul et.",
+      "source": "Kur'an, 14:40"
+    },
+    "children_protection": {
+      "title": "Çocuklar için korunma",
+      "translation": "İkinizi her şeytandan, her zehirli canlıdan ve her kem gözden Allah'ın eksiksiz kelimelerine sığındırırım.",
+      "source": "Buhârî, 3371",
+      "note": "Peygamber ﷺ Hasan ve Hüseyin için böyle koruma dilerdi. Tek bir erkek çocuk için: «U'îzuke», tek bir kız çocuk için: «U'îzuki», birden fazla çocuk için: «U'îzukum»."
+    },
+    "newborn_congrats": {
+      "title": "Yeni doğan için tebrik",
+      "translation": "Allah sana verilen bu çocuğu mübarek kılsın; verene şükredesin, çocuk erginlik çağına ulaşsın ve onun iyiliğini göresin.",
+      "source": "Hasan-ı Basrî'nin sözü (Peygamber'in ﷺ hadisi değildir); «Hısnü'l-Müslim»de geçer"
+    },
+    "wedding_congrats": {
+      "title": "Yeni evlileri tebrik",
+      "translation": "Allah size bereket versin, üzerinize bereket indirsin ve sizi hayırda bir araya getirsin.",
+      "source": "Ebû Dâvûd, 2130; Tirmizî, 1091 (sahih)"
+    },
+    "istikhara": {
+      "title": "İstihare — karar vermen gerektiğinde",
+      "translation": "Allah'ım, ilminle senden hayırlısını istiyorum, kudretinle senden güç istiyorum ve büyük lütfundan senden istiyorum. Sen güç yetirirsin, ben yetiremem; sen bilirsin, ben bilemem; gaybı bilen sensin. Allah'ım, eğer bu işin (işi söyleyin) dinim, geçimim ve işimin sonu bakımından benim için hayırlı olduğunu biliyorsan, onu bana takdir et, kolaylaştır ve onu bana mübarek kıl. Eğer bu işin dinim, geçimim ve işimin sonu bakımından benim için kötü olduğunu biliyorsan, onu benden, beni de ondan uzaklaştır; hayır nerede ise onu bana takdir et ve beni ondan razı kıl.",
+      "source": "Buhârî, 1162",
+      "note": "İki rekât nafile namaz kılın, ardından bu duayı yapın."
+    },
+    "make_easy": {
+      "title": "Bir iş zorlaştığında",
+      "translation": "Allah'ım, senin kolaylaştırdığından başka kolay yoktur; sen dilersen zoru da kolaylaştırırsın.",
+      "source": "İbn Hibbân, 974 (sahih)"
+    },
+    "musa_chest": {
+      "title": "Konuşma, sınav veya zor bir görüşmeden önce",
+      "translation": "Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimdeki düğümü çöz ki sözümü anlasınlar.",
+      "source": "Kur'an, 20:25–28"
+    },
+    "knowledge": {
+      "title": "İlim için",
+      "translation": "Rabbim, ilmimi artır.",
+      "source": "Kur'an, 20:114"
+    },
+    "anger": {
+      "title": "Öfkelenince",
+      "translation": "Kovulmuş şeytandan Allah'a sığınırım.",
+      "source": "Buhârî, 3282; Müslim, 2610"
+    },
+    "heart_firm": {
+      "title": "İmanda sağlam bir kalp için",
+      "translation": "Rabbimiz! Bizi hidayete erdirdikten sonra kalplerimizi kaydırma ve katından bize rahmet bağışla. Şüphesiz bağışı en bol olan sensin.",
+      "source": "Kur'an, 3:8"
+    },
+    "ya_hayyu": {
+      "title": "Çaresizlikte: «Ey Hayy, ey Kayyûm»",
+      "translation": "Ey Hayy (daima diri olan), ey Kayyûm (her şeyi ayakta tutan)! Rahmetinle yardım dilerim.",
+      "source": "Tirmizî, 3524 (hasen)",
+      "note": "Peygamber ﷺ bir şey kendisini sıkıntıya soktuğunda bunu söylerdi."
+    },
+    "good_news": {
+      "title": "Sevindirici bir şey olduğunda",
+      "translation": "Nimetiyle iyiliklerin tamamlandığı Allah'a hamd olsun.",
+      "source": "İbn Mâce, 3803 (hasen)"
+    },
+    "sulayman_thanks": {
+      "title": "Şükür için dua",
+      "translation": "Rabbim! Bana ve anne-babama verdiğin nimete şükretmemi ve razı olacağın salih amel işlememi bana ilham et; rahmetinle beni salih kullarının arasına kat.",
+      "source": "Kur'an, 27:19"
+    },
+    "best_of_both": {
+      "title": "Peygamber'in ﷺ en sık yaptığı dua",
+      "translation": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi cehennem azabından koru.",
+      "source": "Kur'an, 2:201; Buhârî, 6389"
+    },
+    "anas_dua": {
+      "title": "Birine hayır ve bereket dilemek",
+      "translation": "Allah'ım, onun malını ve çocuklarını çoğalt ve ona verdiklerini mübarek kıl.",
+      "source": "Buhârî, 6334; Müslim, 2480",
+      "note": "Peygamber ﷺ bu duayı Enes b. Mâlik için yaptı. Kadın için: «Allâhümme eksir mâlehâ ve veledehâ, ve bârik lehâ fîmâ a'taytehâ»."
+    },
+    "islah": {
+      "title": "Din, dünya ve ahiret için hayır",
+      "translation": "Allah'ım, işlerimin koruyucusu olan dinimi ıslah et; geçimimin içinde olduğu dünyamı ıslah et; dönüşümün olacağı ahiretimi ıslah et. Hayatı benim için her hayırda artış, ölümü de her kötülükten kurtuluş kıl.",
+      "source": "Müslim, 2720"
+    },
+    "barakallah": {
+      "title": "«Bârekallâhu fîk»",
+      "translation": "Sahabeler iyiliğe «bârekallâhu fîk/fîki» — «Allah seni mübarek kılsın» — diyerek karşılık verir ve dua ederdi. Bu, her gün için uygun genel bir dilektir; birinin tebrik edildiği durumlar da buna dahildir.",
+      "source": "Bereket dileme ifadesi hadislerde geçer, örn. Buhârî, 5155"
+    },
+    "kahf_friday": {
+      "title": "Cuma günü Kehf suresi",
+      "translation": "«Kim cuma günü Kehf suresini okursa, iki cuma arasında onun için bir nur parlar.»",
+      "source": "Hâkim, 2/368; Beyhakî (Elbânî'ye göre sahih, «Sahîhu'l-Câmi'», 6470)"
+    },
+    "salawat_friday": {
+      "title": "Peygamber'e ﷺ salavat (özellikle cuma günü)",
+      "translation": "Allah'ım, İbrâhim'e ve İbrâhim'in ailesine salat ettiğin gibi Muhammed'e ve Muhammed'in ailesine de salat et. Şüphesiz sen övülmeye layık olansın, şanı yüce olansın.",
+      "source": "Buhârî, 3370; cuma hakkında — Ebû Dâvûd, 1047"
+    },
+    "eid_greeting": {
+      "title": "Bayram tebriği",
+      "translation": "Allah bizden ve sizden kabul etsin.",
+      "source": "Sahabeler birbirlerini böyle tebrik ederdi (İbn Hacer, «Fethu'l-Bârî»: senedi iyidir)"
+    },
+    "sacrifice": {
+      "title": "Kurban keserken",
+      "translation": "Allah'ın adıyla; Allah en büyüktür.",
+      "source": "Müslim, 1966",
+      "note": "Peygamber ﷺ iki koç kurban ederken bunu söyledi. Kimin adına olduğunu da ekleyebilirsiniz: «Allâhümme minke ve lek» (Ebû Dâvûd, 2795)."
+    },
+    "zakat_recipients": {
+      "title": "Zekât kimlere verilir",
+      "translation": "Zekâtlar ancak fakirler, yoksullar, zekât toplamakla görevli olanlar, kalpleri İslam'a ısındırılmak istenenler, köleleri azat etmek, borçlular, Allah yolunda olanlar ve yolda kalmış yolcular içindir. Bu, Allah'tan bir farzdır. Allah her şeyi bilendir, hüküm ve hikmet sahibidir.",
+      "source": "Kur'an, 9:60"
+    },
+    "zakat_purifies": {
+      "title": "Zekât malı ve nefsi arındırır",
+      "translation": "Onların mallarından, kendilerini temizleyip arındıracağın bir sadaka al ve onlara dua et. Senin duan onlar için bir huzurdur. Allah her şeyi işiten, her şeyi bilendir.",
+      "source": "Kur'an, 9:103",
+      "note": "Peygamber ﷺ zekâtı alırken veren kişiye dua ederdi (Buhârî, 1497)."
+    },
+    "sadaqah_not_decrease": {
+      "title": "Sadaka malı eksiltmez",
+      "translation": "«Sadaka maldan bir şey eksiltmez. Allah affeden kulun ancak izzetini artırır; Allah için alçakgönüllü olanı da Allah yükseltir.»",
+      "source": "Müslim, 2588"
+    },
+    "market": {
+      "title": "Çarşıya girerken",
+      "translation": "Allah'tan başka ilah yoktur; O tektir, ortağı yoktur. Mülk O'nundur, hamd O'nadır; O diriltir ve öldürür. O daima diridir, ölmez. Bütün hayır O'nun elindedir ve O her şeye kadirdir.",
+      "source": "Tirmizî, 3428 — değerlendirmesi tartışmalı",
+      "note": "Tirmizî hadise garîb demiştir; Elbânî hasen saymış, Ebû Hâtim ve diğerleri gibi birçok hadis tenkitçisi ise zayıf kabul etmiştir. Zikrin sözleri doğrudur, ancak hadiste vaat edilen büyük sevap kesin olarak söylenemez."
+    },
+    "zakat_nisab": {
+      "title": "Nisap ve yıl",
+      "translation": "«Beş ukiyyeden (gümüş) az olanda zekât yoktur.» Gümüş nisabı 200 dirhem (yaklaşık 595 g), altın nisabı 20 dinardır (yaklaşık 85 g); zekât, mal üzerinden bir yıl geçince kırkta bir (%2,5) oranında verilir.",
+      "source": "Buhârî, 1447; Ebû Dâvûd, 1573"
+    },
+    "nuh_parents": {
+      "title": "Nûh'un kendisi, anne-babası ve müminler için duası",
+      "translation": "Rabbim! Beni, anne-babamı, evime mümin olarak gireni, mümin erkekleri ve mümin kadınları bağışla.",
+      "source": "Kur'an, 71:28"
+    },
+    "burial_lowering": {
+      "title": "Ölüyü kabre indirirken",
+      "translation": "Allah'ın adıyla ve Resûlullah'ın sünneti üzere.",
+      "source": "Ebû Dâvûd, 3213 (sahih)"
+    },
+    "grave_punishment": {
+      "title": "Kabir azabından korunma",
+      "translation": "Allah'ım, cehennem azabından, kabir azabından, hayatın ve ölümün fitnesinden ve Mesih Deccal'in fitnesinin şerrinden sana sığınırım.",
+      "source": "Müslim, 588",
+      "note": "Peygamber ﷺ bunun namazın son teşehhüdünde selamdan önce söylenmesini emretti. Mülk suresi de korur (onun kartına bakın)."
+    },
+    "toilet_enter": {
+      "title": "Tuvalete girmeden önce",
+      "translation": "Allah'ım, erkek ve dişi şeytanlardan sana sığınırım.",
+      "source": "Buhârî, 142; Müslim, 375",
+      "note": "Öncesinde «Bismillah» deyin (Tirmizî, 606, sahih). Sol ayakla girin ve içeride Allah'ın adını sesli anmayın."
+    },
+    "toilet_exit": {
+      "title": "Tuvaletten çıktıktan sonra",
+      "translation": "Senden bağışlanma dilerim.",
+      "source": "Ebû Dâvûd, 30; Tirmizî, 7 (sahih)"
+    },
+    "rain": {
+      "title": "Yağmur yağınca",
+      "translation": "Allah'ım, (bunu) faydalı bir yağmur (kıl).",
+      "source": "Buhârî, 1032"
+    },
+    "after_rain": {
+      "title": "Yağmurdan sonra",
+      "translation": "Allah'ın lütfu ve rahmetiyle bize yağmur verildi.",
+      "source": "Buhârî, 846; Müslim, 71"
+    },
+    "wind": {
+      "title": "Rüzgâr şiddetli estiğinde",
+      "translation": "Allah'ım, senden onun hayrını, içindekinin hayrını ve gönderildiği şeyin hayrını isterim; onun şerrinden, içindekinin şerrinden ve gönderildiği şeyin şerrinden sana sığınırım.",
+      "source": "Müslim, 899"
+    },
+    "thunder": {
+      "title": "Gök gürültüsünü duyunca",
+      "translation": "Gök gürültüsünün O'na hamd ederek, meleklerin de O'nun korkusundan tesbih ettiği Allah'ı tesbih ederim.",
+      "source": "Buhârî, «el-Edebü'l-Müfred», 723; Mâlik, «Muvatta» — Abdullah b. Zübeyr'in sözü",
+      "note": "Bunlar bir sahabinin sözleridir, Peygamber'in ﷺ hadisi değildir; ifade Kur'an'dan alınmıştır (13:13)."
+    },
+    "ruqyah_jibril": {
+      "title": "Cebrâil'in rukyesi (nazar ve hastalık için)",
+      "translation": "Allah'ın adıyla sana rukye yaparım; sana eziyet veren her şeyden, her nefsin ya da haset eden her gözün şerrinden. Allah sana şifa versin. Allah'ın adıyla sana rukye yaparım.",
+      "source": "Müslim, 2186",
+      "note": "Melek Cebrâil, Peygamber ﷺ hastayken bunu ona okudu. Hastanın üzerine okunur; el onun başına konabilir."
+    },
+    "seeing_pleasing": {
+      "title": "Nazar değdirmeden beğenmek",
+      "translation": "«Biriniz kendisinde, malında veya kardeşinde hoşuna giden bir şey görürse, onun için bereket dilesin; çünkü nazar haktır.» Örneğin: «Bârekallâhu fîh» (Allah onu mübarek kılsın) ya da «Allâhümme bârik aleyh».",
+      "source": "İbn Mâce, 3509 (Elbânî'ye göre sahih)"
+    },
+    "mashallah": {
+      "title": "«Mâşâallah, lâ kuvvete illâ billâh»",
+      "translation": "Allah ne dilediyse o oldu; kuvvet ancak Allah iledir.",
+      "source": "Kur'an, 18:39",
+      "note": "Ayette bu, bağın sahibinin bağına girerken söylemesi gereken sözdür. Âlimler (İbn Kesîr ve diğerleri) kişinin kendisine ait güzel bir şey gördüğünde bunu söylemesini tavsiye eder; ayet nazardan doğrudan bahsetmez."
+    },
+    "amulets": {
+      "title": "Kırmızı ip, muskalar ve «nazar boncukları»",
+      "translation": "Peygamber ﷺ şöyle buyurdu: «Kim bir muska asarsa şirk koşmuş olur» (Ahmed, 17422) ve «Efsunlar, muskalar ve sevgi büyüleri şirktir» (Ebû Dâvûd, 3883). Kırmızı ip, nazar boncuğu, at nalı ve benzerleri koruma sağlamaz. Koruma; dua, Âyetü'l-Kürsî, İhlâs, Felak ve Nâs sureleri ile Kur'an ve Sünnete dayalı rukyedir. Âlimler yalnızca üzerinde Kur'an ayetleri yazılı kâğıtların asılması konusunda ihtilaf etmiştir ve birçoğu bunu da yasaklar.",
+      "source": "Ahmed, 17422; Ebû Dâvûd, 3883 (Elbânî'ye göre sahih)"
+    },
+    "memorial_customs": {
+      "title": "3., 7. ve 40. gün yemekleri ve ölüm yıl dönümü",
+      "translation": "Ölü adına verilen sadakanın ona ulaştığı sahih olarak sabittir (Müslim, 1631): Allah rızası için insanlara yemek yedirmek ve ölüye dua etmek her gün yapılabilir. Ancak «7 yassı ekmek» gibi belirli sayılar, perşembe ve cuma günleri hamur işi pişirmek, 3., 7. ve 40. günlerde veya yıl dönümünde zorunlu tutulan anma yemekleri ve «ölünün doğum gününde dua» gibi uygulamaların Kur'an'da da Sünnette de dayanağı yoktur. Birçok âlim bu tarihleri sabitlemeyi bid'at sayar; bazı âlimler ise zorunlu görülmemesi ve yetimlerin mirasından harcanmaması şartıyla bu yemeği sadaka olarak caiz görür. Ölüm olduğunda sünnet, komşuların ölünün ailesine yemek yedirmesidir, bunun tersi değil (Ebû Dâvûd, 3132).",
+      "source": "Özel bir metin yoktur; ölü adına sadaka hakkında — Müslim, 1631; ölünün ailesine yemek hakkında — Ebû Dâvûd, 3132"
+    },
+    "oppressed_dua_answered": {
+      "title": "Mazlumun duası kabul olur",
+      "translation": "«Mazlumun duasından sakının; çünkü onunla Allah arasında hiçbir perde yoktur.» Haksızlığa uğradıysanız Allah'tan adalet ve yardım isteyin, ama ölçüyü aşarak beddua etmeyin: «Kendinize, çocuklarınıza ve mallarınıza beddua etmeyin» (Müslim, 3009).",
+      "source": "Buhârî, 1496; Müslim, 3009"
+    },
+    "musa_people_oppressors": {
+      "title": "Zalim topluluktan kurtuluş",
+      "translation": "Rabbimiz! Bizi zalimler topluluğu için bir fitne kılma ve rahmetinle bizi kâfirler topluluğundan kurtar.",
+      "source": "Kur'an, 10:85–86"
+    },
+    "mustadafin": {
+      "title": "Mazlumların yakarışı",
+      "translation": "Rabbimiz! Bizi halkı zalim olan bu şehirden çıkar; bize katından bir sahip ve katından bir yardımcı gönder.",
+      "source": "Kur'an, 4:75",
+      "note": "Ayette bunlar mazlum erkeklerin, kadınların ve çocukların sözleridir. Filistin'de ve başka yerlerdeki mazlum Müslümanlar için okunabilir."
+    },
+    "qunut_nazila": {
+      "title": "Musibet zamanlarında kunut",
+      "translation": "Müslümanların başına bir musibet geldiğinde Peygamber ﷺ bir ay boyunca namazda rükûdan sonra şöyle dua etti: «Allah'ım, müminlerden zayıf olanları kurtar!» Âlimler buradan, Filistin de dahil olmak üzere mazlum Müslümanlar için musibet kunutunu (kunût-i nâzile) çıkarırlar. Nasıl yapılacağı mezhepler arasında farklıdır; bu yüzden camiinizin imamına uyun.",
+      "source": "Buhârî, 4560"
+    },
+    "tahnik_naming": {
+      "title": "Tahnik ve yeni doğana isim koymak",
+      "translation": "Ebû Mûsâ'nın bir oğlu doğduğunda Peygamber ﷺ ona İbrâhim adını verdi, bir hurmayı çiğneyip bebeğin damağına sürdü (tahnik) ve onun için bereket diledi. İsim ilk gün veya yedinci gün konabilir.",
+      "source": "Buhârî, 5467; Müslim, 2145"
+    },
+    "aqiqah": {
+      "title": "Akika",
+      "translation": "«Her çocuk akikasına karşılık rehindir: yedinci gün onun için hayvan kesilir, saçı tıraş edilir ve ona isim konur» (Ebû Dâvûd, 2838). «Erkek çocukla birlikte akika vardır; onun için kan akıtın ve ondan eziyeti giderin» (Buhârî, 5472). Âlimlerin çoğu akikayı farz değil, müstehap bir sünnet kabul eder.",
+      "source": "Ebû Dâvûd, 2838 (sahih); Buhârî, 5472"
+    },
+    "adhan_newborn": {
+      "title": "Yeni doğanın kulağına ezan",
+      "translation": "Peygamber'in ﷺ Hasan doğduğunda kulağına ezan okuduğuna dair hadisi Ebû Dâvûd (5105) ve Tirmizî (1514; sahih saymıştır) rivayet etmiştir. Elbânî'nin sonraki değerlendirmesi de dahil olmak üzere birçok hadis âlimi onu zayıf saymıştır. Bu nedenle âlimler ihtilaf etmiştir: bazıları ezanı müstehap görür, bazıları ise sabit olmadığını söyler. Sol kulağa kamet okunması ise daha da zayıf hadislere dayanır.",
+      "source": "Ebû Dâvûd, 5105; Tirmizî, 1514 — değerlendirmesi tartışmalı"
+    },
+    "talaq_way_out": {
+      "title": "«Kim Allah'tan korkarsa, Allah ona bir çıkış yolu açar»",
+      "translation": "Kim Allah'tan korkarsa, Allah ona bir çıkış yolu açar ve onu hesaba katmadığı yerden rızıklandırır. Kim Allah'a tevekkül ederse, O ona yeter.",
+      "source": "Kur'an, 65:2–3",
+      "note": "Bu, Allah'tan korkan ve O'na tevekkül edenlere Allah'ın bir vaadidir, bir tılsım değildir: Sünnet'te bu ayeti «borç için» veya «şans için» belirli sayıda okumaya dair bir talimat yoktur."
+    },
+    "yusr": {
+      "title": "«Zorlukla beraber bir kolaylık vardır»",
+      "translation": "Şüphesiz zorlukla beraber bir kolaylık vardır. Şüphesiz zorlukla beraber bir kolaylık vardır.",
+      "source": "Kur'an, 94:5–6"
+    },
+    "muadh_debt": {
+      "title": "3:26. ayet «borç için» (Muâz'a öğretilen dua)",
+      "translation": "Rivayet edildiğine göre Peygamber ﷺ Muâz b. Cebel'e «De ki: Ey mülkün sahibi Allah'ım!..» ayetini (3:26) ve «Dünyanın ve ahiretin Rahmân'ı… bana, Senden başkasının merhametine muhtaç bırakmayacak bir rahmetle merhamet et» duasını öğretmiş ve şöyle buyurmuştur: «Üzerinde dağ kadar borç olsa bile Allah onu senin yerine öder.» Elbânî bu hadisi hasen saymış, diğer hadis âlimleri ise senedi sebebiyle zayıf saymıştır. Bu yüzden ayeti ve bu duayı okumak caizdir, fakat «borç gidecek» vaadi kesin olarak ileri sürülemez. Borçla ilgili sahih dualar bu bölümde yukarıdadır.",
+      "source": "Taberânî, «el-Mu'cemü's-Sağîr» — değerlendirmesi tartışmalı"
+    },
+    "waqiah_poverty": {
+      "title": "Her gece Vâkıa suresi «fakirliğe karşı»",
+      "translation": "«Kim her gece Vâkıa suresini okursa ona asla fakirlik isabet etmez» hadisini hadis âlimlerinin çoğu (İmam Ahmed, Ebû Hâtim, Dârekutnî, Elbânî) zayıf saymıştır; bazı Hanefî muhaddisler ise onu amellerin faziletleri konusunda kabul eder. Bu sureyi okumak, her Kur'an tilaveti gibi güzel bir ameldir, ancak bunun karşılığında zenginlik vaadi sabit değildir.",
+      "source": "Beyhakî, «Şuabü'l-Îmân» — değerlendirmesi tartışmalı, çoğunluğa göre zayıf"
+    },
+    "internet_claims": {
+      "title": "«100 kere oku, borç gitsin»: aslı olmayanlar",
+      "translation": "İnternette kesin tekrar sayısı ve garantili sonuçla «borç için ayetler», «şans için», «yol açmak için» listeleri çoktur. Bu tavsiyelerin çoğunun Kur'an'da ve sahih Sünnet'te bir kaynağı yoktur: tekrar sayısı ve sevap ancak bir hadiste geçiyorsa söylenebilir. Kur'an okumak ve kendi sözlerinizle dua etmek her zaman mümkündür, ancak hiç kimse «garantili» bir sonuç vaat edemez. Bu uygulamada her içeriğin kaynağı ve sıhhat derecesi belirtilmiştir.",
+      "source": "Belirli bir metin yok; ilke — tekrar sayısı ve sevabı yalnızca bir kaynağa dayanarak belirtmek"
+    },
+    "talbiyah": {
+      "title": "Telbiye",
+      "translation": "Buyur Allah'ım, buyur! Buyur, Senin ortağın yoktur, buyur! Şüphesiz hamd, nimet ve mülk Senindir, Senin ortağın yoktur.",
+      "source": "Buhârî, 1549; Müslim, 1184",
+      "note": "İhrama girdikten sonra, hacda kurban bayramı günü taş atmaya başlayıncaya kadar, umrede ise tavafa başlayıncaya kadar söylenir."
+    },
+    "arafah": {
+      "title": "En hayırlı dua — Arefe gününde",
+      "translation": "Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk O'nundur, hamd O'nadır ve O her şeye kadirdir.",
+      "source": "Tirmizî, 3585 (hasen)",
+      "note": "«Duaların en hayırlısı Arefe günü yapılan duadır; benim ve benden önceki peygamberlerin söylediklerinin en hayırlısı da…» Hacda olmayanlar için de uygundur: Arefe günü Zilhicce'nin 9'udur."
+    },
+    "zamzam": {
+      "title": "Zemzem suyu",
+      "translation": "«Zemzem suyu, ne niyetle içilirse onun içindir.» Elbânî ve bazı âlimler bu hadisi sahih, diğer hadis âlimleri ise zayıf saymıştır. Birçok âlim, Zemzem içerken Allah'tan dünya ve ahiret hayrını istemeyi tavsiye eder. Zemzem'in mübarek bir su olduğu sahih olarak sabittir (Müslim, 2473).",
+      "source": "İbn Mâce, 3062 — değerlendirmesi tartışmalı; Müslim, 2473"
+    },
+    "seeing_afflicted": {
+      "title": "Bir belaya veya hastalığa uğramış birini görünce",
+      "translation": "Seni müptela kıldığı şeyden beni afiyette kılan ve beni yarattıklarının birçoğundan üstün kılan Allah'a hamd olsun.",
+      "source": "Tirmizî, 3432 (hasen)",
+      "note": "O kişiyi incitmemek için içinden, sessizce söylenir."
+    },
+    "sneezing": {
+      "title": "Aksırınca",
+      "translation": "Aksıran: «Elhamdülillah (Allah'a hamd olsun)» der. Duyan: «Yerhamükellah (Allah sana rahmet etsin)» diye karşılık verir. Aksıran da: «Yehdîkümullah ve yuslihu bâleküm (Allah sizi hidayete erdirsin ve halinizi düzeltsin)» der.",
+      "source": "Buhârî, 6224"
+    },
+    "ruqyah_water": {
+      "title": "Suya rukye okumak ve «okunmuş» su",
+      "translation": "Bazı âlimler rukyeyi (Fâtiha, İhlâs, Felak, Nâs sureleri, Âyetü'l-Kürsî ve Sünnet'teki dualar) okuyup suya üflemeye, sonra hastanın bu suyu içmesine veya onunla yıkanmasına izin verir; bunda Ebû Dâvûd'daki bir rivayete (3885) ve bazı selef-i sâlihînin uygulamasına dayanırlar. Bu rivayetin değerlendirmesi tartışmalıdır ve diğer âlimler rukyenin doğrudan hastanın üzerine okunacağı görüşündedir. Para karşılığında suyu «okuyan», anlaşılmaz sözler söyleyen, ayinler yapan veya «büyüyü kimin yaptığını bulan» kişilere başvurmak caiz değildir.",
+      "source": "Ebû Dâvûd, 3885 — değerlendirmesi tartışmalı"
+    },
+    "dua_times": {
+      "title": "Dua ne zaman kabul olur",
+      "translation": "Sahih metinlerde duanın kabulünün özellikle umulduğu vakitler bildirilmiştir: gecenin son üçte biri (Buhârî, 1145), cuma günündeki özel bir saat (Buhârî, 935), ezan ile kamet arası (Ebû Dâvûd, 521) ve secde (Müslim, 482). Yûnus'un «Lâ ilâhe illâ ente sübhâneke innî küntü mine'z-zâlimîn» duası hakkında: «Hiçbir Müslüman bununla bir şey istemez ki Allah ona icabet etmesin» (Tirmizî, 3505). Cevabı da acele etmeyin: «Acele edip „Dua ettim ama kabul olmadı“ demedikçe her birinizin duasına icabet edilir» (Müslim, 2735).",
+      "source": "Buhârî, 1145, 935; Ebû Dâvûd, 521; Müslim, 482, 2735; Tirmizî, 3505"
+    },
+    "salat_hajah": {
+      "title": "Hacet namazı (salâtü'l-hâce)",
+      "translation": "Özel bir «hacet namazını» ve duasını anlatan hadis çok zayıftır: Tirmizî bizzat ravilerden birinin zayıflığına dikkat çekmiştir. Her zaman nafile bir namaz kılıp ardından Allah'tan ihtiyacınızı isteyebilirsiniz, ancak özel bir uygulama şekli ve isteğin yerine geleceği vaadi sabit değildir.",
+      "source": "Tirmizî, 479 — çok zayıf"
+    },
+    "fatiha_40": {
+      "title": "«Her türlü ihtiyaç için akşam namazından sonra 40 Fâtiha»",
+      "translation": "Bu «denenmiş yöntemi» İslami siteler yaymaktadır, ancak kaynağı hadis değil, İbn Arabî'nin sözleri ve bir sihir kitabı olarak bilinen «Şemsü'l-Meârif» kitabıdır. Fâtiha, Kur'an'ın en büyük suresidir ve her zaman okunabilir, ancak 40 sayısının ve ihtiyacın giderileceği vaadinin hiçbir dayanağı yoktur.",
+      "source": "Kur'an ve Sünnette kaynağı yoktur"
+    },
+    "taha_21": {
+      "title": "«21 kere Tâhâ suresi kısmeti açar»",
+      "translation": "Bu tavsiye Türk internetinde yaygındır ve onu yayan yazılar bile kaynağının olmadığını kabul eder. Aynı şey, evlilik veya şans için Yâsîn, Tâhâ ya da başka bir sureyi «41 kere» okuma tavsiyeleri için de geçerlidir. Kur'an surelerini okumak güzeldir ve gereklidir, ancak Sünnette bu amaçlar için özel bir vaat yoktur.",
+      "source": "Kur'an ve Sünnette kaynağı yoktur"
+    },
+    "yasin_saffat_money": {
+      "title": "«Maddi sıkıntılar için Yâsîn ve Sâffât»",
+      "translation": "Bu konuda sorulan bir müftü, bu surelerin okunabileceğini, ancak karşılığında zenginlik vaat eden bir hadis olmadığını söylemiştir. Aynı şey «borç geri ödensin diye 2:280'i okumak» tavsiyesi için de geçerlidir: bu ayet borçluya süre tanımaya çağırır, bir efsun değildir. Borçlarla ilgili sahih dualar «Borçlar» bölümündedir.",
+      "source": "Kur'an ve Sünnette kaynağı yoktur"
+    },
+    "istighfar_way_out": {
+      "title": "«Kim istiğfara devam ederse Allah ona her sıkıntıdan bir çıkış yolu açar»",
+      "translation": "Bu hadis sıkça aktarılır, ancak zayıftır. Bununla birlikte istiğfar ile ferahlık ve rızık arasındaki bağ Kur'an ile sabittir: «Rabbinizden bağışlanma dileyin… Size bol bol yağmur indirsin, mallar ve oğullarla sizi desteklesin» (71:10–12). Dolayısıyla ayetlere dayanarak ferahlık için istiğfar etmek doğrudur.",
+      "source": "Ebû Dâvûd, 1518 — zayıf"
+    },
+    "lost_item_info": {
+      "title": "Bir şey kaybolduğunda ne denir",
+      "translation": "Kaybolan eşya için özel bir sahih dua yoktur. Küçük de olsa her kayıpta «İnnâ lillâhi ve innâ ileyhi râciûn» («Biz Allah'a aidiz ve O'na döneceğiz», 2:156) denebilir: Allah, musibet anında bunu söyleyenleri över (2:155–157). Ardından kaybolanı bulmanıza yardım etmesi için Allah'a kendi sözlerinizle dua edin; Yûnus'un duası da her ihtiyaç için uygundur.",
+      "source": "Kur'an, 2:155–157"
+    },
+    "lost_item_popular": {
+      "title": "Kaybolan eşya için «Yâ Câmia'n-nâs…» ve 7 kere Duhâ",
+      "translation": "«Ey şüphe olmayan bir günde insanları toplayacak olan Allah'ım (3:9), beni kaybettiğime kavuştur» duası ve Duhâ suresini 7 kere (veya 93:7 ayetini üç kere) okumak soru-cevap sitelerinde bile tavsiye edilir, ancak kaynağı hadis değil, Eşref Ali Tanevî'nin «Kur'an'dan Çareler» kitabıdır. Allah'tan bu sözlerle de, kendi sözlerinizle olduğu gibi isteyebilirsiniz, ancak bu Sünnet değil, halk arasında yaygın bir uygulamadır.",
+      "source": "Sünnette kaynağı yoktur: Eşref Ali Tanevî'nin bir kitabı"
+    },
+    "tiwala": {
+      "title": "«Bağlama», sevgi büyüsü, «kocam sadece beni sevsin»",
+      "translation": "Peygamber ﷺ şöyle buyurdu: «Efsunlar, muskalar ve sevgi büyüleri (tivele) şirktir» (Ebû Dâvûd, 3883). «Bağlama ayetleri», yastık altına konan ayetli kâğıtlar, «belirli bir kişi beni sevsin diye», «kocam ikinci eş almasın diye» yapılanlar, içinde Kur'an sözleri kullanılsa bile tam olarak tiveledir. İzin verilen ise şunlardır: ailede sevgi ve uyum için kendi sözlerinizle dua, 25:74, evlilikten önce istihare, konuşup anlaşmak ve her iki aileden hakemler (4:35).",
+      "source": "Ebû Dâvûd, 3883 (Elbânî'ye göre sahih)"
+    },
+    "arbitration": {
+      "title": "Eşler ayrılığın eşiğindeyse",
+      "translation": "«Eğer karı-kocanın arasının açılmasından endişe ederseniz, erkeğin ailesinden bir hakem, kadının ailesinden bir hakem gönderin. Bunlar barıştırmak isterlerse Allah aralarını bulur» (4:35). Yani Kur'an efsunlar değil, her iki aileden aracılar ve barışmaya yönelik samimi bir istek önerir.",
+      "source": "Kur'an, 4:35"
+    },
+    "guidance_for_others": {
+      "title": "Başkasının hidayeti için dua",
+      "translation": "Devs kabilesi İslam'ı kabul etmeyince Peygamber ﷺ onlara beddua etmedi, aksine: «Allah'ım, Devs'e hidayet ver ve onları getir!» dedi (Buhârî, 2937). Bir yakınınız için de aynı şekilde isteyebilirsiniz: «Allâhümme'hdi [isim]» — «Allah'ım, falancaya hidayet ver». Kardeşiniz için onun yokluğunda dua ettiğinizde ise bir melek: «Sana da onun benzeri olsun» der (Müslim, 2732).",
+      "source": "Buhârî, 2937; Müslim, 2732"
+    },
+    "reconcile_best": {
+      "title": "İnsanları barıştırmak nafile oruç ve namazdan üstündür",
+      "translation": "«Size (nafile) oruç, namaz ve sadakadan daha üstün dereceli bir şeyi haber vereyim mi?» — «Elbette!» — «İnsanların arasını düzeltmek. Çünkü aralarındaki bozukluk dini „tıraş eden“ (yok eden) şeydir.»",
+      "source": "Ebû Dâvûd, 4919; Tirmizî, 2509 (sahih)"
+    },
+    "three_days": {
+      "title": "Üç günden fazla küs durulmaz; en hayırlısı önce selam verendir",
+      "translation": "«Bir Müslümanın, karşılaştıklarında biri bir yana, diğeri öbür yana dönerek kardeşine üç günden fazla küs durması helal değildir. Onların en hayırlısı, önce selam verendir.» Barışmanın ilk adımı basit bir «Esselâmü aleyküm»dür.",
+      "source": "Buhârî, 6077; Müslim, 2560"
+    },
+    "ibrahim_child": {
+      "title": "İbrâhîm'in (aleyhisselam) salih evlat duası",
+      "translation": "Rabbim! Bana salihlerden olacak (bir evlat) bağışla.",
+      "source": "Kur'an, 37:100"
+    },
+    "maryam_beauty": {
+      "title": "«Bebeğin güzelliği için Meryem suresi», «güzellik için sure»",
+      "translation": "Hamilelikte bebek güzel olsun diye Meryem veya Yûsuf suresini okuma tavsiyelerinin ve «güzellik için surelerin» Kur'an ve Sünnette kaynağı yoktur. Bu sureleri okumak, her Kur'an tilaveti gibi güzeldir, ancak karşılığında güzel bir görünüş vaadi yoktur. Ayetleri yazıp doğum yapan kadına bağlamak ise muskadır (bkz. «Bu İslam'dan mı?»).",
+      "source": "Kur'an ve Sünnette kaynağı yoktur"
+    },
+    "good_character": {
+      "title": "«Yaratılışımı güzel kıldığın gibi…»",
+      "translation": "Allah'ım, yaratılışımı (dış görünüşümü) güzel kıldığın gibi ahlakımı da güzel kıl.",
+      "source": "Ahmed (Elbânî'ye göre sahih)",
+      "note": "Duanın kendisi sahihtir; onu özellikle aynaya bakmaya bağlayan rivayetler zayıftır. Her zaman söylenebilir."
+    },
+    "tasbih_fatimah": {
+      "title": "Uyumadan önce Fâtıma tesbihi: hizmetçiden daha hayırlı",
+      "translation": "Allah'ı tenzih ederim. Hamd Allah'a mahsustur. Allah en büyüktür.",
+      "source": "Buhârî, 3705; Müslim, 2727",
+      "note": "Fâtıma ağır işlerden yorulmuş ve bir hizmetçi istemişti. Peygamber ﷺ ona ve Ali'ye yatarken bunu söylemelerini buyurdu: «Bu sizin için bir hizmetçiden daha hayırlıdır.» Tembellik ve acizliğe karşı «Borçlar» bölümündeki «…ve'l-aczi ve'l-kesel» duasına da bakın."
+    },
+    "marriage_numbers": {
+      "title": "«41 kere Yâsîn oku, evlenirsin»",
+      "translation": "Evlenmek için Yâsîn, Tâhâ veya başka bir sureyi belirli sayıda okuma tavsiyelerinin kaynağı yoktur. 28:24 ayeti («Rabbim, bana indireceğin her hayra muhtacım…») Mûsâ'nın gerçek duasıdır ve o bundan sonra evlenmiştir, ancak onun «evlilik için» okunması gerektiğini bildiren bir hadis yoktur: bu, her ihtiyaç için bir duadır. Sahih olanlar: istihare (Buhârî, 1162), 25:74 duası ve kendi sözlerinizle istemek.",
+      "source": "Kaynağı yoktur; istihare hakkında — Buhârî, 1162"
+    },
+    "ikhlas_11": {
+      "title": "«Mezarlıkta 11 kere İhlâs»",
+      "translation": "Mezarlıkta İhlâs suresini 11 kere okuyup sevabını ölülere bağışlayana verilecek mükâfat hakkındaki hadis çok zayıf veya uydurmadır. Kabirde Kur'an okumak ihtilaflı bir konudur (bkz. Yâsîn kartı). Kabir ziyaretinde sahih olan, kabir ehline selam vermek ve onlar için dua etmektir.",
+      "source": "Güvenilir senedi olmayan hadis — çok zayıf veya uydurma"
+    },
+    "fatiha_ruqyah": {
+      "title": "Rukye olarak Fâtiha suresi",
+      "translation": "Bir sahabi, akrebin soktuğu bir kabile reisine Fâtiha'yı okudu ve adam iyileşti. Peygamber ﷺ bunu onayladı ve: «Onun bir rukye olduğunu nereden bildin?» diye sordu. Bu yüzden Fâtiha, Sünnetteki diğer dualarla birlikte hastaya okunur.",
+      "source": "Buhârî, 5736; Müslim, 2201"
+    },
+    "baqarah_house": {
+      "title": "Evde Bakara suresi",
+      "translation": "«Evlerinizi kabristana çevirmeyin. Şüphesiz şeytan, içinde Bakara suresi okunan evden kaçar.»",
+      "source": "Müslim, 780"
+    }
+  }
+}

@@ -1,0 +1,1554 @@
+{
+  "situations": {
+    "cemetery": {
+      "title": "Di pemakaman, di depan kubur",
+      "subtitle": "Bacaan ketika ziarah kubur",
+      "keywords": [
+        "ziarah kubur",
+        "ziarah makam",
+        "kuburan",
+        "makam",
+        "pemakaman",
+        "kubur",
+        "doa ziarah kubur",
+        "salam ahli kubur",
+        "nyekar",
+        "di makam",
+        "berziarah",
+        "di makam ayah",
+        "di makam ibu",
+        "di makam orang tua",
+        "ziarah makam orang tua"
+      ],
+      "notice": "Membaca Al-Qur'an di kuburan dan “menghadiahkan” pahalanya kepada mayit adalah masalah yang diperselisihkan ulama; amalan seperti itu ditandai sebagai khilafiyah di bawah ini. Doa dan istighfar untuk mukmin yang telah wafat telah tetap dengan dalil yang sahih."
+    },
+    "deceased": {
+      "title": "Doa untuk orang yang telah meninggal",
+      "subtitle": "Untuk ayah, ibu, kerabat, dan seluruh kaum muslimin yang telah wafat",
+      "keywords": [
+        "doa untuk orang meninggal",
+        "doa untuk mayit",
+        "almarhum",
+        "almarhumah",
+        "meninggal dunia",
+        "wafat",
+        "jenazah",
+        "shalat jenazah",
+        "doa arwah",
+        "almarhum ayah",
+        "almarhumah ibu",
+        "orang tua meninggal",
+        "takziah",
+        "pemakaman"
+      ]
+    },
+    "death_news": {
+      "title": "Kehilangan dan duka",
+      "subtitle": "Ketika mendengar kabar kematian atau musibah",
+      "keywords": [
+        "kabar duka",
+        "kematian",
+        "meninggal",
+        "kehilangan",
+        "berduka",
+        "musibah",
+        "innalillahi",
+        "inna lillahi wa inna ilaihi rajiun",
+        "belasungkawa",
+        "takziah",
+        "ucapan duka cita",
+        "ada yang meninggal"
+      ]
+    },
+    "debts": {
+      "title": "Utang",
+      "subtitle": "Agar terbebas dari utang dan bebannya",
+      "keywords": [
+        "utang",
+        "hutang",
+        "doa pelunas utang",
+        "doa pelunas hutang",
+        "terlilit hutang",
+        "terlilit utang",
+        "pinjaman",
+        "pinjol",
+        "kredit",
+        "cicilan",
+        "kpr",
+        "bayar utang",
+        "melunasi hutang",
+        "riba",
+        "ayat pelunas hutang",
+        "banyak utang",
+        "ayat untuk utang",
+        "agar utang dibayar",
+        "piutang tidak dibayar",
+        "utang dan malas"
+      ],
+      "notice": "Doa tidak menggantikan usaha nyata: buatlah rencana pelunasan, bicarakan dengan pemberi utang, dan jauhi riba (bunga)."
+    },
+    "rizq": {
+      "title": "Rezeki, pekerjaan, uang",
+      "subtitle": "Kekurangan uang, mencari kerja, usaha, keberkahan",
+      "keywords": [
+        "rezeki",
+        "rejeki",
+        "doa minta rezeki",
+        "doa pembuka rezeki",
+        "uang",
+        "tidak punya uang",
+        "miskin",
+        "pekerjaan",
+        "cari kerja",
+        "melamar kerja",
+        "usaha",
+        "bisnis",
+        "berkah",
+        "gaji",
+        "kena phk",
+        "doa agar kaya",
+        "kekayaan",
+        "doa buka usaha",
+        "pelanggan",
+        "kaya",
+        "doa agar dagangan laris"
+      ]
+    },
+    "illness": {
+      "title": "Sakit dan kesembuhan",
+      "subtitle": "Untuk orang sakit, ketika merasa nyeri, saat menjenguk orang sakit",
+      "keywords": [
+        "sakit",
+        "penyakit",
+        "doa orang sakit",
+        "doa kesembuhan",
+        "doa minta sembuh",
+        "nyeri",
+        "kesehatan",
+        "syifa",
+        "ruqyah",
+        "rumah sakit",
+        "operasi",
+        "menjenguk orang sakit",
+        "obat"
+      ],
+      "notice": "Doa dan amalan agama tidak menggantikan pengobatan medis. Periksakan diri ke dokter bila diperlukan."
+    },
+    "anxiety": {
+      "title": "Cemas, sedih, takut",
+      "subtitle": "Ketika hati terasa berat",
+      "keywords": [
+        "cemas",
+        "gelisah",
+        "khawatir",
+        "sedih",
+        "galau",
+        "depresi",
+        "takut",
+        "ketakutan",
+        "stres",
+        "panik",
+        "kesepian",
+        "masa sulit",
+        "hati tidak tenang",
+        "doa ketenangan hati",
+        "doa penghilang sedih"
+      ],
+      "notice": "Jika rasa cemas atau murung mengganggu kehidupan Anda, mintalah juga bantuan tenaga profesional. Hal ini tidak bertentangan dengan tawakal kepada Allah."
+    },
+    "sleep": {
+      "title": "Tidur dan bangun tidur",
+      "subtitle": "Sebelum tidur, susah tidur, saat bangun",
+      "keywords": [
+        "tidur",
+        "doa sebelum tidur",
+        "doa mau tidur",
+        "susah tidur",
+        "tidak bisa tidur",
+        "insomnia",
+        "bangun tidur",
+        "doa bangun tidur",
+        "malam",
+        "mimpi buruk",
+        "mimpi seram",
+        "takut saat tidur"
+      ]
+    },
+    "morning_evening": {
+      "title": "Pagi dan petang",
+      "subtitle": "Dzikir harian",
+      "keywords": [
+        "dzikir pagi",
+        "dzikir petang",
+        "zikir pagi petang",
+        "al-ma'tsurat",
+        "pagi",
+        "petang",
+        "sore",
+        "dzikir",
+        "zikir",
+        "wirid",
+        "harian",
+        "setiap hari"
+      ]
+    },
+    "travel": {
+      "title": "Bepergian",
+      "subtitle": "Sebelum safar, dalam perjalanan, saat kembali",
+      "keywords": [
+        "doa bepergian",
+        "doa safar",
+        "safar",
+        "perjalanan",
+        "mudik",
+        "pulang kampung",
+        "naik pesawat",
+        "naik kendaraan",
+        "doa naik kendaraan",
+        "menyetir",
+        "pulang",
+        "perjalanan dinas",
+        "musafir"
+      ]
+    },
+    "weather": {
+      "title": "Hujan, angin, dan petir",
+      "subtitle": "Bacaan saat cuaca buruk",
+      "keywords": [
+        "hujan",
+        "doa turun hujan",
+        "doa ketika hujan",
+        "angin",
+        "angin kencang",
+        "badai",
+        "petir",
+        "guntur",
+        "geledek",
+        "cuaca",
+        "kemarau",
+        "kekeringan"
+      ]
+    },
+    "home": {
+      "title": "Rumah",
+      "subtitle": "Keluar dan masuk rumah",
+      "keywords": [
+        "rumah",
+        "doa keluar rumah",
+        "doa masuk rumah",
+        "keluar rumah",
+        "masuk rumah",
+        "pergi",
+        "berangkat"
+      ]
+    },
+    "toilet": {
+      "title": "Kamar kecil",
+      "subtitle": "Saat masuk dan keluar",
+      "keywords": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "kamar kecil",
+        "jamban",
+        "doa masuk kamar mandi",
+        "doa keluar kamar mandi",
+        "doa masuk wc",
+        "buang air"
+      ]
+    },
+    "food": {
+      "title": "Makan",
+      "subtitle": "Sebelum dan sesudah makan",
+      "keywords": [
+        "makan",
+        "doa sebelum makan",
+        "doa sesudah makan",
+        "doa makan",
+        "makanan",
+        "makan siang",
+        "makan malam",
+        "sarapan",
+        "minum"
+      ]
+    },
+    "prayer": {
+      "title": "Shalat, masjid, wudhu",
+      "subtitle": "Masuk masjid, setelah wudhu, setelah shalat",
+      "keywords": [
+        "shalat",
+        "salat",
+        "sholat",
+        "solat",
+        "masjid",
+        "doa masuk masjid",
+        "doa keluar masjid",
+        "wudhu",
+        "wudu",
+        "doa setelah wudhu",
+        "dzikir setelah shalat",
+        "wirid setelah sholat"
+      ]
+    },
+    "forgiveness": {
+      "title": "Ampunan dan tobat",
+      "subtitle": "Istighfar dan taubat",
+      "keywords": [
+        "ampunan",
+        "mohon ampun",
+        "dosa",
+        "dosa-dosa",
+        "tobat",
+        "taubat",
+        "taubat nasuha",
+        "istighfar",
+        "astaghfirullah",
+        "sayyidul istighfar"
+      ]
+    },
+    "family": {
+      "title": "Keluarga dan orang tua",
+      "subtitle": "Untuk orang tua, pasangan, ketenteraman rumah tangga",
+      "keywords": [
+        "keluarga",
+        "orang tua",
+        "ibu",
+        "ayah",
+        "bapak",
+        "suami",
+        "istri",
+        "pasangan",
+        "bertengkar",
+        "masalah keluarga",
+        "rumah tangga",
+        "keluarga sakinah",
+        "kerabat",
+        "saudara"
+      ]
+    },
+    "parents": {
+      "title": "Doa untuk orang tua",
+      "subtitle": "Untuk ibu dan ayah, yang masih hidup maupun yang telah wafat",
+      "keywords": [
+        "doa untuk orang tua",
+        "doa orang tua",
+        "orang tua",
+        "ibu",
+        "ayah",
+        "bapak",
+        "mama",
+        "papa",
+        "ibu bapak",
+        "birrul walidain",
+        "doa untuk ibu",
+        "doa untuk ayah"
+      ]
+    },
+    "marriage": {
+      "title": "Pernikahan",
+      "subtitle": "Mencari jodoh, pernikahan",
+      "keywords": [
+        "nikah",
+        "menikah",
+        "pernikahan",
+        "doa jodoh",
+        "doa minta jodoh",
+        "cari jodoh",
+        "calon istri",
+        "calon suami",
+        "pasangan saleh",
+        "walimah",
+        "resepsi",
+        "doa pengantin",
+        "ucapan selamat menikah",
+        "barakallahu lakuma"
+      ]
+    },
+    "children": {
+      "title": "Anak",
+      "subtitle": "Menginginkan anak, melindungi mereka, bayi baru lahir",
+      "keywords": [
+        "anak",
+        "anak-anak",
+        "bayi",
+        "doa minta anak",
+        "doa minta keturunan",
+        "keturunan",
+        "ingin punya anak",
+        "hamil",
+        "belum punya anak",
+        "susah hamil",
+        "bayi baru lahir",
+        "kelahiran",
+        "anak laki-laki",
+        "anak perempuan",
+        "anak saleh",
+        "surah untuk anak sebelum tidur",
+        "bacaan untuk anak sebelum tidur",
+        "doa sebelum tidur untuk anak",
+        "doa untuk anak laki-laki",
+        "doa untuk anak perempuan"
+      ]
+    },
+    "newborn": {
+      "title": "Persalinan dan bayi baru lahir",
+      "subtitle": "Kemudahan melahirkan, aqiqah, tahnik, azan di telinga",
+      "keywords": [
+        "melahirkan",
+        "persalinan",
+        "lahiran",
+        "hamil",
+        "kehamilan",
+        "doa melahirkan",
+        "doa lancar melahirkan",
+        "bayi baru lahir",
+        "aqiqah",
+        "akikah",
+        "tahnik",
+        "azan di telinga bayi",
+        "adzan bayi",
+        "memberi nama bayi"
+      ],
+      "notice": "Tidak ada doa khusus yang sahih untuk kemudahan melahirkan. Doa apa pun untuk memohon kemudahan dapat dibaca, seperti “Allahumma la sahla…” di bawah ini, juga permohonan dengan kata-kata sendiri."
+    },
+    "important": {
+      "title": "Urusan penting dan keputusan",
+      "subtitle": "Istikharah, tugas berat, ujian, belajar",
+      "keywords": [
+        "istikharah",
+        "istikhoroh",
+        "shalat istikharah",
+        "keputusan",
+        "memilih",
+        "pilihan",
+        "urusan penting",
+        "urusan sulit",
+        "ujian",
+        "doa sebelum ujian",
+        "belajar",
+        "doa belajar",
+        "wawancara kerja",
+        "pidato",
+        "ilmu"
+      ]
+    },
+    "protection": {
+      "title": "Perlindungan",
+      "subtitle": "Dari kejahatan, ain, setan, saat marah",
+      "keywords": [
+        "perlindungan",
+        "doa perlindungan",
+        "ain",
+        "penyakit ain",
+        "hasad",
+        "dengki",
+        "setan",
+        "syaitan",
+        "jin",
+        "sihir",
+        "santet",
+        "marah",
+        "emosi",
+        "musuh",
+        "bahaya"
+      ]
+    },
+    "evil_eye": {
+      "title": "Ain dan gangguan",
+      "subtitle": "Perlindungan, ruqyah, dan bacaan saat mengagumi sesuatu",
+      "keywords": [
+        "ain",
+        "penyakit ain",
+        "pandangan mata jahat",
+        "hasad",
+        "iri",
+        "dengki",
+        "sihir",
+        "santet",
+        "guna-guna",
+        "ruqyah",
+        "rukyah",
+        "ruqyah mandiri",
+        "doa penangkal ain",
+        "masyaallah tabarakallah",
+        "air ruqyah",
+        "dibacakan ke air",
+        "bacaan untuk air",
+        "doa agar tidak kena ain"
+      ],
+      "notice": "Jimat, benang, dan hiasan “mata” bukanlah perlindungan menurut Islam (lihat kartu di bawah). Jika gangguan kesehatan berlanjut, periksakan diri ke dokter: ruqyah dan doa tidak menggantikan pengobatan."
+    },
+    "oppression": {
+      "title": "Kezaliman dan orang yang terzalimi",
+      "subtitle": "Ketika dizalimi, dan doa untuk kaum tertindas (Palestina dan lainnya)",
+      "keywords": [
+        "dizalimi",
+        "kezaliman",
+        "zalim",
+        "terzalimi",
+        "tertindas",
+        "ketidakadilan",
+        "tidak adil",
+        "palestina",
+        "gaza",
+        "perang",
+        "fitnah",
+        "difitnah",
+        "penganiayaan",
+        "doa orang teraniaya"
+      ]
+    },
+    "gratitude": {
+      "title": "Syukur dan kegembiraan",
+      "subtitle": "Ketika mendapat kebaikan",
+      "keywords": [
+        "syukur",
+        "bersyukur",
+        "terima kasih",
+        "doa syukur",
+        "gembira",
+        "bahagia",
+        "kabar gembira",
+        "alhamdulillah",
+        "nikmat",
+        "sujud syukur"
+      ]
+    },
+    "ramadan": {
+      "title": "Ramadhan dan puasa",
+      "subtitle": "Berbuka, Lailatul Qadar, hilal",
+      "keywords": [
+        "ramadhan",
+        "ramadan",
+        "puasa",
+        "shaum",
+        "doa berbuka puasa",
+        "buka puasa",
+        "berbuka",
+        "sahur",
+        "lailatul qadar",
+        "malam lailatul qadar",
+        "hilal",
+        "bulan sabit",
+        "awal bulan"
+      ]
+    },
+    "friday_eid": {
+      "title": "Hari Jumat dan Hari Raya",
+      "subtitle": "Jumat, Idul Fitri, Idul Adha",
+      "keywords": [
+        "jumat",
+        "jum'at",
+        "hari jumat",
+        "shalat jumat",
+        "lebaran",
+        "idul fitri",
+        "idul adha",
+        "hari raya",
+        "ucapan lebaran",
+        "taqabbalallahu minna wa minkum",
+        "al-kahfi",
+        "kurban",
+        "qurban",
+        "shalawat"
+      ]
+    },
+    "birthday": {
+      "title": "Ulang tahun",
+      "subtitle": "Apa yang bisa didoakan untuk seseorang",
+      "keywords": [
+        "ulang tahun",
+        "ultah",
+        "milad",
+        "doa ulang tahun",
+        "ucapan ulang tahun",
+        "selamat ulang tahun",
+        "ucapan selamat",
+        "mendoakan",
+        "doa kebaikan",
+        "hari jadi"
+      ],
+      "notice": "Dalam Sunnah tidak ada doa khusus ulang tahun, dan merayakan ulang tahun adalah masalah yang diperselisihkan ulama. Di bawah ini ada doa-doa sahih yang umum untuk kebaikan seseorang yang dapat dibaca kapan saja."
+    },
+    "zakat": {
+      "title": "Zakat dan sedekah",
+      "subtitle": "Siapa penerimanya, berapa besarnya, pahala bersedekah",
+      "keywords": [
+        "zakat",
+        "zakat mal",
+        "zakat harta",
+        "sedekah",
+        "infak",
+        "infaq",
+        "donasi",
+        "amal",
+        "nisab",
+        "hitung zakat",
+        "berapa zakat",
+        "penerima zakat",
+        "mustahik",
+        "8 asnaf"
+      ],
+      "notice": "Untuk menghitung zakat Anda, buka Lainnya → Kalkulator zakat."
+    },
+    "customs": {
+      "title": "Apakah ini dari Islam?",
+      "subtitle": "Tradisi: peringatan kematian, jimat, benang merah",
+      "keywords": [
+        "tradisi",
+        "adat",
+        "apakah ini dari islam",
+        "jimat",
+        "azimat",
+        "benang merah",
+        "bid'ah",
+        "bidah",
+        "tahlilan",
+        "kenduri",
+        "selamatan",
+        "7 hari",
+        "40 hari",
+        "haul",
+        "peringatan kematian",
+        "air doa",
+        "air yang dibacakan ayat",
+        "menulis ayat",
+        "pelet",
+        "pengasihan",
+        "membawa ayat"
+      ],
+      "notice": "Di sini dibahas tradisi yang umum: apa yang memiliki dasar dari Al-Qur'an dan Sunnah dan apa yang tidak. Jika ulama berbeda pendapat, hal itu disebutkan dengan jelas."
+    },
+    "hardship": {
+      "title": "«Jalan tertutup», kesulitan, kegagalan",
+      "subtitle": "Saat tidak ada yang berhasil dan semua pintu seakan tertutup",
+      "keywords": [
+        "jalan tertutup",
+        "membuka jalan",
+        "pintu tertutup",
+        "sial",
+        "kesialan",
+        "tidak beruntung",
+        "nasib buruk",
+        "buka aura",
+        "buang sial",
+        "semua gagal",
+        "tidak ada yang berhasil",
+        "kesulitan",
+        "kesusahan",
+        "jalan keluar",
+        "putus asa",
+        "doa pembuka pintu",
+        "agar semua urusan lancar",
+        "doa agar dibantu allah",
+        "doa membuka jalan",
+        "doa dimudahkan segala urusan"
+      ],
+      "notice": "Dalam Al-Qur'an dan Sunnah tidak ada konsep «jalan tertutup» yang dibuka dengan ayat khusus, ritual, atau jimat. Kesulitan diringankan dengan takwa, istighfar, doa, dan tawakal kepada Allah (65:2–3, 71:10–12), disertai langkah-langkah praktis yang wajar. Jika ada yang menawarkan untuk «membuka jalan», «membuka aura», atau «membersihkan» Anda dari kesialan dengan bayaran, itu bukan dari Islam."
+    },
+    "hajj": {
+      "title": "Haji dan umrah",
+      "subtitle": "Talbiyah, Arafah, Zamzam",
+      "keywords": [
+        "haji",
+        "umrah",
+        "umroh",
+        "mekah",
+        "makkah",
+        "ka'bah",
+        "tawaf",
+        "talbiyah",
+        "labbaik",
+        "arafah",
+        "wukuf",
+        "zamzam",
+        "doa haji",
+        "sa'i",
+        "ihram"
+      ]
+    },
+    "wish": {
+      "title": "Hajat dan keinginan",
+      "subtitle": "Bagaimana dan kapan meminta agar doa dikabulkan",
+      "keywords": [
+        "hajat",
+        "doa hajat",
+        "shalat hajat",
+        "sholat hajat",
+        "keinginan",
+        "doa agar keinginan terkabul",
+        "doa cepat terkabul",
+        "impian",
+        "agar dibantu allah",
+        "agar semua lancar",
+        "doa mustajab",
+        "waktu mustajab berdoa",
+        "kapan doa dikabulkan",
+        "doa dikabulkan"
+      ]
+    },
+    "lost_item": {
+      "title": "Barang hilang",
+      "subtitle": "Apa yang diucapkan saat kehilangan sesuatu",
+      "keywords": [
+        "hilang",
+        "kehilangan",
+        "barang hilang",
+        "doa barang hilang",
+        "doa mencari barang hilang",
+        "doa agar barang hilang kembali",
+        "tidak ketemu",
+        "lupa menaruh barang",
+        "hewan hilang",
+        "kecurian",
+        "dicuri"
+      ]
+    },
+    "spouses": {
+      "title": "Hubungan suami istri",
+      "subtitle": "Cinta, pertengkaran, rujuk",
+      "keywords": [
+        "suami",
+        "istri",
+        "pasangan",
+        "suami istri",
+        "doa agar suami sayang",
+        "doa agar suami cinta",
+        "agar suami rindu",
+        "bertengkar dengan suami",
+        "bertengkar dengan istri",
+        "berbaikan dengan suami",
+        "perceraian",
+        "cerai",
+        "suami pulang ke rumah",
+        "poligami",
+        "pelet",
+        "ilmu pelet",
+        "pengasihan"
+      ],
+      "notice": "Dalam Sunnah tidak ada ayat khusus agar suami “sayang”, “rindu”, atau “tidak menikah lagi”, sedangkan pelet dan “pengikat” adalah sihir yang haram (lihat kartu). Mintalah kepada Allah dengan kata-kata Anda sendiri, berbicaralah satu sama lain, dan dalam konflik yang serius undanglah juru damai dari kedua keluarga (4:35)."
+    },
+    "reconcile": {
+      "title": "Berbaikan dengan seseorang",
+      "subtitle": "Bertengkar dengan kerabat, teman, atau tetangga",
+      "keywords": [
+        "berbaikan",
+        "baikan",
+        "damai",
+        "berdamai",
+        "bertengkar",
+        "musuhan",
+        "diam-diaman",
+        "tidak saling sapa",
+        "putus silaturahmi",
+        "dengan keluarga",
+        "memaafkan orang"
+      ]
+    },
+    "conceive": {
+      "title": "Ingin punya anak, kehamilan",
+      "subtitle": "Doa para nabi memohon keturunan",
+      "keywords": [
+        "hamil",
+        "doa agar cepat hamil",
+        "ingin hamil",
+        "ingin punya anak",
+        "belum punya anak",
+        "susah hamil",
+        "mandul",
+        "kehamilan",
+        "doa minta keturunan",
+        "promil"
+      ],
+      "notice": "Doa tidak menggantikan pemeriksaan dan pengobatan: periksakan diri ke dokter. Dalam Sunnah tidak ada surah khusus “agar hamil”; di bawah ini doa para nabi memohon keturunan dari Al-Qur'an."
+    },
+    "addiction": {
+      "title": "Keluarga minum atau kecanduan",
+      "subtitle": "Alkohol, narkoba, judi",
+      "keywords": [
+        "mabuk",
+        "minum alkohol",
+        "suami suka mabuk",
+        "doa agar suami berhenti mabuk",
+        "alkohol",
+        "miras",
+        "narkoba",
+        "kecanduan",
+        "judi",
+        "judi online",
+        "judol",
+        "merokok"
+      ],
+      "notice": "Tidak ada ayat khusus “agar berhenti minum”. Mohonlah kepada Allah petunjuk bagi orang yang Anda sayangi dan carilah bantuan nyata: dokter spesialis adiksi, pusat rehabilitasi, kelompok dukungan untuk keluarga. Jika ada ancaman kekerasan, hubungi layanan darurat atau layanan bantuan."
+    },
+    "laziness": {
+      "title": "Malas, tidak bertenaga",
+      "subtitle": "Saat tidak ingin melakukan apa pun",
+      "keywords": [
+        "malas",
+        "rasa malas",
+        "doa menghilangkan rasa malas",
+        "lemas",
+        "capek",
+        "lelah",
+        "tidak semangat",
+        "tidak ada motivasi",
+        "mager",
+        "bangun pagi",
+        "kesiangan"
+      ]
+    },
+    "appearance": {
+      "title": "Cermin dan penampilan",
+      "subtitle": "Doa untuk akhlak yang indah",
+      "keywords": [
+        "cermin",
+        "doa bercermin",
+        "doa ketika bercermin",
+        "kecantikan",
+        "cantik",
+        "doa agar cantik",
+        "wajah",
+        "penampilan",
+        "surah untuk kecantikan"
+      ]
+    }
+  },
+  "duas": {
+    "grave_greeting": {
+      "title": "Salam ketika ziarah kubur",
+      "translation": "Semoga keselamatan tercurah atas kalian, wahai penghuni kubur dari kalangan orang-orang mukmin dan muslim. Sesungguhnya kami, insya Allah, akan menyusul kalian. Aku memohon kepada Allah keselamatan bagi kami dan bagi kalian.",
+      "source": "HR. Muslim 975"
+    },
+    "grave_istighfar": {
+      "title": "Setelah pemakaman: mohonkan keteguhan bagi mayit",
+      "translation": "Ya Allah, ampunilah dia. Ya Allah, teguhkanlah dia.",
+      "source": "HR. Abu Dawud 3221 (sahih menurut penilaian Al-Albani)",
+      "note": "Setelah selesai menguburkan, Nabi ﷺ bersabda: “Mohonkanlah ampunan untuk saudara kalian dan mintakanlah keteguhan baginya, karena sekarang ia sedang ditanya.” Untuk jenazah perempuan: “Allahummaghfir laha, Allahumma tsabbit-ha”."
+    },
+    "janazah_male": {
+      "title": "Doa untuk jenazah laki-laki",
+      "translation": "Ya Allah, ampunilah dia, rahmatilah dia, selamatkanlah dia, dan maafkanlah dia. Muliakanlah tempat kedatangannya dan luaskanlah tempat masuknya. Mandikanlah dia dengan air, salju, dan embun, dan bersihkanlah dia dari dosa-dosa sebagaimana pakaian putih dibersihkan dari kotoran. Gantikanlah baginya rumah yang lebih baik dari rumahnya, keluarga yang lebih baik dari keluarganya, dan pasangan yang lebih baik dari pasangannya. Masukkanlah dia ke surga dan lindungilah dia dari azab kubur dan azab neraka.",
+      "source": "HR. Muslim 963",
+      "note": "Dibaca dalam shalat jenazah dan kapan saja untuk mayit."
+    },
+    "janazah_female": {
+      "title": "Doa untuk jenazah perempuan",
+      "translation": "Ya Allah, ampunilah dia, rahmatilah dia, selamatkanlah dia, dan maafkanlah dia. Muliakanlah tempat kedatangannya dan luaskanlah tempat masuknya. Mandikanlah dia dengan air, salju, dan embun, dan bersihkanlah dia dari dosa-dosa sebagaimana pakaian putih dibersihkan dari kotoran. Masukkanlah dia ke surga dan lindungilah dia dari azab kubur dan azab neraka.",
+      "source": "HR. Muslim 963 (dengan kata ganti perempuan)",
+      "note": "Hadis ini diriwayatkan tentang jenazah laki-laki; para ulama menyebutkan bahwa untuk perempuan kata gantinya diubah menjadi bentuk perempuan. Kalimat tentang pasangan yang lebih baik biasanya tidak dibaca."
+    },
+    "parents_mercy": {
+      "title": "Doa untuk orang tua",
+      "translation": "Wahai Tuhanku, sayangilah keduanya sebagaimana mereka berdua telah mendidikku pada waktu kecil.",
+      "source": "QS 17:24"
+    },
+    "parents_forgive": {
+      "title": "Ampunan untukku, orang tuaku, dan orang-orang mukmin",
+      "translation": "Ya Tuhan kami, ampunilah aku, kedua orang tuaku, dan orang-orang mukmin pada hari diadakan perhitungan (hisab).",
+      "source": "QS 14:41"
+    },
+    "all_believers": {
+      "title": "Untuk seluruh orang beriman yang telah mendahului",
+      "translation": "Ya Tuhan kami, ampunilah kami dan saudara-saudara kami yang telah mendahului kami dalam keimanan, dan janganlah Engkau tanamkan kedengkian dalam hati kami terhadap orang-orang yang beriman. Ya Tuhan kami, sungguh Engkau Maha Penyantun, Maha Penyayang.",
+      "source": "QS 59:10"
+    },
+    "deceased_charity": {
+      "title": "Apa yang bermanfaat bagi mayit",
+      "translation": "“Apabila manusia meninggal dunia, terputuslah amalnya kecuali tiga perkara: sedekah jariyah, ilmu yang bermanfaat, dan anak saleh yang mendoakannya.” Juga sahih bahwa sedekah atas nama mayit dan pelunasan utangnya bermanfaat baginya.",
+      "source": "HR. Muslim 1631; Bukhari 2760 (sedekah untuk ibu)"
+    },
+    "yasin_dispute": {
+      "title": "Membaca Surah Yasin untuk orang meninggal dan di kuburan",
+      "translation": "Hadis “Bacakanlah Yasin kepada orang-orang yang akan meninggal di antara kalian” (Abu Dawud 3121) dinilai lemah oleh sebagian ulama (An-Nawawi, Al-Albani) dan sahih oleh yang lain (Ibnu Hibban); banyak ulama memahaminya sebagai bacaan di sisi orang yang sedang sakaratul maut, bukan di kuburan. Membaca Al-Qur'an di kuburan dan menghadiahkan pahalanya kepada mayit dibolehkan oleh ulama Hanafi dan Hanbali, sedangkan banyak ulama Maliki dan Syafi'i memandangnya makruh atau berpendapat pahalanya tidak sampai kepada mayit. Ini bukan Sunnah yang tetap: yang sahih di kuburan adalah salam dan doa.",
+      "source": "HR. Abu Dawud 3121 — penilaiannya diperselisihkan"
+    },
+    "mulk_virtue": {
+      "title": "Surah Al-Mulk — pelindung dari azab kubur",
+      "translation": "Nabi ﷺ bersabda tentang Surah Al-Mulk: “Ada satu surah dalam Al-Qur'an, tiga puluh ayat, yang memberi syafaat kepada seseorang hingga ia diampuni.” Ini berkaitan dengan bacaan rutin seseorang semasa hidupnya (Nabi ﷺ membacanya sebelum tidur), bukan bacaan di kuburan.",
+      "source": "HR. Tirmidzi 2891 (hasan); Tirmidzi 2892"
+    },
+    "calamity": {
+      "title": "Ketika mendengar kabar kematian atau musibah",
+      "translation": "Sesungguhnya kami milik Allah dan kepada-Nya kami kembali. Ya Allah, berilah aku pahala dalam musibahku dan gantikanlah untukku dengan yang lebih baik darinya.",
+      "source": "HR. Muslim 918"
+    },
+    "closing_eyes": {
+      "title": "Ketika memejamkan mata mayit",
+      "translation": "Ya Allah, ampunilah (sebut namanya), angkatlah derajatnya di antara orang-orang yang mendapat petunjuk, gantikanlah dia bagi orang-orang yang ditinggalkannya, ampunilah kami dan dia, wahai Tuhan semesta alam, lapangkanlah kuburnya dan berilah cahaya baginya di dalamnya.",
+      "source": "HR. Muslim 920",
+      "note": "Sebutkan nama mayit sebagai ganti kata “fulan”."
+    },
+    "condolence": {
+      "title": "Menyampaikan takziah kepada keluarga",
+      "translation": "Milik Allah apa yang Dia ambil dan milik-Nya apa yang Dia berikan, dan segala sesuatu di sisi-Nya memiliki ajal yang telah ditentukan. Maka bersabarlah dan harapkanlah pahala.",
+      "source": "HR. Bukhari 1284; Muslim 923",
+      "note": "Nabi ﷺ mengirimkan kata-kata ini kepada putrinya ketika anaknya menjelang wafat. Takziah dengan kata-kata sendiri juga baik."
+    },
+    "debt_halal": {
+      "title": "Doa agar terbebas dari utang",
+      "translation": "Ya Allah, cukupkanlah aku dengan yang halal dari-Mu sehingga terhindar dari yang haram, dan cukupkanlah aku dengan karunia-Mu dari selain-Mu.",
+      "source": "HR. Tirmidzi 3563 (hasan)",
+      "note": "Ali (semoga Allah meridainya) berkata bahwa Nabi ﷺ mengajarkan kalimat ini kepadanya, dan bahwa sekalipun utangnya sebesar gunung, Allah akan membantu melunasinya."
+    },
+    "debt_worry": {
+      "title": "Dari kegelisahan, kesedihan, dan beban utang",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari kegelisahan dan kesedihan, dari kelemahan dan kemalasan, dari sifat kikir dan pengecut, dari beban utang dan dari dikuasai orang lain.",
+      "source": "HR. Bukhari 6369"
+    },
+    "debt_maghram": {
+      "title": "Berlindung dari dosa dan utang (di akhir shalat)",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari dosa dan dari utang.",
+      "source": "HR. Bukhari 832; Muslim 589",
+      "note": "Nabi ﷺ sering membacanya dalam shalat. Ketika ditanya alasannya, beliau bersabda: “Sesungguhnya seseorang apabila berutang, ia berbicara lalu berdusta, dan berjanji lalu mengingkarinya.”"
+    },
+    "istighfar_rizq": {
+      "title": "Istighfar mendatangkan hujan, harta, dan anak",
+      "translation": "Maka aku berkata, ‘Mohonlah ampunan kepada Tuhanmu, sungguh Dia Maha Pengampun. Niscaya Dia akan menurunkan hujan yang lebat dari langit kepadamu, memperbanyak harta dan anak-anakmu, serta mengadakan untukmu kebun-kebun dan sungai-sungai.’",
+      "source": "QS 71:10–12",
+      "note": "Ayat-ayat ini menjelaskan buah dari istighfar. Lafaz istighfarnya: “Astaghfirullaha wa atubu ilaih”."
+    },
+    "rizq_morning": {
+      "title": "Memohon ilmu yang bermanfaat dan rezeki yang baik (setelah Subuh)",
+      "translation": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima.",
+      "source": "HR. Ibnu Majah 925 (sahih)"
+    },
+    "musa_need": {
+      "title": "Doa Nabi Musa (alaihissalam) ketika membutuhkan",
+      "translation": "Ya Tuhanku, sesungguhnya aku sangat memerlukan kebaikan apa pun yang Engkau turunkan kepadaku.",
+      "source": "QS 28:24",
+      "note": "Nabi Musa mengucapkan ini ketika tiba di Madyan tanpa tempat bernaung dan tanpa bekal; kemudian Allah memberinya pekerjaan dan seorang istri."
+    },
+    "sick_ruqyah": {
+      "title": "Doa untuk orang sakit (ruqyah Nabi ﷺ)",
+      "translation": "Ya Allah, Tuhan manusia, hilangkanlah penyakit ini dan sembuhkanlah, Engkaulah Yang Maha Menyembuhkan. Tidak ada kesembuhan kecuali kesembuhan dari-Mu — kesembuhan yang tidak meninggalkan penyakit.",
+      "source": "HR. Bukhari 5743; Muslim 2191"
+    },
+    "sick_visit_seven": {
+      "title": "Saat menjenguk orang sakit — 7 kali",
+      "translation": "Aku memohon kepada Allah Yang Maha Agung, Tuhan Arsy yang agung, agar Dia menyembuhkanmu.",
+      "source": "HR. Abu Dawud 3106; Tirmidzi 2083 (sahih)"
+    },
+    "sick_visit_short": {
+      "title": "Ucapan kepada orang sakit",
+      "translation": "Tidak apa-apa, (sakit ini) menyucikan (dari dosa), insya Allah.",
+      "source": "HR. Bukhari 3616"
+    },
+    "pain": {
+      "title": "Ketika merasakan sakit di badan",
+      "translation": "Letakkan tangan di bagian yang sakit dan ucapkan “Bismillah” tiga kali, kemudian tujuh kali: “Aku berlindung kepada Allah dan kekuasaan-Nya dari keburukan yang aku rasakan dan yang aku khawatirkan.”",
+      "source": "HR. Muslim 2202"
+    },
+    "ayyub": {
+      "title": "Doa Nabi Ayyub (alaihissalam)",
+      "translation": "Sungguh, aku telah ditimpa penyakit, padahal Engkau Tuhan Yang Maha Penyayang di antara semua penyayang.",
+      "source": "QS 21:83"
+    },
+    "anxiety_ibn_masud": {
+      "title": "Doa ketika cemas dan sedih",
+      "translation": "Ya Allah, sesungguhnya aku adalah hamba-Mu, anak hamba laki-laki-Mu, anak hamba perempuan-Mu. Ubun-ubunku ada di tangan-Mu, ketetapan-Mu berlaku atasku, dan keputusan-Mu adil terhadapku. Aku memohon kepada-Mu dengan setiap nama milik-Mu, yang Engkau namakan diri-Mu dengannya, atau Engkau turunkan dalam Kitab-Mu, atau Engkau ajarkan kepada salah satu makhluk-Mu, atau Engkau simpan dalam ilmu gaib di sisi-Mu, agar Engkau jadikan Al-Qur'an penyejuk hatiku, cahaya dadaku, penghapus kesedihanku, dan pelenyap kegelisahanku.",
+      "source": "HR. Ahmad 3712 (sahih menurut penilaian Al-Albani)",
+      "note": "Perempuan boleh mengucapkan: “Allahumma inni amatuk, bintu ‘abdik, bintu amatik”."
+    },
+    "distress_karb": {
+      "title": "Doa ketika sangat susah (doa al-karb)",
+      "translation": "Tidak ada tuhan selain Allah, Yang Maha Agung, Maha Penyantun. Tidak ada tuhan selain Allah, Tuhan Arsy yang agung. Tidak ada tuhan selain Allah, Tuhan langit, Tuhan bumi, dan Tuhan Arsy yang mulia.",
+      "source": "HR. Bukhari 6346; Muslim 2730"
+    },
+    "yunus": {
+      "title": "Doa Nabi Yunus (alaihissalam)",
+      "translation": "Tidak ada tuhan selain Engkau, Mahasuci Engkau. Sungguh, aku termasuk orang-orang yang zalim.",
+      "source": "QS 21:87; tentang keutamaannya — HR. Tirmidzi 3505",
+      "note": "“Tidaklah seorang muslim berdoa dengannya untuk suatu hal, melainkan Allah mengabulkannya.”"
+    },
+    "hasbunallah": {
+      "title": "Cukuplah Allah bagi kami",
+      "translation": "Cukuplah Allah (menjadi penolong) bagi kami, dan Dia sebaik-baik pelindung.",
+      "source": "QS 3:173; HR. Bukhari 4563",
+      "note": "Nabi Ibrahim (alaihissalam) mengucapkannya ketika dilemparkan ke dalam api, dan Nabi Muhammad ﷺ mengucapkannya ketika diberi tahu bahwa musuh telah berkumpul untuk menyerangnya."
+    },
+    "do_not_leave_me": {
+      "title": "Jangan serahkan aku kepada diriku sendiri",
+      "translation": "Ya Allah, rahmat-Mu yang aku harapkan, maka janganlah Engkau serahkan aku kepada diriku sendiri walau sekejap mata, dan perbaikilah seluruh urusanku. Tidak ada tuhan selain Engkau.",
+      "source": "HR. Abu Dawud 5090 (hasan)"
+    },
+    "fear_enemy": {
+      "title": "Ketika takut kepada orang lain",
+      "translation": "Ya Allah, kami menjadikan Engkau di hadapan mereka dan kami berlindung kepada-Mu dari kejahatan mereka.",
+      "source": "HR. Abu Dawud 1537 (sahih)"
+    },
+    "patience": {
+      "title": "Memohon kesabaran dan keteguhan",
+      "translation": "Ya Tuhan kami, limpahkanlah kesabaran kepada kami, kukuhkanlah langkah kami, dan tolonglah kami menghadapi orang-orang kafir.",
+      "source": "QS 2:250"
+    },
+    "sleep_bismika": {
+      "title": "Sebelum tidur",
+      "translation": "Dengan nama-Mu, ya Allah, aku mati dan aku hidup.",
+      "source": "HR. Bukhari 6324"
+    },
+    "sleep_kursi": {
+      "title": "Ayat Kursi",
+      "translation": "Allah, tidak ada tuhan selain Dia, Yang Mahahidup, Yang terus-menerus mengurus (makhluk-Nya). Dia tidak mengantuk dan tidak tidur. Milik-Nya apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang di hadapan mereka dan apa yang di belakang mereka, dan mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya melainkan apa yang Dia kehendaki. Kursi-Nya meliputi langit dan bumi, dan Dia tidak merasa berat memelihara keduanya. Dia Mahatinggi, Mahabesar.",
+      "source": "QS 2:255; tentang membacanya sebelum tidur — HR. Bukhari 2311",
+      "note": "Siapa yang membacanya sebelum tidur, ia akan senantiasa dijaga oleh Allah sepanjang malam, dan setan tidak akan mendekatinya hingga pagi."
+    },
+    "sleep_baqarah_end": {
+      "title": "Dua ayat terakhir Surah Al-Baqarah",
+      "translation": "Rasul telah beriman kepada apa yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang yang beriman… “Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah… Maafkanlah kami, ampunilah kami, dan rahmatilah kami. Engkaulah pelindung kami, maka tolonglah kami menghadapi orang-orang kafir.”",
+      "source": "QS 2:285–286; HR. Bukhari 5009",
+      "note": "“Siapa yang membaca dua ayat terakhir Surah Al-Baqarah pada malam hari, keduanya akan mencukupinya.”"
+    },
+    "sleep_three_quls": {
+      "title": "Surah Al-Ikhlas, Al-Falaq, dan An-Nas",
+      "translation": "Sebelum tidur Nabi ﷺ menghimpun kedua telapak tangannya, membaca Al-Ikhlas, Al-Falaq, dan An-Nas, meniupnya, lalu mengusapkannya ke bagian tubuh yang dapat beliau jangkau, dimulai dari kepala dan wajah — sebanyak tiga kali. Ketiga surah ini juga dibaca tiga kali pada pagi dan petang.",
+      "source": "HR. Bukhari 5017; pagi dan petang — HR. Abu Dawud 5082; Tirmidzi 3575"
+    },
+    "waking": {
+      "title": "Ketika bangun tidur",
+      "translation": "Segala puji bagi Allah yang menghidupkan kami setelah mematikan kami, dan kepada-Nya kebangkitan.",
+      "source": "HR. Bukhari 6312"
+    },
+    "night_fear": {
+      "title": "Ketika susah tidur dan merasa takut saat tidur",
+      "translation": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari murka dan siksa-Nya, dari kejahatan hamba-hamba-Nya, dan dari bisikan setan serta kehadiran mereka.",
+      "source": "HR. Abu Dawud 3893; Tirmidzi 3528 (hasan)",
+      "note": "Al-Albani menilainya hasan; sebagian ahli hadis menilainya lemah. Dibaca oleh orang yang merasa takut dalam tidurnya."
+    },
+    "sayyid_istighfar": {
+      "title": "Sayyidul istighfar (penghulu istighfar)",
+      "translation": "Ya Allah, Engkau Tuhanku, tidak ada tuhan selain Engkau. Engkau telah menciptakanku dan aku adalah hamba-Mu, dan aku berusaha menepati janji dan ikrarku kepada-Mu semampuku. Aku berlindung kepada-Mu dari keburukan perbuatanku. Aku mengakui nikmat-Mu kepadaku dan aku mengakui dosaku, maka ampunilah aku, karena tidak ada yang mengampuni dosa selain Engkau.",
+      "source": "HR. Bukhari 6306",
+      "note": "Siapa yang mengucapkannya pada siang hari dengan penuh keyakinan lalu meninggal sebelum petang, ia termasuk penghuni surga; demikian pula pada malam hari sebelum pagi."
+    },
+    "bismillah_no_harm": {
+      "title": "Perlindungan pagi dan petang — 3 kali",
+      "translation": "Dengan nama Allah, yang bersama nama-Nya tidak ada sesuatu pun di bumi maupun di langit yang dapat membahayakan, dan Dia Maha Mendengar, Maha Mengetahui.",
+      "source": "HR. Abu Dawud 5088; Tirmidzi 3388 (hasan sahih)"
+    },
+    "subhanallah_100": {
+      "title": "Tasbih pagi dan petang — 100 kali",
+      "translation": "Mahasuci Allah dan segala puji bagi-Nya.",
+      "source": "HR. Muslim 2692"
+    },
+    "tahlil_100": {
+      "title": "Tahlil — 100 kali sehari",
+      "translation": "Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan milik-Nya segala puji, dan Dia Mahakuasa atas segala sesuatu.",
+      "source": "HR. Bukhari 3293; Muslim 2691"
+    },
+    "travel": {
+      "title": "Doa bepergian (saat berangkat)",
+      "translation": "Allah Mahabesar (tiga kali). Mahasuci Allah yang telah menundukkan (kendaraan) ini untuk kami, padahal kami sebelumnya tidak mampu menguasainya, dan sesungguhnya kepada Tuhan kamilah kami akan kembali. Ya Allah, kami memohon kepada-Mu dalam perjalanan ini kebaikan dan takwa, serta amal yang Engkau ridai. Ya Allah, mudahkanlah perjalanan kami ini dan dekatkanlah jaraknya. Ya Allah, Engkaulah teman dalam perjalanan dan pengganti (penjaga) bagi keluarga. Ya Allah, aku berlindung kepada-Mu dari kesulitan perjalanan, dari pemandangan yang menyedihkan, dan dari kepulangan yang buruk pada harta dan keluarga.",
+      "source": "HR. Muslim 1342",
+      "note": "Ketika kembali, ucapkan doa yang sama dan tambahkan: “Ayibuna, ta'ibuna, ‘abiduna, li-Rabbina hamidun” — “Kami kembali, bertobat, beribadah, dan memuji Tuhan kami.”"
+    },
+    "stopping_place": {
+      "title": "Ketika singgah di suatu tempat",
+      "translation": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang Dia ciptakan.",
+      "source": "HR. Muslim 2708; pada petang hari — HR. Muslim 2709",
+      "note": "Siapa yang singgah di suatu tempat lalu mengucapkannya, tidak ada sesuatu pun yang membahayakannya hingga ia meninggalkan tempat itu."
+    },
+    "leaving_home": {
+      "title": "Ketika keluar rumah",
+      "translation": "Dengan nama Allah, aku bertawakal kepada Allah, dan tidak ada daya dan kekuatan kecuali dengan (pertolongan) Allah.",
+      "source": "HR. Abu Dawud 5095; Tirmidzi 3426 (sahih)"
+    },
+    "entering_home": {
+      "title": "Ketika masuk rumah",
+      "translation": "Nabi ﷺ bersabda: “Apabila seseorang masuk ke rumahnya lalu menyebut nama Allah ketika masuk dan ketika makan, setan berkata: ‘Tidak ada tempat bermalam dan tidak ada makan malam bagi kalian.’” Sebutlah nama Allah ketika masuk dengan mengucapkan “Bismillah” dan berilah salam kepada penghuni rumah.",
+      "source": "HR. Muslim 2018"
+    },
+    "before_eating": {
+      "title": "Sebelum makan",
+      "translation": "Dengan nama Allah. Jika lupa di awal, ucapkan: “Bismillahi fi awwalihi wa akhirih” — “Dengan nama Allah pada awal dan akhirnya.”",
+      "source": "HR. Abu Dawud 3767; Tirmidzi 1858 (sahih)"
+    },
+    "after_eating": {
+      "title": "Sesudah makan",
+      "translation": "Segala puji bagi Allah yang telah memberiku makanan ini dan memberikannya sebagai rezeki kepadaku tanpa daya dan kekuatan dariku.",
+      "source": "HR. Abu Dawud 4023; Tirmidzi 3458 (hasan)"
+    },
+    "mosque_enter_exit": {
+      "title": "Masuk dan keluar masjid",
+      "translation": "Ketika masuk: “Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.” Ketika keluar: “Ya Allah, aku memohon kepada-Mu dari karunia-Mu.”",
+      "source": "HR. Muslim 713"
+    },
+    "after_wudu": {
+      "title": "Setelah wudhu",
+      "translation": "Aku bersaksi bahwa tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya.",
+      "source": "HR. Muslim 234",
+      "note": "Bagi siapa yang mengucapkannya setelah wudhu, dibukakan delapan pintu surga."
+    },
+    "after_salah": {
+      "title": "Sesaat setelah shalat",
+      "translation": "Aku memohon ampun kepada Allah (tiga kali). Ya Allah, Engkaulah As-Salam (Maha Pemberi keselamatan) dan dari-Mu keselamatan. Mahaberkah Engkau, wahai Pemilik keagungan dan kemuliaan.",
+      "source": "HR. Muslim 591"
+    },
+    "istighfar_daily": {
+      "title": "Istighfar harian",
+      "translation": "Aku memohon ampun kepada Allah dan bertobat kepada-Nya.",
+      "source": "HR. Bukhari 6307; Muslim 2702",
+      "note": "Nabi ﷺ memohon ampun kepada Allah lebih dari tujuh puluh kali sehari; dalam riwayat Muslim, seratus kali."
+    },
+    "abu_bakr": {
+      "title": "Doa yang diajarkan Nabi ﷺ kepada Abu Bakar",
+      "translation": "Ya Allah, sesungguhnya aku telah banyak menzalimi diriku sendiri, dan tidak ada yang mengampuni dosa selain Engkau. Maka ampunilah aku dengan ampunan dari sisi-Mu dan rahmatilah aku, sungguh Engkau Maha Pengampun, Maha Penyayang.",
+      "source": "HR. Bukhari 834; Muslim 2705"
+    },
+    "adam": {
+      "title": "Doa Nabi Adam dan Hawa",
+      "translation": "Ya Tuhan kami, kami telah menzalimi diri kami sendiri. Jika Engkau tidak mengampuni kami dan tidak merahmati kami, niscaya kami termasuk orang-orang yang merugi.",
+      "source": "QS 7:23"
+    },
+    "qadr": {
+      "title": "Pada malam Lailatul Qadar",
+      "translation": "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan menyukai pemaafan, maka maafkanlah aku.",
+      "source": "HR. Tirmidzi 3513 (sahih)"
+    },
+    "iftar": {
+      "title": "Ketika berbuka puasa",
+      "translation": "Telah hilang rasa haus, urat-urat telah basah, dan pahala telah ditetapkan, insya Allah.",
+      "source": "HR. Abu Dawud 2357 (hasan)"
+    },
+    "new_moon": {
+      "title": "Ketika melihat hilal",
+      "translation": "Ya Allah, tampakkanlah hilal ini kepada kami dengan membawa keberkahan dan keimanan, keselamatan dan Islam. Tuhanku dan Tuhanmu adalah Allah.",
+      "source": "HR. Tirmidzi 3451 (hasan)"
+    },
+    "iftar_lakasumtu": {
+      "title": "“Allahumma laka shumtu” ketika berbuka",
+      "translation": "Ya Allah, untuk-Mu aku berpuasa dan dengan rezeki-Mu aku berbuka.",
+      "source": "HR. Abu Dawud 2358 (dha'if, mursal)",
+      "note": "Sanad hadis ini terputus, sehingga hadisnya lemah. Maknanya benar dan boleh diucapkan sebagai doa umum, tetapi doa berbuka yang sahih adalah “Dzahabazh-zhama'u” (lihat di atas)."
+    },
+    "spouse_children": {
+      "title": "Memohon pasangan dan keturunan yang menyejukkan hati",
+      "translation": "Ya Tuhan kami, anugerahkanlah kepada kami pasangan dan keturunan kami sebagai penyejuk mata, dan jadikanlah kami pemimpin bagi orang-orang yang bertakwa.",
+      "source": "QS 25:74"
+    },
+    "zakariya_child": {
+      "title": "Doa Nabi Zakaria (alaihissalam) memohon anak",
+      "translation": "Ya Tuhanku, berilah aku keturunan yang baik dari sisi-Mu. Sesungguhnya Engkau Maha Mendengar doa.",
+      "source": "QS 3:38"
+    },
+    "zakariya_alone": {
+      "title": "Jangan biarkan aku seorang diri",
+      "translation": "Ya Tuhanku, janganlah Engkau biarkan aku seorang diri (tanpa keturunan), dan Engkaulah ahli waris yang terbaik.",
+      "source": "QS 21:89"
+    },
+    "children_prayer": {
+      "title": "Agar aku dan anak-anakku tetap mendirikan shalat",
+      "translation": "Ya Tuhanku, jadikanlah aku dan anak cucuku orang-orang yang tetap mendirikan shalat. Ya Tuhan kami, perkenankanlah doaku.",
+      "source": "QS 14:40"
+    },
+    "children_protection": {
+      "title": "Perlindungan untuk anak-anak",
+      "translation": "Aku memohonkan perlindungan untuk kalian berdua dengan kalimat-kalimat Allah yang sempurna dari setiap setan, setiap binatang berbisa, dan dari setiap mata yang jahat (ain).",
+      "source": "HR. Bukhari 3371",
+      "note": "Demikianlah Nabi ﷺ memohonkan perlindungan bagi Al-Hasan dan Al-Husain. Untuk satu anak laki-laki: “U‘idzuka”, satu anak perempuan: “U‘idzuki”, beberapa anak: “U‘idzukum”."
+    },
+    "newborn_congrats": {
+      "title": "Ucapan selamat atas kelahiran bayi",
+      "translation": "Semoga Allah memberkahimu pada anak yang dianugerahkan kepadamu; semoga engkau bersyukur kepada Sang Pemberi; semoga ia mencapai usia dewasa, dan semoga engkau dikaruniai baktinya.",
+      "source": "Perkataan Al-Hasan Al-Bashri (bukan hadis Nabi ﷺ); dikutip dalam «Hisnul Muslim»"
+    },
+    "wedding_congrats": {
+      "title": "Ucapan selamat kepada pengantin",
+      "translation": "Semoga Allah memberkahimu, melimpahkan keberkahan atasmu, dan menghimpun kalian berdua dalam kebaikan.",
+      "source": "HR. Abu Dawud 2130; Tirmidzi 1091 (sahih)"
+    },
+    "istikhara": {
+      "title": "Istikharah — ketika harus mengambil keputusan",
+      "translation": "Ya Allah, aku memohon pilihan kepada-Mu dengan ilmu-Mu, memohon kekuatan dengan kekuasaan-Mu, dan aku memohon kepada-Mu dari karunia-Mu yang agung. Engkau Mahakuasa sedangkan aku tidak, Engkau Maha Mengetahui sedangkan aku tidak, dan Engkaulah Yang Maha Mengetahui perkara gaib. Ya Allah, jika Engkau mengetahui bahwa urusan ini (sebutkan urusannya) baik bagiku dalam agamaku, kehidupanku, dan akibat urusanku, maka takdirkanlah ia untukku, mudahkanlah bagiku, dan berkahilah aku di dalamnya. Dan jika Engkau mengetahui bahwa urusan ini buruk bagiku dalam agamaku, kehidupanku, dan akibat urusanku, maka jauhkanlah ia dariku dan jauhkanlah aku darinya, takdirkanlah kebaikan untukku di mana pun ia berada, dan jadikanlah aku rida dengannya.",
+      "source": "HR. Bukhari 1162",
+      "note": "Kerjakan shalat sunnah dua rakaat, kemudian bacalah doa ini."
+    },
+    "make_easy": {
+      "title": "Ketika suatu urusan terasa sulit",
+      "translation": "Ya Allah, tidak ada yang mudah kecuali apa yang Engkau jadikan mudah, dan Engkau menjadikan kesulitan itu mudah jika Engkau menghendaki.",
+      "source": "HR. Ibnu Hibban 974 (sahih)"
+    },
+    "musa_chest": {
+      "title": "Sebelum berbicara di depan umum, ujian, atau pembicaraan sulit",
+      "translation": "Ya Tuhanku, lapangkanlah dadaku, mudahkanlah urusanku, dan lepaskanlah kekakuan dari lidahku, agar mereka memahami perkataanku.",
+      "source": "QS 20:25–28"
+    },
+    "knowledge": {
+      "title": "Memohon ilmu",
+      "translation": "Ya Tuhanku, tambahkanlah kepadaku ilmu.",
+      "source": "QS 20:114"
+    },
+    "anger": {
+      "title": "Ketika marah",
+      "translation": "Aku berlindung kepada Allah dari setan yang terkutuk.",
+      "source": "HR. Bukhari 3282; Muslim 2610"
+    },
+    "heart_firm": {
+      "title": "Memohon hati yang teguh dalam iman",
+      "translation": "Ya Tuhan kami, janganlah Engkau condongkan hati kami kepada kesesatan setelah Engkau memberi petunjuk kepada kami, dan karuniakanlah kepada kami rahmat dari sisi-Mu. Sesungguhnya Engkau Maha Pemberi.",
+      "source": "QS 3:8"
+    },
+    "ya_hayyu": {
+      "title": "Ketika putus asa: “Wahai Yang Mahahidup, wahai Yang Maha Berdiri Sendiri”",
+      "translation": "Wahai Yang Mahahidup, wahai Yang terus-menerus mengurus makhluk-Nya, dengan rahmat-Mu aku memohon pertolongan.",
+      "source": "HR. Tirmidzi 3524 (hasan)",
+      "note": "Nabi ﷺ mengucapkannya ketika sesuatu menyusahkan beliau."
+    },
+    "good_news": {
+      "title": "Ketika mendapatkan sesuatu yang menyenangkan",
+      "translation": "Segala puji bagi Allah yang dengan nikmat-Nya segala kebaikan menjadi sempurna.",
+      "source": "HR. Ibnu Majah 3803 (hasan)"
+    },
+    "sulayman_thanks": {
+      "title": "Doa memohon kemampuan bersyukur",
+      "translation": "Ya Tuhanku, anugerahkanlah aku ilham untuk tetap mensyukuri nikmat-Mu yang telah Engkau anugerahkan kepadaku dan kepada kedua orang tuaku, dan untuk mengerjakan kebajikan yang Engkau ridai, dan masukkanlah aku dengan rahmat-Mu ke dalam golongan hamba-hamba-Mu yang saleh.",
+      "source": "QS 27:19"
+    },
+    "best_of_both": {
+      "title": "Doa yang paling sering dibaca Nabi ﷺ",
+      "translation": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+      "source": "QS 2:201; HR. Bukhari 6389"
+    },
+    "anas_dua": {
+      "title": "Mendoakan kebaikan dan keberkahan bagi seseorang",
+      "translation": "Ya Allah, perbanyaklah harta dan anaknya, dan berkahilah apa yang Engkau berikan kepadanya.",
+      "source": "HR. Bukhari 6334; Muslim 2480",
+      "note": "Nabi ﷺ mendoakan ini untuk Anas bin Malik. Untuk perempuan: “Allahumma aktsir malaha wa waladaha, wa barik laha fima a‘thaitaha”."
+    },
+    "islah": {
+      "title": "Memohon kebaikan agama, dunia, dan akhirat",
+      "translation": "Ya Allah, perbaikilah agamaku yang menjadi penjaga urusanku; perbaikilah duniaku yang menjadi tempat hidupku; perbaikilah akhiratku yang menjadi tempat kembaliku. Jadikanlah hidup ini sebagai tambahan bagiku dalam setiap kebaikan, dan jadikanlah kematian sebagai istirahat bagiku dari setiap keburukan.",
+      "source": "HR. Muslim 2720"
+    },
+    "barakallah": {
+      "title": "“Barakallahu fik”",
+      "translation": "Para sahabat membalas kebaikan dan mendoakan dengan ucapan “barakallahu fik/fiki” — “semoga Allah memberkahimu”. Ini adalah doa umum yang cocok untuk hari apa pun, termasuk ketika seseorang sedang diberi ucapan selamat.",
+      "source": "Lafaz doa keberkahan ini terdapat dalam hadis, misalnya HR. Bukhari 5155"
+    },
+    "kahf_friday": {
+      "title": "Surah Al-Kahfi pada hari Jumat",
+      "translation": "“Siapa yang membaca Surah Al-Kahfi pada hari Jumat, ia akan diterangi cahaya di antara dua Jumat.”",
+      "source": "HR. Al-Hakim 2/368; Al-Baihaqi (sahih menurut penilaian Al-Albani, Shahih Al-Jami' 6470)"
+    },
+    "salawat_friday": {
+      "title": "Shalawat kepada Nabi ﷺ (terutama pada hari Jumat)",
+      "translation": "Ya Allah, limpahkanlah shalawat kepada Muhammad dan keluarga Muhammad sebagaimana Engkau telah melimpahkan shalawat kepada Ibrahim dan keluarga Ibrahim. Sesungguhnya Engkau Maha Terpuji, Maha Mulia.",
+      "source": "HR. Bukhari 3370; tentang hari Jumat — HR. Abu Dawud 1047"
+    },
+    "eid_greeting": {
+      "title": "Ucapan selamat Hari Raya",
+      "translation": "Semoga Allah menerima (amal) dari kami dan dari kalian.",
+      "source": "Demikian para sahabat saling mengucapkan selamat (Ibnu Hajar, «Fathul Bari»: sanadnya baik)"
+    },
+    "sacrifice": {
+      "title": "Ketika menyembelih hewan kurban",
+      "translation": "Dengan nama Allah, dan Allah Mahabesar.",
+      "source": "HR. Muslim 1966",
+      "note": "Nabi ﷺ mengucapkannya ketika menyembelih dua ekor domba. Boleh ditambahkan atas nama siapa kurban itu: “Allahumma minka wa lak” (Abu Dawud 2795)."
+    },
+    "zakat_recipients": {
+      "title": "Siapa yang berhak menerima zakat",
+      "translation": "Sesungguhnya zakat itu hanyalah untuk orang-orang fakir, orang-orang miskin, amil zakat, mualaf yang dilunakkan hatinya, untuk memerdekakan hamba sahaya, untuk orang-orang yang berutang, untuk jalan Allah, dan untuk ibnu sabil (orang yang dalam perjalanan) — sebagai kewajiban dari Allah. Allah Maha Mengetahui, Mahabijaksana.",
+      "source": "QS 9:60"
+    },
+    "zakat_purifies": {
+      "title": "Zakat menyucikan harta dan jiwa",
+      "translation": "Ambillah zakat dari harta mereka, guna membersihkan dan menyucikan mereka, dan doakanlah mereka. Sesungguhnya doamu itu menumbuhkan ketenteraman bagi mereka. Allah Maha Mendengar, Maha Mengetahui.",
+      "source": "QS 9:103",
+      "note": "Ketika menerima zakat, Nabi ﷺ mendoakan pemberinya (HR. Bukhari 1497)."
+    },
+    "sadaqah_not_decrease": {
+      "title": "Sedekah tidak mengurangi harta",
+      "translation": "“Sedekah tidak mengurangi harta. Allah tidak menambah seorang hamba yang pemaaf melainkan kemuliaan, dan tidaklah seseorang merendahkan diri karena Allah melainkan Allah mengangkat (derajat)nya.”",
+      "source": "HR. Muslim 2588"
+    },
+    "market": {
+      "title": "Ketika masuk pasar",
+      "translation": "Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan milik-Nya segala puji; Dia menghidupkan dan mematikan, dan Dia Mahahidup, tidak mati. Di tangan-Nya segala kebaikan, dan Dia Mahakuasa atas segala sesuatu.",
+      "source": "HR. Tirmidzi 3428 — penilaiannya diperselisihkan",
+      "note": "At-Tirmidzi menyebut hadis ini gharib; Al-Albani menilainya hasan, sedangkan banyak kritikus hadis (Abu Hatim dan lainnya) menilainya lemah. Lafaz dzikirnya benar, tetapi pahala besar yang dijanjikan dalam hadis ini tidak dapat dipastikan."
+    },
+    "zakat_nisab": {
+      "title": "Nisab dan haul",
+      "translation": "“Tidak ada zakat pada (perak) yang kurang dari lima uqiyah.” Nisab perak adalah 200 dirham (sekitar 595 g) dan nisab emas 20 dinar (sekitar 85 g); zakat dibayar setelah harta melewati satu tahun (haul), sebesar seperempat puluh (2,5%).",
+      "source": "HR. Bukhari 1447; Abu Dawud 1573"
+    },
+    "nuh_parents": {
+      "title": "Doa Nabi Nuh untuk dirinya, orang tuanya, dan orang-orang mukmin",
+      "translation": "Ya Tuhanku, ampunilah aku, kedua orang tuaku, dan siapa pun yang memasuki rumahku dengan beriman, serta semua orang beriman laki-laki dan perempuan.",
+      "source": "QS 71:28"
+    },
+    "burial_lowering": {
+      "title": "Ketika menurunkan jenazah ke liang kubur",
+      "translation": "Dengan nama Allah dan sesuai dengan sunnah Rasulullah.",
+      "source": "HR. Abu Dawud 3213 (sahih)"
+    },
+    "grave_punishment": {
+      "title": "Perlindungan dari azab kubur",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari azab neraka Jahanam, dari azab kubur, dari fitnah kehidupan dan kematian, dan dari keburukan fitnah Al-Masih Ad-Dajjal.",
+      "source": "HR. Muslim 588",
+      "note": "Nabi ﷺ memerintahkan membacanya pada tasyahud akhir sebelum salam. Surah Al-Mulk juga melindungi (lihat kartunya)."
+    },
+    "toilet_enter": {
+      "title": "Sebelum masuk kamar kecil",
+      "translation": "Ya Allah, aku berlindung kepada-Mu dari setan laki-laki dan setan perempuan.",
+      "source": "HR. Bukhari 142; Muslim 375",
+      "note": "Ucapkan “Bismillah” sebelumnya (HR. Tirmidzi 606, sahih). Masuklah dengan kaki kiri dan jangan menyebut nama Allah dengan suara keras di dalamnya."
+    },
+    "toilet_exit": {
+      "title": "Setelah keluar dari kamar kecil",
+      "translation": "Aku memohon ampunan-Mu.",
+      "source": "HR. Abu Dawud 30; Tirmidzi 7 (sahih)"
+    },
+    "rain": {
+      "title": "Ketika turun hujan",
+      "translation": "Ya Allah, (jadikanlah) hujan yang bermanfaat.",
+      "source": "HR. Bukhari 1032"
+    },
+    "after_rain": {
+      "title": "Setelah hujan",
+      "translation": "Kami diberi hujan karena karunia dan rahmat Allah.",
+      "source": "HR. Bukhari 846; Muslim 71"
+    },
+    "wind": {
+      "title": "Ketika angin bertiup kencang",
+      "translation": "Ya Allah, aku memohon kepada-Mu kebaikannya, kebaikan yang ada padanya, dan kebaikan yang dibawanya, dan aku berlindung kepada-Mu dari keburukannya, keburukan yang ada padanya, dan keburukan yang dibawanya.",
+      "source": "HR. Muslim 899"
+    },
+    "thunder": {
+      "title": "Ketika mendengar petir",
+      "translation": "Mahasuci Dzat yang guruh bertasbih dengan memuji-Nya, demikian pula para malaikat karena takut kepada-Nya.",
+      "source": "Bukhari, «Al-Adab Al-Mufrad» 723; Malik «Al-Muwaththa» — perkataan Abdullah bin Az-Zubair",
+      "note": "Ini adalah perkataan seorang sahabat, bukan hadis Nabi ﷺ; kalimatnya diambil dari Al-Qur'an (QS 13:13)."
+    },
+    "ruqyah_jibril": {
+      "title": "Ruqyah Jibril (untuk ain dan penyakit)",
+      "translation": "Dengan nama Allah aku meruqyahmu, dari segala sesuatu yang menyakitimu, dari kejahatan setiap jiwa atau mata yang dengki. Semoga Allah menyembuhkanmu. Dengan nama Allah aku meruqyahmu.",
+      "source": "HR. Muslim 2186",
+      "note": "Malaikat Jibril membacakannya untuk Nabi ﷺ ketika beliau sakit. Dibacakan kepada orang yang sakit, dan tangan boleh diletakkan di kepalanya."
+    },
+    "seeing_pleasing": {
+      "title": "Mengagumi sesuatu tanpa menimbulkan ain",
+      "translation": "“Apabila salah seorang dari kalian melihat pada dirinya, hartanya, atau saudaranya sesuatu yang membuatnya kagum, hendaklah ia mendoakan keberkahan untuknya, karena ain itu benar adanya.” Misalnya: “Barakallahu fih” (semoga Allah memberkahinya) atau “Allahumma barik ‘alaih”.",
+      "source": "HR. Ibnu Majah 3509 (sahih menurut penilaian Al-Albani)"
+    },
+    "mashallah": {
+      "title": "“Masya Allah, la quwwata illa billah”",
+      "translation": "Atas kehendak Allah (semua ini terwujud); tidak ada kekuatan kecuali dengan (pertolongan) Allah.",
+      "source": "QS 18:39",
+      "note": "Dalam ayat ini, itulah yang semestinya diucapkan pemilik kebun ketika memasukinya. Para ulama (Ibnu Katsir dan lainnya) menganjurkan mengucapkannya ketika melihat sesuatu yang baik pada milik sendiri; ayat ini tidak menyebut ain secara langsung."
+    },
+    "amulets": {
+      "title": "Benang merah, jimat, dan hiasan “mata”",
+      "translation": "Nabi ﷺ bersabda: “Siapa yang menggantungkan jimat, sungguh ia telah berbuat syirik” (Ahmad 17422) dan “Sesungguhnya mantra, jimat, dan pelet adalah syirik” (Abu Dawud 3883). Benang merah, hiasan “mata”, tapal kuda, dan sejenisnya bukanlah perlindungan. Perlindungan adalah doa, Ayat Kursi, Surah Al-Ikhlas, Al-Falaq, dan An-Nas, serta ruqyah dari Al-Qur'an dan Sunnah. Ulama hanya berbeda pendapat tentang menggantungkan kertas berisi ayat Al-Qur'an, dan banyak di antara mereka juga melarangnya.",
+      "source": "HR. Ahmad 17422; Abu Dawud 3883 (sahih menurut penilaian Al-Albani)"
+    },
+    "memorial_customs": {
+      "title": "Jamuan peringatan pada hari ke-3, ke-7, ke-40, dan peringatan tahunan",
+      "translation": "Sahih bahwa sedekah atas nama mayit sampai kepadanya (Muslim 1631): memberi makan orang karena Allah dan mendoakan mayit dapat dilakukan pada hari apa saja. Namun jumlah roti yang ditentukan, membuat kue pada hari Kamis dan Jumat, jamuan peringatan yang diwajibkan pada hari ke-3, ke-7, dan ke-40 atau peringatan tahunan, serta “doa pada hari ulang tahun mayit” tidak memiliki dasar dari Al-Qur'an maupun Sunnah. Banyak ulama menyebut penetapan tanggal-tanggal seperti itu sebagai bid'ah; sebagian membolehkan jamuan tersebut sebagai sedekah jika tidak dianggap wajib dan tidak menggunakan harta warisan anak yatim. Sunnah ketika ada kematian adalah tetangga memberi makan keluarga yang berduka, bukan sebaliknya (Abu Dawud 3132).",
+      "source": "Tidak ada dalil khusus; tentang sedekah untuk mayit — HR. Muslim 1631; tentang makanan untuk keluarga mayit — HR. Abu Dawud 3132"
+    },
+    "oppressed_dua_answered": {
+      "title": "Doa orang yang terzalimi dikabulkan",
+      "translation": "“Takutlah terhadap doa orang yang terzalimi, karena tidak ada penghalang antara doa itu dan Allah.” Jika Anda dizalimi, mohonlah keadilan dan pertolongan kepada Allah, tetapi jangan melaknat secara berlebihan: “Janganlah kalian mendoakan keburukan atas diri kalian, anak-anak kalian, dan harta kalian” (Muslim 3009).",
+      "source": "HR. Bukhari 1496; Muslim 3009"
+    },
+    "musa_people_oppressors": {
+      "title": "Diselamatkan dari kaum yang zalim",
+      "translation": "Ya Tuhan kami, janganlah Engkau jadikan kami sasaran fitnah bagi kaum yang zalim, dan selamatkanlah kami dengan rahmat-Mu dari kaum yang kafir.",
+      "source": "QS 10:85–86"
+    },
+    "mustadafin": {
+      "title": "Seruan orang-orang yang tertindas",
+      "translation": "Ya Tuhan kami, keluarkanlah kami dari negeri ini yang penduduknya zalim, dan berilah kami pelindung dari sisi-Mu, dan berilah kami penolong dari sisi-Mu.",
+      "source": "QS 4:75",
+      "note": "Dalam ayat ini, ini adalah ucapan laki-laki, perempuan, dan anak-anak yang tertindas. Doa ini dapat dibaca untuk kaum muslimin yang tertindas di Palestina dan tempat lainnya."
+    },
+    "qunut_nazila": {
+      "title": "Qunut ketika terjadi musibah",
+      "translation": "Ketika kaum muslimin ditimpa musibah, Nabi ﷺ berdoa selama sebulan dalam shalat setelah rukuk: “Ya Allah, selamatkanlah orang-orang lemah dari kalangan kaum mukminin!” Dari sini para ulama mengambil dalil qunut nazilah untuk kaum muslimin yang tertindas, termasuk di Palestina. Tata caranya berbeda antar mazhab, maka ikutilah imam masjid Anda.",
+      "source": "HR. Bukhari 4560"
+    },
+    "tahnik_naming": {
+      "title": "Tahnik dan pemberian nama bayi",
+      "translation": "Ketika Abu Musa dikaruniai seorang putra, Nabi ﷺ menamainya Ibrahim, mengunyah sebutir kurma lalu mengoleskannya ke langit-langit mulut bayi (tahnik), dan mendoakan keberkahan baginya. Nama boleh diberikan pada hari pertama atau hari ketujuh.",
+      "source": "HR. Bukhari 5467; Muslim 2145"
+    },
+    "aqiqah": {
+      "title": "Aqiqah",
+      "translation": "“Setiap anak tergadai dengan aqiqahnya: disembelihkan hewan untuknya pada hari ketujuh, dicukur rambutnya, dan diberi nama” (Abu Dawud 2838). “Bersama anak laki-laki ada aqiqah, maka alirkanlah darah (sembelihan) untuknya dan hilangkanlah kotoran darinya” (Bukhari 5472). Mayoritas ulama memandang aqiqah sebagai sunnah yang dianjurkan, bukan kewajiban.",
+      "source": "HR. Abu Dawud 2838 (sahih); Bukhari 5472"
+    },
+    "adhan_newborn": {
+      "title": "Azan di telinga bayi yang baru lahir",
+      "translation": "Hadis bahwa Nabi ﷺ mengumandangkan azan di telinga Al-Hasan saat ia lahir diriwayatkan oleh Abu Dawud (5105) dan At-Tirmidzi (1514, yang menilainya sahih). Banyak ahli hadis, termasuk Al-Albani dalam penilaian akhirnya, menilainya lemah. Maka ulama berbeda pendapat: sebagian memandang azan ini dianjurkan, sebagian lainnya memandangnya tidak tetap dari Sunnah. Iqamah di telinga kiri bersandar pada hadis-hadis yang lebih lemah lagi.",
+      "source": "HR. Abu Dawud 5105; Tirmidzi 1514 — penilaiannya diperselisihkan"
+    },
+    "talaq_way_out": {
+      "title": "«Barang siapa bertakwa kepada Allah, Dia akan memberinya jalan keluar»",
+      "translation": "Barang siapa bertakwa kepada Allah, niscaya Dia akan membukakan jalan keluar baginya dan memberinya rezeki dari arah yang tidak disangka-sangka. Barang siapa bertawakal kepada Allah, niscaya Allah mencukupinya.",
+      "source": "QS 65:2–3",
+      "note": "Ini adalah janji Allah bagi orang yang bertakwa dan bertawakal kepada-Nya, bukan mantra: dalam Sunnah tidak ada petunjuk untuk membacanya sejumlah tertentu «untuk utang» atau «untuk keberuntungan»."
+    },
+    "yusr": {
+      "title": "«Bersama kesulitan ada kemudahan»",
+      "translation": "Maka sesungguhnya bersama kesulitan ada kemudahan. Sesungguhnya bersama kesulitan ada kemudahan.",
+      "source": "QS 94:5–6"
+    },
+    "muadh_debt": {
+      "title": "Ayat 3:26 «untuk utang» (doa yang diajarkan kepada Mu'adz)",
+      "translation": "Diriwayatkan bahwa Nabi ﷺ mengajarkan Mu'adz bin Jabal untuk membaca ayat «Katakanlah: Wahai Allah, Pemilik kerajaan…» (3:26) dan doa «Wahai Yang Maha Pengasih di dunia dan akhirat… rahmatilah aku dengan rahmat yang membuatku tidak membutuhkan rahmat selain-Mu», seraya bersabda: «Seandainya engkau memiliki utang sebesar gunung, niscaya Allah akan melunasinya untukmu.» Al-Albani menilainya hasan, sedangkan ahli hadis lain menilainya lemah karena sanadnya. Karena itu, ayat dan doa ini boleh dibaca, tetapi janji «utang akan lunas» tidak dapat dinyatakan dengan pasti. Doa-doa yang sahih tentang utang ada di atas dalam bagian ini.",
+      "source": "Ath-Thabrani, Al-Mu'jam Ash-Shaghir — penilaiannya diperselisihkan"
+    },
+    "waqiah_poverty": {
+      "title": "Surah Al-Waqi'ah setiap malam «agar tidak miskin»",
+      "translation": "Hadis «Barang siapa membaca Surah Al-Waqi'ah setiap malam, ia tidak akan pernah ditimpa kemiskinan» dinilai lemah oleh mayoritas ahli hadis (Imam Ahmad, Abu Hatim, Ad-Daraquthni, Al-Albani), sedangkan sebagian ahli hadis mazhab Hanafi menerimanya untuk keutamaan amal (fadhailul a'mal). Membaca surah ini adalah amalan yang baik, seperti membaca Al-Qur'an pada umumnya, tetapi janji kekayaan karenanya tidak sahih.",
+      "source": "Al-Baihaqi, Syu'abul Iman — penilaiannya diperselisihkan, mayoritas: lemah"
+    },
+    "internet_claims": {
+      "title": "«Baca 100 kali, utang pun lunas»: yang tidak ada dasarnya",
+      "translation": "Di internet banyak daftar «ayat untuk melunasi utang», «untuk keberuntungan», «untuk membuka jalan» dengan jumlah bacaan tertentu dan jaminan hasil. Sebagian besar saran semacam ini tidak memiliki sumber dalam Al-Qur'an maupun Sunnah yang sahih: jumlah bacaan dan pahalanya hanya boleh disebutkan jika terdapat dalam hadis. Membaca Al-Qur'an dan berdoa dengan kata-kata sendiri selalu boleh, tetapi tidak seorang pun berhak menjanjikan hasil yang «dijamin». Dalam aplikasi ini setiap materi mencantumkan sumber dan derajat kesahihannya.",
+      "source": "Tidak ada teks khusus; prinsipnya — jumlah bacaan dan pahala hanya disebutkan berdasarkan sumber"
+    },
+    "talbiyah": {
+      "title": "Talbiyah",
+      "translation": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tiada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat, dan kerajaan adalah milik-Mu, tiada sekutu bagi-Mu.",
+      "source": "HR. Bukhari 1549; Muslim 1184",
+      "note": "Diucapkan setelah berihram hingga mulai melempar jumrah pada hari raya kurban (dalam haji) atau hingga mulai tawaf (dalam umrah)."
+    },
+    "arafah": {
+      "title": "Doa terbaik — pada hari Arafah",
+      "translation": "Tiada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan milik-Nya segala puji, dan Dia Mahakuasa atas segala sesuatu.",
+      "source": "HR. Tirmidzi 3585 (hasan)",
+      "note": "«Doa terbaik adalah doa pada hari Arafah, dan sebaik-baik yang aku dan para nabi sebelumku ucapkan…» Juga cocok bagi yang tidak sedang berhaji: hari Arafah adalah 9 Dzulhijjah."
+    },
+    "zamzam": {
+      "title": "Air Zamzam",
+      "translation": "«Air Zamzam sesuai dengan niat orang yang meminumnya.» Al-Albani dan sejumlah ulama menilai hadis ini sahih, sedangkan ahli hadis lain menilainya lemah. Banyak ulama menganjurkan agar saat meminum Zamzam memohon kepada Allah kebaikan dunia dan akhirat. Telah sahih bahwa Zamzam adalah air yang diberkahi (HR. Muslim 2473).",
+      "source": "HR. Ibnu Majah 3062 — penilaiannya diperselisihkan; Muslim 2473"
+    },
+    "seeing_afflicted": {
+      "title": "Ketika melihat orang yang tertimpa musibah atau sakit",
+      "translation": "Segala puji bagi Allah yang telah menyelamatkanku dari apa yang Dia ujikan kepadamu, dan melebihkanku di atas banyak makhluk yang Dia ciptakan.",
+      "source": "HR. Tirmidzi 3432 (hasan)",
+      "note": "Diucapkan pelan dalam hati agar tidak menyakiti orang tersebut."
+    },
+    "sneezing": {
+      "title": "Ketika bersin",
+      "translation": "Orang yang bersin mengucapkan: «Segala puji bagi Allah.» Yang mendengar menjawab: «Semoga Allah merahmatimu.» Lalu orang yang bersin mengucapkan: «Semoga Allah memberimu petunjuk dan memperbaiki keadaanmu.»",
+      "source": "HR. Bukhari 6224"
+    },
+    "ruqyah_water": {
+      "title": "Ruqyah pada air dan air yang «diisi»",
+      "translation": "Sebagian ulama membolehkan membaca ruqyah (Surah Al-Fatihah, Al-Ikhlas, Al-Falaq, An-Nas, Ayat Kursi, dan doa-doa dari Sunnah) lalu meniupkannya ke air yang kemudian diminum atau dipakai mandi oleh orang sakit; mereka bersandar pada riwayat Abu Dawud (3885) dan praktik sebagian salafus shalih. Penilaian riwayat tersebut diperselisihkan, dan ulama lain berpendapat bahwa ruqyah dibacakan langsung kepada orang yang sakit. Jangan mendatangi orang yang «mengisi» air dengan bayaran, mengucapkan kata-kata yang tidak dapat dipahami, melakukan ritual, atau «mencari tahu siapa yang mengirim guna-guna».",
+      "source": "HR. Abu Dawud 3885 — penilaiannya diperselisihkan"
+    },
+    "dua_times": {
+      "title": "Kapan doa dikabulkan",
+      "translation": "Riwayat-riwayat sahih menyebutkan waktu-waktu ketika doa sangat diharapkan terkabul: sepertiga malam terakhir (Bukhari 1145), saat tertentu pada hari Jumat (Bukhari 935), antara azan dan iqamah (Abu Dawud 521), dan ketika sujud (Muslim 482). Tentang doa Nabi Yunus “La ilaha illa Anta, subhanaka inni kuntu minazh-zhalimin”: “Tidaklah seorang muslim berdoa dengannya untuk suatu hal, melainkan Allah mengabulkannya” (Tirmidzi 3505). Dan jangan tergesa-gesa menanti jawaban: “Doa salah seorang dari kalian akan dikabulkan selama ia tidak tergesa-gesa dengan berkata: Aku telah berdoa, tetapi tidak dikabulkan” (Muslim 2735).",
+      "source": "HR. Bukhari 1145, 935; Abu Dawud 521; Muslim 482, 2735; Tirmidzi 3505"
+    },
+    "salat_hajah": {
+      "title": "Shalat hajat",
+      "translation": "Hadis yang menjelaskan “shalat hajat” khusus beserta doanya sangat lemah: Imam Tirmidzi sendiri menyebutkan kelemahan salah satu perawinya. Anda selalu boleh shalat sunnah lalu memohon hajat Anda kepada Allah, tetapi tata cara khusus dan janji terkabulnya tidak sahih.",
+      "source": "HR. Tirmidzi 479 — sangat lemah"
+    },
+    "fatiha_40": {
+      "title": "«Al-Fatihah 40 kali setelah Magrib untuk segala hajat»",
+      "translation": "“Cara yang sudah teruji” ini disebarkan oleh situs-situs Islam, tetapi sumbernya adalah perkataan Ibnu Arabi dan kitab Syamsul Ma'arif yang dikenal sebagai kitab sihir, bukan hadis. Al-Fatihah adalah surah teragung dalam Al-Qur'an dan boleh dibaca kapan saja, tetapi bilangan 40 dan janji terkabulnya hajat tidak memiliki dasar.",
+      "source": "Tidak ada sumbernya dalam Al-Qur'an dan Sunnah"
+    },
+    "taha_21": {
+      "title": "«Surah Thaha 21 kali membuka nasib (kismet)»",
+      "translation": "Anjuran ini populer di internet Turki, dan bahkan artikel-artikel yang menyebarkannya mengakui bahwa tidak ada sumbernya. Hal yang sama berlaku untuk anjuran membaca Yasin, Thaha, atau surah lain “41 kali” agar mendapat jodoh atau keberuntungan. Membaca surah-surah Al-Qur'an itu baik dan dianjurkan, tetapi Sunnah tidak memberikan janji khusus untuk tujuan-tujuan tersebut.",
+      "source": "Tidak ada sumbernya dalam Al-Qur'an dan Sunnah"
+    },
+    "yasin_saffat_money": {
+      "title": "«Yasin dan Ash-Shaffat untuk kesulitan keuangan»",
+      "translation": "Ketika ditanya tentang hal ini, seorang mufti menjawab bahwa surah-surah ini boleh dibaca, tetapi tidak ada hadis yang menjanjikan kekayaan karenanya. Hal yang sama berlaku untuk anjuran “membaca 2:280 agar utang dibayar”: ayat ini menyeru untuk memberi tenggang waktu kepada orang yang berutang, bukan mantra. Doa-doa sahih tentang utang ada di bagian «Utang».",
+      "source": "Tidak ada sumbernya dalam Al-Qur'an dan Sunnah"
+    },
+    "istighfar_way_out": {
+      "title": "«Siapa yang senantiasa beristigfar, Allah berikan jalan keluar dari setiap kesulitan»",
+      "translation": "Hadis ini sering dikutip, tetapi lemah. Namun, kaitan antara istigfar dengan kelapangan dan rezeki ditetapkan oleh Al-Qur'an: “Mohonlah ampunan kepada Tuhanmu… niscaya Dia menurunkan hujan yang lebat dari langit kepadamu, dan memperbanyak harta dan anak-anakmu” (71:10–12). Jadi, beristigfar untuk memohon kelapangan itu benar, dengan berpegang pada ayat-ayat tersebut.",
+      "source": "HR. Abu Dawud 1518 — lemah"
+    },
+    "lost_item_info": {
+      "title": "Apa yang diucapkan saat kehilangan sesuatu",
+      "translation": "Tidak ada doa sahih yang khusus untuk barang hilang. Pada setiap kehilangan, walaupun kecil, Anda dapat mengucapkan “Inna lillahi wa inna ilaihi raji'un” (“Sesungguhnya kami milik Allah dan kepada-Nya kami kembali”, 2:156): Allah memuji orang-orang yang mengucapkannya ketika ditimpa musibah (2:155–157). Kemudian mohonlah kepada Allah dengan kata-kata Anda sendiri agar membantu menemukannya; doa Nabi Yunus cocok untuk segala hajat.",
+      "source": "QS 2:155–157"
+    },
+    "lost_item_popular": {
+      "title": "«Ya Jami'an-nas…» dan Adh-Dhuha 7 kali untuk barang hilang",
+      "translation": "Doa “Ya Allah, Yang mengumpulkan manusia pada hari yang tidak ada keraguan padanya (3:9), kumpulkanlah aku dengan barangku yang hilang” dan membaca Surah Adh-Dhuha 7 kali (atau ayat 93:7 tiga kali) dianjurkan bahkan di situs tanya-jawab, tetapi sumbernya adalah buku Asyraf Ali Thanwi “Pengobatan dengan Al-Qur'an”, bukan hadis. Anda boleh memohon kepada Allah dengan kata-kata ini, sebagaimana dengan kata-kata Anda sendiri, tetapi ini adalah amalan populer, bukan Sunnah.",
+      "source": "Tidak ada sumbernya dalam Sunnah: buku karya Asyraf Ali Thanwi"
+    },
+    "tiwala": {
+      "title": "Pelet, “pengikat”, «agar suami hanya mencintaiku»",
+      "translation": "Nabi ﷺ bersabda: “Sesungguhnya mantra, jimat, dan pelet (tiwalah) adalah syirik” (Abu Dawud 3883). “Ayat pengikat”, kertas berisi ayat di bawah bantal, amalan “agar orang tertentu mencintaiku”, “agar suami tidak menikah lagi” — semua itu adalah tiwalah, meskipun menggunakan lafaz Al-Qur'an. Yang dibolehkan adalah: doa dengan kata-kata sendiri untuk cinta dan keharmonisan keluarga, 25:74, istikharah sebelum menikah, berbicara dari hati ke hati, dan juru damai dari kedua keluarga (4:35).",
+      "source": "HR. Abu Dawud 3883 (sahih menurut penilaian Al-Albani)"
+    },
+    "arbitration": {
+      "title": "Jika suami istri di ambang perpisahan",
+      "translation": "“Jika kamu khawatir terjadi persengketaan antara keduanya, maka kirimlah seorang juru damai dari keluarga laki-laki dan seorang juru damai dari keluarga perempuan. Jika keduanya bermaksud mengadakan perbaikan, niscaya Allah memberi taufik kepada suami istri itu” (4:35). Jadi Al-Qur'an tidak menawarkan mantra, melainkan penengah dari kedua keluarga dan keinginan tulus untuk berdamai.",
+      "source": "QS 4:35"
+    },
+    "guidance_for_others": {
+      "title": "Doa memohon hidayah untuk orang lain",
+      "translation": "Ketika kabilah Daus menolak masuk Islam, Nabi ﷺ tidak melaknat mereka, tetapi berdoa: “Ya Allah, berilah petunjuk kepada Daus dan datangkanlah mereka!” (Bukhari 2937). Anda pun dapat memohon hal yang sama untuk orang yang Anda sayangi: “Allahummahdi [nama]” — “Ya Allah, berilah petunjuk kepada si fulan.” Dan ketika Anda mendoakan saudara Anda tanpa sepengetahuannya, malaikat berkata: “Dan bagimu yang semisal” (Muslim 2732).",
+      "source": "HR. Bukhari 2937; Muslim 2732"
+    },
+    "reconcile_best": {
+      "title": "Mendamaikan manusia lebih utama dari puasa dan shalat sunnah",
+      "translation": "“Maukah kalian aku beri tahu sesuatu yang lebih tinggi derajatnya daripada puasa, shalat, dan sedekah (sunnah)?” — “Tentu!” — “Mendamaikan di antara manusia, karena rusaknya hubungan di antara mereka adalah pencukur (perusak) agama.”",
+      "source": "HR. Abu Dawud 4919; Tirmidzi 2509 (sahih)"
+    },
+    "three_days": {
+      "title": "Tidak lebih dari tiga hari, dan yang terbaik adalah yang lebih dulu memberi salam",
+      "translation": "“Tidak halal bagi seorang muslim untuk mendiamkan saudaranya lebih dari tiga hari: keduanya bertemu, lalu yang ini berpaling dan yang itu berpaling. Yang terbaik di antara keduanya adalah yang lebih dulu memberi salam.” Langkah pertama untuk berbaikan adalah ucapan sederhana “assalamu 'alaikum”.",
+      "source": "HR. Bukhari 6077; Muslim 2560"
+    },
+    "ibrahim_child": {
+      "title": "Doa Nabi Ibrahim (alaihissalam) memohon keturunan yang saleh",
+      "translation": "Ya Tuhanku, anugerahkanlah kepadaku (keturunan) yang termasuk orang-orang saleh.",
+      "source": "QS 37:100"
+    },
+    "maryam_beauty": {
+      "title": "«Surah Maryam agar bayi rupawan», «surah untuk kecantikan»",
+      "translation": "Anjuran membaca Surah Maryam atau Yusuf selama hamil agar bayinya rupawan, serta “surah untuk kecantikan”, tidak ada sumbernya dalam Al-Qur'an dan Sunnah. Membaca surah-surah ini baik, seperti membaca Al-Qur'an pada umumnya, tetapi tidak ada janji rupa yang indah karenanya. Menulis ayat lalu mengikatkannya pada wanita yang akan melahirkan adalah jimat (lihat «Apakah ini dari Islam?»).",
+      "source": "Tidak ada sumbernya dalam Al-Qur'an dan Sunnah"
+    },
+    "good_character": {
+      "title": "«Sebagaimana Engkau telah membaguskan rupaku…»",
+      "translation": "Ya Allah, sebagaimana Engkau telah membaguskan rupaku, maka baguskanlah pula akhlakku.",
+      "source": "HR. Ahmad (sahih menurut penilaian Al-Albani)",
+      "note": "Doa ini sendiri sahih; riwayat-riwayat yang mengaitkannya khusus dengan bercermin adalah lemah. Doa ini boleh diucapkan kapan saja."
+    },
+    "tasbih_fatimah": {
+      "title": "Tasbih Fatimah sebelum tidur: lebih baik dari pembantu",
+      "translation": "Mahasuci Allah. Segala puji bagi Allah. Allah Mahabesar.",
+      "source": "HR. Bukhari 3705; Muslim 2727",
+      "note": "Fatimah kelelahan karena pekerjaan berat dan meminta seorang pembantu. Nabi ﷺ menyuruhnya dan Ali mengucapkan ini ketika hendak tidur: “Ini lebih baik bagi kalian berdua daripada seorang pembantu.” Untuk melawan rasa malas dan lemah, lihat juga doa “…wal-'ajzi wal-kasal” di bagian «Utang»."
+    },
+    "marriage_numbers": {
+      "title": "«Baca Yasin 41 kali, pasti dapat jodoh»",
+      "translation": "Anjuran membaca Yasin, Thaha, atau surah lain dalam jumlah tertentu agar menikah tidak ada sumbernya. Ayat 28:24 (“Ya Tuhanku, sesungguhnya aku sangat memerlukan kebaikan apa pun…”) adalah doa Nabi Musa yang sebenarnya, dan setelah itu beliau menikah, tetapi tidak ada hadis yang menyuruh membacanya “untuk jodoh”: ini adalah doa untuk segala hajat. Yang sahih: istikharah (Bukhari 1162), doa 25:74, dan memohon dengan kata-kata sendiri.",
+      "source": "Tidak ada sumbernya; tentang istikharah — HR. Bukhari 1162"
+    },
+    "ikhlas_11": {
+      "title": "«Al-Ikhlas 11 kali di pemakaman»",
+      "translation": "Hadis tentang pahala bagi orang yang membaca Surah Al-Ikhlas 11 kali di pemakaman lalu menghadiahkan pahalanya kepada orang-orang yang telah meninggal adalah sangat lemah atau palsu. Membaca Al-Qur'an di kuburan adalah perkara yang diperselisihkan (lihat kartu tentang Surah Yasin). Yang sahih ketika ziarah kubur adalah mengucapkan salam kepada penghuni kubur dan mendoakan mereka.",
+      "source": "Hadis tanpa sanad yang dapat dipercaya — sangat lemah atau palsu"
+    },
+    "fatiha_ruqyah": {
+      "title": "Surah Al-Fatihah sebagai ruqyah",
+      "translation": "Seorang sahabat membacakan Al-Fatihah kepada kepala suku yang tersengat kalajengking, lalu ia sembuh. Nabi ﷺ menyetujuinya dan bertanya: “Dari mana kamu tahu bahwa ia adalah ruqyah?” Karena itu, Al-Fatihah dibacakan kepada orang sakit bersama doa-doa lain dari Sunnah.",
+      "source": "HR. Bukhari 5736; Muslim 2201"
+    },
+    "baqarah_house": {
+      "title": "Surah Al-Baqarah di rumah",
+      "translation": "“Janganlah kalian jadikan rumah-rumah kalian seperti kuburan. Sesungguhnya setan lari dari rumah yang di dalamnya dibacakan Surah Al-Baqarah.”",
+      "source": "HR. Muslim 780"
+    }
+  }
+}

@@ -1,0 +1,3823 @@
+[
+  {
+    "id": "grave_greeting",
+    "situations": [
+      "cemetery"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Приветствие при посещении могил",
+      "en": "Greeting when visiting graves"
+    },
+    "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لَلَاحِقُونَ، أَسْأَلُ اللَّهَ لَنَا وَلَكُمُ الْعَافِيَةَ",
+    "translit": {
+      "ru": "Ас-саляму ‘аляйкум ахля-д-дийари мина-ль-му’минина ва-ль-муслимин, ва инна ин ша’а-Ллаху бикум ля-ляхикун, ас’алю-Ллаха ляна ва лякуму-ль-‘афия",
+      "en": "As-salamu ‘alaykum ahl ad-diyari min al-mu’minina wal-muslimin, wa inna in sha’ Allahu bikum la-lahiqun, as’alu-llaha lana wa lakumul-‘afiyah"
+    },
+    "translation": {
+      "ru": "Мир вам, обитатели этих жилищ из числа верующих и мусульман! Поистине, мы, если пожелает Аллах, присоединимся к вам. Прошу Аллаха о благополучии для нас и для вас.",
+      "en": "Peace be upon you, O inhabitants of these dwellings, believers and Muslims. We will, if Allah wills, join you. I ask Allah for well-being for us and for you."
+    },
+    "source": {
+      "ru": "Муслим, 975",
+      "en": "Muslim 975"
+    }
+  },
+  {
+    "id": "grave_istighfar",
+    "situations": [
+      "cemetery",
+      "deceased"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "После погребения: просить твёрдости для умершего",
+      "en": "After burial: ask for steadfastness for the deceased"
+    },
+    "arabic": "اللَّهُمَّ اغْفِرْ لَهُ، اللَّهُمَّ ثَبِّتْهُ",
+    "translit": {
+      "ru": "Аллахумма-гфир ляху, Аллахумма саббитху",
+      "en": "Allahumma-ghfir lahu, Allahumma thabbit-hu"
+    },
+    "translation": {
+      "ru": "О Аллах, прости его! О Аллах, укрепи его!",
+      "en": "O Allah, forgive him. O Allah, make him steadfast."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3221 (достоверный по оценке аль-Альбани)",
+      "en": "Abu Dawud 3221 (graded sahih by al-Albani)"
+    },
+    "note": {
+      "ru": "Пророк ﷺ, закончив погребение, говорил: «Просите прощения для вашего брата и просите для него твёрдости, ведь сейчас его спрашивают». Для женщины: «Аллахумма-гфир ляха, Аллахумма саббитха».",
+      "en": "When the burial was finished the Prophet ﷺ said: “Ask forgiveness for your brother and ask that he be made steadfast, for he is now being questioned.” For a woman: “Allahumma-ghfir laha, Allahumma thabbit-ha”."
+    }
+  },
+  {
+    "id": "janazah_male",
+    "situations": [
+      "deceased",
+      "cemetery"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа за умершего (мужчину)",
+      "en": "Dua for a deceased man"
+    },
+    "arabic": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ، وَأَهْلًا خَيْرًا مِنْ أَهْلِهِ، وَزَوْجًا خَيْرًا مِنْ زَوْجِهِ، وَأَدْخِلْهُ الْجَنَّةَ، وَأَعِذْهُ مِنْ عَذَابِ الْقَبْرِ وَمِنْ عَذَابِ النَّارِ",
+    "translit": {
+      "ru": "Аллахумма-гфир ляху ва-рхамху, ва ‘афихи ва-‘фу ‘анху, ва акрим нузуляху, ва вассы‘ мудхаляху, ва-гсильху би-ль-ма’и ва-с-сальджи ва-ль-барад, ва наккыхи мина-ль-хатайа кяма наккайта-с-сауба-ль-абйада мина-д-данас, ва абдильху даран хайран мин дарихи, ва ахлян хайран мин ахлихи, ва зауджан хайран мин зауджихи, ва адхильху-ль-джанната, ва а‘ызху мин ‘азаби-ль-кабри ва мин ‘азаби-н-нар",
+      "en": "Allahumma-ghfir lahu warhamhu, wa ‘afihi wa‘fu ‘anhu, wa akrim nuzulahu, wa wassi‘ mudkhalahu, waghsilhu bil-ma’i wath-thalji wal-barad, wa naqqihi minal-khataya kama naqqaytath-thawbal-abyada minad-danas, wa abdilhu daran khayran min darihi, wa ahlan khayran min ahlihi, wa zawjan khayran min zawjihi, wa adkhilhul-jannah, wa a‘idhhu min ‘adhabil-qabri wa min ‘adhabin-nar"
+    },
+    "translation": {
+      "ru": "О Аллах, прости его и помилуй его, избавь его и извини его, окажи ему хороший приём и сделай просторным место его входа. Омой его водой, снегом и градом, очисти его от прегрешений так, как очищаешь белую одежду от грязи. Дай ему взамен обитель лучше его обители, семью лучше его семьи и супругу лучше его супруги. Введи его в Рай и защити его от мучений могилы и от мучений Огня.",
+      "en": "O Allah, forgive him and have mercy on him, keep him safe and pardon him, honour his reception and make his entrance wide. Wash him with water, snow and hail, and cleanse him of sins as a white garment is cleansed of dirt. Give him a home better than his home, a family better than his family and a spouse better than his spouse. Admit him to Paradise and protect him from the punishment of the grave and the punishment of the Fire."
+    },
+    "source": {
+      "ru": "Муслим, 963",
+      "en": "Muslim 963"
+    },
+    "note": {
+      "ru": "Читается в джаназа-намазе и в любое время за умершего.",
+      "en": "Said in the funeral prayer and at any time for the deceased."
+    }
+  },
+  {
+    "id": "janazah_female",
+    "situations": [
+      "deceased",
+      "cemetery"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа за умершую (женщину)",
+      "en": "Dua for a deceased woman"
+    },
+    "arabic": "اللَّهُمَّ اغْفِرْ لَهَا وَارْحَمْهَا، وَعَافِهَا وَاعْفُ عَنْهَا، وَأَكْرِمْ نُزُلَهَا، وَوَسِّعْ مُدْخَلَهَا، وَاغْسِلْهَا بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهَا مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَدْخِلْهَا الْجَنَّةَ، وَأَعِذْهَا مِنْ عَذَابِ الْقَبْرِ وَمِنْ عَذَابِ النَّارِ",
+    "translit": {
+      "ru": "Аллахумма-гфир ляха ва-рхамха, ва ‘афиха ва-‘фу ‘анха, ва акрим нузуляха, ва вассы‘ мудхаляха, ва-гсильха би-ль-ма’и ва-с-сальджи ва-ль-барад, ва наккыха мина-ль-хатайа кяма наккайта-с-сауба-ль-абйада мина-д-данас, ва адхильха-ль-джанната, ва а‘ызха мин ‘азаби-ль-кабри ва мин ‘азаби-н-нар",
+      "en": "Allahumma-ghfir laha warhamha, wa ‘afiha wa‘fu ‘anha, wa akrim nuzulaha, wa wassi‘ mudkhalaha, waghsilha bil-ma’i wath-thalji wal-barad, wa naqqiha minal-khataya kama naqqaytath-thawbal-abyada minad-danas, wa adkhilhal-jannah, wa a‘idhha min ‘adhabil-qabri wa min ‘adhabin-nar"
+    },
+    "translation": {
+      "ru": "О Аллах, прости её и помилуй её, избавь её и извини её, окажи ей хороший приём и сделай просторным место её входа. Омой её водой, снегом и градом, очисти её от прегрешений так, как очищаешь белую одежду от грязи. Введи её в Рай и защити её от мучений могилы и от мучений Огня.",
+      "en": "O Allah, forgive her and have mercy on her, keep her safe and pardon her, honour her reception and make her entrance wide. Wash her with water, snow and hail, and cleanse her of sins as a white garment is cleansed of dirt. Admit her to Paradise and protect her from the punishment of the grave and the punishment of the Fire."
+    },
+    "source": {
+      "ru": "Муслим, 963 (женская форма местоимений)",
+      "en": "Muslim 963 (feminine pronouns)"
+    },
+    "note": {
+      "ru": "Хадис передан о мужчине; учёные указывают, что для женщины местоимения меняются на женский род. Слова о замене супруга обычно опускают.",
+      "en": "The hadith was narrated about a man; scholars state that the pronouns are made feminine for a woman. The phrase about a better spouse is usually omitted."
+    }
+  },
+  {
+    "id": "parents_mercy",
+    "situations": [
+      "deceased",
+      "family",
+      "parents"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа за родителей",
+      "en": "Dua for parents"
+    },
+    "quran": [
+      {
+        "s": 17,
+        "a": 24,
+        "w": [
+          7,
+          11
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби-рхамхума кяма раббайани сагыра",
+      "en": "Rabbi-rhamhuma kama rabbayani saghira"
+    },
+    "translation": {
+      "ru": "Господи, помилуй их, ведь они растили меня, когда я был маленьким.",
+      "en": "My Lord, have mercy on them as they raised me when I was small."
+    },
+    "source": {
+      "ru": "Коран, 17:24",
+      "en": "Quran 17:24"
+    }
+  },
+  {
+    "id": "parents_forgive",
+    "situations": [
+      "deceased",
+      "family",
+      "parents"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Прощение для себя, родителей и верующих",
+      "en": "Forgiveness for me, my parents and the believers"
+    },
+    "quran": [
+      {
+        "s": 14,
+        "a": 41
+      }
+    ],
+    "translit": {
+      "ru": "Раббана-гфир ли ва ли-валидаййа ва ли-ль-му’минина йаума йакуму-ль-хисаб",
+      "en": "Rabbana-ghfir li wa li-walidayya wa lil-mu’minina yawma yaqumul-hisab"
+    },
+    "translation": {
+      "ru": "Господь наш, прости меня, моих родителей и верующих в тот день, когда будет подведён расчёт.",
+      "en": "Our Lord, forgive me, my parents and the believers on the Day the reckoning takes place."
+    },
+    "source": {
+      "ru": "Коран, 14:41",
+      "en": "Quran 14:41"
+    }
+  },
+  {
+    "id": "all_believers",
+    "situations": [
+      "deceased",
+      "cemetery"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "За всех умерших верующих",
+      "en": "For all believers who have passed"
+    },
+    "quran": [
+      {
+        "s": 59,
+        "a": 10,
+        "w": [
+          5,
+          22
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана-гфир ляна ва ли-ихванина-ллязина сабакуна би-ль-иман, ва ля тадж‘аль фи кулюбина гыллян ли-ллязина аману, раббана иннака Ра’уфур-Рахим",
+      "en": "Rabbana-ghfir lana wa li-ikhwanina-lladhina sabaquna bil-iman, wa la taj‘al fi qulubina ghillan lilladhina amanu, rabbana innaka Ra’ufur-Rahim"
+    },
+    "translation": {
+      "ru": "Господь наш, прости нас и наших братьев, которые опередили нас в вере, и не вселяй в наши сердца злобы к верующим. Господь наш, Ты — Сострадательный, Милосердный.",
+      "en": "Our Lord, forgive us and our brothers who preceded us in faith, and put no resentment in our hearts toward those who believe. Our Lord, You are Kind and Merciful."
+    },
+    "source": {
+      "ru": "Коран, 59:10",
+      "en": "Quran 59:10"
+    }
+  },
+  {
+    "id": "deceased_charity",
+    "situations": [
+      "deceased",
+      "customs"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Что приносит пользу умершему",
+      "en": "What benefits the deceased"
+    },
+    "translation": {
+      "ru": "«Когда человек умирает, прекращаются его дела, кроме трёх: непрерывной милостыни (садака джария), знания, которым пользуются, и праведного ребёнка, который делает за него дуа». Также достоверно, что умершему приносят пользу садака от его имени и выплата его долгов.",
+      "en": "“When a person dies, their deeds end except for three: ongoing charity (sadaqah jariyah), beneficial knowledge, and a righteous child who prays for them.” It is also authentic that charity given on their behalf and paying off their debts benefit the deceased."
+    },
+    "source": {
+      "ru": "Муслим, 1631; аль-Бухари, 2760 (садака за мать)",
+      "en": "Muslim 1631; al-Bukhari 2760 (charity for a mother)"
+    }
+  },
+  {
+    "id": "yasin_dispute",
+    "situations": [
+      "cemetery",
+      "deceased",
+      "customs"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Чтение суры «Йа Син» за умерших и на могиле",
+      "en": "Reciting Surah Ya-Sin for the dead and at graves"
+    },
+    "translation": {
+      "ru": "Хадис «Читайте „Йа Син“ над вашими умирающими» (Абу Дауд, 3121) одни учёные сочли слабым (ан-Навави, аль-Альбани), другие (Ибн Хиббан) — достоверным; многие понимают его как чтение возле умирающего, а не на могиле. Чтение Корана на могиле и посвящение награды умершему разрешают ханафиты и ханбалиты, а многие маликиты и шафииты считают его нежелательным или не дошедшим до умершего. Это не обязательная Сунна: при посещении могил достоверно установлены приветствие и дуа.",
+      "en": "The hadith “Recite Ya-Sin over your dying” (Abu Dawud 3121) is graded weak by some scholars (al-Nawawi, al-Albani) and authentic by others (Ibn Hibban); many understand it as recitation beside a dying person, not at a grave. Reciting Quran at a grave and gifting its reward to the deceased is permitted by Hanafis and Hanbalis, while many Malikis and Shafi‘is consider it disliked or say it does not reach the deceased. It is not an established Sunnah: what is authentic at graves is the greeting and dua."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3121 — оценка спорная",
+      "en": "Abu Dawud 3121 — grading disputed"
+    },
+    "quranLink": {
+      "s": 36,
+      "a": 1
+    }
+  },
+  {
+    "id": "mulk_virtue",
+    "situations": [
+      "cemetery",
+      "sleep"
+    ],
+    "grade": "hasan",
+    "kind": "info",
+    "title": {
+      "ru": "Сура «аль-Мульк» — защита от мук могилы",
+      "en": "Surah al-Mulk — protection from the punishment of the grave"
+    },
+    "translation": {
+      "ru": "Пророк ﷺ сказал о суре «аль-Мульк»: «Есть в Коране сура из тридцати аятов, которая заступалась за человека, пока он не был прощён». Речь о собственном регулярном чтении при жизни (Пророк ﷺ читал её перед сном), а не о чтении на могиле.",
+      "en": "The Prophet ﷺ said of Surah al-Mulk: “There is a surah in the Quran of thirty verses that interceded for a man until he was forgiven.” This concerns one’s own regular recitation during life (the Prophet ﷺ recited it before sleeping), not recitation at a grave."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 2891 (хасан); ат-Тирмизи, 2892",
+      "en": "al-Tirmidhi 2891 (hasan); al-Tirmidhi 2892"
+    },
+    "quranLink": {
+      "s": 67,
+      "a": 1
+    }
+  },
+  {
+    "id": "calamity",
+    "situations": [
+      "death_news",
+      "anxiety",
+      "lost_item"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При известии о смерти или беде",
+      "en": "On news of a death or calamity"
+    },
+    "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي، وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+    "translit": {
+      "ru": "Инна ли-Лляхи ва инна иляйхи раджи‘ун. Аллахумма’джурни фи мусыбати ва ахлиф ли хайран минха",
+      "en": "Inna lillahi wa inna ilayhi raji‘un. Allahumma’jurni fi musibati wa akhlif li khayran minha"
+    },
+    "translation": {
+      "ru": "Поистине, мы принадлежим Аллаху и к Нему возвращаемся. О Аллах, вознагради меня в моей беде и дай мне взамен лучшее.",
+      "en": "We belong to Allah and to Him we return. O Allah, reward me in my affliction and replace it for me with something better."
+    },
+    "source": {
+      "ru": "Муслим, 918",
+      "en": "Muslim 918"
+    }
+  },
+  {
+    "id": "closing_eyes",
+    "situations": [
+      "death_news",
+      "deceased"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Когда закрывают глаза умершему",
+      "en": "When closing the eyes of the deceased"
+    },
+    "arabic": "اللَّهُمَّ اغْفِرْ لِفُلَانٍ، وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ، وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ، وَاغْفِرْ لَنَا وَلَهُ يَا رَبَّ الْعَالَمِينَ، وَافْسَحْ لَهُ فِي قَبْرِهِ، وَنَوِّرْ لَهُ فِيهِ",
+    "translit": {
+      "ru": "Аллахумма-гфир ли-(имя), ва-рфа‘ дараджатаху фи-ль-махдиййин, ва-хлюфху фи ‘акибихи фи-ль-габирин, ва-гфир ляна ва ляху йа Рабба-ль-‘алямин, ва-фсах ляху фи кабрихи, ва наввир ляху фих",
+      "en": "Allahumma-ghfir li-(name), warfa‘ darajatahu fil-mahdiyyin, wakhlufhu fi ‘aqibihi fil-ghabirin, waghfir lana wa lahu ya Rabbal-‘alamin, wafsah lahu fi qabrihi, wa nawwir lahu fih"
+    },
+    "translation": {
+      "ru": "О Аллах, прости (имя), возвысь его степень среди ведомых прямым путём, будь Преемником для оставшихся после него, прости нас и его, о Господь миров, расширь ему его могилу и освети её для него.",
+      "en": "O Allah, forgive (name), raise his rank among the rightly guided, be a successor for those he left behind, forgive us and him, O Lord of the worlds, make his grave spacious and give him light in it."
+    },
+    "source": {
+      "ru": "Муслим, 920",
+      "en": "Muslim 920"
+    },
+    "note": {
+      "ru": "Вместо «фулян» называют имя умершего.",
+      "en": "Say the deceased’s name in place of “fulan”."
+    }
+  },
+  {
+    "id": "condolence",
+    "situations": [
+      "death_news",
+      "deceased"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Соболезнование близким умершего",
+      "en": "Offering condolences to the family"
+    },
+    "arabic": "إِنَّ لِلَّهِ مَا أَخَذَ، وَلَهُ مَا أَعْطَى، وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمًّى، فَلْتَصْبِرْ وَلْتَحْتَسِبْ",
+    "translit": {
+      "ru": "Инна ли-Лляхи ма ахаза, ва ляху ма а‘та, ва куллю шай’ин ‘индаху би-аджалин мусамма, фа-ль-тасбир ва-ль-тахтасиб",
+      "en": "Inna lillahi ma akhadha, wa lahu ma a‘ta, wa kullu shay’in ‘indahu bi-ajalin musamma, fal-tasbir wal-tahtasib"
+    },
+    "translation": {
+      "ru": "Поистине, Аллаху принадлежит то, что Он забрал, и Ему принадлежит то, что Он дал, и всему у Него свой срок. Так терпи же и надейся на награду Аллаха.",
+      "en": "To Allah belongs what He took and to Him belongs what He gave, and everything with Him has an appointed term. So be patient and hope for reward."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1284; Муслим, 923",
+      "en": "al-Bukhari 1284; Muslim 923"
+    },
+    "note": {
+      "ru": "Так Пророк ﷺ передал своей дочери, когда умирал её ребёнок. Соболезновать можно и своими словами.",
+      "en": "The Prophet ﷺ sent these words to his daughter when her child was dying. Condolences in your own words are also fine."
+    }
+  },
+  {
+    "id": "debt_halal",
+    "situations": [
+      "debts",
+      "rizq"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "Дуа от долгов",
+      "en": "Dua for relief from debt"
+    },
+    "arabic": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+    "translit": {
+      "ru": "Аллахумма-кфини би-халялика ‘ан харамик, ва агнини би-фадлика ‘амман сивак",
+      "en": "Allahumma-kfini bi-halalika ‘an haramik, wa aghnini bi-fadlika ‘amman siwak"
+    },
+    "translation": {
+      "ru": "О Аллах, сделай так, чтобы мне хватало дозволенного Тобой, и избавь от запретного, и по милости Своей избавь меня от нужды во всех, кроме Тебя.",
+      "en": "O Allah, suffice me with what You have made lawful against what You have made unlawful, and by Your bounty make me independent of all besides You."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3563 (хасан)",
+      "en": "al-Tirmidhi 3563 (hasan)"
+    },
+    "note": {
+      "ru": "Али (да будет доволен им Аллах) сказал, что Пророк ﷺ научил его этим словам и что даже при долге величиной с гору Аллах поможет его выплатить.",
+      "en": "‘Ali (may Allah be pleased with him) said the Prophet ﷺ taught him these words and that even with a debt as large as a mountain Allah would help repay it."
+    }
+  },
+  {
+    "id": "debt_worry",
+    "situations": [
+      "debts",
+      "anxiety",
+      "laziness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "От забот, печали и тяжести долга",
+      "en": "From worry, grief and the burden of debt"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+    "translit": {
+      "ru": "Аллахумма инни а‘узу бика мина-ль-хамми ва-ль-хазан, ва-ль-‘аджзи ва-ль-кясаль, ва-ль-бухли ва-ль-джубн, ва дала‘и-д-дайни ва галябати-р-риджаль",
+      "en": "Allahumma inni a‘udhu bika minal-hammi wal-hazan, wal-‘ajzi wal-kasal, wal-bukhli wal-jubn, wa dala‘id-dayni wa ghalabatir-rijal"
+    },
+    "translation": {
+      "ru": "О Аллах, прибегаю к Тебе от заботы и печали, от бессилия и лени, от скупости и трусости, от бремени долга и от притеснения людей.",
+      "en": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from miserliness and cowardice, from the burden of debt and from being overpowered by men."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6369",
+      "en": "al-Bukhari 6369"
+    }
+  },
+  {
+    "id": "debt_maghram",
+    "situations": [
+      "debts"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Защита от греха и долга (в конце намаза)",
+      "en": "Refuge from sin and debt (end of prayer)"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ",
+    "translit": {
+      "ru": "Аллахумма инни а‘узу бика мина-ль-ма’сами ва-ль-маграм",
+      "en": "Allahumma inni a‘udhu bika minal-ma’thami wal-maghram"
+    },
+    "translation": {
+      "ru": "О Аллах, прибегаю к Тебе от греха и от долга.",
+      "en": "O Allah, I seek refuge in You from sin and from debt."
+    },
+    "source": {
+      "ru": "аль-Бухари, 832; Муслим, 589",
+      "en": "al-Bukhari 832; Muslim 589"
+    },
+    "note": {
+      "ru": "Пророк ﷺ часто говорил это в намазе. Когда его спросили почему, он ответил: «Человек, оказавшись в долгу, говорит — и лжёт, обещает — и нарушает».",
+      "en": "The Prophet ﷺ often said this in prayer. Asked why, he said: “When a man is in debt, he speaks and lies, and promises and breaks his promise.”"
+    }
+  },
+  {
+    "id": "istighfar_rizq",
+    "situations": [
+      "rizq",
+      "forgiveness",
+      "children",
+      "hardship",
+      "conceive"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Истигфар — причина дождя, богатства и детей",
+      "en": "Istighfar brings rain, wealth and children"
+    },
+    "quran": [
+      {
+        "s": 71,
+        "a": 10
+      },
+      {
+        "s": 71,
+        "a": 11
+      },
+      {
+        "s": 71,
+        "a": 12
+      }
+    ],
+    "translit": {
+      "ru": "Фа-культу-стагфиру Раббакум иннаху кяна Гаффара. Йурсили-с-сама’а ‘аляйкум мидрара. Ва йумдидкум би-амвалин ва бануна ва йадж‘аль лякум джаннатин ва йадж‘аль лякум анхара",
+      "en": "Fa-qultu-staghfiru Rabbakum innahu kana Ghaffara. Yursilis-sama’a ‘alaykum midrara. Wa yumdidkum bi-amwalin wa banina wa yaj‘al lakum jannatin wa yaj‘al lakum anhara"
+    },
+    "translation": {
+      "ru": "Я сказал: «Просите прощения у вашего Господа, ведь Он — Прощающий. Он пошлёт вам с неба обильный дождь, поддержит вас имуществом и сыновьями, даст вам сады и реки».",
+      "en": "I said, ‘Ask forgiveness of your Lord, for He is ever Forgiving. He will send rain upon you in abundance, give you wealth and sons, and provide for you gardens and rivers.’"
+    },
+    "source": {
+      "ru": "Коран, 71:10–12",
+      "en": "Quran 71:10–12"
+    },
+    "note": {
+      "ru": "Аяты описывают плоды истигфара. Сам истигфар: «Астагфиру-Ллаха ва атубу иляйх».",
+      "en": "These verses describe the fruits of istighfar. The istighfar itself: “Astaghfirullaha wa atubu ilayh”."
+    }
+  },
+  {
+    "id": "rizq_morning",
+    "situations": [
+      "rizq",
+      "morning_evening",
+      "important"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "О полезном знании и благом ризке (после утреннего намаза)",
+      "en": "For beneficial knowledge and good provision (after Fajr)"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+    "translit": {
+      "ru": "Аллахумма инни ас’алюка ‘ильман нафи‘ан, ва ризкан таййибан, ва ‘амалян мутакаббаля",
+      "en": "Allahumma inni as’aluka ‘ilman nafi‘an, wa rizqan tayyiban, wa ‘amalan mutaqabbala"
+    },
+    "translation": {
+      "ru": "О Аллах, прошу у Тебя полезного знания, благого удела и принятых деяний.",
+      "en": "O Allah, I ask You for beneficial knowledge, good provision and accepted deeds."
+    },
+    "source": {
+      "ru": "Ибн Маджа, 925 (достоверный)",
+      "en": "Ibn Majah 925 (sahih)"
+    }
+  },
+  {
+    "id": "musa_need",
+    "situations": [
+      "rizq",
+      "marriage",
+      "wish"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Мусы (мир ему) в нужде",
+      "en": "Dua of Musa (peace be upon him) in need"
+    },
+    "quran": [
+      {
+        "s": 28,
+        "a": 24,
+        "w": [
+          7,
+          14
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби инни лима анзальта иляййа мин хайрин факыр",
+      "en": "Rabbi inni lima anzalta ilayya min khayrin faqir"
+    },
+    "translation": {
+      "ru": "Господи, я нуждаюсь в любом благе, которое Ты ниспошлёшь мне.",
+      "en": "My Lord, I am in need of whatever good You send down to me."
+    },
+    "source": {
+      "ru": "Коран, 28:24",
+      "en": "Quran 28:24"
+    },
+    "note": {
+      "ru": "Муса сказал это, оказавшись в Мадьяне без крова и средств; после этого Аллах дал ему работу и жену.",
+      "en": "Musa said this when he arrived in Madyan with no shelter or means; Allah then granted him work and a wife."
+    }
+  },
+  {
+    "id": "sick_ruqyah",
+    "situations": [
+      "illness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа за больного (рукья Пророка ﷺ)",
+      "en": "Dua for the sick (the Prophet’s ﷺ ruqyah)"
+    },
+    "arabic": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَاسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا",
+    "translit": {
+      "ru": "Аллахумма Рабба-н-нас, азхиби-ль-бас, ишфи анта-ш-Шафи, ля шифа’а илля шифа’ук, шифа’ан ля йугадиру сакама",
+      "en": "Allahumma Rabban-nas, adhhibil-ba’s, ishfi antash-Shafi, la shifa’a illa shifa’uk, shifa’an la yughadiru saqama"
+    },
+    "translation": {
+      "ru": "О Аллах, Господь людей, устрани недуг и исцели, ведь Ты — Исцеляющий. Нет исцеления, кроме Твоего исцеления, — такого, после которого не остаётся болезни.",
+      "en": "O Allah, Lord of mankind, remove the harm and heal, for You are the Healer. There is no healing but Your healing — a healing that leaves no illness behind."
+    },
+    "source": {
+      "ru": "аль-Бухари, 5743; Муслим, 2191",
+      "en": "al-Bukhari 5743; Muslim 2191"
+    }
+  },
+  {
+    "id": "sick_visit_seven",
+    "situations": [
+      "illness"
+    ],
+    "grade": "sahih",
+    "repeat": 7,
+    "title": {
+      "ru": "При посещении больного — 7 раз",
+      "en": "When visiting the sick — 7 times"
+    },
+    "arabic": "أَسْأَلُ اللَّهَ الْعَظِيمَ، رَبَّ الْعَرْشِ الْعَظِيمِ، أَنْ يَشْفِيَكَ",
+    "translit": {
+      "ru": "Ас’алю-Ллаха-ль-‘Азыма, Рабба-ль-‘арши-ль-‘азым, ан йашфийак",
+      "en": "As’alu-llahal-‘Azim, Rabbal-‘arshil-‘azim, an yashfiyak"
+    },
+    "translation": {
+      "ru": "Прошу Аллаха Великого, Господа великого Трона, исцелить тебя.",
+      "en": "I ask Allah the Mighty, Lord of the Mighty Throne, to heal you."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3106; ат-Тирмизи, 2083 (достоверный)",
+      "en": "Abu Dawud 3106; al-Tirmidhi 2083 (sahih)"
+    }
+  },
+  {
+    "id": "sick_visit_short",
+    "situations": [
+      "illness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Слова больному при посещении",
+      "en": "Words to the sick person"
+    },
+    "arabic": "لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ",
+    "translit": {
+      "ru": "Ля ба’са, тахурун ин ша’а-Ллах",
+      "en": "La ba’sa, tahurun in sha’ Allah"
+    },
+    "translation": {
+      "ru": "Ничего страшного, это очищение, если пожелает Аллах.",
+      "en": "No harm; it is a purification, if Allah wills."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3616",
+      "en": "al-Bukhari 3616"
+    }
+  },
+  {
+    "id": "pain",
+    "situations": [
+      "illness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При боли в теле",
+      "en": "When feeling pain in the body"
+    },
+    "arabic": "بِسْمِ اللَّهِ (ثَلَاثًا)، أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ (سَبْعَ مَرَّاتٍ)",
+    "translit": {
+      "ru": "Бисми-Ллях (3 раза). А‘узу би-Лляхи ва кудратихи мин шарри ма аджиду ва ухазир (7 раз)",
+      "en": "Bismillah (3 times). A‘udhu billahi wa qudratihi min sharri ma ajidu wa uhadhir (7 times)"
+    },
+    "translation": {
+      "ru": "Положи руку на больное место и скажи: «Во имя Аллаха» трижды, затем семь раз: «Прибегаю к Аллаху и Его могуществу от зла того, что я чувствую и чего опасаюсь».",
+      "en": "Place your hand where it hurts and say “In the name of Allah” three times, then seven times: “I seek refuge in Allah and His power from the evil of what I feel and what I fear.”"
+    },
+    "source": {
+      "ru": "Муслим, 2202",
+      "en": "Muslim 2202"
+    }
+  },
+  {
+    "id": "ayyub",
+    "situations": [
+      "illness",
+      "anxiety"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Айюба (мир ему)",
+      "en": "Dua of Ayyub (peace be upon him)"
+    },
+    "quran": [
+      {
+        "s": 21,
+        "a": 83,
+        "w": [
+          4,
+          9
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Анни массания-д-дурру ва анта архаму-р-рахимин",
+      "en": "Anni massaniyad-durru wa anta arhamur-rahimin"
+    },
+    "translation": {
+      "ru": "Меня постигло страдание, а Ты — Милосерднейший из милосердных.",
+      "en": "Adversity has touched me, and You are the Most Merciful of the merciful."
+    },
+    "source": {
+      "ru": "Коран, 21:83",
+      "en": "Quran 21:83"
+    }
+  },
+  {
+    "id": "anxiety_ibn_masud",
+    "situations": [
+      "anxiety"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа при тревоге и печали",
+      "en": "Dua for anxiety and sorrow"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي",
+    "translit": {
+      "ru": "Аллахумма инни ‘абдук, ибну ‘абдик, ибну амятик, насыйати би-йадик, мадын фиййа хукмук, ‘адлюн фиййа када’ук. Ас’алюка би-кулли-смин хуа ляк, саммайта бихи нафсак, ау анзальтаху фи китабик, ау ‘алламтаху ахадан мин халкык, ау-ста’сарта бихи фи ‘ильми-ль-гайби ‘индак, ан тадж‘аля-ль-Кур’ана раби‘а кальби, ва нура садри, ва джаля’а хузни, ва захаба хамми",
+      "en": "Allahumma inni ‘abduk, ibnu ‘abdik, ibnu amatik, nasiyati biyadik, madin fiyya hukmuk, ‘adlun fiyya qada’uk. As’aluka bi-kulli-smin huwa lak, sammayta bihi nafsak, aw anzaltahu fi kitabik, aw ‘allamtahu ahadan min khalqik, awista’tharta bihi fi ‘ilmil-ghaybi ‘indak, an taj‘alal-Qur’ana rabi‘a qalbi, wa nura sadri, wa jala’a huzni, wa dhahaba hammi"
+    },
+    "translation": {
+      "ru": "О Аллах, я — Твой раб, сын Твоего раба, сын Твоей рабыни. Мой хохол в Твоей руке, Твоё решение исполняется надо мной, справедливо Твоё предопределение обо мне. Прошу Тебя каждым Твоим именем, которым Ты назвал Себя, или ниспослал в Своей Книге, или открыл кому-то из Своих творений, или сокрыл в знании о сокровенном у Себя, — сделай Коран весной моего сердца, светом моей груди, исчезновением моей печали и уходом моей тревоги.",
+      "en": "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand, Your command over me is forever executed and Your decree over me is just. I ask You by every name belonging to You, with which You named Yourself, or revealed in Your Book, or taught to any of Your creation, or kept with Yourself in the knowledge of the unseen, that You make the Quran the spring of my heart, the light of my chest, the departure of my sorrow and the release of my anxiety."
+    },
+    "source": {
+      "ru": "Ахмад, 3712 (достоверный по оценке аль-Альбани)",
+      "en": "Ahmad 3712 (graded sahih by al-Albani)"
+    },
+    "note": {
+      "ru": "Женщина может сказать: «Аллахумма инни амятук, бинту ‘абдик, бинту амятик».",
+      "en": "A woman may say: “Allahumma inni amatuk, bintu ‘abdik, bintu amatik”."
+    }
+  },
+  {
+    "id": "distress_karb",
+    "situations": [
+      "anxiety",
+      "hardship",
+      "wish"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа в сильном горе (дуа аль-карб)",
+      "en": "Dua in severe distress (du‘a al-karb)"
+    },
+    "arabic": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+    "translit": {
+      "ru": "Ля иляха илля-Ллаху-ль-‘Азыму-ль-Халим, ля иляха илля-Ллаху Раббу-ль-‘арши-ль-‘азым, ля иляха илля-Ллаху Раббу-с-самавати ва Раббу-ль-арды ва Раббу-ль-‘арши-ль-карим",
+      "en": "La ilaha illallahul-‘Azimul-Halim, la ilaha illallahu Rabbul-‘arshil-‘azim, la ilaha illallahu Rabbus-samawati wa Rabbul-ardi wa Rabbul-‘arshil-karim"
+    },
+    "translation": {
+      "ru": "Нет божества, кроме Аллаха, Великого, Выдержанного. Нет божества, кроме Аллаха, Господа великого Трона. Нет божества, кроме Аллаха, Господа небес, Господа земли и Господа благородного Трона.",
+      "en": "There is no god but Allah, the Mighty, the Forbearing. There is no god but Allah, Lord of the Mighty Throne. There is no god but Allah, Lord of the heavens, Lord of the earth and Lord of the Noble Throne."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6346; Муслим, 2730",
+      "en": "al-Bukhari 6346; Muslim 2730"
+    }
+  },
+  {
+    "id": "yunus",
+    "situations": [
+      "anxiety",
+      "forgiveness",
+      "hardship",
+      "wish",
+      "lost_item"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Юнуса (мир ему)",
+      "en": "Dua of Yunus (peace be upon him)"
+    },
+    "quran": [
+      {
+        "s": 21,
+        "a": 87,
+        "w": [
+          14,
+          22
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Ля иляха илля анта субханака инни кунту мина-з-залимин",
+      "en": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin"
+    },
+    "translation": {
+      "ru": "Нет божества, кроме Тебя, Пречист Ты! Поистине, я был из числа несправедливых.",
+      "en": "There is no god but You, glory be to You! I have indeed been among the wrongdoers."
+    },
+    "source": {
+      "ru": "Коран, 21:87; о его достоинстве — ат-Тирмизи, 3505",
+      "en": "Quran 21:87; on its virtue — al-Tirmidhi 3505"
+    },
+    "note": {
+      "ru": "«Ни один мусульманин не обращается с этой мольбой ни по какому поводу без того, чтобы Аллах не ответил ему».",
+      "en": "“No Muslim ever supplicates with it for anything without Allah answering him.”"
+    }
+  },
+  {
+    "id": "hasbunallah",
+    "situations": [
+      "anxiety",
+      "protection",
+      "oppression",
+      "hardship"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Нам достаточно Аллаха",
+      "en": "Allah is sufficient for us"
+    },
+    "quran": [
+      {
+        "s": 3,
+        "a": 173,
+        "w": [
+          13,
+          16
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Хасбуна-Ллаху ва ни‘ма-ль-Вакиль",
+      "en": "Hasbunallahu wa ni‘mal-Wakil"
+    },
+    "translation": {
+      "ru": "Нам достаточно Аллаха, и как прекрасен Он как Покровитель!",
+      "en": "Allah is sufficient for us, and He is the best Disposer of affairs."
+    },
+    "source": {
+      "ru": "Коран, 3:173; аль-Бухари, 4563",
+      "en": "Quran 3:173; al-Bukhari 4563"
+    },
+    "note": {
+      "ru": "Эти слова сказал Ибрахим (мир ему), когда его бросили в огонь, и Мухаммад ﷺ, когда ему сказали, что враги собрались против него.",
+      "en": "Ibrahim (peace be upon him) said this when thrown into the fire, and Muhammad ﷺ said it when told that the enemy had gathered against him."
+    }
+  },
+  {
+    "id": "do_not_leave_me",
+    "situations": [
+      "anxiety"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "Не оставляй меня наедине с собой",
+      "en": "Do not leave me to myself"
+    },
+    "arabic": "اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لَا إِلَهَ إِلَّا أَنْتَ",
+    "translit": {
+      "ru": "Аллахумма рахматака арджу, фа ля такильни иля нафси тарфата ‘айн, ва аслих ли ша’ни кулляху, ля иляха илля ант",
+      "en": "Allahumma rahmataka arju, fa la takilni ila nafsi tarfata ‘ayn, wa aslih li sha’ni kullahu, la ilaha illa ant"
+    },
+    "translation": {
+      "ru": "О Аллах, на Твою милость я надеюсь, не оставляй меня наедине с самим собой ни на мгновение и приведи в порядок все мои дела. Нет божества, кроме Тебя.",
+      "en": "O Allah, it is Your mercy I hope for, so do not leave me to myself even for the blink of an eye, and set right all my affairs. There is no god but You."
+    },
+    "source": {
+      "ru": "Абу Дауд, 5090 (хасан)",
+      "en": "Abu Dawud 5090 (hasan)"
+    }
+  },
+  {
+    "id": "fear_enemy",
+    "situations": [
+      "anxiety",
+      "protection",
+      "oppression"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Когда боишься людей",
+      "en": "When you fear people"
+    },
+    "arabic": "اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُورِهِمْ، وَنَعُوذُ بِكَ مِنْ شُرُورِهِمْ",
+    "translit": {
+      "ru": "Аллахумма инна надж‘алюка фи нухурихим, ва на‘узу бика мин шурурихим",
+      "en": "Allahumma inna naj‘aluka fi nuhurihim, wa na‘udhu bika min shururihim"
+    },
+    "translation": {
+      "ru": "О Аллах, мы выставляем Тебя против них и прибегаем к Тебе от их зла.",
+      "en": "O Allah, we place You before them and seek refuge in You from their evil."
+    },
+    "source": {
+      "ru": "Абу Дауд, 1537 (достоверный)",
+      "en": "Abu Dawud 1537 (sahih)"
+    }
+  },
+  {
+    "id": "patience",
+    "situations": [
+      "anxiety",
+      "important"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "О терпении и твёрдости",
+      "en": "For patience and firmness"
+    },
+    "quran": [
+      {
+        "s": 2,
+        "a": 250,
+        "w": [
+          5,
+          14
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана африг ‘аляйна сабран ва саббит акдамана ва-нсурна ‘аля-ль-кауми-ль-кяфирин",
+      "en": "Rabbana afrigh ‘alayna sabran wa thabbit aqdamana wansurna ‘alal-qawmil-kafirin"
+    },
+    "translation": {
+      "ru": "Господь наш, излей на нас терпение, укрепи наши стопы и помоги нам против неверующих людей.",
+      "en": "Our Lord, pour patience upon us, make our feet firm and help us against the disbelieving people."
+    },
+    "source": {
+      "ru": "Коран, 2:250",
+      "en": "Quran 2:250"
+    }
+  },
+  {
+    "id": "sleep_bismika",
+    "situations": [
+      "sleep"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Перед сном",
+      "en": "Before sleeping"
+    },
+    "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+    "translit": {
+      "ru": "Бисмика-Ллахумма амуту ва ахйа",
+      "en": "Bismika-llahumma amutu wa ahya"
+    },
+    "translation": {
+      "ru": "С Твоим именем, о Аллах, я умираю и оживаю.",
+      "en": "In Your name, O Allah, I die and I live."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6324",
+      "en": "al-Bukhari 6324"
+    }
+  },
+  {
+    "id": "sleep_kursi",
+    "situations": [
+      "sleep",
+      "protection",
+      "morning_evening",
+      "evil_eye"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Аят аль-Курси",
+      "en": "Ayat al-Kursi"
+    },
+    "quran": [
+      {
+        "s": 2,
+        "a": 255
+      }
+    ],
+    "translit": {
+      "ru": "Аллаху ля иляха илля хуа-ль-Хаййу-ль-Каййум, ля та’хузуху синатун ва ля наум, ляху ма фи-с-самавати ва ма фи-ль-ард, ман за-ллязи йашфа‘у ‘индаху илля би-изних, йа‘ляму ма байна айдихим ва ма хальфахум, ва ля йухытуна би-шай’ин мин ‘ильмихи илля би-ма ша’, васи‘а курсийюху-с-самавати ва-ль-ард, ва ля йа’удуху хифзухума, ва хуа-ль-‘Алийю-ль-‘Азым",
+      "en": "Allahu la ilaha illa huwal-Hayyul-Qayyum, la ta’khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa‘u ‘indahu illa bi-idhnih, ya‘lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bi-shay’in min ‘ilmihi illa bima sha’, wasi‘a kursiyyuhus-samawati wal-ard, wa la ya’uduhu hifzuhuma, wa huwal-‘Aliyyul-‘Azim"
+    },
+    "translation": {
+      "ru": "Аллах — нет божества, кроме Него, Живого, Поддерживающего жизнь. Им не овладевают ни дремота, ни сон. Ему принадлежит то, что на небесах, и то, что на земле. Кто станет заступаться перед Ним без Его позволения? Он знает их будущее и прошлое, а они постигают из Его знания лишь то, что Он пожелает. Его Престол объемлет небеса и землю, и не тяготит Его оберегание их. Он — Возвышенный, Великий.",
+      "en": "Allah — there is no god but He, the Ever-Living, the Sustainer of all. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and on earth. Who can intercede with Him except by His permission? He knows what is before them and behind them, and they encompass nothing of His knowledge except what He wills. His Kursi extends over the heavens and the earth, and preserving them does not tire Him. He is the Most High, the Most Great."
+    },
+    "source": {
+      "ru": "Коран, 2:255; о чтении перед сном — аль-Бухари, 2311",
+      "en": "Quran 2:255; on reciting it before sleep — al-Bukhari 2311"
+    },
+    "note": {
+      "ru": "Кто прочтёт его перед сном, того всю ночь будет охранять хранитель от Аллаха, и шайтан не приблизится к нему до утра.",
+      "en": "Whoever recites it before sleeping will have a guardian from Allah all night, and no devil will come near him until morning."
+    }
+  },
+  {
+    "id": "sleep_baqarah_end",
+    "situations": [
+      "sleep"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Два последних аята суры «аль-Бакара»",
+      "en": "The last two verses of al-Baqarah"
+    },
+    "quran": [
+      {
+        "s": 2,
+        "a": 285
+      },
+      {
+        "s": 2,
+        "a": 286
+      }
+    ],
+    "translit": {
+      "ru": "Амана-р-расулю би-ма унзиля иляйхи мин Раббихи ва-ль-му’минун… (2:285–286)",
+      "en": "Amanar-rasulu bima unzila ilayhi min Rabbihi wal-mu’minun… (2:285–286)"
+    },
+    "translation": {
+      "ru": "Посланник уверовал в ниспосланное ему от Господа, и верующие тоже… «Господь наш, не наказывай нас, если мы забыли или ошиблись… Извини нас, прости нас и помилуй нас! Ты — наш Покровитель, помоги же нам против неверующих людей».",
+      "en": "The Messenger believes in what was revealed to him from his Lord, and so do the believers… “Our Lord, do not take us to task if we forget or err… Pardon us, forgive us and have mercy on us. You are our Protector, so help us against the disbelieving people.”"
+    },
+    "source": {
+      "ru": "Коран, 2:285–286; аль-Бухари, 5009",
+      "en": "Quran 2:285–286; al-Bukhari 5009"
+    },
+    "note": {
+      "ru": "«Кто прочтёт ночью два последних аята суры „аль-Бакара“, тому их будет достаточно».",
+      "en": "“Whoever recites the last two verses of Surah al-Baqarah at night, they will suffice him.”"
+    }
+  },
+  {
+    "id": "sleep_three_quls",
+    "situations": [
+      "sleep",
+      "protection",
+      "morning_evening",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "repeat": 3,
+    "title": {
+      "ru": "Суры «аль-Ихлас», «аль-Фаляк», «ан-Нас»",
+      "en": "Surahs al-Ikhlas, al-Falaq and an-Nas"
+    },
+    "translation": {
+      "ru": "Перед сном Пророк ﷺ складывал ладони, читал в них суры «аль-Ихлас», «аль-Фаляк» и «ан-Нас», дул в них и обтирал ими тело, сколько мог, начиная с головы и лица, — трижды. Также их читают трижды утром и вечером.",
+      "en": "Before sleep the Prophet ﷺ would cup his hands, recite al-Ikhlas, al-Falaq and an-Nas into them, blow into them and wipe over as much of his body as he could, starting with his head and face — three times. They are also recited three times morning and evening."
+    },
+    "source": {
+      "ru": "аль-Бухари, 5017; утром и вечером — Абу Дауд, 5082; ат-Тирмизи, 3575",
+      "en": "al-Bukhari 5017; morning and evening — Abu Dawud 5082; al-Tirmidhi 3575"
+    },
+    "quranLink": {
+      "s": 112,
+      "a": 1
+    }
+  },
+  {
+    "id": "waking",
+    "situations": [
+      "sleep",
+      "laziness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "После пробуждения",
+      "en": "On waking up"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "translit": {
+      "ru": "Аль-хамду ли-Лляхи-ллязи ахйана ба‘да ма аматана ва иляйхи-н-нушур",
+      "en": "Alhamdu lillahil-ladhi ahyana ba‘da ma amatana wa ilayhin-nushur"
+    },
+    "translation": {
+      "ru": "Хвала Аллаху, Который оживил нас после того, как умертвил, и к Нему — воскрешение.",
+      "en": "Praise be to Allah who gave us life after He caused us to die, and to Him is the resurrection."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6312",
+      "en": "al-Bukhari 6312"
+    }
+  },
+  {
+    "id": "night_fear",
+    "situations": [
+      "sleep",
+      "protection",
+      "anxiety"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "При бессоннице и страхе во сне",
+      "en": "For insomnia and fear in sleep"
+    },
+    "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ غَضَبِهِ وَعِقَابِهِ، وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ",
+    "translit": {
+      "ru": "А‘узу би-калимати-Лляхи-т-таммати мин гадабихи ва ‘икабих, ва шарри ‘ибадих, ва мин хамазати-ш-шаятыни ва ан йахдурун",
+      "en": "A‘udhu bi-kalimatillahit-tammati min ghadabihi wa ‘iqabih, wa sharri ‘ibadih, wa min hamazatish-shayatini wa an yahdurun"
+    },
+    "translation": {
+      "ru": "Прибегаю к совершенным словам Аллаха от Его гнева и наказания, от зла Его рабов, от наущений шайтанов и от того, чтобы они явились ко мне.",
+      "en": "I seek refuge in the perfect words of Allah from His anger and punishment, from the evil of His servants, and from the whispers of devils and their presence."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3893; ат-Тирмизи, 3528 (хасан)",
+      "en": "Abu Dawud 3893; al-Tirmidhi 3528 (hasan)"
+    },
+    "note": {
+      "ru": "Аль-Альбани счёл хадис хасаном, часть знатоков хадиса — слабым. Читают тому, кто пугается во сне.",
+      "en": "Al-Albani graded it hasan; some hadith scholars consider it weak. It is recited by someone frightened in sleep."
+    }
+  },
+  {
+    "id": "sayyid_istighfar",
+    "situations": [
+      "morning_evening",
+      "forgiveness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Лучшая мольба о прощении (Саййид аль-истигфар)",
+      "en": "The master supplication for forgiveness"
+    },
+    "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+    "translit": {
+      "ru": "Аллахумма анта Рабби, ля иляха илля ант, халяктани ва ана ‘абдук, ва ана ‘аля ‘ахдика ва ва‘дика ма-стата‘т, а‘узу бика мин шарри ма сана‘т, абу’у ляка би-ни‘матика ‘аляййа, ва абу’у ляка би-замби, фа-гфир ли, фа-иннаху ля йагфиру-з-зунуба илля ант",
+      "en": "Allahumma anta Rabbi, la ilaha illa ant, khalaqtani wa ana ‘abduk, wa ana ‘ala ‘ahdika wa wa‘dika mastata‘t, a‘udhu bika min sharri ma sana‘t, abu’u laka bi-ni‘matika ‘alayya, wa abu’u laka bi-dhanbi, faghfir li, fa-innahu la yaghfirudh-dhunuba illa ant"
+    },
+    "translation": {
+      "ru": "О Аллах, Ты — мой Господь, нет божества, кроме Тебя. Ты создал меня, и я — Твой раб. Я храню верность договору с Тобой и Твоему обещанию, насколько могу. Прибегаю к Тебе от зла того, что я совершил. Признаю милость, которую Ты оказал мне, и признаю свой грех. Прости же меня, ведь никто не прощает грехи, кроме Тебя.",
+      "en": "O Allah, You are my Lord, there is no god but You. You created me and I am Your servant, and I keep Your covenant and promise as best I can. I seek refuge in You from the evil of what I have done. I acknowledge Your favour upon me and I acknowledge my sin, so forgive me, for none forgives sins but You."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6306",
+      "en": "al-Bukhari 6306"
+    },
+    "note": {
+      "ru": "Кто скажет это днём с убеждённостью и умрёт до вечера, тот — из обитателей Рая; так же — ночью до утра.",
+      "en": "Whoever says it during the day with firm faith and dies before evening is among the people of Paradise; likewise at night before morning."
+    }
+  },
+  {
+    "id": "bismillah_no_harm",
+    "situations": [
+      "morning_evening",
+      "protection",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "repeat": 3,
+    "title": {
+      "ru": "Защита утром и вечером — 3 раза",
+      "en": "Protection morning and evening — 3 times"
+    },
+    "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+    "translit": {
+      "ru": "Бисми-Лляхи-ллязи ля йадурру ма‘а-смихи шай’ун фи-ль-арды ва ля фи-с-сама’, ва хуа-с-Сами‘у-ль-‘Алим",
+      "en": "Bismillahil-ladhi la yadurru ma‘asmihi shay’un fil-ardi wa la fis-sama’, wa huwas-Sami‘ul-‘Alim"
+    },
+    "translation": {
+      "ru": "С именем Аллаха, с именем Которого ничто не причинит вреда ни на земле, ни на небе. Он — Слышащий, Знающий.",
+      "en": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, the All-Knowing."
+    },
+    "source": {
+      "ru": "Абу Дауд, 5088; ат-Тирмизи, 3388 (хасан сахих)",
+      "en": "Abu Dawud 5088; al-Tirmidhi 3388 (hasan sahih)"
+    }
+  },
+  {
+    "id": "subhanallah_100",
+    "situations": [
+      "morning_evening",
+      "forgiveness"
+    ],
+    "grade": "sahih",
+    "repeat": 100,
+    "title": {
+      "ru": "Тасбих утром и вечером — 100 раз",
+      "en": "Tasbih morning and evening — 100 times"
+    },
+    "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+    "translit": {
+      "ru": "Субхана-Ллахи ва би-хамдих",
+      "en": "Subhanallahi wa bihamdih"
+    },
+    "translation": {
+      "ru": "Пречист Аллах и хвала Ему.",
+      "en": "Glory be to Allah and praise be to Him."
+    },
+    "source": {
+      "ru": "Муслим, 2692",
+      "en": "Muslim 2692"
+    }
+  },
+  {
+    "id": "tahlil_100",
+    "situations": [
+      "morning_evening"
+    ],
+    "grade": "sahih",
+    "repeat": 100,
+    "title": {
+      "ru": "Тахлиль — 100 раз в день",
+      "en": "Tahlil — 100 times a day"
+    },
+    "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+    "translit": {
+      "ru": "Ля иляха илля-Ллаху вахдаху ля шарика лях, ляху-ль-мульку ва ляху-ль-хамд, ва хуа ‘аля кулли шай’ин кадир",
+      "en": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ‘ala kulli shay’in qadir"
+    },
+    "translation": {
+      "ru": "Нет божества, кроме одного лишь Аллаха, у Которого нет сотоварища. Ему принадлежит власть, Ему хвала, и Он над всякой вещью мощен.",
+      "en": "There is no god but Allah alone, without partner. His is the dominion and His is the praise, and He has power over all things."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3293; Муслим, 2691",
+      "en": "al-Bukhari 3293; Muslim 2691"
+    }
+  },
+  {
+    "id": "travel",
+    "situations": [
+      "travel"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа путника (при отправлении в путь)",
+      "en": "The travel supplication (setting out)"
+    },
+    "arabic": "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ، اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى، اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَلِيفَةُ فِي الْأَهْلِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ",
+    "translit": {
+      "ru": "Аллаху акбар (3 раза). Субхана-ллязи саххара ляна хаза ва ма кунна ляху мукринин, ва инна иля Раббина ля-мункалибун. Аллахумма инна нас’алюка фи сафарина хаза-ль-бирра ва-т-такуа, ва мина-ль-‘амали ма тарда. Аллахумма хаввин ‘аляйна сафарана хаза ва-тви ‘анна бу‘дах. Аллахумма анта-с-сахибу фи-с-сафар, ва-ль-халифату фи-ль-ахль. Аллахумма инни а‘узу бика мин ва‘са’и-с-сафар, ва ка’абати-ль-манзар, ва су’и-ль-мункаляби фи-ль-мали ва-ль-ахль",
+      "en": "Allahu akbar (3 times). Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun. Allahumma inna nas’aluka fi safarina hadhal-birra wat-taqwa, wa minal-‘amali ma tarda. Allahumma hawwin ‘alayna safarana hadha watwi ‘anna bu‘dah. Allahumma antas-sahibu fis-safar, wal-khalifatu fil-ahl. Allahumma inni a‘udhu bika min wa‘tha’is-safar, wa ka’abatil-manzar, wa su’il-munqalabi fil-mali wal-ahl"
+    },
+    "translation": {
+      "ru": "Аллах велик (трижды). Пречист Тот, Кто подчинил нам это, ведь сами мы не смогли бы этого сделать, и, поистине, мы вернёмся к нашему Господу. О Аллах, просим Тебя в этой поездке о благочестии и богобоязненности и о делах, которыми Ты доволен. О Аллах, облегчи нам эту поездку и сократи для нас её расстояние. О Аллах, Ты — Спутник в пути и Преемник в семье. О Аллах, прибегаю к Тебе от тягот пути, от печального зрелища и от дурного возвращения к имуществу и семье.",
+      "en": "Allah is the Greatest (three times). Glory be to Him who has subjected this to us, for we could never have done it ourselves, and to our Lord we shall return. O Allah, we ask You on this journey for righteousness and piety, and for deeds that please You. O Allah, make this journey easy for us and shorten its distance. O Allah, You are the Companion on the journey and the Guardian of the family. O Allah, I seek refuge in You from the hardships of travel, from a distressing sight, and from an ill return to wealth and family."
+    },
+    "source": {
+      "ru": "Муслим, 1342",
+      "en": "Muslim 1342"
+    },
+    "note": {
+      "ru": "По возвращении говорят то же самое и добавляют: «Айибуна, та’ибуна, ‘абидуна, ли-Раббина хамидун» — «Возвращаемся, каемся, поклоняемся и восхваляем нашего Господа».",
+      "en": "On returning, say the same and add: “Ayibuna, ta’ibuna, ‘abiduna, li-Rabbina hamidun” — “Returning, repenting, worshipping and praising our Lord.”"
+    }
+  },
+  {
+    "id": "stopping_place",
+    "situations": [
+      "travel",
+      "protection",
+      "morning_evening"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Остановившись в новом месте",
+      "en": "When stopping at a place"
+    },
+    "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+    "translit": {
+      "ru": "А‘узу би-калимати-Лляхи-т-таммати мин шарри ма халяк",
+      "en": "A‘udhu bi-kalimatillahit-tammati min sharri ma khalaq"
+    },
+    "translation": {
+      "ru": "Прибегаю к совершенным словам Аллаха от зла того, что Он сотворил.",
+      "en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+    },
+    "source": {
+      "ru": "Муслим, 2708; вечером — Муслим, 2709",
+      "en": "Muslim 2708; in the evening — Muslim 2709"
+    },
+    "note": {
+      "ru": "Кто остановится где-либо и скажет это, тому ничто не повредит, пока он не уйдёт с этого места.",
+      "en": "Whoever stops somewhere and says this, nothing will harm him until he leaves that place."
+    }
+  },
+  {
+    "id": "leaving_home",
+    "situations": [
+      "home",
+      "travel",
+      "protection"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При выходе из дома",
+      "en": "When leaving home"
+    },
+    "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+    "translit": {
+      "ru": "Бисми-Ллях, таваккальту ‘аля-Ллах, ва ля хауля ва ля куввата илля би-Ллях",
+      "en": "Bismillah, tawakkaltu ‘alallah, wa la hawla wa la quwwata illa billah"
+    },
+    "translation": {
+      "ru": "С именем Аллаха, уповаю на Аллаха, и нет силы и мощи ни у кого, кроме Аллаха.",
+      "en": "In the name of Allah, I rely on Allah, and there is no might nor power except with Allah."
+    },
+    "source": {
+      "ru": "Абу Дауд, 5095; ат-Тирмизи, 3426 (достоверный)",
+      "en": "Abu Dawud 5095; al-Tirmidhi 3426 (sahih)"
+    }
+  },
+  {
+    "id": "entering_home",
+    "situations": [
+      "home"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "При входе в дом",
+      "en": "When entering home"
+    },
+    "translation": {
+      "ru": "Пророк ﷺ сказал: «Если человек, входя в свой дом, поминает Аллаха при входе и во время еды, шайтан говорит: „Нет вам здесь ни ночлега, ни ужина“». Поминание при входе — сказать «Бисми-Ллях» и поприветствовать домашних салямом.",
+      "en": "The Prophet ﷺ said: “When a man enters his house and mentions Allah on entering and when eating, Shaytan says: ‘There is no place for you to spend the night and no dinner.’” Mention Allah on entering by saying “Bismillah” and greet the household with salam."
+    },
+    "source": {
+      "ru": "Муслим, 2018",
+      "en": "Muslim 2018"
+    }
+  },
+  {
+    "id": "before_eating",
+    "situations": [
+      "food"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Перед едой",
+      "en": "Before eating"
+    },
+    "arabic": "بِسْمِ اللَّهِ",
+    "translit": {
+      "ru": "Бисми-Ллях",
+      "en": "Bismillah"
+    },
+    "translation": {
+      "ru": "С именем Аллаха. Если забыл в начале, скажи: «Бисми-Ллахи фи аввалихи ва ахирих» — «С именем Аллаха в начале и в конце».",
+      "en": "In the name of Allah. If you forgot at the start, say: “Bismillahi fi awwalihi wa akhirih” — “In the name of Allah at its beginning and its end.”"
+    },
+    "source": {
+      "ru": "Абу Дауд, 3767; ат-Тирмизи, 1858 (достоверный)",
+      "en": "Abu Dawud 3767; al-Tirmidhi 1858 (sahih)"
+    }
+  },
+  {
+    "id": "after_eating",
+    "situations": [
+      "food",
+      "gratitude"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "После еды",
+      "en": "After eating"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+    "translit": {
+      "ru": "Аль-хамду ли-Лляхи-ллязи ат‘амани хаза ва разаканихи мин гайри хаулин минни ва ля куввах",
+      "en": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi min ghayri hawlin minni wa la quwwah"
+    },
+    "translation": {
+      "ru": "Хвала Аллаху, Который накормил меня этим и наделил меня этим без какой-либо силы и мощи с моей стороны.",
+      "en": "Praise be to Allah who fed me this and provided it for me without any might or power on my part."
+    },
+    "source": {
+      "ru": "Абу Дауд, 4023; ат-Тирмизи, 3458 (хасан)",
+      "en": "Abu Dawud 4023; al-Tirmidhi 3458 (hasan)"
+    }
+  },
+  {
+    "id": "mosque_enter_exit",
+    "situations": [
+      "prayer"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При входе в мечеть и выходе из неё",
+      "en": "Entering and leaving the mosque"
+    },
+    "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ ... اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+    "translit": {
+      "ru": "При входе: «Аллахумма-фтах ли абваба рахматик». При выходе: «Аллахумма инни ас’алюка мин фадлик»",
+      "en": "Entering: “Allahummaftah li abwaba rahmatik”. Leaving: “Allahumma inni as’aluka min fadlik”"
+    },
+    "translation": {
+      "ru": "При входе: «О Аллах, открой мне врата Своей милости». При выходе: «О Аллах, прошу у Тебя из Твоей щедрости».",
+      "en": "Entering: “O Allah, open for me the gates of Your mercy.” Leaving: “O Allah, I ask You of Your bounty.”"
+    },
+    "source": {
+      "ru": "Муслим, 713",
+      "en": "Muslim 713"
+    }
+  },
+  {
+    "id": "after_wudu",
+    "situations": [
+      "prayer"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "После омовения",
+      "en": "After wudu"
+    },
+    "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+    "translit": {
+      "ru": "Ашхаду ан ля иляха илля-Ллаху вахдаху ля шарика лях, ва ашхаду анна Мухаммадан ‘абдуху ва расулюх",
+      "en": "Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa ash-hadu anna Muhammadan ‘abduhu wa rasuluh"
+    },
+    "translation": {
+      "ru": "Свидетельствую, что нет божества, кроме одного лишь Аллаха, у Которого нет сотоварища, и свидетельствую, что Мухаммад — Его раб и Посланник.",
+      "en": "I bear witness that there is no god but Allah alone, without partner, and I bear witness that Muhammad is His servant and Messenger."
+    },
+    "source": {
+      "ru": "Муслим, 234",
+      "en": "Muslim 234"
+    },
+    "note": {
+      "ru": "Для того, кто скажет это после омовения, открываются восемь врат Рая.",
+      "en": "For whoever says this after wudu, the eight gates of Paradise are opened."
+    }
+  },
+  {
+    "id": "after_salah",
+    "situations": [
+      "prayer",
+      "forgiveness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Сразу после намаза",
+      "en": "Right after the prayer"
+    },
+    "arabic": "أَسْتَغْفِرُ اللَّهَ، أَسْتَغْفِرُ اللَّهَ، أَسْتَغْفِرُ اللَّهَ، اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+    "translit": {
+      "ru": "Астагфиру-Ллах (3 раза). Аллахумма анта-с-Салям ва минка-с-салям, табаракта йа За-ль-Джаляли ва-ль-Икрам",
+      "en": "Astaghfirullah (3 times). Allahumma antas-Salam wa minkas-salam, tabarakta ya Dhal-Jalali wal-Ikram"
+    },
+    "translation": {
+      "ru": "Прошу прощения у Аллаха (трижды). О Аллах, Ты — Мир, и от Тебя мир. Благословен Ты, о Обладатель величия и щедрости!",
+      "en": "I ask Allah’s forgiveness (three times). O Allah, You are Peace and from You is peace. Blessed are You, O Possessor of majesty and honour."
+    },
+    "source": {
+      "ru": "Муслим, 591",
+      "en": "Muslim 591"
+    }
+  },
+  {
+    "id": "istighfar_daily",
+    "situations": [
+      "forgiveness"
+    ],
+    "grade": "sahih",
+    "repeat": 100,
+    "title": {
+      "ru": "Истигфар каждый день",
+      "en": "Daily istighfar"
+    },
+    "arabic": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+    "translit": {
+      "ru": "Астагфиру-Ллаха ва атубу иляйх",
+      "en": "Astaghfirullaha wa atubu ilayh"
+    },
+    "translation": {
+      "ru": "Прошу прощения у Аллаха и каюсь перед Ним.",
+      "en": "I seek Allah’s forgiveness and turn to Him in repentance."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6307; Муслим, 2702",
+      "en": "al-Bukhari 6307; Muslim 2702"
+    },
+    "note": {
+      "ru": "Пророк ﷺ просил прощения у Аллаха более семидесяти раз в день, а по версии Муслима — сто раз.",
+      "en": "The Prophet ﷺ sought Allah’s forgiveness more than seventy times a day; in Muslim’s narration, a hundred times."
+    }
+  },
+  {
+    "id": "abu_bakr",
+    "situations": [
+      "forgiveness",
+      "prayer"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Дуа, которому Пророк ﷺ научил Абу Бакра",
+      "en": "The dua the Prophet ﷺ taught Abu Bakr"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+    "translit": {
+      "ru": "Аллахумма инни залямту нафси зульман кясиран, ва ля йагфиру-з-зунуба илля ант, фа-гфир ли магфиратан мин ‘индик, ва-рхамни, иннака анта-ль-Гафуру-р-Рахим",
+      "en": "Allahumma inni zalamtu nafsi zulman kathiran, wa la yaghfirudh-dhunuba illa ant, faghfir li maghfiratan min ‘indik, warhamni, innaka antal-Ghafurur-Rahim"
+    },
+    "translation": {
+      "ru": "О Аллах, я много раз поступал несправедливо по отношению к себе, а грехи не прощает никто, кроме Тебя. Прости же меня прощением от Тебя и помилуй меня, ведь Ты — Прощающий, Милосердный.",
+      "en": "O Allah, I have greatly wronged myself, and none forgives sins but You. So grant me forgiveness from You and have mercy on me, for You are the Forgiving, the Merciful."
+    },
+    "source": {
+      "ru": "аль-Бухари, 834; Муслим, 2705",
+      "en": "al-Bukhari 834; Muslim 2705"
+    }
+  },
+  {
+    "id": "adam",
+    "situations": [
+      "forgiveness"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Адама и Хаввы",
+      "en": "Dua of Adam and Hawwa"
+    },
+    "quran": [
+      {
+        "s": 7,
+        "a": 23,
+        "w": [
+          1,
+          11
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана залямна анфусана ва ин лям тагфир ляна ва тархамна ля-накунанна мина-ль-хасирин",
+      "en": "Rabbana zalamna anfusana wa in lam taghfir lana wa tarhamna lanakunanna minal-khasirin"
+    },
+    "translation": {
+      "ru": "Господь наш, мы поступили несправедливо по отношению к себе, и если Ты не простишь нас и не помилуешь, мы непременно окажемся среди потерпевших убыток.",
+      "en": "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy on us, we will surely be among the losers."
+    },
+    "source": {
+      "ru": "Коран, 7:23",
+      "en": "Quran 7:23"
+    }
+  },
+  {
+    "id": "qadr",
+    "situations": [
+      "ramadan",
+      "forgiveness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "В Ночь предопределения",
+      "en": "On Laylat al-Qadr"
+    },
+    "arabic": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+    "translit": {
+      "ru": "Аллахумма иннака ‘Афуввун тухиббу-ль-‘афва фа-‘фу ‘анни",
+      "en": "Allahumma innaka ‘Afuwwun tuhibbul-‘afwa fa‘fu ‘anni"
+    },
+    "translation": {
+      "ru": "О Аллах, Ты — Прощающий, любишь прощать, так прости же меня.",
+      "en": "O Allah, You are Pardoning and love to pardon, so pardon me."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3513 (достоверный)",
+      "en": "al-Tirmidhi 3513 (sahih)"
+    }
+  },
+  {
+    "id": "iftar",
+    "situations": [
+      "ramadan"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "При разговении (ифтар)",
+      "en": "When breaking the fast"
+    },
+    "arabic": "ذَهَبَ الظَّمَأُ، وَابْتَلَّتِ الْعُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+    "translit": {
+      "ru": "Захаба-з-зама’у, ва-бталляти-ль-‘урук, ва сабата-ль-аджру ин ша’а-Ллах",
+      "en": "Dhahabaz-zama’u, wabtallatil-‘uruq, wa thabatal-ajru in sha’ Allah"
+    },
+    "translation": {
+      "ru": "Ушла жажда, увлажнились жилы, и утвердилась награда, если пожелает Аллах.",
+      "en": "The thirst is gone, the veins are moistened, and the reward is confirmed, if Allah wills."
+    },
+    "source": {
+      "ru": "Абу Дауд, 2357 (хасан)",
+      "en": "Abu Dawud 2357 (hasan)"
+    }
+  },
+  {
+    "id": "new_moon",
+    "situations": [
+      "ramadan"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "При виде молодого месяца",
+      "en": "On sighting the new moon"
+    },
+    "arabic": "اللَّهُمَّ أَهْلِلْهُ عَلَيْنَا بِالْيُمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ، رَبِّي وَرَبُّكَ اللَّهُ",
+    "translit": {
+      "ru": "Аллахумма ахлильху ‘аляйна би-ль-йумни ва-ль-иман, ва-с-саляма ва-ль-ислям, Рабби ва Раббука-Ллах",
+      "en": "Allahumma ahlilhu ‘alayna bil-yumni wal-iman, was-salamati wal-islam, Rabbi wa Rabbukallah"
+    },
+    "translation": {
+      "ru": "О Аллах, дай ему взойти над нами с благом и верой, с благополучием и исламом. Мой Господь и твой Господь — Аллах.",
+      "en": "O Allah, bring it upon us with blessing and faith, with safety and Islam. My Lord and your Lord is Allah."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3451 (хасан)",
+      "en": "al-Tirmidhi 3451 (hasan)"
+    }
+  },
+  {
+    "id": "iftar_lakasumtu",
+    "situations": [
+      "ramadan"
+    ],
+    "grade": "daif",
+    "title": {
+      "ru": "«Аллахумма ляка сумту» при ифтаре",
+      "en": "“Allahumma laka sumtu” at iftar"
+    },
+    "arabic": "اللَّهُمَّ لَكَ صُمْتُ، وَعَلَى رِزْقِكَ أَفْطَرْتُ",
+    "translit": {
+      "ru": "Аллахумма ляка сумту ва ‘аля ризкыка афтарту",
+      "en": "Allahumma laka sumtu wa ‘ala rizqika aftartu"
+    },
+    "translation": {
+      "ru": "О Аллах, ради Тебя я постился и Твоим уделом разговелся.",
+      "en": "O Allah, for You I fasted and with Your provision I break my fast."
+    },
+    "source": {
+      "ru": "Абу Дауд, 2358 (слабый, мурсаль)",
+      "en": "Abu Dawud 2358 (weak, mursal)"
+    },
+    "note": {
+      "ru": "Цепочка этого хадиса прервана, поэтому он слабый. Смысл правильный, и сказать эти слова как обычное дуа можно, но достоверное дуа ифтара — «Захаба-з-зама’у» (см. выше).",
+      "en": "This hadith’s chain is broken, so it is weak. The meaning is sound and you may say it as a general dua, but the authentic iftar dua is “Dhahabaz-zama’u” (see above)."
+    }
+  },
+  {
+    "id": "spouse_children",
+    "situations": [
+      "family",
+      "marriage",
+      "children",
+      "spouses",
+      "conceive"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "О радости в супругах и детях",
+      "en": "For joy in spouses and children"
+    },
+    "quran": [
+      {
+        "s": 25,
+        "a": 74,
+        "w": [
+          2,
+          12
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана хаб ляна мин азваджина ва зуррийятина куррата а‘йун ва-дж‘альна ли-ль-муттакина имама",
+      "en": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a‘yun waj‘alna lil-muttaqina imama"
+    },
+    "translation": {
+      "ru": "Господь наш, даруй нам в наших супругах и потомстве отраду для глаз и сделай нас образцом для богобоязненных.",
+      "en": "Our Lord, grant us from our spouses and offspring the comfort of our eyes, and make us leaders of the God-fearing."
+    },
+    "source": {
+      "ru": "Коран, 25:74",
+      "en": "Quran 25:74"
+    }
+  },
+  {
+    "id": "zakariya_child",
+    "situations": [
+      "children",
+      "newborn",
+      "conceive"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Закарии (мир ему) о ребёнке",
+      "en": "Dua of Zakariya (peace be upon him) for a child"
+    },
+    "quran": [
+      {
+        "s": 3,
+        "a": 38,
+        "w": [
+          5,
+          14
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби хаб ли мин ладунка зуррийятан таййибатан, иннака Сами‘у-д-ду‘а",
+      "en": "Rabbi hab li min ladunka dhurriyyatan tayyibatan, innaka Sami‘ud-du‘a"
+    },
+    "translation": {
+      "ru": "Господи, даруй мне от Себя благое потомство, ведь Ты слышишь мольбу.",
+      "en": "My Lord, grant me from Yourself good offspring; You are the Hearer of supplication."
+    },
+    "source": {
+      "ru": "Коран, 3:38",
+      "en": "Quran 3:38"
+    }
+  },
+  {
+    "id": "zakariya_alone",
+    "situations": [
+      "children",
+      "conceive"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Не оставляй меня одиноким",
+      "en": "Do not leave me alone"
+    },
+    "quran": [
+      {
+        "s": 21,
+        "a": 89,
+        "w": [
+          4,
+          10
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби ля тазарни фардан ва анта хайру-ль-варисин",
+      "en": "Rabbi la tadharni fardan wa anta khayrul-warithin"
+    },
+    "translation": {
+      "ru": "Господи, не оставляй меня одиноким, а Ты — Лучший из наследников.",
+      "en": "My Lord, do not leave me alone, and You are the best of inheritors."
+    },
+    "source": {
+      "ru": "Коран, 21:89",
+      "en": "Quran 21:89"
+    }
+  },
+  {
+    "id": "children_prayer",
+    "situations": [
+      "children",
+      "family",
+      "prayer"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Чтобы я и мои дети совершали намаз",
+      "en": "That I and my children keep up prayer"
+    },
+    "quran": [
+      {
+        "s": 14,
+        "a": 40
+      }
+    ],
+    "translit": {
+      "ru": "Рабби-дж‘альни мукыма-с-саляти ва мин зуррийяти, Раббана ва такаббаль ду‘а",
+      "en": "Rabbij‘alni muqimas-salati wa min dhurriyyati, Rabbana wa taqabbal du‘a"
+    },
+    "translation": {
+      "ru": "Господи, сделай меня и моё потомство совершающими намаз. Господь наш, прими мою мольбу.",
+      "en": "My Lord, make me steadfast in prayer, and also my descendants. Our Lord, accept my supplication."
+    },
+    "source": {
+      "ru": "Коран, 14:40",
+      "en": "Quran 14:40"
+    }
+  },
+  {
+    "id": "children_protection",
+    "situations": [
+      "children",
+      "protection",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Защита детей",
+      "en": "Protection for children"
+    },
+    "arabic": "أُعِيذُكُمَا بِكَلِمَاتِ اللَّهِ التَّامَّةِ، مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ",
+    "translit": {
+      "ru": "У‘изукума би-калимати-Лляхи-т-тамма, мин кулли шайтанин ва хамма, ва мин кулли ‘айнин лямма",
+      "en": "U‘idhukuma bi-kalimatillahit-tammah, min kulli shaytanin wa hammah, wa min kulli ‘aynin lammah"
+    },
+    "translation": {
+      "ru": "Вверяю вас защите совершенных слов Аллаха от всякого шайтана, ядовитой твари и от всякого дурного глаза.",
+      "en": "I seek protection for you both in the perfect words of Allah from every devil and every poisonous creature, and from every evil eye."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3371",
+      "en": "al-Bukhari 3371"
+    },
+    "note": {
+      "ru": "Так Пророк ﷺ просил защиты для аль-Хасана и аль-Хусейна. Для одного ребёнка: «У‘изука» (мальчику), «У‘изуки» (девочке); для многих — «У‘изукум».",
+      "en": "This is how the Prophet ﷺ sought protection for al-Hasan and al-Husayn. For one boy: “U‘idhuka”, one girl: “U‘idhuki”, several: “U‘idhukum”."
+    }
+  },
+  {
+    "id": "newborn_congrats",
+    "situations": [
+      "children",
+      "newborn"
+    ],
+    "grade": "athar",
+    "title": {
+      "ru": "Поздравление с рождением ребёнка",
+      "en": "Congratulating on a newborn"
+    },
+    "arabic": "بَارَكَ اللَّهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ",
+    "translit": {
+      "ru": "Барака-Ллаху ляка фи-ль-маухуби ляк, ва шакарта-ль-Вахиб, ва баляга ашуддах, ва рузикта биррах",
+      "en": "Barakallahu laka fil-mawhubi lak, wa shakartal-Wahib, wa balagha ashuddah, wa ruziqta birrah"
+    },
+    "translation": {
+      "ru": "Да благословит тебя Аллах в том, кто тебе дарован; да будешь ты благодарен Дарующему; пусть он достигнет зрелости, и пусть тебе будет дарована его почтительность.",
+      "en": "May Allah bless you in the one granted to you; may you be grateful to the Giver; may the child reach maturity, and may you be granted his devotion."
+    },
+    "source": {
+      "ru": "Слова аль-Хасана аль-Басри (не хадис Пророка ﷺ); приводятся в «Крепости мусульманина»",
+      "en": "Words of al-Hasan al-Basri (not a hadith of the Prophet ﷺ); cited in Hisn al-Muslim"
+    }
+  },
+  {
+    "id": "wedding_congrats",
+    "situations": [
+      "marriage"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Поздравление новобрачных",
+      "en": "Congratulating newlyweds"
+    },
+    "arabic": "بَارَكَ اللَّهُ لَكَ، وَبَارَكَ عَلَيْكَ، وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+    "translit": {
+      "ru": "Барака-Ллаху ляк, ва барака ‘аляйк, ва джама‘а байнакума фи хайр",
+      "en": "Barakallahu lak, wa baraka ‘alayk, wa jama‘a baynakuma fi khayr"
+    },
+    "translation": {
+      "ru": "Да благословит тебя Аллах, да ниспошлёт Он тебе благословение и да соединит вас во благе.",
+      "en": "May Allah bless you, send blessings upon you, and bring you together in goodness."
+    },
+    "source": {
+      "ru": "Абу Дауд, 2130; ат-Тирмизи, 1091 (достоверный)",
+      "en": "Abu Dawud 2130; al-Tirmidhi 1091 (sahih)"
+    }
+  },
+  {
+    "id": "istikhara",
+    "situations": [
+      "important",
+      "marriage",
+      "rizq"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Истихара — когда нужно сделать выбор",
+      "en": "Istikhara — when you must decide"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي، ثُمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ",
+    "translit": {
+      "ru": "Аллахумма инни астахирука би-‘ильмик, ва астакдирука би-кудратик, ва ас’алюка мин фадлика-ль-‘азым, фа-иннака такдиру ва ля акдир, ва та‘ляму ва ля а‘лям, ва анта ‘Алляму-ль-гуюб. Аллахумма ин кунта та‘ляму анна хаза-ль-амра (назвать дело) хайрун ли фи дини ва ма‘аши ва ‘акыбати амри, фа-кдурху ли ва йассирху ли, сумма барик ли фих. Ва ин кунта та‘ляму анна хаза-ль-амра шаррун ли фи дини ва ма‘аши ва ‘акыбати амри, фа-срифху ‘анни ва-срифни ‘анху, ва-кдур лия-ль-хайра хайсу кян, сумма ардыни бих",
+      "en": "Allahumma inni astakhiruka bi-‘ilmik, wa astaqdiruka bi-qudratik, wa as’aluka min fadlikal-‘azim, fa-innaka taqdiru wa la aqdir, wa ta‘lamu wa la a‘lam, wa anta ‘Allamul-ghuyub. Allahumma in kunta ta‘lamu anna hadhal-amra (name the matter) khayrun li fi dini wa ma‘ashi wa ‘aqibati amri, faqdurhu li wa yassirhu li, thumma barik li fih. Wa in kunta ta‘lamu anna hadhal-amra sharrun li fi dini wa ma‘ashi wa ‘aqibati amri, fasrifhu ‘anni wasrifni ‘anhu, waqdur liyal-khayra haythu kan, thumma ardini bih"
+    },
+    "translation": {
+      "ru": "О Аллах, прошу Тебя помочь мне выбрать благое Твоим знанием, прошу Тебя придать мне силы Твоим могуществом и прошу Тебя о Твоей великой милости. Ты можешь, а я не могу, Ты знаешь, а я не знаю, и Ты — Знающий сокровенное. О Аллах, если Ты знаешь, что это дело (назвать его) хорошо для меня в моей религии, жизни и исходе моих дел, то предопредели его мне, облегчи и благослови меня в нём. А если Ты знаешь, что это дело плохо для меня в моей религии, жизни и исходе моих дел, то отврати его от меня и меня от него, предопредели мне благо, где бы оно ни было, и сделай меня довольным им.",
+      "en": "O Allah, I seek Your guidance through Your knowledge, ability through Your power, and I ask You of Your great bounty. You are able and I am not; You know and I do not, and You are the Knower of the unseen. O Allah, if You know that this matter (name it) is good for me in my religion, my livelihood and the outcome of my affairs, then decree it for me, make it easy for me and bless me in it. And if You know that this matter is bad for me in my religion, my livelihood and the outcome of my affairs, then turn it away from me and turn me away from it, decree for me what is good wherever it may be, and make me content with it."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1162",
+      "en": "al-Bukhari 1162"
+    },
+    "note": {
+      "ru": "Совершают два ракаата добровольного намаза, затем читают это дуа.",
+      "en": "Pray two rak‘ahs of voluntary prayer, then make this dua."
+    }
+  },
+  {
+    "id": "make_easy",
+    "situations": [
+      "important",
+      "debts",
+      "newborn",
+      "hardship",
+      "wish"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Когда дело трудное",
+      "en": "When a matter is difficult"
+    },
+    "arabic": "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلًا",
+    "translit": {
+      "ru": "Аллахумма ля сахля илля ма джа‘альтаху сахля, ва анта тадж‘алю-ль-хазна иза шиъта сахля",
+      "en": "Allahumma la sahla illa ma ja‘altahu sahla, wa anta taj‘alul-hazna idha shi’ta sahla"
+    },
+    "translation": {
+      "ru": "О Аллах, нет лёгкого, кроме того, что Ты сделал лёгким, а трудное Ты делаешь лёгким, если пожелаешь.",
+      "en": "O Allah, nothing is easy except what You make easy, and You make the difficult easy if You will."
+    },
+    "source": {
+      "ru": "Ибн Хиббан, 974 (достоверный)",
+      "en": "Ibn Hibban 974 (sahih)"
+    }
+  },
+  {
+    "id": "musa_chest",
+    "situations": [
+      "important"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Перед выступлением, экзаменом, трудным разговором",
+      "en": "Before a speech, exam or hard conversation"
+    },
+    "quran": [
+      {
+        "s": 20,
+        "a": 25,
+        "w": [
+          1,
+          4
+        ]
+      },
+      {
+        "s": 20,
+        "a": 26
+      },
+      {
+        "s": 20,
+        "a": 27
+      },
+      {
+        "s": 20,
+        "a": 28
+      }
+    ],
+    "translit": {
+      "ru": "Рабби-шрах ли садри, ва йассир ли амри, ва-хлюль ‘укдатан мин лисани, йафкаху каули",
+      "en": "Rabbishrah li sadri, wa yassir li amri, wahlul ‘uqdatan min lisani, yafqahu qawli"
+    },
+    "translation": {
+      "ru": "Господи, раскрой мне мою грудь, облегчи мне моё дело и развяжи узел на моём языке, чтобы они поняли мою речь.",
+      "en": "My Lord, expand my chest for me, ease my task for me, and untie the knot from my tongue so they may understand my speech."
+    },
+    "source": {
+      "ru": "Коран, 20:25–28",
+      "en": "Quran 20:25–28"
+    }
+  },
+  {
+    "id": "knowledge",
+    "situations": [
+      "important"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "О знании",
+      "en": "For knowledge"
+    },
+    "quran": [
+      {
+        "s": 20,
+        "a": 114,
+        "w": [
+          14,
+          16
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби зидни ‘ильма",
+      "en": "Rabbi zidni ‘ilma"
+    },
+    "translation": {
+      "ru": "Господи, прибавь мне знания.",
+      "en": "My Lord, increase me in knowledge."
+    },
+    "source": {
+      "ru": "Коран, 20:114",
+      "en": "Quran 20:114"
+    }
+  },
+  {
+    "id": "anger",
+    "situations": [
+      "protection",
+      "family",
+      "spouses",
+      "reconcile"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Когда охватывает гнев",
+      "en": "When angry"
+    },
+    "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+    "translit": {
+      "ru": "А‘узу би-Лляхи мина-ш-шайтани-р-раджим",
+      "en": "A‘udhu billahi minash-shaytanir-rajim"
+    },
+    "translation": {
+      "ru": "Прибегаю к Аллаху от проклятого шайтана.",
+      "en": "I seek refuge in Allah from the accursed Shaytan."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3282; Муслим, 2610",
+      "en": "al-Bukhari 3282; Muslim 2610"
+    }
+  },
+  {
+    "id": "heart_firm",
+    "situations": [
+      "protection",
+      "anxiety"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "О твёрдости сердца в вере",
+      "en": "For a heart firm in faith"
+    },
+    "quran": [
+      {
+        "s": 3,
+        "a": 8
+      }
+    ],
+    "translit": {
+      "ru": "Раббана ля тузиг кулюбана ба‘да из хадайтана ва хаб ляна мин ладунка рахма, иннака анта-ль-Ваххаб",
+      "en": "Rabbana la tuzigh qulubana ba‘da idh hadaytana wa hab lana min ladunka rahmah, innaka antal-Wahhab"
+    },
+    "translation": {
+      "ru": "Господь наш, не уклоняй наши сердца после того, как Ты наставил нас, и даруй нам милость от Себя. Ведь Ты — Дарующий.",
+      "en": "Our Lord, do not let our hearts deviate after You have guided us, and grant us mercy from Yourself. You are the Bestower."
+    },
+    "source": {
+      "ru": "Коран, 3:8",
+      "en": "Quran 3:8"
+    }
+  },
+  {
+    "id": "ya_hayyu",
+    "situations": [
+      "anxiety",
+      "important",
+      "hardship"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "В отчаянии: «О Живой, о Вечносущий»",
+      "en": "In despair: “O Ever-Living, O Sustainer”"
+    },
+    "arabic": "يَا حَيُّ يَا قَيُّومُ، بِرَحْمَتِكَ أَسْتَغِيثُ",
+    "translit": {
+      "ru": "Йа Хаййу йа Каййум, би-рахматика астагис",
+      "en": "Ya Hayyu ya Qayyum, bi-rahmatika astaghith"
+    },
+    "translation": {
+      "ru": "О Живой, о Поддерживающий жизнь! К Твоей милости взываю о помощи.",
+      "en": "O Ever-Living, O Sustainer of all, by Your mercy I seek help."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3524 (хасан)",
+      "en": "al-Tirmidhi 3524 (hasan)"
+    },
+    "note": {
+      "ru": "Так говорил Пророк ﷺ, когда его что-то сильно тревожило.",
+      "en": "The Prophet ﷺ said this when something distressed him."
+    }
+  },
+  {
+    "id": "good_news",
+    "situations": [
+      "gratitude"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "Когда случилось радостное",
+      "en": "When something pleasing happens"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
+    "translit": {
+      "ru": "Аль-хамду ли-Лляхи-ллязи би-ни‘матихи татимму-с-салихат",
+      "en": "Alhamdu lillahil-ladhi bi-ni‘matihi tatimmus-salihat"
+    },
+    "translation": {
+      "ru": "Хвала Аллаху, по милости Которого совершаются благие дела.",
+      "en": "Praise be to Allah, by whose grace good things are completed."
+    },
+    "source": {
+      "ru": "Ибн Маджа, 3803 (хасан)",
+      "en": "Ibn Majah 3803 (hasan)"
+    }
+  },
+  {
+    "id": "sulayman_thanks",
+    "situations": [
+      "gratitude",
+      "family"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа о благодарности",
+      "en": "Dua for gratitude"
+    },
+    "quran": [
+      {
+        "s": 27,
+        "a": 19,
+        "w": [
+          5,
+          23
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби авзи‘ни ан ашкура ни‘матака-ллати ан‘амта ‘аляййа ва ‘аля валидаййа ва ан а‘маля салихан тардаху ва адхильни би-рахматика фи ‘ибадика-с-салихин",
+      "en": "Rabbi awzi‘ni an ashkura ni‘matakal-lati an‘amta ‘alayya wa ‘ala walidayya wa an a‘mala salihan tardahu wa adkhilni bi-rahmatika fi ‘ibadikas-salihin"
+    },
+    "translation": {
+      "ru": "Господи, внуши мне быть благодарным за милость, которую Ты оказал мне и моим родителям, и совершать праведные дела, которыми Ты доволен, и введи меня по Своей милости в число Своих праведных рабов.",
+      "en": "My Lord, inspire me to be grateful for Your favour which You have bestowed on me and my parents, and to do righteous deeds that please You, and admit me by Your mercy among Your righteous servants."
+    },
+    "source": {
+      "ru": "Коран, 27:19",
+      "en": "Quran 27:19"
+    }
+  },
+  {
+    "id": "best_of_both",
+    "situations": [
+      "gratitude",
+      "birthday",
+      "morning_evening",
+      "hajj"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Самое частое дуа Пророка ﷺ",
+      "en": "The Prophet’s ﷺ most frequent dua"
+    },
+    "quran": [
+      {
+        "s": 2,
+        "a": 201,
+        "w": [
+          3,
+          13
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана атина фи-д-дунья хасанатан ва фи-ль-ахырати хасанатан ва кына ‘азаба-н-нар",
+      "en": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina ‘adhaban-nar"
+    },
+    "translation": {
+      "ru": "Господь наш, даруй нам благо в этом мире и благо в Последней жизни и защити нас от мучений Огня.",
+      "en": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire."
+    },
+    "source": {
+      "ru": "Коран, 2:201; аль-Бухари, 6389",
+      "en": "Quran 2:201; al-Bukhari 6389"
+    }
+  },
+  {
+    "id": "anas_dua",
+    "situations": [
+      "birthday",
+      "children",
+      "family"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Пожелание блага и бараката человеку",
+      "en": "Wishing someone good and barakah"
+    },
+    "arabic": "اللَّهُمَّ أَكْثِرْ مَالَهُ وَوَلَدَهُ، وَبَارِكْ لَهُ فِيمَا أَعْطَيْتَهُ",
+    "translit": {
+      "ru": "Аллахумма аксир маляху ва валядаху, ва барик ляху фи-ма а‘тайтах",
+      "en": "Allahumma akthir malahu wa waladahu, wa barik lahu fima a‘taytah"
+    },
+    "translation": {
+      "ru": "О Аллах, умножь его имущество и детей и благослови его в том, что Ты ему дал.",
+      "en": "O Allah, increase his wealth and children, and bless him in what You have given him."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6334; Муслим, 2480",
+      "en": "al-Bukhari 6334; Muslim 2480"
+    },
+    "note": {
+      "ru": "Так Пророк ﷺ помолился за Анаса ибн Малика. Для женщины: «Аллахумма аксир маляха ва валядаха, ва барик ляха фи-ма а‘тайтаха».",
+      "en": "The Prophet ﷺ made this dua for Anas ibn Malik. For a woman: “Allahumma akthir malaha wa waladaha, wa barik laha fima a‘taytaha”."
+    }
+  },
+  {
+    "id": "islah",
+    "situations": [
+      "birthday",
+      "important"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "О благе в религии, этой жизни и вечной",
+      "en": "For good in faith, this life and the next"
+    },
+    "arabic": "اللَّهُمَّ أَصْلِحْ لِي دِينِيَ الَّذِي هُوَ عِصْمَةُ أَمْرِي، وَأَصْلِحْ لِي دُنْيَايَ الَّتِي فِيهَا مَعَاشِي، وَأَصْلِحْ لِي آخِرَتِي الَّتِي فِيهَا مَعَادِي، وَاجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ، وَاجْعَلِ الْمَوْتَ رَاحَةً لِي مِنْ كُلِّ شَرٍّ",
+    "translit": {
+      "ru": "Аллахумма аслих ли диния-ллязи хуа ‘исмату амри, ва аслих ли дунйая-ллати фиха ма‘аши, ва аслих ли ахырати-ллати фиха ма‘ади, ва-дж‘али-ль-хайата зийадатан ли фи кулли хайр, ва-дж‘али-ль-маута рахатан ли мин кулли шарр",
+      "en": "Allahumma aslih li diniyal-ladhi huwa ‘ismatu amri, wa aslih li dunyayal-lati fiha ma‘ashi, wa aslih li akhiratil-lati fiha ma‘adi, waj‘alil-hayata ziyadatan li fi kulli khayr, waj‘alil-mawta rahatan li min kulli sharr"
+    },
+    "translation": {
+      "ru": "О Аллах, приведи в порядок мою религию — защиту моих дел, мой мирской удел, в котором моя жизнь, и мою вечную жизнь, к которой моё возвращение. Сделай жизнь умножением всякого блага для меня, а смерть — избавлением от всякого зла.",
+      "en": "O Allah, set right my religion, which is the safeguard of my affairs; set right my worldly life, wherein is my living; set right my Hereafter, to which is my return. Make life an increase for me in all good, and make death a relief for me from all evil."
+    },
+    "source": {
+      "ru": "Муслим, 2720",
+      "en": "Muslim 2720"
+    }
+  },
+  {
+    "id": "barakallah",
+    "situations": [
+      "birthday",
+      "gratitude"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "«Бáрака-Ллаху фик»",
+      "en": "“Barakallahu fik”"
+    },
+    "translation": {
+      "ru": "Сподвижники отвечали на добро и делали дуа словами «бáрака-Ллаху фик/фики» — «да благословит тебя Аллах». Это общее пожелание, уместное в любой день, в том числе когда человека поздравляют.",
+      "en": "The Companions answered kindness and made dua with “barakallahu fik/fiki” — “may Allah bless you”. It is a general wish suitable for any day, including when someone is being congratulated."
+    },
+    "source": {
+      "ru": "Формула благословения встречается в хадисах, напр. аль-Бухари, 5155",
+      "en": "The blessing formula appears in hadith, e.g. al-Bukhari 5155"
+    }
+  },
+  {
+    "id": "kahf_friday",
+    "situations": [
+      "friday_eid"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Сура «аль-Кахф» в пятницу",
+      "en": "Surah al-Kahf on Friday"
+    },
+    "translation": {
+      "ru": "«Кто прочтёт суру „аль-Кахф“ в пятницу, для того она озарит светом время между двумя пятницами».",
+      "en": "“Whoever recites Surah al-Kahf on Friday, it will illuminate him with light between the two Fridays.”"
+    },
+    "source": {
+      "ru": "аль-Хаким, 2/368; аль-Байхаки (достоверный по оценке аль-Альбани, Сахих аль-Джами‘, 6470)",
+      "en": "al-Hakim 2/368; al-Bayhaqi (graded sahih by al-Albani, Sahih al-Jami‘ 6470)"
+    },
+    "quranLink": {
+      "s": 18,
+      "a": 1
+    }
+  },
+  {
+    "id": "salawat_friday",
+    "situations": [
+      "friday_eid"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Салават на Пророка ﷺ (особенно в пятницу)",
+      "en": "Salawat upon the Prophet ﷺ (especially on Friday)"
+    },
+    "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    "translit": {
+      "ru": "Аллахумма салли ‘аля Мухаммадин ва ‘аля али Мухаммад, кяма салляйта ‘аля Ибрахима ва ‘аля али Ибрахим, иннака Хамидун Маджид",
+      "en": "Allahumma salli ‘ala Muhammadin wa ‘ala ali Muhammad, kama sallayta ‘ala Ibrahima wa ‘ala ali Ibrahim, innaka Hamidun Majid"
+    },
+    "translation": {
+      "ru": "О Аллах, благослови Мухаммада и семейство Мухаммада, как Ты благословил Ибрахима и семейство Ибрахима. Ты — Достойный хвалы, Славный.",
+      "en": "O Allah, send blessings upon Muhammad and the family of Muhammad as You sent blessings upon Ibrahim and the family of Ibrahim. You are Praiseworthy, Glorious."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3370; о пятнице — Абу Дауд, 1047",
+      "en": "al-Bukhari 3370; on Friday — Abu Dawud 1047"
+    }
+  },
+  {
+    "id": "eid_greeting",
+    "situations": [
+      "friday_eid"
+    ],
+    "grade": "athar",
+    "title": {
+      "ru": "Поздравление с праздником (Ид)",
+      "en": "Eid greeting"
+    },
+    "arabic": "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ",
+    "translit": {
+      "ru": "Такаббаля-Ллаху минна ва минкум",
+      "en": "Taqabbalallahu minna wa minkum"
+    },
+    "translation": {
+      "ru": "Да примет Аллах от нас и от вас.",
+      "en": "May Allah accept from us and from you."
+    },
+    "source": {
+      "ru": "Так поздравляли друг друга сподвижники (Ибн Хаджар, «Фатх аль-Бари»: иснад хороший)",
+      "en": "How the Companions greeted each other (Ibn Hajar, Fath al-Bari: good chain)"
+    }
+  },
+  {
+    "id": "sacrifice",
+    "situations": [
+      "friday_eid"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При жертвоприношении (Курбан)",
+      "en": "When slaughtering the sacrifice (Qurban)"
+    },
+    "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+    "translit": {
+      "ru": "Бисми-Ллахи ва-Ллаху акбар",
+      "en": "Bismillahi wallahu akbar"
+    },
+    "translation": {
+      "ru": "С именем Аллаха, и Аллах велик.",
+      "en": "In the name of Allah, and Allah is the Greatest."
+    },
+    "source": {
+      "ru": "Муслим, 1966",
+      "en": "Muslim 1966"
+    },
+    "note": {
+      "ru": "Так Пророк ﷺ говорил, принося в жертву двух баранов. Можно добавить, за кого жертва: «Аллахумма минка ва ляк» (Абу Дауд, 2795).",
+      "en": "The Prophet ﷺ said this when sacrificing two rams. You may add on whose behalf it is: “Allahumma minka wa lak” (Abu Dawud 2795)."
+    }
+  },
+  {
+    "id": "zakat_recipients",
+    "situations": [
+      "zakat"
+    ],
+    "grade": "quran",
+    "kind": "info",
+    "title": {
+      "ru": "Кому выдаётся закят",
+      "en": "Who may receive zakat"
+    },
+    "quran": [
+      {
+        "s": 9,
+        "a": 60
+      }
+    ],
+    "translation": {
+      "ru": "Милостыня (закят) предназначена для бедных и неимущих, для тех, кто занимается её сбором, для тех, чьи сердца хотят расположить, для освобождения невольников, для должников, для расходов на пути Аллаха и для путников. Таково предписание Аллаха. Аллах — Знающий, Мудрый.",
+      "en": "Zakat is only for the poor and the needy, those employed to collect it, those whose hearts are to be reconciled, freeing captives, those in debt, the cause of Allah, and the stranded traveller — an obligation from Allah. Allah is All-Knowing, All-Wise."
+    },
+    "source": {
+      "ru": "Коран, 9:60",
+      "en": "Quran 9:60"
+    }
+  },
+  {
+    "id": "zakat_purifies",
+    "situations": [
+      "zakat"
+    ],
+    "grade": "quran",
+    "kind": "info",
+    "title": {
+      "ru": "Закят очищает имущество и душу",
+      "en": "Zakat purifies wealth and the soul"
+    },
+    "quran": [
+      {
+        "s": 9,
+        "a": 103
+      }
+    ],
+    "translation": {
+      "ru": "Бери из их имущества милостыню, которой ты очистишь их и облагородишь, и молись за них. Поистине, твоя молитва — успокоение для них. Аллах — Слышащий, Знающий.",
+      "en": "Take from their wealth a charity by which you purify them and cause them to grow, and pray for them. Your prayer is a comfort for them. Allah is All-Hearing, All-Knowing."
+    },
+    "source": {
+      "ru": "Коран, 9:103",
+      "en": "Quran 9:103"
+    },
+    "note": {
+      "ru": "Получив закят, Пророк ﷺ делал дуа за того, кто его принёс (аль-Бухари, 1497).",
+      "en": "On receiving zakat the Prophet ﷺ made dua for the giver (al-Bukhari 1497)."
+    }
+  },
+  {
+    "id": "sadaqah_not_decrease",
+    "situations": [
+      "zakat",
+      "rizq"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Садака не уменьшает имущество",
+      "en": "Charity does not decrease wealth"
+    },
+    "translation": {
+      "ru": "«Милостыня не уменьшает имущество. Аллах лишь прибавляет величия рабу, который прощает, и того, кто проявляет смирение ради Аллаха, Аллах непременно возвысит».",
+      "en": "“Charity does not decrease wealth. Allah only increases in honour a servant who forgives, and whoever humbles himself for Allah, Allah raises him.”"
+    },
+    "source": {
+      "ru": "Муслим, 2588",
+      "en": "Muslim 2588"
+    }
+  },
+  {
+    "id": "market",
+    "situations": [
+      "rizq"
+    ],
+    "grade": "disputed",
+    "title": {
+      "ru": "При входе на рынок",
+      "en": "On entering the market"
+    },
+    "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+    "translit": {
+      "ru": "Ля иляха илля-Ллаху вахдаху ля шарика лях, ляху-ль-мульку ва ляху-ль-хамд, йухйи ва йумит, ва хуа хаййун ля йамут, би-йадихи-ль-хайр, ва хуа ‘аля кулли шай’ин кадир",
+      "en": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, yuhyi wa yumit, wa huwa hayyun la yamut, bi-yadihil-khayr, wa huwa ‘ala kulli shay’in qadir"
+    },
+    "translation": {
+      "ru": "Нет божества, кроме одного лишь Аллаха, у Которого нет сотоварища. Ему принадлежит власть, Ему хвала, Он даёт жизнь и умерщвляет, Он Живой и не умирает. В Его руке благо, и Он над всем властен.",
+      "en": "There is no god but Allah alone, without partner. His is the dominion and His is the praise; He gives life and causes death, and He is Ever-Living and does not die. In His hand is all good, and He has power over all things."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3428 — оценка спорная",
+      "en": "al-Tirmidhi 3428 — grading disputed"
+    },
+    "note": {
+      "ru": "Ат-Тирмизи назвал хадис редким (гариб), аль-Альбани счёл его хасаном, а многие знатоки хадиса (Абу Хатим и др.) — слабым. Само поминание правильное, но обещанную в хадисе огромную награду нельзя утверждать уверенно.",
+      "en": "Al-Tirmidhi called the hadith gharib; al-Albani graded it hasan, while many hadith critics (Abu Hatim and others) graded it weak. The words of remembrance are sound, but the great reward the hadith promises cannot be stated with certainty."
+    }
+  },
+  {
+    "id": "zakat_nisab",
+    "situations": [
+      "zakat"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Нисаб и срок",
+      "en": "Nisab and the year"
+    },
+    "translation": {
+      "ru": "«Нет закята с того, что меньше пяти укий (серебра)». Нисаб серебра — 200 дирхамов (около 595 г), золота — 20 динаров (около 85 г); закят выплачивается, когда над имуществом прошёл год, в размере одной сороковой (2,5%).",
+      "en": "“There is no zakat on less than five awaq (of silver).” The silver nisab is 200 dirhams (about 595 g) and the gold nisab 20 dinars (about 85 g); zakat is paid once a year has passed over the wealth, at one fortieth (2.5%)."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1447; Абу Дауд, 1573",
+      "en": "al-Bukhari 1447; Abu Dawud 1573"
+    }
+  },
+  {
+    "id": "nuh_parents",
+    "situations": [
+      "parents",
+      "deceased",
+      "family"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Нуха за себя, родителей и верующих",
+      "en": "Nuh’s dua for himself, his parents and the believers"
+    },
+    "quran": [
+      {
+        "s": 71,
+        "a": 28,
+        "w": [
+          0,
+          9
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Рабби-гфир ли ва ли-валидаййа ва лиман дахаля байтийа му’минан ва ли-ль-му’минина ва-ль-му’минат",
+      "en": "Rabbi-ghfir li wa li-walidayya wa liman dakhala baytiya mu’minan wa lil-mu’minina wal-mu’minat"
+    },
+    "translation": {
+      "ru": "Господи! Прости меня, моих родителей, тех, кто вошёл в мой дом верующим, а также верующих мужчин и верующих женщин.",
+      "en": "My Lord, forgive me and my parents and whoever enters my house a believer, and the believing men and believing women."
+    },
+    "source": {
+      "ru": "Коран, 71:28",
+      "en": "Quran 71:28"
+    }
+  },
+  {
+    "id": "burial_lowering",
+    "situations": [
+      "deceased",
+      "cemetery"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Опуская умершего в могилу",
+      "en": "When lowering the deceased into the grave"
+    },
+    "arabic": "بِسْمِ اللَّهِ وَعَلَى سُنَّةِ رَسُولِ اللَّهِ",
+    "translit": {
+      "ru": "Бисмилляхи ва ‘аля суннати расули-Ллях",
+      "en": "Bismillahi wa ‘ala sunnati rasulillah"
+    },
+    "translation": {
+      "ru": "С именем Аллаха и согласно Сунне Посланника Аллаха.",
+      "en": "In the name of Allah and according to the Sunnah of the Messenger of Allah."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3213 (достоверный)",
+      "en": "Abu Dawud 3213 (authentic)"
+    }
+  },
+  {
+    "id": "grave_punishment",
+    "situations": [
+      "cemetery",
+      "prayer",
+      "protection"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Защита от наказания в могиле",
+      "en": "Protection from the punishment of the grave"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ، وَمِنْ عَذَابِ الْقَبْرِ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ",
+    "translit": {
+      "ru": "Аллахумма инни а‘узу бика мин ‘азаби джаханнам, ва мин ‘азаби-ль-кабр, ва мин фитнати-ль-махйа ва-ль-мамат, ва мин шарри фитнати-ль-масихи-д-даджжаль",
+      "en": "Allahumma inni a‘udhu bika min ‘adhabi jahannam, wa min ‘adhabil-qabr, wa min fitnatil-mahya wal-mamat, wa min sharri fitnatil-masihid-dajjal"
+    },
+    "translation": {
+      "ru": "О Аллах, я прибегаю к Тебе от мучений ада, от мучений могилы, от испытаний жизни и смерти и от зла испытания лжемессии (Даджаля).",
+      "en": "O Allah, I seek refuge in You from the punishment of Hell, from the punishment of the grave, from the trials of life and death, and from the evil of the trial of the False Messiah."
+    },
+    "source": {
+      "ru": "Муслим, 588",
+      "en": "Muslim 588"
+    },
+    "note": {
+      "ru": "Пророк ﷺ велел читать это в последнем ташаххуде намаза перед саламом. Защищает и сура «аль-Мульк» (см. её карточку).",
+      "en": "The Prophet ﷺ told us to say this in the final tashahhud of the prayer before the salam. Surah al-Mulk also protects (see its card)."
+    }
+  },
+  {
+    "id": "ikhlas_11",
+    "situations": [
+      "cemetery",
+      "customs"
+    ],
+    "grade": "daif",
+    "kind": "info",
+    "title": {
+      "ru": "«Аль-Ихлас 11 раз на кладбище»",
+      "en": "“Al-Ikhlas 11 times at the cemetery”"
+    },
+    "translation": {
+      "ru": "Хадис о награде тому, кто прочитает на кладбище суру «аль-Ихлас» 11 раз и подарит награду умершим, очень слабый или выдуманный. Вопрос о чтении Корана на могиле — предмет разногласия (см. карточку о суре «Йа Син»). Достоверно при посещении могил: приветствие обитателей и дуа за них.",
+      "en": "The hadith about the reward for reciting Surah al-Ikhlas 11 times at a cemetery and gifting the reward to the dead is very weak or fabricated. Reciting Quran at graves is a disputed matter (see the Ya-Sin card). What is authentic when visiting graves is greeting their inhabitants and making dua for them."
+    },
+    "source": {
+      "ru": "Хадис без надёжной цепочки — очень слабый или выдуманный",
+      "en": "Hadith without a reliable chain — very weak or fabricated"
+    },
+    "quranLink": {
+      "s": 112,
+      "a": 1
+    }
+  },
+  {
+    "id": "toilet_enter",
+    "situations": [
+      "toilet"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Перед входом в туалет",
+      "en": "Before entering the toilet"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+    "translit": {
+      "ru": "Аллахумма инни а‘узу бика мина-ль-хубуси ва-ль-хаба’ис",
+      "en": "Allahumma inni a‘udhu bika minal-khubuthi wal-khaba’ith"
+    },
+    "translation": {
+      "ru": "О Аллах, я прибегаю к Тебе от нечисти мужского и женского пола (из числа шайтанов).",
+      "en": "O Allah, I seek refuge in You from the male and female evil ones."
+    },
+    "source": {
+      "ru": "аль-Бухари, 142; Муслим, 375",
+      "en": "al-Bukhari 142; Muslim 375"
+    },
+    "note": {
+      "ru": "Перед этим говорят «Бисмиллях» (ат-Тирмизи, 606, достоверный). Входят с левой ноги, внутри не поминают Аллаха вслух.",
+      "en": "Say “Bismillah” before it (al-Tirmidhi 606, authentic). Enter with the left foot and do not mention Allah aloud inside."
+    }
+  },
+  {
+    "id": "toilet_exit",
+    "situations": [
+      "toilet"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "После выхода из туалета",
+      "en": "After leaving the toilet"
+    },
+    "arabic": "غُفْرَانَكَ",
+    "translit": {
+      "ru": "Гуфранака",
+      "en": "Ghufranaka"
+    },
+    "translation": {
+      "ru": "Прошу Твоего прощения.",
+      "en": "I ask Your forgiveness."
+    },
+    "source": {
+      "ru": "Абу Дауд, 30; ат-Тирмизи, 7 (достоверный)",
+      "en": "Abu Dawud 30; al-Tirmidhi 7 (authentic)"
+    }
+  },
+  {
+    "id": "rain",
+    "situations": [
+      "weather"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Когда идёт дождь",
+      "en": "When it rains"
+    },
+    "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+    "translit": {
+      "ru": "Аллахумма саййибан нафи‘а",
+      "en": "Allahumma sayyiban nafi‘a"
+    },
+    "translation": {
+      "ru": "О Аллах, (пусть это будет) дождь полезный.",
+      "en": "O Allah, (make it) a beneficial rain."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1032",
+      "en": "al-Bukhari 1032"
+    }
+  },
+  {
+    "id": "after_rain",
+    "situations": [
+      "weather",
+      "gratitude"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "После дождя",
+      "en": "After rain"
+    },
+    "arabic": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+    "translit": {
+      "ru": "Мутырна би-фадли-Ллахи ва рахматих",
+      "en": "Mutirna bi-fadlillahi wa rahmatih"
+    },
+    "translation": {
+      "ru": "Нам ниспослан дождь по милости Аллаха и Его щедрости.",
+      "en": "We have been given rain by the grace and mercy of Allah."
+    },
+    "source": {
+      "ru": "аль-Бухари, 846; Муслим, 71",
+      "en": "al-Bukhari 846; Muslim 71"
+    }
+  },
+  {
+    "id": "wind",
+    "situations": [
+      "weather",
+      "protection"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При сильном ветре",
+      "en": "When the wind blows strongly"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَخَيْرَ مَا فِيهَا، وَخَيْرَ مَا أُرْسِلَتْ بِهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ مَا فِيهَا، وَشَرِّ مَا أُرْسِلَتْ بِهِ",
+    "translit": {
+      "ru": "Аллахумма инни ас’алюка хайраха, ва хайра ма фиха, ва хайра ма урсилят бих, ва а‘узу бика мин шарриха, ва шарри ма фиха, ва шарри ма урсилят бих",
+      "en": "Allahumma inni as’aluka khayraha, wa khayra ma fiha, wa khayra ma ursilat bih, wa a‘udhu bika min sharriha, wa sharri ma fiha, wa sharri ma ursilat bih"
+    },
+    "translation": {
+      "ru": "О Аллах, я прошу Тебя о благе этого ветра, благе того, что в нём, и благе того, с чем он послан, и прибегаю к Тебе от его зла, зла того, что в нём, и зла того, с чем он послан.",
+      "en": "O Allah, I ask You for its good, the good within it and the good it was sent with, and I seek refuge in You from its evil, the evil within it and the evil it was sent with."
+    },
+    "source": {
+      "ru": "Муслим, 899",
+      "en": "Muslim 899"
+    }
+  },
+  {
+    "id": "thunder",
+    "situations": [
+      "weather"
+    ],
+    "grade": "athar",
+    "title": {
+      "ru": "Услышав гром",
+      "en": "On hearing thunder"
+    },
+    "arabic": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ",
+    "translit": {
+      "ru": "Субхана-ллязи йусаббиху-р-ра‘ду би-хамдихи ва-ль-маля’икату мин хифатих",
+      "en": "Subhanal-ladhi yusabbihur-ra‘du bi-hamdihi wal-mala’ikatu min khifatih"
+    },
+    "translation": {
+      "ru": "Пречист Тот, Кого славит хвалой гром, а также ангелы из страха перед Ним.",
+      "en": "Glory be to the One whom the thunder glorifies with His praise, and the angels out of awe of Him."
+    },
+    "source": {
+      "ru": "аль-Бухари, «аль-Адаб аль-муфрад», 723; Малик, «аль-Муватта» — слова Абдуллаха ибн аз-Зубайра",
+      "en": "al-Bukhari, al-Adab al-Mufrad 723; Malik, al-Muwatta — words of ‘Abdullah ibn al-Zubayr"
+    },
+    "note": {
+      "ru": "Это слова сподвижника, а не хадис Пророка ﷺ; фраза взята из Корана (13:13).",
+      "en": "These are a Companion’s words, not a hadith of the Prophet ﷺ; the phrase is taken from the Quran (13:13)."
+    },
+    "quranLink": {
+      "s": 13,
+      "a": 13
+    }
+  },
+  {
+    "id": "ruqyah_jibril",
+    "situations": [
+      "evil_eye",
+      "illness"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Рукья Джибриля (от сглаза и болезни)",
+      "en": "Jibril’s ruqyah (for the evil eye and illness)"
+    },
+    "arabic": "بِاسْمِ اللَّهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنِ حَاسِدٍ، اللَّهُ يَشْفِيكَ، بِاسْمِ اللَّهِ أَرْقِيكَ",
+    "translit": {
+      "ru": "Бисми-Лляхи аркыйк, мин кулли шай’ин йу’зик, мин шарри кулли нафсин ау ‘айни хасид, Аллаху йашфик, бисми-Лляхи аркыйк",
+      "en": "Bismillahi arqik, min kulli shay’in yu’dhik, min sharri kulli nafsin aw ‘ayni hasid, Allahu yashfik, bismillahi arqik"
+    },
+    "translation": {
+      "ru": "С именем Аллаха я читаю над тобой рукью от всего, что вредит тебе, от зла всякой души или завистливого глаза. Аллах исцелит тебя. С именем Аллаха я читаю над тобой рукью.",
+      "en": "In the name of Allah I perform ruqyah for you, from everything that harms you, from the evil of every soul or envious eye. May Allah heal you. In the name of Allah I perform ruqyah for you."
+    },
+    "source": {
+      "ru": "Муслим, 2186",
+      "en": "Muslim 2186"
+    },
+    "note": {
+      "ru": "Так ангел Джибриль читал над Пророком ﷺ, когда тот болел. Читают над больным, можно положив руку ему на голову.",
+      "en": "The angel Jibril recited this over the Prophet ﷺ when he was ill. It is recited over the sick person, a hand may be placed on their head."
+    }
+  },
+  {
+    "id": "seeing_afflicted",
+    "situations": [
+      "illness",
+      "gratitude"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "Увидев человека в беде или болезни",
+      "en": "On seeing someone afflicted"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي مِمَّا ابْتَلَاكَ بِهِ، وَفَضَّلَنِي عَلَى كَثِيرٍ مِمَّنْ خَلَقَ تَفْضِيلًا",
+    "translit": {
+      "ru": "Аль-хамду ли-Лляхи-ллязи ‘афани мимма-бталяка бих, ва фаддалани ‘аля касирин мимман халяка тафдыля",
+      "en": "Al-hamdu lillahil-ladhi ‘afani mimmab-talaka bih, wa faddalani ‘ala kathirin mimman khalaqa tafdila"
+    },
+    "translation": {
+      "ru": "Хвала Аллаху, Который избавил меня от того, чем испытал тебя, и дал мне преимущество над многими из тех, кого сотворил.",
+      "en": "Praise be to Allah who spared me from what He has tested you with and favoured me over much of what He created."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3432 (хасан)",
+      "en": "al-Tirmidhi 3432 (hasan)"
+    },
+    "note": {
+      "ru": "Говорят про себя, тихо, чтобы не задеть человека.",
+      "en": "Say it quietly to yourself so as not to hurt the person."
+    }
+  },
+  {
+    "id": "seeing_pleasing",
+    "situations": [
+      "evil_eye",
+      "gratitude"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Увидел то, что понравилось: чтобы не сглазить",
+      "en": "Admiring something without giving the evil eye"
+    },
+    "translation": {
+      "ru": "«Когда кто-то из вас увидит у себя, в своём имуществе или у брата то, что ему понравилось, пусть попросит для этого благословения (бараката), ведь сглаз — истина». Например: «Барака-Ллаху фих» (да благословит Аллах это) или «Аллахумма барик ‘аляйх».",
+      "en": "“When one of you sees in himself, his wealth or his brother something that pleases him, let him pray for blessing on it, for the evil eye is real.” For example: “Barakallahu fih” (may Allah bless it) or “Allahumma barik ‘alayh”."
+    },
+    "source": {
+      "ru": "Ибн Маджа, 3509 (достоверный по оценке аль-Альбани)",
+      "en": "Ibn Majah 3509 (authentic per al-Albani)"
+    }
+  },
+  {
+    "id": "mashallah",
+    "situations": [
+      "evil_eye",
+      "gratitude",
+      "home"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "«Машааллах, ля куввата илля билль»",
+      "en": "“Masha’Allah, la quwwata illa billah”"
+    },
+    "quran": [
+      {
+        "s": 18,
+        "a": 39,
+        "w": [
+          5,
+          11
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Ма ша’а-Ллаху ля куввата илля би-Ллях",
+      "en": "Ma sha’ Allahu la quwwata illa billah"
+    },
+    "translation": {
+      "ru": "Так пожелал Аллах! Нет силы ни у кого, кроме как у Аллаха.",
+      "en": "What Allah willed (has come about); there is no power except through Allah."
+    },
+    "source": {
+      "ru": "Коран, 18:39",
+      "en": "Quran 18:39"
+    },
+    "note": {
+      "ru": "В аяте так должен был сказать хозяин сада, войдя в него. Учёные (Ибн Касир и др.) советуют говорить это, увидев что-то хорошее у себя; прямой связи со сглазом в аяте нет.",
+      "en": "In the verse, this is what the garden’s owner should have said on entering it. Scholars (Ibn Kathir and others) advise saying it when you see something good of your own; the verse does not mention the evil eye directly."
+    }
+  },
+  {
+    "id": "sneezing",
+    "situations": [
+      "gratitude",
+      "home"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "При чихании",
+      "en": "When sneezing"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ — يَرْحَمُكَ اللَّهُ — يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+    "translit": {
+      "ru": "Аль-хамду ли-Ллях — Йархамука-Ллах — Йахдикуму-Ллаху ва йуслиху балякум",
+      "en": "Al-hamdu lillah — Yarhamuka-llah — Yahdikumullahu wa yuslihu balakum"
+    },
+    "translation": {
+      "ru": "Чихнувший говорит: «Хвала Аллаху». Услышавший отвечает: «Да помилует тебя Аллах». Чихнувший говорит: «Да наставит вас Аллах и да исправит ваше положение».",
+      "en": "The one who sneezes says: “Praise be to Allah.” The listener replies: “May Allah have mercy on you.” The sneezer then says: “May Allah guide you and set your affairs right.”"
+    },
+    "source": {
+      "ru": "аль-Бухари, 6224",
+      "en": "al-Bukhari 6224"
+    }
+  },
+  {
+    "id": "baqarah_house",
+    "situations": [
+      "home",
+      "protection",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Сура «аль-Бакара» в доме",
+      "en": "Surah al-Baqarah in the home"
+    },
+    "translation": {
+      "ru": "«Не превращайте свои дома в кладбища: поистине, шайтан убегает из дома, в котором читают суру „аль-Бакара“».",
+      "en": "“Do not turn your houses into graveyards: Satan flees from the house in which Surah al-Baqarah is recited.”"
+    },
+    "source": {
+      "ru": "Муслим, 780",
+      "en": "Muslim 780"
+    },
+    "quranLink": {
+      "s": 2,
+      "a": 1
+    }
+  },
+  {
+    "id": "amulets",
+    "situations": [
+      "customs",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Красная нить, тумар, «глазок» от сглаза",
+      "en": "Red thread, amulets and “eye” charms"
+    },
+    "translation": {
+      "ru": "Пророк ﷺ сказал: «Кто повесил амулет, тот совершил ширк» (Ахмад, 17422) и «Заклинания, амулеты и привороты — ширк» (Абу Дауд, 3883). Красная нить, «глазок», подкова и подобное защитой не являются. Защита — это дуа, аят аль-Курси, суры «аль-Ихляс», «аль-Фаляк», «ан-Нас» и рукья из Корана и Сунны. Учёные расходятся лишь о подвешивании листков с аятами Корана: многие запрещают и это.",
+      "en": "The Prophet ﷺ said: “Whoever hangs an amulet has committed shirk” (Ahmad 17422) and “Spells, amulets and love charms are shirk” (Abu Dawud 3883). A red thread, an “eye” charm, a horseshoe and the like are not protection. Protection is dua, Ayat al-Kursi, the surahs al-Ikhlas, al-Falaq and al-Nas, and ruqyah from the Quran and Sunnah. Scholars differ only on hanging papers with Quranic verses, and many forbid that too."
+    },
+    "source": {
+      "ru": "Ахмад, 17422; Абу Дауд, 3883 (достоверный по оценке аль-Альбани)",
+      "en": "Ahmad 17422; Abu Dawud 3883 (authentic per al-Albani)"
+    }
+  },
+  {
+    "id": "ruqyah_water",
+    "situations": [
+      "evil_eye",
+      "illness",
+      "customs"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Рукья на воду и «заряженная» вода",
+      "en": "Ruqyah over water and “charged” water"
+    },
+    "translation": {
+      "ru": "Часть учёных разрешает читать рукью (суры «аль-Фатиха», «аль-Ихляс», «аль-Фаляк», «ан-Нас», аят аль-Курси и дуа из Сунны) с дуновением в воду, которую затем пьёт или которой омывается больной; они опираются на сообщение у Абу Дауда (3885) и практику некоторых праведных предшественников. Оценка этого сообщения спорная, и другие учёные считают, что рукья читается над самим больным. Нельзя обращаться к тем, кто «заряжает» воду за деньги, произносит непонятные слова, проводит обряды или «выясняет, кто навёл порчу».",
+      "en": "Some scholars allow reciting ruqyah (al-Fatihah, al-Ikhlas, al-Falaq, al-Nas, Ayat al-Kursi and duas from the Sunnah) and blowing into water that the sick person then drinks or washes with; they rely on a report in Abu Dawud (3885) and the practice of some early righteous Muslims. The grading of that report is disputed, and other scholars hold that ruqyah is recited over the sick person themself. Do not go to people who “charge” water for money, use unintelligible words, perform rituals or “find out who cast the spell”."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3885 — оценка спорная",
+      "en": "Abu Dawud 3885 — grading disputed"
+    }
+  },
+  {
+    "id": "fatiha_ruqyah",
+    "situations": [
+      "illness",
+      "evil_eye"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Сура «аль-Фатиха» как рукья",
+      "en": "Al-Fatihah as ruqyah"
+    },
+    "translation": {
+      "ru": "Сподвижник прочитал «аль-Фатиху» над вождём племени, которого ужалил скорпион, и тот поправился. Пророк ﷺ одобрил это и спросил: «А откуда ты узнал, что она — рукья?» Поэтому «аль-Фатиху» читают над больным вместе с другими дуа из Сунны.",
+      "en": "A Companion recited al-Fatihah over a tribal chief who had been stung by a scorpion, and he recovered. The Prophet ﷺ approved and asked: “How did you know it is a ruqyah?” So al-Fatihah is recited over the sick together with other duas from the Sunnah."
+    },
+    "source": {
+      "ru": "аль-Бухари, 5736; Муслим, 2201",
+      "en": "al-Bukhari 5736; Muslim 2201"
+    },
+    "quranLink": {
+      "s": 1,
+      "a": 1
+    }
+  },
+  {
+    "id": "memorial_customs",
+    "situations": [
+      "customs",
+      "deceased"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "«7 шелпек», поминки на 3-й, 7-й, 40-й день и годовщину",
+      "en": "Memorial meals on the 3rd, 7th and 40th day and the anniversary"
+    },
+    "translation": {
+      "ru": "Достоверно установлено, что садака за умершего доходит до него (Муслим, 1631): накормить людей ради Аллаха и сделать за умершего дуа можно в любой день. А вот числа «7 лепёшек», выпечка по четвергам и пятницам, обязательные поминки на 3-й, 7-й, 40-й день и в годовщину, «дуа в день рождения умершего» не имеют основы ни в Коране, ни в Сунне. Многие учёные называют закрепление таких дат нововведением; часть учёных допускает угощение как садаку, если его не считают обязательным и не тратят наследство сирот. Сунна при смерти — чтобы соседи накормили семью умершего, а не наоборот (Абу Дауд, 3132).",
+      "en": "It is authentic that charity on behalf of the deceased reaches them (Muslim 1631): feeding people for Allah’s sake and making dua for the deceased can be done on any day. But fixed numbers of flatbreads, baking on Thursdays and Fridays, obligatory memorial meals on the 3rd, 7th and 40th day or the anniversary, and a “dua on the deceased’s birthday” have no basis in the Quran or Sunnah. Many scholars call fixing such dates an innovation; some allow the meal as charity if it is not treated as obligatory and orphans’ inheritance is not spent on it. The Sunnah at a death is for neighbours to feed the bereaved family, not the reverse (Abu Dawud 3132)."
+    },
+    "source": {
+      "ru": "Специального текста нет; о садаке за умершего — Муслим, 1631; о еде для семьи умершего — Абу Дауд, 3132",
+      "en": "No specific text; on charity for the deceased — Muslim 1631; on food for the bereaved — Abu Dawud 3132"
+    }
+  },
+  {
+    "id": "oppressed_dua_answered",
+    "situations": [
+      "oppression"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Дуа обиженного принимается",
+      "en": "The dua of the wronged is answered"
+    },
+    "translation": {
+      "ru": "«Остерегайся мольбы притеснённого, ведь между ней и Аллахом нет преграды». Если вас обидели, просите Аллаха о справедливости и помощи. При этом не проклинайте без меры и не переходите границ: «Не проклинайте себя, своих детей и своё имущество» (Муслим, 3009).",
+      "en": "“Beware the supplication of the oppressed, for there is no barrier between it and Allah.” If you were wronged, ask Allah for justice and help, but do not curse beyond measure: “Do not curse yourselves, your children or your wealth” (Muslim 3009)."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1496; Муслим, 3009",
+      "en": "al-Bukhari 1496; Muslim 3009"
+    }
+  },
+  {
+    "id": "musa_people_oppressors",
+    "situations": [
+      "oppression",
+      "protection"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Спасение от несправедливых людей",
+      "en": "Deliverance from wrongdoing people"
+    },
+    "quran": [
+      {
+        "s": 10,
+        "a": 85,
+        "w": [
+          4,
+          9
+        ]
+      },
+      {
+        "s": 10,
+        "a": 86
+      }
+    ],
+    "translit": {
+      "ru": "Раббана ля тадж‘альна фитнатан ли-ль-кауми-з-залимин, ва наджжина би-рахматика мина-ль-кауми-ль-кафирин",
+      "en": "Rabbana la taj‘alna fitnatan lil-qawmiz-zalimin, wa najjina bi-rahmatika minal-qawmil-kafirin"
+    },
+    "translation": {
+      "ru": "Господь наш! Не подвергай нас искушению несправедливыми людьми. Спаси нас по Своей милости от людей неверующих.",
+      "en": "Our Lord, do not make us a trial for the wrongdoing people, and save us by Your mercy from the disbelieving people."
+    },
+    "source": {
+      "ru": "Коран, 10:85–86",
+      "en": "Quran 10:85–86"
+    }
+  },
+  {
+    "id": "mustadafin",
+    "situations": [
+      "oppression"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Мольба угнетённых",
+      "en": "The plea of the oppressed"
+    },
+    "quran": [
+      {
+        "s": 4,
+        "a": 75,
+        "w": [
+          14,
+          30
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Раббана ахриджна мин хазихи-ль-карйати-з-залими ахлюха ва-дж‘аль ляна мин ладунка валийан ва-дж‘аль ляна мин ладунка насыра",
+      "en": "Rabbana akhrijna min hadhihil-qaryatiz-zalimi ahluha waj‘al lana min ladunka waliyyan waj‘al lana min ladunka nasira"
+    },
+    "translation": {
+      "ru": "Господь наш! Выведи нас из этого селения, жители которого несправедливы, назначь нам от Себя покровителя и назначь нам от Себя помощника.",
+      "en": "Our Lord, take us out of this town whose people are oppressors, and appoint for us from Yourself a protector and appoint for us from Yourself a helper."
+    },
+    "source": {
+      "ru": "Коран, 4:75",
+      "en": "Quran 4:75"
+    },
+    "note": {
+      "ru": "Так в аяте взывают слабые и угнетённые мужчины, женщины и дети. Это дуа можно читать за угнетённых мусульман в Палестине и других местах.",
+      "en": "In the verse these are the words of oppressed men, women and children. It can be recited for oppressed Muslims in Palestine and elsewhere."
+    }
+  },
+  {
+    "id": "qunut_nazila",
+    "situations": [
+      "oppression",
+      "prayer"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Кунут во время бедствий",
+      "en": "Qunut in times of calamity"
+    },
+    "translation": {
+      "ru": "Когда мусульман постигала беда, Пророк ﷺ месяц читал в намазе после поясного поклона дуа: «О Аллах, спаси слабых из числа верующих!» Учёные выводят отсюда кунут при бедствиях (кунут ан-назиля) за угнетённых мусульман, в том числе в Палестине. Порядок его чтения различается по мазхабам: следуйте имаму своей мечети.",
+      "en": "When Muslims were struck by calamity, the Prophet ﷺ supplicated for a month in prayer after the bowing: “O Allah, save the weak among the believers!” Scholars derive from this the qunut of calamity (qunut al-nazilah) for oppressed Muslims, including in Palestine. How it is performed differs between the schools, so follow the imam of your mosque."
+    },
+    "source": {
+      "ru": "аль-Бухари, 4560",
+      "en": "al-Bukhari 4560"
+    }
+  },
+  {
+    "id": "tahnik_naming",
+    "situations": [
+      "newborn",
+      "children"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Тахник и имя новорождённому",
+      "en": "Tahnik and naming the newborn"
+    },
+    "translation": {
+      "ru": "Когда у Абу Мусы родился сын, Пророк ﷺ дал ему имя Ибрахим, разжевал финик и помазал им нёбо ребёнка (тахник) и сделал дуа о баракате для него. Имя можно дать в первый день или на седьмой.",
+      "en": "When a son was born to Abu Musa, the Prophet ﷺ named him Ibrahim, chewed a date and rubbed the baby’s palate with it (tahnik), and prayed for blessing for him. The name may be given on the first day or the seventh."
+    },
+    "source": {
+      "ru": "аль-Бухари, 5467; Муслим, 2145",
+      "en": "al-Bukhari 5467; Muslim 2145"
+    }
+  },
+  {
+    "id": "aqiqah",
+    "situations": [
+      "newborn",
+      "children"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Акыка",
+      "en": "Aqiqah"
+    },
+    "translation": {
+      "ru": "«Каждый ребёнок в залоге у своей акыки: за него режут жертву на седьмой день, бреют ему голову и дают имя» (Абу Дауд, 2838). «С мальчиком — акыка, так пролейте за него кровь (жертвы) и удалите с него вред» (аль-Бухари, 5472). Большинство учёных считает акыку желательной Сунной, а не обязанностью.",
+      "en": "“Every child is held in pledge for its aqiqah: an animal is slaughtered for it on the seventh day, its head is shaved and it is named” (Abu Dawud 2838). “With a boy there is aqiqah, so shed blood for him and remove harm from him” (al-Bukhari 5472). Most scholars consider aqiqah a recommended Sunnah, not an obligation."
+    },
+    "source": {
+      "ru": "Абу Дауд, 2838 (достоверный); аль-Бухари, 5472",
+      "en": "Abu Dawud 2838 (authentic); al-Bukhari 5472"
+    }
+  },
+  {
+    "id": "adhan_newborn",
+    "situations": [
+      "newborn",
+      "customs"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Азан в ухо новорождённому",
+      "en": "Adhan in the newborn’s ear"
+    },
+    "translation": {
+      "ru": "Хадис о том, что Пророк ﷺ произнёс азан в ухо аль-Хасана при его рождении, передают Абу Дауд (5105) и ат-Тирмизи (1514, назвал его достоверным). Многие знатоки хадиса, в том числе аль-Альбани в поздней оценке, сочли его слабым. Поэтому учёные расходятся: одни считают азан желательным, другие — не установленным. Икамат в левое ухо основан на ещё более слабых хадисах.",
+      "en": "The hadith that the Prophet ﷺ gave the adhan in al-Hasan’s ear at his birth is narrated by Abu Dawud (5105) and al-Tirmidhi (1514, who graded it authentic). Many hadith scholars, including al-Albani in his later assessment, graded it weak. So scholars differ: some consider the adhan recommended, others not established. The iqamah in the left ear rests on even weaker hadiths."
+    },
+    "source": {
+      "ru": "Абу Дауд, 5105; ат-Тирмизи, 1514 — оценка спорная",
+      "en": "Abu Dawud 5105; al-Tirmidhi 1514 — grading disputed"
+    }
+  },
+  {
+    "id": "talaq_way_out",
+    "situations": [
+      "hardship",
+      "debts",
+      "rizq"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "«Кто боится Аллаха, тому Он даст выход»",
+      "en": "“Whoever is mindful of Allah, He will make a way out for him”"
+    },
+    "quran": [
+      {
+        "s": 65,
+        "a": 2,
+        "w": [
+          24,
+          29
+        ]
+      },
+      {
+        "s": 65,
+        "a": 3,
+        "w": [
+          0,
+          10
+        ]
+      }
+    ],
+    "translit": {
+      "ru": "Ва ман йаттакы-Ллаха йадж‘ал ляху махраджа, ва йарзукху мин хайсу ля йахтасиб, ва ман йатаваккаль ‘аля-Ллахи фа-хуа хасбух",
+      "en": "Wa man yattaqillaha yaj‘al lahu makhraja, wa yarzuqhu min haythu la yahtasib, wa man yatawakkal ‘alallahi fa-huwa hasbuh"
+    },
+    "translation": {
+      "ru": "Тому, кто боится Аллаха, Он создаёт выход и дарует ему удел оттуда, откуда он не предполагает. Тому, кто уповает на Аллаха, достаточно Его.",
+      "en": "Whoever is mindful of Allah, He will make a way out for him and provide for him from where he does not expect. Whoever puts his trust in Allah, He is sufficient for him."
+    },
+    "source": {
+      "ru": "Коран, 65:2–3",
+      "en": "Quran 65:2–3"
+    },
+    "note": {
+      "ru": "Это обещание Аллаха тем, кто боится Его и уповает на Него, а не заклинание: в Сунне нет указания читать этот аят определённое число раз «от долгов» или «для удачи».",
+      "en": "This is Allah’s promise to those who fear Him and trust in Him, not a spell: the Sunnah gives no instruction to recite it a set number of times “for debts” or “for luck”."
+    }
+  },
+  {
+    "id": "waqiah_poverty",
+    "situations": [
+      "rizq",
+      "debts"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Сура «аль-Ваки‘а» каждую ночь «от бедности»",
+      "en": "Surah al-Waqi‘ah every night “against poverty”"
+    },
+    "translation": {
+      "ru": "Хадис «Кто читает суру „аль-Ваки‘а“ каждую ночь, того никогда не постигнет бедность» большинство знатоков хадиса (имам Ахмад, Абу Хатим, ад-Даракутни, аль-Альбани) сочли слабым, часть ханафитских мухаддисов принимает его для достоинств деяний. Читать эту суру — благое дело, как и любое чтение Корана, но обещание богатства за неё не установлено.",
+      "en": "The hadith “Whoever recites Surah al-Waqi‘ah every night will never be struck by poverty” was graded weak by most hadith scholars (Imam Ahmad, Abu Hatim, al-Daraqutni, al-Albani), while some Hanafi hadith scholars accept it for the virtues of deeds. Reciting this surah is good, like any Quran recitation, but a promise of wealth for it is not established."
+    },
+    "source": {
+      "ru": "аль-Байхаки, «Шу‘аб аль-иман» — оценка спорная, большинство: слабый",
+      "en": "al-Bayhaqi, Shu‘ab al-Iman — grading disputed, most: weak"
+    },
+    "quranLink": {
+      "s": 56,
+      "a": 1
+    }
+  },
+  {
+    "id": "muadh_debt",
+    "situations": [
+      "debts"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Аят 3:26 «от долгов» (дуа, которому учили Му‘аза)",
+      "en": "Verse 3:26 “for debts” (the dua taught to Mu‘adh)"
+    },
+    "translation": {
+      "ru": "Передают, что Пророк ﷺ научил Му‘аза ибн Джабаля читать аят «Скажи: „О Аллах, Властелин царства!..“» (3:26) и дуа «Милостивый в этом мире и в Последней жизни… помилуй меня милостью, которая избавит меня от милости кого-то, кроме Тебя», сказав: «Если бы на тебе был долг величиной с гору, Аллах выплатил бы его за тебя». Аль-Альбани счёл этот хадис хорошим (хасан), другие знатоки хадиса — слабым из-за цепочки. Поэтому читать аят и это дуа можно, но обещание «долг уйдёт» нельзя утверждать уверенно. Достоверные дуа о долгах — выше в этом разделе.",
+      "en": "It is narrated that the Prophet ﷺ taught Mu‘adh ibn Jabal to recite “Say: O Allah, Owner of sovereignty…” (3:26) and the dua “Most Merciful of this world and the Hereafter… have mercy on me with a mercy that frees me from the mercy of anyone besides You”, saying: “Even if you had a debt the size of a mountain, Allah would pay it off for you.” Al-Albani graded it good (hasan); other hadith scholars graded it weak for its chain. So you may recite the verse and dua, but the promise that “the debt will go” cannot be stated with certainty. The authentic duas for debt are above in this section."
+    },
+    "source": {
+      "ru": "ат-Табарани, «аль-Му‘джам ас-сагир» — оценка спорная",
+      "en": "al-Tabarani, al-Mu‘jam al-Saghir — grading disputed"
+    },
+    "quranLink": {
+      "s": 3,
+      "a": 26
+    }
+  },
+  {
+    "id": "yusr",
+    "situations": [
+      "hardship",
+      "anxiety"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "«С тягостью приходит облегчение»",
+      "en": "“With hardship comes ease”"
+    },
+    "quran": [
+      {
+        "s": 94,
+        "a": 5
+      },
+      {
+        "s": 94,
+        "a": 6
+      }
+    ],
+    "translit": {
+      "ru": "Фа-инна ма‘а-ль-‘усри йусра. Инна ма‘а-ль-‘усри йусра",
+      "en": "Fa-inna ma‘al-‘usri yusra. Inna ma‘al-‘usri yusra"
+    },
+    "translation": {
+      "ru": "Воистину, за каждой тягостью наступает облегчение. Воистину, за каждой тягостью наступает облегчение.",
+      "en": "So surely with hardship comes ease. Surely with hardship comes ease."
+    },
+    "source": {
+      "ru": "Коран, 94:5–6",
+      "en": "Quran 94:5–6"
+    }
+  },
+  {
+    "id": "internet_claims",
+    "situations": [
+      "hardship",
+      "debts",
+      "rizq",
+      "customs",
+      "wish"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Прочитай 100 раз — и долг уйдёт»: что не имеет основы",
+      "en": "“Recite it 100 times and the debt is gone”: what has no basis"
+    },
+    "translation": {
+      "ru": "В интернете много списков «аятов от долгов», «для удачи», «чтобы открылась дорога» с точным числом повторов и гарантией результата. У большинства таких советов нет источника в Коране и достоверной Сунне: число повторов и награду можно называть, только если они есть в хадисе. Читать Коран и делать дуа своими словами можно всегда, но обещать «гарантированный» результат никто не вправе. В этом приложении у каждого материала указан источник и степень достоверности.",
+      "en": "The internet is full of lists of “verses for debt”, “for luck” or “to open your path” with an exact number of repetitions and a guaranteed result. Most of this advice has no source in the Quran or authentic Sunnah: a number of repetitions or a reward can only be stated when a hadith gives it. You can always recite the Quran and make dua in your own words, but no one may promise a “guaranteed” result. In this app every item shows its source and grading."
+    },
+    "source": {
+      "ru": "Прямого текста нет; принцип — указывать число повторов и награду только по источнику",
+      "en": "No specific text; principle — state repetitions and rewards only from a source"
+    }
+  },
+  {
+    "id": "yasin_saffat_money",
+    "situations": [
+      "debts",
+      "rizq"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Ясин и ас-Саффат от финансовых трудностей»",
+      "en": "“Ya-Sin and al-Saffat for financial hardship”"
+    },
+    "translation": {
+      "ru": "На вопрос об этом муфтий ответил, что читать можно, но хадиса, обещающего богатство за эти суры, нет. То же относится к советам «читать 2:280, чтобы вернули долг»: этот аят призывает давать отсрочку должнику, а не служит заклинанием. Достоверные дуа о долгах — в разделе «Долги».",
+      "en": "Asked about this, a mufti answered that one may recite them, but there is no hadith promising wealth for these surahs. The same applies to advice to “read 2:280 so the debt is repaid”: the verse calls for giving a debtor respite, it is not a spell. Authentic duas for debt are in the “Debts” section."
+    },
+    "source": {
+      "ru": "Без источника в Коране и Сунне",
+      "en": "No source in the Quran or Sunnah"
+    },
+    "quranLink": {
+      "s": 2,
+      "a": 280
+    }
+  },
+  {
+    "id": "talbiyah",
+    "situations": [
+      "hajj"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Тальбия",
+      "en": "Talbiyah"
+    },
+    "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+    "translit": {
+      "ru": "Ляббайка-Ллахумма ляббайк, ляббайка ля шарика ляка ляббайк, инна-ль-хамда ва-н-ни‘мата ляка ва-ль-мульк, ля шарика лях",
+      "en": "Labbayka-llahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni‘mata laka wal-mulk, la sharika lak"
+    },
+    "translation": {
+      "ru": "Вот я перед Тобой, о Аллах, вот я перед Тобой! Вот я перед Тобой, нет у Тебя сотоварища, вот я перед Тобой! Поистине, хвала, милость и власть принадлежат Тебе, нет у Тебя сотоварища.",
+      "en": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise, grace and dominion are Yours; You have no partner."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1549; Муслим, 1184",
+      "en": "al-Bukhari 1549; Muslim 1184"
+    },
+    "note": {
+      "ru": "Произносится после вхождения в ихрам и до начала бросания камней в день жертвоприношения (в хадже) или до начала тавафа (в умре).",
+      "en": "Said after entering ihram until the stoning on the day of sacrifice (in Hajj) or until starting tawaf (in Umrah)."
+    }
+  },
+  {
+    "id": "arafah",
+    "situations": [
+      "hajj",
+      "friday_eid"
+    ],
+    "grade": "hasan",
+    "title": {
+      "ru": "Лучшее дуа — в день Арафа",
+      "en": "The best dua — on the Day of Arafah"
+    },
+    "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+    "translit": {
+      "ru": "Ля иляха илля-Ллаху вахдаху ля шарика лях, ляху-ль-мульку ва ляху-ль-хамд, ва хуа ‘аля кулли шай’ин кадир",
+      "en": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ‘ala kulli shay’in qadir"
+    },
+    "translation": {
+      "ru": "Нет божества, кроме одного лишь Аллаха, у Которого нет сотоварища. Ему принадлежит власть, Ему хвала, и Он над всем властен.",
+      "en": "There is no god but Allah alone, without partner. His is the dominion and His is the praise, and He has power over all things."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 3585 (хасан)",
+      "en": "al-Tirmidhi 3585 (hasan)"
+    },
+    "note": {
+      "ru": "«Лучшее дуа — дуа в день Арафа, и лучшее, что говорил я и пророки до меня…» Подходит и тем, кто не в хадже: день Арафа — 9 зуль-хиджа.",
+      "en": "“The best dua is the dua on the Day of Arafah, and the best thing that I and the prophets before me have said…” It also suits those not on Hajj: the Day of Arafah is 9 Dhul-Hijjah."
+    }
+  },
+  {
+    "id": "zamzam",
+    "situations": [
+      "hajj"
+    ],
+    "grade": "disputed",
+    "kind": "info",
+    "title": {
+      "ru": "Вода Зам-зам",
+      "en": "Zamzam water"
+    },
+    "translation": {
+      "ru": "«Вода Зам-зам — для того, ради чего её пьют». Аль-Альбани и ряд учёных сочли хадис достоверным, другие знатоки хадиса — слабым. Многие учёные советуют, выпивая Зам-зам, просить Аллаха о благе этого мира и вечной жизни. Достоверно, что Зам-зам — благословенная вода (Муслим, 2473).",
+      "en": "“Zamzam water is for whatever it is drunk for.” Al-Albani and some scholars graded the hadith authentic, other hadith scholars graded it weak. Many scholars advise asking Allah for the good of this world and the Hereafter when drinking Zamzam. It is authentic that Zamzam is blessed water (Muslim 2473)."
+    },
+    "source": {
+      "ru": "Ибн Маджа, 3062 — оценка спорная; Муслим, 2473",
+      "en": "Ibn Majah 3062 — grading disputed; Muslim 2473"
+    }
+  },
+  {
+    "id": "dua_times",
+    "situations": [
+      "wish",
+      "prayer",
+      "hardship"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Когда дуа принимается",
+      "en": "When dua is answered"
+    },
+    "translation": {
+      "ru": "Достоверно названы времена, когда дуа особенно надеются на ответ: последняя треть ночи (аль-Бухари, 1145), особый час в пятницу (аль-Бухари, 935), между азаном и икаматом (Абу Дауд, 521), в земном поклоне (Муслим, 482). Дуа Юнуса «Ля иляха илля Анта, субханака инни кунту мина-з-залимин»: «Не попросит им мусульманин ни о чём, без того чтобы Аллах не ответил ему» (ат-Тирмизи, 3505). И не торопите ответ: «Отвечается каждому из вас, пока он не поспешит и не скажет: „Я молился, а мне не ответили“» (Муслим, 2735).",
+      "en": "Authentic texts name times when dua is especially hoped to be answered: the last third of the night (al-Bukhari 1145), a special hour on Friday (al-Bukhari 935), between the adhan and the iqamah (Abu Dawud 521), and in prostration (Muslim 482). Of Yunus’s dua “La ilaha illa Anta, subhanaka inni kuntu minaz-zalimin”: “No Muslim asks for anything with it but Allah answers him” (al-Tirmidhi 3505). And do not rush the answer: “Each of you is answered as long as he is not hasty, saying: I prayed and was not answered” (Muslim 2735)."
+    },
+    "source": {
+      "ru": "аль-Бухари, 1145, 935; Абу Дауд, 521; Муслим, 482, 2735; ат-Тирмизи, 3505",
+      "en": "al-Bukhari 1145, 935; Abu Dawud 521; Muslim 482, 2735; al-Tirmidhi 3505"
+    }
+  },
+  {
+    "id": "salat_hajah",
+    "situations": [
+      "wish"
+    ],
+    "grade": "daif",
+    "kind": "info",
+    "title": {
+      "ru": "Намаз нужды (салят аль-хаджа)",
+      "en": "The prayer of need (salat al-hajah)"
+    },
+    "translation": {
+      "ru": "Хадис с описанием особого «намаза нужды» и его дуа очень слабый: ат-Тирмизи сам указал на слабость передатчика. Помолиться добровольным намазом и затем попросить Аллаха о своей нужде можно всегда, но особый порядок и обещание исполнения не установлены.",
+      "en": "The hadith describing a special “prayer of need” and its dua is very weak: al-Tirmidhi himself noted the weakness of a narrator. You can always pray a voluntary prayer and then ask Allah for your need, but a special procedure and a promise of fulfilment are not established."
+    },
+    "source": {
+      "ru": "ат-Тирмизи, 479 — очень слабый",
+      "en": "al-Tirmidhi 479 — very weak"
+    }
+  },
+  {
+    "id": "fatiha_40",
+    "situations": [
+      "wish",
+      "hardship"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Фатиха 40 раз после магриба для любой нужды»",
+      "en": "“Al-Fatihah 40 times after Maghrib for any need”"
+    },
+    "translation": {
+      "ru": "Этот «испытанный способ» распространяют исламские сайты, но его источник — слова Ибн Араби и книга «Шамс аль-ма‘ариф», известная как книга магии, а не хадис. Сура «аль-Фатиха» — величайшая сура Корана, читать её можно всегда, но число 40 и обещание исполнения нужды не имеют основы.",
+      "en": "Islamic websites spread this “tested method”, but its source is the words of Ibn Arabi and the book Shams al-Ma‘arif, known as a book of magic, not a hadith. Al-Fatihah is the greatest surah of the Quran and can always be recited, but the number 40 and the promise of fulfilment have no basis."
+    },
+    "source": {
+      "ru": "Без источника в Коране и Сунне",
+      "en": "No source in the Quran or Sunnah"
+    },
+    "quranLink": {
+      "s": 1,
+      "a": 1
+    }
+  },
+  {
+    "id": "taha_21",
+    "situations": [
+      "hardship",
+      "marriage",
+      "wish"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Сура Та-Ха 21 раз открывает кисмет (судьбу)»",
+      "en": "“Surah Ta-Ha 21 times opens your kismet”"
+    },
+    "translation": {
+      "ru": "Совет популярен в турецком интернете, и даже статьи, которые его распространяют, признают, что источника нет. То же касается советов читать Ясин, Та-Ха или другую суру «41 раз» для замужества или удачи. Суры Корана читать можно и нужно, но особого обещания для этих случаев в Сунне нет.",
+      "en": "This advice is popular on the Turkish internet, and even the articles spreading it admit it has no source. The same goes for reading Ya-Sin, Ta-Ha or another surah “41 times” for marriage or luck. Reciting the Quran is good, but the Sunnah gives no special promise for these purposes."
+    },
+    "source": {
+      "ru": "Без источника в Коране и Сунне",
+      "en": "No source in the Quran or Sunnah"
+    },
+    "quranLink": {
+      "s": 20,
+      "a": 1
+    }
+  },
+  {
+    "id": "istighfar_way_out",
+    "situations": [
+      "hardship",
+      "debts",
+      "forgiveness"
+    ],
+    "grade": "daif",
+    "kind": "info",
+    "title": {
+      "ru": "«Кто постоянно просит прощения, тому Аллах даст выход из всякой беды»",
+      "en": "“Whoever constantly seeks forgiveness, Allah makes a way out of every hardship”"
+    },
+    "translation": {
+      "ru": "Этот хадис часто цитируют, но он слабый. При этом сама связь истигфара с облегчением и уделом установлена Кораном: «Просите прощения у вашего Господа… Он ниспошлёт вам обильные дожди, поддержит вас богатством и сыновьями» (71:10–12). Так что просить прощения ради облегчения правильно, опираясь на аяты.",
+      "en": "This hadith is often quoted, but it is weak. The link between seeking forgiveness and relief and provision is, however, established by the Quran: “Seek forgiveness of your Lord… He will send you abundant rain and support you with wealth and children” (71:10–12). So seeking forgiveness for relief is right, relying on the verses."
+    },
+    "source": {
+      "ru": "Абу Дауд, 1518 — слабый",
+      "en": "Abu Dawud 1518 — weak"
+    }
+  },
+  {
+    "id": "lost_item_info",
+    "situations": [
+      "lost_item"
+    ],
+    "grade": "quran",
+    "kind": "info",
+    "title": {
+      "ru": "Что сказать, если что-то потерялось",
+      "en": "What to say when something is lost"
+    },
+    "translation": {
+      "ru": "Особого достоверного дуа для потерянной вещи нет. При любой потере, даже малой, можно сказать «Инна ли-Лляхи ва инна иляйхи раджи‘ун» («Поистине, мы принадлежим Аллаху и к Нему возвращаемся», 2:156): Аллах хвалит тех, кто говорит так при беде (2:155–157). Затем попросите Аллаха своими словами помочь найти пропажу, а дуа Юнуса подходит для любой нужды.",
+      "en": "There is no specific authentic dua for a lost item. At any loss, even a small one, you can say “Inna lillahi wa inna ilayhi raji‘un” (“We belong to Allah and to Him we return”, 2:156): Allah praises those who say it at a calamity (2:155–157). Then ask Allah in your own words to help you find it; Yunus’s dua suits any need."
+    },
+    "source": {
+      "ru": "Коран, 2:155–157",
+      "en": "Quran 2:155–157"
+    },
+    "quranLink": {
+      "s": 2,
+      "a": 156
+    }
+  },
+  {
+    "id": "lost_item_popular",
+    "situations": [
+      "lost_item"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Йа Джами‘а-н-нас…» и ад-Духа 7 раз для потерянной вещи",
+      "en": "“Ya Jami‘an-nas…” and al-Duha 7 times for a lost item"
+    },
+    "translation": {
+      "ru": "Дуа «О Аллах, Собирающий людей в День, в котором нет сомнения (3:9), соедини меня с моей пропажей» и чтение суры «ад-Духа» 7 раз (или аята 93:7 трижды) советуют даже на сайтах вопросов-ответов, но источник — книга «Средства из Корана» Ашрафа Али Танви, а не хадис. Попросить Аллаха такими словами можно, как и любыми своими словами, но это народная практика, а не Сунна.",
+      "en": "The dua “O Allah, Gatherer of mankind on a Day about which there is no doubt (3:9), reunite me with what I lost” and reciting Surah al-Duha 7 times (or verse 93:7 three times) are recommended even on Q&A sites, but the source is Ashraf Ali Thanvi’s book “Remedies from the Holy Quran”, not a hadith. You may ask Allah with these words, as with any words of your own, but it is a folk practice, not Sunnah."
+    },
+    "source": {
+      "ru": "Без источника в Сунне: книга Ашрафа Али Танви",
+      "en": "No source in the Sunnah: a book by Ashraf Ali Thanvi"
+    },
+    "quranLink": {
+      "s": 93,
+      "a": 7
+    }
+  },
+  {
+    "id": "tiwala",
+    "situations": [
+      "spouses",
+      "customs",
+      "marriage"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "«Привязка», приворот, «чтобы муж любил только меня»",
+      "en": "Love spells and “binding” a spouse"
+    },
+    "translation": {
+      "ru": "Пророк ﷺ сказал: «Заклинания, амулеты и привороты (тиваля) — ширк» (Абу Дауд, 3883). «Аяты для привязки», записки с аятами под подушку, «чтобы конкретный человек полюбил», «чтобы муж не взял вторую жену» — это и есть тиваля, даже если в ней используются слова Корана. Разрешено другое: дуа своими словами о любви и согласии в семье, 25:74, истихара перед браком, разговор и посредники из обеих семей (4:35).",
+      "en": "The Prophet ﷺ said: “Spells, amulets and love charms (tiwalah) are shirk” (Abu Dawud 3883). “Verses for binding”, notes with verses under a pillow, “to make a particular person love me”, “so my husband does not take a second wife” are exactly tiwalah, even when Quranic words are used. What is permitted: dua in your own words for love and harmony in the family, 25:74, istikharah before marriage, talking things through and arbiters from both families (4:35)."
+    },
+    "source": {
+      "ru": "Абу Дауд, 3883 (достоверный по оценке аль-Альбани)",
+      "en": "Abu Dawud 3883 (authentic per al-Albani)"
+    }
+  },
+  {
+    "id": "marriage_numbers",
+    "situations": [
+      "marriage"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Прочитай Ясин 41 раз — и выйдешь замуж»",
+      "en": "“Read Ya-Sin 41 times and you will marry”"
+    },
+    "translation": {
+      "ru": "Советы читать Ясин, Та-Ха или иную суру определённое число раз для замужества не имеют источника. Аят 28:24 («Господи, я нуждаюсь в любом благе…») — настоящее дуа Мусы, после которого он женился, но хадиса о том, что его нужно читать «для брака», нет: это дуа о любой нужде. Достоверно: истихара (аль-Бухари, 1162), дуа 25:74 и просьба своими словами.",
+      "en": "Advice to read Ya-Sin, Ta-Ha or another surah a set number of times to get married has no source. Verse 28:24 (“My Lord, I am in need of whatever good…”) is Musa’s real dua, after which he married, but no hadith says to read it “for marriage”: it is a dua for any need. Authentic: istikharah (al-Bukhari 1162), the dua 25:74 and asking in your own words."
+    },
+    "source": {
+      "ru": "Без источника; об истихаре — аль-Бухари, 1162",
+      "en": "No source; on istikharah — al-Bukhari 1162"
+    }
+  },
+  {
+    "id": "arbitration",
+    "situations": [
+      "spouses"
+    ],
+    "grade": "quran",
+    "kind": "info",
+    "title": {
+      "ru": "Если супруги на грани разрыва",
+      "en": "If spouses are close to breaking up"
+    },
+    "translation": {
+      "ru": "«Если вы опасаетесь разрыва между супругами, то отправьте судью из его семьи и судью из её семьи. Если они пожелают примирения, Аллах поможет им договориться» (4:35). То есть Коран предлагает не заклинания, а посредников из обеих семей и искреннее желание помириться.",
+      "en": "“If you fear a breach between the two, appoint an arbiter from his family and an arbiter from her family. If they both want reconciliation, Allah will bring about agreement between them” (4:35). The Quran offers not spells but arbiters from both families and a sincere wish to reconcile."
+    },
+    "source": {
+      "ru": "Коран, 4:35",
+      "en": "Quran 4:35"
+    },
+    "quranLink": {
+      "s": 4,
+      "a": 35
+    }
+  },
+  {
+    "id": "guidance_for_others",
+    "situations": [
+      "addiction",
+      "family",
+      "reconcile"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Дуа о наставлении для другого человека",
+      "en": "Praying for someone else’s guidance"
+    },
+    "translation": {
+      "ru": "Когда племя Даус отказалось принять Ислам, Пророк ﷺ не проклял их, а сказал: «О Аллах, наставь Даус и приведи их!» (аль-Бухари, 2937). Так же можно просить за близкого: «Аллахумма-хди [имя]» — «О Аллах, наставь такого-то». А дуа за брата в его отсутствие ангел сопровождает словами: «И тебе того же» (Муслим, 2732).",
+      "en": "When the tribe of Daws refused Islam, the Prophet ﷺ did not curse them but said: “O Allah, guide Daws and bring them!” (al-Bukhari 2937). You can ask the same for a loved one: “Allahumma-hdi [name]” — “O Allah, guide so-and-so.” And when you pray for your brother in his absence, an angel says: “And for you the same” (Muslim 2732)."
+    },
+    "source": {
+      "ru": "аль-Бухари, 2937; Муслим, 2732",
+      "en": "al-Bukhari 2937; Muslim 2732"
+    }
+  },
+  {
+    "id": "reconcile_best",
+    "situations": [
+      "reconcile",
+      "spouses",
+      "family"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Примирить людей — выше добровольного поста и намаза",
+      "en": "Reconciling people is above voluntary fasting and prayer"
+    },
+    "translation": {
+      "ru": "«Не сообщить ли вам о том, что выше по степени, чем (добровольные) пост, намаз и садака?» — «Конечно!» — «Примирение между людьми, ведь раздор между ними — это то, что „бреет“ (губит) религию».",
+      "en": "“Shall I not tell you of something higher in rank than (voluntary) fasting, prayer and charity?” — “Of course!” — “Reconciling between people, for discord between them is what shaves away (destroys) the religion.”"
+    },
+    "source": {
+      "ru": "Абу Дауд, 4919; ат-Тирмизи, 2509 (достоверный)",
+      "en": "Abu Dawud 4919; al-Tirmidhi 2509 (authentic)"
+    }
+  },
+  {
+    "id": "three_days",
+    "situations": [
+      "reconcile"
+    ],
+    "grade": "sahih",
+    "kind": "info",
+    "title": {
+      "ru": "Не дольше трёх дней, и лучший — кто первым поздоровается",
+      "en": "No more than three days, and the best is the one who greets first"
+    },
+    "translation": {
+      "ru": "«Не дозволено мусульманину избегать своего брата больше трёх дней: встречаются, и один отворачивается, и другой отворачивается. Лучший из них тот, кто первым поприветствует». Первый шаг к примирению — простое «ас-саляму ‘аляйкум».",
+      "en": "“It is not permissible for a Muslim to shun his brother for more than three days, each turning away when they meet. The better of them is the one who greets first.” The first step to making up is a simple “as-salamu ‘alaykum”."
+    },
+    "source": {
+      "ru": "аль-Бухари, 6077; Муслим, 2560",
+      "en": "al-Bukhari 6077; Muslim 2560"
+    }
+  },
+  {
+    "id": "ibrahim_child",
+    "situations": [
+      "conceive",
+      "children"
+    ],
+    "grade": "quran",
+    "title": {
+      "ru": "Дуа Ибрахима о праведном потомстве",
+      "en": "Ibrahim’s dua for a righteous child"
+    },
+    "quran": [
+      {
+        "s": 37,
+        "a": 100
+      }
+    ],
+    "translit": {
+      "ru": "Рабби хаб ли мина-с-салихин",
+      "en": "Rabbi hab li minas-salihin"
+    },
+    "translation": {
+      "ru": "Господи! Даруй мне (потомство) из числа праведников.",
+      "en": "My Lord, grant me (a child) from among the righteous."
+    },
+    "source": {
+      "ru": "Коран, 37:100",
+      "en": "Quran 37:100"
+    }
+  },
+  {
+    "id": "maryam_beauty",
+    "situations": [
+      "conceive",
+      "appearance"
+    ],
+    "grade": "nosource",
+    "kind": "info",
+    "title": {
+      "ru": "«Сура Марьям для красоты ребёнка», «сура для красоты»",
+      "en": "“Surah Maryam for a beautiful baby”, “a surah for beauty”"
+    },
+    "translation": {
+      "ru": "Советы читать во время беременности суру «Марьям» или «Юсуф», чтобы ребёнок был красивым, и «суры для красоты» не имеют источника в Коране и Сунне. Читать эти суры хорошо, как и любое чтение Корана, но обещания внешности за них нет. Записывать аяты и привязывать их к роженице — это уже амулет (см. «Это из Ислама?»).",
+      "en": "Advice to read Surah Maryam or Yusuf during pregnancy so the baby is beautiful, and “surahs for beauty”, have no source in the Quran or Sunnah. Reading these surahs is good, like any Quran recitation, but there is no promise of looks for it. Writing verses and tying them to a woman in labour is an amulet (see “Is this from Islam?”)."
+    },
+    "source": {
+      "ru": "Без источника в Коране и Сунне",
+      "en": "No source in the Quran or Sunnah"
+    },
+    "quranLink": {
+      "s": 19,
+      "a": 1
+    }
+  },
+  {
+    "id": "good_character",
+    "situations": [
+      "appearance",
+      "gratitude"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "«Как Ты сделал прекрасной мою внешность…»",
+      "en": "“As You made my form beautiful…”"
+    },
+    "arabic": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "translit": {
+      "ru": "Аллахумма кама хассанта халькы фа-хассин хулукы",
+      "en": "Allahumma kama hassanta khalqi fa-hassin khuluqi"
+    },
+    "translation": {
+      "ru": "О Аллах, как Ты сделал прекрасной мою внешность, так сделай прекрасным и мой нрав.",
+      "en": "O Allah, as You have made my outward form beautiful, make my character beautiful too."
+    },
+    "source": {
+      "ru": "Ахмад (достоверный по оценке аль-Альбани)",
+      "en": "Ahmad (authentic per al-Albani)"
+    },
+    "note": {
+      "ru": "Достоверно само дуа; версии, где оно привязано именно к взгляду в зеркало, слабые. Его можно говорить в любое время.",
+      "en": "The dua itself is authentic; versions tying it specifically to looking in a mirror are weak. It may be said at any time."
+    }
+  },
+  {
+    "id": "tasbih_fatimah",
+    "situations": [
+      "laziness",
+      "sleep"
+    ],
+    "grade": "sahih",
+    "title": {
+      "ru": "Тасбих Фатимы перед сном: сила лучше слуги",
+      "en": "Fatimah’s tasbih before sleep: better than a servant"
+    },
+    "arabic": "سُبْحَانَ اللَّهِ، الْحَمْدُ لِلَّهِ، اللَّهُ أَكْبَرُ",
+    "translit": {
+      "ru": "Субхана-Ллах (33 раза), аль-хамду ли-Ллях (33 раза), Аллаху акбар (34 раза)",
+      "en": "Subhanallah (33 times), al-hamdu lillah (33 times), Allahu akbar (34 times)"
+    },
+    "translation": {
+      "ru": "Пречист Аллах. Хвала Аллаху. Аллах велик.",
+      "en": "Glory be to Allah. Praise be to Allah. Allah is the Greatest."
+    },
+    "source": {
+      "ru": "аль-Бухари, 3705; Муслим, 2727",
+      "en": "al-Bukhari 3705; Muslim 2727"
+    },
+    "note": {
+      "ru": "Фатима устала от тяжёлой работы и попросила слугу. Пророк ﷺ сказал ей и Али говорить это, ложась спать: «Это лучше для вас, чем слуга». Против лени и бессилия также дуа «…ва-ль-‘аджзи ва-ль-касаль» в разделе «Долги».",
+      "en": "Fatimah was worn out by hard work and asked for a servant. The Prophet ﷺ told her and Ali to say this when going to bed: “It is better for you than a servant.” For laziness and weakness see also the dua “…wal-‘ajzi wal-kasal” in the “Debts” section."
+    }
+  }
+]

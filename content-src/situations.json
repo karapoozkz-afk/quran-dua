@@ -1,0 +1,1715 @@
+[
+  {
+    "id": "cemetery",
+    "emoji": "🕊",
+    "title": {
+      "ru": "На кладбище, у могилы",
+      "en": "At the cemetery, at a grave"
+    },
+    "subtitle": {
+      "ru": "Что говорить при посещении могил",
+      "en": "What to say when visiting graves"
+    },
+    "keywords": {
+      "ru": [
+        "кладбище",
+        "могила",
+        "могилы",
+        "зиярат",
+        "посещение могил",
+        "мазар",
+        "похоронен",
+        "стою у могилы",
+        "над могилой",
+        "на могиле отца",
+        "на могиле родителей",
+        "на могиле мамы"
+      ],
+      "en": [
+        "cemetery",
+        "grave",
+        "graveyard",
+        "ziyarat",
+        "tomb",
+        "visiting graves",
+        "burial ground",
+        "at my father's grave",
+        "at my parents' grave"
+      ]
+    },
+    "notice": {
+      "ru": "Чтение Корана на могиле и «посвящение» награды умершему — вопрос, в котором учёные расходятся. Ниже такие практики помечены как спорные. Дуа и истигфар за умершего верующего установлены достоверно.",
+      "en": "Reciting Quran at a grave and gifting its reward to the deceased are matters on which scholars differ; such practices are marked as disputed below. Supplication and seeking forgiveness for a deceased believer are firmly established."
+    }
+  },
+  {
+    "id": "deceased",
+    "emoji": "🤲",
+    "title": {
+      "ru": "Дуа за умершего",
+      "en": "Dua for the deceased"
+    },
+    "subtitle": {
+      "ru": "За отца, мать, родственника, всех умерших мусульман",
+      "en": "For a father, mother, relative and all deceased Muslims"
+    },
+    "keywords": {
+      "ru": [
+        "умерший",
+        "умершая",
+        "покойный",
+        "покойная",
+        "усопший",
+        "умер",
+        "умерла",
+        "отец умер",
+        "мама умерла",
+        "за умершего",
+        "джаназа",
+        "джаназа намаз",
+        "похороны",
+        "родители умерли",
+        "за родителей"
+      ],
+      "en": [
+        "deceased",
+        "dead",
+        "died",
+        "passed away",
+        "janazah",
+        "funeral",
+        "late father",
+        "late mother",
+        "for the dead",
+        "parents passed"
+      ]
+    }
+  },
+  {
+    "id": "death_news",
+    "emoji": "🖤",
+    "title": {
+      "ru": "Утрата и горе",
+      "en": "Loss and grief"
+    },
+    "subtitle": {
+      "ru": "Когда узнал о смерти, при беде",
+      "en": "On hearing of a death or a calamity"
+    },
+    "keywords": {
+      "ru": [
+        "смерть",
+        "утрата",
+        "потеря",
+        "горе",
+        "скончался",
+        "известие о смерти",
+        "соболезнование",
+        "беда",
+        "несчастье",
+        "мусыбат",
+        "соболезнования",
+        "соболезновать",
+        "выразить соболезнование"
+      ],
+      "en": [
+        "death",
+        "loss",
+        "grief",
+        "bereavement",
+        "condolence",
+        "calamity",
+        "misfortune",
+        "someone died",
+        "condolences",
+        "offer condolences"
+      ]
+    }
+  },
+  {
+    "id": "debts",
+    "emoji": "💳",
+    "title": {
+      "ru": "Долги",
+      "en": "Debts"
+    },
+    "subtitle": {
+      "ru": "Избавление от долгов и тяжести",
+      "en": "Relief from debt and its burden"
+    },
+    "keywords": {
+      "ru": [
+        "долг",
+        "долги",
+        "кредит",
+        "займ",
+        "заём",
+        "ипотека",
+        "задолженность",
+        "должен",
+        "вернуть долг",
+        "много долгов",
+        "чтобы вернули долг",
+        "долги и лень",
+        "аяты от долгов"
+      ],
+      "en": [
+        "debt",
+        "debts",
+        "loan",
+        "credit",
+        "mortgage",
+        "owe",
+        "owing money",
+        "repay",
+        "get my money back",
+        "verses for debt"
+      ]
+    },
+    "notice": {
+      "ru": "Дуа не заменяет практических шагов: составьте план погашения, договоритесь с кредиторами и избегайте риба (процентов).",
+      "en": "Dua does not replace practical steps: make a repayment plan, talk to your creditors and avoid riba (interest)."
+    }
+  },
+  {
+    "id": "rizq",
+    "emoji": "💰",
+    "title": {
+      "ru": "Ризк, работа, деньги",
+      "en": "Provision, work, money"
+    },
+    "subtitle": {
+      "ru": "Нехватка денег, поиск работы, бизнес, барака",
+      "en": "Lack of money, job search, business, barakah"
+    },
+    "keywords": {
+      "ru": [
+        "ризк",
+        "пропитание",
+        "деньги",
+        "денег нет",
+        "нет денег",
+        "бедность",
+        "работа",
+        "найти работу",
+        "бизнес",
+        "торговля",
+        "барака",
+        "достаток",
+        "заработок",
+        "зарплата",
+        "уволили",
+        "нужда",
+        "разбогатеть",
+        "чтобы разбогатеть",
+        "барака в торговле",
+        "открытие бизнеса",
+        "клиенты",
+        "богатство"
+      ],
+      "en": [
+        "rizq",
+        "provision",
+        "money",
+        "no money",
+        "poverty",
+        "job",
+        "work",
+        "find a job",
+        "business",
+        "trade",
+        "barakah",
+        "income",
+        "salary",
+        "fired",
+        "need",
+        "get rich",
+        "wealth",
+        "customers",
+        "business success"
+      ]
+    }
+  },
+  {
+    "id": "illness",
+    "emoji": "🏥",
+    "title": {
+      "ru": "Болезнь и исцеление",
+      "en": "Illness and healing"
+    },
+    "subtitle": {
+      "ru": "Дуа за больного, при боли, при посещении больного",
+      "en": "For the sick, for pain, when visiting the sick"
+    },
+    "keywords": {
+      "ru": [
+        "болезнь",
+        "болею",
+        "заболел",
+        "заболела",
+        "больной",
+        "больная",
+        "боль",
+        "болит",
+        "исцеление",
+        "здоровье",
+        "шифа",
+        "рукья",
+        "больница",
+        "операция",
+        "навестить больного",
+        "температура"
+      ],
+      "en": [
+        "illness",
+        "sick",
+        "ill",
+        "disease",
+        "pain",
+        "hurts",
+        "healing",
+        "cure",
+        "health",
+        "shifa",
+        "ruqyah",
+        "hospital",
+        "surgery",
+        "visit the sick"
+      ]
+    },
+    "notice": {
+      "ru": "Дуа и религиозная практика не заменяют медицинскую помощь. При необходимости обратитесь к врачу.",
+      "en": "Dua and religious practice do not replace medical care. See a doctor when needed."
+    }
+  },
+  {
+    "id": "anxiety",
+    "emoji": "😔",
+    "title": {
+      "ru": "Тревога, печаль, страх",
+      "en": "Anxiety, sadness, fear"
+    },
+    "subtitle": {
+      "ru": "Когда тяжело на душе",
+      "en": "When your heart is heavy"
+    },
+    "keywords": {
+      "ru": [
+        "тревога",
+        "беспокойство",
+        "переживаю",
+        "печаль",
+        "грусть",
+        "грустно",
+        "депрессия",
+        "страх",
+        "боюсь",
+        "страшно",
+        "стресс",
+        "паника",
+        "тяжело",
+        "тоска",
+        "одиночество",
+        "боюсь будущего",
+        "плохо на душе"
+      ],
+      "en": [
+        "anxiety",
+        "anxious",
+        "worry",
+        "worried",
+        "sad",
+        "sadness",
+        "grief",
+        "depression",
+        "fear",
+        "afraid",
+        "scared",
+        "stress",
+        "panic",
+        "lonely",
+        "hard times"
+      ]
+    },
+    "notice": {
+      "ru": "Если тревога или подавленность мешают жить, обратитесь также к специалисту. Это не противоречит упованию на Аллаха.",
+      "en": "If anxiety or low mood is affecting your life, please also see a professional. This does not contradict reliance on Allah."
+    }
+  },
+  {
+    "id": "laziness",
+    "emoji": "🔋",
+    "title": {
+      "ru": "Лень, нет сил",
+      "en": "Laziness and low energy"
+    },
+    "subtitle": {
+      "ru": "Когда ничего не хочется делать",
+      "en": "When you can’t get yourself to do anything"
+    },
+    "keywords": {
+      "ru": [
+        "лень",
+        "ленюсь",
+        "нет сил",
+        "усталость",
+        "устал",
+        "бессилие",
+        "нет мотивации",
+        "апатия",
+        "встать рано",
+        "проспал",
+        "лени",
+        "от лени"
+      ],
+      "en": [
+        "lazy",
+        "laziness",
+        "no energy",
+        "tired",
+        "exhausted",
+        "no motivation",
+        "wake up early"
+      ]
+    }
+  },
+  {
+    "id": "hardship",
+    "emoji": "🚪",
+    "title": {
+      "ru": "«Закрыта дорога», трудности, неудачи",
+      "en": "Hardship, “blocked path” and bad luck"
+    },
+    "subtitle": {
+      "ru": "Когда ничего не получается и кажется, что все двери закрыты",
+      "en": "When nothing works out and every door seems closed"
+    },
+    "keywords": {
+      "ru": [
+        "закрыта дорога",
+        "дорога закрыта",
+        "закрыт путь",
+        "открыть дорогу",
+        "чтобы открылась дорога",
+        "двери закрыты",
+        "нет удачи",
+        "удача",
+        "неудача",
+        "неудачи",
+        "не везёт",
+        "не везет",
+        "невезение",
+        "ничего не получается",
+        "трудности",
+        "трудная ситуация",
+        "тяжело",
+        "всё плохо",
+        "черная полоса",
+        "чёрная полоса",
+        "выход из ситуации",
+        "безвыходная",
+        "чтобы всё получилось",
+        "чтобы аллах помог",
+        "открыть все двери",
+        "дуа для открытия дороги"
+      ],
+      "en": [
+        "blocked path",
+        "doors closed",
+        "bad luck",
+        "luck",
+        "unlucky",
+        "nothing works",
+        "hardship",
+        "difficulty",
+        "difficult times",
+        "stuck",
+        "way out",
+        "hopeless",
+        "so everything works out"
+      ]
+    },
+    "notice": {
+      "ru": "В Коране и Сунне нет понятия «закрытой дороги», которую открывают особым аятом, обрядом или амулетом. Трудности облегчают богобоязненность, истигфар, дуа и упование на Аллаха (65:2–3, 71:10–12), а также обычные практические шаги. Если вам предлагают «открыть дорогу» за деньги, «снять венец безбрачия» или «почистить» от неудач — это не из Ислама.",
+      "en": "The Quran and Sunnah have no notion of a “blocked path” that a special verse, ritual or amulet opens. Hardship is eased by God-consciousness, seeking forgiveness, dua and trust in Allah (65:2–3, 71:10–12), together with ordinary practical steps. If someone offers to “open your path” for money or “cleanse” you of bad luck, that is not from Islam."
+    }
+  },
+  {
+    "id": "wish",
+    "emoji": "✨",
+    "title": {
+      "ru": "Исполнение желания и нужды",
+      "en": "For a wish or a need"
+    },
+    "subtitle": {
+      "ru": "Как и когда просить, чтобы дуа было принято",
+      "en": "How and when to ask so dua is answered"
+    },
+    "keywords": {
+      "ru": [
+        "желание",
+        "исполнение желания",
+        "исполнилось желание",
+        "чтобы исполнилось",
+        "мечта",
+        "нужда",
+        "хаджа",
+        "намаз хаджа",
+        "чтобы аллах помог",
+        "чтобы всё получилось",
+        "чтобы все получилось",
+        "дуа принято",
+        "когда принимается дуа",
+        "открыть все двери"
+      ],
+      "en": [
+        "wish",
+        "make a wish come true",
+        "need",
+        "hajah",
+        "salat al hajah",
+        "accepted dua",
+        "when is dua accepted",
+        "answered prayer"
+      ]
+    }
+  },
+  {
+    "id": "lost_item",
+    "emoji": "🔎",
+    "title": {
+      "ru": "Потерянная вещь",
+      "en": "A lost item"
+    },
+    "subtitle": {
+      "ru": "Что говорить, если что-то пропало",
+      "en": "What to say when something is lost"
+    },
+    "keywords": {
+      "ru": [
+        "потерял",
+        "потеряла",
+        "потерянная вещь",
+        "найти потерянную вещь",
+        "пропала вещь",
+        "пропало",
+        "не могу найти",
+        "потерялся",
+        "потерянное животное",
+        "украли"
+      ],
+      "en": [
+        "lost",
+        "lost item",
+        "find a lost item",
+        "missing",
+        "can't find",
+        "lost my",
+        "stolen"
+      ]
+    }
+  },
+  {
+    "id": "sleep",
+    "emoji": "🌙",
+    "title": {
+      "ru": "Сон и пробуждение",
+      "en": "Sleep and waking up"
+    },
+    "subtitle": {
+      "ru": "Перед сном, если не спится, после пробуждения",
+      "en": "Before sleep, insomnia, on waking"
+    },
+    "keywords": {
+      "ru": [
+        "сон",
+        "спать",
+        "перед сном",
+        "не могу уснуть",
+        "бессонница",
+        "проснулся",
+        "пробуждение",
+        "ночь",
+        "кошмар",
+        "плохой сон",
+        "заснуть",
+        "уснуть",
+        "не спится",
+        "спится"
+      ],
+      "en": [
+        "sleep",
+        "before sleep",
+        "bedtime",
+        "can't sleep",
+        "insomnia",
+        "wake up",
+        "waking",
+        "night",
+        "nightmare",
+        "bad dream"
+      ]
+    }
+  },
+  {
+    "id": "morning_evening",
+    "emoji": "☀️",
+    "title": {
+      "ru": "Утро и вечер",
+      "en": "Morning and evening"
+    },
+    "subtitle": {
+      "ru": "Ежедневные азкары",
+      "en": "Daily adhkar"
+    },
+    "keywords": {
+      "ru": [
+        "утро",
+        "утренние азкары",
+        "вечер",
+        "вечерние азкары",
+        "азкары",
+        "зикр",
+        "каждый день",
+        "ежедневные"
+      ],
+      "en": [
+        "morning",
+        "evening",
+        "adhkar",
+        "azkar",
+        "dhikr",
+        "daily",
+        "every day"
+      ]
+    }
+  },
+  {
+    "id": "travel",
+    "emoji": "✈️",
+    "title": {
+      "ru": "Дорога и путешествие",
+      "en": "Travel"
+    },
+    "subtitle": {
+      "ru": "Перед поездкой, в пути, по возвращении",
+      "en": "Before a journey, on the way, on return"
+    },
+    "keywords": {
+      "ru": [
+        "дорога",
+        "путешествие",
+        "поездка",
+        "в дорогу",
+        "в путь",
+        "самолёт",
+        "самолет",
+        "машина",
+        "сесть в машину",
+        "вернулся",
+        "возвращение",
+        "командировка",
+        "переезд"
+      ],
+      "en": [
+        "travel",
+        "journey",
+        "trip",
+        "flight",
+        "plane",
+        "car",
+        "driving",
+        "return",
+        "coming back",
+        "business trip"
+      ]
+    }
+  },
+  {
+    "id": "weather",
+    "emoji": "🌧",
+    "title": {
+      "ru": "Дождь, ветер, гроза",
+      "en": "Rain, wind and thunder"
+    },
+    "subtitle": {
+      "ru": "Что говорить при непогоде",
+      "en": "What to say in bad weather"
+    },
+    "keywords": {
+      "ru": [
+        "дождь",
+        "ливень",
+        "ветер",
+        "ураган",
+        "буря",
+        "гроза",
+        "гром",
+        "молния",
+        "непогода",
+        "погода",
+        "засуха"
+      ],
+      "en": [
+        "rain",
+        "raining",
+        "wind",
+        "windy",
+        "storm",
+        "thunder",
+        "lightning",
+        "weather",
+        "drought"
+      ]
+    }
+  },
+  {
+    "id": "home",
+    "emoji": "🏠",
+    "title": {
+      "ru": "Дом",
+      "en": "Home"
+    },
+    "subtitle": {
+      "ru": "Выход из дома и вход в дом",
+      "en": "Leaving and entering the home"
+    },
+    "keywords": {
+      "ru": [
+        "дом",
+        "выход из дома",
+        "выхожу из дома",
+        "вход в дом",
+        "прихожу домой",
+        "квартира"
+      ],
+      "en": [
+        "home",
+        "house",
+        "leaving home",
+        "entering home",
+        "going out"
+      ]
+    }
+  },
+  {
+    "id": "toilet",
+    "emoji": "🚻",
+    "title": {
+      "ru": "Туалет",
+      "en": "Restroom"
+    },
+    "subtitle": {
+      "ru": "При входе и выходе",
+      "en": "When entering and leaving"
+    },
+    "keywords": {
+      "ru": [
+        "туалет",
+        "уборная",
+        "санузел",
+        "вход в туалет",
+        "выход из туалета",
+        "зайти в туалет",
+        "нужду",
+        "справить нужду"
+      ],
+      "en": [
+        "toilet",
+        "restroom",
+        "bathroom",
+        "washroom",
+        "lavatory",
+        "entering the toilet",
+        "leaving the toilet"
+      ]
+    }
+  },
+  {
+    "id": "food",
+    "emoji": "🍽",
+    "title": {
+      "ru": "Еда",
+      "en": "Food"
+    },
+    "subtitle": {
+      "ru": "Перед едой и после еды",
+      "en": "Before and after eating"
+    },
+    "keywords": {
+      "ru": [
+        "еда",
+        "перед едой",
+        "после еды",
+        "кушать",
+        "есть",
+        "обед",
+        "ужин",
+        "завтрак",
+        "трапеза"
+      ],
+      "en": [
+        "food",
+        "eating",
+        "before eating",
+        "after eating",
+        "meal",
+        "lunch",
+        "dinner",
+        "breakfast"
+      ]
+    }
+  },
+  {
+    "id": "prayer",
+    "emoji": "🕌",
+    "title": {
+      "ru": "Намаз, мечеть, омовение",
+      "en": "Prayer, mosque, wudu"
+    },
+    "subtitle": {
+      "ru": "Вход в мечеть, после омовения, после намаза",
+      "en": "Entering the mosque, after wudu, after salah"
+    },
+    "keywords": {
+      "ru": [
+        "намаз",
+        "молитва",
+        "мечеть",
+        "омовение",
+        "тахарат",
+        "вуду",
+        "после намаза",
+        "вход в мечеть",
+        "выход из мечети"
+      ],
+      "en": [
+        "prayer",
+        "salah",
+        "salat",
+        "namaz",
+        "mosque",
+        "masjid",
+        "wudu",
+        "ablution",
+        "after prayer"
+      ]
+    }
+  },
+  {
+    "id": "forgiveness",
+    "emoji": "💧",
+    "title": {
+      "ru": "Прощение грехов и тауба",
+      "en": "Forgiveness and repentance"
+    },
+    "subtitle": {
+      "ru": "Истигфар и покаяние",
+      "en": "Istighfar and tawbah"
+    },
+    "keywords": {
+      "ru": [
+        "прощение",
+        "простить",
+        "грех",
+        "грехи",
+        "тауба",
+        "покаяние",
+        "каяться",
+        "истигфар",
+        "раскаяние",
+        "чтобы аллах простил"
+      ],
+      "en": [
+        "forgiveness",
+        "forgive",
+        "sin",
+        "sins",
+        "tawbah",
+        "repentance",
+        "repent",
+        "istighfar"
+      ]
+    }
+  },
+  {
+    "id": "family",
+    "emoji": "❤️",
+    "title": {
+      "ru": "Семья и родители",
+      "en": "Family and parents"
+    },
+    "subtitle": {
+      "ru": "За родителей, супруга, мир в семье",
+      "en": "For parents, spouse, peace at home"
+    },
+    "keywords": {
+      "ru": [
+        "семья",
+        "родители",
+        "мама",
+        "мать",
+        "папа",
+        "отец",
+        "муж",
+        "жена",
+        "супруг",
+        "супруга",
+        "ссора",
+        "проблемы в семье",
+        "проблемы с родителями",
+        "родственники"
+      ],
+      "en": [
+        "family",
+        "parents",
+        "mother",
+        "mom",
+        "father",
+        "dad",
+        "husband",
+        "wife",
+        "spouse",
+        "quarrel",
+        "family problems",
+        "relatives"
+      ]
+    }
+  },
+  {
+    "id": "addiction",
+    "emoji": "🫂",
+    "title": {
+      "ru": "Близкий пьёт или зависим",
+      "en": "A loved one’s addiction"
+    },
+    "subtitle": {
+      "ru": "Алкоголь, наркотики, азартные игры",
+      "en": "Alcohol, drugs, gambling"
+    },
+    "keywords": {
+      "ru": [
+        "пьет",
+        "пьёт",
+        "муж пьет",
+        "чтобы муж не пил",
+        "алкоголь",
+        "алкоголизм",
+        "наркотики",
+        "наркомания",
+        "зависимость",
+        "игромания",
+        "азартные игры",
+        "курит"
+      ],
+      "en": [
+        "drinks",
+        "alcohol",
+        "alcoholic",
+        "drugs",
+        "addiction",
+        "gambling",
+        "husband drinks"
+      ]
+    },
+    "notice": {
+      "ru": "Особых аятов «чтобы не пил» нет. Просите Аллаха о наставлении для близкого и ищите реальную помощь: нарколог, реабилитационный центр, группы поддержки для семьи. Если есть угроза насилию, обращайтесь в службы помощи.",
+      "en": "There are no special verses “to stop drinking”. Ask Allah to guide your loved one and seek real help: an addiction doctor, a rehabilitation centre, family support groups. If there is a threat of violence, contact emergency or support services."
+    }
+  },
+  {
+    "id": "parents",
+    "emoji": "👪",
+    "title": {
+      "ru": "Дуа за родителей",
+      "en": "Dua for parents"
+    },
+    "subtitle": {
+      "ru": "За живых и ушедших маму и папу",
+      "en": "For living and departed mother and father"
+    },
+    "keywords": {
+      "ru": [
+        "родители",
+        "родителей",
+        "за родителей",
+        "мама",
+        "маму",
+        "мамы",
+        "мать",
+        "матери",
+        "папа",
+        "папу",
+        "отец",
+        "отца",
+        "за маму",
+        "за папу",
+        "дуа за родителей",
+        "здоровье родителей"
+      ],
+      "en": [
+        "parents",
+        "mother",
+        "father",
+        "mom",
+        "mum",
+        "dad",
+        "for my parents",
+        "dua for parents"
+      ]
+    }
+  },
+  {
+    "id": "marriage",
+    "emoji": "💍",
+    "title": {
+      "ru": "Брак и поиск супруга",
+      "en": "Marriage"
+    },
+    "subtitle": {
+      "ru": "Хочу хорошую жену / хорошего мужа, свадьба",
+      "en": "Seeking a spouse, wedding"
+    },
+    "keywords": {
+      "ru": [
+        "брак",
+        "никях",
+        "никах",
+        "свадьба",
+        "жениться",
+        "выйти замуж",
+        "замуж",
+        "найти жену",
+        "найти мужа",
+        "хорошая жена",
+        "хороший муж",
+        "поздравить со свадьбой"
+      ],
+      "en": [
+        "marriage",
+        "nikah",
+        "wedding",
+        "get married",
+        "find a wife",
+        "find a husband",
+        "good spouse",
+        "congratulate wedding"
+      ]
+    }
+  },
+  {
+    "id": "spouses",
+    "emoji": "💞",
+    "title": {
+      "ru": "Отношения супругов",
+      "en": "Husband and wife"
+    },
+    "subtitle": {
+      "ru": "Любовь, ссора, примирение",
+      "en": "Love, quarrels, reconciliation"
+    },
+    "keywords": {
+      "ru": [
+        "муж",
+        "жена",
+        "супруг",
+        "супруги",
+        "чтобы муж любил",
+        "муж любил жену",
+        "чтобы муж скучал",
+        "муж и жена помирились",
+        "ссора с мужем",
+        "ссора с женой",
+        "развод",
+        "вернулся в семью",
+        "вторая жена",
+        "приворот",
+        "привязка",
+        "привязать мужа"
+      ],
+      "en": [
+        "husband",
+        "wife",
+        "spouse",
+        "marriage problems",
+        "make my husband love me",
+        "quarrel with husband",
+        "reconcile with wife",
+        "divorce",
+        "love spell"
+      ]
+    },
+    "notice": {
+      "ru": "Особых аятов, чтобы муж «любил», «скучал» или «не взял вторую жену», в Сунне нет, а «привязка» и приворот — это запретное колдовство (см. карточку). Просите Аллаха своими словами, разговаривайте друг с другом, а в серьёзном конфликте приглашайте посредников из обеих семей (4:35).",
+      "en": "The Sunnah has no special verses to make a husband “love”, “miss” or “not take a second wife”, and love spells are forbidden sorcery (see the card). Ask Allah in your own words, talk to each other, and in a serious conflict bring in arbiters from both families (4:35)."
+    }
+  },
+  {
+    "id": "reconcile",
+    "emoji": "🤗",
+    "title": {
+      "ru": "Помириться с человеком",
+      "en": "Making up with someone"
+    },
+    "subtitle": {
+      "ru": "Ссора с родственником, другом, соседом",
+      "en": "A quarrel with a relative, friend or neighbour"
+    },
+    "keywords": {
+      "ru": [
+        "помириться",
+        "примирение",
+        "поссорились",
+        "ссора",
+        "обида на человека",
+        "не разговариваем",
+        "разрыв отношений",
+        "с родственниками",
+        "простить человека"
+      ],
+      "en": [
+        "make up",
+        "reconcile",
+        "reconciliation",
+        "quarrel",
+        "fell out",
+        "not speaking",
+        "cut ties",
+        "forgive someone"
+      ]
+    }
+  },
+  {
+    "id": "children",
+    "emoji": "👶",
+    "title": {
+      "ru": "Дети",
+      "en": "Children"
+    },
+    "subtitle": {
+      "ru": "Хочу детей, защита детей, рождение ребёнка",
+      "en": "Wanting children, protecting them, a newborn"
+    },
+    "keywords": {
+      "ru": [
+        "дети",
+        "ребёнок",
+        "ребенок",
+        "хочу детей",
+        "беременность",
+        "забеременеть",
+        "бесплодие",
+        "рождение ребёнка",
+        "родился",
+        "новорождённый",
+        "защита детей",
+        "сын",
+        "дочь",
+        "сура для детей перед сном",
+        "перед сном ребенку",
+        "перед сном ребёнку"
+      ],
+      "en": [
+        "children",
+        "child",
+        "kids",
+        "baby",
+        "want children",
+        "pregnancy",
+        "infertility",
+        "newborn",
+        "birth",
+        "son",
+        "daughter",
+        "surah for children before sleep"
+      ]
+    }
+  },
+  {
+    "id": "conceive",
+    "emoji": "🤰",
+    "title": {
+      "ru": "Хочу ребёнка, беременность",
+      "en": "Wishing for a child, pregnancy"
+    },
+    "subtitle": {
+      "ru": "Дуа пророков о потомстве",
+      "en": "The prophets’ duas for offspring"
+    },
+    "keywords": {
+      "ru": [
+        "забеременеть",
+        "чтобы забеременеть",
+        "хочу ребенка",
+        "хочу ребёнка",
+        "нет детей",
+        "бесплодие",
+        "беременность",
+        "бездетность",
+        "потомство"
+      ],
+      "en": [
+        "get pregnant",
+        "conceive",
+        "want a child",
+        "infertility",
+        "childless",
+        "pregnancy",
+        "offspring"
+      ]
+    },
+    "notice": {
+      "ru": "Дуа не заменяет обследование и лечение: обращайтесь к врачу. Особой суры «чтобы забеременеть» в Сунне нет; ниже дуа пророков о потомстве из Корана.",
+      "en": "Dua does not replace examination and treatment: see a doctor. The Sunnah has no special surah “to get pregnant”; below are the prophets’ duas for offspring from the Quran."
+    }
+  },
+  {
+    "id": "newborn",
+    "emoji": "🍼",
+    "title": {
+      "ru": "Роды и новорождённый",
+      "en": "Childbirth and the newborn"
+    },
+    "subtitle": {
+      "ru": "Лёгкие роды, акыка, тахник, азан в ухо",
+      "en": "Easy delivery, aqiqah, tahnik, adhan in the ear"
+    },
+    "keywords": {
+      "ru": [
+        "роды",
+        "рожать",
+        "рожает",
+        "беременность",
+        "беременна",
+        "лёгкие роды",
+        "легкие роды",
+        "родился",
+        "новорождённый",
+        "новорожденный",
+        "малыш",
+        "акыка",
+        "акика",
+        "тахник",
+        "азан в ухо",
+        "имя ребенку"
+      ],
+      "en": [
+        "childbirth",
+        "labor",
+        "labour",
+        "delivery",
+        "pregnant",
+        "pregnancy",
+        "easy delivery",
+        "newborn",
+        "baby born",
+        "aqiqah",
+        "aqeeqah",
+        "tahnik",
+        "adhan in ear"
+      ]
+    },
+    "notice": {
+      "ru": "Специального достоверного дуа для лёгких родов нет. Подходят любые дуа об облегчении, например «Аллахумма ля сахля…» ниже, и просьбы своими словами.",
+      "en": "There is no specific authentic dua for an easy delivery. Any dua for ease fits, such as “Allahumma la sahla…” below, and requests in your own words."
+    }
+  },
+  {
+    "id": "important",
+    "emoji": "🧭",
+    "title": {
+      "ru": "Важное дело и выбор",
+      "en": "Important matters and decisions"
+    },
+    "subtitle": {
+      "ru": "Истихара, трудное дело, экзамен, учёба",
+      "en": "Istikhara, a hard task, exams, study"
+    },
+    "keywords": {
+      "ru": [
+        "истихара",
+        "выбор",
+        "решение",
+        "не знаю что выбрать",
+        "важное дело",
+        "трудное дело",
+        "экзамен",
+        "учёба",
+        "учеба",
+        "собеседование",
+        "выступление",
+        "знание",
+        "новое дело"
+      ],
+      "en": [
+        "istikhara",
+        "decision",
+        "choice",
+        "choose",
+        "important matter",
+        "difficult task",
+        "exam",
+        "study",
+        "interview",
+        "speech",
+        "knowledge"
+      ]
+    }
+  },
+  {
+    "id": "protection",
+    "emoji": "🛡",
+    "title": {
+      "ru": "Защита",
+      "en": "Protection"
+    },
+    "subtitle": {
+      "ru": "От зла, сглаза, шайтана, при гневе",
+      "en": "From evil, the evil eye, Shaytan, when angry"
+    },
+    "keywords": {
+      "ru": [
+        "защита",
+        "сглаз",
+        "порча",
+        "зависть",
+        "шайтан",
+        "джинны",
+        "колдовство",
+        "сихр",
+        "гнев",
+        "злость",
+        "злюсь",
+        "враги",
+        "опасность"
+      ],
+      "en": [
+        "protection",
+        "evil eye",
+        "envy",
+        "shaytan",
+        "satan",
+        "jinn",
+        "magic",
+        "sihr",
+        "anger",
+        "angry",
+        "enemies",
+        "danger"
+      ]
+    }
+  },
+  {
+    "id": "evil_eye",
+    "emoji": "👁",
+    "title": {
+      "ru": "Сглаз и порча",
+      "en": "Evil eye and harm"
+    },
+    "subtitle": {
+      "ru": "Защита, рукья и что делать, если понравилось",
+      "en": "Protection, ruqyah and what to say when admiring"
+    },
+    "keywords": {
+      "ru": [
+        "сглаз",
+        "сглазили",
+        "глаз",
+        "дурной глаз",
+        "порча",
+        "порчу",
+        "колдовство",
+        "сихр",
+        "зависть",
+        "рукья",
+        "защита от сглаза",
+        "чтобы не сглазить",
+        "понравилось",
+        "на воду",
+        "читать на воду"
+      ],
+      "en": [
+        "evil eye",
+        "eye",
+        "envy",
+        "jealousy",
+        "black magic",
+        "magic",
+        "sihr",
+        "ruqyah",
+        "ruqya",
+        "protection from evil eye",
+        "nazar",
+        "recite over water"
+      ]
+    },
+    "notice": {
+      "ru": "Амулеты, нитки и «глазки» защитой в Исламе не являются (см. карточку ниже). Если плохое самочувствие не проходит, обратитесь к врачу: рукья и дуа не заменяют лечение.",
+      "en": "Amulets, threads and “eye” charms are not protection in Islam (see the card below). If feeling unwell persists, see a doctor: ruqyah and dua do not replace treatment."
+    }
+  },
+  {
+    "id": "oppression",
+    "emoji": "⚖️",
+    "title": {
+      "ru": "Несправедливость и угнетённые",
+      "en": "Injustice and the oppressed"
+    },
+    "subtitle": {
+      "ru": "Когда обидели, и дуа за угнетённых (Палестина и др.)",
+      "en": "When wronged, and dua for the oppressed (Palestine and others)"
+    },
+    "keywords": {
+      "ru": [
+        "несправедливость",
+        "обидели",
+        "обида",
+        "притеснение",
+        "угнетение",
+        "угнетённых",
+        "угнетенных",
+        "притесняют",
+        "палестина",
+        "газа",
+        "за палестину",
+        "война",
+        "враг",
+        "оклеветали",
+        "клевета"
+      ],
+      "en": [
+        "injustice",
+        "oppression",
+        "oppressed",
+        "wronged",
+        "unfair",
+        "palestine",
+        "gaza",
+        "war",
+        "slander",
+        "persecution"
+      ]
+    }
+  },
+  {
+    "id": "gratitude",
+    "emoji": "🌿",
+    "title": {
+      "ru": "Благодарность и радость",
+      "en": "Gratitude and joy"
+    },
+    "subtitle": {
+      "ru": "Когда случилось хорошее",
+      "en": "When something good happens"
+    },
+    "keywords": {
+      "ru": [
+        "благодарность",
+        "поблагодарить",
+        "радость",
+        "хорошая новость",
+        "шукр",
+        "спасибо аллаху",
+        "альхамдулиллях"
+      ],
+      "en": [
+        "gratitude",
+        "thank",
+        "thanks",
+        "grateful",
+        "joy",
+        "good news",
+        "shukr",
+        "alhamdulillah"
+      ]
+    }
+  },
+  {
+    "id": "appearance",
+    "emoji": "🪞",
+    "title": {
+      "ru": "Зеркало и внешность",
+      "en": "Mirror and appearance"
+    },
+    "subtitle": {
+      "ru": "Дуа о красоте нрава",
+      "en": "Dua for beautiful character"
+    },
+    "keywords": {
+      "ru": [
+        "зеркало",
+        "смотрю в зеркало",
+        "красота",
+        "красивой",
+        "внешность",
+        "чтобы быть красивой",
+        "сура для красоты"
+      ],
+      "en": [
+        "mirror",
+        "looking in the mirror",
+        "beauty",
+        "beautiful",
+        "appearance"
+      ]
+    }
+  },
+  {
+    "id": "ramadan",
+    "emoji": "🌙",
+    "title": {
+      "ru": "Рамадан и пост",
+      "en": "Ramadan and fasting"
+    },
+    "subtitle": {
+      "ru": "Ифтар, Ночь предопределения, новый месяц",
+      "en": "Iftar, Laylat al-Qadr, the new moon"
+    },
+    "keywords": {
+      "ru": [
+        "рамадан",
+        "рамазан",
+        "пост",
+        "ураза",
+        "ифтар",
+        "разговение",
+        "сухур",
+        "ляйлятуль кадр",
+        "ночь предопределения",
+        "новолуние",
+        "месяц"
+      ],
+      "en": [
+        "ramadan",
+        "fasting",
+        "fast",
+        "iftar",
+        "suhoor",
+        "laylat al-qadr",
+        "night of decree",
+        "new moon",
+        "crescent"
+      ]
+    }
+  },
+  {
+    "id": "friday_eid",
+    "emoji": "🕋",
+    "title": {
+      "ru": "Пятница и праздники",
+      "en": "Friday and Eid"
+    },
+    "subtitle": {
+      "ru": "Джума, Ураза-байрам, Курбан-байрам",
+      "en": "Jumu'ah, Eid al-Fitr, Eid al-Adha"
+    },
+    "keywords": {
+      "ru": [
+        "пятница",
+        "джума",
+        "праздник",
+        "байрам",
+        "ид",
+        "ураза байрам",
+        "курбан байрам",
+        "поздравить с праздником",
+        "аль кахф"
+      ],
+      "en": [
+        "friday",
+        "jumuah",
+        "jummah",
+        "eid",
+        "holiday",
+        "eid greeting",
+        "al-kahf"
+      ]
+    }
+  },
+  {
+    "id": "hajj",
+    "emoji": "⛺",
+    "title": {
+      "ru": "Хадж и умра",
+      "en": "Hajj and Umrah"
+    },
+    "subtitle": {
+      "ru": "Тальбия, Арафат, Зам-зам",
+      "en": "Talbiyah, Arafah, Zamzam"
+    },
+    "keywords": {
+      "ru": [
+        "хадж",
+        "умра",
+        "мекка",
+        "кааба",
+        "таваф",
+        "тальбия",
+        "арафат",
+        "арафа",
+        "зам-зам",
+        "замзам",
+        "паломничество",
+        "сафа",
+        "марва",
+        "ихрам",
+        "хадже",
+        "в хадже",
+        "на хадже",
+        "поехать в хадж"
+      ],
+      "en": [
+        "hajj",
+        "umrah",
+        "mecca",
+        "makkah",
+        "kaaba",
+        "tawaf",
+        "talbiyah",
+        "talbiya",
+        "arafah",
+        "arafat",
+        "zamzam",
+        "pilgrimage",
+        "ihram"
+      ]
+    }
+  },
+  {
+    "id": "birthday",
+    "emoji": "🎂",
+    "title": {
+      "ru": "День рождения",
+      "en": "Birthday"
+    },
+    "subtitle": {
+      "ru": "Что можно пожелать близкому",
+      "en": "What you can wish someone"
+    },
+    "keywords": {
+      "ru": [
+        "день рождения",
+        "др",
+        "юбилей",
+        "именинник",
+        "поздравить",
+        "пожелание",
+        "годовщина"
+      ],
+      "en": [
+        "birthday",
+        "anniversary",
+        "congratulate",
+        "wish",
+        "best wishes"
+      ]
+    },
+    "notice": {
+      "ru": "Особого дуа на день рождения в Сунне нет, а отношение к празднованию дня рождения — предмет разногласий учёных. Ниже — общие достоверные дуа о благе, которые можно сделать за человека в любой день.",
+      "en": "The Sunnah has no special birthday dua, and celebrating birthdays is a matter of scholarly disagreement. Below are general authentic duas for someone's good that you can make on any day."
+    }
+  },
+  {
+    "id": "zakat",
+    "emoji": "🤝",
+    "title": {
+      "ru": "Закят и садака",
+      "en": "Zakat and sadaqah"
+    },
+    "subtitle": {
+      "ru": "Кому и сколько отдавать, награда за милостыню",
+      "en": "Who receives it, how much, the reward of charity"
+    },
+    "keywords": {
+      "ru": [
+        "закят",
+        "зекет",
+        "садака",
+        "милостыня",
+        "пожертвование",
+        "пожертвовать",
+        "благотворительность",
+        "нисаб",
+        "сколько платить закят",
+        "кому давать закят"
+      ],
+      "en": [
+        "zakat",
+        "zakah",
+        "sadaqah",
+        "charity",
+        "donation",
+        "donate",
+        "nisab",
+        "how much zakat",
+        "who receives zakat"
+      ]
+    },
+    "notice": {
+      "ru": "Посчитать закят можно во вкладке «Ещё» → «Калькулятор закята».",
+      "en": "To work out your zakat, open More → Zakat calculator."
+    }
+  },
+  {
+    "id": "customs",
+    "emoji": "❓",
+    "title": {
+      "ru": "Это из Ислама?",
+      "en": "Is this from Islam?"
+    },
+    "subtitle": {
+      "ru": "Обычаи: 7 шелпек, поминки по дням, красная нить",
+      "en": "Customs: memorial days, amulets, red thread"
+    },
+    "keywords": {
+      "ru": [
+        "шелпек",
+        "7 шелпек",
+        "семь лепешек",
+        "поминки",
+        "3 дня",
+        "7 дней",
+        "40 дней",
+        "сорок дней",
+        "годовщина",
+        "ас",
+        "красная нить",
+        "нитка",
+        "амулет",
+        "тумар",
+        "оберег",
+        "обычай",
+        "традиция",
+        "это из ислама",
+        "бидат",
+        "день рождения умершего",
+        "на воду",
+        "вода с аятами",
+        "аяты записать",
+        "аяты носить",
+        "приворот",
+        "привязка"
+      ],
+      "en": [
+        "custom",
+        "tradition",
+        "is this from islam",
+        "amulet",
+        "talisman",
+        "red thread",
+        "bid'ah",
+        "bidah",
+        "40 days",
+        "memorial",
+        "anniversary of death",
+        "water with verses",
+        "write verses",
+        "love spell"
+      ]
+    },
+    "notice": {
+      "ru": "Здесь разобраны распространённые обычаи: что в них опирается на Коран и Сунну, а что нет. Где учёные расходятся, это сказано прямо.",
+      "en": "Common customs are examined here: what in them rests on the Quran and Sunnah and what does not. Where scholars differ, that is stated plainly."
+    }
+  }
+]

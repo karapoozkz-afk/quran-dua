@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI text lives in shared Kotlin (i18n/Strings.kt); these are platform-level only. -->
+    <string name="app_name">Quran &amp; Dua</string>
+</resources>

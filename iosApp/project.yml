@@ -1,0 +1,35 @@
+# Generate the Xcode project on a Mac with XcodeGen:  brew install xcodegen && xcodegen
+name: QuranDua
+options:
+  bundleIdPrefix: app.qurandua
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  QuranDua:
+    type: application
+    platform: iOS
+    sources:
+      - QuranDua
+      # The same JSON assets the Android app ships, kept in one place.
+      - path: ../androidApp/src/main/assets/content
+        type: folder
+        buildPhase: resources
+      - path: ../androidApp/src/main/res/font/amiri_quran.ttf
+        buildPhase: resources
+    info:
+      path: QuranDua/Info.plist
+      properties:
+        CFBundleDisplayName: Коран и Дуа
+        CFBundleLocalizations: [ru, kk, en, ar]
+        UIAppFonts: [amiri_quran.ttf]
+        UILaunchScreen: {}
+    settings:
+      base:
+        FRAMEWORK_SEARCH_PATHS: $(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)
+        OTHER_LDFLAGS: [-framework, Shared, -lsqlite3]
+    preBuildScripts:
+      - name: Build Kotlin shared framework
+        basedOnDependencyAnalysis: false
+        script: |
+          cd "$SRCROOT/.."
+          ./gradlew :shared:embedAndSignAppleFrameworkForXcode
