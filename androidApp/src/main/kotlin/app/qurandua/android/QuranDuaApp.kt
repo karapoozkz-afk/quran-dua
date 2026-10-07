@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import app.qurandua.android.platform.AndroidPlatformActions
+import app.qurandua.android.platform.Adhan
 import app.qurandua.android.platform.AndroidPrayerController
 import app.qurandua.android.platform.ExoAudioController
 import app.qurandua.android.platform.PrayerAlarms
@@ -30,6 +31,7 @@ class QuranDuaApp : Application() {
         val db = buildAppDatabase(androidDatabaseBuilder(this))
         audio = ExoAudioController(this)
         PrayerAlarms.createChannel(this)
+        Adhan.createChannel(this)
         PrayerAlarms.schedule(this)
         deps = AppDeps(
             content = ContentRepository.fromJson(

@@ -1,0 +1,12 @@
+Adhan recordings: androidApp/src/main/res/raw/adhan_full.mp3, adhan_short.mp3
+
+Work:     "The Adhan - Muslim Call to Prayer - Aaqib Azeez.mp3"
+Author:   Aaqib Azeez (uploaded to Wikimedia Commons by Atcovi)
+Source:   https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3
+License:  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+          https://creativecommons.org/licenses/by-sa/4.0/
+Changes:  converted to mono 96 kbps MP3 and loudness-normalised (adhan_full.mp3);
+          adhan_short.mp3 is the first 22 seconds with a fade-out.
+          The adapted files are shared under the same CC BY-SA 4.0 license.
+
+The full license text is in licenses/quran-json-CC-BY-SA-4.0.txt (same license).

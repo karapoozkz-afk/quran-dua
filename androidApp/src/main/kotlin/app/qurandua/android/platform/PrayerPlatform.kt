@@ -23,6 +23,7 @@ import app.qurandua.android.MainActivity
 import app.qurandua.android.R
 import app.qurandua.android.ui.PrayerController
 import app.qurandua.shared.i18n.prayerStringsFor
+import app.qurandua.shared.prayer.AdhanSound
 import app.qurandua.shared.prayer.Place
 import app.qurandua.shared.prayer.Prayer
 import app.qurandua.shared.prayer.PrayerSettings
@@ -81,6 +82,42 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
 
     override fun setLanguage(language: String) {
         if (PrayerStore.language(context) != language) PrayerStore.setLanguage(context, language)
+    }
+
+    override val adhanPlaying: StateFlow<Boolean> = AdhanPlayer.playing
+
+    override fun preview(sound: AdhanSound) {
+        when (sound) {
+            AdhanSound.FULL, AdhanSound.SHORT -> AdhanPlayer.play(context, sound)
+            AdhanSound.NOTIFICATION -> {
+                AdhanPlayer.stop()
+                val uri = android.media.RingtoneManager.getDefaultUri(android.media.RingtoneManager.TYPE_NOTIFICATION)
+                runCatching { android.media.RingtoneManager.getRingtone(context, uri)?.play() }
+            }
+            AdhanSound.SILENT -> AdhanPlayer.stop()
+        }
+    }
+
+    override fun stopAdhan() = Adhan.stop(context)
+
+    override fun canUseFullScreen(): Boolean = Adhan.canUseFullScreen(context)
+
+    override fun canScheduleExact(): Boolean =
+        Build.VERSION.SDK_INT < Build.VERSION_CODES.S || (context.getSystemService(Context.ALARM_SERVICE) as AlarmManager).canScheduleExactAlarms()
+
+    override fun openExactAlarmSettings() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) return
+        val intent = Intent(android.provider.Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM, android.net.Uri.parse("package:${context.packageName}"))
+        runCatching { context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+    }
+
+    override fun openFullScreenSettings() {
+        val intent = if (Build.VERSION.SDK_INT >= 34) {
+            Intent(android.provider.Settings.ACTION_MANAGE_APP_USE_FULL_SCREEN_INTENT, android.net.Uri.parse("package:${context.packageName}"))
+        } else {
+            Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, android.net.Uri.parse("package:${context.packageName}"))
+        }
+        runCatching { context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
     }
 
     @SuppressLint("MissingPermission") // checked right below
@@ -175,6 +212,9 @@ object PrayerAlarms {
 
     @SuppressLint("MissingPermission") // POST_NOTIFICATIONS is checked on the first line
     fun notify(context: Context, prayer: Prayer) {
+        val sound = PrayerStore.load(context).adhan
+        // Sunrise is a reminder, not a prayer: it never gets the adhan.
+        if (prayer != Prayer.SUNRISE && (sound == AdhanSound.FULL || sound == AdhanSound.SHORT) && Adhan.start(context, prayer, sound)) return
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
         ) return
@@ -192,6 +232,7 @@ object PrayerAlarms {
             .setCategory(NotificationCompat.CATEGORY_REMINDER)
             .setContentIntent(open)
             .setAutoCancel(true)
+            .setSilent(sound == AdhanSound.SILENT)
             .build()
         NotificationManagerCompat.from(context).notify(prayer.ordinal, notification)
     }

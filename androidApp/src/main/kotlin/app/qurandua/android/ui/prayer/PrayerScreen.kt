@@ -27,6 +27,7 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -43,6 +44,7 @@ import app.qurandua.android.ui.components.BackTopBar
 import app.qurandua.android.ui.components.NoticeCard
 import app.qurandua.android.ui.components.SectionTitle
 import app.qurandua.shared.i18n.PrayerStrings
+import app.qurandua.shared.prayer.AdhanSound
 import app.qurandua.shared.prayer.AsrSchool
 import app.qurandua.shared.prayer.CITIES
 import app.qurandua.shared.prayer.CalculationMethod
@@ -92,6 +94,10 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
     var pickingCity by remember { mutableStateOf(false) }
     var message by remember { mutableStateOf<String?>(null) }
     var locating by remember { mutableStateOf(false) }
+    val adhanPlaying by controller.adhanPlaying.collectAsState()
+    // Re-read on every return to the screen: the user may have just changed them in system settings.
+    var fullScreenAllowed by remember { mutableStateOf(controller.canUseFullScreen()) }
+    var exactAllowed by remember { mutableStateOf(controller.canScheduleExact()) }
 
     LaunchedEffect(Unit) {
         while (true) {
@@ -99,6 +105,16 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
             now = Clock.System.now()
         }
     }
+    LaunchedEffect(Unit) {
+        while (true) {
+            fullScreenAllowed = controller.canUseFullScreen()
+            exactAllowed = controller.canScheduleExact()
+            delay(2_000)
+        }
+    }
+    // A preview stops when the user leaves the screen; a real prayer-time adhan keeps playing.
+    val previewStarted = remember { booleanArrayOf(false) }
+    DisposableEffect(Unit) { onDispose { if (previewStarted[0]) controller.stopAdhan() } }
 
     Scaffold(topBar = { BackTopBar(strings.title, onBack) }) { padding ->
         Column(
@@ -199,6 +215,45 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
                                 Text(strings.prayerName(prayer))
                             }
                         }
+                    }
+
+                    // Adhan: what sounds when the time comes, and the full-screen prayer window.
+                    SectionTitle(strings.adhan)
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        AdhanSound.entries.forEach { sound ->
+                            FilterChip(
+                                selected = settings.adhan == sound,
+                                onClick = { controller.update { it.copy(adhan = sound) } },
+                                label = { Text(strings.adhanName(sound)) },
+                            )
+                        }
+                    }
+                    if (settings.adhan != AdhanSound.SILENT) {
+                        OutlinedButton(onClick = { if (adhanPlaying) {
+                                controller.stopAdhan()
+                            } else {
+                                previewStarted[0] = true
+                                controller.preview(settings.adhan)
+                            }
+                        }) {
+                            Text(if (adhanPlaying) strings.stop else strings.listen)
+                        }
+                    }
+                    if (settings.adhan == AdhanSound.FULL || settings.adhan == AdhanSound.SHORT) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(strings.fullScreen, Modifier.weight(1f))
+                            Switch(checked = settings.fullScreen, onCheckedChange = { on -> controller.update { it.copy(fullScreen = on) } })
+                        }
+                        if (settings.fullScreen && !fullScreenAllowed) {
+                            NoticeCard(strings.fullScreenDenied)
+                            OutlinedButton(onClick = controller::openFullScreenSettings) { Text(strings.openSettings) }
+                        }
+                        Text(strings.fajrNote, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(strings.adhanCredit, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    if (!exactAllowed) {
+                        NoticeCard(strings.exactDenied)
+                        OutlinedButton(onClick = controller::openExactAlarmSettings) { Text(strings.openSettings) }
                     }
                 }
 

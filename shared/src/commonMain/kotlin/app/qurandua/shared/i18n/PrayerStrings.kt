@@ -1,5 +1,6 @@
 package app.qurandua.shared.i18n
 
+import app.qurandua.shared.prayer.AdhanSound
 import app.qurandua.shared.prayer.CalculationMethod
 import app.qurandua.shared.prayer.Prayer
 
@@ -23,6 +24,16 @@ data class PrayerStrings(
     val notificationsDenied: String,
     val locationDenied: String,
     val dumkNote: String,
+    val adhan: String,
+    val adhanName: (AdhanSound) -> String,
+    val listen: String,
+    val stop: String,
+    val fullScreen: String,
+    val fullScreenDenied: String,
+    val exactDenied: String,
+    val openSettings: String,
+    val fajrNote: String,
+    val adhanCredit: String,
 )
 
 private fun methodNames(dumk: String, mwl: String, isna: String, egypt: String, ummAlQura: String, karachi: String, turkey: String, indonesia: String, russia: String): (CalculationMethod) -> String = { m ->
@@ -38,6 +49,17 @@ private fun methodNames(dumk: String, mwl: String, isna: String, egypt: String, 
         CalculationMethod.RUSSIA_DUM -> russia
     }
 }
+
+private fun adhanNames(full: String, short: String, notification: String, silent: String): (AdhanSound) -> String = { a ->
+    when (a) {
+        AdhanSound.FULL -> full
+        AdhanSound.SHORT -> short
+        AdhanSound.NOTIFICATION -> notification
+        AdhanSound.SILENT -> silent
+    }
+}
+
+private const val ADHAN_CREDIT = "Aaqib Azeez, Wikimedia Commons, CC BY-SA 4.0"
 
 private fun prayerNames(fajr: String, sunrise: String, dhuhr: String, asr: String, maghrib: String, isha: String): (Prayer) -> String = { p ->
     when (p) {
@@ -69,6 +91,16 @@ val EnPrayer = PrayerStrings(
     notificationsDenied = "Without notification permission there will be no reminders.",
     locationDenied = "Location access was not granted. Choose a city from the list.",
     dumkNote = "Times for Kazakhstan follow the official DUMK (muftyat.kz) timetable, checked against it for Almaty. Small differences of a minute or two are possible in other cities; adjust the minutes if your mosque differs.",
+    adhan = "Adhan at prayer time",
+    adhanName = adhanNames("Full adhan", "Short (20 s)", "Notification sound", "Silent"),
+    listen = "Listen",
+    stop = "Stop",
+    fullScreen = "Show prayer window on the lock screen",
+    fullScreenDenied = "Android has not allowed this app to open full-screen. The adhan will still play, with a regular notification.",
+    exactDenied = "Android is not allowing exact alarms for this app, so the adhan may come a few minutes late or only as a notification.",
+    openSettings = "Allow",
+    fajrNote = "Fajr uses the same adhan: there is no freely licensed recording of the Fajr adhan (with “as-salatu khayrun min an-nawm”) yet.",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val RuPrayer = PrayerStrings(
@@ -90,6 +122,16 @@ val RuPrayer = PrayerStrings(
     notificationsDenied = "Без разрешения на уведомления напоминаний не будет.",
     locationDenied = "Доступ к местоположению не дан. Выберите город из списка.",
     dumkNote = "Время для Казахстана считается по правилам официального расписания ДУМК (muftyat.kz) и сверено с ним для Алматы. В других городах возможна разница в минуту-две; если в вашей мечети время другое, поправьте минуты.",
+    adhan = "Азан при наступлении намаза",
+    adhanName = adhanNames("Полный азан", "Короткий (20 с)", "Звук уведомления", "Без звука"),
+    listen = "Прослушать",
+    stop = "Остановить",
+    fullScreen = "Показывать окно намаза на заблокированном экране",
+    fullScreenDenied = "Android не разрешил приложению открываться во весь экран. Азан всё равно прозвучит, с обычным уведомлением.",
+    exactDenied = "Android не разрешил приложению точные будильники: азан может прозвучать с опозданием на несколько минут или прийти только уведомлением.",
+    openSettings = "Разрешить",
+    fajrNote = "Для фаджра звучит тот же азан: свободной записи фаджр-азана (со словами «ас-саляту хайрун мин ан-наум») пока нет.",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val KkPrayer = PrayerStrings(
@@ -111,6 +153,16 @@ val KkPrayer = PrayerStrings(
     notificationsDenied = "Хабарламаға рұқсат болмаса, еске салу болмайды.",
     locationDenied = "Орналасқан жерге рұқсат берілмеді. Тізімнен қаланы таңдаңыз.",
     dumkNote = "Қазақстан үшін уақыт ҚМДБ (muftyat.kz) ресми кестесінің ережесімен есептеледі және Алматы бойынша онымен салыстырылды. Басқа қалаларда бір-екі минут айырмашылық болуы мүмкін; мешітіңіздің уақыты басқа болса, минуттарды түзетіңіз.",
+    adhan = "Намаз уақыты кіргенде азан",
+    adhanName = adhanNames("Толық азан", "Қысқа (20 с)", "Хабарлама дыбысы", "Дыбыссыз"),
+    listen = "Тыңдау",
+    stop = "Тоқтату",
+    fullScreen = "Намаз терезесін құлыпталған экранда көрсету",
+    fullScreenDenied = "Android қосымшаға толық экранда ашылуға рұқсат бермеді. Азан бәрібір қарапайым хабарламамен естіледі.",
+    exactDenied = "Android қосымшаға дәл оятқышқа рұқсат бермеді: азан бірнеше минут кешігуі немесе тек хабарлама болып келуі мүмкін.",
+    openSettings = "Рұқсат беру",
+    fajrNote = "Таң намазына да осы азан естіледі: «әс-салату хайрун минән-науым» сөздері бар таң азанының еркін лицензиялы жазбасы әзірге жоқ.",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val TrPrayer = PrayerStrings(
@@ -132,6 +184,16 @@ val TrPrayer = PrayerStrings(
     notificationsDenied = "Bildirim izni olmadan hatırlatma gelmez.",
     locationDenied = "Konum izni verilmedi. Listeden bir şehir seçin.",
     dumkNote = "Kazakistan vakitleri resmî DUMK (muftyat.kz) takvimine göre hesaplanır ve Almatı için onunla karşılaştırılmıştır. Diğer şehirlerde bir iki dakikalık fark olabilir; camiinizin vakti farklıysa dakikaları düzeltin.",
+    adhan = "Vakit girince ezan",
+    adhanName = adhanNames("Tam ezan", "Kısa (20 sn)", "Bildirim sesi", "Sessiz"),
+    listen = "Dinle",
+    stop = "Durdur",
+    fullScreen = "Namaz penceresini kilit ekranında göster",
+    fullScreenDenied = "Android bu uygulamanın tam ekran açılmasına izin vermedi. Ezan yine normal bir bildirimle okunur.",
+    exactDenied = "Android bu uygulamaya tam zamanlı alarm izni vermedi: ezan birkaç dakika gecikebilir ya da yalnızca bildirim olarak gelebilir.",
+    openSettings = "İzin ver",
+    fajrNote = "Sabah için de aynı ezan okunur: “es-salâtu hayrun mine’n-nevm” içeren serbest lisanslı bir sabah ezanı kaydı henüz yok.",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val IdPrayer = PrayerStrings(
@@ -153,6 +215,16 @@ val IdPrayer = PrayerStrings(
     notificationsDenied = "Tanpa izin notifikasi, pengingat tidak akan muncul.",
     locationDenied = "Izin lokasi tidak diberikan. Pilih kota dari daftar.",
     dumkNote = "Jadwal untuk Kazakhstan mengikuti jadwal resmi DUMK (muftyat.kz) dan sudah dicocokkan untuk Almaty. Di kota lain bisa berbeda satu atau dua menit; koreksi menitnya bila masjid Anda berbeda.",
+    adhan = "Azan saat masuk waktu salat",
+    adhanName = adhanNames("Azan lengkap", "Pendek (20 dtk)", "Suara notifikasi", "Senyap"),
+    listen = "Dengarkan",
+    stop = "Hentikan",
+    fullScreen = "Tampilkan jendela salat di layar kunci",
+    fullScreenDenied = "Android belum mengizinkan aplikasi ini tampil layar penuh. Azan tetap berbunyi dengan notifikasi biasa.",
+    exactDenied = "Android belum mengizinkan alarm tepat waktu untuk aplikasi ini: azan bisa terlambat beberapa menit atau hanya muncul sebagai notifikasi.",
+    openSettings = "Izinkan",
+    fajrNote = "Subuh memakai azan yang sama: belum ada rekaman azan Subuh (dengan “ash-shalatu khairun minan-naum”) berlisensi bebas.",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val UrPrayer = PrayerStrings(
@@ -174,6 +246,16 @@ val UrPrayer = PrayerStrings(
     notificationsDenied = "اطلاعات کی اجازت کے بغیر یاد دہانی نہیں آئے گی۔",
     locationDenied = "مقام کی اجازت نہیں ملی۔ فہرست سے شہر منتخب کریں۔",
     dumkNote = "قازقستان کے اوقات DUMK (muftyat.kz) کے سرکاری نظام الاوقات کے مطابق ہیں اور الماتی کے لیے اس سے ملائے گئے ہیں۔ دوسرے شہروں میں ایک دو منٹ کا فرق ہو سکتا ہے؛ اپنی مسجد کے مطابق منٹ درست کر لیں۔",
+    adhan = "نماز کے وقت اذان",
+    adhanName = adhanNames("مکمل اذان", "مختصر (20 سیکنڈ)", "نوٹیفکیشن کی آواز", "خاموش"),
+    listen = "سنیں",
+    stop = "روکیں",
+    fullScreen = "لاک اسکرین پر نماز کی ونڈو دکھائیں",
+    fullScreenDenied = "اینڈرائیڈ نے اس ایپ کو پوری اسکرین پر کھلنے کی اجازت نہیں دی۔ اذان پھر بھی عام نوٹیفکیشن کے ساتھ بجے گی۔",
+    exactDenied = "اینڈرائیڈ نے اس ایپ کو درست الارم کی اجازت نہیں دی: اذان چند منٹ دیر سے بج سکتی ہے یا صرف نوٹیفکیشن آ سکتا ہے۔",
+    openSettings = "اجازت دیں",
+    fajrNote = "فجر میں بھی یہی اذان بجے گی: فجر کی اذان («الصلاۃ خیر من النوم» کے ساتھ) کی آزاد لائسنس والی ریکارڈنگ ابھی دستیاب نہیں۔",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val ArPrayer = PrayerStrings(
@@ -195,6 +277,16 @@ val ArPrayer = PrayerStrings(
     notificationsDenied = "دون إذن التنبيهات لن تصل التذكيرات.",
     locationDenied = "لم يُمنح إذن الموقع. اختر مدينة من القائمة.",
     dumkNote = "مواقيت كازاخستان تتبع الجدول الرسمي للإدارة الدينية (muftyat.kz) وقد طوبقت معه في ألماتي. قد يختلف الوقت دقيقة أو دقيقتين في مدن أخرى؛ عدّل الدقائق إن اختلف مسجدك.",
+    adhan = "الأذان عند دخول الوقت",
+    adhanName = adhanNames("الأذان كاملًا", "مختصر (20 ث)", "صوت الإشعار", "صامت"),
+    listen = "استماع",
+    stop = "إيقاف",
+    fullScreen = "إظهار نافذة الصلاة على شاشة القفل",
+    fullScreenDenied = "لم يسمح أندرويد للتطبيق بالظهور بملء الشاشة. سيُرفع الأذان مع إشعار عادي.",
+    exactDenied = "لم يسمح أندرويد للتطبيق بالمنبهات الدقيقة: قد يتأخر الأذان بضع دقائق أو يصل كإشعار فقط.",
+    openSettings = "السماح",
+    fajrNote = "يُرفع الأذان نفسه للفجر: لا يوجد بعد تسجيل حر الترخيص لأذان الفجر (مع «الصلاة خير من النوم»).",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 val EsPrayer = PrayerStrings(
@@ -216,6 +308,16 @@ val EsPrayer = PrayerStrings(
     notificationsDenied = "Sin permiso de notificaciones no habrá recordatorios.",
     locationDenied = "No se concedió acceso a la ubicación. Elige una ciudad de la lista.",
     dumkNote = "Los horarios de Kazajistán siguen el calendario oficial de la DUMK (muftyat.kz) y se han comprobado con él para Almaty. En otras ciudades puede haber uno o dos minutos de diferencia; ajusta los minutos si tu mezquita difiere.",
+    adhan = "Adhan a la hora de la oración",
+    adhanName = adhanNames("Adhan completo", "Corto (20 s)", "Sonido de notificación", "Silencio"),
+    listen = "Escuchar",
+    stop = "Detener",
+    fullScreen = "Mostrar la ventana de oración en la pantalla de bloqueo",
+    fullScreenDenied = "Android no ha permitido que la app se abra a pantalla completa. El adhan sonará igualmente, con una notificación normal.",
+    exactDenied = "Android no permite alarmas exactas a esta app: el adhan puede sonar unos minutos tarde o llegar solo como notificación.",
+    openSettings = "Permitir",
+    fajrNote = "En el Fajr suena el mismo adhan: aún no hay una grabación con licencia libre del adhan del Fajr (con «as-salatu jairun min an-naum»).",
+    adhanCredit = ADHAN_CREDIT,
 )
 
 fun prayerStringsFor(language: String): PrayerStrings = when (language) {

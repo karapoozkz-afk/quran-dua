@@ -8,6 +8,7 @@ import app.qurandua.shared.data.UserDataRepository
 import app.qurandua.shared.i18n.EnStrings
 import app.qurandua.shared.i18n.Strings
 import app.qurandua.shared.model.AppSettings
+import app.qurandua.shared.prayer.AdhanSound
 import app.qurandua.shared.prayer.Place
 import app.qurandua.shared.prayer.PrayerSettings
 import kotlinx.coroutines.flow.StateFlow
@@ -34,6 +35,16 @@ interface PrayerController {
     fun setLanguage(language: String)
     /** The device's approximate location, or null when unavailable or not permitted. */
     suspend fun currentLocation(): Place?
+    /** True while an adhan plays, from a prayer alarm or from [preview]. */
+    val adhanPlaying: StateFlow<Boolean>
+    fun preview(sound: AdhanSound)
+    fun stopAdhan()
+    /** Android 14+ lets the user withhold full-screen notifications; false when withheld. */
+    fun canUseFullScreen(): Boolean
+    fun openFullScreenSettings()
+    /** Android 12+ lets the user withhold exact alarms; without them reminders can be late. */
+    fun canScheduleExact(): Boolean
+    fun openExactAlarmSettings()
 }
 
 /** Lets screens ask for a runtime permission; MainActivity plugs in the real launcher. */

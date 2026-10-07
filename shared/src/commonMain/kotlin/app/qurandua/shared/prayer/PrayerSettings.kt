@@ -14,6 +14,10 @@ data class Place(
     val country: String = "",
 )
 
+/** The sound of a prayer-time reminder. */
+@Serializable
+enum class AdhanSound { FULL, SHORT, NOTIFICATION, SILENT }
+
 @Serializable
 data class PrayerSettings(
     val place: Place? = null,
@@ -24,6 +28,10 @@ data class PrayerSettings(
     val userOffsets: Map<Prayer, Int> = emptyMap(),
     val notificationsOn: Boolean = false,
     val notify: Set<Prayer> = setOf(Prayer.FAJR, Prayer.DHUHR, Prayer.ASR, Prayer.MAGHRIB, Prayer.ISHA),
+    /** What plays when a prayer time comes. */
+    val adhan: AdhanSound = AdhanSound.FULL,
+    /** Show the prayer window over the lock screen, like the call from a mosque. */
+    val fullScreen: Boolean = true,
 ) {
     val effectiveMethod: CalculationMethod get() = method ?: defaultMethodFor(place?.country.orEmpty())
     val effectiveAsr: AsrSchool get() = asr ?: effectiveMethod.defaultAsr
