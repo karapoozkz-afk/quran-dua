@@ -41,6 +41,16 @@ CHARITY_PURPOSES = {"zakat", "sadaqah", "mosque", "orphans", "water", "food", "e
 errors = []
 
 
+def fix_translit(fixes, surah, ayah, text):
+    """Applies a known fix, and fails if the upstream text changed so the fix is no longer needed."""
+    if (surah, ayah) not in fixes:
+        return text
+    before, after = fixes[(surah, ayah)]
+    if text != before:
+        raise SystemExit(f"translit fix for {surah}:{ayah} is stale: {text!r}")
+    return after
+
+
 def err(msg):
     errors.append(msg)
 
@@ -80,6 +90,8 @@ def build_quran(ar, tr, ru, en, extra):
     }
     surahs = []
     total = 0
+    # Known typos in the upstream transliteration (checked against the Tanzil.net original).
+    translit_fixes = {(114, 6): ("Mina aljinnati wa alnnasm", "Mina aljinnati wa alnnasi")}
     for i in range(114):
         a, t, r, e = ar[i], tr[i], ru[i], en[i]
         n = a["total_verses"]
@@ -88,7 +100,7 @@ def build_quran(ar, tr, ru, en, extra):
         for k in range(n):
             row = [
                 a["verses"][k]["text"],
-                t["verses"][k]["transliteration"],
+                fix_translit(translit_fixes, i + 1, k + 1, t["verses"][k]["transliteration"]),
                 r["verses"][k]["translation"],
                 e["verses"][k]["translation"],
             ]

@@ -23,7 +23,14 @@ interface PlatformActions {
 /** Streams recitation audio. [playing] holds the key of what is playing now. */
 interface AudioController {
     val playing: StateFlow<String?>
+    /** Index of the track now playing within the list passed to [play]. */
+    val index: StateFlow<Int>
+    /** Whether the phone has an Arabic text-to-speech voice; null while that is still unknown. */
+    val arabicVoice: StateFlow<Boolean?>
     fun play(key: String, urls: List<String>)
+    /** Reads Arabic text with the phone's own voice, for duas that have no recording. */
+    fun speak(key: String, arabic: String)
+    fun openVoiceSettings()
     fun stop()
 }
 

@@ -772,7 +772,7 @@
       "title": "Saludo al visitar las tumbas",
       "translation": "La paz sea con vosotros, oh habitantes de estas moradas, creyentes y musulmanes. Ciertamente, si Allah quiere, nos uniremos a vosotros. Pido a Allah bienestar para nosotros y para vosotros.",
       "source": "Muslim, 975",
-      "translit": "As-salamu ‘alaykum ahl ad-diyari min al-mu’minina wal-muslimin, wa inna in sha’ Allahu bikum la-lahiqun, as’alu-llaha lana wa lakumul-‘afiyah"
+      "translit": "As-salamu ‘alaykum ahlad-diyari minal-mu’minina wal-muslimin, wa inna in sha’ Allahu bikum la-lahiqun, as’alu-llaha lana wa lakumul-‘afiyah"
     },
     "grave_istighfar": {
       "title": "Tras el entierro: pedir firmeza para el difunto",
@@ -1067,7 +1067,7 @@
       "title": "Al entrar y salir de la mezquita",
       "translation": "Al entrar: «Oh Allah, ábreme las puertas de Tu misericordia». Al salir: «Oh Allah, te pido de Tu favor».",
       "source": "Muslim, 713",
-      "translit": "Entering: “Allahummaftah li abwaba rahmatik”. Leaving: “Allahumma inni as’aluka min fadlik”"
+      "translit": "Al entrar: «Allahummaftah li abwaba rahmatik». Al salir: «Allahumma inni as’aluka min fadlik»"
     },
     "after_wudu": {
       "title": "Después del wudu (ablución)",
@@ -1375,7 +1375,7 @@
       "translation": "Alabado sea Allah, que me libró de aquello con lo que te ha probado a ti y me favoreció por encima de muchas de Sus criaturas.",
       "source": "at-Tirmidhi, 3432 (hasan)",
       "note": "Dilo en voz baja, para ti, para no herir a esa persona.",
-      "translit": "Al-hamdu lillahil-ladhi ‘afani mimmab-talaka bih, wa faddalani ‘ala kathirin mimman jalaqa tafdila"
+      "translit": "Al-hamdu lillahil-ladhi ‘afani mimma-btalaka bih, wa faddalani ‘ala kathirin mimman jalaqa tafdila"
     },
     "seeing_pleasing": {
       "title": "Admirar algo sin echar mal de ojo",

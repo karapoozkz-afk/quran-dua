@@ -190,6 +190,8 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                 surahs = surahs,
                                 quranReady = quranReady,
                                 onOpenSurah = { route = Route.Reader(it, null) },
+                                lastRead = lastRead,
+                                onContinueReading = openAyah,
                             )
 
                             Tab.DUAS -> DuasScreen(

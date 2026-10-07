@@ -20,6 +20,8 @@ import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Stop
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -50,12 +52,15 @@ import app.qurandua.shared.model.Ayah
 import app.qurandua.shared.model.AyahKey
 import app.qurandua.shared.model.SurahInfo
 import androidx.compose.ui.text.font.FontStyle
+import kotlinx.coroutines.flow.drop
 
 @Composable
 fun SurahListScreen(
     surahs: List<SurahInfo>,
     quranReady: Boolean,
     onOpenSurah: (Int) -> Unit,
+    lastRead: AyahKey? = null,
+    onContinueReading: (AyahKey) -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -74,6 +79,30 @@ fun SurahListScreen(
         modifier = modifier.fillMaxSize(),
         contentPadding = PaddingValues(vertical = 8.dp),
     ) {
+        if (lastRead != null) {
+            item(key = "continue") {
+                Card(
+                    onClick = { onContinueReading(lastRead) },
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.primaryContainer,
+                        contentColor = MaterialTheme.colorScheme.onPrimaryContainer,
+                    ),
+                ) {
+                    Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Icon(Icons.Filled.Bookmark, contentDescription = null)
+                        Column(Modifier.padding(start = 12.dp)) {
+                            Text(strings.continueReading, style = MaterialTheme.typography.titleSmall)
+                            val name = surahs.firstOrNull { it.number == lastRead.surah }?.transliteration
+                            Text(
+                                listOfNotNull(name, strings.surahAyah(lastRead.surah, lastRead.ayah)).joinToString(" · "),
+                                style = MaterialTheme.typography.bodyMedium,
+                            )
+                        }
+                    }
+                }
+            }
+        }
         items(surahs, key = { it.number }) { surah ->
             Row(
                 Modifier
@@ -133,13 +162,22 @@ fun SurahReaderScreen(
         info = loadSurah(surahNumber)
         ayahs = loadAyahs(surahNumber)
         val target = initialAyah?.takeIf { it > 1 }
-        if (target != null && target <= ayahs.size) listState.scrollToItem(target - 1)
+        // Item 0 is the "listen to the whole surah" row, so ayah n sits at index n.
+        if (target != null && target <= ayahs.size) listState.scrollToItem(target)
     }
 
     LaunchedEffect(surahNumber, listState) {
         snapshotIndex(listState) { index ->
-            ayahs.getOrNull(index)?.let { onLastRead(it.key) }
+            ayahs.getOrNull((index - 1).coerceAtLeast(0))?.let { onLastRead(it.key) }
         }
+    }
+
+    // While the whole surah plays, highlight the ayah being recited and keep it on screen.
+    val surahKey = "surah_$surahNumber"
+    val audioIndex by deps.audio.index.collectAsState()
+    val recitingAyah = if (playing == surahKey) audioIndex + 1 else null
+    LaunchedEffect(recitingAyah) {
+        recitingAyah?.let { listState.animateScrollToItem(it) }
     }
 
     Scaffold(topBar = { BackTopBar(info?.transliteration ?: strings.navQuran, onBack) }) { padding ->
@@ -153,11 +191,31 @@ fun SurahReaderScreen(
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            item(key = "listen") {
+                FilledTonalButton(
+                    onClick = {
+                        if (playing == surahKey) deps.audio.stop()
+                        else deps.audio.play(surahKey, ayahs.map { ayahAudioUrl(it.surah, it.number) })
+                    },
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Icon(if (playing == surahKey) Icons.Filled.Stop else Icons.Filled.PlayArrow, contentDescription = null)
+                    Text(if (playing == surahKey) strings.stop else strings.listenSurah, Modifier.padding(start = 8.dp))
+                }
+            }
             items(ayahs, key = { it.number }) { ayah ->
                 val key = ayah.key
                 val audioKey = "ayah_${ayah.surah}_${ayah.number}"
                 val bookmarked = key in bookmarks
-                Card(Modifier.fillMaxWidth()) {
+                val reciting = recitingAyah == ayah.number
+                Card(
+                    Modifier.fillMaxWidth(),
+                    colors = if (reciting) {
+                        CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                    } else {
+                        CardDefaults.cardColors()
+                    },
+                ) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                             Text(
@@ -201,6 +259,9 @@ private suspend fun snapshotIndex(
     state: androidx.compose.foundation.lazy.LazyListState,
     onIndex: (Int) -> Unit,
 ) {
+    // The first value is where the surah opened; only the reader's own scrolling moves the mark,
+    // so peeking into another surah does not lose the place.
     androidx.compose.runtime.snapshotFlow { state.firstVisibleItemIndex }
+        .drop(1)
         .collect { onIndex(it) }
 }

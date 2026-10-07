@@ -63,6 +63,7 @@ fun DuaCard(
     val scope = rememberCoroutineScope()
     val playing by deps.audio.playing.collectAsState()
     val isPlaying = playing == item.id
+    val arabicVoice by deps.audio.arabicVoice.collectAsState()
 
     Card(modifier.fillMaxWidth()) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -117,12 +118,26 @@ fun DuaCard(
                 )
             }
 
+            // Ayahs play the reciter's recording; other duas fall back to the phone's Arabic voice.
+            val audioKeys = item.quranAyahs.ifEmpty { listOfNotNull(item.quranRef) }
+            val spoken = item.arabic?.takeIf { it.isNotBlank() && audioKeys.isEmpty() }
+            if (spoken != null && isPlaying) {
+                if (arabicVoice == false) {
+                    Text(strings.noArabicVoice, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
+                    TextButton(onClick = { deps.audio.openVoiceSettings() }) { Text(strings.voiceSettings) }
+                } else {
+                    Text(strings.ttsNote, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            }
+
             FlowRow(horizontalArrangement = Arrangement.spacedBy(4.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                val audioKeys = item.quranAyahs.ifEmpty { listOfNotNull(item.quranRef) }
-                if (audioKeys.isNotEmpty()) {
+                if (audioKeys.isNotEmpty() || spoken != null) {
                     TextButton(onClick = {
-                        if (isPlaying) deps.audio.stop()
-                        else deps.audio.play(item.id, audioKeys.map { ayahAudioUrl(it.surah, it.ayah) })
+                        when {
+                            isPlaying -> deps.audio.stop()
+                            audioKeys.isNotEmpty() -> deps.audio.play(item.id, audioKeys.map { ayahAudioUrl(it.surah, it.ayah) })
+                            spoken != null -> deps.audio.speak(item.id, spoken)
+                        }
                     }) {
                         Icon(if (isPlaying) Icons.Filled.Stop else Icons.Filled.PlayArrow, contentDescription = null)
                         Text(if (isPlaying) strings.stop else strings.listen, Modifier.padding(start = 6.dp))
