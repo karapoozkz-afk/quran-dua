@@ -40,6 +40,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:taskAffinity="app.qurandua.adhan"
+            android:theme="@style/Theme.QuranDua.AdhanSheet"
             android:showWhenLocked="true"
             android:turnScreenOn="true" />
 

@@ -21,9 +21,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -237,24 +240,34 @@ class AdhanActivity : ComponentActivity() {
                 val playing by AdhanPlayer.playing.collectAsState()
                 // Close the window by itself once the adhan has ended.
                 LaunchedEffect(playing) { if (!playing && settings.adhan.let { it == AdhanSound.FULL || it == AdhanSound.SHORT }) finishAfterDelay() }
-                Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Column(
-                        Modifier.fillMaxSize().padding(32.dp),
-                        verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
-                        horizontalAlignment = Alignment.CenterHorizontally,
+                // Half a screen at the bottom, like a sheet; the top half shows the dimmed lock screen.
+                Column(Modifier.fillMaxSize()) {
+                    Spacer(Modifier.weight(1f).fillMaxWidth())
+                    Surface(
+                        Modifier.fillMaxWidth().weight(1f),
+                        color = MaterialTheme.colorScheme.background,
+                        shape = RoundedCornerShape(topStart = 28.dp, topEnd = 28.dp),
                     ) {
-                        Text("ٱللَّهُ أَكۡبَرُ", fontFamily = arabic, fontSize = 52.sp, color = MaterialTheme.colorScheme.primary)
-                        Text(strings.prayerName(prayer), style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
-                        Text(time, style = MaterialTheme.typography.headlineMedium)
-                        settings.place?.let { Text(it.name, style = MaterialTheme.typography.titleMedium) }
-                        Text(strings.notificationText(prayer), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
-                        Button(
-                            onClick = {
-                                Adhan.stop(this@AdhanActivity)
-                                finish()
-                            },
-                            modifier = Modifier.fillMaxWidth().padding(top = 24.dp),
-                        ) { Text(strings.stop, style = MaterialTheme.typography.titleMedium) }
+                        Column(
+                            Modifier.fillMaxSize().navigationBarsPadding().padding(horizontal = 28.dp, vertical = 20.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterVertically),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                        ) {
+                            Text("ٱللَّهُ أَكۡبَرُ", fontFamily = arabic, fontSize = 40.sp, color = MaterialTheme.colorScheme.primary)
+                            Text(strings.prayerName(prayer), style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+                            Text(
+                                listOfNotNull(time, settings.place?.name).joinToString(" · "),
+                                style = MaterialTheme.typography.titleMedium,
+                                textAlign = TextAlign.Center,
+                            )
+                            Button(
+                                onClick = {
+                                    Adhan.stop(this@AdhanActivity)
+                                    finish()
+                                },
+                                modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
+                            ) { Text(strings.stop, style = MaterialTheme.typography.titleMedium) }
+                        }
                     }
                 }
             }
