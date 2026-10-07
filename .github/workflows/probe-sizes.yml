@@ -1,0 +1,37 @@
+name: Probe recitation sizes
+on: { push: { branches: [probe-sizes] } }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: HEAD every ayah file
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, concurrent.futures as cf
+          q = json.load(open('androidApp/src/main/assets/content/quran.json'))
+          counts = [len(s['ayahs']) if isinstance(s['ayahs'], list) else s['ayahs'] for s in q['surahs']]
+          print(type(q), list(q)[:5] if isinstance(q, dict) else len(q))
+          json.dump(counts, open('/tmp/counts.json','w'))
+          def size(su, ay):
+              url = f"https://everyayah.com/data/Alafasy_128kbps/{su:03d}{ay:03d}.mp3"
+              for _ in range(4):
+                  try:
+                      r = urllib.request.urlopen(urllib.request.Request(url, method='HEAD'), timeout=30)
+                      return int(r.headers['Content-Length'])
+                  except Exception as e:
+                      err = e
+              return -1
+          jobs = [(s+1, a+1) for s, n in enumerate(counts) for a in range(n)]
+          with cf.ThreadPoolExecutor(32) as ex:
+              sizes = list(ex.map(lambda j: size(*j), jobs))
+          per = {}
+          for (s, a), b in zip(jobs, sizes): per.setdefault(s, []).append(b)
+          out = {"total": sum(sizes), "missing": sum(1 for b in sizes if b < 0), "surah": [sum(per[s]) for s in sorted(per)]}
+          json.dump(out, open('sizes.json', 'w'))
+          print(out["total"], out["missing"])
+          PY
+      - run: |
+          git config user.name probe; git config user.email probe@example.com
+          git add sizes.json; git commit -m "sizes"; git push origin HEAD:probe-sizes
