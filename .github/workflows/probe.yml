@@ -1,0 +1,25 @@
+name: Probe adhan licenses
+on: push
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse, re
+          def get(params):
+              u = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
+              req = urllib.request.Request(u, headers={"User-Agent": "quran-dua-ci/1.0 (license check)"})
+              return json.load(urllib.request.urlopen(req))
+          titles = set()
+          for q in ["adhan", "azan", "athan", "call to prayer", "ezan", "Fajr adhan"]:
+              r = get({"action": "query", "list": "search", "srsearch": q + " filetype:audio", "srnamespace": 6, "srlimit": 50, "format": "json"})
+              titles |= {x["title"] for x in r["query"]["search"]}
+          titles = sorted(titles)
+          for i in range(0, len(titles), 40):
+              r = get({"action": "query", "titles": "|".join(titles[i:i+40]), "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "format": "json"})
+              for p in r["query"]["pages"].values():
+                  ii = (p.get("imageinfo") or [{}])[0]; m = ii.get("extmetadata", {})
+                  val = lambda k: re.sub("<[^>]+>", "", m.get(k, {}).get("value", ""))[:120]
+                  print("FILE|" + p["title"] + "|" + val("LicenseShortName") + "|" + val("Artist") + "|" + str(ii.get("size")) + "|" + str(ii.get("duration", "")) + "|" + ii.get("mime", "") + "|" + ii.get("url", "") + "|" + val("ImageDescription"))
+          PY
