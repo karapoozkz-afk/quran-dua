@@ -59,7 +59,7 @@ val EnPrayer = PrayerStrings(
     useLocation = "My location",
     noPlace = "Choose a city to see prayer times. They are calculated on the phone and work offline.",
     method = "Calculation method",
-    methodName = methodNames("Kazakhstan (DUMK, approximate)", "Muslim World League", "ISNA (North America)", "Egyptian Authority", "Umm al-Qura (Makkah)", "Karachi University", "Diyanet (Turkey)", "Kemenag (Indonesia)", "Russia (DUM)"),
+    methodName = methodNames("Kazakhstan (DUMK)", "Muslim World League", "ISNA (North America)", "Egyptian Authority", "Umm al-Qura (Makkah)", "Karachi University", "Diyanet (Turkey)", "Kemenag (Indonesia)", "Russia (DUM)"),
     asr = "Asr",
     asrStandard = "Standard (Shafi‘i, Maliki, Hanbali)",
     asrHanafi = "Hanafi",
@@ -68,7 +68,7 @@ val EnPrayer = PrayerStrings(
     notificationText = { p -> "It is time for ${prayerNames("Fajr", "Sunrise", "Dhuhr", "Asr", "Maghrib", "Isha")(p)} prayer" },
     notificationsDenied = "Without notification permission there will be no reminders.",
     locationDenied = "Location access was not granted. Choose a city from the list.",
-    dumkNote = "Times for Kazakhstan approximate the DUMK (muftyat.kz) timetable. Compare with muftyat.kz for your city and adjust the minutes if needed.",
+    dumkNote = "Times for Kazakhstan follow the official DUMK (muftyat.kz) timetable, checked against it for Almaty. Small differences of a minute or two are possible in other cities; adjust the minutes if your mosque differs.",
 )
 
 val RuPrayer = PrayerStrings(
@@ -80,7 +80,7 @@ val RuPrayer = PrayerStrings(
     useLocation = "Моё местоположение",
     noPlace = "Выберите город, чтобы увидеть время намаза. Оно считается прямо на телефоне и работает без интернета.",
     method = "Метод расчёта",
-    methodName = methodNames("Казахстан (ДУМК, приближённо)", "Всемирная исламская лига", "ISNA (Северная Америка)", "Египет", "Умм аль-Кура (Мекка)", "Университет Карачи", "Диянет (Турция)", "Кеменаг (Индонезия)", "Россия (ДУМ)"),
+    methodName = methodNames("Казахстан (ДУМК)", "Всемирная исламская лига", "ISNA (Северная Америка)", "Египет", "Умм аль-Кура (Мекка)", "Университет Карачи", "Диянет (Турция)", "Кеменаг (Индонезия)", "Россия (ДУМ)"),
     asr = "Аср",
     asrStandard = "Стандартный (шафииты, маликиты, ханбалиты)",
     asrHanafi = "Ханафитский",
@@ -89,7 +89,7 @@ val RuPrayer = PrayerStrings(
     notificationText = { p -> "Наступило время намаза: ${prayerNames("Фаджр", "Восход", "Зухр", "Аср", "Магриб", "Иша")(p)}" },
     notificationsDenied = "Без разрешения на уведомления напоминаний не будет.",
     locationDenied = "Доступ к местоположению не дан. Выберите город из списка.",
-    dumkNote = "Время для Казахстана приближено к расписанию ДУМК (muftyat.kz). Сверьте его с muftyat.kz для своего города и при необходимости поправьте минуты.",
+    dumkNote = "Время для Казахстана считается по правилам официального расписания ДУМК (muftyat.kz) и сверено с ним для Алматы. В других городах возможна разница в минуту-две; если в вашей мечети время другое, поправьте минуты.",
 )
 
 val KkPrayer = PrayerStrings(
@@ -101,7 +101,7 @@ val KkPrayer = PrayerStrings(
     useLocation = "Менің орным",
     noPlace = "Намаз уақытын көру үшін қаланы таңдаңыз. Уақыт телефонның өзінде есептеледі және интернетсіз жұмыс істейді.",
     method = "Есептеу әдісі",
-    methodName = methodNames("Қазақстан (ҚМДБ, жуықтап)", "Дүниежүзілік ислам лигасы", "ISNA (Солтүстік Америка)", "Мысыр", "Умм әл-Құра (Мекке)", "Карачи университеті", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Ресей (МДБ)"),
+    methodName = methodNames("Қазақстан (ҚМДБ)", "Дүниежүзілік ислам лигасы", "ISNA (Солтүстік Америка)", "Мысыр", "Умм әл-Құра (Мекке)", "Карачи университеті", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Ресей (МДБ)"),
     asr = "Екінті",
     asrStandard = "Стандартты (шафиғи, мәлики, ханбали)",
     asrHanafi = "Ханафи",
@@ -110,7 +110,7 @@ val KkPrayer = PrayerStrings(
     notificationText = { p -> "Намаз уақыты кірді: ${prayerNames("Таң", "Күн шығуы", "Бесін", "Екінті", "Ақшам", "Құптан")(p)}" },
     notificationsDenied = "Хабарламаға рұқсат болмаса, еске салу болмайды.",
     locationDenied = "Орналасқан жерге рұқсат берілмеді. Тізімнен қаланы таңдаңыз.",
-    dumkNote = "Қазақстан үшін уақыт ҚМДБ (muftyat.kz) кестесіне жуықтап есептеледі. Өз қалаңыз үшін muftyat.kz-пен салыстырып, қажет болса минуттарды түзетіңіз.",
+    dumkNote = "Қазақстан үшін уақыт ҚМДБ (muftyat.kz) ресми кестесінің ережесімен есептеледі және Алматы бойынша онымен салыстырылды. Басқа қалаларда бір-екі минут айырмашылық болуы мүмкін; мешітіңіздің уақыты басқа болса, минуттарды түзетіңіз.",
 )
 
 val TrPrayer = PrayerStrings(
@@ -122,7 +122,7 @@ val TrPrayer = PrayerStrings(
     useLocation = "Konumum",
     noPlace = "Namaz vakitlerini görmek için bir şehir seçin. Vakitler telefonda hesaplanır ve internetsiz çalışır.",
     method = "Hesaplama yöntemi",
-    methodName = methodNames("Kazakistan (DUMK, yaklaşık)", "Dünya Müslüman Birliği", "ISNA (Kuzey Amerika)", "Mısır", "Ümmü'l-Kurâ (Mekke)", "Karaçi Üniversitesi", "Diyanet (Türkiye)", "Kemenag (Endonezya)", "Rusya (DUM)"),
+    methodName = methodNames("Kazakistan (DUMK)", "Dünya Müslüman Birliği", "ISNA (Kuzey Amerika)", "Mısır", "Ümmü'l-Kurâ (Mekke)", "Karaçi Üniversitesi", "Diyanet (Türkiye)", "Kemenag (Endonezya)", "Rusya (DUM)"),
     asr = "İkindi",
     asrStandard = "Standart (Şâfiî, Mâlikî, Hanbelî)",
     asrHanafi = "Hanefî",
@@ -131,7 +131,7 @@ val TrPrayer = PrayerStrings(
     notificationText = { p -> "Namaz vakti girdi: ${prayerNames("İmsak", "Güneş", "Öğle", "İkindi", "Akşam", "Yatsı")(p)}" },
     notificationsDenied = "Bildirim izni olmadan hatırlatma gelmez.",
     locationDenied = "Konum izni verilmedi. Listeden bir şehir seçin.",
-    dumkNote = "Kazakistan vakitleri DUMK (muftyat.kz) takvimine yaklaşıktır. Şehriniz için muftyat.kz ile karşılaştırıp gerekirse dakikaları düzeltin.",
+    dumkNote = "Kazakistan vakitleri resmî DUMK (muftyat.kz) takvimine göre hesaplanır ve Almatı için onunla karşılaştırılmıştır. Diğer şehirlerde bir iki dakikalık fark olabilir; camiinizin vakti farklıysa dakikaları düzeltin.",
 )
 
 val IdPrayer = PrayerStrings(
@@ -143,7 +143,7 @@ val IdPrayer = PrayerStrings(
     useLocation = "Lokasi saya",
     noPlace = "Pilih kota untuk melihat jadwal salat. Jadwal dihitung di ponsel dan berfungsi tanpa internet.",
     method = "Metode perhitungan",
-    methodName = methodNames("Kazakhstan (DUMK, perkiraan)", "Liga Muslim Dunia", "ISNA (Amerika Utara)", "Mesir", "Umm al-Qura (Makkah)", "Universitas Karachi", "Diyanet (Turki)", "Kemenag (Indonesia)", "Rusia (DUM)"),
+    methodName = methodNames("Kazakhstan (DUMK)", "Liga Muslim Dunia", "ISNA (Amerika Utara)", "Mesir", "Umm al-Qura (Makkah)", "Universitas Karachi", "Diyanet (Turki)", "Kemenag (Indonesia)", "Rusia (DUM)"),
     asr = "Asar",
     asrStandard = "Standar (Syafi'i, Maliki, Hanbali)",
     asrHanafi = "Hanafi",
@@ -152,7 +152,7 @@ val IdPrayer = PrayerStrings(
     notificationText = { p -> "Waktu salat ${prayerNames("Subuh", "Terbit", "Zuhur", "Asar", "Magrib", "Isya")(p)} telah tiba" },
     notificationsDenied = "Tanpa izin notifikasi, pengingat tidak akan muncul.",
     locationDenied = "Izin lokasi tidak diberikan. Pilih kota dari daftar.",
-    dumkNote = "Jadwal untuk Kazakhstan mendekati jadwal DUMK (muftyat.kz). Bandingkan dengan muftyat.kz untuk kota Anda dan koreksi menitnya bila perlu.",
+    dumkNote = "Jadwal untuk Kazakhstan mengikuti jadwal resmi DUMK (muftyat.kz) dan sudah dicocokkan untuk Almaty. Di kota lain bisa berbeda satu atau dua menit; koreksi menitnya bila masjid Anda berbeda.",
 )
 
 val UrPrayer = PrayerStrings(
@@ -164,7 +164,7 @@ val UrPrayer = PrayerStrings(
     useLocation = "میرا مقام",
     noPlace = "نماز کے اوقات دیکھنے کے لیے شہر منتخب کریں۔ اوقات فون پر ہی حساب ہوتے ہیں اور انٹرنیٹ کے بغیر کام کرتے ہیں۔",
     method = "حساب کا طریقہ",
-    methodName = methodNames("قازقستان (DUMK، تخمینی)", "مسلم ورلڈ لیگ", "ISNA (شمالی امریکہ)", "مصر", "ام القریٰ (مکہ)", "جامعہ کراچی", "دیانت (ترکی)", "کیمیناگ (انڈونیشیا)", "روس (DUM)"),
+    methodName = methodNames("قازقستان (DUMK)", "مسلم ورلڈ لیگ", "ISNA (شمالی امریکہ)", "مصر", "ام القریٰ (مکہ)", "جامعہ کراچی", "دیانت (ترکی)", "کیمیناگ (انڈونیشیا)", "روس (DUM)"),
     asr = "عصر",
     asrStandard = "عام (شافعی، مالکی، حنبلی)",
     asrHanafi = "حنفی",
@@ -173,7 +173,7 @@ val UrPrayer = PrayerStrings(
     notificationText = { p -> "${prayerNames("فجر", "طلوع آفتاب", "ظہر", "عصر", "مغرب", "عشاء")(p)} کی نماز کا وقت ہو گیا" },
     notificationsDenied = "اطلاعات کی اجازت کے بغیر یاد دہانی نہیں آئے گی۔",
     locationDenied = "مقام کی اجازت نہیں ملی۔ فہرست سے شہر منتخب کریں۔",
-    dumkNote = "قازقستان کے اوقات DUMK (muftyat.kz) کے نظام الاوقات کے قریب ہیں۔ اپنے شہر کے لیے muftyat.kz سے موازنہ کر کے ضرورت ہو تو منٹ درست کریں۔",
+    dumkNote = "قازقستان کے اوقات DUMK (muftyat.kz) کے سرکاری نظام الاوقات کے مطابق ہیں اور الماتی کے لیے اس سے ملائے گئے ہیں۔ دوسرے شہروں میں ایک دو منٹ کا فرق ہو سکتا ہے؛ اپنی مسجد کے مطابق منٹ درست کر لیں۔",
 )
 
 val ArPrayer = PrayerStrings(
@@ -185,7 +185,7 @@ val ArPrayer = PrayerStrings(
     useLocation = "موقعي",
     noPlace = "اختر مدينة لعرض مواقيت الصلاة. تُحسب المواقيت على الهاتف وتعمل دون إنترنت.",
     method = "طريقة الحساب",
-    methodName = methodNames("كازاخستان (تقريبي)", "رابطة العالم الإسلامي", "ISNA (أمريكا الشمالية)", "الهيئة المصرية", "أم القرى (مكة)", "جامعة كراتشي", "ديانت (تركيا)", "وزارة الشؤون الدينية (إندونيسيا)", "روسيا"),
+    methodName = methodNames("كازاخستان (الإدارة الدينية)", "رابطة العالم الإسلامي", "ISNA (أمريكا الشمالية)", "الهيئة المصرية", "أم القرى (مكة)", "جامعة كراتشي", "ديانت (تركيا)", "وزارة الشؤون الدينية (إندونيسيا)", "روسيا"),
     asr = "العصر",
     asrStandard = "الجمهور (الشافعي والمالكي والحنبلي)",
     asrHanafi = "الحنفي",
@@ -194,7 +194,7 @@ val ArPrayer = PrayerStrings(
     notificationText = { p -> "حان وقت صلاة ${prayerNames("الفجر", "الشروق", "الظهر", "العصر", "المغرب", "العشاء")(p)}" },
     notificationsDenied = "دون إذن التنبيهات لن تصل التذكيرات.",
     locationDenied = "لم يُمنح إذن الموقع. اختر مدينة من القائمة.",
-    dumkNote = "مواقيت كازاخستان تقريبية لجدول الإدارة الدينية (muftyat.kz). قارنها بجدول مدينتك وعدّل الدقائق عند الحاجة.",
+    dumkNote = "مواقيت كازاخستان تتبع الجدول الرسمي للإدارة الدينية (muftyat.kz) وقد طوبقت معه في ألماتي. قد يختلف الوقت دقيقة أو دقيقتين في مدن أخرى؛ عدّل الدقائق إن اختلف مسجدك.",
 )
 
 val EsPrayer = PrayerStrings(
@@ -206,7 +206,7 @@ val EsPrayer = PrayerStrings(
     useLocation = "Mi ubicación",
     noPlace = "Elige una ciudad para ver los horarios de oración. Se calculan en el teléfono y funcionan sin internet.",
     method = "Método de cálculo",
-    methodName = methodNames("Kazajistán (DUMK, aproximado)", "Liga Musulmana Mundial", "ISNA (Norteamérica)", "Autoridad egipcia", "Umm al-Qura (La Meca)", "Universidad de Karachi", "Diyanet (Turquía)", "Kemenag (Indonesia)", "Rusia (DUM)"),
+    methodName = methodNames("Kazajistán (DUMK)", "Liga Musulmana Mundial", "ISNA (Norteamérica)", "Autoridad egipcia", "Umm al-Qura (La Meca)", "Universidad de Karachi", "Diyanet (Turquía)", "Kemenag (Indonesia)", "Rusia (DUM)"),
     asr = "Asr",
     asrStandard = "Estándar (shafi‘í, malikí, hanbalí)",
     asrHanafi = "Hanafí",
@@ -215,7 +215,7 @@ val EsPrayer = PrayerStrings(
     notificationText = { p -> "Es la hora de la oración: ${prayerNames("Fayr", "Salida del sol", "Duhr", "Asr", "Magrib", "Isha")(p)}" },
     notificationsDenied = "Sin permiso de notificaciones no habrá recordatorios.",
     locationDenied = "No se concedió acceso a la ubicación. Elige una ciudad de la lista.",
-    dumkNote = "Los horarios de Kazajistán se aproximan al calendario de la DUMK (muftyat.kz). Compáralos con muftyat.kz para tu ciudad y ajusta los minutos si hace falta.",
+    dumkNote = "Los horarios de Kazajistán siguen el calendario oficial de la DUMK (muftyat.kz) y se han comprobado con él para Almaty. En otras ciudades puede haber uno o dos minutos de diferencia; ajusta los minutos si tu mezquita difiere.",
 )
 
 fun prayerStringsFor(language: String): PrayerStrings = when (language) {

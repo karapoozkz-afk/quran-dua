@@ -39,11 +39,16 @@ enum class CalculationMethod(
     val defaultAsr: AsrSchool = AsrSchool.STANDARD,
 ) {
     /**
-     * Approximation of the timetable of the Spiritual Administration of Muslims of
-     * Kazakhstan (muftyat.kz). Its exact parameters are not published in machine-readable
-     * form, so users compare with muftyat.kz for their city and adjust minutes.
+     * Timetable of the Spiritual Administration of Muslims of Kazakhstan (muftyat.kz).
+     * Fitted to its official Almaty timetable for 2026 (api.muftyat.kz): the sun 15° below
+     * the horizon for Fajr and Isha, Hanafi Asr, and a few minutes of precaution added to
+     * sunrise, Dhuhr, Asr and Maghrib. See DumkTimetableTest.
      */
-    KAZAKHSTAN_DUMK(18.0, 15.0, defaultAsr = AsrSchool.HANAFI),
+    KAZAKHSTAN_DUMK(
+        15.0, 15.0,
+        offsets = mapOf(Prayer.SUNRISE to -3, Prayer.DHUHR to 3, Prayer.ASR to 3, Prayer.MAGHRIB to 3),
+        defaultAsr = AsrSchool.HANAFI,
+    ),
     MUSLIM_WORLD_LEAGUE(18.0, 17.0),
     ISNA(15.0, 15.0),
     EGYPT(19.5, 17.5),
