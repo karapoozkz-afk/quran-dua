@@ -1,25 +1,25 @@
-name: Probe adhan licenses
+name: Fetch adhan audio
 on: push
+permissions:
+  contents: write
 jobs:
-  probe:
+  fetch:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - run: |
-          python3 - <<'PY'
-          import json, urllib.request, urllib.parse, re
-          def get(params):
-              u = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
-              req = urllib.request.Request(u, headers={"User-Agent": "quran-dua-ci/1.0 (license check)"})
-              return json.load(urllib.request.urlopen(req))
-          titles = set()
-          for q in ["adhan", "azan", "athan", "call to prayer", "ezan", "Fajr adhan"]:
-              r = get({"action": "query", "list": "search", "srsearch": q + " filetype:audio", "srnamespace": 6, "srlimit": 50, "format": "json"})
-              titles |= {x["title"] for x in r["query"]["search"]}
-          titles = sorted(titles)
-          for i in range(0, len(titles), 40):
-              r = get({"action": "query", "titles": "|".join(titles[i:i+40]), "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "format": "json"})
-              for p in r["query"]["pages"].values():
-                  ii = (p.get("imageinfo") or [{}])[0]; m = ii.get("extmetadata", {})
-                  val = lambda k: re.sub("<[^>]+>", "", m.get(k, {}).get("value", ""))[:120]
-                  print("FILE|" + p["title"] + "|" + val("LicenseShortName") + "|" + val("Artist") + "|" + str(ii.get("size")) + "|" + str(ii.get("duration", "")) + "|" + ii.get("mime", "") + "|" + ii.get("url", "") + "|" + val("ImageDescription"))
-          PY
+          set -e
+          sudo apt-get -qq update >/dev/null && sudo apt-get -qq install -y ffmpeg >/dev/null
+          UA="quran-dua-ci/1.0"
+          curl -sSfL -A "$UA" -o /tmp/src.mp3 "https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3"
+          sha256sum /tmp/src.mp3
+          ffprobe -hide_banner /tmp/src.mp3 2>&1 | tail -5
+          ffmpeg -hide_banner -i /tmp/src.mp3 -af silencedetect=n=-40dB:d=1.5,volumedetect -f null - 2>&1 | grep -E "silence_|mean_volume|max_volume"
+          mkdir -p androidApp/src/main/res/raw
+          # Full adhan, mono 96 kbps, loudness-normalised so phones play it at a predictable level.
+          ffmpeg -hide_banner -loglevel error -y -i /tmp/src.mp3 -ac 1 -ar 44100 -af loudnorm=I=-16:TP=-1.5 -b:a 96k androidApp/src/main/res/raw/adhan_full.mp3
+          # Short version: the opening takbir, faded out after 20 seconds.
+          ffmpeg -hide_banner -loglevel error -y -i /tmp/src.mp3 -t 22 -ac 1 -ar 44100 -af "loudnorm=I=-16:TP=-1.5,afade=t=out:st=19:d=3" -b:a 96k androidApp/src/main/res/raw/adhan_short.mp3
+          ls -la androidApp/src/main/res/raw
+          git config user.name "github-actions" && git config user.email "github-actions@users.noreply.github.com"
+          git add androidApp/src/main/res/raw && git commit -m "Add adhan audio (Aaqib Azeez, Wikimedia Commons, CC BY-SA 4.0)" && git push
