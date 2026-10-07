@@ -11,11 +11,6 @@ import android.widget.Toast
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
-import androidx.media3.database.StandaloneDatabaseProvider
-import androidx.media3.datasource.DefaultDataSource
-import androidx.media3.datasource.cache.CacheDataSource
-import androidx.media3.datasource.cache.LeastRecentlyUsedCacheEvictor
-import androidx.media3.datasource.cache.SimpleCache
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import app.qurandua.android.ui.AudioController
@@ -23,7 +18,6 @@ import app.qurandua.android.ui.PlatformActions
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import java.io.File
 import java.util.Locale
 
 class AndroidPlatformActions(private val context: Context) : PlatformActions {
@@ -52,21 +46,17 @@ class AndroidPlatformActions(private val context: Context) : PlatformActions {
 }
 
 /**
- * Streams ayah recitations with ExoPlayer. Audio is not bundled, so the app stays small;
- * what was played once is cached on disk and replays offline.
- * The cache holds up to [CACHE_BYTES] and drops the least recently played ayahs first.
+ * Plays ayah recitations with ExoPlayer. Audio is not bundled, so the app stays small;
+ * what was played once is kept in [RecitationStore] for good and replays offline.
  */
 @androidx.annotation.OptIn(UnstableApi::class)
 class ExoAudioController(context: Context) : AudioController {
-    private val cache = SimpleCache(
-        File(context.applicationContext.cacheDir, "recitations"),
-        LeastRecentlyUsedCacheEvictor(CACHE_BYTES),
-        StandaloneDatabaseProvider(context.applicationContext),
-    )
-    private val dataSource = CacheDataSource.Factory()
-        .setCache(cache)
-        .setUpstreamDataSourceFactory(DefaultDataSource.Factory(context.applicationContext))
-        .setFlags(CacheDataSource.FLAG_IGNORE_CACHE_ON_ERROR)
+    init {
+        RecitationStore.init(context)
+    }
+
+    // Everything played goes through the permanent store, so it is fetched at most once.
+    private val dataSource = RecitationStore.dataSourceFactory()
     private val player = ExoPlayer.Builder(context.applicationContext)
         .setMediaSourceFactory(DefaultMediaSourceFactory(dataSource))
         .build()
@@ -170,11 +160,6 @@ class ExoAudioController(context: Context) : AudioController {
         tts?.shutdown()
         tts = null
         player.release()
-        cache.release()
         _playing.value = null
-    }
-
-    private companion object {
-        const val CACHE_BYTES = 300L * 1024 * 1024
     }
 }

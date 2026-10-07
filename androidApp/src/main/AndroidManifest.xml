@@ -12,6 +12,7 @@
     <!-- The adhan: plays in a foreground service with the screen off and opens the prayer window over the lock screen. -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -50,6 +51,11 @@
             android:theme="@style/Theme.QuranDua.AdhanSheet"
             android:showWhenLocked="true"
             android:turnScreenOn="true" />
+
+        <service
+            android:name=".platform.DownloadService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
 
         <service
             android:name=".platform.AdhanService"

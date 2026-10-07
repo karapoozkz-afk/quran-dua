@@ -74,6 +74,9 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
     val bookmarks by viewModel.bookmarks.collectAsState()
     val lastRead by viewModel.lastRead.collectAsState()
     val surahs by viewModel.surahs.collectAsState()
+    LaunchedEffect(surahs) {
+        if (surahs.isNotEmpty()) deps.recitations.refresh(surahs.map { it.ayahCount })
+    }
     val quranReady by viewModel.quranReady.collectAsState()
     val query by viewModel.query.collectAsState()
     val results by viewModel.results.collectAsState()

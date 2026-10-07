@@ -34,6 +34,22 @@ interface AudioController {
     fun stop()
 }
 
+/** A download in progress: [surah] is the one being fetched now; counts are in ayahs. */
+data class DownloadProgress(val surah: Int, val all: Boolean, val done: Int, val total: Int, val failed: Int)
+
+/** Recitations saved on the phone for good, so nothing is downloaded twice. */
+interface RecitationLibrary {
+    val savedBytes: StateFlow<Long>
+    val savedSurahs: StateFlow<Set<Int>>
+    val download: StateFlow<DownloadProgress?>
+    /** Recounts what is saved; pass the ayah count of every surah once it is known. */
+    fun refresh(ayahCounts: List<Int>)
+    fun downloadSurah(surah: Int, ayahCount: Int)
+    fun downloadAll(ayahCounts: List<Int>)
+    fun cancel()
+    fun deleteAll()
+}
+
 /** Prayer-time settings, alarms and location. Implemented with Android services in platform/. */
 interface PrayerController {
     val settings: StateFlow<PrayerSettings>
@@ -69,6 +85,7 @@ class AppDeps(
     val user: UserDataRepository,
     val platform: PlatformActions,
     val audio: AudioController,
+    val recitations: RecitationLibrary,
     val prayer: PrayerController,
     val permissions: PermissionRequester,
     val arabicFont: FontFamily,

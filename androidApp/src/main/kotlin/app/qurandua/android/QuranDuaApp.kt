@@ -7,6 +7,7 @@ import app.qurandua.android.platform.AndroidPlatformActions
 import app.qurandua.android.platform.Adhan
 import app.qurandua.android.platform.AndroidPrayerController
 import app.qurandua.android.platform.ExoAudioController
+import app.qurandua.android.platform.RecitationStore
 import app.qurandua.android.platform.PrayerAlarms
 import app.qurandua.android.ui.AppDeps
 import app.qurandua.android.ui.PermissionRequester
@@ -43,6 +44,7 @@ class QuranDuaApp : Application() {
             user = RoomUserDataRepository(db),
             platform = AndroidPlatformActions(this),
             audio = audio,
+            recitations = RecitationStore,
             prayer = AndroidPrayerController(this),
             permissions = PermissionRequester(),
             arabicFont = FontFamily(Font(R.font.amiri_quran)),
