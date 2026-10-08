@@ -15,7 +15,7 @@ android {
         versionCode = 1
         versionName = "0.1.0"
         // The app ships every language; no resource stripping.
-        resourceConfigurations += listOf("ru", "kk", "en", "ar", "es", "tr", "in", "id", "ur")
+        resourceConfigurations += listOf("ru", "kk", "ky", "uz", "en", "ar", "es", "tr", "in", "id", "ur")
     }
 
     buildTypes {

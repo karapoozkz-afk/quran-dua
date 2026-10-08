@@ -157,6 +157,8 @@ data class Strings(
 fun stringsFor(language: String): Strings = when (language) {
     "ru" -> RuStrings
     "kk" -> KkStrings
+    "ky" -> KyStrings
+    "uz" -> UzStrings
     "ar" -> ArStrings
     "tr" -> TrStrings
     "id" -> IdStrings

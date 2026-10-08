@@ -31,7 +31,7 @@ BASE_LANGS = ("ru", "en")
 # Languages whose transliteration is Cyrillic and can reuse the Russian one.
 CYRILLIC_TRANSLIT = {"kk": "ru", "ky": "ru", "tg": "ru"}
 # Languages whose overlay must supply its own transliteration for every dua.
-OWN_TRANSLIT = {"es"}
+OWN_TRANSLIT = {"es", "uz"}
 GRADES = {"quran", "sahih", "hasan", "athar", "daif", "disputed", "nosource"}
 KINDS = {"dua", "info"}
 CHARITY_FIELDS = ("id", "name", "country", "registrationNumber", "website", "donateUrl", "purposes",

@@ -1,0 +1,1572 @@
+{
+  "situations": {
+    "cemetery": {
+      "title": "Qabristonda, qabr yonida",
+      "subtitle": "Qabrlarni ziyorat qilganda nima deyiladi",
+      "keywords": [
+        "qabriston",
+        "qabr",
+        "qabrlar",
+        "mozor",
+        "ziyorat",
+        "qabr ziyorati",
+        "qabrlarni ziyorat qilish",
+        "qabr boshida",
+        "otamning qabrida",
+        "onamning qabrida",
+        "ota-onamning qabrida",
+        "go‘riston"
+      ],
+      "notice": "Qabr yonida Qur’on o‘qish va uning savobini marhumga «bag‘ishlash» masalasida olimlar ixtilof qilgan; quyida bunday amallar bahsli deb belgilangan. Mo‘min marhum uchun duo qilish va mag‘firat so‘rash ishonchli tarzda sobit."
+    },
+    "deceased": {
+      "title": "Marhum uchun duo",
+      "subtitle": "Ota, ona, qarindosh va barcha vafot etgan musulmonlar uchun",
+      "keywords": [
+        "marhum",
+        "marhuma",
+        "marhum uchun duo",
+        "vafot etgan",
+        "vafot etdi",
+        "olamdan o‘tdi",
+        "o‘ldi",
+        "otam vafot etdi",
+        "onam vafot etdi",
+        "janoza",
+        "janoza namozi",
+        "dafn",
+        "ota-onam vafot etgan",
+        "ota-ona uchun",
+        "arvoh",
+        "arvohlarga bag‘ishlash"
+      ]
+    },
+    "death_news": {
+      "title": "Judolik va qayg‘u",
+      "subtitle": "Kimningdir vafotini eshitganda, musibat kelganda",
+      "keywords": [
+        "o‘lim",
+        "vafot",
+        "judolik",
+        "yo‘qotish",
+        "qayg‘u",
+        "motam",
+        "vafot xabari",
+        "ta’ziya",
+        "ta’ziya bildirish",
+        "musibat",
+        "baxtsizlik",
+        "kimdir vafot etdi",
+        "hamdardlik"
+      ]
+    },
+    "debts": {
+      "title": "Qarz",
+      "subtitle": "Qarzdan va uning og‘irligidan qutulish",
+      "keywords": [
+        "qarz",
+        "qarzlar",
+        "qarzdan qutulish",
+        "qarzni to‘lash",
+        "qarzim ko‘p",
+        "qarzim bor",
+        "kredit",
+        "ipoteka",
+        "nasiya",
+        "qarzdorlik",
+        "qarz olish",
+        "qarzni qaytarish",
+        "qarz uchun oyatlar"
+      ],
+      "notice": "Duo amaliy qadamlar o‘rnini bosmaydi: qarzni to‘lash rejasini tuzing, qarz berganlar bilan gaplashing va ribodan (foizdan) saqlaning."
+    },
+    "rizq": {
+      "title": "Rizq, ish, pul",
+      "subtitle": "Pul yetishmasa, ish qidirish, biznes, baraka",
+      "keywords": [
+        "rizq",
+        "nafaqa",
+        "pul",
+        "pul yo‘q",
+        "kambag‘allik",
+        "qashshoqlik",
+        "ish",
+        "ish topish",
+        "ish qidirish",
+        "biznes",
+        "savdo",
+        "tijorat",
+        "baraka",
+        "daromad",
+        "maosh",
+        "ishdan bo‘shatishdi",
+        "muhtojlik",
+        "boyish",
+        "boylik",
+        "savdoga baraka",
+        "mijozlar"
+      ]
+    },
+    "illness": {
+      "title": "Kasallik va shifo",
+      "subtitle": "Bemor uchun, og‘riq bo‘lganda, bemorni ko‘rgani borganda",
+      "keywords": [
+        "kasallik",
+        "kasalman",
+        "kasal bo‘lib qoldim",
+        "bemor",
+        "og‘riq",
+        "og‘riyapti",
+        "dard",
+        "shifo",
+        "salomatlik",
+        "sog‘liq",
+        "tuzalish",
+        "ruqya",
+        "kasalxona",
+        "operatsiya",
+        "bemorni ko‘rish",
+        "isitma",
+        "harorat"
+      ],
+      "notice": "Duo va diniy amallar tibbiy yordam o‘rnini bosmaydi. Kerak bo‘lsa, shifokorga murojaat qiling."
+    },
+    "anxiety": {
+      "title": "Xavotir, g‘am, qo‘rquv",
+      "subtitle": "Ko‘ngil og‘ir bo‘lganda",
+      "keywords": [
+        "xavotir",
+        "bezovtalik",
+        "tashvish",
+        "g‘am",
+        "qayg‘u",
+        "xafalik",
+        "depressiya",
+        "qo‘rquv",
+        "qo‘rqyapman",
+        "stress",
+        "vahima",
+        "og‘ir",
+        "yolg‘izlik",
+        "kelajakdan qo‘rqaman",
+        "ko‘nglim g‘ash",
+        "tushkunlik"
+      ],
+      "notice": "Agar xavotir yoki tushkunlik hayotingizga xalal berayotgan bo‘lsa, mutaxassisga ham murojaat qiling. Bu Allohga tavakkul qilishga zid emas."
+    },
+    "laziness": {
+      "title": "Dangasalik, kuch yo‘q",
+      "subtitle": "Hech narsa qilgingiz kelmaganda",
+      "keywords": [
+        "dangasalik",
+        "dangasa",
+        "erinchoqlik",
+        "kuch yo‘q",
+        "charchadim",
+        "holsizlik",
+        "motivatsiya yo‘q",
+        "erta turish",
+        "uxlab qoldim"
+      ]
+    },
+    "hardship": {
+      "title": "«Yo‘lim yopiq», qiyinchilik, omadsizlik",
+      "subtitle": "Hech narsa chiqmay, barcha eshiklar yopiqdek tuyulganda",
+      "keywords": [
+        "yo‘lim yopiq",
+        "yo‘l yopiq",
+        "yo‘lim ochilsin",
+        "yo‘l ochish",
+        "eshiklar yopiq",
+        "omad",
+        "omadsizlik",
+        "omadim yo‘q",
+        "ishlarim yurishmayapti",
+        "hech narsa chiqmayapti",
+        "qiyinchilik",
+        "qiyin vaziyat",
+        "og‘ir",
+        "chiqish yo‘li",
+        "hammasi yaxshi bo‘lsin"
+      ],
+      "notice": "Qur’on va Sunnatda maxsus oyat, irim yoki tumor bilan «ochiladigan» «yopiq yo‘l» degan tushuncha yo‘q. Qiyinchilik taqvo, istig‘for, duo va Allohga tavakkul (65:2–3, 71:10–12) hamda oddiy amaliy qadamlar bilan yengillashadi. Agar kimdir pul evaziga «yo‘lingizni ochaman» yoki «omadsizlikdan tozalayman» desa, bu Islomdan emas."
+    },
+    "wish": {
+      "title": "Orzu va hojat",
+      "subtitle": "Duo qabul bo‘lishi uchun qanday va qachon so‘rash kerak",
+      "keywords": [
+        "orzu",
+        "tilak",
+        "orzuim amalga oshsin",
+        "hojat",
+        "hojat namozi",
+        "duo qabul bo‘lishi",
+        "duo qachon qabul bo‘ladi",
+        "alloh yordam bersin"
+      ]
+    },
+    "lost_item": {
+      "title": "Yo‘qolgan narsa",
+      "subtitle": "Biror narsa yo‘qolganda nima deyiladi",
+      "keywords": [
+        "yo‘qotdim",
+        "yo‘qolgan narsa",
+        "yo‘qolgan narsani topish",
+        "topa olmayapman",
+        "yo‘qolib qoldi",
+        "o‘g‘irlab ketishdi",
+        "kalitimni yo‘qotdim"
+      ]
+    },
+    "sleep": {
+      "title": "Uyqu va uyg‘onish",
+      "subtitle": "Uxlashdan oldin, uyqu kelmasa, uyg‘onganda",
+      "keywords": [
+        "uyqu",
+        "uxlash",
+        "uxlashdan oldin",
+        "uxlay olmayapman",
+        "uyqusizlik",
+        "uyqum kelmayapti",
+        "uyg‘ondim",
+        "uyg‘onish",
+        "tun",
+        "yomon tush",
+        "qo‘rqinchli tush",
+        "uxlashdan oldingi duo"
+      ]
+    },
+    "morning_evening": {
+      "title": "Ertalab va kechqurun",
+      "subtitle": "Kundalik zikrlar",
+      "keywords": [
+        "ertalab",
+        "tong",
+        "ertalabki zikrlar",
+        "kechqurun",
+        "kechki zikrlar",
+        "zikr",
+        "azkor",
+        "har kuni",
+        "kundalik"
+      ]
+    },
+    "travel": {
+      "title": "Yo‘l va safar",
+      "subtitle": "Safarga chiqishdan oldin, yo‘lda, qaytganda",
+      "keywords": [
+        "yo‘l",
+        "safar",
+        "sayohat",
+        "yo‘lga chiqish",
+        "safar duosi",
+        "samolyot",
+        "mashina",
+        "avtomobil",
+        "mashinaga minish",
+        "qaytish",
+        "qaytib keldim",
+        "xizmat safari",
+        "ko‘chish"
+      ]
+    },
+    "weather": {
+      "title": "Yomg‘ir, shamol, momaqaldiroq",
+      "subtitle": "Havo buzilganda nima deyiladi",
+      "keywords": [
+        "yomg‘ir",
+        "jala",
+        "shamol",
+        "bo‘ron",
+        "dovul",
+        "momaqaldiroq",
+        "chaqmoq",
+        "ob-havo",
+        "qurg‘oqchilik"
+      ]
+    },
+    "home": {
+      "title": "Uy",
+      "subtitle": "Uydan chiqish va uyga kirish",
+      "keywords": [
+        "uy",
+        "uydan chiqish",
+        "uydan chiqayapman",
+        "uyga kirish",
+        "uyga kelganda",
+        "uyga kirganda",
+        "xonadon",
+        "kvartira"
+      ]
+    },
+    "toilet": {
+      "title": "Hojatxona",
+      "subtitle": "Kirishda va chiqishda",
+      "keywords": [
+        "hojatxona",
+        "tualet",
+        "hojatxonaga kirish",
+        "hojatxonadan chiqish",
+        "hojatxonaga",
+        "hojatxonaga kirganda",
+        "hojatxonadan chiqqanda"
+      ]
+    },
+    "food": {
+      "title": "Ovqat",
+      "subtitle": "Ovqatdan oldin va ovqatdan keyin",
+      "keywords": [
+        "ovqat",
+        "taom",
+        "ovqatdan oldin",
+        "ovqatdan keyin",
+        "ovqatlanish",
+        "ovqat yeyish",
+        "tushlik",
+        "kechki ovqat",
+        "nonushta",
+        "dasturxon",
+        "fotiha"
+      ]
+    },
+    "prayer": {
+      "title": "Namoz, masjid, tahorat",
+      "subtitle": "Masjidga kirganda, tahoratdan keyin, namozdan keyin",
+      "keywords": [
+        "namoz",
+        "masjid",
+        "tahorat",
+        "tahorat olish",
+        "namozdan keyin",
+        "masjidga kirish",
+        "masjiddan chiqish",
+        "ibodat"
+      ]
+    },
+    "forgiveness": {
+      "title": "Gunohlar mag‘firati va tavba",
+      "subtitle": "Istig‘for va tavba",
+      "keywords": [
+        "mag‘firat",
+        "kechirim",
+        "kechirish",
+        "kechirim so‘rash",
+        "gunoh",
+        "gunohlar",
+        "tavba",
+        "tavba qilish",
+        "istig‘for",
+        "pushaymon",
+        "alloh kechirsin"
+      ]
+    },
+    "family": {
+      "title": "Oila va ota-ona",
+      "subtitle": "Ota-ona va turmush o‘rtog‘i uchun, oiladagi totuvlik",
+      "keywords": [
+        "oila",
+        "ota-ona",
+        "ona",
+        "onam",
+        "ota",
+        "otam",
+        "er",
+        "erim",
+        "xotin",
+        "ayol",
+        "turmush o‘rtog‘i",
+        "janjal",
+        "oiladagi muammo",
+        "ota-ona bilan muammo",
+        "qarindoshlar",
+        "totuvlik"
+      ]
+    },
+    "addiction": {
+      "title": "Yaqin odamning qaramligi",
+      "subtitle": "Ichkilik, giyohvandlik, qimor",
+      "keywords": [
+        "ichadi",
+        "erim ichadi",
+        "ichmasin",
+        "ichkilik",
+        "aroq",
+        "alkogolizm",
+        "giyohvandlik",
+        "narkotik",
+        "qaramlik",
+        "qimor",
+        "qimorbozlik",
+        "chekadi"
+      ],
+      "notice": "«Ichkilikni tashlatadigan» maxsus oyatlar yo‘q. Yaqin odamingizning hidoyat topishini Allohdan so‘rang va haqiqiy yordam izlang: narkolog, reabilitatsiya markazi, oilalarni qo‘llab-quvvatlash guruhlari. Zo‘ravonlik xavfi bo‘lsa, favqulodda yoki yordam xizmatlariga murojaat qiling."
+    },
+    "parents": {
+      "title": "Ota-ona uchun duo",
+      "subtitle": "Hayot va vafot etgan ota-ona uchun",
+      "keywords": [
+        "ota-ona",
+        "ota-onam",
+        "ota",
+        "otam",
+        "ona",
+        "onam",
+        "onam uchun",
+        "otam uchun",
+        "ota-ona uchun duo",
+        "ota-onaning salomatligi"
+      ]
+    },
+    "marriage": {
+      "title": "Nikoh va juft izlash",
+      "subtitle": "Yaxshi xotin / yaxshi er tilayman, to‘y",
+      "keywords": [
+        "nikoh",
+        "nikoh o‘qish",
+        "to‘y",
+        "uylanish",
+        "turmushga chiqish",
+        "erga tegish",
+        "xotin topish",
+        "er topish",
+        "yaxshi xotin",
+        "yaxshi er",
+        "juft",
+        "to‘y bilan tabriklash"
+      ]
+    },
+    "spouses": {
+      "title": "Er-xotin munosabatlari",
+      "subtitle": "Muhabbat, janjal, yarashish",
+      "keywords": [
+        "er",
+        "xotin",
+        "er-xotin",
+        "turmush o‘rtog‘i",
+        "erim meni sevsin",
+        "erim bilan urishib qoldim",
+        "xotinim bilan yarashish",
+        "ajrashish",
+        "taloq",
+        "ikkinchi xotin",
+        "issiq-sovuq",
+        "afsun",
+        "erni bog‘lash"
+      ],
+      "notice": "Sunnatda erni «sevdirish», «sog‘intirish» yoki «ikkinchi xotin olmasin» degan maxsus oyatlar yo‘q, issiq-sovuq qilish esa harom sehrdir (kartaga qarang). Allohdan o‘z so‘zlaringiz bilan so‘rang, bir-biringiz bilan gaplashing, jiddiy nizoda esa ikki tomon oilasidan hakamlar chaqiring (4:35)."
+    },
+    "reconcile": {
+      "title": "Odam bilan yarashish",
+      "subtitle": "Qarindosh, do‘st yoki qo‘shni bilan janjal",
+      "keywords": [
+        "yarashish",
+        "yarashtirish",
+        "urishib qoldik",
+        "janjal",
+        "arazlash",
+        "gaplashmay qoldik",
+        "aloqani uzish",
+        "qarindoshlar bilan araz",
+        "kechirish"
+      ]
+    },
+    "children": {
+      "title": "Bolalar",
+      "subtitle": "Farzand istash, bolalarni himoya qilish, bolaning tug‘ilishi",
+      "keywords": [
+        "bolalar",
+        "bola",
+        "farzand",
+        "farzand istayman",
+        "homiladorlik",
+        "tug‘ildi",
+        "chaqaloq",
+        "go‘dak",
+        "bolalarni himoya qilish",
+        "o‘g‘il",
+        "qiz",
+        "bolaga uxlashdan oldin"
+      ]
+    },
+    "conceive": {
+      "title": "Farzand istash, homiladorlik",
+      "subtitle": "Payg‘ambarlarning zurriyot so‘ragan duolari",
+      "keywords": [
+        "homilador bo‘lish",
+        "farzand ko‘rish",
+        "farzandli bo‘lish",
+        "farzand istayman",
+        "farzandsizlik",
+        "bepushtlik",
+        "homiladorlik",
+        "homilador bo‘lish uchun",
+        "zurriyot"
+      ],
+      "notice": "Duo tekshiruv va davolanish o‘rnini bosmaydi: shifokorga murojaat qiling. Sunnatda «homilador bo‘lish uchun» maxsus sura yo‘q; quyida Qur’ondagi payg‘ambarlarning zurriyot so‘ragan duolari."
+    },
+    "newborn": {
+      "title": "Tug‘ruq va chaqaloq",
+      "subtitle": "Yengil tug‘ruq, aqiqa, tahnik, qulog‘iga azon",
+      "keywords": [
+        "tug‘ruq",
+        "tug‘ish",
+        "homilador",
+        "homiladorlik",
+        "yengil tug‘ruq",
+        "yangi tug‘ilgan",
+        "chaqaloq",
+        "go‘dak",
+        "aqiqa",
+        "tahnik",
+        "qulog‘iga azon",
+        "ism qo‘yish"
+      ],
+      "notice": "Yengil tug‘ruq uchun maxsus ishonchli duo yo‘q. Yengillik so‘ralgan har qanday duo, masalan, quyidagi «Allohumma la sahla…», hamda o‘z so‘zlaringiz bilan so‘rash mos keladi."
+    },
+    "important": {
+      "title": "Muhim ish va tanlov",
+      "subtitle": "Istixora, qiyin ish, imtihon, o‘qish",
+      "keywords": [
+        "istixora",
+        "tanlov",
+        "qaror",
+        "nimani tanlashni bilmayman",
+        "muhim ish",
+        "qiyin ish",
+        "imtihon",
+        "test",
+        "o‘qish",
+        "suhbat",
+        "nutq",
+        "ilm",
+        "yangi ish"
+      ]
+    },
+    "protection": {
+      "title": "Himoya",
+      "subtitle": "Yomonlikdan, ko‘z tegishidan, shaytondan, g‘azablanganda",
+      "keywords": [
+        "himoya",
+        "himoya qilish",
+        "ko‘z tegishi",
+        "ko‘z tegdi",
+        "hasad",
+        "shayton",
+        "jin",
+        "sehr",
+        "jodu",
+        "g‘azab",
+        "jahl",
+        "jahlim chiqdi",
+        "dushmanlar",
+        "xavf"
+      ]
+    },
+    "evil_eye": {
+      "title": "Ko‘z tegishi va sehr",
+      "subtitle": "Himoya, ruqya va biror narsa yoqqanda nima deyiladi",
+      "keywords": [
+        "ko‘z tegishi",
+        "ko‘z tegdi",
+        "ko‘z",
+        "yomon ko‘z",
+        "sehr",
+        "jodu",
+        "hasad",
+        "ruqya",
+        "ko‘z tegishidan himoya",
+        "ko‘z tegizmaslik",
+        "suvga o‘qish",
+        "dam solish"
+      ],
+      "notice": "Tumorlar, iplar va «ko‘z» munchoqlar Islomda himoya emas (quyidagi kartaga qarang). Agar betoblik davom etsa, shifokorga murojaat qiling: ruqya va duo davolanish o‘rnini bosmaydi."
+    },
+    "oppression": {
+      "title": "Adolatsizlik va mazlumlar",
+      "subtitle": "Zulm ko‘rganda va mazlumlar uchun duo (Falastin va boshqalar)",
+      "keywords": [
+        "adolatsizlik",
+        "zulm",
+        "mazlum",
+        "mazlumlar",
+        "xafa qilishdi",
+        "falastin",
+        "g‘azo",
+        "falastin uchun",
+        "urush",
+        "dushman",
+        "tuhmat",
+        "tuhmat qilishdi"
+      ]
+    },
+    "gratitude": {
+      "title": "Shukr va quvonch",
+      "subtitle": "Yaxshi narsa sodir bo‘lganda",
+      "keywords": [
+        "shukr",
+        "minnatdorlik",
+        "rahmat aytish",
+        "allohga shukr",
+        "quvonch",
+        "xushxabar",
+        "suyunchi",
+        "alhamdulilloh",
+        "alhamdulillah"
+      ]
+    },
+    "appearance": {
+      "title": "Ko‘zgu va tashqi ko‘rinish",
+      "subtitle": "Go‘zal xulq uchun duo",
+      "keywords": [
+        "ko‘zgu",
+        "oyna",
+        "ko‘zguga qaraganda",
+        "go‘zallik",
+        "chiroyli bo‘lish",
+        "tashqi ko‘rinish",
+        "go‘zallik uchun sura"
+      ]
+    },
+    "ramadan": {
+      "title": "Ramazon va ro‘za",
+      "subtitle": "Iftor, Qadr kechasi, yangi oy",
+      "keywords": [
+        "ramazon",
+        "ro‘za",
+        "ro‘za tutish",
+        "iftor",
+        "og‘iz ochish",
+        "saharlik",
+        "og‘iz yopish",
+        "qadr kechasi",
+        "yangi oy",
+        "hilol",
+        "ro‘za duosi"
+      ]
+    },
+    "friday_eid": {
+      "title": "Juma va hayitlar",
+      "subtitle": "Juma, Ramazon hayiti, Qurbon hayiti",
+      "keywords": [
+        "juma",
+        "juma kuni",
+        "hayit",
+        "bayram",
+        "ramazon hayiti",
+        "qurbon hayiti",
+        "hayit bilan tabriklash",
+        "bayram bilan tabriklash",
+        "kahf",
+        "al kahf"
+      ]
+    },
+    "hajj": {
+      "title": "Haj va umra",
+      "subtitle": "Talbiya, Arafot, Zamzam",
+      "keywords": [
+        "haj",
+        "hajga borish",
+        "hajga boraman",
+        "hajda",
+        "hoji",
+        "umra",
+        "umraga",
+        "makka",
+        "ka’ba",
+        "tavof",
+        "talbiya",
+        "arafot",
+        "zamzam",
+        "ehrom"
+      ]
+    },
+    "birthday": {
+      "title": "Tug‘ilgan kun",
+      "subtitle": "Yaqin odamga nima tilash mumkin",
+      "keywords": [
+        "tug‘ilgan kun",
+        "tug‘ilgan kuning bilan",
+        "yubiley",
+        "tabriklash",
+        "tilak",
+        "yillik"
+      ],
+      "notice": "Sunnatda tug‘ilgan kun uchun maxsus duo yo‘q, tug‘ilgan kunni nishonlash masalasida esa olimlar ixtilof qilgan. Quyida — har qanday kuni insonga yaxshilik tilab qilinadigan umumiy ishonchli duolar."
+    },
+    "zakat": {
+      "title": "Zakot va sadaqa",
+      "subtitle": "Kimga va qancha beriladi, sadaqaning savobi",
+      "keywords": [
+        "zakot",
+        "zakat",
+        "zakot berish",
+        "sadaqa",
+        "ehson",
+        "xayriya",
+        "xayr-ehson",
+        "nisob",
+        "zakot qancha",
+        "zakot kimga beriladi"
+      ],
+      "notice": "Zakotingizni hisoblash uchun «Yana» → «Zakot kalkulyatori» bo‘limini oching."
+    },
+    "customs": {
+      "title": "Bu Islomdanmi?",
+      "subtitle": "Odatlar: yettisi, qirqi, yil oshi, qizil ip",
+      "keywords": [
+        "yettisi",
+        "qirqi",
+        "yil oshi",
+        "ehson oshi",
+        "xudoyi",
+        "qizil ip",
+        "tumor",
+        "odat",
+        "urf-odat",
+        "an’ana",
+        "bid’at",
+        "bu islomdanmi",
+        "suvga duo o‘qish",
+        "oyat yozib taqish",
+        "issiq-sovuq",
+        "bog‘lash",
+        "pishiriq"
+      ],
+      "notice": "Bu yerda keng tarqalgan odatlar ko‘rib chiqiladi: ularning qaysi qismi Qur’on va Sunnatga asoslangan, qaysi qismi asoslanmagan. Olimlar ixtilof qilgan joyda bu ochiq aytiladi."
+    }
+  },
+  "duas": {
+    "grave_greeting": {
+      "title": "Qabrlarni ziyorat qilgandagi salom",
+      "translation": "Ey bu maskanlarning mo‘min va musulmon ahli, sizlarga salom bo‘lsin! Albatta, biz ham, inshaalloh, sizlarga qo‘shilguvchimiz. Allohdan o‘zimizga ham, sizlarga ham ofiyat so‘rayman.",
+      "source": "Muslim, 975",
+      "translit": "As-salamu ’alaykum ahlad-diyari minal-mu’minina val-muslimin, va inna in sha’ Allohu bikum la-lahiqun, as’alu-llaha lana va lakumul-’afiyah"
+    },
+    "grave_istighfar": {
+      "title": "Dafndan keyin: marhumga sabot so‘rash",
+      "translation": "Allohim, uni mag‘firat qil! Allohim, uni sobitqadam qil!",
+      "source": "Abu Dovud, 3221 (Albaniy bahosiga ko‘ra sahih)",
+      "note": "Payg‘ambar ﷺ dafnni tugatgach: «Birodaringiz uchun mag‘firat so‘ranglar va unga sabot tilanglar, chunki u hozir so‘roq qilinmoqda», derdilar. Ayol uchun: «Allohummag‘fir laha, Allohumma sabbitha».",
+      "translit": "Allohumma-g‘fir lahu, Allohumma sabbit-hu"
+    },
+    "janazah_male": {
+      "title": "Marhum (erkak) uchun duo",
+      "translation": "Allohim, uni mag‘firat qil va unga rahm qil, uni azobdan saqla va uni afv et, uning mehmonligini ikrom qil va kiradigan joyini keng qil. Uni suv, qor va do‘l bilan yuv, oq kiyimni kirdan tozalaganingdek, uni gunohlardan tozala. Unga o‘z hovlisidan yaxshiroq hovli, o‘z ahlidan yaxshiroq ahl va o‘z juftidan yaxshiroq juft ber. Uni jannatga kirit va uni qabr azobidan va do‘zax azobidan saqla.",
+      "source": "Muslim, 963",
+      "note": "Janoza namozida va istalgan vaqtda marhum uchun o‘qiladi.",
+      "translit": "Allohumma-g‘fir lahu varhamhu, va ’afihi va’fu ’anhu, va akrim nuzulahu, va vassi’ mudxalahu, vag‘silhu bil-ma’i vas-salji val-barad, va naqqihi minal-xataya kama naqqaytas-savbal-abyada minad-danas, va abdilhu daran xayran min darihi, va ahlan xayran min ahlihi, va zavjan xayran min zavjihi, va adxilhul-jannah, va a’izhu min ’azabil-qabri va min ’azabin-nar"
+    },
+    "janazah_female": {
+      "title": "Marhuma (ayol) uchun duo",
+      "translation": "Allohim, uni mag‘firat qil va unga rahm qil, uni azobdan saqla va uni afv et, uning mehmonligini ikrom qil va kiradigan joyini keng qil. Uni suv, qor va do‘l bilan yuv, oq kiyimni kirdan tozalaganingdek, uni gunohlardan tozala. Uni jannatga kirit va uni qabr azobidan va do‘zax azobidan saqla.",
+      "source": "Muslim, 963 (olmoshlarning muannas shakli)",
+      "note": "Hadis erkak kishi haqida rivoyat qilingan; olimlar ayol uchun olmoshlar muannas shaklga o‘zgartiriladi, deydilar. Yaxshiroq juft haqidagi jumla odatda aytilmaydi.",
+      "translit": "Allohumma-g‘fir laha varhamha, va ’afiha va’fu ’anha, va akrim nuzulaha, va vassi’ mudxalaha, vag‘silha bil-ma’i vas-salji val-barad, va naqqiha minal-xataya kama naqqaytas-savbal-abyada minad-danas, va adxilhal-jannah, va a’izha min ’azabil-qabri va min ’azabin-nar"
+    },
+    "parents_mercy": {
+      "title": "Ota-ona uchun duo",
+      "translation": "Robbim, ular meni go‘dakligimda tarbiya qilganlaridek, ularga rahm qil.",
+      "source": "Qur’on, 17:24",
+      "translit": "Rabbi-rhamhuma kama rabbayani sag‘ira"
+    },
+    "parents_forgive": {
+      "title": "Menga, ota-onamga va mo‘minlarga mag‘firat",
+      "translation": "Robbimiz, hisob-kitob bo‘ladigan kunda meni, ota-onamni va mo‘minlarni mag‘firat qil.",
+      "source": "Qur’on, 14:41",
+      "translit": "Rabbana-g‘fir li va li-validayya va lil-mu’minina yavma yaqumul-hisab"
+    },
+    "all_believers": {
+      "title": "Olamdan o‘tgan barcha mo‘minlar uchun",
+      "translation": "Robbimiz, bizni va bizdan oldin iymon bilan o‘tgan birodarlarimizni mag‘firat qil, qalblarimizda iymon keltirganlarga nisbatan adovat qoldirma. Robbimiz, albatta Sen Mehribon va Rahimlisan.",
+      "source": "Qur’on, 59:10",
+      "translit": "Rabbana-g‘fir lana va li-ixvanina-llazina sabaquna bil-iman, va la taj’al fi qulubina g‘illan lillazina amanu, rabbana innaka Ra’ufur-Rahim"
+    },
+    "deceased_charity": {
+      "title": "Marhumga nima foyda beradi",
+      "translation": "«Inson vafot etganda uning amallari to‘xtaydi, faqat uchtasi qoladi: davomli sadaqa (sadaqai joriya), foydalaniladigan ilm va uning haqqiga duo qiladigan solih farzand». Shuningdek, uning nomidan berilgan sadaqa va qarzini to‘lab qo‘yish marhumga foyda berishi ishonchli.",
+      "source": "Muslim, 1631; Buxoriy, 2760 (ona uchun sadaqa)"
+    },
+    "yasin_dispute": {
+      "title": "Marhumlar uchun va qabr ustida «Yosin» surasini o‘qish",
+      "translation": "«O‘layotganlaringizga Yosinni o‘qinglar» hadisini (Abu Dovud, 3121) ba’zi olimlar (Navaviy, Albaniy) zaif, boshqalari (Ibn Hibbon) sahih deb baholagan; ko‘pchilik uni qabr ustida emas, jon berayotgan kishining yonida o‘qish deb tushunadi. Qabr yonida Qur’on o‘qib, savobini marhumga bag‘ishlashga hanafiylar va hanbaliylar ruxsat beradi, molikiylar va shofe’iylarning ko‘pchiligi esa buni makruh deb hisoblaydi yoki savob marhumga yetmaydi, deydi. Bu sobit sunnat emas: qabrlar oldida ishonchli bo‘lgani — salom va duo.",
+      "source": "Abu Dovud, 3121 — bahosi bahsli"
+    },
+    "mulk_virtue": {
+      "title": "«Mulk» surasi — qabr azobidan himoya",
+      "translation": "Payg‘ambar ﷺ «Mulk» surasi haqida: «Qur’onda o‘ttiz oyatli bir sura bor, u bir kishini mag‘firat qilinguncha shafoat qildi», deganlar. Gap qabr ustida o‘qish haqida emas, hayotlik paytida uni muntazam o‘qish haqida (Payg‘ambar ﷺ uni uxlashdan oldin o‘qirdilar).",
+      "source": "Termiziy, 2891 (hasan); Termiziy, 2892"
+    },
+    "calamity": {
+      "title": "Vafot yoki musibat xabarini eshitganda",
+      "translation": "Albatta, biz Allohnikimiz va albatta, Unga qaytguvchimiz. Allohim, musibatimda menga ajr ber va uning o‘rniga menga undan yaxshirog‘ini ber.",
+      "source": "Muslim, 918",
+      "translit": "Inna lillahi va inna ilayhi raji’un. Allohumma’jurni fi musibati va axlif li xayran minha"
+    },
+    "closing_eyes": {
+      "title": "Marhumning ko‘zini yumganda",
+      "translation": "Allohim, (ismi)ni mag‘firat qil, uning darajasini hidoyat topganlar orasida baland qil, ortida qolganlarga Sen o‘rinbosar bo‘l, bizni ham, uni ham mag‘firat qil, ey olamlar Robbi, uning qabrini keng qil va unda unga nur ber.",
+      "source": "Muslim, 920",
+      "note": "«Fulon» so‘zi o‘rniga marhumning ismini ayting.",
+      "translit": "Allohumma-g‘fir li-(ismi), varfa’ darajatahu fil-mahdiyyin, vaxlufhu fi ’aqibihi fil-g‘abirin, vag‘fir lana va lahu ya Rabbal-’alamin, vafsah lahu fi qabrihi, va navvir lahu fih"
+    },
+    "condolence": {
+      "title": "Marhumning oilasiga ta’ziya bildirish",
+      "translation": "Olgani ham Allohniki, bergani ham Uniki, Uning huzurida har bir narsaning belgilangan muddati bor. Sabr qil va savobini umid qil.",
+      "source": "Buxoriy, 1284; Muslim, 923",
+      "note": "Payg‘ambar ﷺ bu so‘zlarni farzandi jon berayotgan qizlariga yuborganlar. O‘z so‘zlaringiz bilan ta’ziya bildirish ham joiz.",
+      "translit": "Inna lillahi ma axaza, va lahu ma a’ta, va kullu shay’in ’indahu bi-ajalin musamma, fal-tasbir val-tahtasib"
+    },
+    "debt_halal": {
+      "title": "Qarzdan qutulish duosi",
+      "translation": "Allohim, meni haromingdan halolingning o‘zi bilan kifoyalantir va O‘z fazling bilan meni Sendan boshqadan behojat qil.",
+      "source": "Termiziy, 3563 (hasan)",
+      "note": "Ali (Alloh undan rozi bo‘lsin) bu so‘zlarni Payg‘ambar ﷺ o‘rgatganini va tog‘dek qarz bo‘lsa ham Alloh uni to‘lashga yordam berishini aytgan.",
+      "translit": "Allohumma-kfini bi-halalika ’an haramik, va ag‘nini bi-fadlika ’amman sivak"
+    },
+    "debt_worry": {
+      "title": "Tashvish, g‘am va qarz og‘irligidan",
+      "translation": "Allohim, tashvish va g‘amdan, ojizlik va dangasalikdan, baxillik va qo‘rqoqlikdan, qarz og‘irligidan va odamlarning g‘olib kelishidan Sendan panoh so‘rayman.",
+      "source": "Buxoriy, 6369",
+      "translit": "Allohumma inni a’uzu bika minal-hammi val-hazan, val-’ajzi val-kasal, val-buxli val-jubn, va dala’id-dayni va g‘alabatir-rijal"
+    },
+    "debt_maghram": {
+      "title": "Gunoh va qarzdan panoh (namoz oxirida)",
+      "translation": "Allohim, gunohdan va qarzdan Sendan panoh so‘rayman.",
+      "source": "Buxoriy, 832; Muslim, 589",
+      "note": "Payg‘ambar ﷺ namozda buni ko‘p aytardilar. Nima uchun deb so‘rashganda: «Kishi qarzdor bo‘lsa, gapirganda yolg‘on gapiradi, va’da bersa, va’dasiga xilof qiladi», dedilar.",
+      "translit": "Allohumma inni a’uzu bika minal-ma’sami val-mag‘ram"
+    },
+    "istighfar_rizq": {
+      "title": "Istig‘for yomg‘ir, mol va farzand keltiradi",
+      "translation": "Aytdim: «Robbingizdan mag‘firat so‘rang, albatta U o‘ta Mag‘firatli. U sizlarga osmondan mo‘l yomg‘ir yog‘diradi, sizlarni mol-mulk va o‘g‘illar bilan qo‘llaydi, sizlarga bog‘lar va anhorlar beradi».",
+      "source": "Qur’on, 71:10–12",
+      "note": "Bu oyatlar istig‘forning samaralarini bayon qiladi. Istig‘forning o‘zi: «Astag‘firullaha va atubu ilayh».",
+      "translit": "Fa-qultu-stag‘firu Rabbakum innahu kana G‘affara. Yursilis-sama’a ’alaykum midrara. Va yumdidkum bi-amvalin va banina va yaj’al lakum jannatin va yaj’al lakum anhara"
+    },
+    "rizq_morning": {
+      "title": "Foydali ilm va pok rizq uchun (bomdoddan keyin)",
+      "translation": "Allohim, Sendan foydali ilm, pok rizq va qabul qilinadigan amal so‘rayman.",
+      "source": "Ibn Moja, 925 (sahih)",
+      "translit": "Allohumma inni as’aluka ’ilman nafi’an, va rizqan tayyiban, va ’amalan mutaqabbala"
+    },
+    "musa_need": {
+      "title": "Muhtojlikda Muso (alayhissalom) duosi",
+      "translation": "Robbim, men Sen menga tushiradigan har qanday yaxshilikka muhtojman.",
+      "source": "Qur’on, 28:24",
+      "note": "Muso buni Madyanga boshpana va mablag‘siz kelganida aytgan; so‘ng Alloh unga ish va xotin ato etgan.",
+      "translit": "Rabbi inni lima anzalta ilayya min xayrin faqir"
+    },
+    "sick_ruqyah": {
+      "title": "Bemor uchun duo (Payg‘ambar ﷺ ruqyasi)",
+      "translation": "Allohim, ey odamlarning Robbi, zararni ketkaz va shifo ber, Sen Shifo beruvchisan. Sening shifongdan boshqa shifo yo‘q — hech qanday kasallik qoldirmaydigan shifo.",
+      "source": "Buxoriy, 5743; Muslim, 2191",
+      "translit": "Allohumma Rabban-nas, azhibil-ba’s, ishfi antash-Shafi, la shifa’a illa shifa’uk, shifa’an la yug‘adiru saqama"
+    },
+    "sick_visit_seven": {
+      "title": "Bemorni ko‘rgani borganda — 7 marta",
+      "translation": "Ulug‘ Allohdan, ulug‘ Arshning Robbidan senga shifo berishini so‘rayman.",
+      "source": "Abu Dovud, 3106; Termiziy, 2083 (sahih)",
+      "translit": "As’alu-llahal-’Azim, Rabbal-’arshil-’azim, an yashfiyak"
+    },
+    "sick_visit_short": {
+      "title": "Bemorga aytiladigan so‘z",
+      "translation": "Zarari yo‘q, inshaalloh, bu poklanishdir.",
+      "source": "Buxoriy, 3616",
+      "translit": "La ba’sa, tahurun in sha’ Alloh"
+    },
+    "pain": {
+      "title": "Badanda og‘riq sezganda",
+      "translation": "Qo‘lingni og‘riyotgan joyga qo‘yib, uch marta «Bismillah» de, so‘ng yetti marta: «Sezayotgan va qo‘rqayotgan narsamning yomonligidan Allohga va Uning qudratiga panoh so‘rayman».",
+      "source": "Muslim, 2202",
+      "translit": "Bismilloh (3 marta). A’uzu billahi va qudratihi min sharri ma ajidu va uhazir (7 marta)"
+    },
+    "ayyub": {
+      "title": "Ayyub (alayhissalom) duosi",
+      "translation": "Menga zarar yetdi, Sen esa rahm qiluvchilarning eng Rahmlisisan.",
+      "source": "Qur’on, 21:83",
+      "translit": "Anni massaniyad-durru va anta arhamur-rahimin"
+    },
+    "anxiety_ibn_masud": {
+      "title": "Xavotir va g‘am paytidagi duo",
+      "translation": "Allohim, men Sening bandangman, bandangning o‘g‘liman, cho‘ringning o‘g‘liman. Peshonam Sening qo‘lingda, hukming menda amalga oshguvchi, qazoying men haqimda adolatli. Sendan O‘zingni atagan, Kitobingda nozil qilgan, maxluqotingdan biriga o‘rgatgan yoki g‘ayb ilmida O‘zingda saqlab qo‘ygan har bir isming bilan so‘rayman: Qur’onni qalbimning bahori, ko‘ksimning nuri, g‘amimning ketishi va tashvishimning yo‘qolishi qil.",
+      "source": "Ahmad, 3712 (Albaniy bahosiga ko‘ra sahih)",
+      "note": "Ayol kishi: «Allohumma inni amatuk, bintu ’abdik, bintu amatik», deyishi mumkin.",
+      "translit": "Allohumma inni ’abduk, ibnu ’abdik, ibnu amatik, nasiyati biyadik, madin fiyya hukmuk, ’adlun fiyya qada’uk. As’aluka bi-kulli-smin huva lak, sammayta bihi nafsak, av anzaltahu fi kitabik, av ’allamtahu ahadan min xalqik, avista’sarta bihi fi ’ilmil-g‘aybi ’indak, an taj’alal-Qur’ana rabi’a qalbi, va nura sadri, va jala’a huzni, va zahaba hammi"
+    },
+    "distress_karb": {
+      "title": "Qattiq mashaqqatdagi duo (karb duosi)",
+      "translation": "Ulug‘, Halim Allohdan boshqa iloh yo‘q. Ulug‘ Arshning Robbi Allohdan boshqa iloh yo‘q. Osmonlarning Robbi, yerning Robbi va karamli Arshning Robbi Allohdan boshqa iloh yo‘q.",
+      "source": "Buxoriy, 6346; Muslim, 2730",
+      "translit": "La ilaha illallahul-’Azimul-Halim, la ilaha illallahu Rabbul-’arshil-’azim, la ilaha illallahu Rabbus-samavati va Rabbul-ardi va Rabbul-’arshil-karim"
+    },
+    "yunus": {
+      "title": "Yunus (alayhissalom) duosi",
+      "translation": "Sendan boshqa iloh yo‘q, Sen poksan! Albatta, men zolimlardan bo‘ldim.",
+      "source": "Qur’on, 21:87; uning fazilati haqida — Termiziy, 3505",
+      "note": "«Qaysi bir musulmon bu duo bilan biror narsa so‘rasa, albatta Alloh unga ijobat qiladi».",
+      "translit": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin"
+    },
+    "hasbunallah": {
+      "title": "Bizga Alloh kifoya",
+      "translation": "Bizga Alloh kifoya va U naqadar yaxshi Vakil!",
+      "source": "Qur’on, 3:173; Buxoriy, 4563",
+      "note": "Ibrohim (alayhissalom) olovga tashlanganda buni aytgan, Muhammad ﷺ esa dushman unga qarshi to‘plangani aytilganda aytganlar.",
+      "translit": "Hasbunallahu va ni’mal-Vakil"
+    },
+    "do_not_leave_me": {
+      "title": "Meni o‘zimga tashlab qo‘yma",
+      "translation": "Allohim, Sening rahmatingni umid qilaman, meni ko‘z ochib-yumguncha ham o‘zimga tashlab qo‘yma va barcha ishlarimni isloh qil. Sendan boshqa iloh yo‘q.",
+      "source": "Abu Dovud, 5090 (hasan)",
+      "translit": "Allohumma rahmataka arju, fa la takilni ila nafsi tarfata ’ayn, va aslih li sha’ni kullahu, la ilaha illa ant"
+    },
+    "fear_enemy": {
+      "title": "Odamlardan qo‘rqqanda",
+      "translation": "Allohim, Seni ularning qarshisiga qo‘yamiz va ularning yomonliklaridan Sendan panoh so‘raymiz.",
+      "source": "Abu Dovud, 1537 (sahih)",
+      "translit": "Allohumma inna naj’aluka fi nuhurihim, va na’uzu bika min shururihim"
+    },
+    "patience": {
+      "title": "Sabr va sobitlik uchun",
+      "translation": "Robbimiz, ustimizga sabr quy, qadamlarimizni sobit qil va kofir qavmga qarshi bizga yordam ber.",
+      "source": "Qur’on, 2:250",
+      "translit": "Rabbana afrig‘ ’alayna sabran va sabbit aqdamana vansurna ’alal-qavmil-kafirin"
+    },
+    "sleep_bismika": {
+      "title": "Uxlashdan oldin",
+      "translation": "Allohim, Sening isming bilan o‘laman va tirilaman.",
+      "source": "Buxoriy, 6324",
+      "translit": "Bismika-llohumma amutu va ahya"
+    },
+    "sleep_kursi": {
+      "title": "Oyatal Kursiy",
+      "translation": "Alloh — Undan boshqa iloh yo‘q, U Tirik va hamma narsani tutib turuvchidir. Uni mudroq ham, uyqu ham tutmaydi. Osmonlardagi va yerdagi narsalar Unikidir. Uning izni bo‘lmasa, kim ham Uning huzurida shafoat qila olur? U ularning oldilaridagi va ortlaridagi narsalarni biladi, ular esa Uning ilmidan U xohlagandan boshqa hech narsani qamrab ololmaydilar. Uning Kursiysi osmonlar va yerni qamrab olgan, ularni saqlash Uni toliqtirmaydi. U Oliy va Ulug‘dir.",
+      "source": "Qur’on, 2:255; uxlashdan oldin o‘qish haqida — Buxoriy, 2311",
+      "note": "Kim uni uxlashdan oldin o‘qisa, tun bo‘yi Alloh tomonidan bir qo‘riqchi uni saqlaydi va tonggacha unga shayton yaqinlashmaydi.",
+      "translit": "Allohu la ilaha illa huval-Hayyul-Qayyum, la ta’xuzuhu sinatun va la navm, lahu ma fis-samavati va ma fil-ard, man zal-lazi yashfa’u ’indahu illa bi-iznih, ya’lamu ma bayna aydihim va ma xalfahum, va la yuhituna bi-shay’in min ’ilmihi illa bima sha’, vasi’a kursiyyuhus-samavati val-ard, va la ya’uduhu hifzuhuma, va huval-’Aliyyul-’Azim"
+    },
+    "sleep_baqarah_end": {
+      "title": "«Baqara» surasining oxirgi ikki oyati",
+      "translation": "Payg‘ambar Robbidan unga nozil qilingan narsaga iymon keltirdi, mo‘minlar ham… «Robbimiz, agar unutsak yoki xato qilsak, bizni jazolama… Bizni afv et, bizni mag‘firat qil va bizga rahm qil! Sen bizning Hojamizsan, kofir qavmga qarshi bizga yordam ber».",
+      "source": "Qur’on, 2:285–286; Buxoriy, 5009",
+      "note": "«Kim kechasi «Baqara» surasining oxirgi ikki oyatini o‘qisa, o‘sha unga kifoya qiladi».",
+      "translit": "Amanar-rasulu bima unzila ilayhi min Rabbihi val-mu’minun… (2:285–286)"
+    },
+    "sleep_three_quls": {
+      "title": "«Ixlos», «Falaq» va «Nos» suralari",
+      "translation": "Payg‘ambar ﷺ uxlashdan oldin kaftlarini jamlab, ularga «Ixlos», «Falaq» va «Nos» suralarini o‘qib, puflab, boshi va yuzidan boshlab badanining yetgan joyini silardilar — uch marta. Bu suralar ertalab va kechqurun ham uch martadan o‘qiladi.",
+      "source": "Buxoriy, 5017; ertalab va kechqurun — Abu Dovud, 5082; Termiziy, 3575"
+    },
+    "waking": {
+      "title": "Uyg‘onganda",
+      "translation": "Bizni o‘ldirganidan keyin tiriltirgan Allohga hamd bo‘lsin, qayta tirilish ham Ungadir.",
+      "source": "Buxoriy, 6312",
+      "translit": "Alhamdu lillahil-lazi ahyana ba’da ma amatana va ilayhin-nushur"
+    },
+    "night_fear": {
+      "title": "Uyqusizlik va uyqudagi qo‘rquvda",
+      "translation": "Allohning mukammal kalimalari bilan Uning g‘azabi va jazosidan, bandalarining yomonligidan, shaytonlarning vasvasalaridan va ularning huzurimga kelishidan panoh so‘rayman.",
+      "source": "Abu Dovud, 3893; Termiziy, 3528 (hasan)",
+      "note": "Albaniy uni hasan deb baholagan; ba’zi muhaddislar zaif hisoblaydi. Uyqusida qo‘rqqan kishi o‘qiydi.",
+      "translit": "A’uzu bi-kalimatillahit-tammati min g‘adabihi va ’iqabih, va sharri ’ibadih, va min hamazatish-shayatini va an yahdurun"
+    },
+    "sayyid_istighfar": {
+      "title": "Sayyidul istig‘for",
+      "translation": "Allohim, Sen mening Robbimsan, Sendan boshqa iloh yo‘q. Sen meni yaratding, men Sening bandangman, qo‘limdan kelgancha Senga bergan ahdim va va’dam ustidaman. Qilgan ishlarimning yomonligidan Sendan panoh so‘rayman. Menga bergan ne’matingni e’tirof etaman va gunohimni e’tirof etaman, meni mag‘firat qil, chunki gunohlarni Sendan boshqa hech kim mag‘firat qilmaydi.",
+      "source": "Buxoriy, 6306",
+      "note": "Kim uni kunduzi qat’iy ishonch bilan aytib, kechgacha vafot etsa, jannat ahlidan bo‘ladi; kechasi aytib, tonggacha vafot etsa ham shunday.",
+      "translit": "Allohumma anta Rabbi, la ilaha illa ant, xalaqtani va ana ’abduk, va ana ’ala ’ahdika va va’dika mastata’t, a’uzu bika min sharri ma sana’t, abu’u laka bi-ni’matika ’alayya, va abu’u laka bi-zanbi, fag‘fir li, fa-innahu la yag‘firuz-zunuba illa ant"
+    },
+    "bismillah_no_harm": {
+      "title": "Ertalab va kechqurun himoya — 3 marta",
+      "translation": "Ismi bilan yerda ham, osmonda ham hech narsa zarar yetkaza olmaydigan Allohning ismi bilan. U Eshituvchi, Biluvchidir.",
+      "source": "Abu Dovud, 5088; Termiziy, 3388 (hasan sahih)",
+      "translit": "Bismillahil-lazi la yadurru ma’asmihi shay’un fil-ardi va la fis-sama’, va huvas-Sami’ul-’Alim"
+    },
+    "subhanallah_100": {
+      "title": "Ertalab va kechqurun tasbeh — 100 marta",
+      "translation": "Alloh pokdir va Unga hamd bo‘lsin.",
+      "source": "Muslim, 2692",
+      "translit": "Subhanallahi va bihamdih"
+    },
+    "tahlil_100": {
+      "title": "Tahlil — kuniga 100 marta",
+      "translation": "Yolg‘iz, sherigi yo‘q Allohdan boshqa iloh yo‘q. Mulk Uniki, hamd Unikidir va U har narsaga qodirdir.",
+      "source": "Buxoriy, 3293; Muslim, 2691",
+      "translit": "La ilaha illallahu vahdahu la sharika lah, lahul-mulku va lahul-hamd, va huva ’ala kulli shay’in qadir"
+    },
+    "travel": {
+      "title": "Safar duosi (yo‘lga chiqqanda)",
+      "translation": "Alloh ulug‘dir (uch marta). Buni bizga bo‘ysundirgan Zot pokdir, biz o‘zimiz bunga qodir emas edik, albatta biz Robbimizga qaytguvchimiz. Allohim, bu safarimizda Sendan yaxshilik, taqvo va Sen rozi bo‘ladigan amal so‘raymiz. Allohim, bu safarimizni bizga oson qil va uning uzoqligini qisqartir. Allohim, Sen safarda hamroh va ahlimizga o‘rinbosarsan. Allohim, safar mashaqqatidan, qayg‘uli manzaradan va mol-mulk hamda ahlga yomon qaytishdan Sendan panoh so‘rayman.",
+      "source": "Muslim, 1342",
+      "note": "Qaytganda shularni aytib, qo‘shimcha qiladi: «Oyibuna, toibuna, ’obiduna, li-Robbina hamidun» — «Qaytguvchimiz, tavba qilguvchimiz, ibodat qilguvchimiz, Robbimizga hamd aytguvchimiz».",
+      "translit": "Allohu akbar (3 marta). Subhanal-lazi saxxara lana haza va ma kunna lahu muqrinin, va inna ila Rabbina lamunqalibun. Allohumma inna nas’aluka fi safarina hazal-birra vat-taqva, va minal-’amali ma tarda. Allohumma havvin ’alayna safarana haza vatvi ’anna bu’dah. Allohumma antas-sahibu fis-safar, val-xalifatu fil-ahl. Allohumma inni a’uzu bika min va’sa’is-safar, va ka’abatil-manzar, va su’il-munqalabi fil-mali val-ahl"
+    },
+    "stopping_place": {
+      "title": "Biror joyga to‘xtaganda",
+      "translation": "Allohning mukammal kalimalari bilan U yaratgan narsalarning yomonligidan panoh so‘rayman.",
+      "source": "Muslim, 2708; kechqurun — Muslim, 2709",
+      "note": "Kim biror joyga tushib buni aytsa, u yerdan ketgunicha unga hech narsa zarar yetkazmaydi.",
+      "translit": "A’uzu bi-kalimatillahit-tammati min sharri ma xalaq"
+    },
+    "leaving_home": {
+      "title": "Uydan chiqqanda",
+      "translation": "Allohning ismi bilan, Allohga tavakkul qildim, Allohdan boshqa hech bir kuch va quvvat yo‘q.",
+      "source": "Abu Dovud, 5095; Termiziy, 3426 (sahih)",
+      "translit": "Bismilloh, tavakkaltu ’alalloh, va la havla va la quvvata illa billoh"
+    },
+    "entering_home": {
+      "title": "Uyga kirganda",
+      "translation": "Payg‘ambar ﷺ dedilar: «Kishi uyiga kirayotganda va ovqatlanayotganda Allohni zikr qilsa, shayton: „Sizlarga bu yerda na tunash joyi, na kechki ovqat bor“, deydi». Kirayotganda «Bismillah» deb Allohni zikr qiling va uydagilarga salom bering.",
+      "source": "Muslim, 2018"
+    },
+    "before_eating": {
+      "title": "Ovqatdan oldin",
+      "translation": "Allohning ismi bilan. Agar boshida unutib qo‘ysang: «Bismillahi fi avvalihi va oxirih» — «Avvalida ham, oxirida ham Allohning ismi bilan», de.",
+      "source": "Abu Dovud, 3767; Termiziy, 1858 (sahih)",
+      "translit": "Bismilloh"
+    },
+    "after_eating": {
+      "title": "Ovqatdan keyin",
+      "translation": "Meni bu bilan to‘ydirgan va mening hech qanday kuch-quvvatimsiz menga rizq qilib bergan Allohga hamd bo‘lsin.",
+      "source": "Abu Dovud, 4023; Termiziy, 3458 (hasan)",
+      "translit": "Alhamdu lillahil-lazi at’amani haza va razaqanihi min g‘ayri havlin minni va la quvvah"
+    },
+    "mosque_enter_exit": {
+      "title": "Masjidga kirish va masjiddan chiqish",
+      "translation": "Kirganda: «Allohim, menga rahmatingning eshiklarini och». Chiqqanda: «Allohim, Sendan fazlingni so‘rayman».",
+      "source": "Muslim, 713",
+      "translit": "Entering: “Allohummaftah li abvaba rahmatik”. Leaving: “Allohumma inni as’aluka min fadlik”"
+    },
+    "after_wudu": {
+      "title": "Tahoratdan keyin",
+      "translation": "Yolg‘iz, sherigi yo‘q Allohdan boshqa iloh yo‘qligiga guvohlik beraman va Muhammad Uning bandasi va elchisi ekaniga guvohlik beraman.",
+      "source": "Muslim, 234",
+      "note": "Kim tahoratdan keyin buni aytsa, unga jannatning sakkiz eshigi ochiladi.",
+      "translit": "Ash-hadu an la ilaha illallahu vahdahu la sharika lah, va ash-hadu anna Muhammadan ’abduhu va rasuluh"
+    },
+    "after_salah": {
+      "title": "Namozdan keyin darhol",
+      "translation": "Allohdan mag‘firat so‘rayman (uch marta). Allohim, Sen Salomsan va salomatlik Sendandir. Sen barakotlisan, ey ulug‘lik va ikrom egasi.",
+      "source": "Muslim, 591",
+      "translit": "Astag‘firulloh (3 marta). Allohumma antas-Salam va minkas-salam, tabarakta ya Zal-Jalali val-Ikram"
+    },
+    "istighfar_daily": {
+      "title": "Kundalik istig‘for",
+      "translation": "Allohdan mag‘firat so‘rayman va Unga tavba qilaman.",
+      "source": "Buxoriy, 6307; Muslim, 2702",
+      "note": "Payg‘ambar ﷺ kuniga yetmish martadan ko‘p Allohdan mag‘firat so‘rardilar; Muslimning rivoyatida — yuz marta.",
+      "translit": "Astag‘firullaha va atubu ilayh"
+    },
+    "abu_bakr": {
+      "title": "Payg‘ambar ﷺ Abu Bakrga o‘rgatgan duo",
+      "translation": "Allohim, men o‘zimga ko‘p zulm qildim, gunohlarni esa Sendan boshqa hech kim mag‘firat qilmaydi. O‘z huzuringdan menga mag‘firat ato et va menga rahm qil, albatta Sen Mag‘firatli va Rahmlisan.",
+      "source": "Buxoriy, 834; Muslim, 2705",
+      "translit": "Allohumma inni zalamtu nafsi zulman kasiran, va la yag‘firuz-zunuba illa ant, fag‘fir li mag‘firatan min ’indik, varhamni, innaka antal-G‘afurur-Rahim"
+    },
+    "adam": {
+      "title": "Odam va Havvo duosi",
+      "translation": "Robbimiz, biz o‘zimizga zulm qildik, agar bizni mag‘firat qilmasang va bizga rahm qilmasang, albatta ziyon ko‘rganlardan bo‘lamiz.",
+      "source": "Qur’on, 7:23",
+      "translit": "Rabbana zalamna anfusana va in lam tag‘fir lana va tarhamna lanakunanna minal-xasirin"
+    },
+    "qadr": {
+      "title": "Qadr kechasida",
+      "translation": "Allohim, Sen afv etuvchisan, afvni yaxshi ko‘rasan, meni afv et.",
+      "source": "Termiziy, 3513 (sahih)",
+      "translit": "Allohumma innaka ’Afuvvun tuhibbul-’afva fa’fu ’anni"
+    },
+    "iftar": {
+      "title": "Og‘iz ochganda",
+      "translation": "Chanqoq ketdi, tomirlar namlandi va, inshaalloh, ajr sobit bo‘ldi.",
+      "source": "Abu Dovud, 2357 (hasan)",
+      "translit": "Zahabaz-zama’u, vabtallatil-’uruq, va sabatal-ajru in sha’ Alloh"
+    },
+    "new_moon": {
+      "title": "Yangi oyni ko‘rganda",
+      "translation": "Allohim, uni bizga baraka va iymon, salomatlik va Islom bilan chiqar. Mening Robbim ham, sening Robbing ham Allohdir.",
+      "source": "Termiziy, 3451 (hasan)",
+      "translit": "Allohumma ahlilhu ’alayna bil-yumni val-iman, vas-salamati val-islam, Rabbi va Rabbukalloh"
+    },
+    "iftar_lakasumtu": {
+      "title": "Iftorda «Allohumma laka sumtu»",
+      "translation": "Allohim, Sen uchun ro‘za tutdim va Sening rizqing bilan og‘iz ochdim.",
+      "source": "Abu Dovud, 2358 (zaif, mursal)",
+      "note": "Bu hadisning sanadi uzilgan, shuning uchun u zaif. Ma’nosi to‘g‘ri, uni umumiy duo sifatida aytish mumkin, ammo iftorning ishonchli duosi — «Zahabaz-zama’u» (yuqoriga qarang).",
+      "translit": "Allohumma laka sumtu va ’ala rizqika aftartu"
+    },
+    "spouse_children": {
+      "title": "Juftlar va farzandlardan quvonch uchun",
+      "translation": "Robbimiz, bizga juftlarimiz va zurriyotlarimizdan ko‘z quvonchini ato et va bizni taqvodorlarga imom qil.",
+      "source": "Qur’on, 25:74",
+      "translit": "Rabbana hab lana min azvajina va zurriyyatina qurrata a’yun vaj’alna lil-muttaqina imama"
+    },
+    "zakariya_child": {
+      "title": "Zakariyo (alayhissalom)ning farzand so‘rab qilgan duosi",
+      "translation": "Robbim, menga O‘z huzuringdan pokiza zurriyot ato et, albatta Sen duoni eshituvchisan.",
+      "source": "Qur’on, 3:38",
+      "translit": "Rabbi hab li min ladunka zurriyyatan tayyibatan, innaka Sami’ud-du’a"
+    },
+    "zakariya_alone": {
+      "title": "Meni yolg‘iz qoldirma",
+      "translation": "Robbim, meni yolg‘iz qoldirma, Sen merosxo‘rlarning eng yaxshisisan.",
+      "source": "Qur’on, 21:89",
+      "translit": "Rabbi la tazarni fardan va anta xayrul-varisin"
+    },
+    "children_prayer": {
+      "title": "Men ham, farzandlarim ham namozni qoim qilishimiz uchun",
+      "translation": "Robbim, meni va zurriyotimdan bo‘lganlarni namozni qoim qiluvchilardan qil. Robbimiz, duoimni qabul et.",
+      "source": "Qur’on, 14:40",
+      "translit": "Rabbij’alni muqimas-salati va min zurriyyati, Rabbana va taqabbal du’a"
+    },
+    "children_protection": {
+      "title": "Bolalarni himoya qilish",
+      "translation": "Ikkovingizni Allohning mukammal kalimalari bilan har bir shaytondan, har bir zaharli jonivordan va har bir yomon ko‘zdan panohga topshiraman.",
+      "source": "Buxoriy, 3371",
+      "note": "Payg‘ambar ﷺ Hasan va Husaynni shunday panohga topshirardilar. Bitta o‘g‘il uchun: «U’izuka», bitta qiz uchun: «U’izuki», bir nechta bola uchun: «U’izukum».",
+      "translit": "U’izukuma bi-kalimatillahit-tammah, min kulli shaytanin va hammah, va min kulli ’aynin lammah"
+    },
+    "newborn_congrats": {
+      "title": "Farzand tug‘ilishi bilan tabriklash",
+      "translation": "Alloh senga ato etilgan farzandni muborak qilsin; Beruvchiga shukr qil; farzand voyaga yetsin va uning yaxshiligini ko‘r.",
+      "source": "Hasan Basriyning so‘zi (Payg‘ambar ﷺ hadisi emas); «Hisnul muslim»da keltiriladi",
+      "translit": "Barakallahu laka fil-mavhubi lak, va shakartal-Vahib, va balag‘a ashuddah, va ruziqta birrah"
+    },
+    "wedding_congrats": {
+      "title": "Yangi turmush qurganlarni tabriklash",
+      "translation": "Alloh senga baraka bersin, ustingga baraka yog‘dirsin va ikkovingizni yaxshilikda jamlasin.",
+      "source": "Abu Dovud, 2130; Termiziy, 1091 (sahih)",
+      "translit": "Barakallahu lak, va baraka ’alayk, va jama’a baynakuma fi xayr"
+    },
+    "istikhara": {
+      "title": "Istixora — qaror qabul qilish kerak bo‘lganda",
+      "translation": "Allohim, Sening ilming bilan Sendan yaxshilikni tanlashni so‘rayman, Sening qudrating bilan Sendan quvvat so‘rayman va Sening ulug‘ fazlingdan so‘rayman. Sen qodirsan, men qodir emasman; Sen bilasan, men bilmayman, Sen g‘aybni biluvchisan. Allohim, agar bu ish (uni ayting) dinimda, hayotimda va ishimning oqibatida men uchun yaxshi ekanini bilsang, uni menga taqdir qil, menga oson qil va menga unda baraka ber. Agar bu ish dinimda, hayotimda va ishimning oqibatida men uchun yomon ekanini bilsang, uni mendan, meni undan burib qo‘y, yaxshilik qayerda bo‘lsa, menga o‘shani taqdir qil va meni undan rozi qil.",
+      "source": "Buxoriy, 1162",
+      "note": "Ikki rakat nafl namoz o‘qib, so‘ng shu duoni qiling.",
+      "translit": "Allohumma inni astaxiruka bi-’ilmik, va astaqdiruka bi-qudratik, va as’aluka min fadlikal-’azim, fa-innaka taqdiru va la aqdir, va ta’lamu va la a’lam, va anta ’Allamul-g‘uyub. Allohumma in kunta ta’lamu anna hazal-amra (ishni ayting) xayrun li fi dini va ma’ashi va ’aqibati amri, faqdurhu li va yassirhu li, summa barik li fih. Va in kunta ta’lamu anna hazal-amra sharrun li fi dini va ma’ashi va ’aqibati amri, fasrifhu ’anni vasrifni ’anhu, vaqdur liyal-xayra haysu kan, summa ardini bih"
+    },
+    "make_easy": {
+      "title": "Ish qiyin bo‘lganda",
+      "translation": "Allohim, Sen oson qilgan narsadan boshqa hech narsa oson emas, Sen xohlasang, qiyinni ham oson qilasan.",
+      "source": "Ibn Hibbon, 974 (sahih)",
+      "translit": "Allohumma la sahla illa ma ja’altahu sahla, va anta taj’alul-hazna iza shi’ta sahla"
+    },
+    "musa_chest": {
+      "title": "Nutq, imtihon yoki og‘ir suhbatdan oldin",
+      "translation": "Robbim, ko‘ksimni keng qil, ishimni oson qil va so‘zimni tushunishlari uchun tilimdagi tugunni yech.",
+      "source": "Qur’on, 20:25–28",
+      "translit": "Rabbishrah li sadri, va yassir li amri, vahlul ’uqdatan min lisani, yafqahu qavli"
+    },
+    "knowledge": {
+      "title": "Ilm uchun",
+      "translation": "Robbim, ilmimni ziyoda qil.",
+      "source": "Qur’on, 20:114",
+      "translit": "Rabbi zidni ’ilma"
+    },
+    "anger": {
+      "title": "G‘azablanganda",
+      "translation": "Quvilgan shaytondan Allohga panoh so‘rayman.",
+      "source": "Buxoriy, 3282; Muslim, 2610",
+      "translit": "A’uzu billahi minash-shaytanir-rajim"
+    },
+    "heart_firm": {
+      "title": "Iymonda sobit qalb uchun",
+      "translation": "Robbimiz, bizni hidoyatga solganingdan so‘ng qalblarimizni og‘dirma va bizga O‘z huzuringdan rahmat ato et. Albatta, Sen ato qiluvchisan.",
+      "source": "Qur’on, 3:8",
+      "translit": "Rabbana la tuzig‘ qulubana ba’da iz hadaytana va hab lana min ladunka rahmah, innaka antal-Vahhab"
+    },
+    "ya_hayyu": {
+      "title": "Umidsizlikda: «Ey Tirik, ey Qayyum»",
+      "translation": "Ey Tirik, ey hamma narsani tutib turuvchi, rahmating bilan yordam so‘rayman.",
+      "source": "Termiziy, 3524 (hasan)",
+      "note": "Payg‘ambar ﷺ biror narsa qiynasa, shuni aytardilar.",
+      "translit": "Ya Hayyu ya Qayyum, bi-rahmatika astag‘is"
+    },
+    "good_news": {
+      "title": "Quvontiradigan narsa sodir bo‘lganda",
+      "translation": "Ne’mati bilan yaxshi ishlar komil bo‘ladigan Allohga hamd bo‘lsin.",
+      "source": "Ibn Moja, 3803 (hasan)",
+      "translit": "Alhamdu lillahil-lazi bi-ni’matihi tatimmus-salihat"
+    },
+    "sulayman_thanks": {
+      "title": "Shukr uchun duo",
+      "translation": "Robbim, menga va ota-onamga bergan ne’matingga shukr qilishni va Sen rozi bo‘ladigan solih amal qilishni menga ilhom qil, meni rahmating bilan solih bandalaring qatoriga kirit.",
+      "source": "Qur’on, 27:19",
+      "translit": "Rabbi avzi’ni an ashkura ni’matakal-lati an’amta ’alayya va ’ala validayya va an a’mala salihan tardahu va adxilni bi-rahmatika fi ’ibadikas-salihin"
+    },
+    "best_of_both": {
+      "title": "Payg‘ambar ﷺning eng ko‘p qilgan duolari",
+      "translation": "Robbimiz, bizga bu dunyoda ham yaxshilik, oxiratda ham yaxshilik ato et va bizni do‘zax azobidan saqla.",
+      "source": "Qur’on, 2:201; Buxoriy, 6389",
+      "translit": "Rabbana atina fid-dunya hasanatan va fil-axirati hasanatan va qina ’azaban-nar"
+    },
+    "anas_dua": {
+      "title": "Birovga yaxshilik va baraka tilash",
+      "translation": "Allohim, uning mol-mulkini va farzandlarini ko‘paytir va unga bergan narsangda baraka ber.",
+      "source": "Buxoriy, 6334; Muslim, 2480",
+      "note": "Payg‘ambar ﷺ bu duoni Anas ibn Molik uchun qilganlar. Ayol uchun: «Allohumma aksir malaha va valadaha, va barik laha fima a’taytaha».",
+      "translit": "Allohumma aksir malahu va valadahu, va barik lahu fima a’taytah"
+    },
+    "islah": {
+      "title": "Dinda, bu dunyoda va oxiratda yaxshilik uchun",
+      "translation": "Allohim, ishlarimning himoyasi bo‘lgan dinimni isloh qil; tirikchiligim bo‘lgan dunyomni isloh qil; qaytar joyim bo‘lgan oxiratimni isloh qil. Hayotni men uchun har bir yaxshilikda ziyodalik qil, o‘limni esa men uchun har bir yomonlikdan halovat qil.",
+      "source": "Muslim, 2720",
+      "translit": "Allohumma aslih li diniyal-lazi huva ’ismatu amri, va aslih li dunyayal-lati fiha ma’ashi, va aslih li axiratil-lati fiha ma’adi, vaj’alil-hayata ziyadatan li fi kulli xayr, vaj’alil-mavta rahatan li min kulli sharr"
+    },
+    "barakallah": {
+      "title": "«Barakallohu fik»",
+      "translation": "Sahobalar yaxshilikka «barakallohu fik/fiki» — «Alloh senga baraka bersin» so‘zlari bilan javob berib, duo qilardilar. Bu istalgan kunda, jumladan, odamni tabriklaganda ham munosib umumiy tilakdir.",
+      "source": "Baraka tilash iborasi hadislarda uchraydi, masalan, Buxoriy, 5155"
+    },
+    "kahf_friday": {
+      "title": "Juma kuni «Kahf» surasi",
+      "translation": "«Kim juma kuni «Kahf» surasini o‘qisa, u ikki juma orasini unga nur bilan yoritadi».",
+      "source": "Hokim, 2/368; Bayhaqiy (Albaniy bahosiga ko‘ra sahih, Sahihul Jome’, 6470)"
+    },
+    "salawat_friday": {
+      "title": "Payg‘ambarga ﷺ salovat (ayniqsa juma kuni)",
+      "translation": "Allohim, Ibrohimga va Ibrohimning oilasiga salovot yo‘llaganingdek, Muhammadga va Muhammadning oilasiga salovot yo‘lla. Albatta, Sen Hamidu Majidsan.",
+      "source": "Buxoriy, 3370; juma haqida — Abu Dovud, 1047",
+      "translit": "Allohumma salli ’ala Muhammadin va ’ala ali Muhammad, kama sallayta ’ala Ibrahima va ’ala ali Ibrahim, innaka Hamidun Majid"
+    },
+    "eid_greeting": {
+      "title": "Hayit tabrigi",
+      "translation": "Alloh bizdan ham, sizlardan ham qabul qilsin.",
+      "source": "Sahobalar bir-birlarini shunday tabriklashgan (Ibn Hajar, «Fathul Boriy»: sanadi yaxshi)",
+      "translit": "Taqabbalallahu minna va minkum"
+    },
+    "sacrifice": {
+      "title": "Qurbonlik so‘yganda",
+      "translation": "Allohning ismi bilan, Alloh ulug‘dir.",
+      "source": "Muslim, 1966",
+      "note": "Payg‘ambar ﷺ ikki qo‘chqorni qurbonlik qilganda shuni aytganlar. Qurbonlik kim uchun ekanini qo‘shib aytish mumkin: «Allohumma minka va lak» (Abu Dovud, 2795).",
+      "translit": "Bismillahi vallahu akbar"
+    },
+    "zakat_recipients": {
+      "title": "Zakotni kimlar oladi",
+      "translation": "Zakotlar faqat faqirlarga, miskinlarga, uni yig‘uvchilarga, qalblari (Islomga) oshno qilinadiganlarga, qullarni ozod qilishga, qarzdorlarga, Alloh yo‘lida va yo‘lda qolgan musofirga beriladi — bu Allohdan farzdir. Alloh Biluvchi va Hikmatlidir.",
+      "source": "Qur’on, 9:60"
+    },
+    "zakat_purifies": {
+      "title": "Zakot molni va qalbni poklaydi",
+      "translation": "Ularning mollaridan sadaqa olgin, u bilan ularni poklab, o‘stirasan, va ularga duo qil. Sening duoying ular uchun xotirjamlikdir. Alloh Eshituvchi va Biluvchidir.",
+      "source": "Qur’on, 9:103",
+      "note": "Zakot olganda Payg‘ambar ﷺ beruvchi uchun duo qilardilar (Buxoriy, 1497)."
+    },
+    "sadaqah_not_decrease": {
+      "title": "Sadaqa molni kamaytirmaydi",
+      "translation": "«Sadaqa molni kamaytirmaydi. Afv qiluvchi bandaning Alloh faqat izzatini ziyoda qiladi, kim Alloh uchun kamtar bo‘lsa, Alloh uni yuksaltiradi».",
+      "source": "Muslim, 2588"
+    },
+    "market": {
+      "title": "Bozorga kirganda",
+      "translation": "Yolg‘iz, sherigi yo‘q Allohdan boshqa iloh yo‘q. Mulk Uniki, hamd Unikidir; U tiriltiradi va o‘ldiradi, U Tirikdir, o‘lmaydi. Barcha yaxshilik Uning qo‘lida va U har narsaga qodirdir.",
+      "source": "Termiziy, 3428 — bahosi bahsli",
+      "note": "Termiziy hadisni g‘arib degan; Albaniy uni hasan deb baholagan, ko‘plab hadis tanqidchilari (Abu Hotim va boshqalar) esa zaif deb hisoblagan. Zikr so‘zlari to‘g‘ri, ammo hadisda va’da qilingan katta savobni ishonch bilan aytib bo‘lmaydi.",
+      "translit": "La ilaha illallahu vahdahu la sharika lah, lahul-mulku va lahul-hamd, yuhyi va yumit, va huva hayyun la yamut, bi-yadihil-xayr, va huva ’ala kulli shay’in qadir"
+    },
+    "zakat_nisab": {
+      "title": "Nisob va yil",
+      "translation": "«Besh uqiyadan (kumush) kamiga zakot yo‘q». Kumush nisobi — 200 dirham (taxminan 595 g), oltinniki — 20 dinor (taxminan 85 g); zakot mol ustidan bir yil o‘tganda qirqdan bir (2,5%) miqdorida to‘lanadi.",
+      "source": "Buxoriy, 1447; Abu Dovud, 1573"
+    },
+    "nuh_parents": {
+      "title": "Nuhning o‘zi, ota-onasi va mo‘minlar uchun duosi",
+      "translation": "Robbim, meni, ota-onamni, uyimga mo‘min bo‘lib kirgan kishini va mo‘min erkaklar hamda mo‘min ayollarni mag‘firat qil.",
+      "source": "Qur’on, 71:28",
+      "translit": "Rabbi-g‘fir li va li-validayya va liman daxala baytiya mu’minan va lil-mu’minina val-mu’minat"
+    },
+    "burial_lowering": {
+      "title": "Marhumni qabrga qo‘yganda",
+      "translation": "Allohning ismi bilan va Rasululloh sunnati bo‘yicha.",
+      "source": "Abu Dovud, 3213 (sahih)",
+      "translit": "Bismillahi va ’ala sunnati rasulilloh"
+    },
+    "grave_punishment": {
+      "title": "Qabr azobidan himoya",
+      "translation": "Allohim, jahannam azobidan, qabr azobidan, hayot va o‘lim fitnasidan va Dajjol fitnasining yomonligidan Sendan panoh so‘rayman.",
+      "source": "Muslim, 588",
+      "note": "Payg‘ambar ﷺ buni namozning oxirgi tashahhudida salomdan oldin aytishni buyurganlar. «Mulk» surasi ham himoya qiladi (uning kartasiga qarang).",
+      "translit": "Allohumma inni a’uzu bika min ’azabi jahannam, va min ’azabil-qabr, va min fitnatil-mahya val-mamat, va min sharri fitnatil-masihid-dajjal"
+    },
+    "ikhlas_11": {
+      "title": "«Qabristonda «Ixlos»ni 11 marta»",
+      "translation": "Qabristonda «Ixlos» surasini 11 marta o‘qib, savobini marhumlarga bag‘ishlash savobi haqidagi hadis juda zaif yoki to‘qima. Qabrlar oldida Qur’on o‘qish bahsli masala («Yosin» kartasiga qarang). Qabrlarni ziyorat qilganda ishonchli bo‘lgani — ularning ahliga salom berish va ular uchun duo qilish.",
+      "source": "Ishonchli sanadsiz hadis — juda zaif yoki to‘qima"
+    },
+    "toilet_enter": {
+      "title": "Hojatxonaga kirishdan oldin",
+      "translation": "Allohim, erkak va urg‘ochi shaytonlardan Sendan panoh so‘rayman.",
+      "source": "Buxoriy, 142; Muslim, 375",
+      "note": "Undan oldin «Bismillah» deyiladi (Termiziy, 606, sahih). Chap oyoq bilan kiriladi, ichkarida Alloh ovoz chiqarib zikr qilinmaydi.",
+      "translit": "Allohumma inni a’uzu bika minal-xubusi val-xaba’is"
+    },
+    "toilet_exit": {
+      "title": "Hojatxonadan chiqqandan keyin",
+      "translation": "Sendan mag‘firat so‘rayman.",
+      "source": "Abu Dovud, 30; Termiziy, 7 (sahih)",
+      "translit": "G‘ufranaka"
+    },
+    "rain": {
+      "title": "Yomg‘ir yog‘ganda",
+      "translation": "Allohim, (uni) foydali yomg‘ir (qil).",
+      "source": "Buxoriy, 1032",
+      "translit": "Allohumma sayyiban nafi’a"
+    },
+    "after_rain": {
+      "title": "Yomg‘irdan keyin",
+      "translation": "Bizga Allohning fazli va rahmati bilan yomg‘ir yog‘dirildi.",
+      "source": "Buxoriy, 846; Muslim, 71",
+      "translit": "Mutirna bi-fadlillahi va rahmatih"
+    },
+    "wind": {
+      "title": "Kuchli shamol esganda",
+      "translation": "Allohim, Sendan uning yaxshiligini, undagi yaxshilikni va u yuborilgan yaxshilikni so‘rayman, uning yomonligidan, undagi yomonlikdan va u yuborilgan yomonlikdan Sendan panoh so‘rayman.",
+      "source": "Muslim, 899",
+      "translit": "Allohumma inni as’aluka xayraha, va xayra ma fiha, va xayra ma ursilat bih, va a’uzu bika min sharriha, va sharri ma fiha, va sharri ma ursilat bih"
+    },
+    "thunder": {
+      "title": "Momaqaldiroqni eshitganda",
+      "translation": "Momaqaldiroq Unga hamd bilan tasbeh aytadigan, farishtalar Undan qo‘rqib tasbeh aytadigan Zot pokdir.",
+      "source": "Buxoriy, «Al-Adab al-mufrad», 723; Molik, «Muvatto» — Abdulloh ibn Zubayrning so‘zi",
+      "note": "Bu Payg‘ambar ﷺ hadisi emas, sahobaning so‘zi; ibora Qur’ondan (13:13) olingan.",
+      "translit": "Subhanal-lazi yusabbihur-ra’du bi-hamdihi val-mala’ikatu min xifatih"
+    },
+    "ruqyah_jibril": {
+      "title": "Jabroil ruqyasi (ko‘z tegishi va kasallikdan)",
+      "translation": "Allohning ismi bilan senga ruqya qilaman, senga ozor beradigan har bir narsadan, har bir nafs yoki hasadgo‘y ko‘zning yomonligidan. Alloh senga shifo bersin. Allohning ismi bilan senga ruqya qilaman.",
+      "source": "Muslim, 2186",
+      "note": "Payg‘ambar ﷺ kasal bo‘lganlarida Jabroil farishta ularga shuni o‘qigan. Bemorning ustiga o‘qiladi, qo‘lni uning boshiga qo‘yish mumkin.",
+      "translit": "Bismillahi arqik, min kulli shay’in yu’zik, min sharri kulli nafsin av ’ayni hasid, Allohu yashfik, bismillahi arqik"
+    },
+    "seeing_afflicted": {
+      "title": "Balo-musibatga uchragan odamni ko‘rganda",
+      "translation": "Seni sinagan narsadan meni omonda saqlagan va meni U yaratganlarning ko‘pidan afzal qilgan Allohga hamd bo‘lsin.",
+      "source": "Termiziy, 3432 (hasan)",
+      "note": "Odamning ko‘nglini og‘ritmaslik uchun buni ichingizda sekin ayting.",
+      "translit": "Al-hamdu lillahil-lazi ’afani mimma-btalaka bih, va faddalani ’ala kasirin mimman xalaqa tafdila"
+    },
+    "seeing_pleasing": {
+      "title": "Ko‘z tegizmay hayratlanish",
+      "translation": "«Qachon biringiz o‘zida, molida yoki birodarida o‘ziga yoqqan narsani ko‘rsa, unga baraka tilasin, chunki ko‘z tegishi haqdir». Masalan: «Barakallohu fih» (Alloh unga baraka bersin) yoki «Allohumma barik ’alayh».",
+      "source": "Ibn Moja, 3509 (Albaniy bahosiga ko‘ra sahih)"
+    },
+    "mashallah": {
+      "title": "«Mashaalloh, la quvvata illa billah»",
+      "translation": "Alloh xohlagani (bo‘ldi); Allohsiz hech qanday quvvat yo‘q.",
+      "source": "Qur’on, 18:39",
+      "note": "Oyatda bog‘ egasi unga kirganda shuni aytishi kerak edi. Olimlar (Ibn Kasir va boshqalar) o‘zingizda yaxshi narsa ko‘rganda shuni aytishni maslahat beradilar; oyatda ko‘z tegishi to‘g‘ridan-to‘g‘ri zikr qilinmagan.",
+      "translit": "Ma sha’ Allohu la quvvata illa billoh"
+    },
+    "sneezing": {
+      "title": "Aksirganda",
+      "translation": "Aksirgan kishi: «Allohga hamd bo‘lsin», deydi. Eshitgan kishi: «Alloh senga rahm qilsin», deb javob beradi. So‘ng aksirgan kishi: «Alloh sizlarni hidoyat qilsin va holingizni isloh qilsin», deydi.",
+      "source": "Buxoriy, 6224",
+      "translit": "Al-hamdu lilloh — Yarhamuka-lloh — Yahdikumullahu va yuslihu balakum"
+    },
+    "baqarah_house": {
+      "title": "Uyda «Baqara» surasi",
+      "translation": "«Uylaringizni qabristonga aylantirmang: albatta, shayton «Baqara» surasi o‘qiladigan uydan qochadi».",
+      "source": "Muslim, 780"
+    },
+    "amulets": {
+      "title": "Qizil ip, tumorlar va «ko‘z» munchoqlar",
+      "translation": "Payg‘ambar ﷺ dedilar: «Kim tumor osib olsa, shirk qilibdi» (Ahmad, 17422) va «Afsunlar, tumorlar va issiq-sovuqlar shirkdir» (Abu Dovud, 3883). Qizil ip, «ko‘z» munchoq, taqa va shunga o‘xshashlar himoya emas. Himoya — bu duo, Oyatal Kursiy, «Ixlos», «Falaq» va «Nos» suralari hamda Qur’on va Sunnatdagi ruqya. Olimlar faqat Qur’on oyatlari yozilgan qog‘ozlarni osib qo‘yish haqida ixtilof qilgan, ko‘pchilik buni ham man qiladi.",
+      "source": "Ahmad, 17422; Abu Dovud, 3883 (Albaniy bahosiga ko‘ra sahih)"
+    },
+    "ruqyah_water": {
+      "title": "Suvga ruqya va «dam solingan» suv",
+      "translation": "Ba’zi olimlar ruqyani («Fotiha», «Ixlos», «Falaq», «Nos», Oyatal Kursiy va Sunnatdagi duolar) suvga o‘qib puflashga ruxsat beradi, so‘ng bemor uni ichadi yoki u bilan yuvinadi; ular Abu Dovuddagi (3885) rivoyatga va ba’zi salaflarning amaliga suyanadi. Bu rivoyatning bahosi bahsli, boshqa olimlar ruqya bemorning o‘ziga o‘qiladi, deb hisoblaydi. Pulga suvga «dam soladigan», tushunarsiz so‘zlar ishlatadigan, irim-sirim qiladigan yoki «kim sehr qilganini aniqlaydigan» odamlarga bormang.",
+      "source": "Abu Dovud, 3885 — bahosi bahsli"
+    },
+    "fatiha_ruqyah": {
+      "title": "Ruqya sifatida «Fotiha»",
+      "translation": "Bir sahoba chayon chaqqan qabila boshlig‘iga «Fotiha»ni o‘qidi va u tuzalib ketdi. Payg‘ambar ﷺ buni ma’qullab: «Uning ruqya ekanini qayerdan bilding?» deb so‘radilar. Shuning uchun «Fotiha» Sunnatdagi boshqa duolar bilan birga bemorga o‘qiladi.",
+      "source": "Buxoriy, 5736; Muslim, 2201"
+    },
+    "memorial_customs": {
+      "title": "3, 7, 40-kunlar va yil oshi",
+      "translation": "Marhum nomidan berilgan sadaqa unga yetib borishi ishonchli (Muslim, 1631): Alloh uchun odamlarni ovqatlantirish va marhum uchun duo qilish istalgan kunda mumkin. Ammo pishiriqlarning belgilangan soni, payshanba va juma kunlari non yopish, 3, 7, 40-kunlarda va yil to‘lganda majburiy ehson oshi, «marhumning tug‘ilgan kunida duo» Qur’onda ham, Sunnatda ham asosga ega emas. Ko‘plab olimlar bunday sanalarni belgilab qo‘yishni bid’at deydi; ba’zilari esa ehson majburiy hisoblanmasa va yetimlarning merosi sarflanmasa, uni sadaqa sifatida joiz biladi. Vafot bo‘lganda Sunnat — qo‘shnilar marhumning oilasini ovqatlantirishi, aksincha emas (Abu Dovud, 3132).",
+      "source": "Maxsus matn yo‘q; marhum uchun sadaqa haqida — Muslim, 1631; marhum oilasiga ovqat haqida — Abu Dovud, 3132"
+    },
+    "oppressed_dua_answered": {
+      "title": "Mazlumning duosi ijobat bo‘ladi",
+      "translation": "«Mazlumning duosidan saqlan, chunki u bilan Alloh o‘rtasida parda yo‘q». Agar sizga zulm qilingan bo‘lsa, Allohdan adolat va yordam so‘rang, ammo haddan oshib la’nat aytmang: «O‘zingizni, farzandlaringizni va mollaringizni qarg‘amang» (Muslim, 3009).",
+      "source": "Buxoriy, 1496; Muslim, 3009"
+    },
+    "musa_people_oppressors": {
+      "title": "Zolim qavmdan najot",
+      "translation": "Robbimiz, bizni zolim qavm uchun fitna qilma va O‘z rahmating bilan bizni kofir qavmdan najot ber.",
+      "source": "Qur’on, 10:85–86",
+      "translit": "Rabbana la taj’alna fitnatan lil-qavmiz-zalimin, va najjina bi-rahmatika minal-qavmil-kafirin"
+    },
+    "mustadafin": {
+      "title": "Mazlumlarning iltijosi",
+      "translation": "Robbimiz, bizni ahli zolim bo‘lgan bu shahardan chiqar, bizga O‘z huzuringdan bir do‘st va O‘z huzuringdan bir yordamchi qil.",
+      "source": "Qur’on, 4:75",
+      "note": "Oyatda bular mazlum erkaklar, ayollar va bolalarning so‘zlari. Falastindagi va boshqa joylardagi mazlum musulmonlar uchun o‘qish mumkin.",
+      "translit": "Rabbana axrijna min hazihil-qaryatiz-zalimi ahluha vaj’al lana min ladunka valiyyan vaj’al lana min ladunka nasira"
+    },
+    "qunut_nazila": {
+      "title": "Musibat paytidagi qunut",
+      "translation": "Musulmonlarga musibat yetganda, Payg‘ambar ﷺ bir oy davomida namozda rukudan keyin: «Allohim, mo‘minlarning zaiflarini qutqar!» deb duo qilganlar. Olimlar bundan mazlum musulmonlar, jumladan, Falastindagilar uchun nozila qunutini chiqarganlar. Uni ado etish tartibi mazhablarda turlicha, shuning uchun masjidingiz imomiga ergashing.",
+      "source": "Buxoriy, 4560"
+    },
+    "tahnik_naming": {
+      "title": "Tahnik va chaqaloqqa ism qo‘yish",
+      "translation": "Abu Musoning o‘g‘li tug‘ilganda, Payg‘ambar ﷺ unga Ibrohim deb ism qo‘ydilar, xurmoni chaynab, chaqaloqning tanglayiga surtdilar (tahnik) va unga baraka so‘rab duo qildilar. Ism birinchi kuni yoki yettinchi kuni qo‘yilishi mumkin.",
+      "source": "Buxoriy, 5467; Muslim, 2145"
+    },
+    "aqiqah": {
+      "title": "Aqiqa",
+      "translation": "«Har bir bola o‘z aqiqasiga garovdir: yettinchi kuni u uchun qurbonlik so‘yiladi, sochi olinadi va ism qo‘yiladi» (Abu Dovud, 2838). «O‘g‘il bola bilan aqiqa bor, u uchun qon to‘kinglar va undan ozorni ketkazinglar» (Buxoriy, 5472). Olimlarning ko‘pchiligi aqiqani farz emas, mustahab sunnat deb hisoblaydi.",
+      "source": "Abu Dovud, 2838 (sahih); Buxoriy, 5472"
+    },
+    "adhan_newborn": {
+      "title": "Chaqaloqning qulog‘iga azon",
+      "translation": "Payg‘ambar ﷺ Hasan tug‘ilganda uning qulog‘iga azon aytganlari haqidagi hadisni Abu Dovud (5105) va Termiziy (1514, u sahih degan) rivoyat qilgan. Ko‘plab muhaddislar, jumladan, Albaniy keyingi bahosida, uni zaif deb hisoblagan. Shuning uchun olimlar ixtilof qilgan: ba’zilari azonni mustahab deydi, boshqalari sobit emas, deydi. Chap quloqqa iqomat aytish bundan ham zaifroq hadislarga asoslanadi.",
+      "source": "Abu Dovud, 5105; Termiziy, 1514 — bahosi bahsli"
+    },
+    "talaq_way_out": {
+      "title": "«Kim Allohdan qo‘rqsa, U unga chiqish yo‘lini beradi»",
+      "translation": "Kim Allohdan qo‘rqsa, U unga chiqish yo‘lini beradi va uni o‘ylamagan tomondan rizqlantiradi. Kim Allohga tavakkul qilsa, U unga kifoyadir.",
+      "source": "Qur’on, 65:2–3",
+      "note": "Bu Undan qo‘rqqan va Unga tavakkul qilganlarga Allohning va’dasi, afsun emas: Sunnatda bu oyatni «qarz uchun» yoki «omad uchun» ma’lum son o‘qish haqida ko‘rsatma yo‘q.",
+      "translit": "Va man yattaqillaha yaj’al lahu maxraja, va yarzuqhu min haysu la yahtasib, va man yatavakkal ’alallahi fa-huva hasbuh"
+    },
+    "waqiah_poverty": {
+      "title": "«Voqi’a» surasini har kecha «kambag‘allikdan»",
+      "translation": "«Kim «Voqi’a» surasini har kecha o‘qisa, unga hech qachon kambag‘allik yetmaydi» hadisini ko‘pchilik muhaddislar (imom Ahmad, Abu Hotim, Doraqutniy, Albaniy) zaif deb baholagan, ba’zi hanafiy muhaddislar esa uni amallar fazilati uchun qabul qiladi. Bu surani o‘qish har qanday Qur’on tilovati kabi yaxshi amal, ammo buning uchun boylik va’da qilingani sobit emas.",
+      "source": "Bayhaqiy, «Shu’abul iymon» — bahosi bahsli, ko‘pchilik: zaif"
+    },
+    "muadh_debt": {
+      "title": "3:26-oyat «qarz uchun» (Muozga o‘rgatilgan duo)",
+      "translation": "Rivoyat qilinishicha, Payg‘ambar ﷺ Muoz ibn Jabalga «Ayting: „Allohim, ey mulk egasi…“» (3:26) oyatini va «Ey dunyo va oxiratning Rahmoni… meni Sendan boshqaning rahmatidan behojat qiladigan rahmat bilan rahm qil» duosini o‘qishni o‘rgatib: «Agar sening tog‘dek qarzing bo‘lsa ham, Alloh uni sen uchun to‘lab beradi», deganlar. Albaniy uni hasan deb baholagan, boshqa muhaddislar sanadi tufayli zaif degan. Shuning uchun oyat va duoni o‘qish mumkin, ammo «qarz ketadi» degan va’dani ishonch bilan aytib bo‘lmaydi. Qarz uchun ishonchli duolar shu bo‘limda yuqorida.",
+      "source": "Tabaroniy, «Al-Mu’jam as-sag‘ir» — bahosi bahsli"
+    },
+    "yusr": {
+      "title": "«Qiyinchilik bilan birga yengillik bor»",
+      "translation": "Bas, albatta, qiyinchilik bilan birga yengillik bor. Albatta, qiyinchilik bilan birga yengillik bor.",
+      "source": "Qur’on, 94:5–6",
+      "translit": "Fa-inna ma’al-’usri yusra. Inna ma’al-’usri yusra"
+    },
+    "internet_claims": {
+      "title": "«100 marta o‘qi, qarz ketadi»: asossiz narsalar",
+      "translation": "Internetda takrorlashning aniq soni va kafolatlangan natija bilan «qarz uchun», «omad uchun» yoki «yo‘l ochish uchun» oyatlar ro‘yxatlari to‘lib yotibdi. Bunday maslahatlarning ko‘pchiligining Qur’on va ishonchli Sunnatda manbasi yo‘q: takrorlash soni yoki savobni faqat hadisda bo‘lsa aytish mumkin. Qur’on o‘qish va o‘z so‘zlaringiz bilan duo qilish doim mumkin, ammo hech kim «kafolatlangan» natija va’da qila olmaydi. Bu ilovada har bir materialning manbasi va ishonchlilik darajasi ko‘rsatilgan.",
+      "source": "Maxsus matn yo‘q; tamoyil — takrorlash soni va savobni faqat manba bo‘yicha aytish"
+    },
+    "yasin_saffat_money": {
+      "title": "«Moliyaviy qiyinchilikdan Yosin va Soffot»",
+      "translation": "Bu haqda so‘ralganda bir muftiy ularni o‘qish mumkin, ammo bu suralar uchun boylik va’da qilgan hadis yo‘q, deb javob bergan. «Qarz to‘lansin deb 2:280-oyatni o‘qing» degan maslahat ham shunday: oyat qarzdorga muhlat berishga chaqiradi, u afsun emas. Qarz uchun ishonchli duolar «Qarz» bo‘limida.",
+      "source": "Qur’on va Sunnatda manbasi yo‘q"
+    },
+    "talbiyah": {
+      "title": "Talbiya",
+      "translation": "Labbay, Allohim, labbay. Labbay, Sening sheriging yo‘q, labbay. Albatta, hamd ham, ne’mat ham, mulk ham Senikidir; Sening sheriging yo‘q.",
+      "source": "Buxoriy, 1549; Muslim, 1184",
+      "note": "Ehromga kirgandan boshlab qurbon kunidagi tosh otishgacha (hajda) yoki tavofni boshlagungacha (umrada) aytiladi.",
+      "translit": "Labbayka-llohumma labbayk, labbayka la sharika laka labbayk, innal-hamda van-ni’mata laka val-mulk, la sharika lak"
+    },
+    "arafah": {
+      "title": "Eng yaxshi duo — Arafa kunida",
+      "translation": "Yolg‘iz, sherigi yo‘q Allohdan boshqa iloh yo‘q. Mulk Uniki, hamd Unikidir va U har narsaga qodirdir.",
+      "source": "Termiziy, 3585 (hasan)",
+      "note": "«Duolarning eng yaxshisi — Arafa kunidagi duo, men va mendan oldingi payg‘ambarlar aytgan eng yaxshi so‘z…» Hajda bo‘lmaganlarga ham mos: Arafa kuni — zulhijjaning 9-kuni.",
+      "translit": "La ilaha illallahu vahdahu la sharika lah, lahul-mulku va lahul-hamd, va huva ’ala kulli shay’in qadir"
+    },
+    "zamzam": {
+      "title": "Zamzam suvi",
+      "translation": "«Zamzam suvi nima niyatda ichilsa, o‘sha uchundir». Albaniy va ba’zi olimlar hadisni sahih degan, boshqa muhaddislar zaif deb baholagan. Ko‘plab olimlar Zamzam ichganda Allohdan dunyo va oxirat yaxshiligini so‘rashni maslahat beradi. Zamzam muborak suv ekani ishonchli (Muslim, 2473).",
+      "source": "Ibn Moja, 3062 — bahosi bahsli; Muslim, 2473"
+    },
+    "dua_times": {
+      "title": "Duo qachon ijobat bo‘ladi",
+      "translation": "Ishonchli matnlarda duoning ijobat bo‘lishi ayniqsa umid qilinadigan vaqtlar aytilgan: kechaning oxirgi uchdan biri (Buxoriy, 1145), juma kunidagi alohida soat (Buxoriy, 935), azon bilan iqomat orasi (Abu Dovud, 521) va sajda (Muslim, 482). Yunusning «La ilaha illa Anta, subhanaka inni kuntu minaz-zolimin» duosi haqida: «Musulmon u bilan biror narsa so‘rasa, Alloh albatta unga ijobat qiladi» (Termiziy, 3505). Javobni shoshiltirmang: «Har biringizning duosi, shoshilib: „Duo qildim, ijobat bo‘lmadi“, demaguncha ijobat qilinadi» (Muslim, 2735).",
+      "source": "Buxoriy, 1145, 935; Abu Dovud, 521; Muslim, 482, 2735; Termiziy, 3505"
+    },
+    "salat_hajah": {
+      "title": "Hojat namozi",
+      "translation": "Alohida «hojat namozi» va uning duosini tasvirlagan hadis juda zaif: Termiziyning o‘zi bir roviyning zaifligini qayd etgan. Nafl namoz o‘qib, so‘ng Allohdan hojatingizni so‘rash doim mumkin, ammo alohida tartib va ijobat va’dasi sobit emas.",
+      "source": "Termiziy, 479 — juda zaif"
+    },
+    "fatiha_40": {
+      "title": "«Har qanday hojat uchun shomdan keyin «Fotiha»ni 40 marta»",
+      "translation": "Bu «sinalgan usul»ni islomiy saytlar tarqatadi, ammo uning manbasi hadis emas, Ibn Arabiyning so‘zlari va sehr kitobi sifatida tanilgan «Shamsul ma’orif» kitobidir. «Fotiha» — Qur’onning eng ulug‘ surasi, uni doim o‘qish mumkin, ammo 40 soni va hojat ijobat bo‘lishi va’dasi asossiz.",
+      "source": "Qur’on va Sunnatda manbasi yo‘q"
+    },
+    "taha_21": {
+      "title": "«Toha surasini 21 marta o‘qisang, qismating ochiladi»",
+      "translation": "Bu maslahat turk internetida mashhur, uni tarqatayotgan maqolalarning o‘zi ham manbasi yo‘qligini tan oladi. Uylanish yoki omad uchun Yosin, Toha yoki boshqa surani «41 marta» o‘qish ham shunday. Qur’on o‘qish yaxshi amal, ammo Sunnatda bu maqsadlar uchun alohida va’da yo‘q.",
+      "source": "Qur’on va Sunnatda manbasi yo‘q"
+    },
+    "istighfar_way_out": {
+      "title": "«Kim doimo istig‘for aytsa, Alloh unga har bir tanglikdan chiqish yo‘lini beradi»",
+      "translation": "Bu hadis ko‘p keltiriladi, ammo u zaif. Shu bilan birga, istig‘forning yengillik va rizq bilan bog‘liqligi Qur’on bilan sobit: «Robbingizdan mag‘firat so‘rang… U sizlarga osmondan mo‘l yomg‘ir yog‘diradi, sizlarni mol-mulk va o‘g‘illar bilan qo‘llaydi» (71:10–12). Shuning uchun oyatlarga suyanib, yengillik uchun istig‘for aytish to‘g‘ri.",
+      "source": "Abu Dovud, 1518 — zaif"
+    },
+    "lost_item_info": {
+      "title": "Biror narsa yo‘qolganda nima deyiladi",
+      "translation": "Yo‘qolgan narsa uchun maxsus ishonchli duo yo‘q. Har qanday, hatto kichik yo‘qotishda ham «Inna lillahi va inna ilayhi roji’un» («Albatta, biz Allohnikimiz va albatta, Unga qaytguvchimiz», 2:156) deyish mumkin: Alloh musibat yetganda shunday deganlarni maqtaydi (2:155–157). So‘ng uni topishga yordam berishini Allohdan o‘z so‘zlaringiz bilan so‘rang; Yunusning duosi har qanday hojatga mos.",
+      "source": "Qur’on, 2:155–157"
+    },
+    "lost_item_popular": {
+      "title": "Yo‘qolgan narsa uchun «Yo Jomi’an-nas…» va «Zuho»ni 7 marta",
+      "translation": "«Allohim, ey shubhasiz Kunda odamlarni jamlovchi (3:9), meni yo‘qotgan narsamga yetkaz» duosi va «Zuho» surasini 7 marta (yoki 93:7-oyatni uch marta) o‘qish savol-javob saytlarida ham tavsiya qilinadi, ammo manbasi hadis emas, Ashraf Ali Tanaviyning «Qur’ondan davolar» kitobi. Allohdan bu so‘zlar bilan, o‘z so‘zlaringiz bilan so‘raganingizdek, so‘rash mumkin, ammo bu Sunnat emas, xalq odati.",
+      "source": "Sunnatda manbasi yo‘q: Ashraf Ali Tanaviyning kitobi"
+    },
+    "tiwala": {
+      "title": "Issiq-sovuq va turmush o‘rtog‘ini «bog‘lash»",
+      "translation": "Payg‘ambar ﷺ dedilar: «Afsunlar, tumorlar va issiq-sovuqlar (tivala) shirkdir» (Abu Dovud, 3883). «Bog‘lash uchun oyatlar», yostiq ostiga qo‘yilgan oyatli qog‘ozlar, «falonchi meni sevsin», «erim ikkinchi xotin olmasin» — bularning barchasi aynan tivala, hatto Qur’on so‘zlari ishlatilsa ham. Ruxsat etilgani: oiladagi muhabbat va totuvlik uchun o‘z so‘zlaringiz bilan duo, 25:74, nikohdan oldin istixora, gaplashish va ikki tomon oilasidan hakamlar (4:35).",
+      "source": "Abu Dovud, 3883 (Albaniy bahosiga ko‘ra sahih)"
+    },
+    "marriage_numbers": {
+      "title": "«Yosinni 41 marta o‘qi, turmush qurasan»",
+      "translation": "Turmush qurish uchun Yosin, Toha yoki boshqa surani ma’lum son o‘qish haqidagi maslahatlarning manbasi yo‘q. 28:24-oyat («Robbim, men har qanday yaxshilikka muhtojman…») — Musoning haqiqiy duosi, undan keyin u uylangan, ammo uni «nikoh uchun» o‘qish kerakligi haqida hadis yo‘q: bu har qanday hojat uchun duo. Ishonchlisi: istixora (Buxoriy, 1162), 25:74 duosi va o‘z so‘zlaringiz bilan so‘rash.",
+      "source": "Manbasi yo‘q; istixora haqida — Buxoriy, 1162"
+    },
+    "arbitration": {
+      "title": "Agar er-xotin ajrashish arafasida bo‘lsa",
+      "translation": "«Agar ikkovining orasi buzilishidan qo‘rqsangiz, erning ahlidan bir hakam va xotinning ahlidan bir hakam yuboring. Agar ular isloh qilishni istasalar, Alloh ularning orasini muvofiq qiladi» (4:35). Qur’on afsunni emas, ikki tomon oilasidan hakamlarni va yarashishga samimiy niyatni taklif qiladi.",
+      "source": "Qur’on, 4:35"
+    },
+    "guidance_for_others": {
+      "title": "Boshqa odamning hidoyati uchun duo",
+      "translation": "Davs qabilasi Islomni qabul qilishdan bosh tortganda, Payg‘ambar ﷺ ularni qarg‘amay: «Allohim, Davsni hidoyat qil va ularni keltir!» dedilar (Buxoriy, 2937). Yaqin odamingiz uchun ham shunday so‘rashingiz mumkin: «Allohummahdi [ismi]» — «Allohim, falonchini hidoyat qil». Birodaringiz uchun u yo‘qligida duo qilsangiz, farishta: «Senga ham shunday bo‘lsin», deydi (Muslim, 2732).",
+      "source": "Buxoriy, 2937; Muslim, 2732"
+    },
+    "reconcile_best": {
+      "title": "Odamlarni yarashtirish nafl ro‘za va namozdan ustun",
+      "translation": "«Sizlarga (nafl) ro‘za, namoz va sadaqadan darajasi yuqori narsani aytaymi?» — «Albatta!» — «Odamlar orasini isloh qilish, chunki ular orasidagi buzg‘unchilik dinni „qirib“ (yo‘q qilib) yuboradi».",
+      "source": "Abu Dovud, 4919; Termiziy, 2509 (sahih)"
+    },
+    "three_days": {
+      "title": "Uch kundan oshmasin, eng yaxshisi — birinchi salom bergan",
+      "translation": "«Musulmonga birodari bilan uch kundan ortiq arazlashish halol emas: uchrashganda biri yuz o‘giradi, ikkinchisi yuz o‘giradi. Ularning yaxshisi — birinchi salom bergani». Yarashishning birinchi qadami — oddiy «assalomu alaykum».",
+      "source": "Buxoriy, 6077; Muslim, 2560"
+    },
+    "ibrahim_child": {
+      "title": "Ibrohimning solih farzand so‘rab qilgan duosi",
+      "translation": "Robbim, menga solihlardan (bo‘lgan farzand) ato et.",
+      "source": "Qur’on, 37:100",
+      "translit": "Rabbi hab li minas-salihin"
+    },
+    "maryam_beauty": {
+      "title": "«Bola chiroyli bo‘lishi uchun Maryam surasi», «go‘zallik uchun sura»",
+      "translation": "Bola chiroyli bo‘lsin deb homiladorlik paytida «Maryam» yoki «Yusuf» surasini o‘qish va «go‘zallik uchun suralar» haqidagi maslahatlarning Qur’on va Sunnatda manbasi yo‘q. Bu suralarni o‘qish har qanday Qur’on tilovati kabi yaxshi, ammo buning uchun chiroy va’da qilinmagan. Oyatlarni yozib, tug‘ayotgan ayolga bog‘lash — tumor («Bu Islomdanmi?» bo‘limiga qarang).",
+      "source": "Qur’on va Sunnatda manbasi yo‘q"
+    },
+    "good_character": {
+      "title": "«Suratimni go‘zal qilganingdek…»",
+      "translation": "Allohim, tashqi ko‘rinishimni go‘zal qilganingdek, xulqimni ham go‘zal qil.",
+      "source": "Ahmad (Albaniy bahosiga ko‘ra sahih)",
+      "note": "Duoning o‘zi ishonchli; uni aynan ko‘zguga qarash bilan bog‘lagan rivoyatlar zaif. Uni istalgan vaqtda aytish mumkin.",
+      "translit": "Allohumma kama hassanta xalqi fa-hassin xuluqi"
+    },
+    "tasbih_fatimah": {
+      "title": "Uxlashdan oldin Fotima tasbehi: xizmatkordan yaxshiroq",
+      "translation": "Alloh pokdir. Allohga hamd bo‘lsin. Alloh ulug‘dir.",
+      "source": "Buxoriy, 3705; Muslim, 2727",
+      "note": "Fotima og‘ir mehnatdan charchab, xizmatkor so‘ragan. Payg‘ambar ﷺ unga va Aliga yotayotganda shuni aytishni buyurib: «Bu sizlar uchun xizmatkordan yaxshiroq», dedilar. Dangasalik va ojizlikka qarshi «Qarz» bo‘limidagi «…val-’ajzi val-kasal» duosiga ham qarang.",
+      "translit": "Subhanalloh (33 marta), al-hamdu lilloh (33 marta), Allohu akbar (34 marta)"
+    }
+  }
+}

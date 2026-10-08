@@ -168,6 +168,14 @@ class SmartSearch(
             "qué", "que", "leer", "duá", "súplica", "suplica", "para", "por", "mis", "cuando", "cuándo", "el",
             "la", "los", "las", "un", "una", "del", "al", "con", "se", "es", "estoy", "tengo", "cómo", "como",
             "hay", "decir", "rezar",
+            // ky
+            "эмне", "окуу", "окуйт", "окулат", "дуба", "дубасы", "дубалар", "үчүн", "менин", "мен", "мага", "мени",
+            "бар", "керек", "кандай", "качан", "эгер", "жана", "бул", "абдан", "катуу", "көп", "алла", "аллах",
+            "алдында", "кийин", "жатам", "жатат",
+            // uz (apostrophes are dropped by TextNormalizer: "ko‘p" -> "kop")
+            "nima", "nimani", "o‘qish", "o‘qiladi", "o‘qiyman", "duo", "duosi", "duolar", "uchun", "mening", "men",
+            "menga", "meni", "bor", "kerak", "qanday", "qachon", "agar", "va", "bilan", "bu", "juda", "ko‘p",
+            "alloh", "oldin", "keyin", "qilish", "qilay",
             // en
             "what", "to", "read", "recite", "say", "which", "dua", "duas", "supplication", "when", "if", "i",
             "me", "my", "for", "from", "at", "in", "on", "the", "a", "an", "and", "of", "is", "am", "are",

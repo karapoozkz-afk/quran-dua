@@ -320,9 +320,73 @@ val EsPrayer = PrayerStrings(
     adhanCredit = ADHAN_CREDIT,
 )
 
+val KyPrayer = PrayerStrings(
+    title = "Намаз убактысы",
+    next = { p, t -> "Кийинки: $p, $t" },
+    prayerName = prayerNames("Багымдат", "Күн чыгуу", "Бешим", "Аср", "Шам", "Куптан"),
+    place = "Шаар",
+    chooseCity = "Шаарды тандоо",
+    useLocation = "Менин жайгашкан жерим",
+    noPlace = "Намаз убактысын көрүү үчүн шаарды тандаңыз. Убакыт телефондун өзүндө эсептелет жана интернетсиз иштейт.",
+    method = "Эсептөө ыкмасы",
+    methodName = methodNames("Казакстан (КМДБ)", "Дүйнөлүк ислам лигасы", "ISNA (Түндүк Америка)", "Египет", "Умм аль-Кура (Мекке)", "Карачи университети", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Россия (МДБ)"),
+    asr = "Аср",
+    asrStandard = "Стандарттуу (шафиий, маликий, ханбалий)",
+    asrHanafi = "Ханафий",
+    offsets = "Тууралоо, мүнөт",
+    notifications = "Намаз тууралуу эскертмелер",
+    notificationText = { p -> "Намаз убактысы кирди: ${prayerNames("Багымдат", "Күн чыгуу", "Бешим", "Аср", "Шам", "Куптан")(p)}" },
+    notificationsDenied = "Эскертмелерге уруксат болбосо, эскертүү келбейт.",
+    locationDenied = "Жайгашкан жерге уруксат берилген жок. Тизмеден шаарды тандаңыз.",
+    dumkNote = "Казакстан үчүн убакыт КМДБнын (muftyat.kz) расмий жадыбалынын эрежеси менен эсептелет жана Алматы боюнча аны менен салыштырылган. Башка шаарларда бир-эки мүнөт айырма болушу мүмкүн; мечитиңиздин убактысы башкача болсо, мүнөттөрдү тууралаңыз.",
+    adhan = "Намаз убактысы киргенде азан",
+    adhanName = adhanNames("Толук азан", "Кыска (20 сек)", "Эскертме үнү", "Үнсүз"),
+    listen = "Угуу",
+    stop = "Токтотуу",
+    fullScreen = "Намаз терезесин кулпуланган экранда көрсөтүү",
+    fullScreenDenied = "Android тиркемеге толук экранда ачылууга уруксат берген жок. Азан баары бир жөнөкөй эскертме менен угулат.",
+    exactDenied = "Android тиркемеге так ойготкучтарга уруксат берген жок: азан бир нече мүнөт кечигиши же эскертме катары гана келиши мүмкүн.",
+    openSettings = "Уруксат берүү",
+    fajrNote = "Багымдатта да ушул эле азан угулат: «ас-салату хайрун мина-н-наум» сөздөрү бар багымдат азанынын эркин лицензиядагы жазмасы азырынча жок.",
+    adhanCredit = ADHAN_CREDIT,
+)
+
+val UzPrayer = PrayerStrings(
+    title = "Namoz vaqtlari",
+    next = { p, t -> "Keyingisi: $p, $t" },
+    prayerName = prayerNames("Bomdod", "Quyosh chiqishi", "Peshin", "Asr", "Shom", "Xufton"),
+    place = "Shahar",
+    chooseCity = "Shaharni tanlash",
+    useLocation = "Mening joylashuvim",
+    noPlace = "Namoz vaqtlarini ko‘rish uchun shaharni tanlang. Vaqtlar telefonning o‘zida hisoblanadi va internetsiz ishlaydi.",
+    method = "Hisoblash usuli",
+    methodName = methodNames("Qozog‘iston (QMDB)", "Butunjahon islom ligasi", "ISNA (Shimoliy Amerika)", "Misr", "Ummul Quro (Makka)", "Karachi universiteti", "Diyonat (Turkiya)", "Kemenag (Indoneziya)", "Rossiya (MDB)"),
+    asr = "Asr",
+    asrStandard = "Standart (shofe’iy, molikiy, hanbaliy)",
+    asrHanafi = "Hanafiy",
+    offsets = "Tuzatish, daqiqa",
+    notifications = "Namoz haqida bildirishnomalar",
+    notificationText = { p -> "Namoz vaqti kirdi: ${prayerNames("Bomdod", "Quyosh chiqishi", "Peshin", "Asr", "Shom", "Xufton")(p)}" },
+    notificationsDenied = "Bildirishnomalarga ruxsat bo‘lmasa, eslatmalar kelmaydi.",
+    locationDenied = "Joylashuvga ruxsat berilmadi. Ro‘yxatdan shaharni tanlang.",
+    dumkNote = "Qozog‘iston uchun vaqtlar QMDB (muftyat.kz) rasmiy jadvali qoidasi bilan hisoblanadi va Olmaota bo‘yicha u bilan solishtirilgan. Boshqa shaharlarda bir-ikki daqiqa farq bo‘lishi mumkin; masjidingiz vaqti boshqacha bo‘lsa, daqiqalarni tuzating.",
+    adhan = "Namoz vaqti kirganda azon",
+    adhanName = adhanNames("To‘liq azon", "Qisqa (20 s)", "Bildirishnoma ovozi", "Ovozsiz"),
+    listen = "Tinglash",
+    stop = "To‘xtatish",
+    fullScreen = "Namoz oynasini qulflangan ekranda ko‘rsatish",
+    fullScreenDenied = "Android ilovaga to‘liq ekranda ochilishga ruxsat bermadi. Azon baribir oddiy bildirishnoma bilan eshitiladi.",
+    exactDenied = "Android ilovaga aniq budilniklarga ruxsat bermadi: azon bir necha daqiqa kechikishi yoki faqat bildirishnoma bo‘lib kelishi mumkin.",
+    openSettings = "Ruxsat berish",
+    fajrNote = "Bomdodda ham shu azon eshitiladi: «as-salotu xoyrun minan-navm» so‘zlari bor bomdod azonining erkin litsenziyali yozuvi hozircha yo‘q.",
+    adhanCredit = ADHAN_CREDIT,
+)
+
 fun prayerStringsFor(language: String): PrayerStrings = when (language) {
     "ru" -> RuPrayer
     "kk" -> KkPrayer
+    "ky" -> KyPrayer
+    "uz" -> UzPrayer
     "tr" -> TrPrayer
     "id" -> IdPrayer
     "ur" -> UrPrayer

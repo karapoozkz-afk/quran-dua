@@ -9,6 +9,8 @@ object TextNormalizer {
             val c = raw.lowercaseChar()
             when {
                 isArabicDiacritic(c) -> Unit
+                // Uzbek o‘ g‘ and the Arabic ‘ayn are typed with any of these marks; drop them so "ko'p" meets "ko‘p".
+                c in APOSTROPHES -> Unit
                 c == 'ё' -> sb.append('е')
                 c == 'ٱ' || c == 'أ' || c == 'إ' || c == 'آ' -> sb.append('ا')
                 c == 'ى' -> sb.append('ي')
@@ -37,6 +39,8 @@ object TextNormalizer {
     private val LATIN_FOLD: Map<Char, Char> = buildMap {
         "çc şs ğg ıi öo üu âa îi ûu āa īi ūu ṣs ḥh ṭt ḍd ẓz".split(' ').forEach { put(it[0], it[1]) }
     }
+
+    private const val APOSTROPHES = "'‘’ʻʼ`´"
 
     /** Harakat, Quranic annotation marks, superscript alef and tatweel. */
     private fun isArabicDiacritic(c: Char): Boolean {

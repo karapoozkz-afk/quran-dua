@@ -189,7 +189,7 @@ private fun SettingRow(label: String, checked: Boolean, onChange: (Boolean) -> U
 }
 
 private val LANGUAGE_NAMES = mapOf(
-    "ru" to "Русский", "kk" to "Қазақша", "en" to "English", "es" to "Español", "ar" to "العربية",
+    "ru" to "Русский", "kk" to "Қазақша", "ky" to "Кыргызча", "uz" to "O‘zbekcha", "en" to "English", "es" to "Español", "ar" to "العربية",
     "tr" to "Türkçe", "id" to "Bahasa Indonesia", "ur" to "اردو",
 )
 

@@ -146,11 +146,13 @@ class BundledContentTest {
         assertEquals("ur", app.qurandua.shared.data.supportedUiLanguage("ur_PK"))
         assertEquals("tr", app.qurandua.shared.data.supportedUiLanguage("tr-TR"))
         assertEquals("es", app.qurandua.shared.data.supportedUiLanguage("es_MX"))
+        assertEquals("ky", app.qurandua.shared.data.supportedUiLanguage("ky_KG"))
+        assertEquals("uz", app.qurandua.shared.data.supportedUiLanguage("uz-Latn-UZ"))
         assertEquals("", app.qurandua.shared.data.supportedUiLanguage("de"))
     }
 
     private companion object {
-        /** Spanish, Turkish, Indonesian and Urdu queries, filled in with those languages. */
+        /** Spanish, Turkish, Indonesian, Urdu, Kyrgyz and Uzbek queries, filled in with those languages. */
         val LOCALIZED_QUERIES: Map<String, Set<String>> = mapOf(
             // tr
             "borçtan kurtulmak için dua" to setOf("debts"),
@@ -188,6 +190,24 @@ class BundledContentTest {
             "بارش کی دعا" to setOf("weather"),
             "والدین کے لیے دعا" to setOf("parents"),
             "بندش کھولنے کی دعا" to setOf("hardship"),
+            // ky
+            "карызым көп" to setOf("debts"),
+            "карыздан кутулуу дубасы" to setOf("debts"),
+            "маркум атам үчүн дуба" to setOf("deceased"),
+            "мүрзөгө зыярат" to setOf("cemetery"),
+            "уктай албай жатам" to setOf("sleep"),
+            "көз тийүүдөн коргонуу" to setOf("evil_eye", "protection"),
+            "ата-эне үчүн дуба" to setOf("parents", "family"),
+            "жолум жабык" to setOf("hardship"),
+            // uz (typed with a plain apostrophe, as on most keyboards)
+            "qarzim ko'p" to setOf("debts"),
+            "qarzdan qutulish duosi" to setOf("debts"),
+            "otam vafot etdi" to setOf("deceased", "death_news"),
+            "qabr ziyorati" to setOf("cemetery"),
+            "uxlay olmayapman" to setOf("sleep"),
+            "ko'z tegishidan himoya" to setOf("evil_eye", "protection"),
+            "ota-ona uchun duo" to setOf("parents", "family"),
+            "yomg'ir yog'yapti" to setOf("weather"),
         )
     }
 }

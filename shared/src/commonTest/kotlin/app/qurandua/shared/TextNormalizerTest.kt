@@ -32,6 +32,14 @@ class TextNormalizerTest {
     }
 
     @Test
+    fun dropsApostrophesSoUzbekSpellingsMeet() {
+        // o‘ g‘ in official Uzbek Latin, typed as ' ʻ ’ or ` on different keyboards
+        assertEquals("qarzim kop", TextNormalizer.normalize("Qarzim ko'p"))
+        assertEquals(TextNormalizer.normalize("yomg‘ir"), TextNormalizer.normalize("yomgʻir"))
+        assertEquals(TextNormalizer.normalize("yomg`ir"), TextNormalizer.normalize("yomg’ir"))
+    }
+
+    @Test
     fun similarityMatchesWordForms() {
         assertTrue(SmartSearch.similarity("долгов", "долг") > 0)
         assertTrue(SmartSearch.similarity("умершего", "умерший") > 0)
