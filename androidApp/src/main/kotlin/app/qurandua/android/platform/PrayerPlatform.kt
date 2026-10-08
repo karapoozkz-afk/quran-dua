@@ -133,7 +133,9 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
         val found = currentLocation() ?: return false
         val old = current.place
         val moved = old == null || old.timeZone != found.timeZone ||
-            distanceKm(old.latitude, old.longitude, found.latitude, found.longitude) > 3.0
+            distanceKm(old.latitude, old.longitude, found.latitude, found.longitude) > 3.0 ||
+            // Places saved before regions were kept: fill the region in once, it picks the Russian board.
+            (old.region.isEmpty() && found.region.isNotEmpty())
         if (moved) update { it.copy(place = found) }
         return moved
     }
@@ -165,18 +167,18 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
             }
         } ?: return null
         val zone = TimeZone.currentSystemDefault().id
-        val (city, countryCode) = placeName(location.latitude, location.longitude)
+        val (city, countryCode, region) = placeName(location.latitude, location.longitude)
         val name = city ?: "%.2f, %.2f".format(location.latitude, location.longitude)
-        return Place(name, location.latitude, location.longitude, zone, country = countryCode ?: countryFromZone(zone))
+        return Place(name, location.latitude, location.longitude, zone, country = countryCode ?: countryFromZone(zone), region = region.orEmpty())
     }
 
     /**
      * The town's name for the screen: a known city within 25 km, else the phone's geocoder
      * (which needs the internet), else null so the caller shows coordinates.
      */
-    private suspend fun placeName(lat: Double, lng: Double): Pair<String?, String?> {
+    private suspend fun placeName(lat: Double, lng: Double): Triple<String?, String?, String?> {
         val near = CITIES.minByOrNull { distanceKm(lat, lng, it.latitude, it.longitude) }
-        if (near != null && distanceKm(lat, lng, near.latitude, near.longitude) < 25) return near.name to near.country
+        if (near != null && distanceKm(lat, lng, near.latitude, near.longitude) < 25) return Triple(near.name, near.country, near.region)
         val address = withContext(Dispatchers.IO) {
             runCatching {
                 @Suppress("DEPRECATION")
@@ -184,7 +186,7 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
             }.getOrNull()
         }
         val town = address?.locality ?: address?.subAdminArea ?: address?.adminArea
-        return town to address?.countryCode
+        return Triple(town, address?.countryCode, address?.adminArea)
     }
 
     /** Best guess of the country from the time zone, for the default calculation method. */
@@ -193,6 +195,25 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
         zone == "Asia/Bishkek" -> "KG"
         zone == "Asia/Tashkent" || zone == "Asia/Samarkand" -> "UZ"
         zone == "Europe/Istanbul" -> "TR"
+        zone == "Asia/Dushanbe" -> "TJ"
+        zone == "Asia/Baku" -> "AZ"
+        zone == "Asia/Ashgabat" -> "TM"
+        zone == "Asia/Kuala_Lumpur" -> "MY"
+        zone == "Asia/Singapore" -> "SG"
+        zone == "Asia/Brunei" -> "BN"
+        zone == "Asia/Dhaka" -> "BD"
+        zone == "Asia/Tehran" -> "IR"
+        zone == "Asia/Dubai" -> "AE"
+        zone == "Asia/Qatar" -> "QA"
+        zone == "Asia/Kuwait" -> "KW"
+        zone == "Asia/Muscat" -> "OM"
+        zone == "Asia/Amman" -> "JO"
+        zone == "Africa/Casablanca" -> "MA"
+        zone == "Africa/Algiers" -> "DZ"
+        zone == "Africa/Tunis" -> "TN"
+        zone == "Europe/Sarajevo" -> "BA"
+        zone in setOf("Asia/Kolkata", "Asia/Calcutta") -> "IN"
+        zone == "Asia/Kabul" -> "AF"
         zone in setOf("Asia/Jakarta", "Asia/Makassar", "Asia/Jayapura", "Asia/Pontianak") -> "ID"
         zone == "Asia/Karachi" -> "PK"
         zone == "Asia/Riyadh" -> "SA"

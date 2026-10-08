@@ -49,6 +49,7 @@ private fun methodNames(kyrgyzstan: String, uzbekistan: String, dumk: String, mw
         CalculationMethod.TURKEY_DIYANET -> turkey
         CalculationMethod.INDONESIA_KEMENAG -> indonesia
         CalculationMethod.RUSSIA_DUM -> russia
+        else -> m.authority
     }
 }
 
