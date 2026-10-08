@@ -10,6 +10,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.location.Geocoder
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
@@ -28,10 +29,13 @@ import app.qurandua.shared.prayer.Place
 import app.qurandua.shared.prayer.Prayer
 import app.qurandua.shared.prayer.PrayerSettings
 import app.qurandua.shared.prayer.PrayerTimesCalculator
+import app.qurandua.shared.prayer.CITIES
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeoutOrNull
 import kotlinx.datetime.Clock
 import kotlinx.datetime.DatePeriod
@@ -120,10 +124,23 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
         runCatching { context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
     }
 
+    override fun hasLocationPermission(): Boolean =
+        ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
+
+    override suspend fun refreshAutoLocation(): Boolean {
+        val current = _settings.value
+        if (!current.autoLocation || !hasLocationPermission()) return false
+        val found = currentLocation() ?: return false
+        val old = current.place
+        val moved = old == null || old.timeZone != found.timeZone ||
+            distanceKm(old.latitude, old.longitude, found.latitude, found.longitude) > 3.0
+        if (moved) update { it.copy(place = found) }
+        return moved
+    }
+
     @SuppressLint("MissingPermission") // checked right below
     override suspend fun currentLocation(): Place? {
-        val granted = ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
-        if (!granted) return null
+        if (!hasLocationPermission()) return null
         val manager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
         val providers = listOf(LocationManager.NETWORK_PROVIDER, LocationManager.PASSIVE_PROVIDER, LocationManager.GPS_PROVIDER)
             .filter { runCatching { manager.isProviderEnabled(it) }.getOrDefault(false) }
@@ -148,13 +165,33 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
             }
         } ?: return null
         val zone = TimeZone.currentSystemDefault().id
-        val name = "%.2f, %.2f".format(location.latitude, location.longitude)
-        return Place(name, location.latitude, location.longitude, zone, country = countryFromZone(zone))
+        val (city, countryCode) = placeName(location.latitude, location.longitude)
+        val name = city ?: "%.2f, %.2f".format(location.latitude, location.longitude)
+        return Place(name, location.latitude, location.longitude, zone, country = countryCode ?: countryFromZone(zone))
+    }
+
+    /**
+     * The town's name for the screen: a known city within 25 km, else the phone's geocoder
+     * (which needs the internet), else null so the caller shows coordinates.
+     */
+    private suspend fun placeName(lat: Double, lng: Double): Pair<String?, String?> {
+        val near = CITIES.minByOrNull { distanceKm(lat, lng, it.latitude, it.longitude) }
+        if (near != null && distanceKm(lat, lng, near.latitude, near.longitude) < 25) return near.name to near.country
+        val address = withContext(Dispatchers.IO) {
+            runCatching {
+                @Suppress("DEPRECATION")
+                Geocoder(context).getFromLocation(lat, lng, 1)?.firstOrNull()
+            }.getOrNull()
+        }
+        val town = address?.locality ?: address?.subAdminArea ?: address?.adminArea
+        return town to address?.countryCode
     }
 
     /** Best guess of the country from the time zone, for the default calculation method. */
     private fun countryFromZone(zone: String): String = when {
         zone in setOf("Asia/Almaty", "Asia/Aqtobe", "Asia/Aqtau", "Asia/Atyrau", "Asia/Oral", "Asia/Qostanay", "Asia/Qyzylorda") -> "KZ"
+        zone == "Asia/Bishkek" -> "KG"
+        zone == "Asia/Tashkent" || zone == "Asia/Samarkand" -> "UZ"
         zone == "Europe/Istanbul" -> "TR"
         zone in setOf("Asia/Jakarta", "Asia/Makassar", "Asia/Jayapura", "Asia/Pontianak") -> "ID"
         zone == "Asia/Karachi" -> "PK"
@@ -164,6 +201,16 @@ class AndroidPrayerController(private val context: Context) : PrayerController {
         zone.startsWith("America/") -> "US"
         else -> ""
     }
+}
+
+/** Great-circle distance; accurate enough to tell one town from the next. */
+internal fun distanceKm(lat1: Double, lng1: Double, lat2: Double, lng2: Double): Double {
+    val r = 6371.0
+    val dLat = Math.toRadians(lat2 - lat1)
+    val dLng = Math.toRadians(lng2 - lng1)
+    val a = Math.sin(dLat / 2).let { it * it } +
+        Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) * Math.sin(dLng / 2).let { it * it }
+    return 2 * r * Math.asin(Math.sqrt(a))
 }
 
 object PrayerAlarms {

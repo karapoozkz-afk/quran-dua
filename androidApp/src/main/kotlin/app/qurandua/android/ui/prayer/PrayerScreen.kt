@@ -138,7 +138,7 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
                                     val place = controller.currentLocation()
                                     locating = false
                                     if (place == null) message = strings.locationDenied
-                                    else controller.update { it.copy(place = place) }
+                                    else controller.update { it.copy(place = place, autoLocation = true) }
                                 }
                             }
                         }
@@ -313,7 +313,8 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
                             Modifier
                                 .fillMaxWidth()
                                 .clickable {
-                                    controller.update { it.copy(place = city) }
+                                    // A chosen city stays put; it no longer follows the phone.
+                                    controller.update { it.copy(place = city, autoLocation = false) }
                                     message = null
                                     pickingCity = false
                                 }

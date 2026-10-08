@@ -58,6 +58,12 @@ interface PrayerController {
     fun setLanguage(language: String)
     /** The device's approximate location, or null when unavailable or not permitted. */
     suspend fun currentLocation(): Place?
+    fun hasLocationPermission(): Boolean
+    /**
+     * When prayer times follow the phone, re-reads the location and moves them if the person
+     * travelled (another city or time zone). Returns true when the place changed.
+     */
+    suspend fun refreshAutoLocation(): Boolean
     /** True while an adhan plays, from a prayer alarm or from [preview]. */
     val adhanPlaying: StateFlow<Boolean>
     fun preview(sound: AdhanSound)

@@ -19,6 +19,8 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.launch
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -95,6 +97,18 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
         }
     }
     LaunchedEffect(uiLanguage) { deps.prayer.setLanguage(uiLanguage) }
+    // First launch: ask for the location once, so prayer times are right wherever the person lives.
+    val locationScope = rememberCoroutineScope()
+    LaunchedEffect(Unit) {
+        val prayer = deps.prayer
+        val current = prayer.settings.value
+        if (current.autoLocation && !current.askedLocation && !prayer.hasLocationPermission()) {
+            prayer.update { it.copy(askedLocation = true) }
+            deps.permissions.request("android.permission.ACCESS_COARSE_LOCATION") { granted ->
+                if (granted) locationScope.launch { prayer.refreshAutoLocation() }
+            }
+        }
+    }
     // Arabic and Urdu read right to left; the whole UI mirrors with the language.
     val direction = if (uiLanguage in RTL_LANGUAGES) LayoutDirection.Rtl else LayoutDirection.Ltr
 

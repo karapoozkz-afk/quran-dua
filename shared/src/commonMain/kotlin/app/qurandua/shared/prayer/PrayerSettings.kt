@@ -21,6 +21,10 @@ enum class AdhanSound { FULL, SHORT, NOTIFICATION, SILENT }
 @Serializable
 data class PrayerSettings(
     val place: Place? = null,
+    /** Follow the phone's location: prayer times move with the person (Almaty, Bishkek, Tashkent…). */
+    val autoLocation: Boolean = true,
+    /** Location permission is asked once, on first launch; after a refusal the user picks a city. */
+    val askedLocation: Boolean = false,
     /** null = the usual convention of the place's country. */
     val method: CalculationMethod? = null,
     /** null = the method's usual school (Hanafi in Kazakhstan, Pakistan, Russia). */
@@ -43,7 +47,9 @@ data class PrayerSettings(
 
 /** The convention most mosques of a country follow. */
 fun defaultMethodFor(country: String): CalculationMethod = when (country.uppercase()) {
-    "KZ" -> CalculationMethod.KAZAKHSTAN_DUMK
+    // Kyrgyzstan and Uzbekistan publish no calculation parameters; their Hanafi timetables follow
+    // the same regional convention, so the Kazakhstan method is the closest default.
+    "KZ", "KG", "UZ" -> CalculationMethod.KAZAKHSTAN_DUMK
     "RU" -> CalculationMethod.RUSSIA_DUM
     "TR" -> CalculationMethod.TURKEY_DIYANET
     "ID" -> CalculationMethod.INDONESIA_KEMENAG
@@ -75,11 +81,21 @@ val CITIES: List<Place> = listOf(
     Place("Талдыкорган", 45.0156, 78.3739, "Asia/Almaty", "KZ"),
     Place("Кокшетау", 53.2833, 69.3833, "Asia/Almaty", "KZ"),
     Place("Жезказган", 47.7833, 67.7667, "Asia/Almaty", "KZ"),
+    Place("Бишкек", 42.8746, 74.5698, "Asia/Bishkek", "KG"),
+    Place("Ош", 40.5140, 72.8161, "Asia/Bishkek", "KG"),
+    Place("Джалал-Абад", 40.9333, 73.0000, "Asia/Bishkek", "KG"),
+    Place("Каракол", 42.4907, 78.3936, "Asia/Bishkek", "KG"),
+    Place("Нарын", 41.4287, 75.9911, "Asia/Bishkek", "KG"),
+    Place("Ташкент", 41.2995, 69.2401, "Asia/Tashkent", "UZ"),
+    Place("Самарканд", 39.6542, 66.9597, "Asia/Samarkand", "UZ"),
+    Place("Бухара", 39.7681, 64.4556, "Asia/Samarkand", "UZ"),
+    Place("Наманган", 40.9983, 71.6726, "Asia/Tashkent", "UZ"),
+    Place("Андижан", 40.7821, 72.3442, "Asia/Tashkent", "UZ"),
+    Place("Фергана", 40.3864, 71.7864, "Asia/Tashkent", "UZ"),
+    Place("Нукус", 42.4619, 59.6166, "Asia/Samarkand", "UZ"),
     Place("Конаев", 43.8667, 77.0667, "Asia/Almaty", "KZ"),
     Place("Москва", 55.7558, 37.6173, "Europe/Moscow", "RU"),
     Place("Казань", 55.7963, 49.1088, "Europe/Moscow", "RU"),
-    Place("Ташкент", 41.2995, 69.2401, "Asia/Tashkent", "UZ"),
-    Place("Бишкек", 42.8746, 74.5698, "Asia/Bishkek", "KG"),
     Place("İstanbul", 41.0082, 28.9784, "Europe/Istanbul", "TR"),
     Place("Ankara", 39.9334, 32.8597, "Europe/Istanbul", "TR"),
     Place("Jakarta", -6.2088, 106.8456, "Asia/Jakarta", "ID"),

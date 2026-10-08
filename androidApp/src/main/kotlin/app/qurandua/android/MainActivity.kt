@@ -11,10 +11,12 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import app.qurandua.android.ui.AppRoot
 import app.qurandua.android.ui.AppViewModel
 import app.qurandua.shared.data.supportedUiLanguage
+import kotlinx.coroutines.launch
 import java.util.Locale
 
 class MainActivity : ComponentActivity() {
@@ -57,6 +59,13 @@ class MainActivity : ComponentActivity() {
             )
             AppRoot(viewModel = model, deps = deps)
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Prayer times follow the phone: a trip from Almaty to Bishkek moves them on the next open.
+        val deps = (application as QuranDuaApp).deps
+        lifecycleScope.launch { deps.prayer.refreshAutoLocation() }
     }
 
     override fun onDestroy() {
