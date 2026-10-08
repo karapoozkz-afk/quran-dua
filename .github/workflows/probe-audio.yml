@@ -1,0 +1,47 @@
+name: Demo recitation audio
+on: { push: { branches: [probe-audio] } }
+permissions: { contents: write }
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+      - name: Download, join and time each surah
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess, urllib.request, concurrent.futures as cf
+          q = json.load(open('androidApp/src/main/assets/content/quran.json'))
+          counts = {s['n']: (len(s['ayahs']) if isinstance(s['ayahs'], list) else s['ayahs']) for s in q['surahs']}
+          surahs = [1, 36, 55, 56, 67] + list(range(78, 115))
+          os.makedirs('demo-audio', exist_ok=True); os.makedirs('/tmp/a', exist_ok=True)
+          def get(sa):
+              s, a = sa
+              url = f"https://everyayah.com/data/Alafasy_64kbps/{s:03d}{a:03d}.mp3"
+              path = f"/tmp/a/{s:03d}{a:03d}.mp3"
+              for _ in range(5):
+                  try:
+                      data = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read()
+                      open(path, 'wb').write(data); return path
+                  except Exception: pass
+              raise SystemExit("failed " + url)
+          jobs = [(s, a) for s in surahs for a in range(1, counts[s] + 1)]
+          with cf.ThreadPoolExecutor(16) as ex: list(ex.map(get, jobs))
+          index = {}
+          for s in surahs:
+              files = [f"/tmp/a/{s:03d}{a:03d}.mp3" for a in range(1, counts[s] + 1)]
+              starts, t = [], 0.0
+              for f in files:
+                  starts.append(round(t, 3))
+                  d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).decode().strip())
+                  t += d
+              open('/tmp/list.txt', 'w').write("".join(f"file '{f}'\n" for f in files))
+              subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", "/tmp/list.txt", "-c", "copy", f"demo-audio/{s:03d}.mp3"])
+              real = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"demo-audio/{s:03d}.mp3"]).decode().strip())
+              index[s] = {"starts": starts, "total": round(t, 3), "joined": round(real, 3)}
+          json.dump(index, open('demo-audio/index.json', 'w'))
+          print(sum(os.path.getsize('demo-audio/' + f) for f in os.listdir('demo-audio')))
+          PY
+      - run: |
+          git config user.name probe; git config user.email probe@example.com
+          git add demo-audio; git commit -q -m "demo audio"; git push origin HEAD:probe-audio
