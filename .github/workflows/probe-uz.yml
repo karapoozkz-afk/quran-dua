@@ -1,0 +1,29 @@
+name: Probe Uzbek Latin translation
+on: { push: { branches: [probe-uz] } }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          def get(u):
+              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=60))
+          lst = get("https://quranenc.com/api/v1/translations/list/uz")
+          json.dump(lst, open("uz-list.json", "w"), ensure_ascii=False, indent=1)
+          for t in lst.get("translations", []):
+              key = t["key"]
+              out = {"meta": t, "sura": {}}
+              try:
+                  for s in range(1, 115):
+                      out["sura"][s] = get(f"https://quranenc.com/api/v1/translation/sura/{key}/{s}")["result"]
+              except Exception as e:
+                  out["error"] = str(e)
+              json.dump(out, open(f"uz-{key}.json", "w"), ensure_ascii=False)
+              print(key, len(out["sura"]), out.get("error"))
+          PY
+      - run: |
+          git config user.name probe; git config user.email probe@example.com
+          git add uz-*.json; git commit -m "uz"; git push origin HEAD:probe-uz
