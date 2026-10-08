@@ -35,7 +35,7 @@ enum class CalculationMethod(
     val ishaAngle: Double,
     /** Isha this many minutes after Maghrib instead of an angle (Umm al-Qura). */
     val ishaMinutesAfterMaghrib: Int = 0,
-    val offsets: Map<Prayer, Int> = emptyMap(),
+    val offsets: Map<Prayer, Double> = emptyMap(),
     val defaultAsr: AsrSchool = AsrSchool.STANDARD,
 ) {
     /**
@@ -46,7 +46,28 @@ enum class CalculationMethod(
      */
     KAZAKHSTAN_DUMK(
         15.0, 15.0,
-        offsets = mapOf(Prayer.SUNRISE to -3, Prayer.DHUHR to 3, Prayer.ASR to 3, Prayer.MAGHRIB to 3),
+        offsets = mapOf(Prayer.SUNRISE to -3.0, Prayer.DHUHR to 3.0, Prayer.ASR to 3.0, Prayer.MAGHRIB to 3.0),
+        defaultAsr = AsrSchool.HANAFI,
+    ),
+    /**
+     * Spiritual Administration of Muslims of Kyrgyzstan (muftiyat.kg). Fitted to its official
+     * calendar API for Bishkek and Osh (26 dates of 2026): Fajr 18°, Isha 16°, Hanafi Asr,
+     * Maghrib 7 minutes after sunset. The board truncates seconds; the half minutes reproduce
+     * that with our rounding. See KgUzTimetableTest.
+     */
+    KYRGYZSTAN_DUMK(
+        18.0, 16.0,
+        offsets = mapOf(Prayer.FAJR to -0.5, Prayer.SUNRISE to -0.5, Prayer.ASR to 1.5, Prayer.MAGHRIB to 6.5, Prayer.ISHA to -0.5),
+        defaultAsr = AsrSchool.HANAFI,
+    ),
+    /**
+     * Muslim Board of Uzbekistan (muslim.uz, islom.uz taqvim): Fajr and Isha at 15.5°,
+     * Hanafi Asr, Shom 4 minutes after sunset. Matches the board's own daily times for
+     * Tashkent and Samarkand. See KgUzTimetableTest.
+     */
+    UZBEKISTAN_MUSLIM_BOARD(
+        15.5, 15.5,
+        offsets = mapOf(Prayer.MAGHRIB to 4.0),
         defaultAsr = AsrSchool.HANAFI,
     ),
     MUSLIM_WORLD_LEAGUE(18.0, 17.0),
@@ -54,8 +75,8 @@ enum class CalculationMethod(
     EGYPT(19.5, 17.5),
     UMM_AL_QURA(18.5, 0.0, ishaMinutesAfterMaghrib = 90),
     KARACHI(18.0, 18.0, defaultAsr = AsrSchool.HANAFI),
-    TURKEY_DIYANET(18.0, 17.0, offsets = mapOf(Prayer.SUNRISE to -7, Prayer.DHUHR to 5, Prayer.ASR to 4, Prayer.MAGHRIB to 7), defaultAsr = AsrSchool.STANDARD),
-    INDONESIA_KEMENAG(20.0, 18.0, offsets = mapOf(Prayer.DHUHR to 2)),
+    TURKEY_DIYANET(18.0, 17.0, offsets = mapOf(Prayer.SUNRISE to -7.0, Prayer.DHUHR to 5.0, Prayer.ASR to 4.0, Prayer.MAGHRIB to 7.0), defaultAsr = AsrSchool.STANDARD),
+    INDONESIA_KEMENAG(20.0, 18.0, offsets = mapOf(Prayer.DHUHR to 2.0)),
     RUSSIA_DUM(16.0, 15.0, defaultAsr = AsrSchool.HANAFI),
 }
 
@@ -145,8 +166,8 @@ object PrayerTimesCalculator {
         val times = local.mapValues { (prayer, solarHours) ->
             // Solar time at this longitude -> hours after UTC midnight.
             val utcHours = solarHours - lng / 15.0
-            val offset = (method.offsets[prayer] ?: 0) + (config.userOffsets[prayer] ?: 0)
-            roundToMinute(utcMidnight + (utcHours * 3600).roundToLong().seconds + offset.minutes)
+            val offset = (method.offsets[prayer] ?: 0.0) + (config.userOffsets[prayer] ?: 0)
+            roundToMinute(utcMidnight + ((utcHours * 60 + offset) * 60).roundToLong().seconds)
         }
         return DayPrayerTimes(date, times)
     }

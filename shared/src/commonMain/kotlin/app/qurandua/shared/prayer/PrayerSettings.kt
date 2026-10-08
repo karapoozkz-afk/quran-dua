@@ -47,9 +47,9 @@ data class PrayerSettings(
 
 /** The convention most mosques of a country follow. */
 fun defaultMethodFor(country: String): CalculationMethod = when (country.uppercase()) {
-    // Kyrgyzstan and Uzbekistan publish no calculation parameters; their Hanafi timetables follow
-    // the same regional convention, so the Kazakhstan method is the closest default.
-    "KZ", "KG", "UZ" -> CalculationMethod.KAZAKHSTAN_DUMK
+    "KZ" -> CalculationMethod.KAZAKHSTAN_DUMK
+    "KG" -> CalculationMethod.KYRGYZSTAN_DUMK
+    "UZ" -> CalculationMethod.UZBEKISTAN_MUSLIM_BOARD
     "RU" -> CalculationMethod.RUSSIA_DUM
     "TR" -> CalculationMethod.TURKEY_DIYANET
     "ID" -> CalculationMethod.INDONESIA_KEMENAG

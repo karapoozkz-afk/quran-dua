@@ -49,6 +49,7 @@ class QuranDuaApp : Application() {
             permissions = PermissionRequester(),
             arabicFont = FontFamily(Font(R.font.amiri_quran)),
             readQuranAsset = { withContext(Dispatchers.IO) { readAsset("content/quran.json") } },
+            lessons = app.qurandua.shared.learn.LessonParser.parse(readAsset("content/lessons.json")),
         )
     }
 

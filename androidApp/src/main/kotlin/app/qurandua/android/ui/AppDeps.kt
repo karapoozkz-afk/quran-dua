@@ -97,6 +97,8 @@ class AppDeps(
     val arabicFont: FontFamily,
     /** Reads the bundled Quran asset for the first-launch import. */
     val readQuranAsset: suspend () -> String,
+    /** Lessons on purification and prayer (assets/content/lessons.json). */
+    val lessons: List<app.qurandua.shared.learn.Lesson> = emptyList(),
 )
 
 val LocalDeps = staticCompositionLocalOf<AppDeps> { error("AppDeps not provided") }

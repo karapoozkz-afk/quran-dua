@@ -22,6 +22,15 @@ class BundledContentTest {
     private fun topSituation(query: String): String? = repo.search.search(query).situations.firstOrNull()?.id
 
     @Test
+    fun lessonsParseAndEveryStepHasEvidence() {
+        val lessons = app.qurandua.shared.learn.LessonParser.parse(asset("lessons.json"))
+        assertTrue(lessons.isNotEmpty())
+        for (l in lessons) for (step in l.steps) {
+            assertTrue(step.evidence.isNotBlank() && step.source.startsWith("https://"), l.id)
+        }
+    }
+
+    @Test
     fun everySituationHasContent() {
         for (s in repo.situations) assertTrue(repo.duasFor(s.id).isNotEmpty(), s.id)
     }

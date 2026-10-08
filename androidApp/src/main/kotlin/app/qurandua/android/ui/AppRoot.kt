@@ -32,6 +32,9 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
 import app.qurandua.android.ui.duas.DuasScreen
 import app.qurandua.android.ui.home.HomeScreen
+import app.qurandua.android.ui.learn.LearnListScreen
+import app.qurandua.android.ui.learn.LessonScreen
+import app.qurandua.shared.learn.learnStringsFor
 import app.qurandua.android.ui.more.MoreScreen
 import app.qurandua.android.ui.prayer.PrayerScreen
 import app.qurandua.android.ui.prayer.nextPrayerLine
@@ -62,6 +65,8 @@ private sealed interface Route {
     data object Search : Route
     data object Zakat : Route
     data object Prayer : Route
+    data object Learn : Route
+    data class Lesson(val id: String) : Route
     data class Situation(val id: String) : Route
     data class Reader(val surah: Int, val ayah: Int?) : Route
 }
@@ -138,6 +143,14 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
 
                 Route.Prayer -> PrayerScreen(prayerStrings, onBack = { route = Route.None })
 
+                Route.Learn -> LearnListScreen(deps.lessons, uiLanguage, onOpen = { route = Route.Lesson(it) }, onBack = { route = Route.None })
+
+                is Route.Lesson -> {
+                    val lesson = deps.lessons.find { it.id == current.id }
+                    if (lesson == null) route = Route.Learn
+                    else LessonScreen(lesson, uiLanguage, onOpenAyah = openAyah, onBack = { route = Route.Learn })
+                }
+
                 is Route.Situation -> {
                     val situation = viewModel.situation(current.id)
                     if (situation == null) {
@@ -201,6 +214,9 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                     nextPrayerLine(prayerSettings, prayerStrings)
                                 },
                                 onOpenPrayer = { route = Route.Prayer },
+                                learnTitle = learnStringsFor(uiLanguage).title,
+                                learnSubtitle = learnStringsFor(uiLanguage).subtitle,
+                                onOpenLearn = { route = Route.Learn },
                             )
 
                             Tab.QURAN -> SurahListScreen(

@@ -247,14 +247,16 @@ fun SurahReaderScreen(
                                 color = MaterialTheme.colorScheme.primary,
                                 modifier = Modifier.weight(1f),
                             )
-                            IconButton(onClick = {
-                                if (playing == audioKey) deps.audio.stop()
-                                else deps.audio.play(audioKey, listOf(ayahAudioUrl(ayah.surah, ayah.number)))
-                            }) {
-                                Icon(
-                                    if (playing == audioKey) Icons.Filled.Stop else Icons.Filled.PlayArrow,
-                                    contentDescription = if (playing == audioKey) strings.stop else strings.listen,
-                                )
+                            // A labelled button, not a bare icon: people missed the small play arrow.
+                            FilledTonalButton(
+                                onClick = {
+                                    if (playing == audioKey) deps.audio.stop()
+                                    else deps.audio.play(audioKey, listOf(ayahAudioUrl(ayah.surah, ayah.number)))
+                                },
+                                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp),
+                            ) {
+                                Icon(if (playing == audioKey) Icons.Filled.Stop else Icons.Filled.PlayArrow, contentDescription = null)
+                                Text(if (playing == audioKey) strings.stop else strings.listen, Modifier.padding(start = 6.dp))
                             }
                             IconButton(onClick = { onToggleBookmark(key) }) {
                                 Icon(

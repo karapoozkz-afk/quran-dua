@@ -14,6 +14,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
@@ -49,6 +50,9 @@ fun HomeScreen(
     prayerTitle: String,
     prayerLine: String?,
     onOpenPrayer: () -> Unit,
+    learnTitle: String = "",
+    learnSubtitle: String = "",
+    onOpenLearn: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -116,6 +120,21 @@ fun HomeScreen(
                     Column {
                         Text(prayerTitle, style = MaterialTheme.typography.titleMedium)
                         if (prayerLine != null) Text(prayerLine, style = MaterialTheme.typography.bodyMedium)
+                    }
+                }
+            }
+        }
+        item {
+            Card(onClick = onOpenLearn, modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Icon(Icons.Filled.School, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Column {
+                        Text(learnTitle, style = MaterialTheme.typography.titleMedium)
+                        Text(learnSubtitle, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }

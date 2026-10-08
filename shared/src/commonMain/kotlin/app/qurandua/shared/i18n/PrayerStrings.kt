@@ -36,9 +36,11 @@ data class PrayerStrings(
     val adhanCredit: String,
 )
 
-private fun methodNames(dumk: String, mwl: String, isna: String, egypt: String, ummAlQura: String, karachi: String, turkey: String, indonesia: String, russia: String): (CalculationMethod) -> String = { m ->
+private fun methodNames(kyrgyzstan: String, uzbekistan: String, dumk: String, mwl: String, isna: String, egypt: String, ummAlQura: String, karachi: String, turkey: String, indonesia: String, russia: String): (CalculationMethod) -> String = { m ->
     when (m) {
         CalculationMethod.KAZAKHSTAN_DUMK -> dumk
+        CalculationMethod.KYRGYZSTAN_DUMK -> kyrgyzstan
+        CalculationMethod.UZBEKISTAN_MUSLIM_BOARD -> uzbekistan
         CalculationMethod.MUSLIM_WORLD_LEAGUE -> mwl
         CalculationMethod.ISNA -> isna
         CalculationMethod.EGYPT -> egypt
@@ -81,7 +83,7 @@ val EnPrayer = PrayerStrings(
     useLocation = "My location",
     noPlace = "Choose a city to see prayer times. They are calculated on the phone and work offline.",
     method = "Calculation method",
-    methodName = methodNames("Kazakhstan (DUMK)", "Muslim World League", "ISNA (North America)", "Egyptian Authority", "Umm al-Qura (Makkah)", "Karachi University", "Diyanet (Turkey)", "Kemenag (Indonesia)", "Russia (DUM)"),
+    methodName = methodNames("Kyrgyzstan (Muftiyat)", "Uzbekistan (Muslim Board)", "Kazakhstan (DUMK)", "Muslim World League", "ISNA (North America)", "Egyptian Authority", "Umm al-Qura (Makkah)", "Karachi University", "Diyanet (Turkey)", "Kemenag (Indonesia)", "Russia (DUM)"),
     asr = "Asr",
     asrStandard = "Standard (Shafi‘i, Maliki, Hanbali)",
     asrHanafi = "Hanafi",
@@ -112,7 +114,7 @@ val RuPrayer = PrayerStrings(
     useLocation = "Моё местоположение",
     noPlace = "Выберите город, чтобы увидеть время намаза. Оно считается прямо на телефоне и работает без интернета.",
     method = "Метод расчёта",
-    methodName = methodNames("Казахстан (ДУМК)", "Всемирная исламская лига", "ISNA (Северная Америка)", "Египет", "Умм аль-Кура (Мекка)", "Университет Карачи", "Диянет (Турция)", "Кеменаг (Индонезия)", "Россия (ДУМ)"),
+    methodName = methodNames("Кыргызстан (ДУМК)", "Узбекистан (Управление мусульман)", "Казахстан (ДУМК)", "Всемирная исламская лига", "ISNA (Северная Америка)", "Египет", "Умм аль-Кура (Мекка)", "Университет Карачи", "Диянет (Турция)", "Кеменаг (Индонезия)", "Россия (ДУМ)"),
     asr = "Аср",
     asrStandard = "Стандартный (шафииты, маликиты, ханбалиты)",
     asrHanafi = "Ханафитский",
@@ -143,7 +145,7 @@ val KkPrayer = PrayerStrings(
     useLocation = "Менің орным",
     noPlace = "Намаз уақытын көру үшін қаланы таңдаңыз. Уақыт телефонның өзінде есептеледі және интернетсіз жұмыс істейді.",
     method = "Есептеу әдісі",
-    methodName = methodNames("Қазақстан (ҚМДБ)", "Дүниежүзілік ислам лигасы", "ISNA (Солтүстік Америка)", "Мысыр", "Умм әл-Құра (Мекке)", "Карачи университеті", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Ресей (МДБ)"),
+    methodName = methodNames("Қырғызстан (ДМБ)", "Өзбекстан (Мұсылмандар басқармасы)", "Қазақстан (ҚМДБ)", "Дүниежүзілік ислам лигасы", "ISNA (Солтүстік Америка)", "Мысыр", "Умм әл-Құра (Мекке)", "Карачи университеті", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Ресей (МДБ)"),
     asr = "Екінті",
     asrStandard = "Стандартты (шафиғи, мәлики, ханбали)",
     asrHanafi = "Ханафи",
@@ -174,7 +176,7 @@ val TrPrayer = PrayerStrings(
     useLocation = "Konumum",
     noPlace = "Namaz vakitlerini görmek için bir şehir seçin. Vakitler telefonda hesaplanır ve internetsiz çalışır.",
     method = "Hesaplama yöntemi",
-    methodName = methodNames("Kazakistan (DUMK)", "Dünya Müslüman Birliği", "ISNA (Kuzey Amerika)", "Mısır", "Ümmü'l-Kurâ (Mekke)", "Karaçi Üniversitesi", "Diyanet (Türkiye)", "Kemenag (Endonezya)", "Rusya (DUM)"),
+    methodName = methodNames("Kırgızistan (Müftülük)", "Özbekistan (Müslümanlar İdaresi)", "Kazakistan (DUMK)", "Dünya Müslüman Birliği", "ISNA (Kuzey Amerika)", "Mısır", "Ümmü'l-Kurâ (Mekke)", "Karaçi Üniversitesi", "Diyanet (Türkiye)", "Kemenag (Endonezya)", "Rusya (DUM)"),
     asr = "İkindi",
     asrStandard = "Standart (Şâfiî, Mâlikî, Hanbelî)",
     asrHanafi = "Hanefî",
@@ -205,7 +207,7 @@ val IdPrayer = PrayerStrings(
     useLocation = "Lokasi saya",
     noPlace = "Pilih kota untuk melihat jadwal salat. Jadwal dihitung di ponsel dan berfungsi tanpa internet.",
     method = "Metode perhitungan",
-    methodName = methodNames("Kazakhstan (DUMK)", "Liga Muslim Dunia", "ISNA (Amerika Utara)", "Mesir", "Umm al-Qura (Makkah)", "Universitas Karachi", "Diyanet (Turki)", "Kemenag (Indonesia)", "Rusia (DUM)"),
+    methodName = methodNames("Kirgizstan (Muftiyat)", "Uzbekistan (Dewan Muslim)", "Kazakhstan (DUMK)", "Liga Muslim Dunia", "ISNA (Amerika Utara)", "Mesir", "Umm al-Qura (Makkah)", "Universitas Karachi", "Diyanet (Turki)", "Kemenag (Indonesia)", "Rusia (DUM)"),
     asr = "Asar",
     asrStandard = "Standar (Syafi'i, Maliki, Hanbali)",
     asrHanafi = "Hanafi",
@@ -236,7 +238,7 @@ val UrPrayer = PrayerStrings(
     useLocation = "میرا مقام",
     noPlace = "نماز کے اوقات دیکھنے کے لیے شہر منتخب کریں۔ اوقات فون پر ہی حساب ہوتے ہیں اور انٹرنیٹ کے بغیر کام کرتے ہیں۔",
     method = "حساب کا طریقہ",
-    methodName = methodNames("قازقستان (DUMK)", "مسلم ورلڈ لیگ", "ISNA (شمالی امریکہ)", "مصر", "ام القریٰ (مکہ)", "جامعہ کراچی", "دیانت (ترکی)", "کیمیناگ (انڈونیشیا)", "روس (DUM)"),
+    methodName = methodNames("کرغزستان (مفتیات)", "ازبکستان (مسلم بورڈ)", "قازقستان (DUMK)", "مسلم ورلڈ لیگ", "ISNA (شمالی امریکہ)", "مصر", "ام القریٰ (مکہ)", "جامعہ کراچی", "دیانت (ترکی)", "کیمیناگ (انڈونیشیا)", "روس (DUM)"),
     asr = "عصر",
     asrStandard = "عام (شافعی، مالکی، حنبلی)",
     asrHanafi = "حنفی",
@@ -267,7 +269,7 @@ val ArPrayer = PrayerStrings(
     useLocation = "موقعي",
     noPlace = "اختر مدينة لعرض مواقيت الصلاة. تُحسب المواقيت على الهاتف وتعمل دون إنترنت.",
     method = "طريقة الحساب",
-    methodName = methodNames("كازاخستان (الإدارة الدينية)", "رابطة العالم الإسلامي", "ISNA (أمريكا الشمالية)", "الهيئة المصرية", "أم القرى (مكة)", "جامعة كراتشي", "ديانت (تركيا)", "وزارة الشؤون الدينية (إندونيسيا)", "روسيا"),
+    methodName = methodNames("قيرغيزستان (الإفتاء)", "أوزبكستان (إدارة المسلمين)", "كازاخستان (الإدارة الدينية)", "رابطة العالم الإسلامي", "ISNA (أمريكا الشمالية)", "الهيئة المصرية", "أم القرى (مكة)", "جامعة كراتشي", "ديانت (تركيا)", "وزارة الشؤون الدينية (إندونيسيا)", "روسيا"),
     asr = "العصر",
     asrStandard = "الجمهور (الشافعي والمالكي والحنبلي)",
     asrHanafi = "الحنفي",
@@ -298,7 +300,7 @@ val EsPrayer = PrayerStrings(
     useLocation = "Mi ubicación",
     noPlace = "Elige una ciudad para ver los horarios de oración. Se calculan en el teléfono y funcionan sin internet.",
     method = "Método de cálculo",
-    methodName = methodNames("Kazajistán (DUMK)", "Liga Musulmana Mundial", "ISNA (Norteamérica)", "Autoridad egipcia", "Umm al-Qura (La Meca)", "Universidad de Karachi", "Diyanet (Turquía)", "Kemenag (Indonesia)", "Rusia (DUM)"),
+    methodName = methodNames("Kirguistán (Muftiyat)", "Uzbekistán (Junta Musulmana)", "Kazajistán (DUMK)", "Liga Musulmana Mundial", "ISNA (Norteamérica)", "Autoridad egipcia", "Umm al-Qura (La Meca)", "Universidad de Karachi", "Diyanet (Turquía)", "Kemenag (Indonesia)", "Rusia (DUM)"),
     asr = "Asr",
     asrStandard = "Estándar (shafi‘í, malikí, hanbalí)",
     asrHanafi = "Hanafí",
@@ -329,7 +331,7 @@ val KyPrayer = PrayerStrings(
     useLocation = "Менин жайгашкан жерим",
     noPlace = "Намаз убактысын көрүү үчүн шаарды тандаңыз. Убакыт телефондун өзүндө эсептелет жана интернетсиз иштейт.",
     method = "Эсептөө ыкмасы",
-    methodName = methodNames("Казакстан (КМДБ)", "Дүйнөлүк ислам лигасы", "ISNA (Түндүк Америка)", "Египет", "Умм аль-Кура (Мекке)", "Карачи университети", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Россия (МДБ)"),
+    methodName = methodNames("Кыргызстан (КМДБ)", "Өзбекстан (Мусулмандар башкармалыгы)", "Казакстан (КМДБ)", "Дүйнөлүк ислам лигасы", "ISNA (Түндүк Америка)", "Египет", "Умм аль-Кура (Мекке)", "Карачи университети", "Диянет (Түркия)", "Кеменаг (Индонезия)", "Россия (МДБ)"),
     asr = "Аср",
     asrStandard = "Стандарттуу (шафиий, маликий, ханбалий)",
     asrHanafi = "Ханафий",
@@ -360,7 +362,7 @@ val UzPrayer = PrayerStrings(
     useLocation = "Mening joylashuvim",
     noPlace = "Namoz vaqtlarini ko‘rish uchun shaharni tanlang. Vaqtlar telefonning o‘zida hisoblanadi va internetsiz ishlaydi.",
     method = "Hisoblash usuli",
-    methodName = methodNames("Qozog‘iston (QMDB)", "Butunjahon islom ligasi", "ISNA (Shimoliy Amerika)", "Misr", "Ummul Quro (Makka)", "Karachi universiteti", "Diyonat (Turkiya)", "Kemenag (Indoneziya)", "Rossiya (MDB)"),
+    methodName = methodNames("Qirg‘iziston (Muftiyat)", "O‘zbekiston (Musulmonlari idorasi)", "Qozog‘iston (QMDB)", "Butunjahon islom ligasi", "ISNA (Shimoliy Amerika)", "Misr", "Ummul Quro (Makka)", "Karachi universiteti", "Diyonat (Turkiya)", "Kemenag (Indoneziya)", "Rossiya (MDB)"),
     asr = "Asr",
     asrStandard = "Standart (shofe’iy, molikiy, hanbaliy)",
     asrHanafi = "Hanafiy",

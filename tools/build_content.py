@@ -222,6 +222,43 @@ def load_charities():
     return published
 
 
+LESSON_GRADES = {"quran", "sahih", "hasan", "fiqh_hanafi", "opinion"}
+ARABIC_LETTERS = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]")
+
+
+def load_lessons():
+    """Purification and prayer lessons: every step needs evidence, a grade and a source page."""
+    path = SRC / "lessons.json"
+    if not path.exists():
+        return []
+    lessons = load_json(path)
+    ids = set()
+    for lesson in lessons:
+        lid = lesson.get("id")
+        if not lid or lid in ids:
+            err(f"lesson id missing or duplicated: {lid}")
+        ids.add(lid)
+        if not lesson.get("title", {}).get("ru"):
+            err(f"lesson {lid}: title.ru missing")
+        for i, step in enumerate(lesson.get("steps", []), 1):
+            where = f"lesson {lid} step {i}"
+            if not step.get("text", {}).get("ru"):
+                err(f"{where}: text.ru missing")
+            if step.get("grade") not in LESSON_GRADES:
+                err(f"{where}: grade {step.get('grade')!r} not in {sorted(LESSON_GRADES)}")
+            if not step.get("evidence"):
+                err(f"{where}: evidence missing")
+            if not str(step.get("source", "")).startswith("https://"):
+                err(f"{where}: source must be an https page")
+            if "[ПРОВЕРИТЬ]" in json.dumps(step, ensure_ascii=False):
+                err(f"{where}: unverified reference ([ПРОВЕРИТЬ])")
+            say = step.get("say") or {}
+            # Arabic is never typed by hand: Quranic recitations are references only.
+            if any(ARABIC_LETTERS.search(str(v or "")) for v in say.values()):
+                err(f"{where}: Arabic letters in 'say'; give a reference instead")
+    return lessons
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", required=True, type=pathlib.Path,
@@ -299,6 +336,7 @@ def main():
             err(f"situation {sid} has no items")
 
     charities = load_charities()
+    lessons = load_lessons()
 
     if errors:
         print("\n".join(errors), file=sys.stderr)
@@ -309,6 +347,7 @@ def main():
     (OUT / "situations.json").write_text(json.dumps(situations, **dump), encoding="utf-8")
     (OUT / "duas.json").write_text(json.dumps(out_duas, **dump), encoding="utf-8")
     (OUT / "charities.json").write_text(json.dumps(charities, **dump), encoding="utf-8")
+    (OUT / "lessons.json").write_text(json.dumps(lessons, **dump), encoding="utf-8")
     quran = build_quran(ar, tr, ru, en, extra_quran)
     (OUT / "quran.json").write_text(json.dumps(quran, **dump), encoding="utf-8")
     print(f"OK: {len(situations)} situations, {len(out_duas)} items, content languages {langs}, "
