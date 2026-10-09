@@ -12,7 +12,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.VolunteerActivism
 import androidx.compose.material3.Card
+import androidx.compose.material3.Icon
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
@@ -43,12 +46,12 @@ import app.qurandua.shared.model.pick
 import app.qurandua.shared.model.ThemeMode
 import app.qurandua.shared.model.TRANSLIT_SCRIPTS
 
-/** Settings, sadaqah and the sources behind the content. */
+/** Settings, a way into sadaqah, and the about text. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun MoreScreen(
     onUpdateSettings: ((AppSettings) -> AppSettings) -> Unit,
-    onOpenZakat: () -> Unit,
+    onOpenDonate: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -133,55 +136,16 @@ fun MoreScreen(
 
         item { SectionTitle(strings.donate) }
         item {
-            Card(onClick = onOpenZakat, modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(strings.zakat, style = MaterialTheme.typography.titleMedium)
-                    Text(strings.zakatIntro, style = MaterialTheme.typography.bodySmall)
+            Card(onClick = onOpenDonate, modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
+                Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Icon(Icons.Filled.VolunteerActivism, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Text(strings.donate, style = MaterialTheme.typography.titleMedium)
                 }
             }
-        }
-        item {
-            Text(
-                strings.charitiesTitle,
-                style = MaterialTheme.typography.titleSmall,
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
-            )
-        }
-        if (deps.content.charities.isEmpty()) {
-            item {
-                Text(
-                    strings.charitiesEmpty,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = 16.dp),
-                )
-            }
-        }
-        items(deps.content.charities, key = { it.id }) { charity ->
-            CharityCard(charity, Modifier.padding(horizontal = 16.dp))
-        }
-        item {
-            Text(
-                strings.supportApp,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(horizontal = 16.dp),
-            )
         }
 
         item { SectionTitle(strings.about) }
         item { NoticeCard(strings.aboutBody, Modifier.padding(horizontal = 16.dp)) }
-        item {
-            // Licences (CC BY-SA) require the attribution somewhere in the app; it sits folded here.
-            var open by rememberSaveable { mutableStateOf(false) }
-            Column(Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(strings.sourcesTitle, style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
-                    InfoButton(open, strings.sourcesTitle) { open = !open }
-                }
-                HiddenText(open, strings.sourcesBody + "\n\nAdhan: " + ADHAN_CREDIT)
-            }
-        }
     }
 }
 
@@ -200,30 +164,3 @@ private val LANGUAGE_NAMES = mapOf(
     "ru" to "Русский", "kk" to "Қазақша", "ky" to "Кыргызча", "uz" to "O‘zbekcha", "en" to "English", "es" to "Español", "ar" to "العربية",
     "tr" to "Türkçe", "id" to "Bahasa Indonesia", "ur" to "اردو",
 )
-
-@Composable
-private fun CharityCard(charity: Charity, modifier: Modifier = Modifier) {
-    val strings = LocalStrings.current
-    val lang = LocalContentLang.current
-    val deps = LocalDeps.current
-    Card(modifier.fillMaxWidth()) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(charity.name.pick(lang), style = MaterialTheme.typography.titleMedium)
-            Text(
-                charity.purposes.joinToString(" · ") { strings.charityPurpose(it) },
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.primary,
-            )
-            Text("${strings.charityReg}: ${charity.registrationNumber} (${charity.country})", style = MaterialTheme.typography.bodySmall)
-            Text(
-                strings.charityVerified(charity.verifiedOn, charity.verifiedBy),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = { deps.platform.openUrl(charity.donateUrl) }) { Text(strings.charityDonate) }
-                TextButton(onClick = { deps.platform.openUrl(charity.website) }) { Text(strings.charityWebsite) }
-            }
-        }
-    }
-}

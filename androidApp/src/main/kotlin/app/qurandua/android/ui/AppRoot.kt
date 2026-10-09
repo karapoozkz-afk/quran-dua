@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import app.qurandua.android.ui.duas.DuasScreen
 import app.qurandua.android.ui.home.HomeScreen
 import app.qurandua.android.ui.learn.LearnListScreen
+import app.qurandua.android.ui.more.DonateScreen
 import app.qurandua.android.ui.learn.LessonScreen
 import app.qurandua.shared.learn.learnStringsFor
 import app.qurandua.android.ui.more.MoreScreen
@@ -64,6 +65,7 @@ private sealed interface Route {
     data object None : Route
     data object Search : Route
     data object Zakat : Route
+    data object Donate : Route
     data object Prayer : Route
     data object Learn : Route
     data class Lesson(val id: String) : Route
@@ -139,7 +141,8 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                     onBack = { route = Route.None },
                 )
 
-                Route.Zakat -> ZakatScreen(onBack = { route = Route.None })
+                Route.Zakat -> ZakatScreen(onBack = { route = Route.Donate })
+                Route.Donate -> DonateScreen(onOpenZakat = { route = Route.Zakat }, onBack = { route = Route.None })
 
                 Route.Prayer -> PrayerScreen(prayerStrings, onBack = { route = Route.None })
 
@@ -217,6 +220,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                 learnTitle = learnStringsFor(uiLanguage).title,
                                 learnSubtitle = learnStringsFor(uiLanguage).subtitle,
                                 onOpenLearn = { route = Route.Learn },
+                                onOpenDonate = { route = Route.Donate },
                             )
 
                             Tab.QURAN -> SurahListScreen(
@@ -242,7 +246,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
 
                             Tab.MORE -> MoreScreen(
                                 onUpdateSettings = viewModel::updateSettings,
-                                onOpenZakat = { route = Route.Zakat },
+                                onOpenDonate = { route = Route.Donate },
                             )
                         }
                     }

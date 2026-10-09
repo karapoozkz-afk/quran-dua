@@ -15,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.School
+import androidx.compose.material.icons.filled.VolunteerActivism
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
@@ -53,6 +54,7 @@ fun HomeScreen(
     learnTitle: String = "",
     learnSubtitle: String = "",
     onOpenLearn: () -> Unit = {},
+    onOpenDonate: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -135,6 +137,22 @@ fun HomeScreen(
                     Column {
                         Text(learnTitle, style = MaterialTheme.typography.titleMedium)
                         Text(learnSubtitle, style = MaterialTheme.typography.bodyMedium)
+                    }
+                }
+            }
+        }
+        item {
+            // Sadaqah sits on the home screen, not only deep in More, so it can be found.
+            Card(onClick = onOpenDonate, modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Icon(Icons.Filled.VolunteerActivism, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Column {
+                        Text(LocalStrings.current.donate, style = MaterialTheme.typography.titleMedium)
+                        Text(LocalStrings.current.zakat + " · " + LocalStrings.current.charitiesTitle, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
