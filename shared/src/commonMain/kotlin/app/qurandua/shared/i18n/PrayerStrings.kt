@@ -62,7 +62,8 @@ private fun adhanNames(full: String, short: String, notification: String, silent
     }
 }
 
-private const val ADHAN_CREDIT = "Aaqib Azeez, Wikimedia Commons, CC BY-SA 4.0"
+/** Licence attribution for the bundled adhan; shown with the other licences on the More screen. */
+const val ADHAN_CREDIT = "Aaqib Azeez, Wikimedia Commons, CC BY-SA 4.0"
 
 private fun prayerNames(fajr: String, sunrise: String, dhuhr: String, asr: String, maghrib: String, isha: String): (Prayer) -> String = { p ->
     when (p) {

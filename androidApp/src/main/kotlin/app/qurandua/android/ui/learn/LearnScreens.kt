@@ -5,7 +5,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -22,11 +24,19 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
+import app.qurandua.android.R
 import app.qurandua.android.ui.components.BackTopBar
+import app.qurandua.android.ui.components.HiddenText
+import app.qurandua.android.ui.components.InfoButton
 import app.qurandua.android.ui.components.NoticeCard
 import app.qurandua.shared.learn.Lesson
 import app.qurandua.shared.learn.LessonGrade
@@ -72,12 +82,21 @@ fun LessonScreen(lesson: Lesson, lang: String, onOpenAyah: (AyahKey) -> Unit, on
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             itemsIndexed(lesson.steps) { i, step ->
+                var showRefs by rememberSaveable(lesson.id, i) { mutableStateOf(false) }
                 Card(Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             StepNumber(i + 1)
                             Spacer1()
                             LessonGradeBadge(step.grade, lang)
+                            InfoButton(showRefs, s.source) { showRefs = !showRefs }
+                        }
+                        step.pose?.let { poseDrawable(it) }?.let { res ->
+                            Image(
+                                painterResource(res),
+                                contentDescription = null,
+                                modifier = Modifier.fillMaxWidth().height(170.dp),
+                            )
                         }
                         Text(step.text.inLanguage(lang), style = MaterialTheme.typography.bodyLarge)
                         step.say?.let { say ->
@@ -87,7 +106,6 @@ fun LessonScreen(lesson: Lesson, lang: String, onOpenAyah: (AyahKey) -> Unit, on
                                     say.translit?.let { Text(it, style = MaterialTheme.typography.bodyLarge, fontStyle = FontStyle.Italic) }
                                     say.ru?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
                                     say.ref?.let { ref ->
-                                        Text(ref, style = MaterialTheme.typography.bodySmall)
                                         quranRef(ref)?.let { key ->
                                             TextButton(onClick = { onOpenAyah(key) }) {
                                                 Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null)
@@ -98,13 +116,32 @@ fun LessonScreen(lesson: Lesson, lang: String, onOpenAyah: (AyahKey) -> Unit, on
                                 }
                             }
                         }
-                        Text("${s.evidence}: ${step.evidence}", style = MaterialTheme.typography.bodySmall)
-                        Text("${s.source}: ${step.source}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        HiddenText(
+                            showRefs,
+                            listOfNotNull(step.say?.ref, "${s.evidence}: ${step.evidence}", "${s.source}: ${step.source}").joinToString("\n"),
+                        )
                     }
                 }
             }
         }
     }
+}
+
+/** Pictures drawn by tools/gen_poses.py; a step naming an unknown pose simply shows none. */
+private fun poseDrawable(pose: String): Int? = when (pose) {
+    "stand" -> R.drawable.pose_stand
+    "takbir" -> R.drawable.pose_takbir
+    "qiyam" -> R.drawable.pose_qiyam
+    "ruku" -> R.drawable.pose_ruku
+    "sujud" -> R.drawable.pose_sujud
+    "jalsa" -> R.drawable.pose_jalsa
+    "salam" -> R.drawable.pose_salam
+    "takbir_w" -> R.drawable.pose_takbir_w
+    "qiyam_w" -> R.drawable.pose_qiyam_w
+    "ruku_w" -> R.drawable.pose_ruku_w
+    "sujud_w" -> R.drawable.pose_sujud_w
+    "jalsa_w" -> R.drawable.pose_jalsa_w
+    else -> null
 }
 
 /** "Коран 1:1-7" or "Коран 112" opens that place in the reader. */

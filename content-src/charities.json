@@ -1,13 +1,20 @@
 {
-  "_readme": "Verified charities shown on the donation screen. An organisation is published only when every field is filled in. purposes: zakat, sadaqah, mosque, orphans, water, food, education, general. verifiedOn is the date someone checked the registration number against the official register; verifiedBy is who did it.",
+  "_readme": "Verified charities shown on the donation screen. An organisation is published only when every field is filled in. purposes: zakat, sadaqah, mosque, orphans, water, food, education, general. verifiedOn is the date someone checked the registration number against the official register; verifiedBy is who did it. donateUrl can be the fund's Kaspi Pay link (https://pay.kaspi.kz/...), opened outside the app; never a personal card or phone number.",
   "_template": {
     "id": "example-fund",
-    "name": {"ru": "Название фонда", "kk": "Қордың атауы", "en": "Charity name"},
+    "name": {
+      "ru": "Название фонда",
+      "kk": "Қордың атауы",
+      "en": "Charity name"
+    },
     "country": "KZ",
     "registrationNumber": "БИН 000000000000",
     "website": "https://example.org",
     "donateUrl": "https://example.org/donate",
-    "purposes": ["zakat", "sadaqah"],
+    "purposes": [
+      "zakat",
+      "sadaqah"
+    ],
     "verifiedOn": "2026-10-05",
     "verifiedBy": "Имя проверяющего"
   },

@@ -20,6 +20,10 @@ import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -27,7 +31,10 @@ import app.qurandua.android.ui.LocalContentLang
 import app.qurandua.android.ui.LocalDeps
 import app.qurandua.android.ui.LocalSettings
 import app.qurandua.android.ui.LocalStrings
+import app.qurandua.android.ui.components.HiddenText
+import app.qurandua.android.ui.components.InfoButton
 import app.qurandua.android.ui.components.NoticeCard
+import app.qurandua.shared.i18n.ADHAN_CREDIT
 import app.qurandua.android.ui.components.SectionTitle
 import app.qurandua.shared.data.UI_LANGUAGES
 import app.qurandua.shared.model.AppSettings
@@ -165,13 +172,14 @@ fun MoreScreen(
         item { SectionTitle(strings.about) }
         item { NoticeCard(strings.aboutBody, Modifier.padding(horizontal = 16.dp)) }
         item {
-            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(strings.sourcesTitle, style = MaterialTheme.typography.titleSmall)
-                Text(
-                    strings.sourcesBody,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+            // Licences (CC BY-SA) require the attribution somewhere in the app; it sits folded here.
+            var open by rememberSaveable { mutableStateOf(false) }
+            Column(Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(strings.sourcesTitle, style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
+                    InfoButton(open, strings.sourcesTitle) { open = !open }
+                }
+                HiddenText(open, strings.sourcesBody + "\n\nAdhan: " + ADHAN_CREDIT)
             }
         }
     }

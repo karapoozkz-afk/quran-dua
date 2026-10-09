@@ -33,6 +33,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import app.qurandua.android.ui.LocalStrings
 import app.qurandua.android.ui.components.BackTopBar
+import app.qurandua.android.ui.components.MoreInfo
 import app.qurandua.android.ui.components.NoticeCard
 import app.qurandua.shared.zakat.Madhhab
 import app.qurandua.shared.zakat.NisabBasis
@@ -163,11 +164,7 @@ fun ZakatScreen(onBack: () -> Unit) {
             NoticeCard(strings.zakatDisclaimer)
             Text(strings.zakatRecipientsTitle, style = MaterialTheme.typography.titleSmall)
             Text(strings.zakatRecipients, style = MaterialTheme.typography.bodyMedium)
-            Text(
-                strings.zakatSources,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            MoreInfo(strings.zakatSources, strings.source)
         }
     }
 }

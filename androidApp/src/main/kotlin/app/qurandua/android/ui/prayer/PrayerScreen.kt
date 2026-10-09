@@ -249,7 +249,6 @@ fun PrayerScreen(strings: PrayerStrings, onBack: () -> Unit) {
                             OutlinedButton(onClick = controller::openFullScreenSettings) { Text(strings.openSettings) }
                         }
                         Text(strings.fajrNote, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(strings.adhanCredit, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                     if (!exactAllowed) {
                         NoticeCard(strings.exactDenied)

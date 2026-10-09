@@ -22,6 +22,8 @@ data class LessonStep(
     val evidence: String,
     val grade: LessonGrade,
     val source: String,
+    /** Prayer position drawn for this step (tools/gen_poses.py), e.g. "ruku" or "sujud_w". */
+    val pose: String? = null,
 )
 
 @Serializable
@@ -77,13 +79,13 @@ class LearnStrings(val title: String, val subtitle: String, val note: String, va
 
 fun learnStringsFor(lang: String): LearnStrings = when (lang) {
     "kk" -> LearnStrings("Тахарат пен намазды үйрену", "Істінжа, дәрет, ғұсыл, намаз қадам-қадаммен",
-        "Ханафи мазхабы, ҚМДБ (muftyat.kz) материалдары бойынша. Мәтін орыс тілінде; имаммен тексеру күтілуде.", "Айтылады", "Дәлел", "Дереккөз")
+        "Ханафи мазхабы. Мәтін орыс тілінде; имаммен тексеру күтілуде.", "Айтылады", "Дәлел", "Дереккөз")
     "ky" -> LearnStrings("Тахарат жана намазды үйрөнүү", "Истинжа, даарат, гусул, намаз кадам-кадам",
-        "Ханафий мазхабы, ДУМК (muftyat.kz) материалдары боюнча. Текст орусча; имам текшерүүсүн күтүүдө.", "Айтылат", "Далил", "Булак")
+        "Ханафий мазхабы. Текст орусча; имам текшерүүсүн күтүүдө.", "Айтылат", "Далил", "Булак")
     "uz" -> LearnStrings("Tahorat va namozni o‘rganish", "Istinjo, tahorat, g‘usl, namoz bosqichma-bosqich",
-        "Hanafiy mazhabi, ДУМК (muftyat.kz) materiallari asosida. Matn rus tilida; imom tekshiruvi kutilmoqda.", "Aytiladi", "Dalil", "Manba")
+        "Hanafiy mazhabi. Matn rus tilida; imom tekshiruvi kutilmoqda.", "Aytiladi", "Dalil", "Manba")
     "ru" -> LearnStrings("Обучение тахарату и намазу", "Истинджа, омовение, гусль, намаз по шагам",
-        "Ханафитский мазхаб, по материалам ДУМК (muftyat.kz). Ожидает проверки имамом.", "Произносится", "Доказательство", "Источник")
+        "Ханафитский мазхаб. Ожидает проверки имамом.", "Произносится", "Доказательство", "Источник")
     else -> LearnStrings("Learn purification and prayer", "Istinja, wudu, ghusl, namaz step by step",
-        "Hanafi madhhab, following the ДУМК (muftyat.kz) guides. Text in Russian; awaiting review by an imam.", "Say", "Evidence", "Source")
+        "Hanafi madhhab. Text in Russian; awaiting review by an imam.", "Say", "Evidence", "Source")
 }

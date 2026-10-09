@@ -252,6 +252,9 @@ def load_lessons():
                 err(f"{where}: source must be an https page")
             if "[ПРОВЕРИТЬ]" in json.dumps(step, ensure_ascii=False):
                 err(f"{where}: unverified reference ([ПРОВЕРИТЬ])")
+            pose = step.get("pose")
+            if pose is not None and not (ROOT / "art/poses" / f"{pose}.svg").exists():
+                err(f"{where}: pose {pose!r} has no drawing; add it to tools/gen_poses.py")
             say = step.get("say") or {}
             # Arabic is never typed by hand: Quranic recitations are references only.
             if any(ARABIC_LETTERS.search(str(v or "")) for v in say.values()):

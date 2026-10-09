@@ -17,7 +17,6 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.Stop
 import androidx.compose.material3.Card
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -25,6 +24,9 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -45,7 +47,7 @@ import kotlinx.coroutines.launch
 
 /**
  * One dua or guidance card: title, grade badge, Arabic, transliteration, translation,
- * the source, and the actions. The grade and the source are never optional — the card
+ * the actions, and the source one tap away behind "i". The grade is never optional — the card
  * exists so the user can check where the text comes from.
  */
 @OptIn(ExperimentalLayoutApi::class)
@@ -82,10 +84,13 @@ fun DuaCard(
                 }
             }
 
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            var showSource by rememberSaveable(item.id) { mutableStateOf(false) }
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.Center) {
                 GradeBadge(item.grade)
                 item.repeat?.let { Text(strings.repeatTimes(it), style = MaterialTheme.typography.labelLarge) }
+                InfoButton(showSource, strings.source) { showSource = !showSource }
             }
+            HiddenText(showSource, "${strings.source}: ${item.source.pick(lang)}")
 
             item.arabic?.takeIf { it.isNotBlank() }?.let { ArabicText(it) }
 
@@ -103,13 +108,6 @@ fun DuaCard(
                 Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
 
-            HorizontalDivider()
-
-            Text(
-                text = "${strings.source}: ${item.source.pick(lang)}",
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
             AnimatedVisibility(visible = item.grade.ordinal >= 3) {
                 Text(
                     text = strings.gradeExplain(item.grade),
@@ -150,11 +148,11 @@ fun DuaCard(
                         Text(strings.openInQuran, Modifier.padding(start = 6.dp))
                     }
                 }
-                TextButton(onClick = { deps.platform.copy(item.shareText(lang, strings.source)) }) {
+                TextButton(onClick = { deps.platform.copy(item.shareText(lang)) }) {
                     Icon(Icons.Filled.ContentCopy, contentDescription = null)
                     Text(strings.copy, Modifier.padding(start = 6.dp))
                 }
-                TextButton(onClick = { deps.platform.share(item.shareText(lang, strings.source)) }) {
+                TextButton(onClick = { deps.platform.share(item.shareText(lang)) }) {
                     Icon(Icons.Filled.Share, contentDescription = null)
                     Text(strings.share, Modifier.padding(start = 6.dp))
                 }
@@ -163,13 +161,10 @@ fun DuaCard(
     }
 }
 
-/** Shared text always carries the source, so a screenshot cannot drop it. */
-private fun DuaItem.shareText(lang: String, sourceLabel: String): String = buildString {
+private fun DuaItem.shareText(lang: String): String = buildString {
     appendLine(title.pick(lang))
     arabic?.takeIf { it.isNotBlank() }?.let { appendLine(); appendLine(it) }
     translit?.pick(lang)?.takeIf { it.isNotBlank() }?.let { appendLine(); appendLine(it) }
     appendLine()
-    appendLine(translation.pick(lang))
-    appendLine()
-    append("$sourceLabel: ${source.pick(lang)}")
+    append(translation.pick(lang))
 }
