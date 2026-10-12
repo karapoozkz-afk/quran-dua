@@ -1,5 +1,9 @@
 package app.qurandua.android.ui
 
+import app.qurandua.android.ui.daily.DailyScreen
+import app.qurandua.android.ui.home.DailyCard
+import app.qurandua.shared.daily.forLang
+import kotlinx.datetime.toLocalDateTime
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -68,6 +72,7 @@ private sealed interface Route {
     data object Donate : Route
     data object Prayer : Route
     data object Learn : Route
+    data object Daily : Route
     data class Lesson(val id: String) : Route
     data class Situation(val id: String) : Route
     data class Reader(val surah: Int, val ayah: Int?) : Route
@@ -116,6 +121,21 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
             }
         }
     }
+    // Morning and evening hadith: reminders are on by default, so ask for notifications once, on first launch.
+    LaunchedEffect(Unit) {
+        val daily = deps.daily ?: return@LaunchedEffect
+        if (daily.settings.value.on && !daily.settings.value.askedPermission) {
+            daily.update { it.copy(askedPermission = true) }
+            deps.permissions.request("android.permission.POST_NOTIFICATIONS") {}
+        }
+    }
+    val openDaily by remember { deps.daily?.openRequested ?: kotlinx.coroutines.flow.MutableStateFlow(false) }.collectAsState()
+    LaunchedEffect(openDaily) {
+        if (openDaily) {
+            route = Route.Daily
+            deps.daily?.openRequested?.value = false
+        }
+    }
     // Arabic and Urdu read right to left; the whole UI mirrors with the language.
     val direction = if (uiLanguage in RTL_LANGUAGES) LayoutDirection.Rtl else LayoutDirection.Ltr
 
@@ -145,6 +165,8 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                 Route.Donate -> DonateScreen(onOpenZakat = { route = Route.Zakat }, onBack = { route = Route.None })
 
                 Route.Prayer -> PrayerScreen(prayerStrings, onBack = { route = Route.None })
+
+                Route.Daily -> deps.daily?.let { DailyScreen(it, uiLanguage, onBack = { route = Route.None }) }
 
                 Route.Learn -> LearnListScreen(deps.lessons, uiLanguage, onOpen = { route = Route.Lesson(it) }, onBack = { route = Route.None })
 
@@ -221,6 +243,8 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                 learnSubtitle = learnStringsFor(uiLanguage).subtitle,
                                 onOpenLearn = { route = Route.Learn },
                                 onOpenDonate = { route = Route.Donate },
+                                daily = remember(uiLanguage, minuteTick / 60) { dailyCard(deps.daily, uiLanguage) },
+                                onOpenDaily = { route = Route.Daily },
                             )
 
                             Tab.QURAN -> SurahListScreen(
@@ -263,4 +287,17 @@ private fun app.qurandua.shared.i18n.Strings.tabTitle(tab: Tab): String = when (
     Tab.DUAS -> navDuas
     Tab.SAVED -> navSaved
     Tab.MORE -> navMore
+}
+
+/** Home card: this morning's hadith until 16:00, then the evening one. */
+private fun dailyCard(daily: DailyController?, lang: String): DailyCard? {
+    val content = daily?.content ?: return null
+    val now = kotlinx.datetime.Clock.System.now().toLocalDateTime(kotlinx.datetime.TimeZone.currentSystemDefault())
+    val slot = if (now.hour < 16) app.qurandua.shared.daily.DailySlot.MORNING else app.qurandua.shared.daily.DailySlot.EVENING
+    val hadith = content.forDay(now.date, slot) ?: return null
+    return DailyCard(
+        heading = app.qurandua.shared.daily.dailyStringsFor(lang).section,
+        title = hadith.title.forLang(lang),
+        summary = hadith.summary.forLang(lang),
+    )
 }

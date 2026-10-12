@@ -23,6 +23,7 @@ import app.qurandua.android.ui.LocalContentLang
 import app.qurandua.android.ui.LocalDeps
 import app.qurandua.android.ui.LocalStrings
 import app.qurandua.android.ui.components.BackTopBar
+import app.qurandua.shared.daily.HADITH_CREDIT
 import app.qurandua.shared.i18n.ADHAN_CREDIT
 import app.qurandua.shared.model.Charity
 import app.qurandua.shared.model.pick
@@ -84,7 +85,7 @@ fun DonateScreen(onOpenZakat: () -> Unit, onBack: () -> Unit) {
                 HorizontalDivider()
                 Text(strings.sourcesTitle, style = MaterialTheme.typography.titleSmall)
                 Text(
-                    strings.sourcesBody + "\n\nAdhan: " + ADHAN_CREDIT,
+                    strings.sourcesBody + "\n\nAdhan: " + ADHAN_CREDIT + "\n\n" + HADITH_CREDIT,
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )

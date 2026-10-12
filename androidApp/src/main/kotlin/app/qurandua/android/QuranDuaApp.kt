@@ -9,6 +9,8 @@ import app.qurandua.android.platform.AndroidPrayerController
 import app.qurandua.android.platform.ExoAudioController
 import app.qurandua.android.platform.RecitationStore
 import app.qurandua.android.platform.PrayerAlarms
+import app.qurandua.android.platform.AndroidDailyController
+import app.qurandua.android.platform.DailyAlarms
 import app.qurandua.android.ui.AppDeps
 import app.qurandua.android.ui.PermissionRequester
 import app.qurandua.shared.data.ContentRepository
@@ -34,6 +36,8 @@ class QuranDuaApp : Application() {
         PrayerAlarms.createChannel(this)
         Adhan.createChannel(this)
         PrayerAlarms.schedule(this)
+        DailyAlarms.createChannel(this)
+        DailyAlarms.schedule(this)
         deps = AppDeps(
             content = ContentRepository.fromJson(
                 readAsset("content/situations.json"),
@@ -50,6 +54,7 @@ class QuranDuaApp : Application() {
             arabicFont = FontFamily(Font(R.font.amiri_quran)),
             readQuranAsset = { withContext(Dispatchers.IO) { readAsset("content/quran.json") } },
             lessons = app.qurandua.shared.learn.LessonParser.parse(readAsset("content/lessons.json")),
+            daily = AndroidDailyController(this),
         )
     }
 

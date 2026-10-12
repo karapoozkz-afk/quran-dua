@@ -67,6 +67,10 @@
             android:exported="false" />
 
         <receiver
+            android:name=".platform.DailyAlarmReceiver"
+            android:exported="false" />
+
+        <receiver
             android:name=".platform.PrayerRescheduleReceiver"
             android:exported="false">
             <intent-filter>

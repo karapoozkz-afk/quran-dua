@@ -1,6 +1,7 @@
 package app.qurandua.android
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
@@ -13,6 +14,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.viewmodel.compose.viewModel
+import app.qurandua.android.platform.EXTRA_OPEN_DAILY
 import app.qurandua.android.ui.AppRoot
 import app.qurandua.android.ui.AppViewModel
 import app.qurandua.shared.data.supportedUiLanguage
@@ -42,6 +44,7 @@ class MainActivity : ComponentActivity() {
                 permissionLauncher.launch(permission)
             }
         }
+        if (intent?.getBooleanExtra(EXTRA_OPEN_DAILY, false) == true) deps.daily?.openRequested?.value = true
         val deviceLanguage = supportedUiLanguage(Locale.getDefault().language).ifEmpty { "en" }
 
         setContent {
@@ -59,6 +62,12 @@ class MainActivity : ComponentActivity() {
             )
             AppRoot(viewModel = model, deps = deps)
         }
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        if (intent.getBooleanExtra(EXTRA_OPEN_DAILY, false)) (application as QuranDuaApp).deps.daily?.openRequested?.value = true
     }
 
     override fun onResume() {

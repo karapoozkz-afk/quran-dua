@@ -11,7 +11,10 @@ import app.qurandua.shared.model.AppSettings
 import app.qurandua.shared.prayer.AdhanSound
 import app.qurandua.shared.prayer.Place
 import app.qurandua.shared.prayer.PrayerSettings
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import app.qurandua.shared.daily.DailyContent
+import app.qurandua.shared.daily.DailySettings
 
 /** Things only the platform can do. Keeps screens free of Android APIs. */
 interface PlatformActions {
@@ -76,6 +79,15 @@ interface PrayerController {
     fun openExactAlarmSettings()
 }
 
+/** The morning and evening hadith reminders (platform/DailyPlatform.kt). */
+interface DailyController {
+    val settings: StateFlow<DailySettings>
+    val content: DailyContent
+    fun update(transform: (DailySettings) -> DailySettings)
+    /** Set when the app was opened from a reminder; the screen resets it once shown. */
+    val openRequested: MutableStateFlow<Boolean>
+}
+
 /** Lets screens ask for a runtime permission; MainActivity plugs in the real launcher. */
 class PermissionRequester {
     var launcher: ((permission: String, onResult: (Boolean) -> Unit) -> Unit)? = null
@@ -99,6 +111,7 @@ class AppDeps(
     val readQuranAsset: suspend () -> String,
     /** Lessons on purification and prayer (assets/content/lessons.json). */
     val lessons: List<app.qurandua.shared.learn.Lesson> = emptyList(),
+    val daily: DailyController? = null,
 )
 
 val LocalDeps = staticCompositionLocalOf<AppDeps> { error("AppDeps not provided") }

@@ -318,5 +318,6 @@ class PrayerAlarmReceiver : BroadcastReceiver() {
 class PrayerRescheduleReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         PrayerAlarms.schedule(context)
+        DailyAlarms.schedule(context)
     }
 }

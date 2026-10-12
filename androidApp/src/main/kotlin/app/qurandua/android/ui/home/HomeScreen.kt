@@ -17,6 +17,7 @@ import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.VolunteerActivism
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.WbSunny
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -55,6 +56,8 @@ fun HomeScreen(
     learnSubtitle: String = "",
     onOpenLearn: () -> Unit = {},
     onOpenDonate: () -> Unit = {},
+    daily: DailyCard? = null,
+    onOpenDaily: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -141,6 +144,31 @@ fun HomeScreen(
                 }
             }
         }
+        if (daily != null) {
+            item {
+                Card(
+                    onClick = onOpenDaily,
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+                        contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
+                    ),
+                ) {
+                    Row(
+                        Modifier.padding(16.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    ) {
+                        Icon(Icons.Filled.WbSunny, contentDescription = null)
+                        Column {
+                            Text(daily.heading, style = MaterialTheme.typography.labelLarge)
+                            Text(daily.title, style = MaterialTheme.typography.titleMedium)
+                            Text(daily.summary, style = MaterialTheme.typography.bodyMedium)
+                        }
+                    }
+                }
+            }
+        }
         item {
             // Sadaqah sits on the home screen, not only deep in More, so it can be found.
             Card(onClick = onOpenDonate, modifier = Modifier.fillMaxWidth()) {
@@ -171,3 +199,6 @@ fun HomeScreen(
         }
     }
 }
+
+/** Today's hadith on the home screen; the full text and the reminder times open on tap. */
+data class DailyCard(val heading: String, val title: String, val summary: String)
