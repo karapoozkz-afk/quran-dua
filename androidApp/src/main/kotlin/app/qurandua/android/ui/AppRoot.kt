@@ -232,9 +232,9 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                             )
 
                             Tab.DUAS -> DuasScreen(
-                                duas = viewModel.allDuas(),
-                                favorites = favorites,
-                                onOpenInQuran = openAyah,
+                                situations = viewModel.situations,
+                                onOpenSituation = { route = Route.Situation(it) },
+                                onOpenSearch = { route = Route.Search },
                             )
 
                             Tab.SAVED -> SavedScreen(

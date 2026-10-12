@@ -112,21 +112,6 @@ fun HomeScreen(
             }
         }
         item {
-            Card(onClick = onOpenPrayer, modifier = Modifier.fillMaxWidth()) {
-                Row(
-                    Modifier.padding(16.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    Icon(Icons.Filled.Schedule, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
-                    Column {
-                        Text(prayerTitle, style = MaterialTheme.typography.titleMedium)
-                        if (prayerLine != null) Text(prayerLine, style = MaterialTheme.typography.bodyMedium)
-                    }
-                }
-            }
-        }
-        item {
             Card(onClick = onOpenLearn, modifier = Modifier.fillMaxWidth()) {
                 Row(
                     Modifier.padding(16.dp),
@@ -137,6 +122,21 @@ fun HomeScreen(
                     Column {
                         Text(learnTitle, style = MaterialTheme.typography.titleMedium)
                         Text(learnSubtitle, style = MaterialTheme.typography.bodyMedium)
+                    }
+                }
+            }
+        }
+        item {
+            Card(onClick = onOpenPrayer, modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Icon(Icons.Filled.Schedule, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Column {
+                        Text(prayerTitle, style = MaterialTheme.typography.titleMedium)
+                        if (prayerLine != null) Text(prayerLine, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
@@ -166,26 +166,6 @@ fun HomeScreen(
                 ) {
                     Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                     Text(strings.navQuran, style = MaterialTheme.typography.titleMedium)
-                }
-            }
-        }
-        item { Text(strings.situations, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp)) }
-        items(situations, key = { it.id }) { situation ->
-            Card(onClick = { onOpenSituation(situation.id) }, modifier = Modifier.fillMaxWidth()) {
-                Row(
-                    Modifier.padding(16.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(14.dp),
-                ) {
-                    Box { Text(situation.emoji, style = MaterialTheme.typography.headlineSmall) }
-                    Column {
-                        Text(situation.title.pick(lang), style = MaterialTheme.typography.titleMedium)
-                        Text(
-                            situation.subtitle.pick(lang),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                    }
                 }
             }
         }
