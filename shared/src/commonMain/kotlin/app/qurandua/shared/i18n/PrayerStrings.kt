@@ -36,7 +36,7 @@ data class PrayerStrings(
     val adhanCredit: String,
 )
 
-private fun methodNames(kyrgyzstan: String, uzbekistan: String, dumk: String, mwl: String, isna: String, egypt: String, ummAlQura: String, karachi: String, turkey: String, indonesia: String, russia: String): (CalculationMethod) -> String = { m ->
+internal fun methodNames(kyrgyzstan: String, uzbekistan: String, dumk: String, mwl: String, isna: String, egypt: String, ummAlQura: String, karachi: String, turkey: String, indonesia: String, russia: String): (CalculationMethod) -> String = { m ->
     when (m) {
         CalculationMethod.KAZAKHSTAN_DUMK -> dumk
         CalculationMethod.KYRGYZSTAN_DUMK -> kyrgyzstan
@@ -53,7 +53,7 @@ private fun methodNames(kyrgyzstan: String, uzbekistan: String, dumk: String, mw
     }
 }
 
-private fun adhanNames(full: String, short: String, notification: String, silent: String): (AdhanSound) -> String = { a ->
+internal fun adhanNames(full: String, short: String, notification: String, silent: String): (AdhanSound) -> String = { a ->
     when (a) {
         AdhanSound.FULL -> full
         AdhanSound.SHORT -> short
@@ -65,7 +65,7 @@ private fun adhanNames(full: String, short: String, notification: String, silent
 /** Licence attribution for the bundled adhan; shown with the other licences on the More screen. */
 const val ADHAN_CREDIT = "Aaqib Azeez, Wikimedia Commons, CC BY-SA 4.0"
 
-private fun prayerNames(fajr: String, sunrise: String, dhuhr: String, asr: String, maghrib: String, isha: String): (Prayer) -> String = { p ->
+internal fun prayerNames(fajr: String, sunrise: String, dhuhr: String, asr: String, maghrib: String, isha: String): (Prayer) -> String = { p ->
     when (p) {
         Prayer.FAJR -> fajr
         Prayer.SUNRISE -> sunrise
@@ -396,5 +396,10 @@ fun prayerStringsFor(language: String): PrayerStrings = when (language) {
     "ur" -> UrPrayer
     "ar" -> ArPrayer
     "es" -> EsPrayer
+    "az" -> AzPrayer
+    "tg" -> TgPrayer
+    "tt" -> TtPrayer
+    "fr" -> FrPrayer
+    "de" -> DePrayer
     else -> EnPrayer
 }

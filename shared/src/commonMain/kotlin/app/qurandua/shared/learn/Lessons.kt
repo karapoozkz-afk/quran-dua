@@ -64,6 +64,26 @@ fun LessonGrade.label(lang: String): String = when (lang) {
         LessonGrade.QURAN -> "Qur’on"; LessonGrade.SAHIH -> "Sahih hadis"; LessonGrade.HASAN -> "Hasan hadis"
         LessonGrade.FIQH_HANAFI -> "Hanafiy fiqhi"; LessonGrade.OPINION -> "Olimlar fikri"
     }
+    "az" -> when (this) {
+        LessonGrade.QURAN -> "Quran"; LessonGrade.SAHIH -> "Səhih hədis"; LessonGrade.HASAN -> "Həsən hədis"
+        LessonGrade.FIQH_HANAFI -> "Hənəfi fiqhi"; LessonGrade.OPINION -> "Alimlərin rəyi"
+    }
+    "fr" -> when (this) {
+        LessonGrade.QURAN -> "Coran"; LessonGrade.SAHIH -> "Hadith authentique"; LessonGrade.HASAN -> "Hadith bon (hasan)"
+        LessonGrade.FIQH_HANAFI -> "Fiqh hanafite"; LessonGrade.OPINION -> "Avis des savants"
+    }
+    "de" -> when (this) {
+        LessonGrade.QURAN -> "Koran"; LessonGrade.SAHIH -> "Sahih-Hadith"; LessonGrade.HASAN -> "Hasan-Hadith"
+        LessonGrade.FIQH_HANAFI -> "Hanafitisches Fiqh"; LessonGrade.OPINION -> "Meinung der Gelehrten"
+    }
+    "tt" -> when (this) {
+        LessonGrade.QURAN -> "Коръән"; LessonGrade.SAHIH -> "Сәхих хәдис"; LessonGrade.HASAN -> "Хәсән хәдис"
+        LessonGrade.FIQH_HANAFI -> "Хәнәфи фикһе"; LessonGrade.OPINION -> "Галимнәр фикере"
+    }
+    "tg" -> when (this) {
+        LessonGrade.QURAN -> "Қуръон"; LessonGrade.SAHIH -> "Ҳадиси саҳеҳ"; LessonGrade.HASAN -> "Ҳадиси ҳасан"
+        LessonGrade.FIQH_HANAFI -> "Фиқҳи ҳанафӣ"; LessonGrade.OPINION -> "Андешаи уламо"
+    }
     "ru" -> when (this) {
         LessonGrade.QURAN -> "Коран"; LessonGrade.SAHIH -> "Достоверный хадис"; LessonGrade.HASAN -> "Хороший хадис"
         LessonGrade.FIQH_HANAFI -> "Ханафитский фикх"; LessonGrade.OPINION -> "Мнение учёных"
@@ -84,6 +104,11 @@ fun learnStringsFor(lang: String): LearnStrings = when (lang) {
         "Ханафий мазхабы. Текст орусча; имам текшерүүсүн күтүүдө.", "Айтылат", "Далил", "Булак")
     "uz" -> LearnStrings("Tahorat va namozni o‘rganish", "Istinjo, tahorat, g‘usl, namoz bosqichma-bosqich",
         "Hanafiy mazhabi. Matn rus tilida; imom tekshiruvi kutilmoqda.", "Aytiladi", "Dalil", "Manba")
+    "az" -> LearnStrings("Təharət və namazı öyrən", "İstinca, dəstəmaz, qüsl, namaz addım-addım", "Hənəfi məzhəbi. Mətn rus dilindədir; imamın yoxlamasını gözləyir.", "De", "Dəlil", "Mənbə")
+    "fr" -> LearnStrings("Apprendre la purification et la prière", "Istinja, ablutions (woudou), grandes ablutions (ghousl), prière (salat) pas à pas", "Madhhab hanafite. Texte en russe ; en attente de relecture par un imam.", "Dites", "Preuve", "Source")
+    "de" -> LearnStrings("Reinheit und Gebet lernen", "Istindscha, Wudu, Ghusl, Gebet Schritt für Schritt", "Hanafitische Rechtsschule. Text auf Russisch; wartet auf die Prüfung durch einen Imam.", "Sprich", "Beleg", "Quelle")
+    "tt" -> LearnStrings("Пакьлекне һәм намазны өйрәнү", "Истинҗа, тәһарәт, гөсел, намаз адымлап", "Хәнәфи мәзһәбе. Текст рус телендә; имам тикшерүен көтә.", "Әйтегез", "Дәлил", "Чыганак")
+    "tg" -> LearnStrings("Омӯзиши таҳорат ва намоз", "Истинҷо, таҳорат, ғусл, намоз қадам ба қадам", "Мазҳаби ҳанафӣ. Матн ба забони русӣ; интизори санҷиши имом.", "Бигӯед", "Далел", "Манбаъ")
     "ru" -> LearnStrings("Обучение тахарату и намазу", "Истинджа, омовение, гусль, намаз по шагам",
         "Ханафитский мазхаб. Ожидает проверки имамом.", "Произносится", "Доказательство", "Источник")
     else -> LearnStrings("Learn purification and prayer", "Istinja, wudu, ghusl, namaz step by step",

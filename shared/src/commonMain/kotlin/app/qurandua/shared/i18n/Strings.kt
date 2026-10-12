@@ -164,6 +164,11 @@ fun stringsFor(language: String): Strings = when (language) {
     "id" -> IdStrings
     "ur" -> UrStrings
     "es" -> EsStrings
+    "az" -> AzStrings
+    "tg" -> TgStrings
+    "tt" -> TtStrings
+    "fr" -> FrStrings
+    "de" -> DeStrings
     else -> EnStrings
 }
 

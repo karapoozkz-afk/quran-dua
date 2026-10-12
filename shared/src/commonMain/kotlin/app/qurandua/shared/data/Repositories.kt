@@ -12,13 +12,13 @@ import app.qurandua.shared.search.SmartSearch
 import kotlinx.coroutines.flow.Flow
 
 /** Languages that have bundled translations of the Quran and the duas. */
-val CONTENT_LANGUAGES = listOf("ru", "kk", "ky", "uz", "en", "es", "tr", "id", "ur")
+val CONTENT_LANGUAGES = listOf("ru", "kk", "ky", "uz", "tg", "tt", "az", "tr", "en", "fr", "de", "es", "id", "ur")
 
 /** Quran translations inside quran.json, in its column order (see tools/build_content.py). */
-val QURAN_TRANSLATION_LANGUAGES = listOf("ru", "en", "es", "id", "kk", "ky", "tr", "ur", "uz")
+val QURAN_TRANSLATION_LANGUAGES = listOf("ru", "en", "az", "de", "es", "fr", "id", "kk", "ky", "tg", "tr", "tt", "ur", "uz")
 
 /** UI languages. Arabic and Urdu switch the layout to right-to-left. */
-val UI_LANGUAGES = listOf("ru", "kk", "ky", "uz", "en", "es", "ar", "tr", "id", "ur")
+val UI_LANGUAGES = listOf("ru", "kk", "ky", "uz", "tg", "tt", "az", "tr", "en", "fr", "de", "es", "ar", "id", "ur")
 
 /** Right-to-left UI languages. */
 val RTL_LANGUAGES = setOf("ar", "ur", "fa", "he", "ps")

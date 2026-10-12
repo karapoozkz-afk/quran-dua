@@ -1,0 +1,1497 @@
+{
+  "situations": {
+    "cemetery": {
+      "title": "Auf dem Friedhof, am Grab",
+      "subtitle": "Was man beim Besuch der Gräber sagt",
+      "keywords": [
+        "Friedhof",
+        "Grab",
+        "Gräber",
+        "Grabbesuch",
+        "Gräber besuchen",
+        "Ziyara",
+        "beerdigt",
+        "am Grab stehen",
+        "am Grab meines Vaters",
+        "am Grab der Eltern",
+        "am Grab meiner Mutter",
+        "Friedhof Dua",
+        "was sagt man am Grab"
+      ],
+      "notice": "Das Rezitieren des Korans am Grab und das „Schenken“ des Lohnes an den Verstorbenen sind Fragen, in denen die Gelehrten uneins sind; solche Praktiken sind unten als umstritten gekennzeichnet. Bittgebete und die Bitte um Vergebung für einen verstorbenen Gläubigen sind authentisch belegt."
+    },
+    "deceased": {
+      "title": "Bittgebet für Verstorbene",
+      "subtitle": "Für Vater, Mutter, Verwandte und alle verstorbenen Muslime",
+      "keywords": [
+        "Verstorbener",
+        "Verstorbene",
+        "gestorben",
+        "Vater gestorben",
+        "Mutter gestorben",
+        "Mama ist gestorben",
+        "für den Verstorbenen",
+        "Totengebet",
+        "Dschanaza",
+        "Janaza",
+        "Beerdigung",
+        "Eltern gestorben",
+        "für die Eltern",
+        "Dua für Verstorbene"
+      ]
+    },
+    "death_news": {
+      "title": "Verlust und Trauer",
+      "subtitle": "Bei einer Todesnachricht oder einem Unglück",
+      "keywords": [
+        "Tod",
+        "Todesnachricht",
+        "Verlust",
+        "Trauer",
+        "trauern",
+        "verstorben",
+        "Beileid",
+        "Beileid aussprechen",
+        "kondolieren",
+        "Unglück",
+        "Schicksalsschlag",
+        "Musiba",
+        "jemand ist gestorben"
+      ]
+    },
+    "debts": {
+      "title": "Schulden",
+      "subtitle": "Befreiung von Schulden und ihrer Last",
+      "keywords": [
+        "Schulden",
+        "Schuld",
+        "Kredit",
+        "Darlehen",
+        "Hypothek",
+        "Raten",
+        "Schulden zurückzahlen",
+        "viele Schulden",
+        "Geld zurückbekommen",
+        "Schulden und Faulheit",
+        "Verse gegen Schulden",
+        "Dua gegen Schulden",
+        "verschuldet"
+      ],
+      "notice": "Ein Bittgebet ersetzt keine praktischen Schritte: Machen Sie einen Rückzahlungsplan, sprechen Sie mit Ihren Gläubigern und meiden Sie Riba (Zinsen)."
+    },
+    "rizq": {
+      "title": "Versorgung, Arbeit, Geld",
+      "subtitle": "Geldmangel, Arbeitssuche, Geschäft, Baraka (Segen)",
+      "keywords": [
+        "Rizq",
+        "Versorgung",
+        "Geld",
+        "kein Geld",
+        "Armut",
+        "Arbeit finden",
+        "Jobsuche",
+        "Geschäft",
+        "Baraka",
+        "Segen im Geschäft",
+        "Einkommen",
+        "Gehalt",
+        "arbeitslos",
+        "Kunden",
+        "Reichtum"
+      ]
+    },
+    "illness": {
+      "title": "Krankheit und Heilung",
+      "subtitle": "Für Kranke, bei Schmerzen, beim Krankenbesuch",
+      "keywords": [
+        "Krankheit",
+        "krank",
+        "ich bin krank",
+        "erkrankt",
+        "Schmerzen",
+        "tut weh",
+        "Heilung",
+        "Gesundheit",
+        "Schifa",
+        "Ruqya",
+        "Krankenhaus",
+        "Operation",
+        "Kranken besuchen",
+        "Fieber",
+        "Dua für Kranke"
+      ],
+      "notice": "Bittgebete und religiöse Praxis ersetzen keine medizinische Behandlung. Gehen Sie bei Bedarf zum Arzt."
+    },
+    "anxiety": {
+      "title": "Sorge, Traurigkeit, Angst",
+      "subtitle": "Wenn das Herz schwer ist",
+      "keywords": [
+        "Sorge",
+        "Sorgen",
+        "Unruhe",
+        "ich mache mir Sorgen",
+        "Traurigkeit",
+        "traurig",
+        "Depression",
+        "Angst",
+        "ich habe Angst",
+        "Stress",
+        "Panik",
+        "schwer ums Herz",
+        "Einsamkeit",
+        "Angst vor der Zukunft",
+        "mir geht es schlecht"
+      ],
+      "notice": "Wenn Ängste oder Niedergeschlagenheit Ihr Leben beeinträchtigen, wenden Sie sich bitte auch an eine Fachperson. Das widerspricht nicht dem Gottvertrauen."
+    },
+    "sleep": {
+      "title": "Schlaf und Aufwachen",
+      "subtitle": "Vor dem Schlafen, bei Schlaflosigkeit, nach dem Aufwachen",
+      "keywords": [
+        "Schlaf",
+        "schlafen",
+        "vor dem Schlafen",
+        "kann nicht schlafen",
+        "Schlaflosigkeit",
+        "aufgewacht",
+        "Aufwachen",
+        "Nacht",
+        "Albtraum",
+        "schlechter Traum",
+        "einschlafen",
+        "Dua vor dem Schlafen"
+      ]
+    },
+    "morning_evening": {
+      "title": "Morgen und Abend",
+      "subtitle": "Tägliche Adhkar",
+      "keywords": [
+        "Morgen",
+        "Morgen-Adhkar",
+        "Abend",
+        "Abend-Adhkar",
+        "Adhkar",
+        "Azkar",
+        "Dhikr",
+        "Zikr",
+        "jeden Tag",
+        "täglich",
+        "Morgengebete"
+      ]
+    },
+    "travel": {
+      "title": "Unterwegs und auf Reisen",
+      "subtitle": "Vor der Reise, unterwegs, bei der Rückkehr",
+      "keywords": [
+        "Reise",
+        "reisen",
+        "Fahrt",
+        "vor der Reise",
+        "unterwegs",
+        "Flugzeug",
+        "Auto",
+        "ins Auto steigen",
+        "zurückgekehrt",
+        "Rückkehr",
+        "Dienstreise",
+        "Umzug",
+        "Reisegebet"
+      ]
+    },
+    "weather": {
+      "title": "Regen, Wind, Gewitter",
+      "subtitle": "Was man bei Unwetter sagt",
+      "keywords": [
+        "Regen",
+        "Platzregen",
+        "Wind",
+        "Sturm",
+        "Orkan",
+        "Gewitter",
+        "Donner",
+        "Blitz",
+        "Unwetter",
+        "Wetter",
+        "Dürre"
+      ]
+    },
+    "home": {
+      "title": "Zuhause",
+      "subtitle": "Das Haus verlassen und betreten",
+      "keywords": [
+        "Haus",
+        "Zuhause",
+        "Wohnung",
+        "Haus verlassen",
+        "aus dem Haus gehen",
+        "Haus betreten",
+        "nach Hause kommen",
+        "Dua beim Verlassen des Hauses"
+      ]
+    },
+    "toilet": {
+      "title": "Toilette",
+      "subtitle": "Beim Betreten und Verlassen",
+      "keywords": [
+        "Toilette",
+        "WC",
+        "Klo",
+        "Badezimmer",
+        "Toilette betreten",
+        "Toilette verlassen",
+        "auf die Toilette gehen",
+        "Notdurft verrichten"
+      ]
+    },
+    "food": {
+      "title": "Essen",
+      "subtitle": "Vor und nach dem Essen",
+      "keywords": [
+        "Essen",
+        "vor dem Essen",
+        "nach dem Essen",
+        "Dua zum Essen",
+        "Mittagessen",
+        "Abendessen",
+        "Frühstück",
+        "Mahlzeit",
+        "Bismillah beim Essen"
+      ]
+    },
+    "prayer": {
+      "title": "Gebet, Moschee, Gebetswaschung",
+      "subtitle": "Moschee betreten, nach dem Wudu, nach dem Gebet",
+      "keywords": [
+        "Gebet",
+        "Namaz",
+        "Salah",
+        "Moschee",
+        "Gebetswaschung",
+        "Wudu",
+        "Abdest",
+        "nach dem Gebet",
+        "Moschee betreten",
+        "Moschee verlassen",
+        "Waschung"
+      ]
+    },
+    "forgiveness": {
+      "title": "Vergebung der Sünden und Reue",
+      "subtitle": "Istighfar und Tauba",
+      "keywords": [
+        "Vergebung",
+        "vergeben",
+        "Sünde",
+        "Sünden",
+        "Tauba",
+        "Reue",
+        "bereuen",
+        "Istighfar",
+        "um Vergebung bitten",
+        "damit Allah vergibt"
+      ]
+    },
+    "family": {
+      "title": "Familie und Eltern",
+      "subtitle": "Für die Eltern, den Ehepartner, Frieden in der Familie",
+      "keywords": [
+        "Familie",
+        "Eltern",
+        "Mama",
+        "Mutter",
+        "Papa",
+        "Vater",
+        "Ehemann",
+        "Ehefrau",
+        "Mann",
+        "Frau",
+        "Streit",
+        "Probleme in der Familie",
+        "Probleme mit den Eltern",
+        "Verwandte"
+      ]
+    },
+    "parents": {
+      "title": "Bittgebet für die Eltern",
+      "subtitle": "Für lebende und verstorbene Mutter und Vater",
+      "keywords": [
+        "Eltern",
+        "für die Eltern",
+        "Mama",
+        "Mutter",
+        "Papa",
+        "Vater",
+        "für Mama",
+        "für Papa",
+        "Dua für die Eltern",
+        "Dua für Mutter",
+        "Dua für Vater",
+        "Gesundheit der Eltern",
+        "Eltern verstorben"
+      ]
+    },
+    "marriage": {
+      "title": "Ehe und Partnersuche",
+      "subtitle": "Ich wünsche mir eine gute Frau / einen guten Mann, Hochzeit",
+      "keywords": [
+        "Ehe",
+        "Nikah",
+        "Nikkah",
+        "Hochzeit",
+        "heiraten",
+        "Frau finden",
+        "Mann finden",
+        "Ehepartner finden",
+        "gute Ehefrau",
+        "guter Ehemann",
+        "zur Hochzeit gratulieren",
+        "Dua für Heirat"
+      ]
+    },
+    "children": {
+      "title": "Kinder",
+      "subtitle": "Kinderwunsch, Schutz der Kinder, Geburt",
+      "keywords": [
+        "Kinder",
+        "Kind",
+        "Kinderwunsch",
+        "Schwangerschaft",
+        "schwanger werden",
+        "Unfruchtbarkeit",
+        "Geburt",
+        "geboren",
+        "Neugeborenes",
+        "Baby",
+        "Schutz der Kinder",
+        "Sohn",
+        "Tochter",
+        "Sure für Kinder vor dem Schlafen"
+      ]
+    },
+    "newborn": {
+      "title": "Geburt und Neugeborenes",
+      "subtitle": "Leichte Geburt, Aqiqa, Tahnik, Adhan ins Ohr",
+      "keywords": [
+        "Geburt",
+        "entbinden",
+        "Entbindung",
+        "schwanger",
+        "leichte Geburt",
+        "geboren",
+        "Neugeborenes",
+        "Baby",
+        "Aqiqa",
+        "Akika",
+        "Tahnik",
+        "Adhan ins Ohr",
+        "Name für das Kind"
+      ],
+      "notice": "Ein spezielles authentisches Bittgebet für eine leichte Geburt gibt es nicht. Geeignet sind alle Bittgebete um Erleichterung, etwa „Allahumma la sahla…“ unten, und Bitten mit eigenen Worten."
+    },
+    "important": {
+      "title": "Wichtige Angelegenheit und Entscheidung",
+      "subtitle": "Istikhara, schwierige Aufgabe, Prüfung, Studium",
+      "keywords": [
+        "Istikhara",
+        "Entscheidung",
+        "Wahl",
+        "weiß nicht, was ich wählen soll",
+        "wichtige Sache",
+        "schwierige Aufgabe",
+        "Prüfung",
+        "Klausur",
+        "Studium",
+        "Schule",
+        "Vorstellungsgespräch",
+        "Vortrag",
+        "Wissen",
+        "Neuanfang"
+      ]
+    },
+    "protection": {
+      "title": "Schutz",
+      "subtitle": "Vor Bösem, dem bösen Blick, dem Satan, bei Zorn",
+      "keywords": [
+        "Schutz",
+        "böser Blick",
+        "Neid",
+        "Satan",
+        "Schaitan",
+        "Dschinn",
+        "Zauberei",
+        "Sihr",
+        "Zorn",
+        "Wut",
+        "ich bin wütend",
+        "Feinde",
+        "Gefahr"
+      ]
+    },
+    "evil_eye": {
+      "title": "Böser Blick und Schaden",
+      "subtitle": "Schutz, Ruqya und was man sagt, wenn einem etwas gefällt",
+      "keywords": [
+        "böser Blick",
+        "Nazar",
+        "verhext",
+        "Schaden",
+        "Zauberei",
+        "Sihr",
+        "Neid",
+        "Ruqya",
+        "Schutz vor dem bösen Blick",
+        "damit man nicht neidet",
+        "Maschallah",
+        "auf Wasser lesen",
+        "Wasser mit Koranversen"
+      ],
+      "notice": "Amulette, Fäden und „Augen“-Anhänger sind im Islam kein Schutz (siehe Karte unten). Wenn das Unwohlsein nicht vergeht, gehen Sie zum Arzt: Ruqya und Bittgebete ersetzen keine Behandlung."
+    },
+    "oppression": {
+      "title": "Ungerechtigkeit und Unterdrückte",
+      "subtitle": "Wenn einem Unrecht geschieht, und Bittgebet für Unterdrückte (Palästina u. a.)",
+      "keywords": [
+        "Ungerechtigkeit",
+        "Unrecht",
+        "gekränkt",
+        "Unterdrückung",
+        "Unterdrückte",
+        "unterdrückt",
+        "Palästina",
+        "Gaza",
+        "für Palästina",
+        "Krieg",
+        "Feind",
+        "verleumdet",
+        "Verleumdung"
+      ]
+    },
+    "gratitude": {
+      "title": "Dankbarkeit und Freude",
+      "subtitle": "Wenn etwas Gutes geschehen ist",
+      "keywords": [
+        "Dankbarkeit",
+        "danken",
+        "Freude",
+        "gute Nachricht",
+        "Schukr",
+        "Allah danken",
+        "Alhamdulillah",
+        "Hamdulillah",
+        "froh"
+      ]
+    },
+    "ramadan": {
+      "title": "Ramadan und Fasten",
+      "subtitle": "Iftar, die Nacht der Bestimmung, der neue Monat",
+      "keywords": [
+        "Ramadan",
+        "Ramazan",
+        "Fasten",
+        "Fastenzeit",
+        "Iftar",
+        "Fastenbrechen",
+        "Sahur",
+        "Suhur",
+        "Lailat al-Qadr",
+        "Nacht der Bestimmung",
+        "Neumond",
+        "neuer Monat"
+      ]
+    },
+    "friday_eid": {
+      "title": "Freitag und Feste",
+      "subtitle": "Dschumu'a, Ramadanfest, Opferfest",
+      "keywords": [
+        "Freitag",
+        "Freitagsgebet",
+        "Dschumu'a",
+        "Jumuah",
+        "Fest",
+        "Bayram",
+        "Eid",
+        "Ramadanfest",
+        "Zuckerfest",
+        "Opferfest",
+        "zum Fest gratulieren",
+        "Eid Mubarak",
+        "al-Kahf"
+      ]
+    },
+    "birthday": {
+      "title": "Geburtstag",
+      "subtitle": "Was man einem Angehörigen wünschen kann",
+      "keywords": [
+        "Geburtstag",
+        "Geburtstagswünsche",
+        "Jubiläum",
+        "Geburtstagskind",
+        "gratulieren",
+        "Glückwunsch",
+        "Wünsche",
+        "Jahrestag",
+        "Dua zum Geburtstag"
+      ],
+      "notice": "Ein besonderes Bittgebet zum Geburtstag gibt es in der Sunna nicht, und die Haltung zum Feiern von Geburtstagen ist unter den Gelehrten umstritten. Unten stehen allgemeine authentische Bittgebete um Gutes, die man an jedem Tag für einen Menschen sprechen kann."
+    },
+    "zakat": {
+      "title": "Zakat und Sadaqa",
+      "subtitle": "Wem und wie viel man gibt, der Lohn für Almosen",
+      "keywords": [
+        "Zakat",
+        "Zakah",
+        "Sadaqa",
+        "Almosen",
+        "Spende",
+        "spenden",
+        "Wohltätigkeit",
+        "Nisab",
+        "wie viel Zakat",
+        "wem gebe ich Zakat",
+        "Zakat berechnen"
+      ],
+      "notice": "Die Zakat können Sie im Tab „Mehr“ → „Zakat-Rechner“ berechnen."
+    },
+    "customs": {
+      "title": "Ist das aus dem Islam?",
+      "subtitle": "Bräuche: sieben Fladenbrote, Gedenkfeiern nach Tagen, roter Faden",
+      "keywords": [
+        "Brauch",
+        "Tradition",
+        "sieben Fladenbrote",
+        "Gedenkfeier",
+        "40. Tag",
+        "Jahrestag",
+        "roter Faden",
+        "Amulett",
+        "Talisman",
+        "ist das aus dem Islam",
+        "Bid'a",
+        "Neuerung",
+        "Wasser mit Koranversen",
+        "Verse tragen",
+        "Liebeszauber"
+      ],
+      "notice": "Hier werden verbreitete Bräuche betrachtet: was davon sich auf den Koran und die Sunna stützt und was nicht. Wo die Gelehrten uneins sind, wird das offen gesagt."
+    },
+    "hardship": {
+      "title": "„Verschlossener Weg“, Schwierigkeiten, Misserfolge",
+      "subtitle": "Wenn nichts gelingt und alle Türen verschlossen scheinen",
+      "keywords": [
+        "verschlossener Weg",
+        "Weg ist verschlossen",
+        "Weg öffnen",
+        "alle Türen verschlossen",
+        "kein Glück",
+        "Pech",
+        "Misserfolg",
+        "nichts klappt",
+        "Schwierigkeiten",
+        "alles läuft schlecht",
+        "Pechsträhne",
+        "ausweglos",
+        "Ausweg finden",
+        "damit Allah hilft",
+        "alle Türen öffnen"
+      ],
+      "notice": "Im Koran und in der Sunna gibt es keinen „verschlossenen Weg“, den man mit einem besonderen Vers, einem Ritual oder einem Amulett öffnet. Schwierigkeiten werden durch Gottesfurcht, die Bitte um Vergebung (Istighfar), Bittgebete und Gottvertrauen erleichtert (65:2–3, 71:10–12) sowie durch gewöhnliche praktische Schritte. Wenn Ihnen jemand gegen Geld anbietet, „den Weg zu öffnen“, „den Ehe-Fluch zu lösen“ oder Sie von Unglück „zu reinigen“, so gehört das nicht zum Islam."
+    },
+    "hajj": {
+      "title": "Hadsch und Umra",
+      "subtitle": "Talbiya, Arafat, Zamzam",
+      "keywords": [
+        "Hadsch",
+        "Hajj",
+        "Umra",
+        "Umrah",
+        "Mekka",
+        "Kaaba",
+        "Tawaf",
+        "Talbiya",
+        "Arafat",
+        "Arafa",
+        "Zamzam",
+        "Pilgerfahrt",
+        "Safa",
+        "Marwa",
+        "Ihram"
+      ]
+    },
+    "wish": {
+      "title": "Erfüllung eines Wunsches oder Anliegens",
+      "subtitle": "Wie und wann man bittet, damit das Bittgebet erhört wird",
+      "keywords": [
+        "Wunsch",
+        "Wunsch erfüllen",
+        "Wunsch erfüllt",
+        "Traum",
+        "Anliegen",
+        "Hadscha",
+        "Salat al-Hadscha",
+        "Gebet der Not",
+        "damit Allah hilft",
+        "damit alles gelingt",
+        "Dua erhört",
+        "wann wird Dua erhört",
+        "alle Türen öffnen"
+      ]
+    },
+    "lost_item": {
+      "title": "Verlorene Sache",
+      "subtitle": "Was man sagt, wenn etwas verloren gegangen ist",
+      "keywords": [
+        "verloren",
+        "etwas verloren",
+        "verlorene Sache",
+        "Verlorenes finden",
+        "verschwunden",
+        "kann es nicht finden",
+        "weg",
+        "Tier entlaufen",
+        "gestohlen",
+        "Schlüssel verloren"
+      ]
+    },
+    "spouses": {
+      "title": "Beziehung der Ehepartner",
+      "subtitle": "Liebe, Streit, Versöhnung",
+      "keywords": [
+        "Ehemann",
+        "Ehefrau",
+        "Ehepaar",
+        "damit mein Mann mich liebt",
+        "Liebe in der Ehe",
+        "Mann vermisst mich",
+        "Versöhnung",
+        "Streit mit dem Mann",
+        "Streit mit der Frau",
+        "Scheidung",
+        "Zweitfrau",
+        "zweite Frau",
+        "Liebeszauber",
+        "Mann binden"
+      ],
+      "notice": "Besondere Verse, damit der Ehemann „liebt“, „Sehnsucht hat“ oder „keine zweite Frau nimmt“, gibt es in der Sunna nicht, und Liebeszauber oder „Binden“ ist verbotene Zauberei (siehe Karte). Bitten Sie Allah mit eigenen Worten, sprechen Sie miteinander und ziehen Sie bei einem ernsten Konflikt Vermittler aus beiden Familien hinzu (4:35)."
+    },
+    "reconcile": {
+      "title": "Sich mit jemandem versöhnen",
+      "subtitle": "Streit mit Verwandten, Freunden oder Nachbarn",
+      "keywords": [
+        "versöhnen",
+        "Versöhnung",
+        "zerstritten",
+        "Streit",
+        "gekränkt",
+        "wir reden nicht mehr",
+        "Kontaktabbruch",
+        "mit Verwandten",
+        "jemandem vergeben",
+        "Frieden schließen"
+      ]
+    },
+    "conceive": {
+      "title": "Kinderwunsch, Schwangerschaft",
+      "subtitle": "Bittgebete der Propheten um Nachkommen",
+      "keywords": [
+        "schwanger werden",
+        "Kinderwunsch",
+        "ich wünsche mir ein Kind",
+        "keine Kinder",
+        "kinderlos",
+        "Unfruchtbarkeit",
+        "Schwangerschaft",
+        "Nachkommen",
+        "Dua für Kinder"
+      ],
+      "notice": "Ein Bittgebet ersetzt keine Untersuchung und Behandlung: Gehen Sie zum Arzt. Eine besondere Sure, „um schwanger zu werden“, gibt es in der Sunna nicht; unten stehen die Bittgebete der Propheten um Nachkommen aus dem Koran."
+    },
+    "addiction": {
+      "title": "Ein Angehöriger trinkt oder ist süchtig",
+      "subtitle": "Alkohol, Drogen, Glücksspiel",
+      "keywords": [
+        "trinkt",
+        "mein Mann trinkt",
+        "damit er nicht trinkt",
+        "Alkohol",
+        "Alkoholismus",
+        "Drogen",
+        "Drogensucht",
+        "Sucht",
+        "abhängig",
+        "Spielsucht",
+        "Glücksspiel",
+        "raucht"
+      ],
+      "notice": "Besondere Verse, „damit er nicht trinkt“, gibt es nicht. Bitten Sie Allah um Rechtleitung für Ihren Angehörigen und suchen Sie echte Hilfe: Suchtmediziner, Rehabilitationsklinik, Selbsthilfegruppen für Angehörige. Wenn Gewalt droht, wenden Sie sich an Notruf oder Hilfsstellen."
+    },
+    "laziness": {
+      "title": "Faulheit, Kraftlosigkeit",
+      "subtitle": "Wenn man zu nichts Lust hat",
+      "keywords": [
+        "Faulheit",
+        "faul",
+        "keine Kraft",
+        "Müdigkeit",
+        "müde",
+        "erschöpft",
+        "Kraftlosigkeit",
+        "keine Motivation",
+        "Antriebslosigkeit",
+        "früh aufstehen",
+        "verschlafen",
+        "gegen Faulheit"
+      ]
+    },
+    "appearance": {
+      "title": "Spiegel und Aussehen",
+      "subtitle": "Bittgebet um einen schönen Charakter",
+      "keywords": [
+        "Spiegel",
+        "in den Spiegel schauen",
+        "Schönheit",
+        "schön sein",
+        "Aussehen",
+        "damit ich schön werde",
+        "Sure für Schönheit",
+        "guter Charakter"
+      ]
+    }
+  },
+  "duas": {
+    "grave_greeting": {
+      "title": "Gruß beim Besuch der Gräber",
+      "translation": "Friede sei mit euch, ihr Bewohner dieser Stätten, Gläubige und Muslime! Wir werden, so Allah will, zu euch stoßen. Ich bitte Allah um Wohlergehen für uns und für euch.",
+      "source": "Muslim, 975"
+    },
+    "grave_istighfar": {
+      "title": "Nach der Beerdigung: um Standhaftigkeit für den Verstorbenen bitten",
+      "translation": "O Allah, vergib ihm! O Allah, festige ihn!",
+      "source": "Abu Dawud, 3221 (nach al-Albani authentisch)",
+      "note": "Wenn die Beerdigung beendet war, sagte der Prophet ﷺ: „Bittet um Vergebung für euren Bruder und bittet für ihn um Standhaftigkeit, denn jetzt wird er befragt.“ Für eine Frau: „Allahumma-ghfir laha, Allahumma thabbit-ha“."
+    },
+    "janazah_male": {
+      "title": "Bittgebet für einen Verstorbenen (Mann)",
+      "translation": "O Allah, vergib ihm und erbarme Dich seiner, bewahre ihn und verzeih ihm, bereite ihm eine ehrenvolle Aufnahme und mache seinen Eingang weit. Wasche ihn mit Wasser, Schnee und Hagel und reinige ihn von den Verfehlungen, so wie Du ein weißes Gewand vom Schmutz reinigst. Gib ihm im Tausch eine Wohnstätte, die besser ist als seine Wohnstätte, eine Familie, die besser ist als seine Familie, und eine Gattin, die besser ist als seine Gattin. Lass ihn ins Paradies eintreten und schütze ihn vor der Strafe des Grabes und vor der Strafe des Feuers.",
+      "source": "Muslim, 963",
+      "note": "Wird im Totengebet (Dschanaza) und jederzeit für den Verstorbenen gesprochen."
+    },
+    "janazah_female": {
+      "title": "Bittgebet für eine Verstorbene (Frau)",
+      "translation": "O Allah, vergib ihr und erbarme Dich ihrer, bewahre sie und verzeih ihr, bereite ihr eine ehrenvolle Aufnahme und mache ihren Eingang weit. Wasche sie mit Wasser, Schnee und Hagel und reinige sie von den Verfehlungen, so wie Du ein weißes Gewand vom Schmutz reinigst. Lass sie ins Paradies eintreten und schütze sie vor der Strafe des Grabes und vor der Strafe des Feuers.",
+      "source": "Muslim, 963 (weibliche Form der Fürwörter)",
+      "note": "Der Hadith ist über einen Mann überliefert; die Gelehrten erklären, dass für eine Frau die Fürwörter in die weibliche Form gesetzt werden. Die Worte über den besseren Ehepartner lässt man gewöhnlich weg."
+    },
+    "parents_mercy": {
+      "title": "Bittgebet für die Eltern",
+      "translation": "Mein Herr, erbarme Dich ihrer, so wie sie mich großgezogen haben, als ich klein war.",
+      "source": "Koran, 17:24"
+    },
+    "parents_forgive": {
+      "title": "Vergebung für mich, meine Eltern und die Gläubigen",
+      "translation": "Unser Herr, vergib mir, meinen Eltern und den Gläubigen an dem Tag, an dem die Abrechnung stattfindet.",
+      "source": "Koran, 14:41"
+    },
+    "all_believers": {
+      "title": "Für alle verstorbenen Gläubigen",
+      "translation": "Unser Herr, vergib uns und unseren Brüdern, die uns im Glauben vorausgegangen sind, und lass in unseren Herzen keinen Groll gegen die Gläubigen sein. Unser Herr, Du bist Gnädig und Barmherzig.",
+      "source": "Koran, 59:10"
+    },
+    "deceased_charity": {
+      "title": "Was dem Verstorbenen nützt",
+      "translation": "„Wenn der Mensch stirbt, enden seine Taten außer dreien: eine fortlaufende Spende (Sadaqa Dschariya), Wissen, von dem man Nutzen hat, und ein rechtschaffenes Kind, das für ihn Bittgebete spricht.“ Ebenfalls authentisch ist, dass dem Verstorbenen eine Sadaqa in seinem Namen und die Begleichung seiner Schulden nützen.",
+      "source": "Muslim, 1631; al-Buchari, 2760 (Sadaqa für die Mutter)"
+    },
+    "yasin_dispute": {
+      "title": "Die Sure Ya-Sin für Verstorbene und am Grab lesen",
+      "translation": "Den Hadith „Lest ‚Ya-Sin‘ über euren Sterbenden“ (Abu Dawud, 3121) halten manche Gelehrte für schwach (an-Nawawi, al-Albani), andere (Ibn Hibban) für authentisch; viele verstehen ihn als Rezitation beim Sterbenden, nicht am Grab. Das Rezitieren des Korans am Grab und das Schenken des Lohnes an den Verstorbenen erlauben die Hanafiten und Hanbaliten, während viele Malikiten und Schafiiten es für unerwünscht halten oder sagen, dass es den Verstorbenen nicht erreicht. Es ist keine feststehende Sunna: Am Grab sind der Gruß und das Bittgebet authentisch belegt.",
+      "source": "Abu Dawud, 3121 – Bewertung umstritten"
+    },
+    "mulk_virtue": {
+      "title": "Die Sure al-Mulk – Schutz vor der Strafe des Grabes",
+      "translation": "Der Prophet ﷺ sagte über die Sure al-Mulk: „Es gibt im Koran eine Sure von dreißig Versen, die für einen Mann Fürsprache einlegte, bis ihm vergeben wurde.“ Gemeint ist das eigene regelmäßige Lesen zu Lebzeiten (der Prophet ﷺ las sie vor dem Schlafen), nicht das Lesen am Grab.",
+      "source": "at-Tirmidhi, 2891 (hasan); at-Tirmidhi, 2892"
+    },
+    "calamity": {
+      "title": "Bei einer Todesnachricht oder einem Unglück",
+      "translation": "Wahrlich, wir gehören Allah, und zu Ihm kehren wir zurück. O Allah, belohne mich in meinem Unglück und gib mir dafür etwas Besseres als Ersatz.",
+      "source": "Muslim, 918"
+    },
+    "closing_eyes": {
+      "title": "Wenn man dem Verstorbenen die Augen schließt",
+      "translation": "O Allah, vergib (Name), erhöhe seinen Rang unter den Rechtgeleiteten, sei Du der Nachfolger für die, die er zurückgelassen hat, vergib uns und ihm, o Herr der Welten, mache ihm sein Grab weit und erleuchte es für ihn.",
+      "source": "Muslim, 920",
+      "note": "Anstelle von „fulan“ nennt man den Namen des Verstorbenen."
+    },
+    "condolence": {
+      "title": "Beileid für die Angehörigen des Verstorbenen",
+      "translation": "Wahrlich, Allah gehört, was Er genommen hat, und Ihm gehört, was Er gegeben hat, und alles hat bei Ihm eine festgesetzte Frist. So sei geduldig und hoffe auf den Lohn Allahs.",
+      "source": "al-Buchari, 1284; Muslim, 923",
+      "note": "Diese Worte ließ der Prophet ﷺ seiner Tochter ausrichten, als ihr Kind im Sterben lag. Man kann auch mit eigenen Worten Beileid aussprechen."
+    },
+    "debt_halal": {
+      "title": "Bittgebet gegen Schulden",
+      "translation": "O Allah, lass mir das, was Du erlaubt hast, genügen, sodass ich das Verbotene nicht brauche, und mache mich durch Deine Huld unabhängig von allen außer Dir.",
+      "source": "at-Tirmidhi, 3563 (hasan)",
+      "note": "Ali (möge Allah mit ihm zufrieden sein) sagte, dass der Prophet ﷺ ihn diese Worte lehrte und dass Allah selbst bei einer Schuld so groß wie ein Berg helfen würde, sie zu begleichen."
+    },
+    "debt_worry": {
+      "title": "Gegen Sorge, Kummer und die Last der Schulden",
+      "translation": "O Allah, ich suche Zuflucht bei Dir vor Sorge und Kummer, vor Unfähigkeit und Faulheit, vor Geiz und Feigheit, vor der Last der Schulden und vor der Unterdrückung durch Menschen.",
+      "source": "al-Buchari, 6369"
+    },
+    "debt_maghram": {
+      "title": "Zuflucht vor Sünde und Schulden (am Ende des Gebets)",
+      "translation": "O Allah, ich suche Zuflucht bei Dir vor der Sünde und vor der Schuld.",
+      "source": "al-Buchari, 832; Muslim, 589",
+      "note": "Der Prophet ﷺ sagte dies oft im Gebet. Als man ihn nach dem Grund fragte, antwortete er: „Wenn ein Mensch verschuldet ist, redet er – und lügt, verspricht er – und bricht es.“"
+    },
+    "istighfar_rizq": {
+      "title": "Istighfar – Grund für Regen, Vermögen und Kinder",
+      "translation": "Ich sagte: „Bittet euren Herrn um Vergebung, denn Er ist Allvergebend. Er wird euch den Himmel mit reichlichem Regen schicken, euch mit Besitz und Söhnen unterstützen und euch Gärten und Flüsse geben.“",
+      "source": "Koran, 71:10–12",
+      "note": "Die Verse beschreiben die Früchte des Istighfar. Der Istighfar selbst: „Astaghfirullaha wa atubu ilaih“."
+    },
+    "rizq_morning": {
+      "title": "Um nützliches Wissen und gute Versorgung (nach dem Morgengebet)",
+      "translation": "O Allah, ich bitte Dich um nützliches Wissen, gute Versorgung und angenommene Taten.",
+      "source": "Ibn Madscha, 925 (authentisch)"
+    },
+    "musa_need": {
+      "title": "Bittgebet von Musa (Friede sei mit ihm) in der Not",
+      "translation": "Mein Herr, ich bedarf jedes Guten, das Du auf mich herabsendest.",
+      "source": "Koran, 28:24",
+      "note": "Musa sagte dies, als er ohne Obdach und Mittel in Madyan angekommen war; danach gab Allah ihm Arbeit und eine Ehefrau."
+    },
+    "sick_ruqyah": {
+      "title": "Bittgebet für Kranke (Ruqya des Propheten ﷺ)",
+      "translation": "O Allah, Herr der Menschen, nimm das Leiden hinweg und heile, denn Du bist der Heilende. Es gibt keine Heilung außer Deiner Heilung – eine Heilung, nach der keine Krankheit zurückbleibt.",
+      "source": "al-Buchari, 5743; Muslim, 2191"
+    },
+    "sick_visit_seven": {
+      "title": "Beim Krankenbesuch – 7-mal",
+      "translation": "Ich bitte Allah, den Gewaltigen, den Herrn des gewaltigen Throns, dich zu heilen.",
+      "source": "Abu Dawud, 3106; at-Tirmidhi, 2083 (authentisch)"
+    },
+    "sick_visit_short": {
+      "title": "Worte an den Kranken beim Besuch",
+      "translation": "Kein Grund zur Sorge, es ist eine Reinigung, so Allah will.",
+      "source": "al-Buchari, 3616"
+    },
+    "pain": {
+      "title": "Bei Schmerzen im Körper",
+      "translation": "Lege die Hand auf die schmerzende Stelle und sage dreimal „Im Namen Allahs“, dann siebenmal: „Ich suche Zuflucht bei Allah und Seiner Macht vor dem Übel dessen, was ich spüre und was ich befürchte.“",
+      "source": "Muslim, 2202"
+    },
+    "ayyub": {
+      "title": "Bittgebet von Ayyub (Friede sei mit ihm)",
+      "translation": "Mich hat Leid getroffen, und Du bist der Barmherzigste der Barmherzigen.",
+      "source": "Koran, 21:83"
+    },
+    "anxiety_ibn_masud": {
+      "title": "Bittgebet bei Sorge und Kummer",
+      "translation": "O Allah, ich bin Dein Diener, Sohn Deines Dieners, Sohn Deiner Dienerin. Meine Stirnlocke ist in Deiner Hand, Dein Urteil vollzieht sich an mir, gerecht ist Deine Bestimmung über mich. Ich bitte Dich bei jedem Namen, der Dir gehört, mit dem Du Dich Selbst benannt hast, oder den Du in Deinem Buch herabgesandt hast, oder den Du einem Deiner Geschöpfe gelehrt hast, oder den Du im Wissen des Verborgenen bei Dir behalten hast: Mache den Koran zum Frühling meines Herzens, zum Licht meiner Brust, zum Verschwinden meines Kummers und zum Vergehen meiner Sorge.",
+      "source": "Ahmad, 3712 (nach al-Albani authentisch)",
+      "note": "Eine Frau kann sagen: „Allahumma inni amatuk, bintu ‘abdik, bintu amatik“."
+    },
+    "distress_karb": {
+      "title": "Bittgebet in großer Not (Du'a al-Karb)",
+      "translation": "Es gibt keinen Gott außer Allah, dem Gewaltigen, dem Nachsichtigen. Es gibt keinen Gott außer Allah, dem Herrn des gewaltigen Throns. Es gibt keinen Gott außer Allah, dem Herrn der Himmel, dem Herrn der Erde und dem Herrn des edlen Throns.",
+      "source": "al-Buchari, 6346; Muslim, 2730"
+    },
+    "yunus": {
+      "title": "Bittgebet von Yunus (Friede sei mit ihm)",
+      "translation": "Es gibt keinen Gott außer Dir! Preis sei Dir! Wahrlich, ich gehörte zu den Ungerechten.",
+      "source": "Koran, 21:87; über seinen Vorzug – at-Tirmidhi, 3505",
+      "note": "„Kein Muslim ruft mit diesem Bittgebet in irgendeiner Angelegenheit, ohne dass Allah ihn erhört.“"
+    },
+    "hasbunallah": {
+      "title": "Allah genügt uns",
+      "translation": "Allah genügt uns, und welch ein vortrefflicher Sachwalter ist Er!",
+      "source": "Koran, 3:173; al-Buchari, 4563",
+      "note": "Diese Worte sagte Ibrahim (Friede sei mit ihm), als er ins Feuer geworfen wurde, und Muhammad ﷺ, als man ihm sagte, dass sich die Feinde gegen ihn versammelt hätten."
+    },
+    "do_not_leave_me": {
+      "title": "Überlass mich nicht mir selbst",
+      "translation": "O Allah, auf Deine Barmherzigkeit hoffe ich, so überlass mich nicht einen Augenblick lang mir selbst und bringe alle meine Angelegenheiten in Ordnung. Es gibt keinen Gott außer Dir.",
+      "source": "Abu Dawud, 5090 (hasan)"
+    },
+    "fear_enemy": {
+      "title": "Wenn man Menschen fürchtet",
+      "translation": "O Allah, wir stellen Dich ihnen entgegen und suchen Zuflucht bei Dir vor ihrem Übel.",
+      "source": "Abu Dawud, 1537 (authentisch)"
+    },
+    "patience": {
+      "title": "Um Geduld und Standhaftigkeit",
+      "translation": "Unser Herr, gieße Geduld über uns aus, festige unsere Füße und hilf uns gegen das ungläubige Volk.",
+      "source": "Koran, 2:250"
+    },
+    "sleep_bismika": {
+      "title": "Vor dem Schlafen",
+      "translation": "In Deinem Namen, o Allah, sterbe ich und lebe ich.",
+      "source": "al-Buchari, 6324"
+    },
+    "sleep_kursi": {
+      "title": "Ayat al-Kursi (der Thronvers)",
+      "translation": "Allah – es gibt keinen Gott außer Ihm, dem Lebendigen, dem Beständigen. Ihn überkommt weder Schlummer noch Schlaf. Ihm gehört, was in den Himmeln und was auf der Erde ist. Wer ist es, der bei Ihm Fürsprache einlegen könnte, außer mit Seiner Erlaubnis? Er weiß, was vor ihnen und was hinter ihnen liegt, sie aber umfassen nichts von Seinem Wissen, außer was Er will. Sein Thronschemel umfasst die Himmel und die Erde, und ihre Bewahrung beschwert Ihn nicht. Er ist der Erhabene, der Gewaltige.",
+      "source": "Koran, 2:255; über das Lesen vor dem Schlafen – al-Buchari, 2311",
+      "note": "Wer ihn vor dem Schlafen liest, über den wacht die ganze Nacht ein Hüter von Allah, und kein Satan nähert sich ihm bis zum Morgen."
+    },
+    "sleep_baqarah_end": {
+      "title": "Die letzten zwei Verse der Sure al-Baqara",
+      "translation": "Der Gesandte glaubt an das, was ihm von seinem Herrn herabgesandt wurde, und ebenso die Gläubigen… „Unser Herr, belange uns nicht, wenn wir vergessen oder einen Fehler begehen… Verzeih uns, vergib uns und erbarme Dich unser! Du bist unser Schutzherr, so hilf uns gegen das ungläubige Volk.“",
+      "source": "Koran, 2:285–286; al-Buchari, 5009",
+      "note": "„Wer nachts die letzten zwei Verse der Sure al-Baqara liest, dem genügen sie.“"
+    },
+    "sleep_three_quls": {
+      "title": "Die Suren al-Ichlas, al-Falaq und an-Nas",
+      "translation": "Vor dem Schlafen legte der Prophet ﷺ die Handflächen zusammen, las in sie die Suren al-Ichlas, al-Falaq und an-Nas, blies hinein und strich damit über seinen Körper, so weit er konnte, beginnend mit Kopf und Gesicht – dreimal. Außerdem liest man sie morgens und abends jeweils dreimal.",
+      "source": "al-Buchari, 5017; morgens und abends – Abu Dawud, 5082; at-Tirmidhi, 3575"
+    },
+    "waking": {
+      "title": "Nach dem Aufwachen",
+      "translation": "Alles Lob gebührt Allah, Der uns wieder lebendig gemacht hat, nachdem Er uns hatte sterben lassen, und zu Ihm ist die Auferstehung.",
+      "source": "al-Buchari, 6312"
+    },
+    "night_fear": {
+      "title": "Bei Schlaflosigkeit und Angst im Schlaf",
+      "translation": "Ich suche Zuflucht bei den vollkommenen Worten Allahs vor Seinem Zorn und Seiner Strafe, vor dem Übel Seiner Diener, vor den Einflüsterungen der Satane und davor, dass sie zu mir kommen.",
+      "source": "Abu Dawud, 3893; at-Tirmidhi, 3528 (hasan)",
+      "note": "Al-Albani stufte den Hadith als hasan ein, ein Teil der Hadithkenner als schwach. Man liest es für jemanden, der im Schlaf erschrickt."
+    },
+    "sayyid_istighfar": {
+      "title": "Das beste Bittgebet um Vergebung (Sayyid al-Istighfar)",
+      "translation": "O Allah, Du bist mein Herr, es gibt keinen Gott außer Dir. Du hast mich erschaffen, und ich bin Dein Diener. Ich halte an meinem Bund mit Dir und an Deinem Versprechen fest, so gut ich kann. Ich suche Zuflucht bei Dir vor dem Übel dessen, was ich getan habe. Ich erkenne Deine Gunst an, die Du mir erwiesen hast, und ich bekenne meine Sünde. So vergib mir, denn niemand vergibt die Sünden außer Dir.",
+      "source": "al-Buchari, 6306",
+      "note": "Wer es am Tag mit fester Überzeugung sagt und vor dem Abend stirbt, gehört zu den Bewohnern des Paradieses; ebenso, wer es in der Nacht sagt und vor dem Morgen stirbt."
+    },
+    "bismillah_no_harm": {
+      "title": "Schutz am Morgen und Abend – 3-mal",
+      "translation": "Im Namen Allahs, mit Dessen Namen nichts auf der Erde und nichts im Himmel Schaden zufügt. Er ist der Allhörende, der Allwissende.",
+      "source": "Abu Dawud, 5088; at-Tirmidhi, 3388 (hasan sahih)"
+    },
+    "subhanallah_100": {
+      "title": "Tasbih am Morgen und Abend – 100-mal",
+      "translation": "Gepriesen sei Allah, und Lob sei Ihm.",
+      "source": "Muslim, 2692"
+    },
+    "tahlil_100": {
+      "title": "Tahlil – 100-mal am Tag",
+      "translation": "Es gibt keinen Gott außer Allah allein, Er hat keinen Teilhaber. Ihm gehört die Herrschaft, Ihm gebührt das Lob, und Er hat Macht über alle Dinge.",
+      "source": "al-Buchari, 3293; Muslim, 2691"
+    },
+    "travel": {
+      "title": "Bittgebet des Reisenden (beim Aufbruch)",
+      "translation": "Allah ist größer (dreimal). Gepriesen sei Der, Der uns dies dienstbar gemacht hat, wir selbst wären dazu nicht imstande gewesen, und wahrlich, zu unserem Herrn werden wir zurückkehren. O Allah, wir bitten Dich auf dieser Reise um Frömmigkeit und Gottesfurcht und um Taten, mit denen Du zufrieden bist. O Allah, erleichtere uns diese Reise und verkürze uns ihre Entfernung. O Allah, Du bist der Begleiter auf der Reise und der Statthalter bei der Familie. O Allah, ich suche Zuflucht bei Dir vor den Mühen der Reise, vor einem betrüblichen Anblick und vor einer schlimmen Rückkehr zu Besitz und Familie.",
+      "source": "Muslim, 1342",
+      "note": "Bei der Rückkehr sagt man dasselbe und fügt hinzu: „Ayibuna, ta’ibuna, ‘abiduna, li-Rabbina hamidun“ – „Wir kehren zurück, bereuen, dienen und lobpreisen unseren Herrn.“"
+    },
+    "stopping_place": {
+      "title": "Wenn man an einem neuen Ort Halt macht",
+      "translation": "Ich suche Zuflucht bei den vollkommenen Worten Allahs vor dem Übel dessen, was Er erschaffen hat.",
+      "source": "Muslim, 2708; am Abend – Muslim, 2709",
+      "note": "Wer irgendwo Halt macht und dies sagt, dem schadet nichts, bis er diesen Ort wieder verlässt."
+    },
+    "leaving_home": {
+      "title": "Beim Verlassen des Hauses",
+      "translation": "Im Namen Allahs, ich vertraue auf Allah, und es gibt keine Kraft und keine Macht außer bei Allah.",
+      "source": "Abu Dawud, 5095; at-Tirmidhi, 3426 (authentisch)"
+    },
+    "entering_home": {
+      "title": "Beim Betreten des Hauses",
+      "translation": "Der Prophet ﷺ sagte: „Wenn ein Mann sein Haus betritt und Allahs beim Eintreten und beim Essen gedenkt, sagt der Satan: ‚Hier gibt es für euch weder Nachtlager noch Abendessen.‘“ Das Gedenken beim Eintreten: „Bismillah“ sagen und die Hausbewohner mit dem Salam grüßen.",
+      "source": "Muslim, 2018"
+    },
+    "before_eating": {
+      "title": "Vor dem Essen",
+      "translation": "Im Namen Allahs. Wenn du es zu Beginn vergessen hast, sage: „Bismillahi fi awwalihi wa akhirih“ – „Im Namen Allahs am Anfang und am Ende.“",
+      "source": "Abu Dawud, 3767; at-Tirmidhi, 1858 (authentisch)"
+    },
+    "after_eating": {
+      "title": "Nach dem Essen",
+      "translation": "Alles Lob gebührt Allah, Der mir dies zu essen gegeben und mich damit versorgt hat, ohne jede Kraft und Macht meinerseits.",
+      "source": "Abu Dawud, 4023; at-Tirmidhi, 3458 (hasan)"
+    },
+    "mosque_enter_exit": {
+      "title": "Beim Betreten und Verlassen der Moschee",
+      "translation": "Beim Betreten: „O Allah, öffne mir die Tore Deiner Barmherzigkeit.“ Beim Verlassen: „O Allah, ich bitte Dich um Deine Huld.“",
+      "source": "Muslim, 713"
+    },
+    "after_wudu": {
+      "title": "Nach der Gebetswaschung (Wudu)",
+      "translation": "Ich bezeuge, dass es keinen Gott gibt außer Allah allein, Er hat keinen Teilhaber, und ich bezeuge, dass Muhammad Sein Diener und Gesandter ist.",
+      "source": "Muslim, 234",
+      "note": "Wer dies nach der Gebetswaschung sagt, für den werden die acht Tore des Paradieses geöffnet."
+    },
+    "after_salah": {
+      "title": "Direkt nach dem Gebet",
+      "translation": "Ich bitte Allah um Vergebung (dreimal). O Allah, Du bist der Friede, und von Dir kommt der Friede. Segensreich bist Du, o Besitzer der Majestät und der Ehre!",
+      "source": "Muslim, 591"
+    },
+    "istighfar_daily": {
+      "title": "Istighfar jeden Tag",
+      "translation": "Ich bitte Allah um Vergebung und wende mich Ihm reuig zu.",
+      "source": "al-Buchari, 6307; Muslim, 2702",
+      "note": "Der Prophet ﷺ bat Allah mehr als siebzigmal am Tag um Vergebung, nach der Überlieferung bei Muslim hundertmal."
+    },
+    "abu_bakr": {
+      "title": "Das Bittgebet, das der Prophet ﷺ Abu Bakr lehrte",
+      "translation": "O Allah, ich habe mir selbst viel Unrecht getan, und niemand vergibt die Sünden außer Dir. So vergib mir mit einer Vergebung von Dir und erbarme Dich meiner, denn Du bist der Allvergebende, der Barmherzige.",
+      "source": "al-Buchari, 834; Muslim, 2705"
+    },
+    "adam": {
+      "title": "Bittgebet von Adam und Hawwa",
+      "translation": "Unser Herr, wir haben uns selbst Unrecht getan, und wenn Du uns nicht vergibst und Dich unser nicht erbarmst, werden wir ganz gewiss zu den Verlierern gehören.",
+      "source": "Koran, 7:23"
+    },
+    "qadr": {
+      "title": "In der Nacht der Bestimmung (Lailat al-Qadr)",
+      "translation": "O Allah, Du bist der Verzeihende, Du liebst das Verzeihen, so verzeih mir.",
+      "source": "at-Tirmidhi, 3513 (authentisch)"
+    },
+    "iftar": {
+      "title": "Beim Fastenbrechen (Iftar)",
+      "translation": "Der Durst ist vergangen, die Adern sind befeuchtet, und der Lohn ist gewiss, so Allah will.",
+      "source": "Abu Dawud, 2357 (hasan)"
+    },
+    "new_moon": {
+      "title": "Beim Anblick der Mondsichel",
+      "translation": "O Allah, lass ihn über uns aufgehen mit Segen und Glauben, mit Wohlergehen und dem Islam. Mein Herr und dein Herr ist Allah.",
+      "source": "at-Tirmidhi, 3451 (hasan)"
+    },
+    "iftar_lakasumtu": {
+      "title": "„Allahumma laka sumtu“ beim Iftar",
+      "translation": "O Allah, für Dich habe ich gefastet, und mit Deiner Versorgung breche ich mein Fasten.",
+      "source": "Abu Dawud, 2358 (schwach, mursal)",
+      "note": "Die Überliefererkette dieses Hadith ist unterbrochen, daher ist er schwach. Die Bedeutung ist richtig, und man darf diese Worte als allgemeines Bittgebet sagen, aber das authentische Bittgebet zum Iftar ist „Dhahaba-z-zama’u“ (siehe oben)."
+    },
+    "spouse_children": {
+      "title": "Um Freude an Ehepartnern und Kindern",
+      "translation": "Unser Herr, schenke uns an unseren Ehepartnern und unseren Nachkommen Freude der Augen und mache uns zu einem Vorbild für die Gottesfürchtigen.",
+      "source": "Koran, 25:74"
+    },
+    "zakariya_child": {
+      "title": "Bittgebet von Zakariya (Friede sei mit ihm) um ein Kind",
+      "translation": "Mein Herr, schenke mir von Dir aus gute Nachkommenschaft, denn Du erhörst das Bittgebet.",
+      "source": "Koran, 3:38"
+    },
+    "zakariya_alone": {
+      "title": "Lass mich nicht allein",
+      "translation": "Mein Herr, lass mich nicht allein, und Du bist der beste Erbe.",
+      "source": "Koran, 21:89"
+    },
+    "children_prayer": {
+      "title": "Dass ich und meine Kinder das Gebet verrichten",
+      "translation": "Mein Herr, mache, dass ich und meine Nachkommen das Gebet verrichten. Unser Herr, nimm mein Bittgebet an.",
+      "source": "Koran, 14:40"
+    },
+    "children_protection": {
+      "title": "Schutz für die Kinder",
+      "translation": "Ich stelle euch unter den Schutz der vollkommenen Worte Allahs vor jedem Satan, jedem giftigen Getier und jedem bösen Blick.",
+      "source": "al-Buchari, 3371",
+      "note": "So erbat der Prophet ﷺ Schutz für al-Hasan und al-Husain. Für ein Kind: „U‘idhuka“ (Junge), „U‘idhuki“ (Mädchen); für mehrere: „U‘idhukum“."
+    },
+    "newborn_congrats": {
+      "title": "Glückwunsch zur Geburt eines Kindes",
+      "translation": "Möge Allah dich in dem segnen, was dir geschenkt wurde; mögest du dem Schenkenden dankbar sein; möge das Kind die Reife erreichen, und möge dir seine Ehrerbietung zuteilwerden.",
+      "source": "Worte von al-Hasan al-Basri (kein Hadith des Propheten ﷺ); angeführt in „Hisn al-Muslim“ (Festung des Muslims)"
+    },
+    "wedding_congrats": {
+      "title": "Glückwunsch an Frischvermählte",
+      "translation": "Möge Allah dich segnen, Seinen Segen auf dich herabsenden und euch im Guten vereinen.",
+      "source": "Abu Dawud, 2130; at-Tirmidhi, 1091 (authentisch)"
+    },
+    "istikhara": {
+      "title": "Istikhara – wenn man eine Wahl treffen muss",
+      "translation": "O Allah, ich bitte Dich, mir durch Dein Wissen das Gute zu wählen, ich bitte Dich, mir durch Deine Macht Kraft zu geben, und ich bitte Dich um Deine große Huld. Du vermagst, und ich vermag nicht; Du weißt, und ich weiß nicht, und Du bist der Kenner des Verborgenen. O Allah, wenn Du weißt, dass diese Angelegenheit (man nennt sie) gut für mich ist in meiner Religion, meinem Leben und dem Ausgang meiner Angelegenheiten, dann bestimme sie mir, erleichtere sie mir und segne mich darin. Und wenn Du weißt, dass diese Angelegenheit schlecht für mich ist in meiner Religion, meinem Leben und dem Ausgang meiner Angelegenheiten, dann wende sie von mir ab und mich von ihr, bestimme mir das Gute, wo immer es ist, und lass mich damit zufrieden sein.",
+      "source": "al-Buchari, 1162",
+      "note": "Man verrichtet zwei Rak'a freiwilliges Gebet und spricht dann dieses Bittgebet."
+    },
+    "make_easy": {
+      "title": "Wenn eine Sache schwierig ist",
+      "translation": "O Allah, nichts ist leicht außer dem, was Du leicht gemacht hast, und das Schwere machst Du leicht, wenn Du willst.",
+      "source": "Ibn Hibban, 974 (authentisch)"
+    },
+    "musa_chest": {
+      "title": "Vor einem Vortrag, einer Prüfung oder einem schweren Gespräch",
+      "translation": "Mein Herr, weite mir meine Brust, erleichtere mir meine Aufgabe und löse den Knoten von meiner Zunge, damit sie meine Rede verstehen.",
+      "source": "Koran, 20:25–28"
+    },
+    "knowledge": {
+      "title": "Um Wissen",
+      "translation": "Mein Herr, mehre mein Wissen.",
+      "source": "Koran, 20:114"
+    },
+    "anger": {
+      "title": "Wenn der Zorn einen packt",
+      "translation": "Ich suche Zuflucht bei Allah vor dem verfluchten Satan.",
+      "source": "al-Buchari, 3282; Muslim, 2610"
+    },
+    "heart_firm": {
+      "title": "Um ein im Glauben festes Herz",
+      "translation": "Unser Herr, lass unsere Herzen nicht abschweifen, nachdem Du uns rechtgeleitet hast, und schenke uns Barmherzigkeit von Dir. Du bist ja der Schenkende.",
+      "source": "Koran, 3:8"
+    },
+    "ya_hayyu": {
+      "title": "In der Verzweiflung: „O Lebendiger, o Beständiger“",
+      "translation": "O Lebendiger, o Beständiger! Bei Deiner Barmherzigkeit rufe ich um Hilfe.",
+      "source": "at-Tirmidhi, 3524 (hasan)",
+      "note": "So sprach der Prophet ﷺ, wenn ihn etwas sehr bedrückte."
+    },
+    "good_news": {
+      "title": "Wenn etwas Erfreuliches geschehen ist",
+      "translation": "Alles Lob gebührt Allah, durch Dessen Gnade die guten Dinge vollendet werden.",
+      "source": "Ibn Madscha, 3803 (hasan)"
+    },
+    "sulayman_thanks": {
+      "title": "Bittgebet um Dankbarkeit",
+      "translation": "Mein Herr, gib mir ein, dankbar zu sein für Deine Gunst, die Du mir und meinen Eltern erwiesen hast, und rechtschaffene Taten zu tun, mit denen Du zufrieden bist, und lass mich durch Deine Barmherzigkeit eintreten in die Reihen Deiner rechtschaffenen Diener.",
+      "source": "Koran, 27:19"
+    },
+    "best_of_both": {
+      "title": "Das häufigste Bittgebet des Propheten ﷺ",
+      "translation": "Unser Herr, gib uns im Diesseits Gutes und im Jenseits Gutes und bewahre uns vor der Strafe des Feuers.",
+      "source": "Koran, 2:201; al-Buchari, 6389"
+    },
+    "anas_dua": {
+      "title": "Einem Menschen Gutes und Segen wünschen",
+      "translation": "O Allah, mehre seinen Besitz und seine Kinder und segne ihn in dem, was Du ihm gegeben hast.",
+      "source": "al-Buchari, 6334; Muslim, 2480",
+      "note": "So betete der Prophet ﷺ für Anas ibn Malik. Für eine Frau: „Allahumma akthir malaha wa waladaha, wa barik laha fima a‘taitaha“."
+    },
+    "islah": {
+      "title": "Um Gutes in der Religion, im Diesseits und im Jenseits",
+      "translation": "O Allah, bring meine Religion in Ordnung, die der Schutz meiner Angelegenheiten ist, mein Diesseits, in dem mein Lebensunterhalt liegt, und mein Jenseits, zu dem meine Rückkehr ist. Mache das Leben für mich zu einer Mehrung alles Guten und den Tod zu einer Erlösung von allem Übel.",
+      "source": "Muslim, 2720"
+    },
+    "barakallah": {
+      "title": "„Barakallahu fik“",
+      "translation": "Die Prophetengefährten erwiderten Gutes und sprachen Bittgebete mit den Worten „barakallahu fik/fiki“ – „Möge Allah dich segnen“. Das ist ein allgemeiner Wunsch, der an jedem Tag passt, auch wenn man jemandem gratuliert.",
+      "source": "Die Segensformel kommt in Hadithen vor, z. B. al-Buchari, 5155"
+    },
+    "kahf_friday": {
+      "title": "Die Sure al-Kahf am Freitag",
+      "translation": "„Wer am Freitag die Sure ‚al-Kahf‘ liest, dem wird sie die Zeit zwischen den beiden Freitagen mit Licht erhellen.“",
+      "source": "al-Hakim, 2/368; al-Baihaqi (nach al-Albani authentisch, Sahih al-Dschami‘, 6470)"
+    },
+    "salawat_friday": {
+      "title": "Salawat auf den Propheten ﷺ (besonders am Freitag)",
+      "translation": "O Allah, segne Muhammad und die Familie Muhammads, wie Du Ibrahim und die Familie Ibrahims gesegnet hast. Du bist der Lobenswürdige, der Ruhmreiche.",
+      "source": "al-Buchari, 3370; über den Freitag – Abu Dawud, 1047"
+    },
+    "eid_greeting": {
+      "title": "Glückwunsch zum Fest (Eid)",
+      "translation": "Möge Allah es von uns und von euch annehmen.",
+      "source": "So beglückwünschten sich die Prophetengefährten gegenseitig (Ibn Hadschar, „Fath al-Bari“: guter Isnad)"
+    },
+    "sacrifice": {
+      "title": "Beim Schlachten des Opfertieres (Qurban)",
+      "translation": "Im Namen Allahs, und Allah ist größer.",
+      "source": "Muslim, 1966",
+      "note": "Das sagte der Prophet ﷺ, als er zwei Widder opferte. Man kann hinzufügen, für wen das Opfer ist: „Allahumma minka wa lak“ (Abu Dawud, 2795)."
+    },
+    "zakat_recipients": {
+      "title": "Wem die Zakat gegeben wird",
+      "translation": "Die Almosen (Zakat) sind nur für die Armen und die Bedürftigen, für die mit ihrer Einsammlung Beauftragten, für diejenigen, deren Herzen gewonnen werden sollen, für den Freikauf von Sklaven, für die Verschuldeten, für den Weg Allahs und für den Reisenden. Das ist eine Verpflichtung von Allah. Allah ist Allwissend und Allweise.",
+      "source": "Koran, 9:60"
+    },
+    "zakat_purifies": {
+      "title": "Die Zakat reinigt das Vermögen und die Seele",
+      "translation": "Nimm von ihrem Besitz ein Almosen, mit dem du sie reinigst und läuterst, und bete für sie. Wahrlich, dein Gebet ist eine Beruhigung für sie. Allah ist Allhörend und Allwissend.",
+      "source": "Koran, 9:103",
+      "note": "Wenn der Prophet ﷺ die Zakat erhielt, sprach er ein Bittgebet für den, der sie gebracht hatte (al-Buchari, 1497)."
+    },
+    "sadaqah_not_decrease": {
+      "title": "Sadaqa verringert das Vermögen nicht",
+      "translation": "„Das Almosen verringert das Vermögen nicht. Allah mehrt einem Diener, der verzeiht, nur an Ehre, und wer sich um Allahs willen demütig zeigt, den erhöht Allah gewiss.“",
+      "source": "Muslim, 2588"
+    },
+    "market": {
+      "title": "Beim Betreten des Marktes",
+      "translation": "Es gibt keinen Gott außer Allah allein, Er hat keinen Teilhaber. Ihm gehört die Herrschaft, Ihm gebührt das Lob, Er gibt Leben und lässt sterben, Er ist der Lebendige und stirbt nicht. In Seiner Hand ist das Gute, und Er hat Macht über alle Dinge.",
+      "source": "at-Tirmidhi, 3428 – Bewertung umstritten",
+      "note": "At-Tirmidhi nannte den Hadith selten (gharib), al-Albani stufte ihn als hasan ein, viele Hadithkenner (Abu Hatim u. a.) dagegen als schwach. Das Gedenken selbst ist richtig, aber den im Hadith versprochenen gewaltigen Lohn kann man nicht mit Gewissheit behaupten."
+    },
+    "zakat_nisab": {
+      "title": "Nisab und Frist",
+      "translation": "„Auf weniger als fünf Uqiya (Silber) gibt es keine Zakat.“ Der Nisab für Silber beträgt 200 Dirham (etwa 595 g), für Gold 20 Dinar (etwa 85 g); die Zakat wird entrichtet, wenn über das Vermögen ein Jahr vergangen ist, und zwar ein Vierzigstel (2,5 %).",
+      "source": "al-Buchari, 1447; Abu Dawud, 1573"
+    },
+    "nuh_parents": {
+      "title": "Bittgebet von Nuh für sich, seine Eltern und die Gläubigen",
+      "translation": "Mein Herr, vergib mir und meinen Eltern und dem, der als Gläubiger mein Haus betritt, und den gläubigen Männern und den gläubigen Frauen.",
+      "source": "Koran, 71:28"
+    },
+    "burial_lowering": {
+      "title": "Beim Hinablassen des Verstorbenen ins Grab",
+      "translation": "Im Namen Allahs und gemäß der Sunna des Gesandten Allahs.",
+      "source": "Abu Dawud, 3213 (authentisch)"
+    },
+    "grave_punishment": {
+      "title": "Schutz vor der Strafe im Grab",
+      "translation": "O Allah, ich suche Zuflucht bei Dir vor der Strafe der Hölle, vor der Strafe des Grabes, vor den Prüfungen des Lebens und des Todes und vor dem Übel der Prüfung durch den falschen Messias (Daddschal).",
+      "source": "Muslim, 588",
+      "note": "Der Prophet ﷺ trug auf, dies im letzten Taschahhud des Gebets vor dem Salam zu sprechen. Schutz gibt auch die Sure al-Mulk (siehe ihre Karte)."
+    },
+    "toilet_enter": {
+      "title": "Vor dem Betreten der Toilette",
+      "translation": "O Allah, ich suche Zuflucht bei Dir vor den männlichen und weiblichen bösen Wesen (unter den Satanen).",
+      "source": "al-Buchari, 142; Muslim, 375",
+      "note": "Davor sagt man „Bismillah“ (at-Tirmidhi, 606, authentisch). Man tritt mit dem linken Fuß ein und gedenkt Allahs drinnen nicht laut."
+    },
+    "toilet_exit": {
+      "title": "Nach dem Verlassen der Toilette",
+      "translation": "Ich bitte Dich um Vergebung.",
+      "source": "Abu Dawud, 30; at-Tirmidhi, 7 (authentisch)"
+    },
+    "rain": {
+      "title": "Wenn es regnet",
+      "translation": "O Allah, (lass es) einen nützlichen Regen (sein).",
+      "source": "al-Buchari, 1032"
+    },
+    "after_rain": {
+      "title": "Nach dem Regen",
+      "translation": "Uns wurde Regen gegeben durch die Huld Allahs und Seine Barmherzigkeit.",
+      "source": "al-Buchari, 846; Muslim, 71"
+    },
+    "wind": {
+      "title": "Bei starkem Wind",
+      "translation": "O Allah, ich bitte Dich um das Gute dieses Windes, das Gute dessen, was in ihm ist, und das Gute dessen, womit er gesandt wurde, und ich suche Zuflucht bei Dir vor seinem Übel, dem Übel dessen, was in ihm ist, und dem Übel dessen, womit er gesandt wurde.",
+      "source": "Muslim, 899"
+    },
+    "thunder": {
+      "title": "Beim Hören des Donners",
+      "translation": "Gepriesen sei Der, Den der Donner mit Seinem Lob preist, und ebenso die Engel aus Furcht vor Ihm.",
+      "source": "al-Buchari, „al-Adab al-Mufrad“, 723; Malik, „al-Muwatta“ – Worte von Abdullah ibn az-Zubair",
+      "note": "Dies sind die Worte eines Prophetengefährten, kein Hadith des Propheten ﷺ; die Formulierung stammt aus dem Koran (13:13)."
+    },
+    "ruqyah_jibril": {
+      "title": "Die Ruqya Dschibrils (gegen den bösen Blick und Krankheit)",
+      "translation": "Im Namen Allahs spreche ich die Ruqya über dich, gegen alles, was dir schadet, gegen das Übel jeder Seele oder jedes neidischen Auges. Allah möge dich heilen. Im Namen Allahs spreche ich die Ruqya über dich.",
+      "source": "Muslim, 2186",
+      "note": "So sprach der Engel Dschibril über dem Propheten ﷺ, als dieser krank war. Man spricht es über dem Kranken und kann dabei die Hand auf seinen Kopf legen."
+    },
+    "seeing_pleasing": {
+      "title": "Etwas Gefallendes gesehen: damit kein böser Blick entsteht",
+      "translation": "„Wenn einer von euch an sich selbst, an seinem Besitz oder an seinem Bruder etwas sieht, das ihm gefällt, so soll er dafür um Segen (Baraka) bitten, denn der böse Blick ist eine Wahrheit.“ Zum Beispiel: „Barakallahu fih“ (Möge Allah es segnen) oder „Allahumma barik ‘alaih“.",
+      "source": "Ibn Madscha, 3509 (nach al-Albani authentisch)"
+    },
+    "mashallah": {
+      "title": "„Ma scha’ Allah, la quwwata illa billah“",
+      "translation": "Was Allah will (geschieht)! Es gibt keine Kraft außer durch Allah.",
+      "source": "Koran, 18:39",
+      "note": "Im Vers hätte das der Besitzer des Gartens sagen sollen, als er ihn betrat. Gelehrte (Ibn Kathir u. a.) raten, dies zu sagen, wenn man an sich etwas Gutes sieht; einen direkten Bezug zum bösen Blick gibt es im Vers nicht."
+    },
+    "amulets": {
+      "title": "Roter Faden, Amulett, „Auge“ gegen den bösen Blick",
+      "translation": "Der Prophet ﷺ sagte: „Wer ein Amulett aufhängt, hat Schirk begangen“ (Ahmad, 17422) und „Beschwörungen, Amulette und Liebeszauber sind Schirk“ (Abu Dawud, 3883). Ein roter Faden, ein „Auge“, ein Hufeisen und Ähnliches sind kein Schutz. Schutz sind Bittgebete, Ayat al-Kursi, die Suren al-Ichlas, al-Falaq und an-Nas sowie die Ruqya aus Koran und Sunna. Die Gelehrten sind sich nur über das Aufhängen von Zetteln mit Koranversen uneins: Viele verbieten auch das.",
+      "source": "Ahmad, 17422; Abu Dawud, 3883 (nach al-Albani authentisch)"
+    },
+    "memorial_customs": {
+      "title": "„Sieben Fladenbrote“, Gedenkessen am 3., 7., 40. Tag und am Jahrestag",
+      "translation": "Authentisch belegt ist, dass eine Sadaqa für den Verstorbenen ihn erreicht (Muslim, 1631): Menschen um Allahs willen zu speisen und für den Verstorbenen Bittgebete zu sprechen, ist an jedem Tag möglich. Die Zahl „sieben Fladenbrote“, das Backen am Donnerstag und Freitag, verpflichtende Gedenkessen am 3., 7. und 40. Tag und am Jahrestag sowie ein „Bittgebet am Geburtstag des Verstorbenen“ haben jedoch keine Grundlage im Koran oder in der Sunna. Viele Gelehrte bezeichnen das Festlegen solcher Termine als Neuerung (Bid'a); ein Teil der Gelehrten lässt die Bewirtung als Sadaqa zu, wenn man sie nicht für verpflichtend hält und nicht das Erbe von Waisen dafür ausgibt. Sunna bei einem Todesfall ist, dass die Nachbarn die Familie des Verstorbenen verpflegen, nicht umgekehrt (Abu Dawud, 3132).",
+      "source": "Kein besonderer Text; über die Sadaqa für den Verstorbenen – Muslim, 1631; über das Essen für die Familie des Verstorbenen – Abu Dawud, 3132"
+    },
+    "oppressed_dua_answered": {
+      "title": "Das Bittgebet des Unterdrückten wird erhört",
+      "translation": "„Hüte dich vor dem Bittgebet des Unterdrückten, denn zwischen ihm und Allah gibt es keine Schranke.“ Wenn Ihnen Unrecht geschehen ist, bitten Sie Allah um Gerechtigkeit und Hilfe. Verfluchen Sie dabei nicht maßlos und überschreiten Sie keine Grenzen: „Verflucht nicht euch selbst, eure Kinder und euren Besitz“ (Muslim, 3009).",
+      "source": "al-Buchari, 1496; Muslim, 3009"
+    },
+    "musa_people_oppressors": {
+      "title": "Rettung vor ungerechten Leuten",
+      "translation": "Unser Herr, mache uns nicht zu einer Versuchung für die ungerechten Leute, und errette uns durch Deine Barmherzigkeit vor dem ungläubigen Volk.",
+      "source": "Koran, 10:85–86"
+    },
+    "mustadafin": {
+      "title": "Das Flehen der Unterdrückten",
+      "translation": "Unser Herr, bring uns aus dieser Stadt heraus, deren Bewohner ungerecht sind, und bestelle uns von Dir einen Schutzherrn und bestelle uns von Dir einen Helfer.",
+      "source": "Koran, 4:75",
+      "note": "So rufen im Vers die schwachen und unterdrückten Männer, Frauen und Kinder. Dieses Bittgebet kann man für die unterdrückten Muslime in Palästina und anderswo sprechen."
+    },
+    "qunut_nazila": {
+      "title": "Qunut in Zeiten des Unheils",
+      "translation": "Wenn die Muslime ein Unglück traf, sprach der Prophet ﷺ einen Monat lang im Gebet nach der Verbeugung das Bittgebet: „O Allah, rette die Schwachen unter den Gläubigen!“ Die Gelehrten leiten daraus das Qunut bei Unheil (Qunut an-Nazila) für unterdrückte Muslime ab, auch in Palästina. Wie es verrichtet wird, unterscheidet sich zwischen den Rechtsschulen: Folgen Sie dem Imam Ihrer Moschee.",
+      "source": "al-Buchari, 4560"
+    },
+    "tahnik_naming": {
+      "title": "Tahnik und Namensgebung für das Neugeborene",
+      "translation": "Als Abu Musa ein Sohn geboren wurde, gab der Prophet ﷺ ihm den Namen Ibrahim, kaute eine Dattel, rieb damit den Gaumen des Kindes ein (Tahnik) und sprach ein Bittgebet um Segen für ihn. Den Namen kann man am ersten oder am siebten Tag geben.",
+      "source": "al-Buchari, 5467; Muslim, 2145"
+    },
+    "aqiqah": {
+      "title": "Aqiqa",
+      "translation": "„Jedes Kind ist an seine Aqiqa verpfändet: Am siebten Tag wird für es ein Tier geschlachtet, ihm wird der Kopf geschoren und es erhält einen Namen“ (Abu Dawud, 2838). „Mit dem Jungen ist eine Aqiqa verbunden, so vergießt für ihn Blut (eines Opfertieres) und entfernt von ihm das Schädliche“ (al-Buchari, 5472). Die meisten Gelehrten halten die Aqiqa für eine empfohlene Sunna, nicht für eine Pflicht.",
+      "source": "Abu Dawud, 2838 (authentisch); al-Buchari, 5472"
+    },
+    "adhan_newborn": {
+      "title": "Adhan ins Ohr des Neugeborenen",
+      "translation": "Den Hadith, dass der Prophet ﷺ bei der Geburt von al-Hasan den Adhan in sein Ohr sprach, überliefern Abu Dawud (5105) und at-Tirmidhi (1514, der ihn als authentisch bezeichnete). Viele Hadithkenner, darunter al-Albani in seiner späteren Bewertung, stuften ihn als schwach ein. Deshalb sind die Gelehrten uneins: Die einen halten den Adhan für empfohlen, die anderen für nicht belegt. Die Iqama ins linke Ohr stützt sich auf noch schwächere Hadithe.",
+      "source": "Abu Dawud, 5105; at-Tirmidhi, 1514 – Bewertung umstritten"
+    },
+    "talaq_way_out": {
+      "title": "„Wer Allah fürchtet, dem schafft Er einen Ausweg“",
+      "translation": "Wer Allah fürchtet, dem schafft Er einen Ausweg und versorgt ihn, von wo er es nicht erwartet. Und wer sich auf Allah verlässt, dem genügt Er.",
+      "source": "Koran, 65:2–3",
+      "note": "Das ist ein Versprechen Allahs an jene, die Ihn fürchten und auf Ihn vertrauen, keine Zauberformel: In der Sunna gibt es keine Anweisung, diesen Vers eine bestimmte Anzahl von Malen „gegen Schulden“ oder „für Glück“ zu lesen."
+    },
+    "yusr": {
+      "title": "„Mit der Erschwernis kommt die Erleichterung“",
+      "translation": "Gewiss, mit jeder Erschwernis kommt Erleichterung. Gewiss, mit jeder Erschwernis kommt Erleichterung.",
+      "source": "Koran, 94:5–6"
+    },
+    "muadh_debt": {
+      "title": "Vers 3:26 „gegen Schulden“ (das Bittgebet, das Mu‘adh gelehrt wurde)",
+      "translation": "Es wird überliefert, dass der Prophet ﷺ Mu‘adh ibn Dschabal lehrte, den Vers „Sag: ‚O Allah, Herr der Herrschaft!..‘“ (3:26) und das Bittgebet „Du Erbarmer im Diesseits und im Jenseits… erbarme Dich meiner mit einer Barmherzigkeit, die mich unabhängig macht von der Barmherzigkeit anderer außer Dir“ zu lesen, und sagte: „Selbst wenn du eine Schuld so groß wie ein Berg hättest, würde Allah sie für dich begleichen.“ Al-Albani stufte diesen Hadith als gut (hasan) ein, andere Hadithkenner wegen seiner Überliefererkette als schwach. Deshalb darf man den Vers und dieses Bittgebet lesen, aber das Versprechen „die Schuld verschwindet“ kann man nicht mit Gewissheit behaupten. Authentische Bittgebete gegen Schulden stehen weiter oben in diesem Abschnitt.",
+      "source": "at-Tabarani, „al-Mu‘dscham as-Saghir“ – Bewertung umstritten"
+    },
+    "waqiah_poverty": {
+      "title": "Die Sure al-Waqi‘a jede Nacht „gegen Armut“",
+      "translation": "Den Hadith „Wer die Sure ‚al-Waqi‘a‘ jede Nacht liest, den wird niemals Armut treffen“ stuften die meisten Hadithkenner (Imam Ahmad, Abu Hatim, ad-Daraqutni, al-Albani) als schwach ein; ein Teil der hanafitischen Hadithgelehrten akzeptiert ihn für die Vorzüge von Taten. Diese Sure zu lesen ist eine gute Tat, wie jedes Lesen des Korans, aber ein Versprechen von Reichtum dafür ist nicht belegt.",
+      "source": "al-Baihaqi, „Schu‘ab al-Iman“ – Bewertung umstritten, die meisten: schwach"
+    },
+    "internet_claims": {
+      "title": "„Lies es 100-mal – und die Schuld verschwindet“: was keine Grundlage hat",
+      "translation": "Im Internet gibt es viele Listen mit „Versen gegen Schulden“, „für Glück“ oder „um den Weg zu öffnen“ mit einer genauen Anzahl von Wiederholungen und einer Garantie für das Ergebnis. Die meisten dieser Ratschläge haben keine Quelle im Koran und in der authentischen Sunna: Eine Zahl der Wiederholungen und einen Lohn darf man nur nennen, wenn sie in einem Hadith stehen. Den Koran lesen und mit eigenen Worten Bittgebete sprechen kann man immer, aber niemand darf ein „garantiertes“ Ergebnis versprechen. In dieser App sind bei jedem Inhalt die Quelle und der Grad der Authentizität angegeben.",
+      "source": "Kein direkter Text; Grundsatz: Zahl der Wiederholungen und Lohn nur nach einer Quelle angeben"
+    },
+    "talbiyah": {
+      "title": "Talbiya",
+      "translation": "Hier bin ich, o Allah, hier bin ich! Hier bin ich, Du hast keinen Teilhaber, hier bin ich! Wahrlich, das Lob, die Gnade und die Herrschaft gehören Dir, Du hast keinen Teilhaber.",
+      "source": "al-Buchari, 1549; Muslim, 1184",
+      "note": "Man spricht sie nach dem Eintritt in den Ihram bis zum Beginn des Steinewerfens am Opfertag (beim Hadsch) oder bis zum Beginn des Tawaf (bei der Umra)."
+    },
+    "arafah": {
+      "title": "Das beste Bittgebet – am Tag von Arafa",
+      "translation": "Es gibt keinen Gott außer Allah allein, Er hat keinen Teilhaber. Ihm gehört die Herrschaft, Ihm gebührt das Lob, und Er hat Macht über alle Dinge.",
+      "source": "at-Tirmidhi, 3585 (hasan)",
+      "note": "„Das beste Bittgebet ist das Bittgebet am Tag von Arafa, und das Beste, was ich und die Propheten vor mir gesagt haben…“ Es passt auch für jene, die nicht auf Hadsch sind: Der Tag von Arafa ist der 9. Dhul-Hiddscha."
+    },
+    "zamzam": {
+      "title": "Zamzam-Wasser",
+      "translation": "„Das Zamzam-Wasser ist für das, wofür man es trinkt.“ Al-Albani und einige Gelehrte hielten den Hadith für authentisch, andere Hadithkenner für schwach. Viele Gelehrte raten, beim Trinken von Zamzam Allah um das Gute im Diesseits und im Jenseits zu bitten. Authentisch ist, dass Zamzam gesegnetes Wasser ist (Muslim, 2473).",
+      "source": "Ibn Madscha, 3062 – Bewertung umstritten; Muslim, 2473"
+    },
+    "seeing_afflicted": {
+      "title": "Beim Anblick eines Menschen in Not oder Krankheit",
+      "translation": "Alles Lob gebührt Allah, Der mich vor dem bewahrt hat, womit Er dich geprüft hat, und mich vor vielen Seiner Geschöpfe bevorzugt hat.",
+      "source": "at-Tirmidhi, 3432 (hasan)",
+      "note": "Man sagt es leise für sich, um den Menschen nicht zu verletzen."
+    },
+    "sneezing": {
+      "title": "Beim Niesen",
+      "translation": "Wer niest, sagt: „Alles Lob gebührt Allah.“ Wer es hört, antwortet: „Möge Allah sich deiner erbarmen.“ Der Niesende sagt: „Möge Allah euch rechtleiten und eure Angelegenheiten in Ordnung bringen.“",
+      "source": "al-Buchari, 6224"
+    },
+    "ruqyah_water": {
+      "title": "Ruqya über Wasser und „aufgeladenes“ Wasser",
+      "translation": "Ein Teil der Gelehrten erlaubt es, die Ruqya (die Suren al-Fatiha, al-Ichlas, al-Falaq, an-Nas, Ayat al-Kursi und Bittgebete aus der Sunna) zu lesen und dabei in Wasser zu blasen, das der Kranke dann trinkt oder mit dem er sich wäscht; sie stützen sich auf einen Bericht bei Abu Dawud (3885) und auf die Praxis einiger der rechtschaffenen Altvorderen. Die Bewertung dieses Berichts ist umstritten, und andere Gelehrte meinen, dass die Ruqya über dem Kranken selbst gelesen wird. Man darf sich nicht an Leute wenden, die Wasser gegen Geld „aufladen“, unverständliche Worte sprechen, Rituale durchführen oder „herausfinden, wer den Schaden angehext hat“.",
+      "source": "Abu Dawud, 3885 – Bewertung umstritten"
+    },
+    "dua_times": {
+      "title": "Wann das Bittgebet erhört wird",
+      "translation": "Authentisch genannt werden Zeiten, in denen man besonders auf Erhörung des Bittgebets hofft: das letzte Drittel der Nacht (al-Buchari, 1145), eine besondere Stunde am Freitag (al-Buchari, 935), zwischen Adhan und Iqama (Abu Dawud, 521), in der Niederwerfung (Muslim, 482). Über das Bittgebet von Yunus „La ilaha illa Anta, subhanaka inni kuntu mina-z-zalimin“: „Kein Muslim bittet damit um etwas, ohne dass Allah ihn erhört“ (at-Tirmidhi, 3505). Und drängen Sie nicht auf die Erhörung: „Jeder von euch wird erhört, solange er nicht ungeduldig wird und sagt: ‚Ich habe gebetet, und mir wurde nicht geantwortet‘“ (Muslim, 2735).",
+      "source": "al-Buchari, 1145, 935; Abu Dawud, 521; Muslim, 482, 2735; at-Tirmidhi, 3505"
+    },
+    "salat_hajah": {
+      "title": "Das Gebet der Not (Salat al-Hadscha)",
+      "translation": "Der Hadith mit der Beschreibung eines besonderen „Gebets der Not“ und seines Bittgebets ist sehr schwach: At-Tirmidhi selbst wies auf die Schwäche eines Überlieferers hin. Ein freiwilliges Gebet zu verrichten und danach Allah um sein Anliegen zu bitten, ist immer möglich, aber eine besondere Form und ein Versprechen der Erfüllung sind nicht belegt.",
+      "source": "at-Tirmidhi, 479 – sehr schwach"
+    },
+    "fatiha_40": {
+      "title": "„Al-Fatiha 40-mal nach dem Maghrib für jedes Anliegen“",
+      "translation": "Diese „bewährte Methode“ verbreiten islamische Websites, doch ihre Quelle sind Worte von Ibn Arabi und das Buch „Schams al-Ma‘arif“, das als Zauberbuch bekannt ist, und kein Hadith. Die Sure al-Fatiha ist die gewaltigste Sure des Korans, man kann sie immer lesen, aber die Zahl 40 und das Versprechen der Erfüllung des Anliegens haben keine Grundlage.",
+      "source": "Ohne Quelle im Koran und in der Sunna"
+    },
+    "taha_21": {
+      "title": "„Die Sure Ta-Ha 21-mal öffnet das Kismet (Schicksal)“",
+      "translation": "Dieser Ratschlag ist im türkischen Internet beliebt, und sogar die Artikel, die ihn verbreiten, geben zu, dass es keine Quelle gibt. Dasselbe gilt für Ratschläge, Ya-Sin, Ta-Ha oder eine andere Sure „41-mal“ für die Heirat oder für Glück zu lesen. Die Suren des Korans darf und soll man lesen, aber ein besonderes Versprechen für diese Fälle gibt es in der Sunna nicht.",
+      "source": "Ohne Quelle im Koran und in der Sunna"
+    },
+    "yasin_saffat_money": {
+      "title": "„Ya-Sin und as-Saffat gegen finanzielle Schwierigkeiten“",
+      "translation": "Auf eine Frage dazu antwortete ein Mufti, dass man sie lesen darf, es aber keinen Hadith gibt, der für diese Suren Reichtum verspricht. Dasselbe gilt für Ratschläge, „2:280 zu lesen, damit man das geliehene Geld zurückbekommt“: Dieser Vers ruft dazu auf, dem Schuldner Aufschub zu gewähren, und ist keine Zauberformel. Authentische Bittgebete gegen Schulden stehen im Abschnitt „Schulden“.",
+      "source": "Ohne Quelle im Koran und in der Sunna"
+    },
+    "istighfar_way_out": {
+      "title": "„Wer beständig um Vergebung bittet, dem gibt Allah einen Ausweg aus jeder Not“",
+      "translation": "Dieser Hadith wird oft zitiert, ist aber schwach. Der Zusammenhang zwischen Istighfar und Erleichterung und Versorgung ist jedoch durch den Koran belegt: „Bittet euren Herrn um Vergebung… Er wird euch reichlich Regen schicken und euch mit Besitz und Söhnen unterstützen“ (71:10–12). Es ist also richtig, um der Erleichterung willen um Vergebung zu bitten, gestützt auf die Verse.",
+      "source": "Abu Dawud, 1518 – schwach"
+    },
+    "lost_item_info": {
+      "title": "Was man sagt, wenn etwas verloren gegangen ist",
+      "translation": "Ein besonderes authentisches Bittgebet für eine verlorene Sache gibt es nicht. Bei jedem Verlust, auch einem kleinen, kann man sagen: „Inna lillahi wa inna ilaihi radschi‘un“ („Wahrlich, wir gehören Allah, und zu Ihm kehren wir zurück“, 2:156): Allah lobt diejenigen, die dies bei einem Unglück sagen (2:155–157). Bitten Sie dann Allah mit eigenen Worten, Ihnen beim Finden zu helfen; das Bittgebet von Yunus passt für jedes Anliegen.",
+      "source": "Koran, 2:155–157"
+    },
+    "lost_item_popular": {
+      "title": "„Ya Dschami‘a-n-nas…“ und ad-Duha 7-mal für eine verlorene Sache",
+      "translation": "Das Bittgebet „O Allah, Der Du die Menschen an einem Tag versammelst, an dem es keinen Zweifel gibt (3:9), führe mich mit meinem Verlorenen zusammen“ und das Lesen der Sure ad-Duha 7-mal (oder des Verses 93:7 dreimal) werden sogar auf Frage-Antwort-Seiten empfohlen, doch die Quelle ist das Buch „Heilmittel aus dem Koran“ von Aschraf Ali Thanwi und kein Hadith. Man darf Allah mit diesen Worten bitten, wie mit allen eigenen Worten, aber das ist volkstümliche Praxis und keine Sunna.",
+      "source": "Ohne Quelle in der Sunna: ein Buch von Aschraf Ali Thanwi"
+    },
+    "tiwala": {
+      "title": "„Binden“, Liebeszauber, „damit mein Mann nur mich liebt“",
+      "translation": "Der Prophet ﷺ sagte: „Beschwörungen, Amulette und Liebeszauber (Tiwala) sind Schirk“ (Abu Dawud, 3883). „Verse zum Binden“, Zettel mit Versen unter dem Kopfkissen, „damit eine bestimmte Person mich liebt“, „damit mein Mann keine zweite Frau nimmt“ – genau das ist Tiwala, auch wenn dabei Worte des Korans verwendet werden. Erlaubt ist etwas anderes: Bittgebete mit eigenen Worten um Liebe und Eintracht in der Familie, 25:74, die Istikhara vor der Ehe, das Gespräch und Vermittler aus beiden Familien (4:35).",
+      "source": "Abu Dawud, 3883 (nach al-Albani authentisch)"
+    },
+    "arbitration": {
+      "title": "Wenn die Ehepartner kurz vor der Trennung stehen",
+      "translation": "„Und wenn ihr ein Zerwürfnis zwischen den beiden befürchtet, dann bestellt einen Schiedsrichter aus seiner Familie und einen Schiedsrichter aus ihrer Familie. Wenn sie eine Aussöhnung wollen, wird Allah sie in Einklang bringen“ (4:35). Der Koran bietet also keine Zauberformeln an, sondern Vermittler aus beiden Familien und den aufrichtigen Wunsch, sich zu versöhnen.",
+      "source": "Koran, 4:35"
+    },
+    "guidance_for_others": {
+      "title": "Bittgebet um Rechtleitung für einen anderen Menschen",
+      "translation": "Als der Stamm Daus sich weigerte, den Islam anzunehmen, verfluchte der Prophet ﷺ sie nicht, sondern sagte: „O Allah, leite Daus recht und bring sie her!“ (al-Buchari, 2937). Ebenso kann man für einen Angehörigen bitten: „Allahumma-hdi [Name]“ – „O Allah, leite den Soundso recht.“ Und zum Bittgebet für einen Bruder in seiner Abwesenheit sagt ein Engel: „Und dir dasselbe“ (Muslim, 2732).",
+      "source": "al-Buchari, 2937; Muslim, 2732"
+    },
+    "reconcile_best": {
+      "title": "Menschen versöhnen – höher als freiwilliges Fasten und Gebet",
+      "translation": "„Soll ich euch nicht von etwas berichten, das im Rang höher steht als (freiwilliges) Fasten, Gebet und Sadaqa?“ – „Doch!“ – „Die Versöhnung zwischen den Menschen, denn die Zwietracht zwischen ihnen ist das, was die Religion ‚abschert‘ (zerstört).“",
+      "source": "Abu Dawud, 4919; at-Tirmidhi, 2509 (authentisch)"
+    },
+    "three_days": {
+      "title": "Nicht länger als drei Tage, und der Beste ist, wer zuerst grüßt",
+      "translation": "„Es ist einem Muslim nicht erlaubt, seinen Bruder länger als drei Tage zu meiden, sodass sie sich begegnen und der eine sich abwendet und der andere sich abwendet. Der Bessere von beiden ist der, der zuerst grüßt.“ Der erste Schritt zur Versöhnung ist ein einfaches „As-salamu ‘alaikum“.",
+      "source": "al-Buchari, 6077; Muslim, 2560"
+    },
+    "ibrahim_child": {
+      "title": "Bittgebet von Ibrahim um rechtschaffene Nachkommen",
+      "translation": "Mein Herr, schenke mir (Nachkommenschaft) von den Rechtschaffenen.",
+      "source": "Koran, 37:100"
+    },
+    "maryam_beauty": {
+      "title": "„Die Sure Maryam für ein schönes Kind“, „Sure für Schönheit“",
+      "translation": "Ratschläge, während der Schwangerschaft die Sure Maryam oder Yusuf zu lesen, damit das Kind schön wird, und „Suren für Schönheit“ haben keine Quelle im Koran und in der Sunna. Diese Suren zu lesen ist gut, wie jedes Lesen des Korans, aber ein Versprechen für das Aussehen gibt es dafür nicht. Verse aufzuschreiben und sie einer Gebärenden anzubinden, ist bereits ein Amulett (siehe „Ist das aus dem Islam?“).",
+      "source": "Ohne Quelle im Koran und in der Sunna"
+    },
+    "good_character": {
+      "title": "„Wie Du mein Äußeres schön gemacht hast…“",
+      "translation": "O Allah, wie Du mein Äußeres schön gemacht hast, so mache auch meinen Charakter schön.",
+      "source": "Ahmad (nach al-Albani authentisch)",
+      "note": "Authentisch ist das Bittgebet selbst; die Versionen, in denen es ausdrücklich an den Blick in den Spiegel gebunden ist, sind schwach. Man kann es jederzeit sprechen."
+    },
+    "tasbih_fatimah": {
+      "title": "Der Tasbih von Fatima vor dem Schlafen: Kraft, besser als ein Diener",
+      "translation": "Gepriesen sei Allah. Alles Lob gebührt Allah. Allah ist größer.",
+      "source": "al-Buchari, 3705; Muslim, 2727",
+      "note": "Fatima war von der schweren Arbeit erschöpft und bat um einen Diener. Der Prophet ﷺ sagte ihr und Ali, dies beim Schlafengehen zu sprechen: „Das ist besser für euch als ein Diener.“ Gegen Faulheit und Kraftlosigkeit siehe auch das Bittgebet „…wal-‘adschzi wal-kasal“ im Abschnitt „Schulden“."
+    },
+    "marriage_numbers": {
+      "title": "„Lies Ya-Sin 41-mal – und du wirst heiraten“",
+      "translation": "Ratschläge, Ya-Sin, Ta-Ha oder eine andere Sure eine bestimmte Anzahl von Malen zu lesen, um zu heiraten, haben keine Quelle. Der Vers 28:24 („Mein Herr, ich bedarf jedes Guten…“) ist ein echtes Bittgebet von Musa, nach dem er heiratete, aber es gibt keinen Hadith, dass man ihn „für die Ehe“ lesen soll: Es ist ein Bittgebet für jedes Anliegen. Authentisch sind: die Istikhara (al-Buchari, 1162), das Bittgebet 25:74 und die Bitte mit eigenen Worten.",
+      "source": "Ohne Quelle; über die Istikhara – al-Buchari, 1162"
+    },
+    "ikhlas_11": {
+      "title": "„Al-Ichlas 11-mal auf dem Friedhof“",
+      "translation": "Der Hadith über den Lohn für den, der auf dem Friedhof 11-mal die Sure al-Ichlas liest und den Lohn den Verstorbenen schenkt, ist sehr schwach oder erfunden. Das Rezitieren des Korans am Grab ist eine umstrittene Frage (siehe die Karte zur Sure Ya-Sin). Authentisch beim Besuch der Gräber sind der Gruß an ihre Bewohner und das Bittgebet für sie.",
+      "source": "Hadith ohne verlässliche Überliefererkette – sehr schwach oder erfunden"
+    },
+    "fatiha_ruqyah": {
+      "title": "Die Sure al-Fatiha als Ruqya",
+      "translation": "Ein Prophetengefährte las die al-Fatiha über einem Stammesführer, den ein Skorpion gestochen hatte, und dieser wurde gesund. Der Prophet ﷺ billigte das und fragte: „Woher wusstest du, dass sie eine Ruqya ist?“ Deshalb liest man die al-Fatiha zusammen mit anderen Bittgebeten aus der Sunna über dem Kranken.",
+      "source": "al-Buchari, 5736; Muslim, 2201"
+    },
+    "baqarah_house": {
+      "title": "Die Sure al-Baqara im Haus",
+      "translation": "„Macht eure Häuser nicht zu Friedhöfen: Wahrlich, der Satan flieht aus dem Haus, in dem die Sure ‚al-Baqara‘ gelesen wird.“",
+      "source": "Muslim, 780"
+    }
+  }
+}

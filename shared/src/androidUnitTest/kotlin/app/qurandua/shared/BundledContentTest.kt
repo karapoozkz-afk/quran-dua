@@ -157,7 +157,10 @@ class BundledContentTest {
         assertEquals("es", app.qurandua.shared.data.supportedUiLanguage("es_MX"))
         assertEquals("ky", app.qurandua.shared.data.supportedUiLanguage("ky_KG"))
         assertEquals("uz", app.qurandua.shared.data.supportedUiLanguage("uz-Latn-UZ"))
-        assertEquals("", app.qurandua.shared.data.supportedUiLanguage("de"))
+        assertEquals("de", app.qurandua.shared.data.supportedUiLanguage("de_DE"))
+        assertEquals("az", app.qurandua.shared.data.supportedUiLanguage("az-Latn-AZ"))
+        assertEquals("tg", app.qurandua.shared.data.supportedUiLanguage("tg_TJ"))
+        assertEquals("", app.qurandua.shared.data.supportedUiLanguage("ja"))
     }
 
     private companion object {
