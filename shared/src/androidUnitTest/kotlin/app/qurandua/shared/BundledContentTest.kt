@@ -150,6 +150,23 @@ class BundledContentTest {
     }
 
     @Test
+    fun dailyHadithCoverTheYearInEveryLanguage() {
+        val daily = app.qurandua.shared.daily.DailyParser.parse(asset("daily.json"))
+        assertEquals(365, daily.morning.size)
+        assertEquals(365, daily.evening.size)
+        val all = daily.morning + daily.evening
+        assertEquals(730, all.map { it.collection to it.number }.toSet().size)
+        for (h in all) {
+            assertTrue(h.collection in setOf("bukhari", "muslim"), "${h.number}")
+            assertTrue(h.text["ru"].orEmpty().isNotBlank() && h.text["en"].orEmpty().isNotBlank(), "${h.collection} ${h.number}")
+            if (h.collection == "muslim") assertTrue(h.book > 0 && h.hadith > 0, "muslim ${h.number}")
+            for (lang in app.qurandua.shared.data.CONTENT_LANGUAGES) {
+                assertTrue(h.title[lang].orEmpty().isNotBlank() && h.summary[lang].orEmpty().isNotBlank(), "${h.number} $lang")
+            }
+        }
+    }
+
+    @Test
     fun deviceLanguagesMapToUiLanguages() {
         assertEquals("id", app.qurandua.shared.data.supportedUiLanguage("in"))
         assertEquals("ur", app.qurandua.shared.data.supportedUiLanguage("ur_PK"))

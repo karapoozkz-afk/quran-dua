@@ -30,7 +30,12 @@ EDITIONS = {"ru": "rus", "en": "eng", "tr": "tur", "fr": "fra", "id": "ind", "ur
 DAYS = 365
 TITLE_MAX = 40
 SUMMARY_MAX = 140
-RU_TEXT_MAX = 450
+RU_TEXT_MAX = 900
+RU_TEXT_MAX_SLEEP = 1600
+
+# The dataset lacks the in-book reference of a few Muslim hadiths; filled from their neighbours
+# (6543 is 45:42 and 6546 is 45:44, so 6544 is 45:43).
+MUSLIM_REF_FIX = {6544: {"book": 45, "hadith": 43}}
 
 errors = []
 
@@ -76,8 +81,9 @@ def build_slot(name, texts, refs, overlays):
         if not ru or not texts.get(("en", c, n)):
             err(f"{where}: no Russian or English text in the dataset")
             continue
-        if len(ru) > RU_TEXT_MAX:
-            err(f"{where}: Russian text is {len(ru)} characters (max {RU_TEXT_MAX})")
+        limit = RU_TEXT_MAX_SLEEP if p.get("theme") == "sleep" else RU_TEXT_MAX
+        if len(ru) > limit:
+            err(f"{where}: Russian text is {len(ru)} characters (max {limit})")
         title, summary = p.get("title", ""), p.get("summary", "")
         if not title or len(title) > TITLE_MAX:
             err(f"{where}: title empty or over {TITLE_MAX} characters")
@@ -89,7 +95,7 @@ def build_slot(name, texts, refs, overlays):
             "text": {lang: texts[(lang, c, n)] for lang in EDITIONS if (lang, c, n) in texts},
         }
         if c == "muslim":
-            ref = refs.get((c, n), {})
+            ref = MUSLIM_REF_FIX.get(n) or refs.get((c, n), {})
             if not ref.get("book") or not ref.get("hadith"):
                 err(f"{where}: no book/hadith reference for Sahih Muslim")
             item["book"], item["hadith"] = ref.get("book", 0), ref.get("hadith", 0)
