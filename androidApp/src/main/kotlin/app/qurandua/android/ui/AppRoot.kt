@@ -145,6 +145,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
             LocalStrings provides strings,
             LocalSettings provides settings,
             LocalContentLang provides contentLanguage,
+            LocalUiLanguage provides uiLanguage,
             LocalLayoutDirection provides direction,
         ) {
             val openAyah: (AyahKey) -> Unit = { key -> route = Route.Reader(key.surah, key.ayah) }
@@ -245,6 +246,8 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                 onOpenDonate = { route = Route.Donate },
                                 daily = remember(uiLanguage, minuteTick / 60) { dailyCard(deps.daily, uiLanguage) },
                                 onOpenDaily = { route = Route.Daily },
+                                language = uiLanguage,
+                                onLanguage = { code -> viewModel.updateSettings { it.copy(language = code) } },
                             )
 
                             Tab.QURAN -> SurahListScreen(

@@ -30,6 +30,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import app.qurandua.android.ui.LocalContentLang
 import app.qurandua.android.ui.LocalStrings
+import app.qurandua.android.ui.components.LanguageButton
 import app.qurandua.shared.model.AyahKey
 import app.qurandua.shared.model.Situation
 import app.qurandua.shared.model.pick
@@ -57,6 +58,9 @@ fun HomeScreen(
     onOpenLearn: () -> Unit = {},
     onOpenDonate: () -> Unit = {},
     daily: DailyCard? = null,
+    /** Current interface language and how to change it: the round flag button at the top right. */
+    language: String = "",
+    onLanguage: ((String) -> Unit)? = null,
     onOpenDaily: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
@@ -69,7 +73,10 @@ fun HomeScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item {
-            Text(strings.whatToRead, style = MaterialTheme.typography.headlineSmall)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(strings.whatToRead, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+                if (onLanguage != null) LanguageButton(language, onLanguage)
+            }
         }
         item {
             Card(onClick = onOpenSearch, modifier = Modifier.fillMaxWidth()) {

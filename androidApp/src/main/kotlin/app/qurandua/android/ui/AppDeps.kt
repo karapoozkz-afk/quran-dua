@@ -119,6 +119,8 @@ val LocalStrings = staticCompositionLocalOf<Strings> { EnStrings }
 val LocalSettings = staticCompositionLocalOf { AppSettings() }
 /** Language translations are shown in (ru, en; others fall back to en). */
 val LocalContentLang = staticCompositionLocalOf { "en" }
+/** The interface language actually shown (the chosen one, else the phone's). */
+val LocalUiLanguage = staticCompositionLocalOf { "en" }
 
 /** Recitation by Mishary Rashid Alafasy, one file per ayah. */
 fun ayahAudioUrl(surah: Int, ayah: Int): String {

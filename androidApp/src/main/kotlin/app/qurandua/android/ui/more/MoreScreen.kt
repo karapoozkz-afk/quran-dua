@@ -34,12 +34,13 @@ import app.qurandua.android.ui.LocalContentLang
 import app.qurandua.android.ui.LocalDeps
 import app.qurandua.android.ui.LocalSettings
 import app.qurandua.android.ui.LocalStrings
+import app.qurandua.android.ui.LocalUiLanguage
+import app.qurandua.android.ui.components.LanguageButton
 import app.qurandua.android.ui.components.HiddenText
 import app.qurandua.android.ui.components.InfoButton
 import app.qurandua.android.ui.components.NoticeCard
 import app.qurandua.shared.i18n.ADHAN_CREDIT
 import app.qurandua.android.ui.components.SectionTitle
-import app.qurandua.shared.data.UI_LANGUAGES
 import app.qurandua.shared.model.AppSettings
 import app.qurandua.shared.model.Charity
 import app.qurandua.shared.model.pick
@@ -66,15 +67,9 @@ fun MoreScreen(
         item { SectionTitle(strings.settings) }
         item {
             Column(Modifier.padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text(strings.language, style = MaterialTheme.typography.bodyLarge)
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    UI_LANGUAGES.forEach { code ->
-                        FilterChip(
-                            selected = settings.language == code,
-                            onClick = { onUpdateSettings { it.copy(language = code) } },
-                            label = { Text(LANGUAGE_NAMES[code] ?: code) },
-                        )
-                    }
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(strings.language, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                    LanguageButton(LocalUiLanguage.current, onPick = { code -> onUpdateSettings { it.copy(language = code) } })
                 }
             }
         }
@@ -160,8 +155,3 @@ private fun SettingRow(label: String, checked: Boolean, onChange: (Boolean) -> U
     }
 }
 
-private val LANGUAGE_NAMES = mapOf(
-    "ru" to "Русский", "kk" to "Қазақша", "ky" to "Кыргызча", "uz" to "O‘zbekcha", "en" to "English", "es" to "Español", "ar" to "العربية",
-    "tr" to "Türkçe", "id" to "Bahasa Indonesia", "ur" to "اردو",
-    "az" to "Azərbaycanca", "tg" to "Тоҷикӣ", "tt" to "Татарча", "fr" to "Français", "de" to "Deutsch",
-)
