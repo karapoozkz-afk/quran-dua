@@ -14,6 +14,8 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.VolunteerActivism
+import androidx.compose.material.icons.filled.EditNote
+import app.qurandua.shared.journal.journalStringsFor
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
 import androidx.compose.material3.TextButton
@@ -53,6 +55,7 @@ import app.qurandua.shared.model.TRANSLIT_SCRIPTS
 fun MoreScreen(
     onUpdateSettings: ((AppSettings) -> AppSettings) -> Unit,
     onOpenDonate: () -> Unit,
+    onOpenJournal: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -124,6 +127,19 @@ fun MoreScreen(
                             onClick = { onUpdateSettings { it.copy(theme = mode) } },
                             label = { Text(labels.getValue(mode)) },
                         )
+                    }
+                }
+            }
+        }
+
+        item {
+            val journal = journalStringsFor(LocalUiLanguage.current)
+            Card(onClick = onOpenJournal, modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
+                Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Icon(Icons.Filled.EditNote, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Column {
+                        Text(journal.title, style = MaterialTheme.typography.titleMedium)
+                        Text(journal.subtitle, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }

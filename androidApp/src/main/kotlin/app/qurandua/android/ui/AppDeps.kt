@@ -88,6 +88,22 @@ interface DailyController {
     val openRequested: MutableStateFlow<Boolean>
 }
 
+/** The private repentance journal (platform/JournalPlatform.kt): notes never leave the phone. */
+interface JournalController {
+    val entries: StateFlow<List<app.qurandua.shared.journal.JournalEntry>>
+    /** Adds the entry, or replaces the one with the same id. */
+    fun save(entry: app.qurandua.shared.journal.JournalEntry)
+    fun delete(id: Long)
+    /** Deletes every note and the PIN: the way out when the PIN is forgotten. */
+    fun deleteAll()
+    val hasPin: StateFlow<Boolean>
+    fun setPin(pin: String)
+    fun clearPin()
+    /** False for a wrong PIN, and for any PIN while [waitMillis] is above zero after too many wrong ones. */
+    fun checkPin(pin: String): Boolean
+    fun waitMillis(): Long
+}
+
 /** Lets screens ask for a runtime permission; MainActivity plugs in the real launcher. */
 class PermissionRequester {
     var launcher: ((permission: String, onResult: (Boolean) -> Unit) -> Unit)? = null
@@ -112,6 +128,7 @@ class AppDeps(
     /** Lessons on purification and prayer (assets/content/lessons.json). */
     val lessons: List<app.qurandua.shared.learn.Lesson> = emptyList(),
     val daily: DailyController? = null,
+    val journal: JournalController? = null,
 )
 
 val LocalDeps = staticCompositionLocalOf<AppDeps> { error("AppDeps not provided") }

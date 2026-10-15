@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 6–11 backups. The repentance journal and its PIN stay on this phone only. -->
+<full-backup-content>
+    <exclude domain="file" path="journal/" />
+    <exclude domain="sharedpref" path="journal_lock.xml" />
+</full-backup-content>

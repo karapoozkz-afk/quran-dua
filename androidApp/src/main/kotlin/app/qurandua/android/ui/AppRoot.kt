@@ -41,6 +41,8 @@ import app.qurandua.android.ui.more.DonateScreen
 import app.qurandua.android.ui.learn.LessonScreen
 import app.qurandua.shared.learn.learnStringsFor
 import app.qurandua.android.ui.more.MoreScreen
+import app.qurandua.android.ui.journal.JournalScreen
+import app.qurandua.shared.journal.journalStringsFor
 import app.qurandua.android.ui.prayer.PrayerScreen
 import app.qurandua.android.ui.prayer.nextPrayerLine
 import app.qurandua.android.ui.quran.SurahListScreen
@@ -73,6 +75,7 @@ private sealed interface Route {
     data object Prayer : Route
     data object Learn : Route
     data object Daily : Route
+    data object Journal : Route
     data class Lesson(val id: String) : Route
     data class Situation(val id: String) : Route
     data class Reader(val surah: Int, val ayah: Int?) : Route
@@ -167,6 +170,17 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
 
                 Route.Prayer -> PrayerScreen(prayerStrings, onBack = { route = Route.None })
 
+                Route.Journal -> deps.journal?.let {
+                    JournalScreen(
+                        journal = it,
+                        language = uiLanguage,
+                        duas = remember { viewModel.duasFor("forgiveness") },
+                        favorites = favorites,
+                        onOpenInQuran = openAyah,
+                        onBack = { route = Route.None },
+                    )
+                }
+
                 Route.Daily -> deps.daily?.let { DailyScreen(it, uiLanguage, onBack = { route = Route.None }) }
 
                 Route.Learn -> LearnListScreen(deps.lessons, uiLanguage, onOpen = { route = Route.Lesson(it) }, onBack = { route = Route.None })
@@ -246,6 +260,9 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                                 onOpenDonate = { route = Route.Donate },
                                 daily = remember(uiLanguage, minuteTick / 60) { dailyCard(deps.daily, uiLanguage) },
                                 onOpenDaily = { route = Route.Daily },
+                                journalTitle = journalStringsFor(uiLanguage).title,
+                                journalSubtitle = journalStringsFor(uiLanguage).subtitle,
+                                onOpenJournal = { route = Route.Journal },
                                 language = uiLanguage,
                                 onLanguage = { code -> viewModel.updateSettings { it.copy(language = code) } },
                             )
@@ -274,6 +291,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                             Tab.MORE -> MoreScreen(
                                 onUpdateSettings = viewModel::updateSettings,
                                 onOpenDonate = { route = Route.Donate },
+                                onOpenJournal = { route = Route.Journal },
                             )
                         }
                     }
