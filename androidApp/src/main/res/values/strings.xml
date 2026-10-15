@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI text lives in shared Kotlin (i18n/Strings.kt); this is the launcher label only. -->
+    <string name="app_name">Bible</string>
+</resources>

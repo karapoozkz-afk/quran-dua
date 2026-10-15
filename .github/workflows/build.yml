@@ -1,0 +1,87 @@
+# Builds the Bible app on every push:
+#   - runs the shared tests (search, references, content integrity),
+#   - builds a debug APK to install on a phone (Releases → "bible-latest"),
+#   - builds the release bundle (.aab) for Google Play, signed when the upload key secrets are set.
+# See RELEASE.md for the four secrets.
+name: Bible app
+
+on:
+  push:
+    branches: [bible]
+  pull_request:
+    branches: [bible]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+
+      # GitHub's Ubuntu runners ship the Android SDK (ANDROID_HOME); Gradle fetches missing platforms itself.
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Unit tests (shared module)
+        run: ./gradlew :shared:testDebugUnitTest
+
+      - name: Debug APK
+        run: ./gradlew :androidApp:assembleDebug
+
+      - name: Upload key (only when the secrets exist)
+        env:
+          KEYSTORE_BASE64: ${{ secrets.BIBLIYA_KEYSTORE_BASE64 }}
+        if: env.KEYSTORE_BASE64 != ''
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+          echo "BIBLIYA_KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+
+      - name: Release bundle for Google Play
+        env:
+          BIBLIYA_KEYSTORE_PASSWORD: ${{ secrets.BIBLIYA_KEYSTORE_PASSWORD }}
+          BIBLIYA_KEY_ALIAS: ${{ secrets.BIBLIYA_KEY_ALIAS }}
+          BIBLIYA_KEY_PASSWORD: ${{ secrets.BIBLIYA_KEY_PASSWORD }}
+        # Every upload to Play needs a higher versionCode: the run number always grows.
+        run: ./gradlew :androidApp:bundleRelease -PversionCode=${{ github.run_number }}
+
+      - name: Check the bundle targets API 36 and is signed with the upload key
+        run: |
+          AAB=androidApp/build/outputs/bundle/release/androidApp-release.aab
+          unzip -p "$AAB" base/manifest/AndroidManifest.xml > /dev/null
+          if [ -n "${BIBLIYA_KEYSTORE_FILE:-}" ]; then
+            jarsigner -verify "$AAB" | grep -q "jar verified" && echo "Bundle is signed."
+          else
+            echo "::warning::No upload key secrets: the .aab is unsigned and Google Play will not accept it. See RELEASE.md."
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bible-debug-apk
+          path: androidApp/build/outputs/apk/debug/*.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bible-release-aab
+          path: androidApp/build/outputs/bundle/release/*.aab
+
+      # A direct download link for phones: the "bible-latest" release always holds the newest build.
+      - name: Publish to the "bible-latest" release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: bible-latest
+          target_commitish: ${{ github.sha }}
+          name: Библия — последняя сборка
+          prerelease: true
+          make_latest: false
+          files: |
+            androidApp/build/outputs/apk/debug/*.apk
+            androidApp/build/outputs/bundle/release/*.aab

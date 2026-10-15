@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and older: back up bookmarks and settings, not the Bible text (it is rebuilt from the app). -->
+<full-backup-content>
+    <include domain="database" path="bibliya.db" />
+    <include domain="sharedpref" path="." />
+</full-backup-content>
