@@ -89,7 +89,7 @@ class AppViewModel(
     init {
         // Import the translation being read first, then the other one in the background.
         viewModelScope.launch {
-            translation.distinctUntilChanged().collect { lang -> ensure(lang) }
+            translation.collect { lang -> ensure(lang) }
         }
     }
 
