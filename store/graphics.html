@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- Source of the Google Play icon (512×512) and feature graphics (1024×500).
+     Rendered by tools/render_store_graphics.js. The book-and-cross mark is the launcher icon's vector. -->
+<html><head><meta charset="utf-8"><style>
+  body { margin: 0; }
+  .icon { width: 512px; height: 512px; background: #6E2433; }
+  .feature { width: 1024px; height: 500px; position: relative; overflow: hidden;
+    background: radial-gradient(circle at 22% 45%, #8A3343 0%, #6E2433 45%, #4E1823 100%); }
+  .feature svg { position: absolute; left: 64px; top: 70px; width: 360px; height: 360px; }
+  .feature .text { position: absolute; left: 440px; top: 0; bottom: 0; right: 56px;
+    display: flex; flex-direction: column; justify-content: center; color: #FAF7F0; }
+  .title { font-family: 'Liberation Serif', serif; font-weight: 700; font-size: 104px; line-height: 1; letter-spacing: 1px; }
+  .rule { width: 120px; height: 4px; background: #E5C27E; margin: 26px 0 22px; border-radius: 2px; }
+  .sub { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 38px; line-height: 1.2; }
+  .small { font-family: 'Inter', sans-serif; font-size: 24px; color: #E8D9C8; margin-top: 18px; line-height: 1.35; }
+</style></head><body>
+<template id="mark"><svg viewBox="18 13 72 72" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#FFFFFF" d="M54,46c-7,-5 -15,-7 -23,-7v30c8,0 16,2 23,7c7,-5 15,-7 23,-7V39C69,39 61,41 54,46z"/>
+  <path fill="#6E2433" d="M53.2,47.5h1.6v26h-1.6z"/>
+  <path fill="#E5C27E" d="M52,22h4v8h7v4h-7v9h-4v-9h-7v-4h7z"/>
+</svg></template>
+<div id="root"></div>
+<script>
+  const mark = document.getElementById('mark').innerHTML;
+  const kind = new URLSearchParams(location.search).get('kind');
+  const root = document.getElementById('root');
+  const copy = {
+    ru: { title: 'Библия', sub: 'Что читать сегодня', small: 'Слово на каждую ситуацию.<br>Синодальный перевод, без интернета.' },
+    en: { title: 'Bible', sub: 'What to read today', small: 'A word for every situation.<br>King James Version, fully offline.' },
+  };
+  if (kind === 'icon') {
+    root.innerHTML = `<div class="icon">${mark.replace('<svg', '<svg width="512" height="512"')}</div>`;
+  } else {
+    const c = copy[kind];
+    root.innerHTML = `<div class="feature">${mark}<div class="text"><div class="title">${c.title}</div><div class="rule"></div><div class="sub">${c.sub}</div><div class="small">${c.small}</div></div></div>`;
+  }
+</script>
+</body></html>
