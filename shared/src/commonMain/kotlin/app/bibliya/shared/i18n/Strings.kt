@@ -149,7 +149,7 @@ val RuStrings = Strings(
     copy = "Копировать",
     share = "Поделиться",
     favorite = "Сохранить",
-    unfavorite = "Убрать из сохранённого",
+    unfavorite = "Убрать из закладок",
     openInBible = "Открыть главу",
     copied = "Скопировано",
 

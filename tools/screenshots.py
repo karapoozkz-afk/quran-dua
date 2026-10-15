@@ -21,12 +21,12 @@ ACTIVITY = "app.bibliya.android.MainActivity"
 TEXT = {
     "ru": {
         "home": "Главная", "situations": "Что читать", "bible": "Библия", "saved": "Закладки", "more": "Ещё",
-        "example": "мне тревожно", "situation": "Тревога и страх", "open": "Открыть главу", "back": "Назад",
+        "example": "мне тревожно", "situation": "Тревога и страх", "open": "Открыть главу", "favorite": "Сохранить", "back": "Назад",
         "plan_start": "Начать план", "plan": "Библия за год", "dark": "Тёмная", "book": "Псалтирь", "chapter": "22",
     },
     "en": {
         "home": "Home", "situations": "Topics", "bible": "Bible", "saved": "Saved", "more": "More",
-        "example": "I feel anxious", "situation": "Anxiety and fear", "open": "Open chapter", "back": "Back",
+        "example": "I feel anxious", "situation": "Anxiety and fear", "open": "Open chapter", "favorite": "Save", "back": "Back",
         "plan_start": "Start the plan", "plan": "Bible in a year", "dark": "Dark", "book": "Psalms", "chapter": "23",
     },
 }
@@ -166,6 +166,7 @@ def walk(d, lang):
 
     # The full chapter in the reader (waits for the first-launch import of the Bible text).
     d.scroll_to(t["open"])
+    d.tap(t["favorite"])  # so the Saved tab has something to show
     d.tap(t["open"])
     time.sleep(8)
     d.shot(f"{lang}-5-reader")
