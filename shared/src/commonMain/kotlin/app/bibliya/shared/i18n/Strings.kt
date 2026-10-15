@@ -1,5 +1,7 @@
 package app.bibliya.shared.i18n
 
+import app.bibliya.shared.model.Tradition
+
 /** Every piece of interface text. Content (situations, passages, Bible text) carries its own languages. */
 data class Strings(
     val appName: String,
@@ -27,8 +29,9 @@ data class Strings(
     // Bible
     val oldTestament: String,
     val newTestament: String,
-    val deuterocanonical: String,
-    val deuterocanonicalNote: String,
+    /** The deuterocanonical books are named the way the reader's tradition names them. */
+    val deuterocanonical: (Tradition) -> String,
+    val deuterocanonicalNote: (Tradition) -> String,
     val chapter: String,
     val chapters: String,
     val loadingBible: String,
@@ -82,7 +85,7 @@ data class Strings(
     val themeSystem: String,
     val themeLight: String,
     val themeDark: String,
-    val showDeuterocanon: String,
+    val showDeuterocanon: (Tradition) -> String,
     val showDeuterocanonNote: String,
     val reminder: String,
     val reminderNote: String,
@@ -96,6 +99,11 @@ data class Strings(
     val privacyText: String,
     val feedback: String,
     val version: String,
+    val tradition: String,
+    val traditionQuestion: String,
+    val traditionNote: String,
+    val traditionName: (Tradition) -> String,
+    val traditionHint: (Tradition) -> String,
     val notificationChannel: String,
     val notificationTitle: String,
 )
@@ -129,8 +137,20 @@ val RuStrings = Strings(
 
     oldTestament = "Ветхий Завет",
     newTestament = "Новый Завет",
-    deuterocanonical = "неканоническая",
-    deuterocanonicalNote = "Неканонические книги входят в Синодальное издание. Их можно скрыть в настройках.",
+    deuterocanonical = { t ->
+        when (t) {
+            Tradition.CATHOLIC -> "второканоническая"
+            Tradition.PROTESTANT -> "апокриф"
+            else -> "неканоническая"
+        }
+    },
+    deuterocanonicalNote = { t ->
+        when (t) {
+            Tradition.CATHOLIC -> "Второканонические книги входят в Синодальное издание, там они названы неканоническими. Их можно скрыть в настройках."
+            Tradition.PROTESTANT -> "Апокрифы входят в Синодальное издание, но не в протестантский канон. Их можно скрыть в настройках."
+            else -> "Неканонические книги входят в Синодальное издание. Их можно скрыть в настройках."
+        }
+    },
     chapter = "Глава",
     chapters = "Главы",
     loadingBible = "Готовим текст Библии на телефоне. Это нужно сделать один раз.",
@@ -179,7 +199,13 @@ val RuStrings = Strings(
     themeSystem = "Как на телефоне",
     themeLight = "Светлая",
     themeDark = "Тёмная",
-    showDeuterocanon = "Показывать неканонические книги",
+    showDeuterocanon = { t ->
+        when (t) {
+            Tradition.CATHOLIC -> "Показывать второканонические книги"
+            Tradition.PROTESTANT -> "Показывать апокрифы"
+            else -> "Показывать неканонические книги"
+        }
+    },
     showDeuterocanonNote = "Товит, Иудифь, Премудрость, Сирах, Маккавейские и другие. Есть только в Синодальном переводе.",
     reminder = "Стих дня в уведомлении",
     reminderNote = "Одно уведомление в день, без рекламы.",
@@ -199,6 +225,25 @@ val RuStrings = Strings(
         "Приложению не нужен интернет, геолокация или доступ к контактам.",
     feedback = "Написать разработчику",
     version = "Версия",
+    tradition = "Традиция",
+    traditionQuestion = "К какой традиции вы ближе?",
+    traditionNote = "Текст Библии для всех один: Синодальный перевод. От выбора зависит только, показывать ли 11 книг Ветхого Завета, которых нет в протестантской Библии, и как их называть. Поменять можно в настройках.",
+    traditionName = { t ->
+        when (t) {
+            Tradition.ORTHODOX -> "Православная"
+            Tradition.CATHOLIC -> "Католическая"
+            Tradition.PROTESTANT -> "Протестантская"
+            else -> "Не важно"
+        }
+    },
+    traditionHint = { t ->
+        when (t) {
+            Tradition.ORTHODOX -> "Неканонические книги показаны"
+            Tradition.CATHOLIC -> "Второканонические книги показаны"
+            Tradition.PROTESTANT -> "Евангельские христиане, баптисты, пятидесятники, лютеране. Апокрифы скрыты"
+            else -> "Синодальное издание целиком"
+        }
+    },
     notificationChannel = "Стих дня",
     notificationTitle = "Стих дня",
 )
@@ -227,8 +272,11 @@ val EnStrings = Strings(
 
     oldTestament = "Old Testament",
     newTestament = "New Testament",
-    deuterocanonical = "deuterocanonical",
-    deuterocanonicalNote = "The deuterocanonical books are part of the Russian Synodal edition. You can hide them in settings.",
+    deuterocanonical = { t -> if (t == Tradition.PROTESTANT) "apocrypha" else "deuterocanonical" },
+    deuterocanonicalNote = { t ->
+        if (t == Tradition.PROTESTANT) "The Apocrypha are part of the Russian Synodal edition but not of the Protestant canon. You can hide them in settings."
+        else "The deuterocanonical books are part of the Russian Synodal edition. You can hide them in settings."
+    },
     chapter = "Chapter",
     chapters = "Chapters",
     loadingBible = "Preparing the Bible text on your phone. This happens only once.",
@@ -277,7 +325,7 @@ val EnStrings = Strings(
     themeSystem = "Same as phone",
     themeLight = "Light",
     themeDark = "Dark",
-    showDeuterocanon = "Show deuterocanonical books",
+    showDeuterocanon = { t -> if (t == Tradition.PROTESTANT) "Show the Apocrypha" else "Show deuterocanonical books" },
     showDeuterocanonNote = "Tobit, Judith, Wisdom, Sirach, Maccabees and others. Only in the Russian Synodal text.",
     reminder = "Verse of the day notification",
     reminderNote = "One notification a day, no ads.",
@@ -297,6 +345,25 @@ val EnStrings = Strings(
         "The app needs no internet, location or contacts.",
     feedback = "Contact the developer",
     version = "Version",
+    tradition = "Tradition",
+    traditionQuestion = "Which tradition are you closest to?",
+    traditionNote = "The Bible text is the same for everyone. Your choice only decides whether the deuterocanonical books, which Protestant Bibles leave out, are listed and what they are called. You can change it in settings.",
+    traditionName = { t ->
+        when (t) {
+            Tradition.ORTHODOX -> "Orthodox"
+            Tradition.CATHOLIC -> "Catholic"
+            Tradition.PROTESTANT -> "Protestant"
+            else -> "Doesn't matter"
+        }
+    },
+    traditionHint = { t ->
+        when (t) {
+            Tradition.ORTHODOX -> "Deuterocanonical books listed"
+            Tradition.CATHOLIC -> "Deuterocanonical books listed"
+            Tradition.PROTESTANT -> "Evangelical, Baptist, Pentecostal, Lutheran. Apocrypha hidden"
+            else -> "Every book of the edition"
+        }
+    },
     notificationChannel = "Verse of the day",
     notificationTitle = "Verse of the day",
 )

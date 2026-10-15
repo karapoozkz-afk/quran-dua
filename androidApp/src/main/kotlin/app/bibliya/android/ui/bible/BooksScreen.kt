@@ -32,6 +32,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import app.bibliya.android.ui.LocalSettings
 import app.bibliya.android.ui.LocalStrings
 import app.bibliya.android.ui.components.BackTopBar
 import app.bibliya.android.ui.components.NoticeCard
@@ -55,7 +56,7 @@ fun BooksScreen(books: List<Book>, lang: String, onOpenBook: (String) -> Unit) {
         }
         LazyColumn(contentPadding = PaddingValues(bottom = 16.dp)) {
             if (testament == 0 && shown.any { it.dc }) {
-                item { NoticeCard(strings.deuterocanonicalNote, Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) }
+                item { NoticeCard(strings.deuterocanonicalNote(LocalSettings.current.tradition), Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) }
             }
             items(shown, key = { it.id }) { book ->
                 Row(
@@ -65,7 +66,7 @@ fun BooksScreen(books: List<Book>, lang: String, onOpenBook: (String) -> Unit) {
                     Column(Modifier.weight(1f)) {
                         Text(book.name(lang), style = MaterialTheme.typography.bodyLarge)
                         if (book.dc) {
-                            Text(strings.deuterocanonical, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.secondary)
+                            Text(strings.deuterocanonical(LocalSettings.current.tradition), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.secondary)
                         }
                     }
                     Text(

@@ -119,6 +119,24 @@ data class PlanSegment(val book: String, val from: Int, val to: Int)
 
 enum class ThemeMode { SYSTEM, LIGHT, DARK }
 
+/**
+ * The reader's church tradition. The text is the Synodal translation for everyone; the tradition only decides
+ * whether the 11 deuterocanonical books are listed and what they are called:
+ * Orthodox "неканонические", Catholic "второканонические", Protestant "апокрифы" (hidden by default).
+ */
+enum class Tradition {
+    /** Not asked yet: the first launch shows the question. */
+    UNSET,
+    /** "Не важно": the Synodal edition as printed. */
+    ANY,
+    ORTHODOX,
+    CATHOLIC,
+    PROTESTANT;
+
+    /** Whether the deuterocanonical books are listed right after choosing this tradition. */
+    val showsDeuterocanon: Boolean get() = this != PROTESTANT
+}
+
 data class AppSettings(
     /** UI language; "" means follow the device. */
     val language: String = "",
@@ -134,4 +152,5 @@ data class AppSettings(
     val reminderMinute: Int = 8 * 60,
     /** Whether the notification permission was already asked for once. */
     val askedNotifications: Boolean = false,
+    val tradition: Tradition = Tradition.UNSET,
 )

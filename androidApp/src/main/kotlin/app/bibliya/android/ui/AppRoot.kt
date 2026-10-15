@@ -47,7 +47,9 @@ import app.bibliya.android.ui.situations.SituationScreen
 import app.bibliya.android.ui.situations.SituationsScreen
 import app.bibliya.android.ui.theme.BibleTheme
 import app.bibliya.shared.i18n.stringsFor
+import app.bibliya.shared.model.Tradition
 import app.bibliya.shared.model.VerseRef
+import app.bibliya.android.ui.welcome.TraditionScreen
 
 private enum class Tab(val icon: ImageVector) {
     HOME(Icons.Filled.Home),
@@ -83,6 +85,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
     val reference by viewModel.reference.collectAsState()
     val verseResults by viewModel.verseResults.collectAsState()
     val openVerse by deps.openVerseRequested.collectAsState()
+    val settingsLoaded by viewModel.settingsLoaded.collectAsState()
     val context = LocalContext.current
 
     var tab by rememberSaveable { mutableStateOf(Tab.HOME) }
@@ -102,10 +105,11 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
         Reminder.save(context, ReminderSettings(settings.dailyReminder, settings.reminderMinute, uiLanguage, translation))
         notificationsAllowed = deps.permissions.isGranted?.invoke("android.permission.POST_NOTIFICATIONS") ?: true
     }
-    // The verse of the day is on by default, so ask for notifications once, on first launch.
-    LaunchedEffect(Unit) {
+    // The verse of the day is on by default, so ask for notifications once, on first launch,
+    // after the saved settings are read and the tradition question is answered.
+    LaunchedEffect(settingsLoaded, settings.tradition) {
         val current = viewModel.settings.value
-        if (current.dailyReminder && !current.askedNotifications) {
+        if (settingsLoaded && current.tradition != Tradition.UNSET && current.dailyReminder && !current.askedNotifications) {
             viewModel.updateSettings { it.copy(askedNotifications = true) }
             deps.permissions.request("android.permission.POST_NOTIFICATIONS") { notificationsAllowed = it }
         }
@@ -132,7 +136,12 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
             LocalUiLanguage provides uiLanguage,
             LocalTranslation provides translation,
         ) {
-            when (val current = route) {
+            // Nothing until the saved settings are read; then the one first-launch question.
+            if (!settingsLoaded) {
+                Box(Modifier.fillMaxSize())
+            } else if (settings.tradition == Tradition.UNSET) {
+                TraditionScreen(onChoose = viewModel::chooseTradition)
+            } else when (val current = route) {
                 Route.Search -> SearchScreen(
                     query = query,
                     results = results,
@@ -285,6 +294,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                             Tab.MORE -> MoreScreen(
                                 notificationsAllowed = notificationsAllowed,
                                 onUpdateSettings = viewModel::updateSettings,
+                                onChooseTradition = viewModel::chooseTradition,
                                 onEnableReminder = {
                                     deps.permissions.request("android.permission.POST_NOTIFICATIONS") { notificationsAllowed = it }
                                 },

@@ -37,12 +37,15 @@ import app.bibliya.android.ui.LocalTranslation
 import app.bibliya.android.ui.components.SectionTitle
 import app.bibliya.shared.model.AppSettings
 import app.bibliya.shared.model.ThemeMode
+import app.bibliya.shared.model.Tradition
+import app.bibliya.android.ui.welcome.TRADITION_CHOICES
 
 @OptIn(ExperimentalMaterial3Api::class, androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 @Composable
 fun MoreScreen(
     notificationsAllowed: Boolean,
     onUpdateSettings: ((AppSettings) -> AppSettings) -> Unit,
+    onChooseTradition: (Tradition) -> Unit,
     onEnableReminder: () -> Unit,
 ) {
     val strings = LocalStrings.current
@@ -93,8 +96,16 @@ fun MoreScreen(
             }
         }
         item {
+            ChoiceRow(
+                title = strings.tradition,
+                options = TRADITION_CHOICES.map { it.name to strings.traditionName(it) },
+                selected = settings.tradition.name,
+                onSelect = { name -> onChooseTradition(Tradition.valueOf(name)) },
+            )
+        }
+        item {
             ListItem(
-                headlineContent = { Text(strings.showDeuterocanon) },
+                headlineContent = { Text(strings.showDeuterocanon(settings.tradition)) },
                 supportingContent = { Text(strings.showDeuterocanonNote) },
                 trailingContent = {
                     Switch(checked = settings.showDeuterocanon, onCheckedChange = { on -> onUpdateSettings { it.copy(showDeuterocanon = on) } })

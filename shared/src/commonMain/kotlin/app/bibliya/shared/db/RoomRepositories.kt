@@ -88,6 +88,7 @@ class RoomUserDataRepository(db: AppDatabase) : UserDataRepository {
                 SettingEntity(KEY_REMINDER, updated.dailyReminder.toString()),
                 SettingEntity(KEY_REMINDER_MINUTE, updated.reminderMinute.toString()),
                 SettingEntity(KEY_ASKED_NOTIFICATIONS, updated.askedNotifications.toString()),
+                SettingEntity(KEY_TRADITION, updated.tradition.name),
             )
         )
     }
@@ -151,6 +152,7 @@ class RoomUserDataRepository(db: AppDatabase) : UserDataRepository {
             dailyReminder = map[KEY_REMINDER]?.toBooleanStrictOrNull() ?: defaults.dailyReminder,
             reminderMinute = map[KEY_REMINDER_MINUTE]?.toIntOrNull() ?: defaults.reminderMinute,
             askedNotifications = map[KEY_ASKED_NOTIFICATIONS]?.toBooleanStrictOrNull() ?: defaults.askedNotifications,
+            tradition = map[KEY_TRADITION]?.let { name -> Tradition.entries.firstOrNull { it.name == name } } ?: defaults.tradition,
         )
     }
 
@@ -163,6 +165,7 @@ class RoomUserDataRepository(db: AppDatabase) : UserDataRepository {
         const val KEY_REMINDER = "daily_reminder"
         const val KEY_REMINDER_MINUTE = "reminder_minute"
         const val KEY_ASKED_NOTIFICATIONS = "asked_notifications"
+        const val KEY_TRADITION = "tradition"
         const val KEY_LAST_READ = "last_read"
         const val KEY_PLAN_START = "plan_start"
     }

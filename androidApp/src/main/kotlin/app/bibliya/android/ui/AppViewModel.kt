@@ -7,6 +7,7 @@ import app.bibliya.shared.data.ContentRepository
 import app.bibliya.shared.data.UserDataRepository
 import app.bibliya.shared.data.translationFor
 import app.bibliya.shared.model.AppSettings
+import app.bibliya.shared.model.Tradition
 import app.bibliya.shared.model.Bookmark
 import app.bibliya.shared.model.ReadingPosition
 import app.bibliya.shared.model.Verse
@@ -43,6 +44,10 @@ class AppViewModel(
 
     val settings: StateFlow<AppSettings> =
         user.settings.stateIn(viewModelScope, SharingStarted.Eagerly, AppSettings())
+
+    /** False until the saved settings are read, so first-launch questions don't flash for returning users. */
+    val settingsLoaded: StateFlow<Boolean> =
+        user.settings.map { true }.stateIn(viewModelScope, SharingStarted.Eagerly, false)
 
     /** The chosen language, or the device language when the user has not chosen one. */
     val uiLanguage: StateFlow<String> = settings
@@ -145,6 +150,10 @@ class AppViewModel(
     fun startPlan() = viewModelScope.launch { user.setPlanStart(today()) }.let { }
 
     fun resetPlan() = viewModelScope.launch { user.setPlanStart(null) }.let { }
+
+    /** Picking a tradition also sets whether the deuterocanonical books are listed; the switch can still change it. */
+    fun chooseTradition(tradition: Tradition) =
+        updateSettings { it.copy(tradition = tradition, showDeuterocanon = tradition.showsDeuterocanon) }
 
     fun updateSettings(transform: (AppSettings) -> AppSettings) =
         viewModelScope.launch { user.updateSettings(transform) }.let { }

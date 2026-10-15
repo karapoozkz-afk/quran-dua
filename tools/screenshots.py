@@ -20,12 +20,12 @@ ACTIVITY = "app.bibliya.android.MainActivity"
 # What to tap on each screen, by visible text or accessibility label, per interface language.
 TEXT = {
     "ru": {
-        "home": "Главная", "situations": "Что читать", "bible": "Библия", "saved": "Закладки", "more": "Ещё",
+        "tradition": "К какой традиции вы ближе?", "any": "Не важно", "home": "Главная", "situations": "Что читать", "bible": "Библия", "saved": "Закладки", "more": "Ещё",
         "example": "мне тревожно", "situation": "Тревога и страх", "open": "Открыть главу", "favorite": "Сохранить", "back": "Назад",
         "plan_start": "Начать план", "plan": "Библия за год", "dark": "Тёмная", "book": "Псалтирь", "chapter": "22",
     },
     "en": {
-        "home": "Home", "situations": "Topics", "bible": "Bible", "saved": "Saved", "more": "More",
+        "tradition": "Which tradition are you closest to?", "any": "Doesn't matter", "home": "Home", "situations": "Topics", "bible": "Bible", "saved": "Saved", "more": "More",
         "example": "I feel anxious", "situation": "Anxiety and fear", "open": "Open chapter", "favorite": "Save", "back": "Back",
         "plan_start": "Start the plan", "plan": "Bible in a year", "dark": "Dark", "book": "Psalms", "chapter": "23",
     },
@@ -161,6 +161,10 @@ def fresh_start(lang):
 def walk(d, lang):
     t = TEXT[lang]
     fresh_start(lang)
+    # The first launch asks for the reader's tradition before anything else.
+    d.wait_for(t["tradition"], timeout=60)
+    d.shot(f"{lang}-0-tradition")
+    d.tap(t["any"])
     d.wait_for(t["home"], timeout=60)
     d.shot(f"{lang}-1-home")
 
