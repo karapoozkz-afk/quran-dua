@@ -4,9 +4,13 @@
     <cloud-backup>
         <exclude domain="file" path="journal/" />
         <exclude domain="sharedpref" path="journal_lock.xml" />
+    <exclude domain="sharedpref" path="wall.xml" />
+        <exclude domain="sharedpref" path="wall.xml" />
     </cloud-backup>
     <device-transfer>
         <exclude domain="file" path="journal/" />
         <exclude domain="sharedpref" path="journal_lock.xml" />
+    <exclude domain="sharedpref" path="wall.xml" />
+        <exclude domain="sharedpref" path="wall.xml" />
     </device-transfer>
 </data-extraction-rules>

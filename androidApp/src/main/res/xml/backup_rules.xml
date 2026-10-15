@@ -3,4 +3,5 @@
 <full-backup-content>
     <exclude domain="file" path="journal/" />
     <exclude domain="sharedpref" path="journal_lock.xml" />
+    <exclude domain="sharedpref" path="wall.xml" />
 </full-backup-content>

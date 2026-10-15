@@ -28,6 +28,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
+import androidx.compose.material3.Tab
+import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -48,6 +50,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import app.qurandua.android.ui.JournalController
+import app.qurandua.android.ui.WallController
+import app.qurandua.shared.journal.wallStringsFor
 import app.qurandua.android.ui.components.BackTopBar
 import app.qurandua.android.ui.components.DuaCard
 import app.qurandua.android.ui.components.NoticeCard
@@ -72,6 +76,7 @@ import kotlinx.datetime.toLocalDateTime
 @Composable
 fun JournalScreen(
     journal: JournalController,
+    wall: WallController?,
     language: String,
     duas: List<DuaItem>,
     favorites: Set<String>,
@@ -79,16 +84,27 @@ fun JournalScreen(
     onBack: () -> Unit,
 ) {
     val s = journalStringsFor(language)
+    val w = wallStringsFor(language)
     val hasPin by journal.hasPin.collectAsState()
     var unlocked by rememberSaveable { mutableStateOf(false) }
+    // Shared first, as asked; the personal tab is one tap away.
+    var tab by rememberSaveable { mutableStateOf(if (wall == null) 1 else 0) }
     LifecycleEventEffect(Lifecycle.Event.ON_STOP) { unlocked = false }
     SecureWindow()
 
     Scaffold(topBar = { BackTopBar(s.title, onBack) }) { padding ->
-        if (hasPin && !unlocked) {
-            PinGate(journal, s, onUnlocked = { unlocked = true }, modifier = Modifier.padding(padding))
-        } else {
-            JournalBody(journal, s, duas, favorites, onOpenInQuran, onPinSet = { unlocked = true }, modifier = Modifier.padding(padding))
+        Column(Modifier.padding(padding)) {
+            if (wall != null) {
+                TabRow(selectedTabIndex = tab) {
+                    Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text(w.tabWall) })
+                    Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text(w.tabMine) })
+                }
+            }
+            when {
+                wall != null && tab == 0 -> WallTab(wall, language, s, w)
+                hasPin && !unlocked -> PinGate(journal, s, onUnlocked = { unlocked = true }, modifier = Modifier)
+                else -> JournalBody(journal, s, duas, favorites, onOpenInQuran, onPinSet = { unlocked = true }, modifier = Modifier)
+            }
         }
     }
 }
@@ -347,7 +363,7 @@ private fun ConfirmDialog(text: String, confirm: String, cancel: String, onConfi
 }
 
 /** Numeric date and time, readable in every language: 15.10.2026 14:05. */
-private fun formatDate(millis: Long): String {
+internal fun formatDate(millis: Long): String {
     val t = Instant.fromEpochMilliseconds(millis).toLocalDateTime(TimeZone.currentSystemDefault())
     fun two(n: Int) = n.toString().padStart(2, '0')
     return "${two(t.dayOfMonth)}.${two(t.monthNumber)}.${t.year} ${two(t.hour)}:${two(t.minute)}"

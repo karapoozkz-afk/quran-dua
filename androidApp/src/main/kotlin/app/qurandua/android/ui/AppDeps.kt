@@ -104,6 +104,20 @@ interface JournalController {
     fun waitMillis(): Long
 }
 
+/** The shared repentance wall (platform/WallPlatform.kt). Calls throw on network errors. */
+interface WallController {
+    /** False until the build carries the Firebase project; the wall then says it opens soon. */
+    val configured: Boolean
+    suspend fun posts(lang: String): List<app.qurandua.shared.journal.WallPost>
+    /** Sends a post for review; it shows up once the moderator approves it. */
+    suspend fun send(text: String, kind: app.qurandua.shared.journal.JournalKind, lang: String)
+    suspend fun dua(postId: String, index: Int)
+    suspend fun report(postId: String)
+    /** The ready-made dua this phone already gave under a post, if any. */
+    fun myDua(postId: String): Int?
+    fun reported(postId: String): Boolean
+}
+
 /** Lets screens ask for a runtime permission; MainActivity plugs in the real launcher. */
 class PermissionRequester {
     var launcher: ((permission: String, onResult: (Boolean) -> Unit) -> Unit)? = null
@@ -129,6 +143,7 @@ class AppDeps(
     val lessons: List<app.qurandua.shared.learn.Lesson> = emptyList(),
     val daily: DailyController? = null,
     val journal: JournalController? = null,
+    val wall: WallController? = null,
 )
 
 val LocalDeps = staticCompositionLocalOf<AppDeps> { error("AppDeps not provided") }

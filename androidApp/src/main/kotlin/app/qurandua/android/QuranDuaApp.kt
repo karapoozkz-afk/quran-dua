@@ -12,6 +12,7 @@ import app.qurandua.android.platform.PrayerAlarms
 import app.qurandua.android.platform.AndroidDailyController
 import app.qurandua.android.platform.DailyAlarms
 import app.qurandua.android.platform.AndroidJournalController
+import app.qurandua.android.platform.AndroidWallController
 import app.qurandua.android.ui.AppDeps
 import app.qurandua.android.ui.PermissionRequester
 import app.qurandua.shared.data.ContentRepository
@@ -57,6 +58,7 @@ class QuranDuaApp : Application() {
             lessons = app.qurandua.shared.learn.LessonParser.parse(readAsset("content/lessons.json")),
             daily = AndroidDailyController(this),
             journal = AndroidJournalController(this),
+            wall = AndroidWallController(this),
         )
     }
 

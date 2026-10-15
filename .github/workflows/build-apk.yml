@@ -30,6 +30,10 @@ jobs:
 
       - name: Debug APK
         run: ./gradlew :androidApp:assembleDebug
+        env:
+          # The shared repentance wall's Firebase project; without these secrets the wall says it opens soon.
+          WALL_PROJECT_ID: ${{ secrets.WALL_PROJECT_ID }}
+          WALL_API_KEY: ${{ secrets.WALL_API_KEY }}
 
       - uses: actions/upload-artifact@v4
         with:

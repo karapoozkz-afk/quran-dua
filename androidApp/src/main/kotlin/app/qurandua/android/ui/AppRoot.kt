@@ -173,6 +173,7 @@ fun AppRoot(viewModel: AppViewModel, deps: AppDeps) {
                 Route.Journal -> deps.journal?.let {
                     JournalScreen(
                         journal = it,
+                        wall = deps.wall,
                         language = uiLanguage,
                         duas = remember { viewModel.duasFor("forgiveness") },
                         favorites = favorites,
