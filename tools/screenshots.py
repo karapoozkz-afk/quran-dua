@@ -197,6 +197,8 @@ def walk(d, lang):
     d.shot(f"{lang}-10-more")
     d.tap(t["dark"])
     d.tap(t["home"])
+    for _ in range(4):  # the home list keeps its scroll position: back to the top
+        shell("input swipe 540 600 540 1600 200")
     d.shot(f"{lang}-11-home-dark")
     d.assert_alive("the whole walk")
 

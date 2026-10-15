@@ -287,6 +287,10 @@ def main():
             print(f"\n== votd {refs['ru']} | {refs['en']}")
             print("  ru:", " ".join(t for _, t in text["ru"])[:200])
             print("  en:", " ".join(t for _, t in text["en"])[:200])
+        # The verse of the day is shown alone, so it must not stop in the middle of a sentence.
+        for lang in LANGS:
+            if text[lang][-1][1].rstrip()[-1] in ",—":
+                err(f"{where}: {lang} text stops mid-sentence; extend the reference")
         votd_out.append({"ref": refs, "text": text})
     if len({json.dumps(v["ref"]) for v in votd_out}) != len(votd_out):
         err("votd has duplicates")
