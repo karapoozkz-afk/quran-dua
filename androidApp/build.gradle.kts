@@ -63,6 +63,14 @@ android {
             // Never fall back to the debug key: Play refuses debug-signed uploads.
             if (hasUploadKey) signingConfig = signingConfigs.getByName("upload")
         }
+        // The Play build exactly (R8 shrinking and obfuscation), signed with the debug key so an emulator can
+        // install it. Only CI's screen walk uses it; it is never uploaded to Google Play.
+        create("releaseTest") {
+            initWith(getByName("release"))
+            signingConfig = signingConfigs.getByName("debug")
+            applicationIdSuffix = ".rtest"
+            matchingFallbacks += listOf("release")
+        }
     }
 
     buildFeatures {

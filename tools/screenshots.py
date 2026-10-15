@@ -14,7 +14,7 @@ import sys
 import time
 import xml.etree.ElementTree as ET
 
-PKG = "app.bibliya.debug"
+PKG = "app.bibliya.debug"  # set from --package
 ACTIVITY = "app.bibliya.android.MainActivity"
 
 # What to tap on each screen, by visible text or accessibility label, per interface language.
@@ -226,7 +226,10 @@ def main():
     p.add_argument("--apk", required=True)
     p.add_argument("--out", default="screenshots")
     p.add_argument("--langs", default="ru,en")
+    p.add_argument("--package", default="app.bibliya.debug", help="application id of the installed build")
     a = p.parse_args()
+    global PKG
+    PKG = a.package
 
     adb("install", "-r", "-g", a.apk, timeout=300)
     demo_status_bar()
