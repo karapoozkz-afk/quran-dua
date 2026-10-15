@@ -132,11 +132,14 @@ jobs:
           name: bible-screenshots
           path: screenshots/
 
-      - name: Add screenshots to the "bible-latest" release
-        if: github.event_name == 'push' && hashFiles('bible-screenshots.zip') != ''
+      # A separate release so a failed walk never touches the APK/AAB release; the zip shows what went wrong.
+      - name: Publish screenshots to the "bible-screenshots" release
+        if: always() && github.event_name == 'push' && hashFiles('bible-screenshots.zip') != ''
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: bible-latest
+          tag_name: bible-screenshots
+          target_commitish: ${{ github.sha }}
+          name: Библия — скриншоты для Google Play
           prerelease: true
           make_latest: false
           files: bible-screenshots.zip

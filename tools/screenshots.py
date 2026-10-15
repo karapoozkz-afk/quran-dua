@@ -107,6 +107,14 @@ class Driver:
         time.sleep(1)
         self.assert_alive("pressing back")
 
+    def back_until(self, label, tries=4):
+        """Back until [label] shows: the first back may only close the keyboard."""
+        for _ in range(tries):
+            self.back()
+            if self.find(label):
+                return
+        raise RuntimeError(f"'{label}' did not come back after pressing back")
+
     def shot(self, name):
         time.sleep(1.5)
         path = os.path.join(self.out, f"{name}.png")
@@ -147,7 +155,7 @@ def walk(d, lang):
     d.tap(t["example"])
     d.wait_for(t["situation"], exact=False)
     d.shot(f"{lang}-2-search")
-    d.back()
+    d.back_until(t["situations"])
 
     # Situations grid, then one situation with its passages.
     d.tap(t["situations"])
@@ -159,8 +167,7 @@ def walk(d, lang):
     d.tap(t["open"])
     time.sleep(8)
     d.shot(f"{lang}-5-reader")
-    d.back()
-    d.back()
+    d.back_until(t["home"])
 
     # Bible in a year.
     d.tap(t["home"])
@@ -168,7 +175,7 @@ def walk(d, lang):
     d.tap(t["plan_start"])
     d.tap(t["plan"])
     d.shot(f"{lang}-6-plan")
-    d.back()
+    d.back_until(t["bible"])
 
     # Books list and a psalm, read from the Bible tab.
     d.tap(t["bible"])
@@ -179,8 +186,7 @@ def walk(d, lang):
     d.tap(t["chapter"])
     time.sleep(3)
     d.shot(f"{lang}-8-psalm")
-    d.back()
-    d.back()
+    d.back_until(t["saved"])
 
     # Saved and settings; then dark theme on the home screen.
     d.tap(t["saved"])
