@@ -4,6 +4,10 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
+/** Shared repentance wall (Firebase): -PwallProjectId=… or the WALL_PROJECT_ID env (a CI secret). Empty = wall off. */
+fun wallSetting(property: String, env: String): String =
+    (providers.gradleProperty(property).orNull ?: System.getenv(env) ?: "").trim()
+
 android {
     namespace = "app.qurandua.android"
     compileSdk = 35
@@ -15,6 +19,8 @@ android {
         versionCode = 1
         versionName = "0.1.0"
         // The app ships every language; no resource stripping.
+        buildConfigField("String", "WALL_PROJECT_ID", "\"${wallSetting("wallProjectId", "WALL_PROJECT_ID")}\"")
+        buildConfigField("String", "WALL_API_KEY", "\"${wallSetting("wallApiKey", "WALL_API_KEY")}\"")
         resourceConfigurations += listOf("ru", "kk", "ky", "uz", "en", "ar", "es", "tr", "in", "id", "ur")
     }
 
@@ -38,6 +44,7 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     compileOptions {
