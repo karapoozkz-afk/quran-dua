@@ -32,8 +32,14 @@ TEXT = {
 }
 
 
-def adb(*args, check=True, capture=True):
-    r = subprocess.run(["adb", *args], capture_output=capture, text=True)
+def adb(*args, check=True, capture=True, timeout=90):
+    # uiautomator can hang on a busy emulator; a timeout turns that into a retry instead of a stuck job.
+    try:
+        r = subprocess.run(["adb", *args], capture_output=capture, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        if check:
+            raise RuntimeError(f"adb {' '.join(args)} timed out")
+        return ""
     if check and r.returncode != 0:
         raise RuntimeError(f"adb {' '.join(args)} failed: {r.stderr.strip()}")
     return r.stdout if capture else ""
@@ -126,7 +132,7 @@ class Driver:
         time.sleep(1.5)
         path = os.path.join(self.out, f"{name}.png")
         with open(path, "wb") as f:
-            f.write(subprocess.run(["adb", "exec-out", "screencap", "-p"], capture_output=True, check=True).stdout)
+            f.write(subprocess.run(["adb", "exec-out", "screencap", "-p"], capture_output=True, check=True, timeout=60).stdout)
         print(f"saved {path}")
 
 
@@ -218,7 +224,7 @@ def main():
     p.add_argument("--langs", default="ru,en")
     a = p.parse_args()
 
-    adb("install", "-r", "-g", a.apk)
+    adb("install", "-r", "-g", a.apk, timeout=300)
     demo_status_bar()
     d = Driver(a.out)
     failed = []
