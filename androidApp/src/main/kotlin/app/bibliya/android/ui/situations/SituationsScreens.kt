@@ -73,7 +73,6 @@ fun SituationsScreen(situations: List<Situation>, onOpenSituation: (String) -> U
                         s.subtitle.pick(lang),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        maxLines = 2,
                     )
                 }
             }

@@ -25,7 +25,7 @@ TEXT = {
         "plan_start": "Начать план", "plan": "Библия за год", "dark": "Тёмная", "book": "Псалтирь", "chapter": "22",
     },
     "en": {
-        "home": "Home", "situations": "What to read", "bible": "Bible", "saved": "Saved", "more": "More",
+        "home": "Home", "situations": "Topics", "bible": "Bible", "saved": "Saved", "more": "More",
         "example": "I feel anxious", "situation": "Anxiety and fear", "open": "Open chapter", "back": "Back",
         "plan_start": "Start the plan", "plan": "Bible in a year", "dark": "Dark", "book": "Psalms", "chapter": "23",
     },
