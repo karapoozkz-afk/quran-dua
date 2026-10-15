@@ -151,7 +151,8 @@ def cut(bible, ref, where):
     if v2 > len(verses):
         err(f"{where}: {ref} past the last verse ({len(verses)})")
         return []
-    return [[n, verses[n - 1]] for n in range(v1, v2 + 1)]
+    # Verse numbers as strings: the app reads each verse as a list of strings.
+    return [[str(n), verses[n - 1]] for n in range(v1, v2 + 1)]
 
 
 def refs_for(item, bibles, where):
