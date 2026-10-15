@@ -66,30 +66,33 @@ class Driver:
             time.sleep(1)
         raise RuntimeError("uiautomator dump failed")
 
-    def find(self, label, exact=True):
-        root = self.dump()
-        for node in root.iter("node"):
+    def find(self, label, exact=True, lowest=False):
+        """Center of the first node showing [label]; with [lowest], the one nearest the bottom (the tab bar)."""
+        found = []
+        for node in self.dump().iter("node"):
             for attr in ("text", "content-desc"):
                 value = node.get(attr, "")
                 if (value == label) if exact else (label in value):
                     m = re.findall(r"\d+", node.get("bounds", ""))
                     if len(m) == 4:
                         x1, y1, x2, y2 = map(int, m)
-                        return (x1 + x2) // 2, (y1 + y2) // 2
-        return None
+                        found.append(((x1 + x2) // 2, (y1 + y2) // 2))
+        if not found:
+            return None
+        return max(found, key=lambda p: p[1]) if lowest else found[0]
 
-    def wait_for(self, label, timeout=40, exact=True):
+    def wait_for(self, label, timeout=40, exact=True, lowest=False):
         end = time.time() + timeout
         while time.time() < end:
-            pos = self.find(label, exact)
+            pos = self.find(label, exact, lowest)
             if pos:
                 return pos
             self.assert_alive(f"waiting for '{label}'")
             time.sleep(1)
         raise RuntimeError(f"'{label}' did not appear on screen")
 
-    def tap(self, label, exact=True, timeout=40):
-        x, y = self.wait_for(label, timeout, exact)
+    def tap(self, label, exact=True, timeout=40, lowest=False):
+        x, y = self.wait_for(label, timeout, exact, lowest)
         shell(f"input tap {x} {y}")
         time.sleep(1.2)
         self.assert_alive(f"tapping '{label}'")
@@ -101,6 +104,10 @@ class Driver:
             shell("input swipe 540 1500 540 700 300")
             time.sleep(0.6)
         raise RuntimeError(f"could not scroll to '{label}'")
+
+    def tab(self, label):
+        """Tab bar labels also appear as headings ("Что читать"): tap the bottom-most one."""
+        self.tap(label, lowest=True)
 
     def back(self):
         shell("input keyevent KEYCODE_BACK")
@@ -159,7 +166,7 @@ def walk(d, lang):
     d.back_until(t["situations"])
 
     # Situations grid, then one situation with its passages.
-    d.tap(t["situations"])
+    d.tab(t["situations"])
     d.shot(f"{lang}-3-situations")
     d.tap(t["situation"])
     d.shot(f"{lang}-4-situation")
@@ -173,7 +180,7 @@ def walk(d, lang):
     d.back_until(t["home"])
 
     # Bible in a year.
-    d.tap(t["home"])
+    d.tab(t["home"])
     d.scroll_to(t["plan_start"])
     d.tap(t["plan_start"])
     d.tap(t["plan"])
@@ -181,7 +188,7 @@ def walk(d, lang):
     d.back_until(t["bible"])
 
     # Books list and a psalm, read from the Bible tab.
-    d.tap(t["bible"])
+    d.tab(t["bible"])
     d.shot(f"{lang}-7-books")
     d.scroll_to(t["book"])
     d.tap(t["book"])
@@ -192,12 +199,12 @@ def walk(d, lang):
     d.back_until(t["saved"])
 
     # Saved and settings; then dark theme on the home screen.
-    d.tap(t["saved"])
+    d.tab(t["saved"])
     d.shot(f"{lang}-9-saved")
-    d.tap(t["more"])
+    d.tab(t["more"])
     d.shot(f"{lang}-10-more")
     d.tap(t["dark"])
-    d.tap(t["home"])
+    d.tab(t["home"])
     for _ in range(4):  # the home list keeps its scroll position: back to the top
         shell("input swipe 540 600 540 1600 200")
     d.shot(f"{lang}-11-home-dark")
