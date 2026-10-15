@@ -110,7 +110,7 @@ val RuStrings = Strings(
     navHome = "Главная",
     navBible = "Библия",
     navSituations = "Что читать",
-    navSaved = "Сохранённое",
+    navSaved = "Закладки",
     navMore = "Ещё",
     back = "Назад",
 

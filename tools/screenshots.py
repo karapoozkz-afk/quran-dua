@@ -20,7 +20,7 @@ ACTIVITY = "app.bibliya.android.MainActivity"
 # What to tap on each screen, by visible text or accessibility label, per interface language.
 TEXT = {
     "ru": {
-        "home": "Главная", "situations": "Что читать", "bible": "Библия", "saved": "Сохранённое", "more": "Ещё",
+        "home": "Главная", "situations": "Что читать", "bible": "Библия", "saved": "Закладки", "more": "Ещё",
         "example": "мне тревожно", "situation": "Тревога и страх", "open": "Открыть главу", "back": "Назад",
         "plan_start": "Начать план", "plan": "Библия за год", "dark": "Тёмная", "book": "Псалтирь", "chapter": "22",
     },
@@ -130,7 +130,7 @@ def demo_status_bar():
         "-e command enter",
         "-e command clock -e hhmm 0900",
         "-e command battery -e level 100 -e plugged false",
-        "-e command network -e wifi show -e level 4 -e mobile show -e datatype none -e level 4",
+        "-e command network -e wifi show -e level 4 -e fully true -e mobile show -e datatype none -e level 4",
         "-e command notifications -e visible false",
     ):
         shell(f"am broadcast -a com.android.systemui.demo {cmd}", check=False)
@@ -154,6 +154,7 @@ def walk(d, lang):
     # "What should I read?" search with a natural phrase.
     d.tap(t["example"])
     d.wait_for(t["situation"], exact=False)
+    d.back()  # hides the keyboard, the search stays open
     d.shot(f"{lang}-2-search")
     d.back_until(t["situations"])
 
@@ -164,6 +165,7 @@ def walk(d, lang):
     d.shot(f"{lang}-4-situation")
 
     # The full chapter in the reader (waits for the first-launch import of the Bible text).
+    d.scroll_to(t["open"])
     d.tap(t["open"])
     time.sleep(8)
     d.shot(f"{lang}-5-reader")
