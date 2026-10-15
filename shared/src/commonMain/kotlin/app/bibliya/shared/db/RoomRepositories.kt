@@ -8,6 +8,7 @@ import app.bibliya.shared.model.Book
 import app.bibliya.shared.model.Bookmark
 import app.bibliya.shared.model.ReadingPosition
 import app.bibliya.shared.model.ThemeMode
+import app.bibliya.shared.model.Tradition
 import app.bibliya.shared.model.Verse
 import app.bibliya.shared.search.TextNormalizer
 import app.bibliya.shared.util.currentTimeMillis
