@@ -7,7 +7,7 @@ Developer: sole proprietor [name], Kazakhstan. Contact: [email]
 
 ## Коротко
 
-Приложение работает без аккаунта, не показывает рекламу, не использует аналитику и не продаёт и не передаёт ваши данные. Всё, что вы сохраняете (избранное, закладки, настройки), хранится только на вашем телефоне.
+Приложение работает без аккаунта, не показывает рекламу, не использует аналитику и не продаёт ваши данные. Всё, что вы сохраняете (избранное, закладки, настройки, личный дневник), хранится только на вашем телефоне. На сервер уходит только то, что вы сами публикуете на общей стене покаяния.
 
 ## Какие данные используются
 
@@ -16,6 +16,8 @@ Developer: sole proprietor [name], Kazakhstan. Contact: [email]
 **Аудио чтения Корана.** Записи загружаются с сайта everyayah.com. Как любой сайт, он видит IP-адрес запроса. Загруженные суры хранятся на телефоне.
 
 **Уведомления.** Напоминания о намазе и хадисах создаются на самом телефоне по расписанию; сервер уведомлений не используется.
+
+**Общая стена покаяния.** Если вы публикуете запись на общей стене, приложение анонимно входит в Firebase (Google) и получает случайный технический идентификатор, не связанный с вашим именем, телефоном или email. Текст записи, её тип, язык и время хранятся в базе Google Cloud Firestore в Европе (Франкфурт). Автор у записи не хранится. Запись видна другим только после проверки модератором. Технический идентификатор хранится рядом с вашим ответом-дуа под чужой записью и с жалобой, чтобы каждый мог ответить или пожаловаться один раз. Не пишите в записях имён и данных, по которым можно узнать вас или других людей. Чтобы удалить запись, напишите на email выше, указав её текст. Личный дневник на стену не попадает: он зашифрован и хранится только на телефоне.
 
 **Поддержка проекта (покупки).** Оплата проходит через Google Play. Данные карты и платежа обрабатывает Google по своей политике (https://policies.google.com/privacy). Разработчик получает от Google только сведения о заказе (номер, сумма, страна) и не получает данные карты.
 
@@ -45,6 +47,7 @@ The app needs no account, shows no ads, uses no analytics, and does not sell or 
 
 - **Approximate location**, if you allow it, is used on the phone to calculate prayer times. It is not sent to the developer. When no built-in city is nearby, the coordinates go to Android's system geocoder (a Google service) to get the town's name. You can pick a city by hand instead.
 - **Quran audio** is downloaded from everyayah.com, which sees the request's IP address.
+- **Shared repentance wall:** posting signs the app in to Firebase anonymously (a random technical id, not linked to your name, phone or email). The post's text, type, language and time are stored in Google Cloud Firestore in Europe (Frankfurt) with no author field, and appear only after a moderator approves them. The technical id is stored with your dua reply and any report so each person can answer or report once. To delete a post, email us with its text. The private journal never leaves the phone and is encrypted.
 - **Notifications** are scheduled on the phone; no push server is used.
 - **Supporting the project** is paid through Google Play. Google processes the payment under its own policy; the developer receives order details (order number, amount, country), never card data.
 - **Android backup**, if enabled on your phone, may include the app's settings in your Google backup.
