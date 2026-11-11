@@ -93,5 +93,6 @@ dependencies {
     implementation(libs.media3.database)
     implementation(libs.androidx.core)
     implementation(libs.play.billing)
+    implementation(libs.androidx.fragment)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
 }
