@@ -82,6 +82,19 @@ jobs:
           make_latest: true
           files: androidApp/build/outputs/apk/debug/*.apk
 
+      # A phone link for a branch that is not merged yet: run the workflow by hand on that branch and
+      # its debug APK goes to the "test" pre-release (the "latest" release keeps main's build).
+      - name: Publish to the "test" release
+        if: github.event_name == 'workflow_dispatch' && github.ref_name != github.event.repository.default_branch
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: test
+          name: Тестовая сборка / Test build
+          body: Сборка ветки ${{ github.ref_name }} для проверки до слияния. Не для обычных пользователей.
+          prerelease: true
+          make_latest: false
+          files: androidApp/build/outputs/apk/debug/*.apk
+
   # R8 can strip classes that only reflection reaches; this catches a release build that crashes on start.
   launch-test:
     needs: build
