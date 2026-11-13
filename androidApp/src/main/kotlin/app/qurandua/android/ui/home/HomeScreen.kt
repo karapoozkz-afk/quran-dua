@@ -13,6 +13,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.filled.EditNote
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.VolunteerActivism
@@ -62,6 +63,9 @@ fun HomeScreen(
     language: String = "",
     onLanguage: ((String) -> Unit)? = null,
     onOpenDaily: () -> Unit = {},
+    journalTitle: String = "",
+    journalSubtitle: String = "",
+    onOpenJournal: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val strings = LocalStrings.current
@@ -172,6 +176,22 @@ fun HomeScreen(
                             Text(daily.title, style = MaterialTheme.typography.titleMedium)
                             Text(daily.summary, style = MaterialTheme.typography.bodyMedium)
                         }
+                    }
+                }
+            }
+        }
+        item {
+            // The private repentance journal: its own item, as asked, right after the daily hadith.
+            Card(onClick = onOpenJournal, modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Icon(Icons.Filled.EditNote, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    Column {
+                        Text(journalTitle, style = MaterialTheme.typography.titleMedium)
+                        Text(journalSubtitle, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
