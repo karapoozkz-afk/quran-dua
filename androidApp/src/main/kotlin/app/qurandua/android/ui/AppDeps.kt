@@ -118,6 +118,22 @@ interface WallController {
     fun reported(postId: String): Boolean
 }
 
+/** One way to support the project, with the price Google Play shows for the person's country. */
+data class SupportOption(val id: String, val price: String)
+
+enum class SupportResult { Thanks, Pending, Failed }
+
+/** "Support the project" through Google Play billing (platform/BillingPlatform.kt). */
+interface SupportController {
+    /** Empty until Play answers, and for good when the app did not come from Play. */
+    val options: StateFlow<List<SupportOption>>
+    /** What happened to the last purchase, until the screen shows it and calls [clearResult]. */
+    val result: StateFlow<SupportResult?>
+    fun connect()
+    fun buy(productId: String)
+    fun clearResult()
+}
+
 /** Lets screens ask for a runtime permission; MainActivity plugs in the real launcher. */
 class PermissionRequester {
     var launcher: ((permission: String, onResult: (Boolean) -> Unit) -> Unit)? = null
@@ -142,6 +158,7 @@ class AppDeps(
     /** Lessons on purification and prayer (assets/content/lessons.json). */
     val lessons: List<app.qurandua.shared.learn.Lesson> = emptyList(),
     val daily: DailyController? = null,
+    val support: SupportController? = null,
     val journal: JournalController? = null,
     val wall: WallController? = null,
 )

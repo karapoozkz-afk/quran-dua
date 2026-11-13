@@ -208,6 +208,15 @@ class DownloadService : Service() {
         return START_NOT_STICKY
     }
 
+    /**
+     * Android 15+ gives a dataSync service 6 hours a day; past that the system calls this and
+     * crashes the app unless the service stops. The download itself goes on while the app is open.
+     */
+    override fun onTimeout(startId: Int, fgsType: Int) {
+        ServiceCompat.stopForeground(this, ServiceCompat.STOP_FOREGROUND_REMOVE)
+        stopSelf()
+    }
+
     override fun onDestroy() {
         scope.coroutineContext[Job]?.cancel()
         super.onDestroy()

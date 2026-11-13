@@ -9,6 +9,7 @@ import app.qurandua.android.platform.AndroidPrayerController
 import app.qurandua.android.platform.ExoAudioController
 import app.qurandua.android.platform.RecitationStore
 import app.qurandua.android.platform.PrayerAlarms
+import app.qurandua.android.platform.PlayBillingSupport
 import app.qurandua.android.platform.AndroidDailyController
 import app.qurandua.android.platform.DailyAlarms
 import app.qurandua.android.platform.AndroidJournalController
@@ -29,12 +30,16 @@ class QuranDuaApp : Application() {
     lateinit var deps: AppDeps
         private set
 
+    lateinit var billing: PlayBillingSupport
+        private set
+
     private lateinit var audio: ExoAudioController
 
     override fun onCreate() {
         super.onCreate()
         val db = buildAppDatabase(androidDatabaseBuilder(this))
         audio = ExoAudioController(this)
+        billing = PlayBillingSupport(this)
         PrayerAlarms.createChannel(this)
         Adhan.createChannel(this)
         PrayerAlarms.schedule(this)
@@ -57,6 +62,7 @@ class QuranDuaApp : Application() {
             readQuranAsset = { withContext(Dispatchers.IO) { readAsset("content/quran.json") } },
             lessons = app.qurandua.shared.learn.LessonParser.parse(readAsset("content/lessons.json")),
             daily = AndroidDailyController(this),
+            support = billing,
             journal = AndroidJournalController(this),
             wall = AndroidWallController(this),
         )
