@@ -19,6 +19,7 @@ import app.qurandua.android.ui.AppRoot
 import app.qurandua.android.ui.AppViewModel
 import app.qurandua.shared.data.supportedUiLanguage
 import kotlinx.coroutines.launch
+import java.lang.ref.WeakReference
 import java.util.Locale
 
 class MainActivity : ComponentActivity() {
@@ -72,12 +73,15 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
+        (application as QuranDuaApp).billing.activity = WeakReference(this)
         // Prayer times follow the phone: a trip from Almaty to Bishkek moves them on the next open.
         val deps = (application as QuranDuaApp).deps
         lifecycleScope.launch { deps.prayer.refreshAutoLocation() }
     }
 
     override fun onDestroy() {
+        val billing = (application as QuranDuaApp).billing
+        if (billing.activity?.get() === this) billing.activity = null
         // The launcher belongs to this activity; drop it so the app-wide deps don't leak it.
         val deps = (application as QuranDuaApp).deps
         if (isFinishing) deps.permissions.launcher = null

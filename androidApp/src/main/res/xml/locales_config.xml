@@ -10,4 +10,9 @@
     <locale android:name="tr" />
     <locale android:name="id" />
     <locale android:name="ur" />
+    <locale android:name="az" />
+    <locale android:name="tg" />
+    <locale android:name="tt" />
+    <locale android:name="fr" />
+    <locale android:name="de" />
 </locale-config>

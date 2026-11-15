@@ -1,5 +1,7 @@
-# Builds a debug APK on every push and pull request and attaches it to the run.
-# Download it from the run's "Artifacts" section on GitHub.
+# Every push and pull request: shared tests, the debug APK, the release build (minified, as Play
+# gets it) and a launch test of that release build on an emulator.
+# On main the debug APK goes to the "latest" release; the signed AAB for Google Play is attached to
+# the run once the RELEASE_* secrets exist (docs/google-play.md, step 2).
 name: Build APK
 
 on:
@@ -14,6 +16,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      VERSION_CODE: ${{ github.run_number }}
     steps:
       - uses: actions/checkout@v5
 
@@ -25,16 +29,47 @@ jobs:
       # GitHub's Ubuntu runners ship the Android SDK (ANDROID_HOME); Gradle fetches missing platforms itself.
       - uses: gradle/actions/setup-gradle@v4
 
+      - name: Upload key from secrets
+        env:
+          KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "RELEASE_KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+            echo "Release build will be signed with the upload key."
+          else
+            echo "::warning::No RELEASE_KEYSTORE_BASE64 secret: the release build is signed with the debug key and cannot go to Google Play."
+          fi
+
       - name: Unit tests (shared module)
         run: ./gradlew :shared:testDebugUnitTest
 
-      - name: Debug APK
-        run: ./gradlew :androidApp:assembleDebug
+      - name: Debug APK, release APK and release bundle
+        env:
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          # The shared repentance wall's Firebase project; without these secrets the wall says it opens soon.
+          WALL_PROJECT_ID: ${{ secrets.WALL_PROJECT_ID }}
+          WALL_API_KEY: ${{ secrets.WALL_API_KEY }}
+        run: ./gradlew :androidApp:assembleDebug :androidApp:assembleRelease :androidApp:bundleRelease
 
       - uses: actions/upload-artifact@v4
         with:
           name: quran-dua-debug-apk
           path: androidApp/build/outputs/apk/debug/*.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quran-dua-release-apk
+          path: androidApp/build/outputs/apk/release/*.apk
+
+      # The file to upload to Google Play Console (only meaningful when signed with the upload key).
+      - uses: actions/upload-artifact@v4
+        if: env.RELEASE_KEYSTORE_FILE != ''
+        with:
+          name: quran-dua-play-bundle
+          path: androidApp/build/outputs/bundle/release/*.aab
 
       # A direct download link for phones: the "latest" release always holds the newest APK from main.
       - name: Publish to the "latest" release
@@ -46,3 +81,53 @@ jobs:
           prerelease: true
           make_latest: true
           files: androidApp/build/outputs/apk/debug/*.apk
+
+      # A phone link for a branch that is not merged yet: run the workflow by hand on that branch and
+      # its debug APK goes to the "test" pre-release (the "latest" release keeps main's build).
+      - name: Publish to the "test" release
+        if: github.event_name == 'workflow_dispatch' && github.ref_name != github.event.repository.default_branch
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: test
+          name: Тестовая сборка / Test build
+          body: Сборка ветки ${{ github.ref_name }} для проверки до слияния. Не для обычных пользователей.
+          prerelease: true
+          make_latest: false
+          files: androidApp/build/outputs/apk/debug/*.apk
+
+  # R8 can strip classes that only reflection reaches; this catches a release build that crashes on start.
+  launch-test:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: quran-dua-release-apk
+          path: apk
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Launch the release build and walk the main screens
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          script: |
+            adb install -r apk/*.apk
+            adb logcat -c
+            adb shell am start -W -n app.qurandua/app.qurandua.android.MainActivity
+            sleep 25
+            adb shell input keyevent KEYCODE_BACK || true
+            adb shell am start -W -n app.qurandua/app.qurandua.android.MainActivity
+            sleep 10
+            adb logcat -d > logcat.txt
+            if grep -E "FATAL EXCEPTION|AndroidRuntime: Process: app.qurandua" logcat.txt; then grep -A40 "FATAL EXCEPTION" logcat.txt; exit 1; fi
+            adb shell pidof app.qurandua || { echo "The app is not running"; tail -200 logcat.txt; exit 1; }
+            echo "Release build started and stayed up."

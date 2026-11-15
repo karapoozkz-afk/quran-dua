@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ cloud backups and device-to-device transfer. The repentance journal and its PIN stay on this phone only. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="journal/" />
+        <exclude domain="sharedpref" path="journal_lock.xml" />
+    <exclude domain="sharedpref" path="wall.xml" />
+        <exclude domain="sharedpref" path="wall.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="journal/" />
+        <exclude domain="sharedpref" path="journal_lock.xml" />
+    <exclude domain="sharedpref" path="wall.xml" />
+        <exclude domain="sharedpref" path="wall.xml" />
+    </device-transfer>
+</data-extraction-rules>
