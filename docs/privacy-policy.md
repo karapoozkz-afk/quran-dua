@@ -14,7 +14,7 @@
 
 Если политика изменится, новая версия будет опубликована по этому же адресу до выхода обновления.
 
-Связь с разработчиком: ВСТАВЬТЕ_EMAIL@example.com
+Разработчик: ИП Сергазиев. Связь: companybope@gmail.com
 
 ---
 
@@ -32,4 +32,4 @@ The app "Bible: What to Read Today" (package `app.bibliya`) does not collect, st
 
 Uninstalling the app removes all its data from the device.
 
-Contact: ВСТАВЬТЕ_EMAIL@example.com
+Developer: IP Sergaziev. Contact: companybope@gmail.com

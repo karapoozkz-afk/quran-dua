@@ -9,7 +9,7 @@
 | Что | Где | Пример |
 |---|---|---|
 | Email для связи | `SUPPORT_EMAIL` | `bible.app.kz@gmail.com` |
-| Тот же email в политике | `docs/privacy-policy.md`, две строки `ВСТАВЬТЕ_EMAIL@example.com` | |
+| Тот же email в политике | `docs/privacy-policy.md` | вставлен |
 
 Пока email не вставлен, пункт «Написать разработчику» просто скрыт, приложение работает.
 

@@ -6,7 +6,7 @@ package app.bibliya.android
  */
 object AppConfig {
     /** Shown in "Contact the developer" and must equal the email in the Play Console listing. */
-    const val SUPPORT_EMAIL = "ВСТАВЬТЕ_EMAIL@example.com"
+    const val SUPPORT_EMAIL = "companybope@gmail.com"
 
     /** Public privacy policy page; the same address goes into Play Console → App content → Privacy policy. */
     const val PRIVACY_POLICY_URL = "https://github.com/karapoozkz-afk/quran-dua/blob/bible/docs/privacy-policy.md"
