@@ -2,8 +2,8 @@
 
 Дата вступления в силу: 11 ноября 2026 г. · Effective date: 11 November 2026
 
-Разработчик: ИП [ФИО / название ИП], Казахстан. Контакт: [email]
-Developer: sole proprietor [name], Kazakhstan. Contact: [email]
+Разработчик: ИП Сергазиев Э., Казахстан. Контакт: companybope@gmail.com
+Developer: sole proprietor Sergaziev E. (ИП Сергазиев Э.), Kazakhstan. Contact: companybope@gmail.com
 
 ## Коротко
 
