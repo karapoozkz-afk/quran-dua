@@ -37,6 +37,7 @@ import app.qurandua.android.ui.LocalDeps
 import app.qurandua.android.ui.LocalSettings
 import app.qurandua.android.ui.LocalStrings
 import app.qurandua.android.ui.ayahAudioUrl
+import app.qurandua.android.ui.duaAudioUrl
 import app.qurandua.shared.model.AyahKey
 import app.qurandua.shared.model.DuaItem
 import app.qurandua.shared.model.ItemKind
@@ -116,9 +117,12 @@ fun DuaCard(
                 )
             }
 
-            // Ayahs play the reciter's recording; other duas fall back to the phone's Arabic voice.
+            // Ayahs play the reciter's recording, Hisn al-Muslim duas their human recording;
+            // only duas with neither fall back to the phone's Arabic voice.
             val audioKeys = item.quranAyahs.ifEmpty { listOfNotNull(item.quranRef) }
-            val spoken = item.arabic?.takeIf { it.isNotBlank() && audioKeys.isEmpty() }
+            val recordings = audioKeys.map { ayahAudioUrl(it.surah, it.ayah) }
+                .ifEmpty { listOfNotNull(item.audio?.let(::duaAudioUrl)) }
+            val spoken = item.arabic?.takeIf { it.isNotBlank() && recordings.isEmpty() }
             if (spoken != null && isPlaying) {
                 if (arabicVoice == false) {
                     Text(strings.noArabicVoice, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
@@ -129,11 +133,11 @@ fun DuaCard(
             }
 
             FlowRow(horizontalArrangement = Arrangement.spacedBy(4.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                if (audioKeys.isNotEmpty() || spoken != null) {
+                if (recordings.isNotEmpty() || spoken != null) {
                     TextButton(onClick = {
                         when {
                             isPlaying -> deps.audio.stop()
-                            audioKeys.isNotEmpty() -> deps.audio.play(item.id, audioKeys.map { ayahAudioUrl(it.surah, it.ayah) })
+                            recordings.isNotEmpty() -> deps.audio.play(item.id, recordings)
                             spoken != null -> deps.audio.speak(item.id, spoken)
                         }
                     }) {

@@ -85,7 +85,7 @@ val TrStrings = EnStrings.copy(
     about = "Hakkında",
     aboutBody = "Her içeriğin kaynağı ve sıhhat derecesi belirtilmiştir; âlimler arasındaki görüş ayrılıkları işaretlenmiştir. Uygulama fetva vermez: kişisel sorularınız için bilgili bir imama danışın.",
     sourcesTitle = "Metin kaynakları",
-    sourcesBody = "Kur'an'ın Arapça metni: The Noble Qur'an Encyclopedia (quranenc.com). Mealler: Shaban Britch (Türkçe, quranenc.com), Saheeh International (İngilizce), Elmir Kuliev (Rusça); okunuş: Tanzil.net. Veri seti: quran-json (CC BY-SA 4.0). Ses: EveryAyah.com, kâri Mişari Raşid el-Afasi. Türkçe metinler uzman incelemesini beklemektedir.",
+    sourcesBody = "Kur'an'ın Arapça metni: The Noble Qur'an Encyclopedia (quranenc.com). Mealler: Shaban Britch (Türkçe, quranenc.com), Saheeh International (İngilizce), Elmir Kuliev (Rusça); okunuş: Tanzil.net. Veri seti: quran-json (CC BY-SA 4.0). Ses: EveryAyah.com, kâri Mişari Raşid el-Afasi. Türkçe metinler uzman incelemesini beklemektedir. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Geri",
     gradeLabel = { g ->
         when (g) {

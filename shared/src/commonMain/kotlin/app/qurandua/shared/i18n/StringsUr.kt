@@ -83,7 +83,7 @@ val UrStrings = EnStrings.copy(
     about = "ایپ کے بارے میں",
     aboutBody = "ہر مواد کا حوالہ اور صحت کا درجہ دکھایا گیا ہے، اور علماء کے اختلاف کی نشاندہی کی گئی ہے۔ یہ ایپ فتویٰ نہیں دیتی: ذاتی مسائل کے لیے کسی مستند عالم یا امام سے پوچھیں۔",
     sourcesTitle = "متن کے ماخذ",
-    sourcesBody = "قرآن کا عربی متن: The Noble Qur'an Encyclopedia (quranenc.com)۔ ترجمے: مولانا محمد جوناگڑھی (اردو)، Saheeh International (انگریزی)، المیر کولییف (روسی)؛ رومن تلفظ: Tanzil.net۔ ڈیٹاسیٹ: quran-json (CC BY-SA 4.0)۔ آڈیو: EveryAyah.com، قاری مشاری راشد العفاسی۔ اردو متن ماہر کی نظرثانی کے منتظر ہیں۔",
+    sourcesBody = "قرآن کا عربی متن: The Noble Qur'an Encyclopedia (quranenc.com)۔ ترجمے: مولانا محمد جوناگڑھی (اردو)، Saheeh International (انگریزی)، المیر کولییف (روسی)؛ رومن تلفظ: Tanzil.net۔ ڈیٹاسیٹ: quran-json (CC BY-SA 4.0)۔ آڈیو: EveryAyah.com، قاری مشاری راشد العفاسی۔ اردو متن ماہر کی نظرثانی کے منتظر ہیں۔ Hisn al-Muslim audio: HisnMuslim.com.",
     back = "واپس",
     gradeLabel = { g ->
         when (g) {

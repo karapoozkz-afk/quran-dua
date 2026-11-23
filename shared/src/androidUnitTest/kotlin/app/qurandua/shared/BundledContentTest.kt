@@ -55,6 +55,16 @@ class BundledContentTest {
     }
 
     @Test
+    fun recordingsReachDuasWithoutAPhoneVoice() {
+        val recorded = repo.duas.filter { it.audio != null }
+        // Most hadith duas play a human recording, so they need no Arabic voice on the phone.
+        assertTrue(recorded.size >= 40, "only ${recorded.size} duas have a recording")
+        for (d in recorded) {
+            assertTrue(d.audio!! > 0 && !d.isQuranic, d.id)
+        }
+    }
+
+    @Test
     fun understandsEverydayQueries() {
         // query -> situations accepted as the top hit
         val expected = mapOf(

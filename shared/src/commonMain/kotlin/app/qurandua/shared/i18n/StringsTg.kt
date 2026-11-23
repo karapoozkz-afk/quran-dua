@@ -85,7 +85,7 @@ val TgStrings = EnStrings.copy(
     about = "Дар бораи барнома",
     aboutBody = "Барои ҳар мавод манбаъ ва дараҷаи саҳеҳияш нишон дода шудааст; ихтилофи уламо қайд гардидааст. Барнома фатво намедиҳад: дар масъалаҳои шахсӣ ба имоми огоҳ муроҷиат кунед.",
     sourcesTitle = "Манбаъҳои матн",
-    sourcesBody = "Матни арабии Қуръон: The Noble Qur'an Encyclopedia (quranenc.com). Тарҷумаи маъноҳо: Маркази тарҷумаи «Рувод» ва IslamHouse.com (тоҷикӣ, quranenc.com), Saheeh International (англисӣ), Элмир Кулиев (русӣ); талаффуз: Tanzil.net. Маҷмӯаи додаҳо: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, қорӣ Мишорӣ Рошид ал-Афосӣ. Матнҳои тоҷикӣ мунтазири баррасии мутахассис мебошанд.",
+    sourcesBody = "Матни арабии Қуръон: The Noble Qur'an Encyclopedia (quranenc.com). Тарҷумаи маъноҳо: Маркази тарҷумаи «Рувод» ва IslamHouse.com (тоҷикӣ, quranenc.com), Saheeh International (англисӣ), Элмир Кулиев (русӣ); талаффуз: Tanzil.net. Маҷмӯаи додаҳо: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, қорӣ Мишорӣ Рошид ал-Афосӣ. Матнҳои тоҷикӣ мунтазири баррасии мутахассис мебошанд. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Бозгашт",
     gradeLabel = { g ->
         when (g) {

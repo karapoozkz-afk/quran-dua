@@ -253,7 +253,7 @@ internal val RuBase = Strings(
     about = "О приложении",
     aboutBody = "У каждого материала указан источник и степень достоверности. Если учёные расходятся во мнениях, это отмечено. Приложение не выносит фетв: по личным вопросам обращайтесь к знающему имаму.",
     sourcesTitle = "Источники текста",
-    sourcesBody = "Арабский текст Корана: The Noble Qur'an Encyclopedia (quranenc.com). Перевод смыслов: Эльмир Кулиев; английский: Saheeh International; транслитерация: Tanzil.net. Набор данных quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, чтец Мишари Рашид аль-Афаси.",
+    sourcesBody = "Арабский текст Корана: The Noble Qur'an Encyclopedia (quranenc.com). Перевод смыслов: Эльмир Кулиев; английский: Saheeh International; транслитерация: Tanzil.net. Набор данных quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, чтец Мишари Рашид аль-Афаси. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Назад",
     gradeLabel = { g ->
         when (g) {
@@ -349,7 +349,7 @@ val EnStrings = Strings(
     about = "About",
     aboutBody = "Every item shows its source and grade of authenticity, and scholarly disagreement is marked. The app does not issue fatwas: for personal questions, ask a knowledgeable imam.",
     sourcesTitle = "Text sources",
-    sourcesBody = "Arabic Quran text: The Noble Qur'an Encyclopedia (quranenc.com). Translations: Saheeh International (English), Elmir Kuliev (Russian); transliteration: Tanzil.net. Dataset: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, reciter Mishary Rashid Alafasy.",
+    sourcesBody = "Arabic Quran text: The Noble Qur'an Encyclopedia (quranenc.com). Translations: Saheeh International (English), Elmir Kuliev (Russian); transliteration: Tanzil.net. Dataset: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, reciter Mishary Rashid Alafasy. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Back",
     gradeLabel = { g ->
         when (g) {

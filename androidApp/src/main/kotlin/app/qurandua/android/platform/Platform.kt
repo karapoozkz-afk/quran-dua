@@ -142,9 +142,15 @@ class ExoAudioController(context: Context) : AudioController {
     }
 
     override fun openVoiceSettings() {
-        val intent = Intent("com.android.settings.TTS_SETTINGS").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-        runCatching { appContext.startActivity(intent) }
-            .onFailure { appContext.startActivity(Intent(android.provider.Settings.ACTION_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+        // Straight to the engine's voice download where it offers one, else the TTS settings, else Settings.
+        val intents = listOf(
+            Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA),
+            Intent("com.android.settings.TTS_SETTINGS"),
+            Intent(android.provider.Settings.ACTION_SETTINGS),
+        )
+        for (intent in intents) {
+            if (runCatching { appContext.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }.isSuccess) return
+        }
     }
 
     override fun stop() {

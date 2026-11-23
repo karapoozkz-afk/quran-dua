@@ -74,6 +74,8 @@ data class DuaItem(
     val quranAyahs: List<AyahKey> = emptyList(),
     /** A surah this info card points to (e.g. al-Mulk). */
     val quranLink: AyahKey? = null,
+    /** Hisn al-Muslim item number of a human recording of this dua (hisnmuslim.com), when one matches the text. */
+    val audio: Int? = null,
 ) {
     val isQuranic: Boolean get() = quranRef != null
 }

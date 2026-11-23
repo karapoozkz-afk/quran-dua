@@ -156,7 +156,7 @@ val KkStrings = RuStrings.copy(
     about = "Қосымша туралы",
     aboutBody = "Әр материалдың дереккөзі мен сенімділік дәрежесі көрсетілген, ғалымдар арасындағы келіспеушілік белгіленген. Қосымша пәтуа бермейді: жеке сұрақтарыңызды білікті имамға қойыңыз.",
     sourcesTitle = "Мәтін дереккөздері",
-    sourcesBody = "Құранның араб мәтіні: The Noble Qur'an Encyclopedia (quranenc.com). Мағына аудармасы: Халифа Алтай (қаз.), Эльмир Кулиев (орыс.), Saheeh International (ағыл.); транслитерация: Tanzil.net. Деректер жинағы: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, қари Мишари Рашид әл-Афаси. Қазақша мәтіндер маман тексеруін күтуде.",
+    sourcesBody = "Құранның араб мәтіні: The Noble Qur'an Encyclopedia (quranenc.com). Мағына аудармасы: Халифа Алтай (қаз.), Эльмир Кулиев (орыс.), Saheeh International (ағыл.); транслитерация: Tanzil.net. Деректер жинағы: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, қари Мишари Рашид әл-Афаси. Қазақша мәтіндер маман тексеруін күтуде. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Артқа",
     gradeLabel = { g ->
         when (g) {

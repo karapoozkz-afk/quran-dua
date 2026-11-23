@@ -85,7 +85,7 @@ val FrStrings = EnStrings.copy(
     about = "À propos",
     aboutBody = "Chaque contenu indique sa source et son degré d'authenticité ; les divergences entre savants sont signalées. L'application ne délivre pas de fatwas : pour vos questions personnelles, adressez-vous à un imam compétent.",
     sourcesTitle = "Sources des textes",
-    sourcesBody = "Texte arabe du Coran : The Noble Qur'an Encyclopedia (quranenc.com). Traductions : Muhammad Hamidullah (français), Saheeh International (anglais), Elmir Kouliev (russe) ; translittération : Tanzil.net. Jeu de données : quran-json (CC BY-SA 4.0). Audio : EveryAyah.com, récitateur Mishary Rashid Alafasy. Les textes français sont en attente de relecture par un spécialiste.",
+    sourcesBody = "Texte arabe du Coran : The Noble Qur'an Encyclopedia (quranenc.com). Traductions : Muhammad Hamidullah (français), Saheeh International (anglais), Elmir Kouliev (russe) ; translittération : Tanzil.net. Jeu de données : quran-json (CC BY-SA 4.0). Audio : EveryAyah.com, récitateur Mishary Rashid Alafasy. Les textes français sont en attente de relecture par un spécialiste. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Retour",
     gradeLabel = { g ->
         when (g) {

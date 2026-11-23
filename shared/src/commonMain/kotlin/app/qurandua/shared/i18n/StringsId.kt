@@ -83,7 +83,7 @@ val IdStrings = EnStrings.copy(
     about = "Tentang",
     aboutBody = "Setiap materi mencantumkan sumber dan derajat keabsahannya, dan perbedaan pendapat ulama ditandai. Aplikasi ini tidak mengeluarkan fatwa: untuk pertanyaan pribadi, tanyakan kepada ustaz atau imam yang berilmu.",
     sourcesTitle = "Sumber teks",
-    sourcesBody = "Teks Arab Al-Qur'an: The Noble Qur'an Encyclopedia (quranenc.com). Terjemahan: Kementerian Agama RI (Indonesia, via quranenc.com), Saheeh International (Inggris), Elmir Kuliev (Rusia); transliterasi: Tanzil.net. Dataset: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, qari Mishary Rashid Alafasy. Teks berbahasa Indonesia masih menunggu pemeriksaan ahli.",
+    sourcesBody = "Teks Arab Al-Qur'an: The Noble Qur'an Encyclopedia (quranenc.com). Terjemahan: Kementerian Agama RI (Indonesia, via quranenc.com), Saheeh International (Inggris), Elmir Kuliev (Rusia); transliterasi: Tanzil.net. Dataset: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, qari Mishary Rashid Alafasy. Teks berbahasa Indonesia masih menunggu pemeriksaan ahli. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Kembali",
     gradeLabel = { g ->
         when (g) {
