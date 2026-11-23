@@ -85,7 +85,7 @@ val TtStrings = EnStrings.copy(
     about = "Кушымта турында",
     aboutBody = "Һәр материалның чыганагы һәм ышанычлылык дәрәҗәсе күрсәтелгән. Галимнәр арасында фикер каршылыгы булса, бу билгеләнгән. Кушымта фәтва чыгармый: шәхси сораулар белән белемле имамга мөрәҗәгать итегез.",
     sourcesTitle = "Текст чыганаклары",
-    sourcesBody = "Коръәннең гарәп тексты: The Noble Qur'an Encyclopedia (quranenc.com). Мәгънәләр тәрҗемәсе: Якуб ибн Нугман (татарча), Эльмир Кулиев (русча), Saheeh International (инглизчә); транслитерация: Tanzil.net. Мәгълүматлар җыелмасы: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, кари Мишари Рашид әл-Гафаси. Татарча текстлар белгеч тикшерүен көтә.",
+    sourcesBody = "Коръәннең гарәп тексты: The Noble Qur'an Encyclopedia (quranenc.com). Мәгънәләр тәрҗемәсе: Якуб ибн Нугман (татарча), Эльмир Кулиев (русча), Saheeh International (инглизчә); транслитерация: Tanzil.net. Мәгълүматлар җыелмасы: quran-json (CC BY-SA 4.0). Аудио: EveryAyah.com, кари Мишари Рашид әл-Гафаси. Татарча текстлар белгеч тикшерүен көтә. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Артка",
     gradeLabel = { g ->
         when (g) {

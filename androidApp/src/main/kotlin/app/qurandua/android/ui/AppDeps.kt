@@ -176,3 +176,6 @@ fun ayahAudioUrl(surah: Int, ayah: Int): String {
     fun pad(n: Int) = n.toString().padStart(3, '0')
     return "https://everyayah.com/data/Alafasy_128kbps/${pad(surah)}${pad(ayah)}.mp3"
 }
+
+/** A human recording of a Hisn al-Muslim dua; needs no Arabic voice on the phone. */
+fun duaAudioUrl(hisnNumber: Int): String = "https://www.hisnmuslim.com/audio/ar/$hisnNumber.mp3"

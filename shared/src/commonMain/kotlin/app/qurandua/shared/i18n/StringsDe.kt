@@ -85,7 +85,7 @@ val DeStrings = EnStrings.copy(
     about = "Über die App",
     aboutBody = "Bei jedem Inhalt sind Quelle und Grad der Authentizität angegeben; Meinungsverschiedenheiten der Gelehrten sind gekennzeichnet. Die App erteilt keine Fatwas: Wenden Sie sich mit persönlichen Fragen an einen kundigen Imam.",
     sourcesTitle = "Textquellen",
-    sourcesBody = "Arabischer Korantext: The Noble Qur'an Encyclopedia (quranenc.com). Übersetzungen der Bedeutungen: Frank Bubenheim und Nadeem Elyas (Deutsch, über fawazahmed0/quran-api), Saheeh International (Englisch), Elmir Kuliev (Russisch); Umschrift: Tanzil.net. Datensatz: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, Rezitator Mishary Rashid Alafasy. Die deutschen Texte warten noch auf die Prüfung durch einen Fachkundigen.",
+    sourcesBody = "Arabischer Korantext: The Noble Qur'an Encyclopedia (quranenc.com). Übersetzungen der Bedeutungen: Frank Bubenheim und Nadeem Elyas (Deutsch, über fawazahmed0/quran-api), Saheeh International (Englisch), Elmir Kuliev (Russisch); Umschrift: Tanzil.net. Datensatz: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, Rezitator Mishary Rashid Alafasy. Die deutschen Texte warten noch auf die Prüfung durch einen Fachkundigen. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Zurück",
     gradeLabel = { g ->
         when (g) {

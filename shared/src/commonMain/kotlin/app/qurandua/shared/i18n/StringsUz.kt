@@ -85,7 +85,7 @@ val UzStrings = EnStrings.copy(
     about = "Ilova haqida",
     aboutBody = "Har bir materialning manbasi va ishonchlilik darajasi ko‘rsatilgan, olimlar ixtilofi belgilangan. Ilova fatvo bermaydi: shaxsiy savollaringizni bilimli imomga bering.",
     sourcesTitle = "Matn manbalari",
-    sourcesBody = "Qur’onning arabcha matni: The Noble Qur'an Encyclopedia (quranenc.com). Ma’nolar tarjimasi: Alouddin Mansur (o‘zbekcha, kirill yozuvida, QuranEnc.com), Elmir Kuliyev (ruscha), Saheeh International (inglizcha); transliteratsiya: Tanzil.net. Ma’lumotlar to‘plami: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, qori Mishari Roshid al-Afasiy. O‘zbekcha matnlar mutaxassis tekshiruvini kutmoqda.",
+    sourcesBody = "Qur’onning arabcha matni: The Noble Qur'an Encyclopedia (quranenc.com). Ma’nolar tarjimasi: Alouddin Mansur (o‘zbekcha, kirill yozuvida, QuranEnc.com), Elmir Kuliyev (ruscha), Saheeh International (inglizcha); transliteratsiya: Tanzil.net. Ma’lumotlar to‘plami: quran-json (CC BY-SA 4.0). Audio: EveryAyah.com, qori Mishari Roshid al-Afasiy. O‘zbekcha matnlar mutaxassis tekshiruvini kutmoqda. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Orqaga",
     gradeLabel = { g ->
         when (g) {

@@ -329,7 +329,11 @@ def main():
             check_localized(i, "translit", d.get("translit"), BASE_LANGS)
         if "translit" in d:
             item["translit"] = d["translit"]
-        for opt in ("note", "repeat", "quranLink"):
+        if "audio" in d:
+            # Hisn al-Muslim item number on hisnmuslim.com: a human recording of this exact dua.
+            if "quran" in d or not isinstance(d["audio"], int) or d["audio"] <= 0:
+                err(f"{i}: audio must be a positive Hisn al-Muslim number, and only on non-Quranic duas")
+        for opt in ("note", "repeat", "quranLink", "audio"):
             if opt in d:
                 item[opt] = d[opt]
         out_duas.append(item)

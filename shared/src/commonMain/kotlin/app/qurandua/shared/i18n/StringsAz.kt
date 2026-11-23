@@ -85,7 +85,7 @@ val AzStrings = EnStrings.copy(
     about = "Tətbiq haqqında",
     aboutBody = "Hər materialın mənbəyi və etibarlılıq dərəcəsi göstərilib; alimlər arasındakı ixtilaflar qeyd olunub. Tətbiq fətva vermir: şəxsi suallarınızla bilikli bir imama müraciət edin.",
     sourcesTitle = "Mətn mənbələri",
-    sourcesBody = "Quranın ərəb mətni: The Noble Qur'an Encyclopedia (quranenc.com). Tərcümələr: Alıxan Musayev (Azərbaycan dili, quranenc.com), Saheeh International (ingilis dili), Elmir Kuliyev (rus dili); oxunuş: Tanzil.net. Verilənlər toplusu: quran-json (CC BY-SA 4.0). Səs: EveryAyah.com, qari Mişari Rəşid əl-Əfasi. Azərbaycan dilindəki mətnlər mütəxəssis yoxlamasını gözləyir.",
+    sourcesBody = "Quranın ərəb mətni: The Noble Qur'an Encyclopedia (quranenc.com). Tərcümələr: Alıxan Musayev (Azərbaycan dili, quranenc.com), Saheeh International (ingilis dili), Elmir Kuliyev (rus dili); oxunuş: Tanzil.net. Verilənlər toplusu: quran-json (CC BY-SA 4.0). Səs: EveryAyah.com, qari Mişari Rəşid əl-Əfasi. Azərbaycan dilindəki mətnlər mütəxəssis yoxlamasını gözləyir. Hisn al-Muslim audio: HisnMuslim.com.",
     back = "Geri",
     gradeLabel = { g ->
         when (g) {
